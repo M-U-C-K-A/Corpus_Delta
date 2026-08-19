@@ -1,0 +1,69 @@
+---
+title: "Cryosphère : glaciers et pergélisol"
+description: "Ce que la fonte des glaces révèle du réchauffement, pourquoi elle l'amplifie, et ce que le dégel du pergélisol pourrait libérer."
+themes: ["cryosphere", "carbone", "observation"]
+studies:
+  - "hugonnet-2021-accelerated-global-glacier-mass-loss"
+  - "schuur-2015-climate-change-permafrost-carbon-feedback"
+  - "calvin-2023-ipcc-2023-climate-change-2023"
+glossary: ["albedo", "permafrost", "point-de-bascule", "anomalie-de-temperature"]
+sources:
+  - label: "IPCC Sixth Assessment Report, Working Group I"
+    url: "https://www.ipcc.ch/report/ar6/wg1/"
+    publisher: "GIEC"
+    year: 2021
+  - label: "GISS Surface Temperature Analysis (GISTEMP v4)"
+    url: "https://data.giss.nasa.gov/gistemp/"
+    publisher: "NASA Goddard Institute for Space Studies"
+updatedAt: "2026-08-19"
+---
+
+La cryosphère — glaciers, calottes, banquise, neige, sols gelés — est la composante du
+système climatique qui répond le plus visiblement au réchauffement. C'est aussi celle qui
+l'amplifie le plus directement.
+
+## Un indicateur difficile à contester
+
+Contrairement à une température moyenne, qui résulte d'un traitement statistique, le
+recul d'un glacier est un fait géométrique observable. Une analyse fondée sur l'imagerie
+satellitaire a permis d'établir un bilan de masse pour la quasi-totalité des glaciers du
+monde, et de montrer que la perte s'est **accélérée** au cours des deux premières
+décennies du XXIᵉ siècle <Cite id="hugonnet-2021-accelerated-global-glacier-mass-loss" />.
+
+Cette accélération suit de près l'évolution de l'<Term id="anomalie-de-temperature">anomalie
+de température</Term> globale.
+
+<Chart dataset="temperature-anomaly-gistemp" kind="area" />
+
+<DataTable dataset="temperature-anomaly-gistemp" xLabel="Année" />
+
+## L'amplification par l'albédo
+
+La glace et la neige fraîche renvoient une grande part du rayonnement solaire ; l'océan
+et la roche nue l'absorbent. Quand la glace disparaît, la surface découverte capte
+davantage d'énergie, ce qui accentue le réchauffement local et accélère la fonte.
+
+Cette rétroaction de l'<Term id="albedo">albédo</Term> est l'une des raisons pour
+lesquelles l'Arctique se réchauffe nettement plus vite que la moyenne du globe. Elle
+illustre un point général : le système climatique ne réagit pas seulement à la
+perturbation initiale, mais aussi à ses propres réponses.
+
+## Le pergélisol, un réservoir en attente
+
+Le <Term id="permafrost">pergélisol</Term> conserve, gelée, une quantité considérable de
+matière organique accumulée sur des millénaires. Le froid y a interrompu la décomposition
+microbienne ; le dégel la relance, libérant du dioxyde de carbone et du méthane
+<Cite id="schuur-2015-climate-change-permafrost-carbon-feedback" />.
+
+<Callout variant="uncertainty" title="Une rétroaction difficile à quantifier">
+L'ampleur et le calendrier de cette libération restent mal contraints. Le dégel n'est pas
+uniforme, une partie du carbone peut être reprise par la végétation qui colonise les sols
+dégelés, et la répartition entre CO₂ et méthane — dont les effets diffèrent fortement —
+dépend de conditions locales d'humidité. C'est ce qui explique que les projections
+intègrent encore imparfaitement ce terme.
+</Callout>
+
+Cette incertitude est précisément ce qui vaut au pergélisol d'être cité parmi les
+<Term id="point-de-bascule">points de bascule</Term> possibles : non parce qu'un
+basculement serait établi, mais parce qu'on ne peut pas l'exclure
+<Cite id="calvin-2023-ipcc-2023-climate-change-2023" />.

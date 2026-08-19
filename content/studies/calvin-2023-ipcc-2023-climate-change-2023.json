@@ -1,0 +1,122 @@
+{
+	"id": "calvin-2023-ipcc-2023-climate-change-2023",
+	"doi": "10.59327/ipcc/ar6-9789291691647",
+	"title": "IPCC, 2023: Climate Change 2023: Synthesis Report. Contribution of Working Groups I, II and III to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change [Core Writing Team, H. Lee and J. Romero (eds.)]. IPCC, Geneva, Switzerland.",
+	"shortTitle": "GIEC, sixième rapport d'évaluation : rapport de synthèse (AR6 SYR)",
+	"authors": [
+		{
+			"name": "Katherine Calvin",
+			"orcid": "https://orcid.org/0000-0003-2191-4189"
+		},
+		{
+			"name": "Dipak Dasgupta"
+		},
+		{
+			"name": "Gerhard Krinner",
+			"orcid": "https://orcid.org/0000-0002-2959-5920"
+		},
+		{
+			"name": "Aditi Mukherji",
+			"orcid": "https://orcid.org/0000-0002-8061-4349"
+		},
+		{
+			"name": "Peter Thorne",
+			"orcid": "https://orcid.org/0000-0003-0485-9798"
+		},
+		{
+			"name": "Christopher H. Trisos",
+			"orcid": "https://orcid.org/0000-0002-5854-1489"
+		},
+		{
+			"name": "José Romero",
+			"orcid": "https://orcid.org/0000-0003-4538-1321"
+		},
+		{
+			"name": "Paulina Aldunce",
+			"orcid": "https://orcid.org/0000-0002-1159-9333"
+		},
+		{
+			"name": "Ko Barrett"
+		},
+		{
+			"name": "Gabriel Blanco"
+		},
+		{
+			"name": "William W. L. Cheung",
+			"orcid": "https://orcid.org/0000-0001-9998-0384"
+		},
+		{
+			"name": "Sarah Connors",
+			"orcid": "https://orcid.org/0000-0001-7150-5135"
+		},
+		{
+			"name": "Fatima Denton",
+			"orcid": "https://orcid.org/0000-0003-2433-6484"
+		},
+		{
+			"name": "Aïda Diongue‐Niang"
+		},
+		{
+			"name": "David Dodman",
+			"orcid": "https://orcid.org/0000-0002-1304-3283"
+		},
+		{
+			"name": "Matthias Garschagen",
+			"orcid": "https://orcid.org/0000-0001-9492-4463"
+		},
+		{
+			"name": "Oliver Geden",
+			"orcid": "https://orcid.org/0000-0001-9456-4218"
+		},
+		{
+			"name": "Bronwyn Hayward",
+			"orcid": "https://orcid.org/0000-0002-4699-3752"
+		},
+		{
+			"name": "Chris Jones",
+			"orcid": "https://orcid.org/0000-0002-7141-9285"
+		},
+		{
+			"name": "Frank Jotzo",
+			"orcid": "https://orcid.org/0000-0002-2856-847X"
+		}
+	],
+	"authorCount": 85,
+	"venue": null,
+	"publisher": null,
+	"year": 2023,
+	"type": "report",
+	"abstract": "The Synthesis Report (SYR) is a stand-alone synthesis of the most policy-relevant evidence from the scientific, technical, and socio-economic literature assessed in the Sixth Assessment Report (AR6) of the Intergovernmental Panel on Climate Change (IPCC). The SYR distils and integrates the main findings of the three reports of the Working Groups of the IPCC during the AR6, and the three AR6 Special Reports into a concise document. It consists of a Summary for Policymakers and a longer report.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "green",
+		"url": "https://openresearch-repository.anu.edu.au/bitstreams/95eb5ece-a734-44d7-86b3-bec919268af8/download"
+	},
+	"citedByCount": 3488,
+	"themes": [
+		"politiques",
+		"modelisation",
+		"observation"
+	],
+	"sourceTopics": [
+		"Climate Change Policy and Economics"
+	],
+	"url": "https://doi.org/10.59327/ipcc/ar6-9789291691647",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-19"
+	},
+	"addedAt": "2026-08-19",
+	"editorial": {
+		"fr": {
+			"summary": "Le rapport de synthèse du sixième cycle d'évaluation du GIEC, qui rassemble les conclusions des trois groupes de travail.",
+			"relevance": "Point d'entrée le plus complet dans l'état des connaissances. Ce n'est pas une recherche originale mais une évaluation de la littérature existante, validée ligne à ligne par les États membres."
+		}
+	},
+	"glossaryTerms": [
+		"scenario-ssp",
+		"sensibilite-climatique",
+		"forcage-radiatif"
+	]
+}

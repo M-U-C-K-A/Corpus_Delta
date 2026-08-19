@@ -1,71 +1,110 @@
-# Global Climate Institute
+# Climatothèque
 
-![image](https://github.com/user-attachments/assets/f9706314-a801-4558-b59b-74a6c3e5e9b1)
+Annuaire de publications scientifiques sur le climat et les risques naturels, doublé d'un
+glossaire des termes techniques. Le site ne publie pas de recherche : il référence des
+travaux existants et renvoie systématiquement à leur source.
 
-## Description
+> Le nom du site n'est pas définitif. Il vit dans `lib/site-config.ts` : le changer ne
+> touche qu'un fichier.
 
-Bienvenue sur le Global Climate Institute. Ce site open source est dédié à l'exploration approfondie des enjeux liés au changement climatique, aux ressources manquantes, et à d'autres problématiques environnementales critiques. Utilisant Next.js pour offrir une expérience fluide et moderne, ce projet vise à fournir des analyses détaillées, des articles de fond, et des informations pertinentes pour sensibiliser et informer le public.
+## Principe
 
-## Fonctionnalités
+**Aucune métadonnée bibliographique n'est saisie à la main.** On fournit un DOI, un script
+interroge OpenAlex (Crossref en repli) et écrit la fiche. Ce choix rend la fabrication de
+références structurellement impossible et garde le corpus alignable sur sa source.
 
-- **Articles d'Investigation :** Publications régulières sur divers aspects du changement climatique.
-- **Mises à jour en temps réel :** Dernières nouvelles et développements sur le sujet.
-- **Galerie d'Images :** Illustrations et graphiques pour mieux comprendre les enjeux.
-- **Recherche Avancée :** Fonctionnalités de recherche pour accéder facilement aux articles et aux données.
-- **Réactivité Mobile :** Interface optimisée pour tous les appareils.
+Le même principe s'applique aux graphiques : les séries chiffrées sont récupérées depuis
+leur producteur (NOAA, NASA), versionnées avec leur date de relevé, et cette provenance est
+affichée sous chaque graphique.
 
-## Technologies Utilisées
+Ce qui relève du jugement humain — rattachement thématique, choix d'inclusion, notes de
+contexte, définitions du glossaire — est identifié comme tel et documenté sur la page
+[Méthode](/fr/methodologie).
 
-- **Next.js :** Framework React pour le rendu côté serveur et la génération de sites statiques.
-- **React :** Bibliothèque JavaScript pour créer des interfaces utilisateur dynamiques.
-- **Node.js :** Environnement d'exécution JavaScript pour le backend.
-- **Tailwind CSS :** Framework CSS utilitaire pour un design moderne et réactif.
-- **Vercel :** Déploiement et hébergement du site.
-
-## Installation
-
-### Prérequis
-
-- Node.js (version 14.x ou supérieure)
-- npm ou Yarn
-
-### Cloner le Répertoire
+## Démarrer
 
 ```bash
-git clone https://github.com/votre-utilisateur/votre-repository.git
-cd votre-repository
+pnpm install
+pnpm dev
 ```
-Installer les Dépendances
-```bash
-Copier le code
-npm install
-# ou
-yarn install
-```
-Démarrer le Serveur de Développement
-```bash
-Copier le code
-npm run dev
-# ou
-yarn dev
-```
-Le site sera accessible à l'adresse ``http://localhost:3000``.
 
-## Utilisation
-1. Ajouter des Articles : Les articles sont stockés dans le répertoire content/articles. Ajoutez vos fichiers Markdown ici avec la structure appropriée.
-2. Ajouter des Images : Les images doivent être placées dans le répertoire public/images. Assurez-vous d'optimiser les images pour le web.
-3. Mettre à Jour les Pages : Modifiez les composants dans le répertoire components pour personnaliser le design ou ajouter de nouvelles fonctionnalités.
-## Contribuer
-Les contributions sont les bienvenues ! Voici comment vous pouvez aider :
+Le site est servi sur `http://localhost:3000`, redirigé vers `/fr`.
 
-- Forker le Projet : Créez une copie personnelle du projet sur GitHub.
-- Créer une Branche : Développez vos fonctionnalités sur une branche distincte.
-- Soumettre une Pull Request : Proposez vos modifications via une pull request.
-> Assurez-vous de suivre les bonnes pratiques de contribution et de tester vos modifications avant de les soumettre.
+## Commandes
+
+| Commande | Rôle |
+|---|---|
+| `pnpm dev` | Serveur de développement |
+| `pnpm build` | Build de production (lance `validate` au préalable) |
+| `pnpm validate` | Valide schémas et renvois croisés entre contenus |
+| `pnpm study:add <doi> --themes=…` | Ajoute une étude depuis son DOI |
+| `pnpm datasets:fetch [id]` | Régénère les jeux de données des graphiques |
+| `pnpm links:check` | Vérifie que les liens sortants répondent |
+| `pnpm lint` | ESLint |
+
+### Ajouter une étude
+
+```bash
+pnpm study:add 10.5194/essd-15-5301-2023 --themes=carbone,observation
+```
+
+`--themes` est obligatoire : le rattachement thématique est une décision éditoriale que le
+script ne peut pas prendre. Les thèmes disponibles sont listés dans
+`lib/content/taxonomy.ts`. Relancer la commande sur un DOI déjà présent rafraîchit les
+métadonnées **sans écraser** l'apport rédactionnel.
+
+Pour un rapport institutionnel sans DOI exploitable :
+
+```bash
+pnpm study:add --manual --title="…" --url=https://… --year=2023 --publisher="GIEC" --themes=politiques
+```
+
+## Organisation
+
+```
+app/[lang]/          Routes, segments anglais ; les URLs françaises viennent
+                     des réécritures déclarées dans next.config.mjs
+content/studies/     Une étude = un JSON, produit par le script d'ingestion
+content/glossary/fr/ Définitions en MDX, source obligatoire
+content/topics/fr/   Dossiers thématiques en MDX
+data/datasets/       Séries chiffrées des graphiques, avec provenance
+lib/content/         Schémas zod, chargeurs, citations, taxonomie
+components/mdx/      Composants disponibles dans les MDX
+scripts/             Ingestion, validation, contrôle des liens
+archive/             Version 1 du site, conservée hors build
+```
+
+### Écrire un dossier
+
+Les composants suivants sont disponibles dans les fichiers MDX, sans import :
+
+```mdx
+<Chart dataset="co2-mauna-loa" kind="line" />
+<DataTable dataset="co2-mauna-loa" xLabel="Année" />
+<Figure src="/…" alt="…" credit="…" sourceUrl="https://…" />
+<Cite id="friedlingstein-2023-global-carbon-budget-2023" />
+<Term id="canicule">canicules</Term>
+<Callout variant="uncertainty" title="…">…</Callout>
+```
+
+`Cite` et `Term` sont vérifiés au build : un renvoi vers une étude ou un terme inexistant
+fait échouer `pnpm validate`, donc le déploiement.
+
+## Langues
+
+Le français est la langue de rédaction. L'anglais est en place techniquement — routes,
+métadonnées, interface traduite — et les pages anglaises servent l'annuaire, dont les
+métadonnées sont indépendantes de la langue. Tant qu'un contenu rédactionnel n'est pas
+traduit, la page anglaise affiche le français en le signalant explicitement, plutôt que de
+renvoyer une page vide.
 
 ## Licence
-Ce projet est sous la licence MIT. Vous pouvez consulter le fichier LICENSE pour plus de détails.
 
-Merci pour votre intérêt et votre soutien pour la lutte contre le changement climatique !
+MIT, voir [LICENSE](LICENSE).
 
-![image](https://github.com/user-attachments/assets/062618f6-596e-4526-8a96-3370b870bc79)
+Les métadonnées bibliographiques proviennent d'OpenAlex (CC0) et de Crossref. Les résumés
+restent la propriété de leurs éditeurs et sont reproduits à des fins de référencement. Les
+jeux de données conservent la licence de leur producteur, indiquée avec leur source.
+
+Ce site est indépendant : il n'est affilié à aucune institution, revue ou organisation, et
+ne relaie l'identité visuelle d'aucune d'entre elles.

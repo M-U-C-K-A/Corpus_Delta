@@ -1,0 +1,31 @@
+---
+term: "Anomalie de température"
+shortDefinition: "Écart entre une température mesurée et la moyenne d'une période de référence, préféré à la température absolue pour suivre l'évolution du climat."
+themes: ["observation"]
+synonyms: ["Anomalie thermique"]
+related: ["forcage-radiatif", "canicule"]
+sources:
+  - label: "GISS Surface Temperature Analysis (GISTEMP v4)"
+    url: "https://data.giss.nasa.gov/gistemp/"
+    publisher: "NASA Goddard Institute for Space Studies"
+  - label: "Climate indicators — Temperature"
+    url: "https://climate.copernicus.eu/climate-indicators/temperature"
+    publisher: "Copernicus Climate Change Service"
+studies: ["munoz-sabater-2021-era5-land-state-art-global"]
+updatedAt: "2026-08-19"
+---
+
+## Pourquoi un écart plutôt qu'une température
+
+Les températures absolues varient énormément d'une station à l'autre, en fonction de
+l'altitude, de la distance à la mer ou de l'exposition. En moyenner directement
+donnerait un résultat dominé par la répartition géographique des stations plutôt que
+par le climat.
+
+Les **écarts à une moyenne locale**, eux, se comportent de façon beaucoup plus cohérente
+sur de vastes régions : quand une masse d'air chaud s'installe, les stations d'une même
+zone s'écartent de leur normale dans le même sens, quelle que soit leur température
+absolue. C'est ce qui rend le calcul d'une moyenne globale fiable.
+
+La période de référence doit toujours être précisée : une même année n'affiche pas la
+même anomalie selon qu'on la rapporte à 1951-1980, à 1961-1990 ou à l'ère préindustrielle.

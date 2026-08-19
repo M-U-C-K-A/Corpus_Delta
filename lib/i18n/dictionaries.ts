@@ -1,0 +1,298 @@
+import type { Lang } from "@/lib/i18n/config";
+
+const fr = {
+	nav: {
+		studies: "Études",
+		glossary: "Glossaire",
+		topics: "Dossiers",
+		methodology: "Méthode",
+		about: "À propos",
+		contribute: "Contribuer",
+		openMenu: "Ouvrir le menu",
+		closeMenu: "Fermer le menu",
+		skipToContent: "Aller au contenu",
+	},
+	common: {
+		search: "Rechercher",
+		searchPlaceholder: "Titre, auteur, revue, mot-clé…",
+		filters: "Filtres",
+		reset: "Réinitialiser",
+		results: "résultat",
+		resultsPlural: "résultats",
+		noResults: "Aucun résultat",
+		noResultsHint: "Essayez un terme plus large ou retirez un filtre.",
+		theme: "Thème",
+		themes: "Thèmes",
+		year: "Année",
+		type: "Type",
+		access: "Accès",
+		openAccess: "Accès ouvert",
+		openAccessOnly: "Accès ouvert uniquement",
+		closedAccess: "Accès restreint",
+		sortBy: "Trier par",
+		sortRelevance: "Pertinence",
+		sortRecent: "Plus récentes",
+		sortCited: "Plus citées",
+		updatedOn: "Mis à jour le",
+		addedOn: "Ajouté le",
+		source: "Source",
+		sources: "Sources",
+		seeAll: "Tout voir",
+		back: "Retour",
+		lightTheme: "Thème clair",
+		darkTheme: "Thème sombre",
+		systemTheme: "Thème système",
+		toggleTheme: "Changer de thème",
+		language: "Langue",
+		copy: "Copier",
+		copied: "Copié",
+	},
+	home: {
+		lead: "Un annuaire de publications scientifiques sur le climat et les risques naturels, et un glossaire pour en comprendre le vocabulaire.",
+		searchCta: "Chercher dans l'annuaire",
+		exploreStudies: "Parcourir les études",
+		exploreGlossary: "Ouvrir le glossaire",
+		statStudies: "études référencées",
+		statOpenAccess: "en accès ouvert",
+		statTerms: "termes définis",
+		statTopics: "dossiers thématiques",
+		browseByTheme: "Parcourir par thème",
+		latestAdditions: "Derniers ajouts",
+		howItWorks: "Ce que fait ce site",
+		howItWorksBody:
+			"Chaque référence est importée depuis OpenAlex ou Crossref, jamais saisie à la main, et renvoie à sa source d'origine. Le site ne publie pas de recherche et n'évalue pas les travaux qu'il référence.",
+		readMethodology: "Lire la méthode",
+	},
+	studies: {
+		title: "Annuaire des études",
+		lead: "Publications scientifiques référencées, avec leurs métadonnées d'origine et un lien vers la source.",
+		abstract: "Résumé",
+		noAbstract: "L'éditeur ne diffuse pas de résumé réutilisable pour cette publication.",
+		readAtSource: "Lire à la source",
+		readOpenAccess: "Version en accès ouvert",
+		cite: "Citer",
+		citation: "Citation",
+		authors: "Auteurs",
+		andOthers: "et {count} autres",
+		publishedIn: "Publié dans",
+		publishedOn: "Année de publication",
+		citedBy: "Citations",
+		citedBySource: "selon OpenAlex, relevé le {date}",
+		metadataFrom: "Métadonnées importées depuis {source}, le {date}",
+		relatedStudies: "Études proches",
+		inTopics: "Cité dans nos dossiers",
+		glossaryTerms: "Termes du glossaire",
+		editorialNote: "Pourquoi cette étude",
+		allStudies: "Toutes les études",
+	},
+	glossary: {
+		title: "Glossaire",
+		lead: "Définitions des termes techniques rencontrés dans la littérature climatique, chacune adossée à une source officielle.",
+		definition: "Définition",
+		synonyms: "Aussi appelé",
+		related: "Termes liés",
+		relatedStudies: "Études associées",
+		definitionSource: "Source de la définition",
+		searchPlaceholder: "Chercher un terme…",
+		empty: "Aucun terme ne correspond.",
+	},
+	topics: {
+		title: "Dossiers",
+		lead: "Synthèses courtes et sourcées, qui servent de porte d'entrée vers les études de l'annuaire.",
+		contents: "Sommaire",
+		studiesUsed: "Études citées dans ce dossier",
+		termsUsed: "Termes du glossaire",
+		draft: "Brouillon",
+	},
+	contribute: {
+		title: "Contribuer",
+		lead: "Le contenu du site est ouvert aux corrections et aux propositions, via le dépôt GitHub.",
+	},
+	methodology: {
+		title: "Méthode",
+		lead: "D'où viennent les données, ce que le site fait et surtout ce qu'il ne fait pas.",
+	},
+	about: {
+		title: "À propos",
+	},
+	footer: {
+		browse: "Parcourir",
+		project: "Le projet",
+		legal: "Mentions",
+		sourceCode: "Code source",
+		builtWith: "Métadonnées bibliographiques fournies par OpenAlex et Crossref.",
+		noAffiliation:
+			"Site indépendant, sans affiliation avec les organisations ou revues citées.",
+	},
+	fallback: {
+		notTranslated: "Cette page n'est pas encore traduite en anglais.",
+		showingFrench: "Le contenu ci-dessous est affiché en français.",
+	},
+	errors: {
+		notFoundTitle: "Page introuvable",
+		notFoundBody: "Cette adresse ne correspond à aucune page du site.",
+		backHome: "Retour à l'accueil",
+		errorTitle: "Une erreur est survenue",
+		retry: "Réessayer",
+	},
+} as const;
+
+/**
+ * `as const` fige les chaînes du français en types littéraux. On les élargit ici
+ * pour que la structure — et elle seule — s'impose aux autres langues : ajouter
+ * une clé en français rend la traduction obligatoire, sans figer sa valeur.
+ */
+type Widen<T> = T extends string ? string : { [K in keyof T]: Widen<T[K]> };
+
+type Dictionary = Widen<typeof fr>;
+
+const en: Dictionary = {
+	nav: {
+		studies: "Studies",
+		glossary: "Glossary",
+		topics: "Topics",
+		methodology: "Method",
+		about: "About",
+		contribute: "Contribute",
+		openMenu: "Open menu",
+		closeMenu: "Close menu",
+		skipToContent: "Skip to content",
+	},
+	common: {
+		search: "Search",
+		searchPlaceholder: "Title, author, journal, keyword…",
+		filters: "Filters",
+		reset: "Reset",
+		results: "result",
+		resultsPlural: "results",
+		noResults: "No results",
+		noResultsHint: "Try a broader term or remove a filter.",
+		theme: "Theme",
+		themes: "Themes",
+		year: "Year",
+		type: "Type",
+		access: "Access",
+		openAccess: "Open access",
+		openAccessOnly: "Open access only",
+		closedAccess: "Restricted access",
+		sortBy: "Sort by",
+		sortRelevance: "Relevance",
+		sortRecent: "Most recent",
+		sortCited: "Most cited",
+		updatedOn: "Updated on",
+		addedOn: "Added on",
+		source: "Source",
+		sources: "Sources",
+		seeAll: "See all",
+		back: "Back",
+		lightTheme: "Light theme",
+		darkTheme: "Dark theme",
+		systemTheme: "System theme",
+		toggleTheme: "Toggle theme",
+		language: "Language",
+		copy: "Copy",
+		copied: "Copied",
+	},
+	home: {
+		lead: "A directory of peer-reviewed research on climate and natural hazards, with a glossary of the vocabulary that goes with it.",
+		searchCta: "Search the directory",
+		exploreStudies: "Browse studies",
+		exploreGlossary: "Open the glossary",
+		statStudies: "studies indexed",
+		statOpenAccess: "open access",
+		statTerms: "terms defined",
+		statTopics: "topic briefs",
+		browseByTheme: "Browse by theme",
+		latestAdditions: "Latest additions",
+		howItWorks: "What this site does",
+		howItWorksBody:
+			"Every reference is imported from OpenAlex or Crossref, never typed by hand, and links back to its original source. This site does not publish research and does not review the work it indexes.",
+		readMethodology: "Read the method",
+	},
+	studies: {
+		title: "Study directory",
+		lead: "Indexed scientific publications, with their original metadata and a link to the source.",
+		abstract: "Abstract",
+		noAbstract: "The publisher does not release a reusable abstract for this work.",
+		readAtSource: "Read at source",
+		readOpenAccess: "Open access version",
+		cite: "Cite",
+		citation: "Citation",
+		authors: "Authors",
+		andOthers: "and {count} others",
+		publishedIn: "Published in",
+		publishedOn: "Publication year",
+		citedBy: "Citations",
+		citedBySource: "per OpenAlex, retrieved {date}",
+		metadataFrom: "Metadata imported from {source} on {date}",
+		relatedStudies: "Related studies",
+		inTopics: "Cited in our topic briefs",
+		glossaryTerms: "Glossary terms",
+		editorialNote: "Why this study",
+		allStudies: "All studies",
+	},
+	glossary: {
+		title: "Glossary",
+		lead: "Definitions of the technical terms found in climate literature, each backed by an official source.",
+		definition: "Definition",
+		synonyms: "Also called",
+		related: "Related terms",
+		relatedStudies: "Related studies",
+		definitionSource: "Definition source",
+		searchPlaceholder: "Search for a term…",
+		empty: "No matching term.",
+	},
+	topics: {
+		title: "Topic briefs",
+		lead: "Short sourced syntheses that act as entry points into the directory.",
+		contents: "Contents",
+		studiesUsed: "Studies cited in this brief",
+		termsUsed: "Glossary terms",
+		draft: "Draft",
+	},
+	contribute: {
+		title: "Contribute",
+		lead: "The content is open to corrections and suggestions through the GitHub repository.",
+	},
+	methodology: {
+		title: "Method",
+		lead: "Where the data comes from, what this site does and — above all — what it does not do.",
+	},
+	about: {
+		title: "About",
+	},
+	footer: {
+		browse: "Browse",
+		project: "The project",
+		legal: "Legal",
+		sourceCode: "Source code",
+		builtWith: "Bibliographic metadata provided by OpenAlex and Crossref.",
+		noAffiliation: "Independent site, not affiliated with any organisation or journal cited.",
+	},
+	fallback: {
+		notTranslated: "This page has not been translated into English yet.",
+		showingFrench: "The content below is shown in French.",
+	},
+	errors: {
+		notFoundTitle: "Page not found",
+		notFoundBody: "This address does not match any page on the site.",
+		backHome: "Back to home",
+		errorTitle: "Something went wrong",
+		retry: "Try again",
+	},
+};
+
+const dictionaries: Record<Lang, Dictionary> = { fr, en };
+
+export function getDictionary(lang: Lang): Dictionary {
+	return dictionaries[lang];
+}
+
+/** Remplace les jetons `{clé}` d'une chaîne du dictionnaire. */
+export function interpolate(template: string, values: Record<string, string | number>): string {
+	return template.replace(/\{(\w+)\}/g, (match, key) =>
+		key in values ? String(values[key]) : match
+	);
+}
+
+export type { Dictionary };

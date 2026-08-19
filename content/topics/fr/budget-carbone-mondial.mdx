@@ -1,0 +1,86 @@
+---
+title: "Le budget carbone mondial"
+description: "Comment on mesure les émissions de CO₂ à l'échelle de la planète, ce que les puits naturels en absorbent, et pourquoi il reste un écart que personne n'explique complètement."
+themes: ["carbone", "observation"]
+studies:
+  - "friedlingstein-2023-global-carbon-budget-2023"
+  - "calvin-2023-ipcc-2023-climate-change-2023"
+  - "schuur-2015-climate-change-permafrost-carbon-feedback"
+glossary: ["puits-de-carbone", "forcage-radiatif", "permafrost"]
+sources:
+  - label: "Global Carbon Budget"
+    url: "https://www.globalcarbonproject.org/carbonbudget/"
+    publisher: "Global Carbon Project"
+  - label: "Trends in Atmospheric Carbon Dioxide"
+    url: "https://gml.noaa.gov/ccgg/trends/"
+    publisher: "NOAA Global Monitoring Laboratory"
+updatedAt: "2026-08-19"
+---
+
+Chaque année, un consortium international publie une estimation de l'ensemble des flux
+de carbone entre les activités humaines, l'atmosphère, l'océan et les continents. Cet
+exercice — le *Global Carbon Budget* — est l'une des rares tentatives de fermer
+complètement un bilan planétaire, et sa méthode mérite d'être comprise avant ses
+résultats.
+
+## Une équation qui doit se refermer
+
+Le principe est comptable. Le carbone émis par les activités humaines ne disparaît pas :
+il se retrouve dans l'atmosphère, dans l'océan, ou dans la végétation et les sols. Le
+budget consiste à estimer indépendamment chacun de ces termes, puis à vérifier qu'ils
+s'équilibrent.
+
+Les émissions fossiles sont reconstituées à partir des statistiques énergétiques
+nationales et de la production de ciment. L'accumulation atmosphérique, elle, est la
+grandeur la mieux connue de toute l'équation, car elle se mesure directement.
+
+## Ce que mesure la courbe de Mauna Loa
+
+L'observatoire de Mauna Loa, à Hawaï, produit depuis 1958 la plus longue série continue
+de mesure directe du CO₂ atmosphérique. Sa position — un volcan isolé au milieu du
+Pacifique, loin des sources industrielles — en fait un point d'observation représentatif
+de l'atmosphère de fond.
+
+<Chart dataset="co2-mauna-loa" kind="line" />
+
+Deux choses se lisent sur cette courbe. La progression est **continue** : aucune année
+ne marque de recul, pas même celles qui ont connu un ralentissement économique mondial.
+Et elle **s'accélère** : la pente des dernières décennies est plus raide que celle des
+années 1960.
+
+<Callout variant="info" title="Pourquoi les crises économiques ne se voient pas">
+Une baisse temporaire des émissions ralentit la vitesse à laquelle le stock atmosphérique
+augmente, mais ne le diminue pas. Tant que les émissions restent nettement supérieures à
+ce que les <Term id="puits-de-carbone">puits</Term> absorbent, la concentration continue
+de croître. Stabiliser la courbe suppose d'atteindre l'équilibre entre les deux, pas de
+réduire un peu les émissions.
+</Callout>
+
+## Les puits absorbent environ la moitié des émissions
+
+L'océan et la biosphère continentale retirent chaque année de l'atmosphère une part
+importante du CO₂ émis. Sans eux, l'accumulation observée serait environ deux fois plus
+rapide.
+
+Ce service n'est ni gratuit ni garanti. L'absorption océanique s'accompagne d'une
+acidification de l'eau de mer. L'absorption continentale dépend de la santé des forêts
+et des sols, donc de la sécheresse et des incendies. Et certains réservoirs aujourd'hui
+inertes, comme le <Term id="permafrost">pergélisol</Term>, pourraient basculer du statut
+de puits à celui de source <Cite id="schuur-2015-climate-change-permafrost-carbon-feedback" />.
+
+## Le déséquilibre résiduel
+
+La somme des termes estimés séparément ne tombe jamais parfaitement juste. Cet écart —
+le *budget imbalance* — est explicitement publié plutôt que réparti arbitrairement entre
+les postes.
+
+C'est un choix méthodologique révélateur : plutôt que de forcer l'équation, les auteurs
+affichent l'ampleur de ce qu'ils n'expliquent pas <Cite id="friedlingstein-2023-global-carbon-budget-2023" />.
+Ce résidu donne une mesure honnête de l'incertitude qui pèse sur les flux les moins bien
+contraints, en particulier ceux liés aux changements d'usage des terres.
+
+## Pour aller plus loin
+
+Le rapport de synthèse du sixième cycle d'évaluation du GIEC replace ce bilan dans
+l'ensemble des connaissances sur le système climatique
+<Cite id="calvin-2023-ipcc-2023-climate-change-2023" />.

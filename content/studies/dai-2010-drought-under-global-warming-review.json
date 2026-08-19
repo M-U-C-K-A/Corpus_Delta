@@ -1,0 +1,41 @@
+{
+	"id": "dai-2010-drought-under-global-warming-review",
+	"doi": "10.1002/wcc.81",
+	"title": "Drought under global warming: a review",
+	"authors": [
+		{
+			"name": "Aiguo Dai",
+			"orcid": "https://orcid.org/0000-0002-5371-917X",
+			"affiliation": "NSF National Center for Atmospheric Research"
+		}
+	],
+	"authorCount": 1,
+	"venue": "Wiley Interdisciplinary Reviews Climate Change",
+	"publisher": "Wiley",
+	"year": 2010,
+	"type": "article",
+	"abstract": "Abstract This article reviews recent literature on drought of the last millennium, followed by an update on global aridity changes from 1950 to 2008. Projected future aridity is presented based on recent studies and our analysis of model simulations. Dry periods lasting for years to decades have occurred many times during the last millennium over, for example, North America, West Africa, and East Asia. These droughts were likely triggered by anomalous tropical sea surface temperatures (SSTs), with La Niña‐like SST anomalies leading to drought in North America, and El‐Niño‐like SSTs causing drought in East China. Over Africa, the southward shift of the warmest SSTs in the Atlantic and warming in the Indian Ocean are responsible for the recent Sahel droughts. Local feedbacks may enhance and prolong drought. Global aridity has increased substantially since the 1970s due to recent drying over Africa, southern Europe, East and South Asia, and eastern Australia. Although El Niño‐Southern Oscillation (ENSO), tropical Atlantic SSTs, and Asian monsoons have played a large role in the recent drying, recent warming has increased atmospheric moisture demand and likely altered atmospheric circulation patterns, both contributing to the drying. Climate models project increased aridity in the 21 st century over most of Africa, southern Europe and the Middle East, most of the Americas, Australia, and Southeast Asia. Regions like the United States have avoided prolonged droughts during the last 50 years due to natural climate variations, but might see persistent droughts in the next 20–50 years. Future efforts to predict drought will depend on models' ability to predict tropical SSTs. WIREs Clim Change 2011 2 45–65 DOI: 10.1002/wcc.81 This article is categorized under: Paleoclimates and Current Trends &gt; Detection and Attribution Paleoclimates and Current Trends &gt; Modern Climate Change Assessing Impacts of Climate Change &gt; Evaluating Future Impacts of Climate Change Assessing Impacts of Climate Change &gt; Observed Impacts of Climate Change",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "bronze",
+		"url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/wcc.81"
+	},
+	"citedByCount": 3531,
+	"themes": [
+		"eau"
+	],
+	"sourceTopics": [
+		"Climate variability and models",
+		"Hydrology and Drought Analysis",
+		"Tree-ring climate responses"
+	],
+	"url": "https://doi.org/10.1002/wcc.81",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-19"
+	},
+	"addedAt": "2026-08-19",
+	"editorial": {},
+	"glossaryTerms": []
+}

@@ -1,88 +1,120 @@
 @tailwind base;
-  @tailwind components;
-  @tailwind utilities;
+@tailwind components;
+@tailwind utilities;
 
-  @layer base {
-    :root {
-      --background: 0 0% 100%;
-      --foreground: 222.2 84% 4.9%;
+/**
+ * Palette volontairement sobre : fond papier chaud, encre bleu-nuit, un seul
+ * accent pétrole. Le vert saturé de la version précédente signalait « militant »
+ * là où le site doit signaler « référence ».
+ */
+@layer base {
+	:root {
+		--background: 40 25% 98%;
+		--foreground: 215 30% 12%;
 
-      --card: 0 0% 100%;
-      --card-foreground: 222.2 84% 4.9%;
+		--card: 0 0% 100%;
+		--card-foreground: 215 30% 12%;
 
-      --popover: 0 0% 100%;
-      --popover-foreground: 222.2 84% 4.9%;
+		--popover: 0 0% 100%;
+		--popover-foreground: 215 30% 12%;
 
-      --primary: 222.2 47.4% 11.2%;
-      --primary-foreground: 210 40% 98%;
+		--primary: 192 68% 24%;
+		--primary-foreground: 40 25% 98%;
 
-      --secondary: 210 40% 96.1%;
-      --secondary-foreground: 222.2 47.4% 11.2%;
+		--secondary: 40 16% 93%;
+		--secondary-foreground: 215 30% 16%;
 
-      --muted: 210 40% 96.1%;
-      --muted-foreground: 215.4 16.3% 46.9%;
+		--muted: 40 16% 94%;
+		--muted-foreground: 215 14% 42%;
 
-      --accent: 210 40% 96.1%;
-      --accent-foreground: 222.2 47.4% 11.2%;
+		--accent: 190 32% 92%;
+		--accent-foreground: 192 68% 20%;
 
-      --destructive: 0 84.2% 60.2%;
-      --destructive-foreground: 210 40% 98%;
+		--destructive: 0 65% 45%;
+		--destructive-foreground: 40 25% 98%;
 
-      --border: 214.3 31.8% 91.4%;
-      --input: 214.3 31.8% 91.4%;
-      --ring: 222.2 84% 4.9%;
-      
-      --chart-1: 12 76% 61%;
-      --chart-2: 173 58% 39%;
-      --chart-3: 197 37% 24%;
-      --chart-4: 43 74% 66%;
-      --chart-5: 27 87% 67%;
+		/* Accès ouvert : signalé par une couleur dédiée, jamais par l'accent principal. */
+		--open-access: 152 45% 30%;
+		--open-access-surface: 152 40% 94%;
 
-      --radius: 0.5rem;
-    }
+		--border: 40 12% 87%;
+		--input: 40 12% 87%;
+		--ring: 192 68% 24%;
 
-    .dark {
-      --background: 222.2 84% 4.9%;
-      --foreground: 210 40% 98%;
+		--chart-1: 192 68% 32%;
+		--chart-2: 24 70% 48%;
+		--chart-3: 258 40% 50%;
+		--chart-4: 152 45% 34%;
+		--chart-5: 350 55% 48%;
 
-      --card: 222.2 84% 4.9%;
-      --card-foreground: 210 40% 98%;
+		--radius: 0.375rem;
+	}
 
-      --popover: 222.2 84% 4.9%;
-      --popover-foreground: 210 40% 98%;
+	.dark {
+		--background: 215 32% 8%;
+		--foreground: 40 18% 92%;
 
-      --primary: 210 40% 98%;
-      --primary-foreground: 222.2 47.4% 11.2%;
+		--card: 215 30% 11%;
+		--card-foreground: 40 18% 92%;
 
-      --secondary: 217.2 32.6% 17.5%;
-      --secondary-foreground: 210 40% 98%;
+		--popover: 215 30% 11%;
+		--popover-foreground: 40 18% 92%;
 
-      --muted: 217.2 32.6% 17.5%;
-      --muted-foreground: 215 20.2% 65.1%;
+		--primary: 186 52% 58%;
+		--primary-foreground: 215 32% 8%;
 
-      --accent: 217.2 32.6% 17.5%;
-      --accent-foreground: 210 40% 98%;
+		--secondary: 215 24% 17%;
+		--secondary-foreground: 40 18% 92%;
 
-      --destructive: 0 62.8% 30.6%;
-      --destructive-foreground: 210 40% 98%;
+		--muted: 215 24% 16%;
+		--muted-foreground: 215 12% 64%;
 
-      --chart-1: 220 70% 50%;
-      --chart-2: 160 60% 45%;
-      --chart-3: 30 80% 55%;
-      --chart-4: 280 65% 60%;
-      --chart-5: 340 75% 55%;
+		--accent: 192 30% 20%;
+		--accent-foreground: 186 52% 72%;
 
-      --border: 217.2 32.6% 17.5%;
-      --input: 217.2 32.6% 17.5%;
-      --ring: 212.7 26.8% 83.9%;
-    }
-  }
+		--destructive: 0 60% 55%;
+		--destructive-foreground: 40 18% 92%;
 
-  @layer base {
-    * {
-      @apply border-border;
-    }
-    body {
-      @apply bg-background text-foreground;
-    }
-  }
+		--open-access: 152 42% 62%;
+		--open-access-surface: 152 30% 16%;
+
+		--border: 215 20% 21%;
+		--input: 215 20% 21%;
+		--ring: 186 52% 58%;
+
+		--chart-1: 186 52% 58%;
+		--chart-2: 24 75% 62%;
+		--chart-3: 258 55% 70%;
+		--chart-4: 152 42% 58%;
+		--chart-5: 350 60% 66%;
+	}
+}
+
+@layer base {
+	* {
+		@apply border-border;
+	}
+
+	body {
+		@apply bg-background text-foreground;
+		font-feature-settings: "kern", "liga";
+		text-rendering: optimizeLegibility;
+	}
+
+	/* Les chiffres des tableaux et métadonnées doivent s'aligner verticalement. */
+	.tabular {
+		font-variant-numeric: tabular-nums;
+	}
+
+	/* Ancre visible sous le header collant quand on suit un lien de sommaire. */
+	:target {
+		scroll-margin-top: 6rem;
+	}
+}
+
+@layer components {
+	/* Filet fin utilisé pour séparer les blocs d'une fiche sans alourdir la page. */
+	.rule {
+		@apply border-t border-border/70;
+	}
+}
