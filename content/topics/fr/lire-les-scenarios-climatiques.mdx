@@ -1,0 +1,85 @@
+---
+title: "Lire les scénarios climatiques"
+description: "Ce que signifient les sigles SSP1-2.6 ou SSP5-8.5, comment les modèles sont comparés entre eux, et pourquoi un scénario n'est pas une prévision."
+themes: ["modelisation", "politiques"]
+studies:
+  - "riahi-2016-shared-socioeconomic-pathways-their-energy"
+  - "eyring-2016-overview-coupled-model-intercomparison-project"
+  - "calvin-2023-ipcc-2023-climate-change-2023"
+glossary: ["scenario-ssp", "sensibilite-climatique", "forcage-radiatif", "anomalie-de-temperature"]
+sources:
+  - label: "IPCC Sixth Assessment Report, Working Group I"
+    url: "https://www.ipcc.ch/report/ar6/wg1/"
+    publisher: "GIEC"
+    year: 2021
+  - label: "IPCC AR6 Synthesis Report"
+    url: "https://www.ipcc.ch/report/ar6/syr/"
+    publisher: "GIEC"
+    year: 2023
+updatedAt: "2026-08-19"
+---
+
+Les projections climatiques sont presque toujours présentées sous forme de faisceaux de
+trajectoires étiquetées d'un sigle. Comprendre ce que ces étiquettes recouvrent change la
+manière dont on lit les graphiques qui en découlent.
+
+## Un modèle ne devine pas l'avenir des sociétés
+
+La physique de l'atmosphère et de l'océan est simulée à partir de lois connues. Mais
+l'évolution des émissions dépend de décisions politiques, économiques et démographiques
+qu'aucun modèle physique ne peut anticiper.
+
+La solution retenue est d'expliciter ces hypothèses au lieu de les dissimuler : ce sont
+les <Term id="scenario-ssp">trajectoires socio-économiques partagées</Term>, décrites
+en détail par la communauté qui les a construites
+<Cite id="riahi-2016-shared-socioeconomic-pathways-their-energy" />.
+
+## Décoder l'étiquette
+
+Le sigle `SSP2-4.5` porte deux informations distinctes.
+
+Le premier chiffre désigne le récit socio-économique : `1` un monde orienté vers la
+durabilité, `2` la poursuite des tendances actuelles, `3` une fragmentation régionale,
+`5` une croissance rapide fondée sur les énergies fossiles.
+
+Le nombre décimal indique le <Term id="forcage-radiatif">forçage radiatif</Term> atteint
+en 2100, en watts par mètre carré. Plus il est élevé, plus le déséquilibre énergétique
+imposé au système est important.
+
+<Callout variant="caution" title="SSP5-8.5 n'est pas le « scénario tendanciel »">
+Ce scénario est régulièrement présenté comme la trajectoire suivie faute d'action. Il a
+en réalité été conçu comme une **borne haute** destinée à tester la réponse des modèles,
+et suppose notamment un recours au charbon que les tendances observées ne soutiennent pas.
+L'utiliser comme référence par défaut fausse la lecture dans un sens comme dans l'autre.
+</Callout>
+
+## Pourquoi plusieurs modèles plutôt qu'un seul
+
+Une projection issue d'un unique modèle n'apprend pas grand-chose : on ne saurait pas
+distinguer ce qui relève de la physique du climat de ce qui relève des choix
+d'implémentation de ce modèle particulier.
+
+Le protocole CMIP répond à ce problème en faisant tourner des dizaines de modèles
+indépendants sur des expériences rigoureusement identiques
+<Cite id="eyring-2016-overview-coupled-model-intercomparison-project" />. La dispersion
+entre leurs résultats devient alors elle-même une information : elle mesure l'incertitude
+structurelle qui subsiste, indépendamment du scénario choisi.
+
+C'est de cet exercice collectif que proviennent les fourchettes publiées par le GIEC
+<Cite id="calvin-2023-ipcc-2023-climate-change-2023" />.
+
+## Trois incertitudes qui ne se ressemblent pas
+
+Une projection cumule des incertitudes de natures différentes, qu'il est utile de ne pas
+confondre.
+
+Celle du **scénario** dépend des décisions humaines : elle n'est pas réductible par la
+science, seulement par les choix collectifs. Celle du **modèle** vient des approximations
+nécessaires pour représenter des processus complexes, en particulier les nuages ; elle se
+réduit avec les progrès de la modélisation. Celle de la **variabilité interne** tient au
+caractère chaotique du système : elle domine à court terme et sur les petites échelles
+spatiales, et s'efface sur le long terme.
+
+La <Term id="sensibilite-climatique">sensibilité climatique</Term> relève de la deuxième
+catégorie. C'est le paramètre par lequel une hypothèse d'émissions se convertit en
+<Term id="anomalie-de-temperature">anomalie de température</Term>.

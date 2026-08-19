@@ -1,0 +1,60 @@
+{
+	"id": "gielen-2019-role-renewable-energy-global-energy",
+	"doi": "10.1016/j.esr.2019.01.006",
+	"title": "The role of renewable energy in the global energy transformation",
+	"authors": [
+		{
+			"name": "Dolf Gielen",
+			"orcid": "https://orcid.org/0000-0002-6924-0788",
+			"affiliation": "Colorado School of Mines"
+		},
+		{
+			"name": "Francisco Boshell",
+			"orcid": "https://orcid.org/0000-0003-3400-3640"
+		},
+		{
+			"name": "Değer Saygin",
+			"orcid": "https://orcid.org/0000-0002-3302-1428"
+		},
+		{
+			"name": "Morgan Bazilian",
+			"orcid": "https://orcid.org/0000-0003-1650-8071",
+			"affiliation": "Colorado School of Mines"
+		},
+		{
+			"name": "Nicholas Wagner"
+		},
+		{
+			"name": "Ricardo Gorini"
+		}
+	],
+	"authorCount": 6,
+	"venue": "Energy Strategy Reviews",
+	"publisher": "Elsevier BV",
+	"year": 2019,
+	"type": "article",
+	"abstract": "This paper explores the technical and economic characteristics of an accelerated energy transition to 2050, using new datasets for renewable energy. The analysis indicates that energy efficiency and renewable energy technologies are the core elements of that transition, and their synergies are likewise important. Favourable economics, ubiquitous resources, scalable technology, and significant socio-economic benefits underpin such a transition. Renewable energy can supply two-thirds of the total global energy demand, and contribute to the bulk of the greenhouse gas emissions reduction that is needed between now and 2050 for limiting average global surface temperature increase below 2 °C. Enabling policy and regulatory frameworks will need to be adjusted to mobilise the six-fold acceleration of renewables growth that is needed, with the highest growth estimated for wind and solar PV technologies, complemented by a high level of energy efficiency. Still, to ensure the eventual elimination of carbon dioxide emissions will require new technology and innovation, notably for the transport and manufacturing sectors, which remain largely ignored in the international debate. More attention is needed for emerging infrastructure issues such as charging infrastructure and other sector coupling implications.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "gold",
+		"url": "https://www.sciencedirect.com/science/article/pii/S2211467X19300082/pdf"
+	},
+	"citedByCount": 4901,
+	"themes": [
+		"energie"
+	],
+	"sourceTopics": [
+		"Global Energy and Sustainability Research",
+		"Energy, Environment, and Transportation Policies",
+		"Climate Change Policy and Economics"
+	],
+	"url": "https://doi.org/10.1016/j.esr.2019.01.006",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-19"
+	},
+	"addedAt": "2026-08-19",
+	"editorial": {},
+	"glossaryTerms": []
+}

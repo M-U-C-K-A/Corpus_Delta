@@ -1,0 +1,131 @@
+{
+	"id": "schuur-2015-climate-change-permafrost-carbon-feedback",
+	"doi": "10.1038/nature14338",
+	"title": "Climate change and the permafrost carbon feedback",
+	"authors": [
+		{
+			"name": "Edward A. G. Schuur",
+			"orcid": "https://orcid.org/0000-0002-1096-2436",
+			"affiliation": "Northern Arizona University"
+		},
+		{
+			"name": "A. David McGuire",
+			"orcid": "https://orcid.org/0000-0003-4646-0750",
+			"affiliation": "United States Geological Survey"
+		},
+		{
+			"name": "Christina Schädel",
+			"orcid": "https://orcid.org/0000-0003-2145-6210",
+			"affiliation": "Northern Arizona University"
+		},
+		{
+			"name": "Guido Grosse",
+			"orcid": "https://orcid.org/0000-0001-5895-2141",
+			"affiliation": "Alfred-Wegener-Institut Helmholtz-Zentrum für Polar- und Meeresforschung"
+		},
+		{
+			"name": "J. W. Harden",
+			"orcid": "https://orcid.org/0000-0002-6570-8259",
+			"affiliation": "United States Geological Survey"
+		},
+		{
+			"name": "Daniel J. Hayes",
+			"orcid": "https://orcid.org/0000-0002-3011-7934",
+			"affiliation": "Oak Ridge National Laboratory"
+		},
+		{
+			"name": "Gustaf Hugelius",
+			"orcid": "https://orcid.org/0000-0002-8096-1594",
+			"affiliation": "Stockholm University"
+		},
+		{
+			"name": "Charles D. Koven",
+			"orcid": "https://orcid.org/0000-0002-3367-0065",
+			"affiliation": "Lawrence Berkeley National Laboratory"
+		},
+		{
+			"name": "Peter Kuhry",
+			"orcid": "https://orcid.org/0000-0002-6910-6749",
+			"affiliation": "Stockholm University"
+		},
+		{
+			"name": "David M. Lawrence",
+			"orcid": "https://orcid.org/0000-0002-2968-3023",
+			"affiliation": "NSF National Center for Atmospheric Research"
+		},
+		{
+			"name": "Susan M. Natali",
+			"orcid": "https://orcid.org/0000-0002-3010-2994",
+			"affiliation": "Woodwell Climate Research Center"
+		},
+		{
+			"name": "David Olefeldt",
+			"orcid": "https://orcid.org/0000-0002-5976-1475",
+			"affiliation": "University of Guelph"
+		},
+		{
+			"name": "V. E. Romanovsky",
+			"orcid": "https://orcid.org/0000-0002-9515-2087",
+			"affiliation": "University of Alaska Fairbanks"
+		},
+		{
+			"name": "Kevin Schaefer",
+			"orcid": "https://orcid.org/0000-0002-5444-9917",
+			"affiliation": "NOAA National Ice Center"
+		},
+		{
+			"name": "Merritt R. Turetsky",
+			"orcid": "https://orcid.org/0000-0003-0155-8666",
+			"affiliation": "University of Guelph"
+		},
+		{
+			"name": "Claire C. Treat",
+			"orcid": "https://orcid.org/0000-0002-1225-8178",
+			"affiliation": "University of New Hampshire"
+		},
+		{
+			"name": "Jorien E. Vonk",
+			"orcid": "https://orcid.org/0000-0002-1206-5878",
+			"affiliation": "Utrecht University"
+		}
+	],
+	"authorCount": 17,
+	"venue": "Nature",
+	"publisher": "Nature Portfolio",
+	"year": 2015,
+	"type": "article",
+	"abstract": null,
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "bronze",
+		"url": "https://www.nature.com/articles/nature14338.pdf"
+	},
+	"citedByCount": 3868,
+	"themes": [
+		"cryosphere",
+		"carbone"
+	],
+	"sourceTopics": [
+		"Climate change and permafrost",
+		"Cryospheric studies and observations",
+		"Methane Hydrates and Related Phenomena"
+	],
+	"url": "https://doi.org/10.1038/nature14338",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-19"
+	},
+	"addedAt": "2026-08-19",
+	"editorial": {
+		"fr": {
+			"summary": "Synthèse de référence sur la rétroaction entre dégel du pergélisol et libération de carbone.",
+			"relevance": "Reste la porte d'entrée standard sur ce mécanisme, notamment pour ce qu'elle explicite des incertitudes : calendrier du dégel, répartition entre CO₂ et méthane, reprise partielle par la végétation."
+		}
+	},
+	"glossaryTerms": [
+		"permafrost",
+		"point-de-bascule",
+		"puits-de-carbone"
+	]
+}

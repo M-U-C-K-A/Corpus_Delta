@@ -1,0 +1,127 @@
+{
+	"id": "steffen-2015-planetary-boundaries-guiding-human-development",
+	"doi": "10.1126/science.1259855",
+	"title": "Planetary boundaries: Guiding human development on a changing planet",
+	"authors": [
+		{
+			"name": "Will Steffen",
+			"orcid": "https://orcid.org/0000-0003-1163-6736",
+			"affiliation": "Australian National University"
+		},
+		{
+			"name": "Katherine Richardson",
+			"orcid": "https://orcid.org/0000-0003-3785-2787",
+			"affiliation": "Natural History Museum Aarhus"
+		},
+		{
+			"name": "Johan Rockström",
+			"orcid": "https://orcid.org/0000-0001-8988-2983",
+			"affiliation": "Stockholm Resilience Centre"
+		},
+		{
+			"name": "Sarah Cornell",
+			"orcid": "https://orcid.org/0000-0003-4367-1296",
+			"affiliation": "Stockholm Resilience Centre"
+		},
+		{
+			"name": "Ingo Fetzer",
+			"orcid": "https://orcid.org/0000-0001-7335-5679",
+			"affiliation": "Stockholm Resilience Centre"
+		},
+		{
+			"name": "Elena M. Bennett",
+			"orcid": "https://orcid.org/0000-0003-3944-2925",
+			"affiliation": "McGill University"
+		},
+		{
+			"name": "Reinette Biggs",
+			"orcid": "https://orcid.org/0000-0003-0300-4149",
+			"affiliation": "Stockholm Resilience Centre"
+		},
+		{
+			"name": "Stephen R. Carpenter",
+			"orcid": "https://orcid.org/0000-0001-8097-8700",
+			"affiliation": "University of Wisconsin–Madison"
+		},
+		{
+			"name": "W. de Vries",
+			"orcid": "https://orcid.org/0000-0001-9974-0612",
+			"affiliation": "Wageningen University & Research"
+		},
+		{
+			"name": "Cynthia A. de Wit",
+			"orcid": "https://orcid.org/0000-0001-8497-2699",
+			"affiliation": "Stockholm University"
+		},
+		{
+			"name": "Carl Folke",
+			"orcid": "https://orcid.org/0000-0002-4050-3281",
+			"affiliation": "Royal Swedish Academy of Sciences"
+		},
+		{
+			"name": "Dieter Gerten",
+			"orcid": "https://orcid.org/0000-0002-6214-6991",
+			"affiliation": "Potsdam Institute for Climate Impact Research"
+		},
+		{
+			"name": "Jens Heinke",
+			"orcid": "https://orcid.org/0000-0001-5256-0024",
+			"affiliation": "Commonwealth Scientific and Industrial Research Organisation"
+		},
+		{
+			"name": "Georgina M. Mace",
+			"orcid": "https://orcid.org/0000-0001-8965-5211",
+			"affiliation": "University College London"
+		},
+		{
+			"name": "Linn Persson",
+			"orcid": "https://orcid.org/0000-0002-7110-7089",
+			"affiliation": "Stockholm Environment Institute"
+		},
+		{
+			"name": "V. Ramanathan",
+			"orcid": "https://orcid.org/0000-0002-3534-5987",
+			"affiliation": "TERI University"
+		},
+		{
+			"name": "Belinda Reyers",
+			"orcid": "https://orcid.org/0000-0002-2194-8656",
+			"affiliation": "Stockholm Resilience Centre"
+		},
+		{
+			"name": "Sverker Sörlin",
+			"orcid": "https://orcid.org/0000-0003-2864-2315",
+			"affiliation": "KTH Royal Institute of Technology"
+		}
+	],
+	"authorCount": 18,
+	"venue": "Science",
+	"publisher": "American Association for the Advancement of Science",
+	"year": 2015,
+	"type": "article",
+	"abstract": "The planetary boundaries framework defines a safe operating space for humanity based on the intrinsic biophysical processes that regulate the stability of the Earth system. Here, we revise and update the planetary boundary framework, with a focus on the underpinning biophysical science, based on targeted input from expert research communities and on more general scientific advances over the past 5 years. Several of the boundaries now have a two-tier approach, reflecting the importance of cross-scale interactions and the regional-level heterogeneity of the processes that underpin the boundaries. Two core boundaries—climate change and biosphere integrity—have been identified, each of which has the potential on its own to drive the Earth system into a new state should they be substantially and persistently transgressed.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "green",
+		"url": "https://research.wur.nl/en/publications/planetary-boundaries-guiding-human-development-on-a-changing-plan"
+	},
+	"citedByCount": 12410,
+	"themes": [
+		"politiques",
+		"biodiversite"
+	],
+	"sourceTopics": [
+		"Global Energy and Sustainability Research",
+		"Sustainable Development and Environmental Policy",
+		"Sustainability and Climate Change Governance"
+	],
+	"url": "https://doi.org/10.1126/science.1259855",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-19"
+	},
+	"addedAt": "2026-08-19",
+	"editorial": {},
+	"glossaryTerms": []
+}

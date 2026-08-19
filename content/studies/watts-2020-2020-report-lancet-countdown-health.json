@@ -1,0 +1,134 @@
+{
+	"id": "watts-2020-2020-report-lancet-countdown-health",
+	"doi": "10.1016/s0140-6736(20)32290-x",
+	"title": "The 2020 report of The Lancet Countdown on health and climate change: responding to converging crises",
+	"authors": [
+		{
+			"name": "Nick Watts",
+			"affiliation": "National Institute for Health and Care Research"
+		},
+		{
+			"name": "Markus Amann",
+			"orcid": "https://orcid.org/0000-0002-1963-0972",
+			"affiliation": "International Institute for Applied Systems Analysis"
+		},
+		{
+			"name": "Nigel W. Arnell",
+			"orcid": "https://orcid.org/0000-0003-2691-4436",
+			"affiliation": "University of Reading"
+		},
+		{
+			"name": "Sonja Ayeb‐Karlsson",
+			"orcid": "https://orcid.org/0000-0001-6124-2730",
+			"affiliation": "United Nations University"
+		},
+		{
+			"name": "Jessica Beagley",
+			"orcid": "https://orcid.org/0000-0003-4649-0124",
+			"affiliation": "University College London"
+		},
+		{
+			"name": "Kristine Belesova",
+			"orcid": "https://orcid.org/0000-0002-6160-5041",
+			"affiliation": "London School of Hygiene & Tropical Medicine"
+		},
+		{
+			"name": "Maxwell Boykoff",
+			"orcid": "https://orcid.org/0000-0002-7474-2387",
+			"affiliation": "University of Colorado Boulder"
+		},
+		{
+			"name": "Peter Byass",
+			"orcid": "https://orcid.org/0000-0001-5474-4361",
+			"affiliation": "Umeå University"
+		},
+		{
+			"name": "Wenjia Cai",
+			"orcid": "https://orcid.org/0000-0002-4436-512X",
+			"affiliation": "Tsinghua University"
+		},
+		{
+			"name": "Diarmid Campbell‐Lendrum",
+			"orcid": "https://orcid.org/0000-0002-2503-7059",
+			"affiliation": "World Health Organization"
+		},
+		{
+			"name": "Stuart Capstick",
+			"orcid": "https://orcid.org/0000-0002-1934-4503",
+			"affiliation": "Cardiff University"
+		},
+		{
+			"name": "Jonathan Chambers",
+			"orcid": "https://orcid.org/0000-0002-2332-8143",
+			"affiliation": "University of Geneva"
+		},
+		{
+			"name": "Samantha Coleman",
+			"orcid": "https://orcid.org/0000-0003-3019-0397",
+			"affiliation": "University College London"
+		},
+		{
+			"name": "Carole Dalin",
+			"orcid": "https://orcid.org/0000-0002-2123-9622",
+			"affiliation": "Centre for Sustainable Energy"
+		},
+		{
+			"name": "Meaghan Daly",
+			"affiliation": "University of New England"
+		},
+		{
+			"name": "Niheer Dasandi",
+			"orcid": "https://orcid.org/0000-0002-8708-837X",
+			"affiliation": "University of Birmingham"
+		},
+		{
+			"name": "Shouro Dasgupta",
+			"orcid": "https://orcid.org/0000-0003-4080-8066",
+			"affiliation": "CMCC Foundation - Euro-Mediterranean Center on Climate Change"
+		},
+		{
+			"name": "Michael Davies",
+			"affiliation": "University College London"
+		},
+		{
+			"name": "Claudia Di Napoli",
+			"orcid": "https://orcid.org/0000-0002-4901-3641",
+			"affiliation": "University of Reading"
+		},
+		{
+			"name": "Paula Domínguez-Salas",
+			"orcid": "https://orcid.org/0000-0001-8753-4221",
+			"affiliation": "London School of Hygiene & Tropical Medicine"
+		}
+	],
+	"authorCount": 87,
+	"venue": "The Lancet",
+	"publisher": "Elsevier BV",
+	"year": 2020,
+	"type": "article",
+	"abstract": null,
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "green",
+		"url": "https://figshare.com/articles/journal_contribution/The_2020_report_of_The_Lancet_Countdown_on_health_and_climate_change_responding_to_converging_crises/23636217"
+	},
+	"citedByCount": 1917,
+	"themes": [
+		"sante",
+		"politiques"
+	],
+	"sourceTopics": [
+		"Climate Change and Health Impacts",
+		"Air Quality and Health Impacts",
+		"Global Health Care Issues"
+	],
+	"url": "https://doi.org/10.1016/s0140-6736(20)32290-x",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-19"
+	},
+	"addedAt": "2026-08-19",
+	"editorial": {},
+	"glossaryTerms": []
+}

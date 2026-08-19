@@ -1,0 +1,119 @@
+{
+	"id": "steffen-2018-trajectories-earth-system-anthropocene",
+	"doi": "10.1073/pnas.1810141115",
+	"title": "Trajectories of the Earth System in the Anthropocene",
+	"authors": [
+		{
+			"name": "Will Steffen",
+			"orcid": "https://orcid.org/0000-0003-1163-6736",
+			"affiliation": "Australian National University"
+		},
+		{
+			"name": "Johan Rockström",
+			"orcid": "https://orcid.org/0000-0001-8988-2983",
+			"affiliation": "Stockholm Resilience Centre"
+		},
+		{
+			"name": "Katherine Richardson",
+			"orcid": "https://orcid.org/0000-0003-3785-2787",
+			"affiliation": "University of Copenhagen"
+		},
+		{
+			"name": "Timothy M. Lenton",
+			"orcid": "https://orcid.org/0000-0002-6725-7498",
+			"affiliation": "University of Exeter"
+		},
+		{
+			"name": "Carl Folke",
+			"orcid": "https://orcid.org/0000-0002-4050-3281",
+			"affiliation": "Stockholm Resilience Centre"
+		},
+		{
+			"name": "Diana Liverman",
+			"orcid": "https://orcid.org/0000-0002-3671-1491",
+			"affiliation": "University of Arizona"
+		},
+		{
+			"name": "Colin Summerhayes",
+			"orcid": "https://orcid.org/0000-0002-4638-4260",
+			"affiliation": "University of Cambridge"
+		},
+		{
+			"name": "Anthony D. Barnosky",
+			"orcid": "https://orcid.org/0000-0003-0265-7113",
+			"affiliation": "Stanford University"
+		},
+		{
+			"name": "Sarah Cornell",
+			"orcid": "https://orcid.org/0000-0003-4367-1296",
+			"affiliation": "Stockholm Resilience Centre"
+		},
+		{
+			"name": "Michel Crucifix",
+			"orcid": "https://orcid.org/0000-0002-3437-4911",
+			"affiliation": "Fund for Scientific Research"
+		},
+		{
+			"name": "Jonathan F. Donges",
+			"orcid": "https://orcid.org/0000-0001-5233-7703",
+			"affiliation": "Stockholm Resilience Centre"
+		},
+		{
+			"name": "Ingo Fetzer",
+			"orcid": "https://orcid.org/0000-0001-7335-5679",
+			"affiliation": "Stockholm Resilience Centre"
+		},
+		{
+			"name": "Steven J. Lade",
+			"orcid": "https://orcid.org/0000-0001-9719-9826",
+			"affiliation": "Australian National University"
+		},
+		{
+			"name": "Marten Scheffer",
+			"orcid": "https://orcid.org/0000-0002-2100-0312",
+			"affiliation": "Wageningen University & Research"
+		},
+		{
+			"name": "Ricarda Winkelmann",
+			"orcid": "https://orcid.org/0000-0003-1248-3217",
+			"affiliation": "University of Potsdam"
+		},
+		{
+			"name": "Hans Joachim Schellnhuber",
+			"orcid": "https://orcid.org/0000-0001-7453-4935",
+			"affiliation": "Stockholm Resilience Centre"
+		}
+	],
+	"authorCount": 16,
+	"venue": "Proceedings of the National Academy of Sciences",
+	"publisher": "National Academy of Sciences",
+	"year": 2018,
+	"type": "article",
+	"abstract": "We explore the risk that self-reinforcing feedbacks could push the Earth System toward a planetary threshold that, if crossed, could prevent stabilization of the climate at intermediate temperature rises and cause continued warming on a \"Hothouse Earth\" pathway even as human emissions are reduced. Crossing the threshold would lead to a much higher global average temperature than any interglacial in the past 1.2 million years and to sea levels significantly higher than at any time in the Holocene. We examine the evidence that such a threshold might exist and where it might be. If the threshold is crossed, the resulting trajectory would likely cause serious disruptions to ecosystems, society, and economies. Collective human action is required to steer the Earth System away from a potential threshold and stabilize it in a habitable interglacial-like state. Such action entails stewardship of the entire Earth System-biosphere, climate, and societies-and could include decarbonization of the global economy, enhancement of biosphere carbon sinks, behavioral changes, technological innovations, new governance arrangements, and transformed social values.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "bronze",
+		"url": "https://www.pnas.org/content/pnas/115/33/8252.full.pdf"
+	},
+	"citedByCount": 3120,
+	"themes": [
+		"modelisation",
+		"politiques"
+	],
+	"sourceTopics": [
+		"Earth Systems and Cosmic Evolution",
+		"Global Energy and Sustainability Research",
+		"Geology and Paleoclimatology Research"
+	],
+	"url": "https://doi.org/10.1073/pnas.1810141115",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-19"
+	},
+	"addedAt": "2026-08-19",
+	"editorial": {},
+	"glossaryTerms": [
+		"point-de-bascule"
+	]
+}

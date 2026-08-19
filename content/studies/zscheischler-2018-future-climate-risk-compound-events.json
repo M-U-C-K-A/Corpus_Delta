@@ -1,0 +1,95 @@
+{
+	"id": "zscheischler-2018-future-climate-risk-compound-events",
+	"doi": "10.1038/s41558-018-0156-3",
+	"title": "Future climate risk from compound events",
+	"authors": [
+		{
+			"name": "Jakob Zscheischler",
+			"orcid": "https://orcid.org/0000-0001-6045-1629",
+			"affiliation": "ETH Zurich"
+		},
+		{
+			"name": "Seth Westra",
+			"orcid": "https://orcid.org/0000-0003-4023-6061",
+			"affiliation": "The University of Adelaide"
+		},
+		{
+			"name": "Bart van den Hurk",
+			"orcid": "https://orcid.org/0000-0003-3726-7086",
+			"affiliation": "Royal Netherlands Meteorological Institute"
+		},
+		{
+			"name": "Sonia I. Seneviratne",
+			"orcid": "https://orcid.org/0000-0001-9528-2917",
+			"affiliation": "ETH Zurich"
+		},
+		{
+			"name": "Philip J. Ward",
+			"orcid": "https://orcid.org/0000-0001-7702-7859",
+			"affiliation": "Vrije Universiteit Amsterdam"
+		},
+		{
+			"name": "A. J. Pitman",
+			"orcid": "https://orcid.org/0000-0003-0604-3274",
+			"affiliation": "Australian Research Council"
+		},
+		{
+			"name": "Amir AghaKouchak",
+			"orcid": "https://orcid.org/0000-0003-4689-8357",
+			"affiliation": "University of California, Irvine"
+		},
+		{
+			"name": "David N. Bresch",
+			"orcid": "https://orcid.org/0000-0002-8431-4263",
+			"affiliation": "Federal Office of Meteorology and Climatology MeteoSwiss"
+		},
+		{
+			"name": "Michael Leonard",
+			"orcid": "https://orcid.org/0000-0002-9519-3188",
+			"affiliation": "The University of Adelaide"
+		},
+		{
+			"name": "Thomas Wahl",
+			"orcid": "https://orcid.org/0000-0003-3643-5463",
+			"affiliation": "University of Central Florida"
+		},
+		{
+			"name": "Xuebin Zhang",
+			"orcid": "https://orcid.org/0000-0002-6551-6249",
+			"affiliation": "Environment and Climate Change Canada"
+		}
+	],
+	"authorCount": 11,
+	"venue": "Nature Climate Change",
+	"publisher": "Nature Portfolio",
+	"year": 2018,
+	"type": "article",
+	"abstract": null,
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "bronze",
+		"url": "https://www.nature.com/articles/s41558-018-0156-3.pdf"
+	},
+	"citedByCount": 2450,
+	"themes": [
+		"risques",
+		"chaleur"
+	],
+	"sourceTopics": [
+		"Flood Risk Assessment and Management",
+		"Climate variability and models",
+		"Fire effects on ecosystems"
+	],
+	"url": "https://doi.org/10.1038/s41558-018-0156-3",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-19"
+	},
+	"addedAt": "2026-08-19",
+	"editorial": {},
+	"glossaryTerms": [
+		"evenement-compose",
+		"attribution"
+	]
+}

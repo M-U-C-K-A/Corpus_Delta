@@ -1,0 +1,120 @@
+{
+	"id": "oliver-2018-longer-more-frequent-marine-heatwaves",
+	"doi": "10.1038/s41467-018-03732-9",
+	"title": "Longer and more frequent marine heatwaves over the past century",
+	"authors": [
+		{
+			"name": "Eric C. J. Oliver",
+			"orcid": "https://orcid.org/0000-0002-4006-2826",
+			"affiliation": "University of Tasmania"
+		},
+		{
+			"name": "Markus G. Donat",
+			"orcid": "https://orcid.org/0000-0002-0608-7288",
+			"affiliation": "Australian Research Council"
+		},
+		{
+			"name": "Michael T. Burrows",
+			"orcid": "https://orcid.org/0000-0003-4620-5899",
+			"affiliation": "Scottish Association For Marine Science"
+		},
+		{
+			"name": "Pippa J. Moore",
+			"orcid": "https://orcid.org/0000-0002-9889-2216",
+			"affiliation": "Aberystwyth University"
+		},
+		{
+			"name": "Dan A. Smale",
+			"orcid": "https://orcid.org/0000-0003-4157-541X",
+			"affiliation": "Marine Biological Association of the United Kingdom"
+		},
+		{
+			"name": "Lisa V. Alexander",
+			"orcid": "https://orcid.org/0000-0002-5635-2457",
+			"affiliation": "Australian Research Council"
+		},
+		{
+			"name": "Jessica A. Benthuysen",
+			"orcid": "https://orcid.org/0000-0001-7615-6587",
+			"affiliation": "Australian Institute of Marine Science"
+		},
+		{
+			"name": "Ming Feng",
+			"orcid": "https://orcid.org/0000-0002-2855-7092",
+			"affiliation": "CSIRO Oceans and Atmosphere"
+		},
+		{
+			"name": "Alex Sen Gupta",
+			"orcid": "https://orcid.org/0000-0001-5226-871X",
+			"affiliation": "Australian Research Council"
+		},
+		{
+			"name": "Alistair J. Hobday",
+			"orcid": "https://orcid.org/0000-0002-3194-8326",
+			"affiliation": "CSIRO Oceans and Atmosphere"
+		},
+		{
+			"name": "Neil J. Holbrook",
+			"orcid": "https://orcid.org/0000-0002-3523-6254",
+			"affiliation": "University of Tasmania"
+		},
+		{
+			"name": "Sarah Perkins‐Kirkpatrick",
+			"orcid": "https://orcid.org/0000-0001-9443-4915",
+			"affiliation": "Australian Research Council"
+		},
+		{
+			"name": "Hillary A. Scannell",
+			"orcid": "https://orcid.org/0000-0002-6604-1695",
+			"affiliation": "University of Washington"
+		},
+		{
+			"name": "Sandra C. Straub",
+			"orcid": "https://orcid.org/0000-0003-2450-4978",
+			"affiliation": "The University of Western Australia"
+		},
+		{
+			"name": "Thomas Wernberg",
+			"orcid": "https://orcid.org/0000-0003-1185-9745",
+			"affiliation": "The University of Western Australia"
+		}
+	],
+	"authorCount": 15,
+	"venue": "Nature Communications",
+	"publisher": "Nature Portfolio",
+	"year": 2018,
+	"type": "article",
+	"abstract": "Heatwaves are important climatic extremes in atmospheric and oceanic systems that can have devastating and long-term impacts on ecosystems, with subsequent socioeconomic consequences. Recent prominent marine heatwaves have attracted considerable scientific and public interest. Despite this, a comprehensive assessment of how these ocean temperature extremes have been changing globally is missing. Using a range of ocean temperature data including global records of daily satellite observations, daily in situ measurements and gridded monthly in situ-based data sets, we identify significant increases in marine heatwaves over the past century. We find that from 1925 to 2016, global average marine heatwave frequency and duration increased by 34% and 17%, respectively, resulting in a 54% increase in annual marine heatwave days globally. Importantly, these trends can largely be explained by increases in mean ocean temperatures, suggesting that we can expect further increases in marine heatwave days under continued global warming.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "gold",
+		"url": "https://www.nature.com/articles/s41467-018-03732-9.pdf"
+	},
+	"citedByCount": 2126,
+	"themes": [
+		"ocean",
+		"chaleur"
+	],
+	"sourceTopics": [
+		"Climate variability and models",
+		"Oceanographic and Atmospheric Processes",
+		"Meteorological Phenomena and Simulations"
+	],
+	"url": "https://doi.org/10.1038/s41467-018-03732-9",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-19"
+	},
+	"addedAt": "2026-08-19",
+	"editorial": {
+		"fr": {
+			"summary": "Analyse de l'évolution des canicules marines sur le siècle écoulé, montrant qu'elles sont devenues plus longues et plus fréquentes.",
+			"relevance": "A contribué à installer la canicule marine comme objet d'étude distinct du réchauffement graduel, ce que justifie la vulnérabilité particulière des organismes fixes aux épisodes brefs et intenses."
+		}
+	},
+	"glossaryTerms": [
+		"canicule",
+		"desoxygenation-des-oceans"
+	]
+}

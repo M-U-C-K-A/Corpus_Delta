@@ -1,0 +1,136 @@
+{
+	"id": "pecl-2017-biodiversity-redistribution-under-climate-change",
+	"doi": "10.1126/science.aai9214",
+	"title": "Biodiversity redistribution under climate change: Impacts on ecosystems and human well-being",
+	"authors": [
+		{
+			"name": "GT Pecl",
+			"orcid": "https://orcid.org/0000-0003-0192-4339",
+			"affiliation": "Australian Antarctic Division"
+		},
+		{
+			"name": "Miguel B. Araújo",
+			"orcid": "https://orcid.org/0000-0002-5107-7265",
+			"affiliation": "University of Copenhagen"
+		},
+		{
+			"name": "Johann D. Bell",
+			"orcid": "https://orcid.org/0000-0003-2152-536X",
+			"affiliation": "Conservation International"
+		},
+		{
+			"name": "Julia L. Blanchard",
+			"orcid": "https://orcid.org/0000-0003-0532-4824",
+			"affiliation": "Australian Antarctic Division"
+		},
+		{
+			"name": "Timothy C. Bonebrake",
+			"orcid": "https://orcid.org/0000-0001-9999-2254",
+			"affiliation": "University of Hong Kong"
+		},
+		{
+			"name": "I‐Ching Chen",
+			"affiliation": "National Cheng Kung University"
+		},
+		{
+			"name": "Thomas D. Clark",
+			"orcid": "https://orcid.org/0000-0001-8738-3347",
+			"affiliation": "CSIRO Oceans and Atmosphere"
+		},
+		{
+			"name": "Robert K. Colwell",
+			"orcid": "https://orcid.org/0000-0002-1384-0354",
+			"affiliation": "University of Copenhagen"
+		},
+		{
+			"name": "Finn Danielsen",
+			"orcid": "https://orcid.org/0000-0003-0229-2847",
+			"affiliation": "Nordisk Fond for Miljø og Udvikling"
+		},
+		{
+			"name": "Birgitta Evengård",
+			"orcid": "https://orcid.org/0000-0003-4843-8039",
+			"affiliation": "Umeå University"
+		},
+		{
+			"name": "Lorena Falconi",
+			"orcid": "https://orcid.org/0000-0002-4766-0327",
+			"affiliation": "James Cook University"
+		},
+		{
+			"name": "Simon Ferrier",
+			"orcid": "https://orcid.org/0000-0001-7884-2388",
+			"affiliation": "CSIRO Land and Water"
+		},
+		{
+			"name": "SD Frusher",
+			"orcid": "https://orcid.org/0000-0003-2493-3676",
+			"affiliation": "Australian Antarctic Division"
+		},
+		{
+			"name": "Raquel A. Garcia",
+			"orcid": "https://orcid.org/0000-0001-6523-0585",
+			"affiliation": "University of Cape Town"
+		},
+		{
+			"name": "Roger B. Griffis",
+			"orcid": "https://orcid.org/0000-0001-9329-2230",
+			"affiliation": "National Oceanic and Atmospheric Administration"
+		},
+		{
+			"name": "Alistair J. Hobday",
+			"orcid": "https://orcid.org/0000-0002-3194-8326",
+			"affiliation": "CSIRO Oceans and Atmosphere"
+		},
+		{
+			"name": "Charlene Janion‐Scheepers",
+			"orcid": "https://orcid.org/0000-0001-5942-7912",
+			"affiliation": "Monash University"
+		},
+		{
+			"name": "Marta A. Jarzyna",
+			"orcid": "https://orcid.org/0000-0002-6734-0566",
+			"affiliation": "Yale University"
+		},
+		{
+			"name": "Sarah Jennings",
+			"orcid": "https://orcid.org/0000-0002-5760-4193",
+			"affiliation": "University of Tasmania"
+		},
+		{
+			"name": "Jonathan Lenoir",
+			"orcid": "https://orcid.org/0000-0003-0638-9582",
+			"affiliation": "Centre National de la Recherche Scientifique"
+		}
+	],
+	"authorCount": 41,
+	"venue": "Science",
+	"publisher": "American Association for the Advancement of Science",
+	"year": 2017,
+	"type": "article",
+	"abstract": "Distributions of Earth's species are changing at accelerating rates, increasingly driven by human-mediated climate change. Such changes are already altering the composition of ecological communities, but beyond conservation of natural systems, how and why does this matter? We review evidence that climate-driven species redistribution at regional to global scales affects ecosystem functioning, human well-being, and the dynamics of climate change itself. Production of natural resources required for food security, patterns of disease transmission, and processes of carbon sequestration are all altered by changes in species distribution. Consideration of these effects of biodiversity redistribution is critical yet lacking in most mitigation and adaptation strategies, including the United Nation's Sustainable Development Goals.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "green",
+		"url": "https://eprints.qut.edu.au/204738/1/68443168.pdf"
+	},
+	"citedByCount": 3640,
+	"themes": [
+		"biodiversite",
+		"ocean"
+	],
+	"sourceTopics": [
+		"Land Use and Ecosystem Services",
+		"Conservation, Biodiversity, and Resource Management",
+		"Species Distribution and Climate Change"
+	],
+	"url": "https://doi.org/10.1126/science.aai9214",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-19"
+	},
+	"addedAt": "2026-08-19",
+	"editorial": {},
+	"glossaryTerms": []
+}

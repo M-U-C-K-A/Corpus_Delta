@@ -1,0 +1,99 @@
+{
+	"id": "hugonnet-2021-accelerated-global-glacier-mass-loss",
+	"doi": "10.1038/s41586-021-03436-z",
+	"title": "Accelerated global glacier mass loss in the early twenty-first century",
+	"authors": [
+		{
+			"name": "Romain Hugonnet",
+			"orcid": "https://orcid.org/0000-0002-0955-1306",
+			"affiliation": "Centre National de la Recherche Scientifique"
+		},
+		{
+			"name": "Robert McNabb",
+			"orcid": "https://orcid.org/0000-0003-0016-493X",
+			"affiliation": "University of Ulster"
+		},
+		{
+			"name": "Étienne Berthier",
+			"orcid": "https://orcid.org/0000-0001-5978-9155",
+			"affiliation": "Centre National de la Recherche Scientifique"
+		},
+		{
+			"name": "Brian Menounos",
+			"orcid": "https://orcid.org/0000-0002-3370-4392",
+			"affiliation": "University of Northern British Columbia"
+		},
+		{
+			"name": "Christopher Nuth",
+			"orcid": "https://orcid.org/0000-0002-1063-2832",
+			"affiliation": "Norwegian Defence Research Establishment"
+		},
+		{
+			"name": "Luc Girod",
+			"orcid": "https://orcid.org/0000-0003-3627-5885",
+			"affiliation": "University of Oslo"
+		},
+		{
+			"name": "Daniel Farinotti",
+			"orcid": "https://orcid.org/0000-0003-3417-4570",
+			"affiliation": "University of Fribourg"
+		},
+		{
+			"name": "Matthias Huss",
+			"orcid": "https://orcid.org/0000-0002-2377-6923",
+			"affiliation": "University of Fribourg"
+		},
+		{
+			"name": "Inés Dussaillant",
+			"orcid": "https://orcid.org/0000-0003-0617-7731",
+			"affiliation": "Centre National de la Recherche Scientifique"
+		},
+		{
+			"name": "Fanny Brun",
+			"orcid": "https://orcid.org/0000-0001-6607-0667",
+			"affiliation": "Institut polytechnique de Grenoble"
+		},
+		{
+			"name": "Andreas Kääb",
+			"orcid": "https://orcid.org/0000-0002-6017-6564",
+			"affiliation": "University of Oslo"
+		}
+	],
+	"authorCount": 11,
+	"venue": "Nature",
+	"publisher": "Nature Portfolio",
+	"year": 2021,
+	"type": "article",
+	"abstract": null,
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "green",
+		"url": "https://pure.ulster.ac.uk/en/publications/be02e8ac-8b69-4bbd-aad0-8915b238b988"
+	},
+	"citedByCount": 37,
+	"themes": [
+		"cryosphere"
+	],
+	"sourceTopics": [
+		"Cryospheric studies and observations",
+		"Winter Sports Injuries and Performance",
+		"Climate change and permafrost"
+	],
+	"url": "https://doi.org/10.1038/s41586-021-03436-z",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-19"
+	},
+	"addedAt": "2026-08-19",
+	"editorial": {
+		"fr": {
+			"summary": "Bilan de masse de la quasi-totalité des glaciers du monde par imagerie satellitaire, mettant en évidence une accélération de la perte au début du XXIe siècle.",
+			"relevance": "L'intérêt tient à la couverture : là où les mesures de terrain ne concernaient qu'une poignée de glaciers témoins, l'approche satellitaire les traite presque tous, ce qui retire l'argument de l'échantillon non représentatif."
+		}
+	},
+	"glossaryTerms": [
+		"albedo",
+		"anomalie-de-temperature"
+	]
+}

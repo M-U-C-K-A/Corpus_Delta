@@ -1,0 +1,127 @@
+{
+	"id": "friedlingstein-2023-global-carbon-budget-2023",
+	"doi": "10.5194/essd-15-5301-2023",
+	"title": "Global Carbon Budget 2023",
+	"authors": [
+		{
+			"name": "Pierre Friedlingstein",
+			"orcid": "https://orcid.org/0000-0003-3309-4739",
+			"affiliation": "Laboratoire de Météorologie Dynamique"
+		},
+		{
+			"name": "Michael O’Sullivan",
+			"orcid": "https://orcid.org/0000-0002-6278-3392"
+		},
+		{
+			"name": "Matthew W. Jones",
+			"orcid": "https://orcid.org/0000-0003-3480-7980"
+		},
+		{
+			"name": "Robbie M. Andrew",
+			"orcid": "https://orcid.org/0000-0001-8590-6431"
+		},
+		{
+			"name": "Dorothée C. E. Bakker",
+			"orcid": "https://orcid.org/0000-0001-9234-5337"
+		},
+		{
+			"name": "Judith Hauck",
+			"orcid": "https://orcid.org/0000-0003-4723-9652"
+		},
+		{
+			"name": "Peter Landschützer",
+			"orcid": "https://orcid.org/0000-0002-7398-3293"
+		},
+		{
+			"name": "Corinne Le Quéré",
+			"orcid": "https://orcid.org/0000-0003-2319-0452"
+		},
+		{
+			"name": "Ingrid T. Luijkx",
+			"orcid": "https://orcid.org/0000-0002-3990-6737"
+		},
+		{
+			"name": "Glen P. Peters",
+			"orcid": "https://orcid.org/0000-0001-7889-8568"
+		},
+		{
+			"name": "Wouter Peters",
+			"orcid": "https://orcid.org/0000-0001-8166-2070"
+		},
+		{
+			"name": "Julia Pongratz",
+			"orcid": "https://orcid.org/0000-0003-0372-3960"
+		},
+		{
+			"name": "Clemens Schwingshackl",
+			"orcid": "https://orcid.org/0000-0003-4048-3011"
+		},
+		{
+			"name": "Stephen Sitch",
+			"orcid": "https://orcid.org/0000-0003-1821-8561"
+		},
+		{
+			"name": "Josep G. Canadell",
+			"orcid": "https://orcid.org/0000-0002-8788-3218"
+		},
+		{
+			"name": "Philippe Ciais",
+			"orcid": "https://orcid.org/0000-0001-8560-4943",
+			"affiliation": "Laboratoire des Sciences du Climat et de l'Environnement"
+		},
+		{
+			"name": "Robert B. Jackson",
+			"orcid": "https://orcid.org/0000-0001-8846-7147"
+		},
+		{
+			"name": "Simone R. Alin",
+			"orcid": "https://orcid.org/0000-0002-8283-1910"
+		},
+		{
+			"name": "Peter Anthoni",
+			"orcid": "https://orcid.org/0000-0001-5459-6506"
+		},
+		{
+			"name": "Leticia Barbero",
+			"orcid": "https://orcid.org/0000-0002-8858-5247"
+		}
+	],
+	"authorCount": 123,
+	"venue": "Earth system science data",
+	"publisher": "Copernicus Publications",
+	"year": 2023,
+	"type": "article",
+	"abstract": "Abstract. Accurate assessment of anthropogenic carbon dioxide (CO2) emissions and their redistribution among the atmosphere, ocean, and terrestrial biosphere in a changing climate is critical to better understand the global carbon cycle, support the development of climate policies, and project future climate change. Here we describe and synthesize data sets and methodology to quantify the five major components of the global carbon budget and their uncertainties. Fossil CO2 emissions (EFOS) are based on energy statistics and cement production data, while emissions from land-use change (ELUC), mainly deforestation, are based on land-use and land-use change data and bookkeeping models. Atmospheric CO2 concentration is measured directly, and its growth rate (GATM) is computed from the annual changes in concentration. The ocean CO2 sink (SOCEAN) is estimated with global ocean biogeochemistry models and observation-based fCO2 products. The terrestrial CO2 sink (SLAND) is estimated with dynamic global vegetation models. Additional lines of evidence on land and ocean sinks are provided by atmospheric inversions, atmospheric oxygen measurements, and Earth system models. The resulting carbon budget imbalance (BIM), the difference between the estimated total emissions and the estimated changes in the atmosphere, ocean, and terrestrial biosphere, is a measure of imperfect data and incomplete understanding of the contemporary carbon cycle. All uncertainties are reported as ±1σ. For the year 2022, EFOS increased by 0.9 % relative to 2021, with fossil emissions at 9.9±0.5 Gt C yr−1 (10.2±0.5 Gt C yr−1 when the cement carbonation sink is not included), and ELUC was 1.2±0.7 Gt C yr−1, for a total anthropogenic CO2 emission (including the cement carbonation sink) of 11.1±0.8 Gt C yr−1 (40.7±3.2 Gt CO2 yr−1). Also, for 2022, GATM was 4.6±0.2 Gt C yr−1 (2.18±0.1 ppm yr−1; ppm denotes parts per million), SOCEAN was 2.8±0.4 Gt C yr−1, and SLAND was 3.8±0.8 Gt C yr−1, with a BIM of −0.1 Gt C yr−1 (i.e. total estimated sources marginally too low or sinks marginally too high). The global atmospheric CO2 concentration averaged over 2022 reached 417.1±0.1 ppm. Preliminary data for 2023 suggest an increase in EFOS relative to 2022 of +1.1 % (0.0 % to 2.1 %) globally and atmospheric CO2 concentration reaching 419.3 ppm, 51 % above the pre-industrial level (around 278 ppm in 1750). Overall, the mean of and trend in the components of the global carbon budget are consistently estimated over the period 1959–2022, with a near-zero overall budget imbalance, although discrepancies of up to around 1 Gt C yr−1 persist for the representation of annual to semi-decadal variability in CO2 fluxes. Comparison of estimates from multiple approaches and observations shows the following: (1) a persistent large uncertainty in the estimate of land-use changes emissions, (2) a low agreement between the different methods on the magnitude of the land CO2 flux in the northern extra-tropics, and (3) a discrepancy between the different methods on the strength of the ocean sink over the last decade. This living-data update documents changes in methods and data sets applied to this most recent global carbon budget as well as evolving community understanding of the global carbon cycle. The data presented in this work are available at https://doi.org/10.18160/GCP-2023 (Friedlingstein et al., 2023).",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "gold",
+		"url": "https://doi.org/10.5194/essd-15-5301-2023"
+	},
+	"citedByCount": 1444,
+	"themes": [
+		"carbone",
+		"observation"
+	],
+	"sourceTopics": [
+		"Atmospheric and Environmental Gas Dynamics",
+		"Atmospheric chemistry and aerosols",
+		"Climate variability and models"
+	],
+	"url": "https://doi.org/10.5194/essd-15-5301-2023",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-19"
+	},
+	"addedAt": "2026-08-19",
+	"editorial": {
+		"fr": {
+			"summary": "L'estimation annuelle de référence des flux de carbone entre activités humaines, atmosphère, océan et continents.",
+			"relevance": "Publiée chaque année par un consortium international, elle affiche explicitement son déséquilibre résiduel plutôt que de le répartir entre les postes — un choix méthodologique qui donne la mesure honnête de ce qui reste mal contraint."
+		}
+	},
+	"glossaryTerms": [
+		"puits-de-carbone",
+		"forcage-radiatif"
+	]
+}

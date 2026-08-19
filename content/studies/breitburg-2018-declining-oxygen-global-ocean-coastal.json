@@ -1,0 +1,138 @@
+{
+	"id": "breitburg-2018-declining-oxygen-global-ocean-coastal",
+	"doi": "10.1126/science.aam7240",
+	"title": "Declining oxygen in the global ocean and coastal waters",
+	"authors": [
+		{
+			"name": "Denise L. Breitburg",
+			"orcid": "https://orcid.org/0000-0002-5453-6973",
+			"affiliation": "Smithsonian Environmental Research Center"
+		},
+		{
+			"name": "Lisa A. Levin",
+			"orcid": "https://orcid.org/0000-0002-2858-8622",
+			"affiliation": "Scripps Institution of Oceanography"
+		},
+		{
+			"name": "Andreas Oschlies",
+			"orcid": "https://orcid.org/0000-0002-8295-4013",
+			"affiliation": "GEOMAR Helmholtz Centre for Ocean Research Kiel"
+		},
+		{
+			"name": "Marilaure Grégoire",
+			"orcid": "https://orcid.org/0000-0002-3726-0426",
+			"affiliation": "University of Liège"
+		},
+		{
+			"name": "Francisco P. Chávez",
+			"orcid": "https://orcid.org/0000-0002-0691-292X",
+			"affiliation": "Monterey Bay Aquarium Research Institute"
+		},
+		{
+			"name": "Daniel J. Conley",
+			"orcid": "https://orcid.org/0000-0001-9668-9284",
+			"affiliation": "Lund University"
+		},
+		{
+			"name": "Véronique Garçon",
+			"orcid": "https://orcid.org/0000-0002-4041-1379",
+			"affiliation": "Centre National de la Recherche Scientifique"
+		},
+		{
+			"name": "Denis Gilbert",
+			"orcid": "https://orcid.org/0000-0002-9554-9594",
+			"affiliation": "Fisheries and Oceans Canada"
+		},
+		{
+			"name": "Dimitri Gutiérrez",
+			"orcid": "https://orcid.org/0000-0001-5443-6924",
+			"affiliation": "Universidad Peruana Cayetano Heredia"
+		},
+		{
+			"name": "Kirsten Isensee",
+			"orcid": "https://orcid.org/0000-0002-9072-6109",
+			"affiliation": "Intergovernmental Oceanographic Commission of UNESCO"
+		},
+		{
+			"name": "Gil S. Jacinto",
+			"orcid": "https://orcid.org/0000-0002-5651-3994",
+			"affiliation": "University of the Philippines Diliman"
+		},
+		{
+			"name": "Karin E. Limburg",
+			"orcid": "https://orcid.org/0000-0003-3716-8555",
+			"affiliation": "State University of New York"
+		},
+		{
+			"name": "Ivonne Montès",
+			"orcid": "https://orcid.org/0000-0002-4262-1804",
+			"affiliation": "Instituto Geofísico del Perú"
+		},
+		{
+			"name": "S.W.A. Naqvi",
+			"orcid": "https://orcid.org/0000-0003-4168-0228",
+			"affiliation": "Kuwait Institute for Scientific Research"
+		},
+		{
+			"name": "Grant C. Pitcher",
+			"orcid": "https://orcid.org/0000-0001-8536-9314",
+			"affiliation": "University of Cape Town"
+		},
+		{
+			"name": "Nancy N. Rabalais",
+			"orcid": "https://orcid.org/0000-0002-1514-837X",
+			"affiliation": "Louisiana State University"
+		},
+		{
+			"name": "Michael R. Roman",
+			"orcid": "https://orcid.org/0000-0003-3490-0456",
+			"affiliation": "University of Maryland Center for Environmental Science"
+		},
+		{
+			"name": "Kenneth A. Rose",
+			"orcid": "https://orcid.org/0000-0002-9310-8410",
+			"affiliation": "University of Maryland Center for Environmental Science"
+		},
+		{
+			"name": "Brad A. Seibel",
+			"orcid": "https://orcid.org/0000-0002-5391-0492",
+			"affiliation": "University of South Florida St. Petersburg"
+		},
+		{
+			"name": "Maciej Telszewski",
+			"orcid": "https://orcid.org/0000-0002-9139-226X",
+			"affiliation": "Instytut Oceanologii Polskiej Akademii Nauk"
+		}
+	],
+	"authorCount": 22,
+	"venue": "Science",
+	"publisher": "American Association for the Advancement of Science",
+	"year": 2018,
+	"type": "article",
+	"abstract": "Oxygen is fundamental to life. Not only is it essential for the survival of individual animals, but it regulates global cycles of major nutrients and carbon. The oxygen content of the open ocean and coastal waters has been declining for at least the past half-century, largely because of human activities that have increased global temperatures and nutrients discharged to coastal waters. These changes have accelerated consumption of oxygen by microbial respiration, reduced solubility of oxygen in water, and reduced the rate of oxygen resupply from the atmosphere to the ocean interior, with a wide range of biological and ecological consequences. Further research is needed to understand and predict long-term, global- and regional-scale oxygen changes and their effects on marine and estuarine fisheries and ecosystems.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "green",
+		"url": "https://repository.library.noaa.gov/view/noaa/60289/noaa_60289_DS1.pdf"
+	},
+	"citedByCount": 3268,
+	"themes": [
+		"ocean"
+	],
+	"sourceTopics": [
+		"Ocean Acidification Effects and Responses",
+		"Marine and coastal ecosystems",
+		"Marine Bivalve and Aquaculture Studies"
+	],
+	"url": "https://doi.org/10.1126/science.aam7240",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-19"
+	},
+	"addedAt": "2026-08-19",
+	"editorial": {},
+	"glossaryTerms": [
+		"desoxygenation-des-oceans"
+	]
+}

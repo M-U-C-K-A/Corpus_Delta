@@ -1,0 +1,133 @@
+{
+	"id": "willett-2019-food-anthropocene-eat-lancet-commission",
+	"doi": "10.1016/s0140-6736(18)31788-4",
+	"title": "Food in the Anthropocene: the EAT–Lancet Commission on healthy diets from sustainable food systems",
+	"authors": [
+		{
+			"name": "Walter C. Willett",
+			"orcid": "https://orcid.org/0000-0003-1458-7597",
+			"affiliation": "Brigham and Women's Hospital"
+		},
+		{
+			"name": "Johan Rockström",
+			"orcid": "https://orcid.org/0000-0001-8988-2983",
+			"affiliation": "Stockholm Resilience Centre"
+		},
+		{
+			"name": "Brent Loken",
+			"orcid": "https://orcid.org/0000-0002-0068-3142",
+			"affiliation": "Stockholm Resilience Centre"
+		},
+		{
+			"name": "Marco Springmann",
+			"orcid": "https://orcid.org/0000-0001-6028-5712",
+			"affiliation": "University of Oxford"
+		},
+		{
+			"name": "Tim Lang",
+			"affiliation": "City, University of London"
+		},
+		{
+			"name": "Sonja Vermeulen",
+			"affiliation": "Chatham House"
+		},
+		{
+			"name": "Tara Garnett",
+			"orcid": "https://orcid.org/0000-0002-3900-9825",
+			"affiliation": "University of Oxford"
+		},
+		{
+			"name": "David Tilman",
+			"orcid": "https://orcid.org/0000-0001-6395-7676",
+			"affiliation": "University of Minnesota"
+		},
+		{
+			"name": "Fabrice DeClerck",
+			"orcid": "https://orcid.org/0000-0002-3631-8745",
+			"affiliation": "CGIAR"
+		},
+		{
+			"name": "Amanda Wood",
+			"orcid": "https://orcid.org/0000-0001-6977-9145",
+			"affiliation": "Stockholm Resilience Centre"
+		},
+		{
+			"name": "Malin Jonell",
+			"orcid": "https://orcid.org/0000-0002-1813-7684",
+			"affiliation": "Stockholm Resilience Centre"
+		},
+		{
+			"name": "Michael Clark",
+			"orcid": "https://orcid.org/0000-0001-7161-7751",
+			"affiliation": "University of Minnesota"
+		},
+		{
+			"name": "Line Gordon",
+			"orcid": "https://orcid.org/0000-0002-3520-4340",
+			"affiliation": "Stockholm Resilience Centre"
+		},
+		{
+			"name": "Jessica Fanzo",
+			"orcid": "https://orcid.org/0000-0002-6760-1359",
+			"affiliation": "Johns Hopkins University"
+		},
+		{
+			"name": "Corinna Hawkes",
+			"orcid": "https://orcid.org/0000-0002-5091-878X",
+			"affiliation": "City, University of London"
+		},
+		{
+			"name": "Rami Zurayk",
+			"orcid": "https://orcid.org/0000-0003-0446-0824",
+			"affiliation": "American University of Beirut"
+		},
+		{
+			"name": "Juan Á. Rivera",
+			"orcid": "https://orcid.org/0000-0003-2586-4908",
+			"affiliation": "Instituto Nacional de Salud Pública"
+		},
+		{
+			"name": "W. de Vries",
+			"orcid": "https://orcid.org/0000-0001-9974-0612",
+			"affiliation": "Wageningen University & Research"
+		},
+		{
+			"name": "Lindiwe Majele Sibanda"
+		},
+		{
+			"name": "Ashkan Afshin",
+			"orcid": "https://orcid.org/0000-0001-6239-8809",
+			"affiliation": "University of Washington"
+		}
+	],
+	"authorCount": 37,
+	"venue": "The Lancet",
+	"publisher": "Elsevier BV",
+	"year": 2019,
+	"type": "article",
+	"abstract": null,
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "green",
+		"url": "https://research.wur.nl/en/publications/food-in-the-anthropocene-the-eatlancet-commission-on-healthy-diet"
+	},
+	"citedByCount": 10776,
+	"themes": [
+		"agriculture",
+		"sante"
+	],
+	"sourceTopics": [
+		"Agriculture Sustainability and Environmental Impact",
+		"Nutritional Studies and Diet",
+		"Climate Change and Health Impacts"
+	],
+	"url": "https://doi.org/10.1016/s0140-6736(18)31788-4",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-19"
+	},
+	"addedAt": "2026-08-19",
+	"editorial": {},
+	"glossaryTerms": []
+}
