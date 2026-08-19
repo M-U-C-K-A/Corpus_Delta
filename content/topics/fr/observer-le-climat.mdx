@@ -1,0 +1,74 @@
+---
+title: "Observer le climat"
+description: "Comment on obtient une température moyenne du globe, ce qu'apportent les réanalyses, et pourquoi l'observation est un travail de reconstruction."
+themes: ["observation", "modelisation"]
+studies:
+  - "munoz-sabater-2021-era5-land-state-art-global"
+  - "eyring-2016-overview-coupled-model-intercomparison-project"
+  - "friedlingstein-2023-global-carbon-budget-2023"
+glossary: ["anomalie-de-temperature", "forcage-radiatif", "sensibilite-climatique"]
+sources:
+  - label: "GISS Surface Temperature Analysis (GISTEMP v4)"
+    url: "https://data.giss.nasa.gov/gistemp/"
+    publisher: "NASA Goddard Institute for Space Studies"
+  - label: "Climate indicators — Temperature"
+    url: "https://climate.copernicus.eu/climate-indicators/temperature"
+    publisher: "Copernicus Climate Change Service"
+  - label: "Trends in Atmospheric Carbon Dioxide"
+    url: "https://gml.noaa.gov/ccgg/trends/"
+    publisher: "NOAA Global Monitoring Laboratory"
+updatedAt: "2026-08-19"
+---
+
+Une « température moyenne du globe » n'existe nulle part comme mesure directe. C'est une
+grandeur reconstruite, et comprendre comment elle l'est écarte l'essentiel des objections
+qu'on lui oppose.
+
+## Le problème des stations
+
+Le réseau d'observation n'a jamais été régulier. Les stations sont concentrées dans les
+régions habitées et riches, elles ont déménagé, changé d'instrument, vu leur environnement
+s'urbaniser. Moyenner brutalement leurs relevés produirait un résultat gouverné par cette
+géographie plutôt que par le climat.
+
+La solution tient en un déplacement : on ne moyenne pas les températures, on moyenne les
+<Term id="anomalie-de-temperature">anomalies</Term> — les écarts de chaque station à sa
+propre normale. Les anomalies se comportent de façon cohérente sur de vastes régions, là où
+les températures absolues ne le font pas, ce qui permet d'interpoler entre les stations
+sans invention.
+
+<Callout variant="info" title="Le contrôle par indépendance">
+Plusieurs équipes — NASA, NOAA, Met Office, Berkeley Earth — produisent séparément une série
+globale, avec des méthodes d'homogénéisation et d'interpolation différentes. Leurs résultats
+concordent. C'est cette convergence entre approches indépendantes, plus que la qualité d'une
+méthode particulière, qui fonde la confiance dans le signal.
+</Callout>
+
+## Les réanalyses : combler les trous par la physique
+
+Les stations ne couvrent pas les océans, les déserts ni les pôles de façon homogène. Une
+**réanalyse** répond à ce problème en faisant tourner un modèle météorologique sur le passé,
+en le contraignant en permanence par toutes les observations disponibles — stations,
+bouées, navires, radiosondages, satellites.
+
+Le résultat n'est ni une observation pure ni une simulation libre : c'est l'état de
+l'atmosphère le plus cohérent avec l'ensemble des mesures et avec les lois physiques. Ces
+produits sont devenus la référence pour l'étude des extrêmes, parce qu'ils fournissent des
+champs complets et réguliers <Cite id="munoz-sabater-2021-era5-land-state-art-global" />.
+
+## Mesurer directement ce qui peut l'être
+
+Toutes les grandeurs ne demandent pas cette reconstruction. La concentration atmosphérique
+de CO₂ se mesure directement, en des points choisis loin des sources locales, et sa série
+compte parmi les plus fiables de la science du climat. C'est ce qui en fait le point
+d'ancrage du <Term id="forcage-radiatif">bilan radiatif</Term> et du budget carbone
+<Cite id="friedlingstein-2023-global-carbon-budget-2023" />.
+
+## Observation et modélisation ne s'opposent pas
+
+Les observations servent à construire les modèles, à les évaluer, et à contraindre leurs
+paramètres — au premier rang desquels la
+<Term id="sensibilite-climatique">sensibilité climatique</Term>. Les protocoles
+d'intercomparaison confrontent systématiquement les simulations aux observations sur la
+période historique avant d'accorder du crédit à leurs projections
+<Cite id="eyring-2016-overview-coupled-model-intercomparison-project" />.
