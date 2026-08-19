@@ -23,48 +23,14 @@ export const Header = () => {
             description: "",
         },
         {
-            title: "Product",
-            description: "Managing a small business today is already tough.",
-            items: [
-                {
-                    title: "Reports",
-                    href: "/reports",
-                },
-                {
-                    title: "Statistics",
-                    href: "/statistics",
-                },
-                {
-                    title: "Dashboards",
-                    href: "/dashboards",
-                },
-                {
-                    title: "Recordings",
-                    href: "/recordings",
-                },
-            ],
+            title: "Articles",
+            href: "/articles",
+            description: "Read our latest articles.",
         },
         {
-            title: "Company",
-            description: "Managing a small business today is already tough.",
-            items: [
-                {
-                    title: "About us",
-                    href: "/about",
-                },
-                {
-                    title: "Fundraising",
-                    href: "/fundraising",
-                },
-                {
-                    title: "Investors",
-                    href: "/investors",
-                },
-                {
-                    title: "Contact us",
-                    href: "/contact",
-                },
-            ],
+            title: "Write",
+            href: "/editor",
+            description: "Collaborate by writing an article.",
         },
     ];
 
@@ -77,46 +43,11 @@ export const Header = () => {
                         <NavigationMenuList className="flex justify-start gap-4 flex-row">
                             {navigationItems.map((item) => (
                                 <NavigationMenuItem key={item.title}>
-                                    {item.href ? (
-                                        <>
-                                            <NavigationMenuLink>
-                                                <Button variant="ghost">{item.title}</Button>
-                                            </NavigationMenuLink>
-                                        </>
-                                    ) : (
-                                        <>
-                                            <NavigationMenuTrigger className="font-medium text-sm">
-                                                {item.title}
-                                            </NavigationMenuTrigger>
-                                            <NavigationMenuContent className="!w-[450px] p-4">
-                                                <div className="flex flex-col lg:grid grid-cols-2 gap-4">
-                                                    <div className="flex flex-col h-full justify-between">
-                                                        <div className="flex flex-col">
-                                                            <p className="text-base">{item.title}</p>
-                                                            <p className="text-muted-foreground text-sm">
-                                                                {item.description}
-                                                            </p>
-                                                        </div>
-                                                        <Button size="sm" className="mt-10">
-                                                            Book a call today
-                                                        </Button>
-                                                    </div>
-                                                    <div className="flex flex-col text-sm h-full justify-end">
-                                                        {item.items?.map((subItem) => (
-                                                            <NavigationMenuLink
-                                                                href={subItem.href}
-                                                                key={subItem.title}
-                                                                className="flex flex-row justify-between items-center hover:bg-muted py-2 px-4 rounded"
-                                                            >
-                                                                <span>{subItem.title}</span>
-                                                                <MoveRight className="w-4 h-4 text-muted-foreground" />
-                                                            </NavigationMenuLink>
-                                                        ))}
-                                                    </div>
-                                                </div>
-                                            </NavigationMenuContent>
-                                        </>
-                                    )}
+                                    <Link href={item.href} legacyBehavior passHref>
+                                        <NavigationMenuLink className="group inline-flex h-9 w-max items-center justify-center rounded-md bg-background px-4 py-2 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-accent/50 data-[state=open]:bg-accent/50">
+                                            {item.title}
+                                        </NavigationMenuLink>
+                                    </Link>
                                 </NavigationMenuItem>
                             ))}
                         </NavigationMenuList>
@@ -141,30 +72,13 @@ export const Header = () => {
                             {navigationItems.map((item) => (
                                 <div key={item.title}>
                                     <div className="flex flex-col gap-2">
-                                        {item.href ? (
-                                            <Link
-                                                href={item.href}
-                                                className="flex justify-between items-center"
-                                            >
-                                                <span className="text-lg">{item.title}</span>
-                                                <MoveRight className="w-4 h-4 stroke-1 text-muted-foreground" />
-                                            </Link>
-                                        ) : (
-                                            <p className="text-lg">{item.title}</p>
-                                        )}
-                                        {item.items &&
-                                            item.items.map((subItem) => (
-                                                <Link
-                                                    key={subItem.title}
-                                                    href={subItem.href}
-                                                    className="flex justify-between items-center"
-                                                >
-                                                    <span className="text-muted-foreground">
-                                                        {subItem.title}
-                                                    </span>
-                                                    <MoveRight className="w-4 h-4 stroke-1" />
-                                                </Link>
-                                            ))}
+                                        <Link
+                                            href={item.href}
+                                            className="flex justify-between items-center"
+                                        >
+                                            <span className="text-lg">{item.title}</span>
+                                            <MoveRight className="w-4 h-4 stroke-1 text-muted-foreground" />
+                                        </Link>
                                     </div>
                                 </div>
                             ))}

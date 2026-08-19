@@ -10,14 +10,14 @@ export default function Home() {
   return (
     <>
       <Header />
-      <main className="flex dark:bg-red-foreground min-h-screen flex-col items-center justify-between gap-10 lg:gap-20 md:my-20 lg:my-40">
+      <main className="flex min-h-screen flex-col items-center justify-between gap-20 py-20 lg:py-40">
         <Hero />
-        <Article/>
+        <Article />
         <Case />
-        <CTA/>
-        <FAQ/>
+        <CTA />
+        <FAQ />
       </main>
-      <Footer/>
+      <Footer />
     </>
   );
 }
