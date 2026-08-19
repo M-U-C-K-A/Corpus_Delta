@@ -1,0 +1,92 @@
+---
+title: "Climate Modeling"
+description: "How scientists simulate climate evolution."
+image: "articles/climate-models.png"
+date_created: "1710690000"
+author:
+  name: "Dr. Gavin Schmidt"
+  email: "g.schmidt@nasa.gov"
+tags:
+  - "Models"
+  - "Simulation"
+  - "Projections"
+  - "Supercomputers"
+---
+
+# Climate Modeling: Simulating Digital Earth
+
+Climate models are mathematical representations of Earth's climate system. These tools, run on supercomputers, are essential for understanding past, present, and future climate.
+
+## Structure of a Climate Model
+
+![Climate Model Architecture](/articles/climate-models.png)
+
+### Coupled Components
+A modern climate model (ESM - Earth System Model) couples:
+1. **Atmosphere**: Dynamics, thermodynamics, chemistry
+2. **Ocean**: Circulation, temperature, salinity
+3. **Cryosphere**: Sea ice, ice sheets, permafrost
+4. **Terrestrial biosphere**: Vegetation, carbon cycle
+5. **Marine biosphere**: Phytoplankton, biological pump
+
+### Spatial Discretization
+Earth is divided into a 3D grid:
+- **Horizontal resolution**: 50-250 km (typical)
+- **Vertical resolution**: 30-80 atmosphere levels, 40-100 ocean levels
+- **Time step**: Minutes to hours
+
+### Equations Solved
+Models numerically solve equations for:
+- Navier-Stokes (fluid dynamics)
+- Radiative transfer
+- Thermodynamics
+- Mass conservation
+
+## Sub-grid Process Parameterization
+
+Processes smaller than grid cells are "parameterized":
+- Clouds and precipitation
+- Turbulence
+- Convection
+- Ocean waves
+
+This is the main source of uncertainty between models.
+
+## Model Validation
+
+### Tests on Current Climate
+Do models correctly reproduce:
+- Global average temperature ✓
+- Precipitation distribution ✓
+- Ocean circulation ✓
+- Variability (ENSO, NAO) ✓
+
+### Paleoclimate Tests
+Do models correctly simulate:
+- Last Glacial Maximum ✓
+- Mid-Holocene ✓
+- Eocene ✗ (difficulty with very warm climates)
+
+## Projection Scenarios
+
+SSP (Shared Socioeconomic Pathways) scenarios explore different trajectories:
+
+| Scenario | Description | Warming 2100 |
+|----------|-------------|--------------|
+| SSP1-1.9 | Sustainability, 1.5°C | +1.4°C |
+| SSP1-2.6 | Sustainability, 2°C | +1.8°C |
+| SSP2-4.5 | Middle of the road | +2.7°C |
+| SSP3-7.0 | Regional rivalry | +3.6°C |
+| SSP5-8.5 | Fossil-fueled growth | +4.4°C |
+
+## Limitations and Improvements
+
+### Current Limitations
+- Insufficient resolution for local phenomena
+- Uncertainty about cloud feedbacks
+- Tipping points poorly represented
+
+### Future Developments
+- Kilometer-scale resolution (convection-permitting models)
+- Machine learning for parameterizations
+- Exascale computing

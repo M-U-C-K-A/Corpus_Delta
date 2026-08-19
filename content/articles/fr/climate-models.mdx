@@ -1,0 +1,92 @@
+---
+title: "Modélisation Climatique"
+description: "Comment les scientifiques simulent l'évolution du climat."
+image: "articles/climate-models.png"
+date_created: "1710690000"
+author:
+  name: "Dr. Gavin Schmidt"
+  email: "g.schmidt@nasa.gov"
+tags:
+  - "Modèles"
+  - "Simulation"
+  - "Projections"
+  - "Super-calculateurs"
+---
+
+# Modélisation Climatique : Simuler la Terre Numérique
+
+Les modèles climatiques sont des représentations mathématiques du système climatique terrestre. Ces outils, exécutés sur des superordinateurs, sont essentiels pour comprendre le climat passé, présent et futur.
+
+## Structure d'un Modèle Climatique
+
+![Architecture des Modèles Climatiques](/articles/climate-models.png)
+
+### Composantes Couplées
+Un modèle climatique moderne (ESM - Earth System Model) couple :
+1. **Atmosphère** : Dynamique, thermodynamique, chimie
+2. **Océan** : Circulation, température, salinité
+3. **Cryosphère** : Banquise, calottes, pergélisol
+4. **Biosphère terrestre** : Végétation, cycle du carbone
+5. **Biosphère marine** : Phytoplancton, pompe biologique
+
+### Discrétisation Spatiale
+La Terre est divisée en une grille 3D :
+- **Résolution horizontale** : 50-250 km (typique)
+- **Résolution verticale** : 30-80 niveaux atmosphère, 40-100 niveaux océan
+- **Pas de temps** : Minutes à heures
+
+### Équations Résolues
+Les modèles résolvent numériquement les équations de :
+- Navier-Stokes (dynamique des fluides)
+- Transfert radiatif
+- Thermodynamique
+- Conservation de la masse
+
+## Paramétrisation des Processus Sous-maille
+
+Les processus plus petits que la maille sont "paramétrisés" :
+- Nuages et précipitations
+- Turbulence
+- Convection
+- Vagues océaniques
+
+C'est la principale source d'incertitude entre les modèles.
+
+## Validation des Modèles
+
+### Tests sur le Climat Actuel
+Les modèles reproduisent-ils correctement :
+- Température moyenne globale ✓
+- Distribution des précipitations ✓
+- Circulation océanique ✓
+- Variabilité (ENSO, NAO) ✓
+
+### Tests Paléoclimatiques
+Les modèles simulent-ils correctement :
+- Dernier Maximum Glaciaire ✓
+- Holocène moyen ✓
+- Éocène ✗ (difficulté avec les climats très chauds)
+
+## Scénarios de Projection
+
+Les scénarios SSP (Shared Socioeconomic Pathways) explorent différentes trajectoires :
+
+| Scénario | Description | Réchauffement 2100 |
+|----------|-------------|-------------------|
+| SSP1-1.9 | Durabilité, 1.5°C | +1.4°C |
+| SSP1-2.6 | Durabilité, 2°C | +1.8°C |
+| SSP2-4.5 | Milieu de route | +2.7°C |
+| SSP3-7.0 | Rivalités régionales | +3.6°C |
+| SSP5-8.5 | Croissance fossile | +4.4°C |
+
+## Limites et Améliorations
+
+### Limites Actuelles
+- Résolution insuffisante pour les phénomènes locaux
+- Incertitude sur les rétroactions nuageuses
+- Points de basculement mal représentés
+
+### Développements Futurs
+- Résolution kilométrique (modèles "convection-permitting")
+- Machine learning pour les paramétrisations
+- Exascale computing
