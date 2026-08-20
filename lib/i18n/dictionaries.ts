@@ -135,6 +135,19 @@ const fr = {
 		howToRead: "Comment lire cette page",
 		howToReadBody:
 			"Ces séries ne sont pas recopiées : elles sont récupérées automatiquement chez l'organisme qui les produit, avec leur date de relevé. Aucune valeur n'est arrondie ni retraitée.",
+		scenariosTitle: "Comparateur de scénarios",
+		scenariosLead:
+			"Les quatre trajectoires socio-économiques de référence du GIEC, de la plus sobre à la plus émettrice, projetées jusqu'à la fin du siècle.",
+		scenariosCaveat: "Ce que ce graphique n'est pas",
+		scenariosCaveatBody:
+			"Contrairement au reste de cette page, il ne s'agit pas d'une mesure mais d'une projection de modèles. La dispersion est celle de l'ensemble CMIP6 brut : le GIEC publie des fourchettes plus resserrées, obtenues en pondérant les modèles à forte sensibilité climatique. Les deux ne sont pas interchangeables.",
+		levelsTitle: "Quand chaque palier est franchi",
+		levelsLead:
+			"Année médiane de franchissement, sur les modèles qui atteignent le palier avant 2100. Elle désigne le centre d'une fenêtre de vingt ans, pas une date.",
+		levelsColumn: "Palier",
+		levelsNever: "médiane non définie : au plus la moitié des modèles franchissent ce palier",
+		levelsModelOne: "modèle sur",
+		levelsModels: "modèles sur",
 	},
 	paths: {
 		title: "Parcours",
@@ -333,6 +346,19 @@ const en: Dictionary = {
 		howToRead: "How to read this page",
 		howToReadBody:
 			"These series are not transcribed: they are fetched automatically from the body that produces them, with their retrieval date. No value is rounded or reprocessed.",
+		scenariosTitle: "Scenario comparator",
+		scenariosLead:
+			"The IPCC's four reference socio-economic pathways, from the most frugal to the highest-emitting, projected to the end of the century.",
+		scenariosCaveat: "What this chart is not",
+		scenariosCaveatBody:
+			"Unlike the rest of this page, this is a model projection, not a measurement. The spread is that of the raw CMIP6 ensemble: the IPCC publishes narrower ranges, obtained by weighting down the models with high climate sensitivity. The two are not interchangeable.",
+		levelsTitle: "When each level is crossed",
+		levelsLead:
+			"Median crossing year across the models that reach the level before 2100. It denotes the centre of a twenty-year window, not a date.",
+		levelsColumn: "Level",
+		levelsNever: "no median: at most half the models cross this level",
+		levelsModelOne: "model out of",
+		levelsModels: "models out of",
 	},
 	paths: {
 		title: "Reading paths",
