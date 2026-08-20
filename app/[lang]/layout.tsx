@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { Inter, Source_Serif_4 } from "next/font/google";
+import { Fraunces, Inter } from "next/font/google";
 import { ThemeProvider } from "@/components/theme-provider";
 import { SiteHeader } from "@/components/site/SiteHeader";
 import { SiteFooter } from "@/components/site/SiteFooter";
@@ -16,10 +16,20 @@ const sans = Inter({
 	display: "swap",
 });
 
-const serif = Source_Serif_4({
+/**
+ * Fraunces plutôt qu'une serif de labeur : le site a besoin d'un caractère
+ * reconnaissable en titrage, là où une Times ou une Source Serif se lit comme
+ * un gabarit par défaut. Les axes optiques donnent un dessin plus large et plus
+ * franc aux grandes tailles.
+ *
+ * Réservée au titrage : le texte courant et l'interface restent en Inter, dont
+ * la neutralité sert mieux la lecture longue.
+ */
+const serif = Fraunces({
 	subsets: ["latin"],
 	variable: "--font-serif",
 	display: "swap",
+	axes: ["SOFT", "WONK", "opsz"],
 });
 
 export function generateStaticParams() {
