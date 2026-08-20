@@ -23,7 +23,7 @@ export const siteConfig = {
 		en: "A directory of peer-reviewed research on climate and natural hazards, with a glossary of technical terms. Every reference links back to its original source.",
 	},
 	url: "https://corpusdelta.org",
-	repository: "https://github.com/M-U-C-K-A/projet-climat",
+	repository: "https://github.com/M-U-C-K-A/Corpus_Delta",
 	/**
 	 * Adresse transmise aux API bibliographiques (OpenAlex, Crossref) pour accéder
 	 * à leur « polite pool ». Ces API demandent un contact technique joignable.
