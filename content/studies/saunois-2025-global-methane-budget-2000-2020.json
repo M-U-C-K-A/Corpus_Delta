@@ -1,0 +1,113 @@
+{
+	"id": "saunois-2025-global-methane-budget-2000-2020",
+	"doi": "10.5194/essd-17-1873-2025",
+	"title": "Global methane budget 2000--2020",
+	"authors": [
+		{
+			"name": "Marielle Saunois",
+			"orcid": "https://orcid.org/0000-0003-3983-2931"
+		},
+		{
+			"name": "Adrien Martinez",
+			"orcid": "https://orcid.org/0000-0001-8508-9005"
+		},
+		{
+			"name": "Benjamin Poulter",
+			"orcid": "https://orcid.org/0000-0002-9493-8600"
+		},
+		{
+			"name": "Zhen Zhang",
+			"orcid": "https://orcid.org/0000-0003-0899-1139"
+		},
+		{
+			"name": "Peter A. Raymond",
+			"orcid": "https://orcid.org/0000-0002-8564-7860"
+		},
+		{
+			"name": "Pierre Regnier"
+		},
+		{
+			"name": "Canadell, Joseph G."
+		},
+		{
+			"name": "Robert B. Jackson",
+			"orcid": "https://orcid.org/0000-0001-8846-7147"
+		},
+		{
+			"name": "Prabir K. Patra",
+			"orcid": "https://orcid.org/0000-0001-5700-9389"
+		},
+		{
+			"name": "Philippe Bousquet",
+			"orcid": "https://orcid.org/0000-0002-4444-2703"
+		},
+		{
+			"name": "Philippe Ciais",
+			"orcid": "https://orcid.org/0000-0001-8560-4943"
+		},
+		{
+			"name": "Dlugokencky, Edward J."
+		},
+		{
+			"name": "Xin Lan",
+			"orcid": "https://orcid.org/0000-0001-6327-6950"
+		},
+		{
+			"name": "George H. Allen",
+			"orcid": "https://orcid.org/0000-0001-8301-5301"
+		},
+		{
+			"name": "David Bastviken",
+			"orcid": "https://orcid.org/0000-0003-0038-2152"
+		},
+		{
+			"name": "David J. Beerling",
+			"orcid": "https://orcid.org/0000-0003-1869-4314"
+		},
+		{
+			"name": "Dmitry Belikov",
+			"orcid": "https://orcid.org/0000-0002-2114-7250"
+		},
+		{
+			"name": "D. R. Blake",
+			"orcid": "https://orcid.org/0000-0002-8283-5014"
+		},
+		{
+			"name": "Simona Castaldi",
+			"orcid": "https://orcid.org/0000-0003-3937-8169"
+		},
+		{
+			"name": "Monica Crippa",
+			"orcid": "https://orcid.org/0000-0001-5946-3139"
+		}
+	],
+	"authorCount": 69,
+	"venue": "ENLIGHTEN (Jurnal Bimbingan dan Konseling Islam)",
+	"publisher": null,
+	"year": 2025,
+	"type": "article",
+	"abstract": "Understanding and quantifying the global methane (CH4) budget is important for assessing realistic pathways to mitigate climate change. CH4 is the second most important human-influenced greenhouse gas in terms of climate forcing after carbon dioxide (CO2), and both emissions and atmospheric concentrations of CH4 have continued to increase since 2007 after a temporary pause. The relative importance of CH4 emissions compared to those of CO2 for temperature change is related to its shorter atmospheric lifetime, stronger radiative effect, and acceleration in atmospheric growth rate over the past decade, the causes of which are still debated. Two major challenges in quantifying the factors responsible for the observed atmospheric growth rate arise from diverse, geographically overlapping CH4 sources and from the uncertain magnitude and temporal change in the destruction of CH4 by short-lived and highly variable hydroxyl radicals (OH). To address these challenges, we have established a consortium of multidisciplinary scientists under the umbrella of the Global Carbon Project to improve, synthesise, and update the global CH4 budget regularly and to stimulate new research on the methane cycle. Following Saunois et al. (2016, 2020), we present here the third version of the living review paper dedicated to the decadal CH4 budget, integrating results of top-down CH4 emission estimates (based on in situ and Greenhouse Gases Observing SATellite (GOSAT) atmospheric observations and an ensemble of atmospheric inverse-model results) and bottom-up estimates (based on process-based models for estimating land surface emissions and atmospheric chemistry, inventories of anthropogenic emissions, and data-driven extrapolations). We present a budget for the most recent 2010–2019 calendar decade (the latest period for which full data sets are available), for the previous decade of 2000–2009 and for the year 2020. The revision of the bottom-up budget in this 2025 edition benefits from important progress in estimating inland freshwater emissions, with better counting of emissions from lakes and ponds, reservoirs, and streams and rivers. This budget also reduces double counting across freshwater and wetland emissions and, for the first time, includes an estimate of the potential double counting that may exist (average of 23 Tg CH4 yr−1). Bottom-up approaches show that the combined wetland and inland freshwater emissions average 248 [159–369] Tg CH4 yr−1 for the 2010–2019 decade. Natural fluxes are perturbed by human activities through climate, eutrophication, and land use. In this budget, we also estimate, for the first time, this anthropogenic component contributing to wetland and inland freshwater emissions. Newly available gridded products also allowed us to derive an almost complete latitudinal and regional budget based on bottom-up approaches. For the 2010–2019 decade, global CH4 emissions are estimated by atmospheric inversions (top-down) to be 575 Tg CH4 yr−1 (range 553–586, corresponding to the minimum and maximum estimates of the model ensemble). Of this amount, 369 Tg CH4 yr−1 or ∼ 65 % is attributed to direct anthropogenic sources in the fossil, agriculture, and waste and anthropogenic biomass burning (range 350–391 Tg CH4 yr−1 or 63 %–68 %). For the 2000–2009 period, the atmospheric inversions give a slightly lower total emission than for 2010–2019, by 32 Tg CH4 yr−1 (range 9–40). The 2020 emission rate is the highest of the period and reaches 608 Tg CH4 yr−1 (range 581–627), which is 12 % higher than the average emissions in the 2000s. Since 2012, global direct anthropogenic CH4 emission trends have been tracking scenarios that assume no or minimal climate mitigation policies proposed by the Intergovernmental Panel on Climate Change (shared socio-economic pathways SSP5 and SSP3). Bottom-up methods suggest 16 % (94 Tg CH4 yr−1) larger global emissions (669 Tg CH4 yr−1, range 512–849) than top-down inversion methods for the 2010–2019 period. The discrepancy between the bottom-up and the top-down budgets has been greatly reduced compared to the previous differences (167 and 156 Tg CH4 yr−1 in Saunois et al. (2016, 2020) respectively), and for the first time uncertainties in bottom-up and top-down budgets overlap. Although differences have been reduced between inversions and bottom-up, the most important source of uncertainty in the global CH4 budget is still attributable to natural emissions, especially those from wetlands and inland freshwaters. The tropospheric loss of methane, as the main contributor to methane lifetime, has been estimated at 563 [510–663] Tg CH4 yr−1 based on chemistry–climate models. These values are slightly larger than for 2000–2009 due to the impact of the rise in atmospheric methane and remaining large uncertainty (∼ 25 %). The total sink of CH4 is estimated at 633 [507–796] Tg CH4 yr−1 by the bottom-up approaches and at 554 [550–567] Tg CH4 yr−1 by top-down approaches. However, most of the top-down models use the same OH distribution, which introduces less uncertainty to the global budget than is likely justified. For 2010–2019, agriculture and waste contributed an estimated 228 [213–242] Tg CH4 yr−1 in the top-down budget and 211 [195–231] Tg CH4 yr−1 in the bottom-up budget. Fossil fuel emissions contributed 115 [100–124] Tg CH4 yr−1 in the top-down budget and 120 [117–125] Tg CH4 yr−1 in the bottom-up budget. Biomass and biofuel burning contributed 27 [26–27] Tg CH4 yr−1 in the top-down budget and 28 [21–39] Tg CH4 yr−1 in the bottom-up budget. We identify five major priorities for improving the CH4 budget: (i) producing a global, high-resolution map of water-saturated soils and inundated areas emitting CH4 based on a robust classification of different types of emitting ecosystems; (ii) further development of process-based models for inland-water emissions; (iii) intensification of CH4 observations at local (e.g. FLUXNET-CH4 measurements, urban-scale monitoring, satellite imagery with pointing capabilities) to regional scales (surface networks and global remote sensing measurements from satellites) to constrain both bottom-up models and atmospheric inversions; (iv) improvements of transport models and the representation of photochemical sinks in top-down inversions; and (v) integration of 3D variational inversion systems using isotopic and/or co-emitted species such as ethane as well as information in the bottom-up inventories on anthropogenic super-emitters detected by remote sensing (mainly oil and gas sector but also coal, agriculture, and landfills) to improve source partitioning.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "green",
+		"url": "https://eprints.gla.ac.uk/view/journal_volume/Earth_System_Science_Data.html>,"
+	},
+	"citedByCount": 312,
+	"themes": [
+		"carbone"
+	],
+	"sourceTopics": [
+		"Atmospheric and Environmental Gas Dynamics",
+		"Atmospheric chemistry and aerosols",
+		"Atmospheric Ozone and Climate"
+	],
+	"url": "https://doi.org/10.5194/essd-17-1873-2025",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-20"
+	},
+	"addedAt": "2026-08-20",
+	"editorial": {},
+	"glossaryTerms": []
+}

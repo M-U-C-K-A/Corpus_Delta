@@ -1,0 +1,81 @@
+{
+	"id": "swain-2025-hydroclimate-volatility-warming-earth",
+	"doi": "10.1038/s43017-024-00624-z",
+	"title": "Hydroclimate volatility on a warming Earth",
+	"authors": [
+		{
+			"name": "Daniel L. Swain",
+			"orcid": "https://orcid.org/0000-0003-4276-3092",
+			"affiliation": "NSF National Center for Atmospheric Research"
+		},
+		{
+			"name": "Andreas F. Prein",
+			"orcid": "https://orcid.org/0000-0001-6250-179X",
+			"affiliation": "NSF National Center for Atmospheric Research"
+		},
+		{
+			"name": "John T. Abatzoglou",
+			"orcid": "https://orcid.org/0000-0001-7599-9750",
+			"affiliation": "University of California, Merced"
+		},
+		{
+			"name": "Christine M. Albano",
+			"orcid": "https://orcid.org/0000-0003-1610-6961",
+			"affiliation": "Desert Research Institute"
+		},
+		{
+			"name": "Manuela I. Brunner",
+			"orcid": "https://orcid.org/0000-0001-8824-877X",
+			"affiliation": "ETH Zurich"
+		},
+		{
+			"name": "Noah S. Diffenbaugh",
+			"orcid": "https://orcid.org/0000-0002-8856-4964",
+			"affiliation": "Stanford University"
+		},
+		{
+			"name": "Deepti Singh",
+			"orcid": "https://orcid.org/0000-0001-6568-435X",
+			"affiliation": "Washington State University Vancouver"
+		},
+		{
+			"name": "Christopher B. Skinner",
+			"orcid": "https://orcid.org/0000-0002-8105-8698",
+			"affiliation": "University of Massachusetts Lowell"
+		},
+		{
+			"name": "Danielle Touma",
+			"orcid": "https://orcid.org/0000-0003-1992-9904",
+			"affiliation": "University of Texas Institute for Geophysics"
+		}
+	],
+	"authorCount": 9,
+	"venue": "Nature Reviews Earth & Environment",
+	"publisher": "Nature Portfolio",
+	"year": 2025,
+	"type": "article",
+	"abstract": null,
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "green",
+		"url": "https://www.dora.lib4ri.ch/wsl/dload/wsl:38529/PDF3/view"
+	},
+	"citedByCount": 181,
+	"themes": [
+		"eau"
+	],
+	"sourceTopics": [
+		"Climate variability and models",
+		"Meteorological Phenomena and Simulations",
+		"Plant Water Relations and Carbon Dynamics"
+	],
+	"url": "https://doi.org/10.1038/s43017-024-00624-z",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-20"
+	},
+	"addedAt": "2026-08-20",
+	"editorial": {},
+	"glossaryTerms": []
+}

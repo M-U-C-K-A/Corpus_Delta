@@ -1,0 +1,56 @@
+{
+	"id": "greene-2024-ubiquitous-acceleration-greenland-ice-sheet",
+	"doi": "10.1038/s41586-023-06863-2",
+	"title": "Ubiquitous acceleration in Greenland Ice Sheet calving from 1985 to 2022",
+	"authors": [
+		{
+			"name": "Chad A. Greene",
+			"orcid": "https://orcid.org/0000-0001-6710-6297",
+			"affiliation": "Jet Propulsion Laboratory"
+		},
+		{
+			"name": "Alex Gardner",
+			"orcid": "https://orcid.org/0000-0002-8394-8889",
+			"affiliation": "Jet Propulsion Laboratory"
+		},
+		{
+			"name": "Michael Wood",
+			"orcid": "https://orcid.org/0000-0003-3074-7845",
+			"affiliation": "San Jose State University"
+		},
+		{
+			"name": "Joshua Cuzzone",
+			"orcid": "https://orcid.org/0000-0002-1282-0597",
+			"affiliation": "University of California, Los Angeles"
+		}
+	],
+	"authorCount": 4,
+	"venue": "Nature",
+	"publisher": "Nature Portfolio",
+	"year": 2024,
+	"type": "article",
+	"abstract": null,
+	"language": "en",
+	"openAccess": {
+		"isOpen": false,
+		"status": "closed",
+		"url": null
+	},
+	"citedByCount": 72,
+	"themes": [
+		"cryosphere"
+	],
+	"sourceTopics": [
+		"Cryospheric studies and observations",
+		"Winter Sports Injuries and Performance",
+		"Arctic and Antarctic ice dynamics"
+	],
+	"url": "https://doi.org/10.1038/s41586-023-06863-2",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-20"
+	},
+	"addedAt": "2026-08-20",
+	"editorial": {},
+	"glossaryTerms": []
+}

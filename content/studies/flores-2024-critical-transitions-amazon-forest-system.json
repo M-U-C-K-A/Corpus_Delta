@@ -1,0 +1,134 @@
+{
+	"id": "flores-2024-critical-transitions-amazon-forest-system",
+	"doi": "10.1038/s41586-023-06970-0",
+	"title": "Critical transitions in the Amazon forest system",
+	"authors": [
+		{
+			"name": "Bernardo M. Flores",
+			"orcid": "https://orcid.org/0000-0003-4555-5598",
+			"affiliation": "Universidade Federal de Santa Catarina"
+		},
+		{
+			"name": "Encarni Montoya",
+			"orcid": "https://orcid.org/0000-0002-4690-190X"
+		},
+		{
+			"name": "Boris Sakschewski",
+			"orcid": "https://orcid.org/0000-0002-7230-9723",
+			"affiliation": "Leibniz Association"
+		},
+		{
+			"name": "Nathália Nascimento",
+			"orcid": "https://orcid.org/0000-0003-4819-0811",
+			"affiliation": "Universidade de São Paulo"
+		},
+		{
+			"name": "Arie Staal",
+			"orcid": "https://orcid.org/0000-0001-5409-1436",
+			"affiliation": "Utrecht University"
+		},
+		{
+			"name": "Richard Betts",
+			"orcid": "https://orcid.org/0000-0002-4929-0307",
+			"affiliation": "Met Office"
+		},
+		{
+			"name": "Carolina Levis",
+			"orcid": "https://orcid.org/0000-0002-8425-9479",
+			"affiliation": "Universidade Federal de Santa Catarina"
+		},
+		{
+			"name": "David M. Lapola",
+			"orcid": "https://orcid.org/0000-0002-2654-7835",
+			"affiliation": "Universidade Estadual de Campinas (UNICAMP)"
+		},
+		{
+			"name": "Adriane Esquivel‐Muelbert",
+			"orcid": "https://orcid.org/0000-0001-5335-1259",
+			"affiliation": "Forest Research"
+		},
+		{
+			"name": "Catarina C. Jakovac",
+			"orcid": "https://orcid.org/0000-0002-8130-852X",
+			"affiliation": "Universidade Federal de Santa Catarina"
+		},
+		{
+			"name": "Carlos A. Nobre",
+			"orcid": "https://orcid.org/0000-0002-5808-8784",
+			"affiliation": "Universidade de São Paulo"
+		},
+		{
+			"name": "Rafael S. Oliveira",
+			"orcid": "https://orcid.org/0000-0002-6392-2526",
+			"affiliation": "Universidade Estadual de Campinas (UNICAMP)"
+		},
+		{
+			"name": "Laura S. Borma",
+			"orcid": "https://orcid.org/0000-0003-4496-0612",
+			"affiliation": "Instituto Nacional de Pesquisas Espaciais"
+		},
+		{
+			"name": "Da Nian",
+			"orcid": "https://orcid.org/0000-0002-2320-5223",
+			"affiliation": "Leibniz Association"
+		},
+		{
+			"name": "Niklas Boers",
+			"orcid": "https://orcid.org/0000-0002-1239-9034",
+			"affiliation": "Leibniz Association"
+		},
+		{
+			"name": "Susanna B. Hecht",
+			"orcid": "https://orcid.org/0000-0002-4345-792X",
+			"affiliation": "University of California, Los Angeles"
+		},
+		{
+			"name": "Hans ter Steege",
+			"orcid": "https://orcid.org/0000-0002-8738-2659",
+			"affiliation": "Naturalis Biodiversity Center"
+		},
+		{
+			"name": "Julia Arieira",
+			"orcid": "https://orcid.org/0000-0003-4419-6327"
+		},
+		{
+			"name": "Isabella Leite Lucas",
+			"orcid": "https://orcid.org/0000-0002-9984-323X"
+		},
+		{
+			"name": "Érika Berenguer",
+			"orcid": "https://orcid.org/0000-0001-8157-8792",
+			"affiliation": "University of Oxford"
+		}
+	],
+	"authorCount": 24,
+	"venue": "Nature",
+	"publisher": "Nature Portfolio",
+	"year": 2024,
+	"type": "article",
+	"abstract": "Abstract The possibility that the Amazon forest system could soon reach a tipping point, inducing large-scale collapse, has raised global concern 1–3 . For 65 million years, Amazonian forests remained relatively resilient to climatic variability. Now, the region is increasingly exposed to unprecedented stress from warming temperatures, extreme droughts, deforestation and fires, even in central and remote parts of the system 1 . Long existing feedbacks between the forest and environmental conditions are being replaced by novel feedbacks that modify ecosystem resilience, increasing the risk of critical transition. Here we analyse existing evidence for five major drivers of water stress on Amazonian forests, as well as potential critical thresholds of those drivers that, if crossed, could trigger local, regional or even biome-wide forest collapse. By combining spatial information on various disturbances, we estimate that by 2050, 10% to 47% of Amazonian forests will be exposed to compounding disturbances that may trigger unexpected ecosystem transitions and potentially exacerbate regional climate change. Using examples of disturbed forests across the Amazon, we identify the three most plausible ecosystem trajectories, involving different feedbacks and environmental conditions. We discuss how the inherent complexity of the Amazon adds uncertainty about future dynamics, but also reveals opportunities for action. Keeping the Amazon forest resilient in the Anthropocene will depend on a combination of local efforts to end deforestation and degradation and to expand restoration, with global efforts to stop greenhouse gas emissions.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "hybrid",
+		"url": "https://www.nature.com/articles/s41586-023-06970-0.pdf"
+	},
+	"citedByCount": 563,
+	"themes": [
+		"biodiversite",
+		"risques"
+	],
+	"sourceTopics": [
+		"Ecosystem dynamics and resilience",
+		"Ecology and Vegetation Dynamics Studies",
+		"Plant and animal studies"
+	],
+	"url": "https://doi.org/10.1038/s41586-023-06970-0",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-20"
+	},
+	"addedAt": "2026-08-20",
+	"editorial": {},
+	"glossaryTerms": []
+}

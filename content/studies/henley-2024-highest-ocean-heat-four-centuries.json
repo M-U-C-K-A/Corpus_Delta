@@ -1,0 +1,82 @@
+{
+	"id": "henley-2024-highest-ocean-heat-four-centuries",
+	"doi": "10.1038/s41586-024-07672-x",
+	"title": "Highest ocean heat in four centuries places Great Barrier Reef in danger",
+	"authors": [
+		{
+			"name": "Benjamin J. Henley",
+			"orcid": "https://orcid.org/0000-0003-3940-1963",
+			"affiliation": "The University of Melbourne"
+		},
+		{
+			"name": "Helen McGregor",
+			"orcid": "https://orcid.org/0000-0002-4031-2282",
+			"affiliation": "University of Wollongong"
+		},
+		{
+			"name": "Andrew D. King",
+			"orcid": "https://orcid.org/0000-0001-9006-5745",
+			"affiliation": "The University of Melbourne"
+		},
+		{
+			"name": "Ove Hoegh‐Guldberg",
+			"orcid": "https://orcid.org/0000-0001-7510-6713",
+			"affiliation": "The University of Queensland"
+		},
+		{
+			"name": "Ariella K. Arzey",
+			"orcid": "https://orcid.org/0000-0001-5628-2711",
+			"affiliation": "University of Wollongong"
+		},
+		{
+			"name": "David J. Karoly",
+			"orcid": "https://orcid.org/0000-0002-8671-2994",
+			"affiliation": "The University of Melbourne"
+		},
+		{
+			"name": "Janice Lough",
+			"orcid": "https://orcid.org/0000-0002-3789-1009",
+			"affiliation": "Australian Institute of Marine Science"
+		},
+		{
+			"name": "Thomas M. DeCarlo",
+			"orcid": "https://orcid.org/0000-0003-3269-1320",
+			"affiliation": "Tulane University"
+		},
+		{
+			"name": "Braddock K. Linsley",
+			"orcid": "https://orcid.org/0000-0003-2085-0662",
+			"affiliation": "Lamont-Doherty Earth Observatory"
+		}
+	],
+	"authorCount": 9,
+	"venue": "Nature",
+	"publisher": "Nature Portfolio",
+	"year": 2024,
+	"type": "article",
+	"abstract": "Abstract Mass coral bleaching on the Great Barrier Reef (GBR) in Australia between 2016 and 2024 was driven by high sea surface temperatures (SST) 1 . The likelihood of temperature-induced bleaching is a key determinant for the future threat status of the GBR 2 , but the long-term context of recent temperatures in the region is unclear. Here we show that the January–March Coral Sea heat extremes in 2024, 2017 and 2020 (in order of descending mean SST anomalies) were the warmest in 400 years, exceeding the 95th-percentile uncertainty limit of our reconstructed pre-1900 maximum. The 2016, 2004 and 2022 events were the next warmest, exceeding the 90th-percentile limit. Climate model analysis confirms that human influence on the climate system is responsible for the rapid warming in recent decades. This attribution, together with the recent ocean temperature extremes, post-1900 warming trend and observed mass coral bleaching, shows that the existential threat to the GBR ecosystem from anthropogenic climate change is now realized. Without urgent intervention, the iconic GBR is at risk of experiencing temperatures conducive to near-annual coral bleaching 3 , with negative consequences for biodiversity and ecosystems services. A continuation on the current trajectory would further threaten the ecological function 4 and outstanding universal value 5 of one of Earth’s greatest natural wonders.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "hybrid",
+		"url": "https://www.nature.com/articles/s41586-024-07672-x.pdf"
+	},
+	"citedByCount": 93,
+	"themes": [
+		"ocean",
+		"biodiversite"
+	],
+	"sourceTopics": [
+		"Coral and Marine Ecosystems Studies",
+		"Marine and fisheries research",
+		"Marine animal studies overview"
+	],
+	"url": "https://doi.org/10.1038/s41586-024-07672-x",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-20"
+	},
+	"addedAt": "2026-08-20",
+	"editorial": {},
+	"glossaryTerms": []
+}

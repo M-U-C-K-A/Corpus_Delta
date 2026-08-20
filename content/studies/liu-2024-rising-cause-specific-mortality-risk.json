@@ -1,0 +1,91 @@
+{
+	"id": "liu-2024-rising-cause-specific-mortality-risk",
+	"doi": "10.1038/s41558-024-02137-5",
+	"title": "Rising cause-specific mortality risk and burden of compound heatwaves amid climate change",
+	"authors": [
+		{
+			"name": "Jiangdong Liu",
+			"orcid": "https://orcid.org/0000-0002-8762-3571",
+			"affiliation": "Fudan University"
+		},
+		{
+			"name": "Jinlei Qi",
+			"orcid": "https://orcid.org/0000-0003-1726-622X",
+			"affiliation": "National Center for Chronic and Noncommunicable Disease Control and Prevention"
+		},
+		{
+			"name": "Peng Yin",
+			"orcid": "https://orcid.org/0000-0002-5515-2824",
+			"affiliation": "National Center for Chronic and Noncommunicable Disease Control and Prevention"
+		},
+		{
+			"name": "Wei Liu",
+			"orcid": "https://orcid.org/0000-0002-1737-8013",
+			"affiliation": "National Center for Chronic and Noncommunicable Disease Control and Prevention"
+		},
+		{
+			"name": "Cheng He",
+			"orcid": "https://orcid.org/0000-0002-8470-0834",
+			"affiliation": "Fudan University"
+		},
+		{
+			"name": "Ya Gao",
+			"affiliation": "Fudan University"
+		},
+		{
+			"name": "Lu Zhou",
+			"orcid": "https://orcid.org/0000-0001-8470-6411",
+			"affiliation": "Fudan University"
+		},
+		{
+			"name": "Yixiang Zhu",
+			"orcid": "https://orcid.org/0000-0002-3450-0295",
+			"affiliation": "Fudan University"
+		},
+		{
+			"name": "Haidong Kan",
+			"orcid": "https://orcid.org/0000-0002-1871-8999",
+			"affiliation": "Fudan University"
+		},
+		{
+			"name": "Renjie Chen",
+			"orcid": "https://orcid.org/0000-0002-9448-0820",
+			"affiliation": "Fudan University"
+		},
+		{
+			"name": "Maigeng Zhou",
+			"orcid": "https://orcid.org/0000-0001-6402-6347",
+			"affiliation": "National Center for Chronic and Noncommunicable Disease Control and Prevention"
+		}
+	],
+	"authorCount": 11,
+	"venue": "Nature Climate Change",
+	"publisher": "Nature Portfolio",
+	"year": 2024,
+	"type": "article",
+	"abstract": null,
+	"language": "en",
+	"openAccess": {
+		"isOpen": false,
+		"status": "closed",
+		"url": null
+	},
+	"citedByCount": 92,
+	"themes": [
+		"chaleur",
+		"sante"
+	],
+	"sourceTopics": [
+		"Climate Change and Health Impacts",
+		"Global Health Care Issues",
+		"Air Quality and Health Impacts"
+	],
+	"url": "https://doi.org/10.1038/s41558-024-02137-5",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-20"
+	},
+	"addedAt": "2026-08-20",
+	"editorial": {},
+	"glossaryTerms": []
+}

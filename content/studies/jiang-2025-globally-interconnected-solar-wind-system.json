@@ -1,0 +1,91 @@
+{
+	"id": "jiang-2025-globally-interconnected-solar-wind-system",
+	"doi": "10.1038/s41467-025-59879-9",
+	"title": "Globally interconnected solar-wind system addresses future electricity demands",
+	"authors": [
+		{
+			"name": "Hou Jiang",
+			"orcid": "https://orcid.org/0000-0002-5087-3446",
+			"affiliation": "Chinese Academy of Sciences"
+		},
+		{
+			"name": "Ling Yao",
+			"orcid": "https://orcid.org/0000-0002-6120-5806",
+			"affiliation": "Institute of Geographic Sciences and Natural Resources Research"
+		},
+		{
+			"name": "Jun Qin",
+			"orcid": "https://orcid.org/0000-0002-7483-2366",
+			"affiliation": "Yunnan Normal University"
+		},
+		{
+			"name": "Yongqing Bai",
+			"orcid": "https://orcid.org/0000-0002-2169-3577",
+			"affiliation": "Chinese Academy of Sciences"
+		},
+		{
+			"name": "Martin Brandt",
+			"orcid": "https://orcid.org/0000-0001-9531-1239",
+			"affiliation": "University of Copenhagen"
+		},
+		{
+			"name": "Xu Lian",
+			"orcid": "https://orcid.org/0000-0002-1428-3529",
+			"affiliation": "Columbia University"
+		},
+		{
+			"name": "Steven J. Davis",
+			"orcid": "https://orcid.org/0000-0002-9338-0844",
+			"affiliation": "Sustainability Institute"
+		},
+		{
+			"name": "Ning Lu",
+			"orcid": "https://orcid.org/0000-0003-1944-5096",
+			"affiliation": "Chinese Academy of Sciences"
+		},
+		{
+			"name": "Wenli Zhao",
+			"orcid": "https://orcid.org/0000-0001-6152-1692",
+			"affiliation": "Columbia University"
+		},
+		{
+			"name": "Tang Liu",
+			"orcid": "https://orcid.org/0000-0001-7934-7303",
+			"affiliation": "Chinese Academy of Sciences"
+		},
+		{
+			"name": "Chenghu Zhou",
+			"orcid": "https://orcid.org/0000-0003-3331-2302",
+			"affiliation": "Institute of Geographic Sciences and Natural Resources Research"
+		}
+	],
+	"authorCount": 11,
+	"venue": "Nature Communications",
+	"publisher": "Nature Portfolio",
+	"year": 2025,
+	"type": "article",
+	"abstract": "Accelerating energy transition towards renewables is central to net-zero emissions. However, building a global power system dominated by solar and wind energy presents immense challenges. Here, we demonstrate the potential of a globally interconnected solar-wind system to meet future electricity demands. We estimate that such a system could generate ~3.1 times the projected 2050 global electricity demand. By optimizing solar-wind deployment, storage capacity, and trans-regional transmission, the solar-wind penetration could be achieved using only 29.4% of the highest potential, with a 15.6% reduction in initial investment compared to a strategy without interconnection. Global interconnection improves energy efficiency, mitigates the variability of renewable energy, promotes energy availability, and eases the economic burden of decarbonization. Importantly, this interconnected system shows remarkable resilience to climate extremes, generation outages, transmission disruptions, and geopolitical conflicts. Our findings underscore the potential of global interconnection in enabling high renewable penetration and guiding sustainable energy transitions.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "gold",
+		"url": "https://www.nature.com/articles/s41467-025-59879-9.pdf"
+	},
+	"citedByCount": 62,
+	"themes": [
+		"energie"
+	],
+	"sourceTopics": [
+		"Integrated Energy Systems Optimization",
+		"Hybrid Renewable Energy Systems",
+		"Solar Radiation and Photovoltaics"
+	],
+	"url": "https://doi.org/10.1038/s41467-025-59879-9",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-20"
+	},
+	"addedAt": "2026-08-20",
+	"editorial": {},
+	"glossaryTerms": []
+}

@@ -1,0 +1,135 @@
+{
+	"id": "pereira-2024-global-trends-scenarios-terrestrial-biodiversity",
+	"doi": "10.1126/science.adn3441",
+	"title": "Global trends and scenarios for terrestrial biodiversity and ecosystem services from 1900 to 2050",
+	"authors": [
+		{
+			"name": "Henrique M. Pereira",
+			"orcid": "https://orcid.org/0000-0003-1043-1675",
+			"affiliation": "Universidade do Porto"
+		},
+		{
+			"name": "Inês S. Martins",
+			"orcid": "https://orcid.org/0000-0003-4328-7286",
+			"affiliation": "German Centre for Integrative Biodiversity Research"
+		},
+		{
+			"name": "Isabel M.D. Rosa",
+			"orcid": "https://orcid.org/0000-0001-8257-1963",
+			"affiliation": "German Centre for Integrative Biodiversity Research"
+		},
+		{
+			"name": "Hyejin Kim",
+			"orcid": "https://orcid.org/0000-0003-1187-6414",
+			"affiliation": "German Centre for Integrative Biodiversity Research"
+		},
+		{
+			"name": "Paul Leadley",
+			"orcid": "https://orcid.org/0000-0002-8994-5507",
+			"affiliation": "Centre National de la Recherche Scientifique"
+		},
+		{
+			"name": "Alexander Popp",
+			"orcid": "https://orcid.org/0000-0001-9500-1986",
+			"affiliation": "University of Kassel"
+		},
+		{
+			"name": "Detlef P. van Vuuren",
+			"orcid": "https://orcid.org/0000-0003-0398-2831",
+			"affiliation": "Netherlands Environmental Assessment Agency"
+		},
+		{
+			"name": "G. C. Hurtt",
+			"orcid": "https://orcid.org/0000-0001-7278-202X",
+			"affiliation": "University of Maryland, College Park"
+		},
+		{
+			"name": "Luise Quoß",
+			"orcid": "https://orcid.org/0000-0002-9910-1252",
+			"affiliation": "German Centre for Integrative Biodiversity Research"
+		},
+		{
+			"name": "Almut Arneth",
+			"orcid": "https://orcid.org/0000-0001-6616-0822",
+			"affiliation": "Garmisch-Partenkirchen Medical Center"
+		},
+		{
+			"name": "Daniele Baisero",
+			"orcid": "https://orcid.org/0000-0002-1266-7174",
+			"affiliation": "BirdLife international"
+		},
+		{
+			"name": "Michel Bakkenes",
+			"orcid": "https://orcid.org/0009-0009-4602-5434",
+			"affiliation": "Netherlands Environmental Assessment Agency"
+		},
+		{
+			"name": "Rebecca Chaplin‐Kramer",
+			"orcid": "https://orcid.org/0000-0002-1539-5231",
+			"affiliation": "University of Minnesota"
+		},
+		{
+			"name": "Louise Chini",
+			"orcid": "https://orcid.org/0000-0002-9070-3505",
+			"affiliation": "University of Maryland, College Park"
+		},
+		{
+			"name": "Moreno Di Marco",
+			"orcid": "https://orcid.org/0000-0002-8902-4193",
+			"affiliation": "Sapienza University of Rome"
+		},
+		{
+			"name": "Simon Ferrier",
+			"orcid": "https://orcid.org/0000-0001-7884-2388",
+			"affiliation": "Commonwealth Scientific and Industrial Research Organisation"
+		},
+		{
+			"name": "Shinichiro Fujimori",
+			"orcid": "https://orcid.org/0000-0001-7897-1796",
+			"affiliation": "National Institute for Environmental Studies"
+		},
+		{
+			"name": "Carlos A. Guerra",
+			"orcid": "https://orcid.org/0000-0003-4917-2105",
+			"affiliation": "German Centre for Integrative Biodiversity Research"
+		},
+		{
+			"name": "Michael Harfoot",
+			"orcid": "https://orcid.org/0000-0003-2598-8652",
+			"affiliation": "UN Environment Programme World Conservation Monitoring Centre"
+		},
+		{
+			"name": "Thomas D. Harwood",
+			"affiliation": "Commonwealth Scientific and Industrial Research Organisation"
+		}
+	],
+	"authorCount": 57,
+	"venue": "Science",
+	"publisher": "American Association for the Advancement of Science",
+	"year": 2024,
+	"type": "article",
+	"abstract": "Based on an extensive model intercomparison, we assessed trends in biodiversity and ecosystem services from historical reconstructions and future scenarios of land-use and climate change. During the 20th century, biodiversity declined globally by 2 to 11%, as estimated by a range of indicators. Provisioning ecosystem services increased several fold, and regulating services decreased moderately. Going forward, policies toward sustainability have the potential to slow biodiversity loss resulting from land-use change and the demand for provisioning services while reducing or reversing declines in regulating services. However, negative impacts on biodiversity due to climate change appear poised to increase, particularly in the higher-emissions scenarios. Our assessment identifies remaining modeling uncertainties but also robustly shows that renewed policy efforts are needed to meet the goals of the Convention on Biological Diversity.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "green",
+		"url": "https://pure.knaw.nl/portal/en/publications/beb07193-c138-4c94-8e5b-6b427096208f"
+	},
+	"citedByCount": 293,
+	"themes": [
+		"biodiversite"
+	],
+	"sourceTopics": [
+		"Land Use and Ecosystem Services",
+		"Forest Management and Policy",
+		"Conservation, Biodiversity, and Resource Management"
+	],
+	"url": "https://doi.org/10.1126/science.adn3441",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-20"
+	},
+	"addedAt": "2026-08-20",
+	"editorial": {},
+	"glossaryTerms": []
+}

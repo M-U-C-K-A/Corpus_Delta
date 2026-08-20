@@ -120,6 +120,18 @@ async function fromOpenAlex(doi: string): Promise<BibRecord | null> {
 	const work = await fetchJson(url);
 	if (!work || work.error) return null;
 
+	/*
+	  Un article rétracté n'a rien à faire dans un annuaire qui prétend orienter
+	  vers de la littérature fiable, et le titre ne le signale pas toujours. On
+	  refuse ici plutôt que de laisser le repli Crossref, qui ne porte pas cette
+	  information, le faire passer silencieusement.
+	*/
+	if (work.is_retracted) {
+		throw new Error(
+			`Publication rétractée d'après OpenAlex : ${doi}\n  « ${work.title ?? "sans titre"} »`
+		);
+	}
+
 	const source = work.primary_location?.source ?? null;
 	const authorships: any[] = work.authorships ?? [];
 

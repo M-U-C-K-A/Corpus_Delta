@@ -1,0 +1,135 @@
+{
+	"id": "romanello-2024-2024-report-lancet-countdown-health",
+	"doi": "10.1016/s0140-6736(24)01822-1",
+	"title": "The 2024 report of the Lancet Countdown on health and climate change: facing record-breaking threats from delayed action",
+	"authors": [
+		{
+			"name": "Marina Romanello",
+			"orcid": "https://orcid.org/0000-0002-3924-4657",
+			"affiliation": "Health Data Research UK"
+		},
+		{
+			"name": "Maria Walawender",
+			"orcid": "https://orcid.org/0000-0001-7192-3484",
+			"affiliation": "University College London"
+		},
+		{
+			"name": "Shih-Che Hsu",
+			"orcid": "https://orcid.org/0000-0003-4223-6428",
+			"affiliation": "Energy Institute"
+		},
+		{
+			"name": "Annalyse Moskeland",
+			"affiliation": "London School of Economics and Political Science"
+		},
+		{
+			"name": "Yasna Palmeiro-Silva",
+			"orcid": "https://orcid.org/0000-0001-6664-1079",
+			"affiliation": "University College London"
+		},
+		{
+			"name": "Daniel Scamman",
+			"orcid": "https://orcid.org/0000-0002-5162-6789",
+			"affiliation": "Centre for Sustainable Energy"
+		},
+		{
+			"name": "Zakari Ali",
+			"orcid": "https://orcid.org/0000-0002-8129-2230",
+			"affiliation": "MRC Unit the Gambia"
+		},
+		{
+			"name": "Nadia Ameli",
+			"orcid": "https://orcid.org/0000-0002-6728-9190",
+			"affiliation": "Centre for Sustainable Energy"
+		},
+		{
+			"name": "Denitsa Angelova",
+			"orcid": "https://orcid.org/0000-0002-2591-6483",
+			"affiliation": "Centre for Sustainable Energy"
+		},
+		{
+			"name": "Sonja Ayeb‐Karlsson",
+			"orcid": "https://orcid.org/0000-0001-6124-2730",
+			"affiliation": "Systemic Risk Centre"
+		},
+		{
+			"name": "Sara Basart",
+			"orcid": "https://orcid.org/0000-0002-9821-8504",
+			"affiliation": "World Meteorological Organization"
+		},
+		{
+			"name": "Jessica Beagley",
+			"orcid": "https://orcid.org/0000-0003-4649-0124",
+			"affiliation": "Health Alliance International"
+		},
+		{
+			"name": "Paul J. Beggs",
+			"orcid": "https://orcid.org/0000-0001-9949-1783",
+			"affiliation": "Macquarie University"
+		},
+		{
+			"name": "Luciana Blanco-Villafuerte",
+			"orcid": "https://orcid.org/0000-0002-8137-1887",
+			"affiliation": "Universidad Peruana Cayetano Heredia"
+		},
+		{
+			"name": "Wenjia Cai",
+			"orcid": "https://orcid.org/0000-0002-4436-512X",
+			"affiliation": "Tsinghua University"
+		},
+		{
+			"name": "Max Callaghan",
+			"orcid": "https://orcid.org/0000-0001-8292-8758",
+			"affiliation": "Mercator Research Institute on Global Commons and Climate Change"
+		},
+		{
+			"name": "Diarmid Campbell‐Lendrum",
+			"orcid": "https://orcid.org/0000-0002-2503-7059",
+			"affiliation": "World Health Organization"
+		},
+		{
+			"name": "Jonathan Chambers",
+			"orcid": "https://orcid.org/0000-0002-2332-8143",
+			"affiliation": "University of Geneva"
+		},
+		{
+			"name": "Victoria Chicmana-Zapata",
+			"orcid": "https://orcid.org/0000-0003-3875-8004",
+			"affiliation": "Universidad Peruana Cayetano Heredia"
+		},
+		{
+			"name": "Lingzhi Chu",
+			"orcid": "https://orcid.org/0000-0002-7613-2769",
+			"affiliation": "Yale University"
+		}
+	],
+	"authorCount": 122,
+	"venue": "The Lancet",
+	"publisher": "Elsevier BV",
+	"year": 2024,
+	"type": "article",
+	"abstract": null,
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "green",
+		"url": "https://research.birmingham.ac.uk/en/publications/61dcce7f-7164-44bd-9b9c-09e94e1462cf"
+	},
+	"citedByCount": 773,
+	"themes": [
+		"sante"
+	],
+	"sourceTopics": [
+		"Climate Change and Health Impacts",
+		"Global Health Care Issues",
+		"Health disparities and outcomes"
+	],
+	"url": "https://doi.org/10.1016/s0140-6736(24)01822-1",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-20"
+	},
+	"addedAt": "2026-08-20",
+	"editorial": {},
+	"glossaryTerms": []
+}

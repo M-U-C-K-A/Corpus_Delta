@@ -1,0 +1,136 @@
+{
+	"id": "jones-2024-state-wildfires-2023-2024",
+	"doi": "10.5194/essd-16-3601-2024",
+	"title": "State of Wildfires 2023–2024",
+	"authors": [
+		{
+			"name": "Matthew W. Jones",
+			"orcid": "https://orcid.org/0000-0003-3480-7980",
+			"affiliation": "University of East Anglia"
+		},
+		{
+			"name": "Douglas I. Kelley",
+			"orcid": "https://orcid.org/0000-0003-1413-4969",
+			"affiliation": "UK Centre for Ecology & Hydrology"
+		},
+		{
+			"name": "Chantelle Burton",
+			"orcid": "https://orcid.org/0000-0003-0201-5727",
+			"affiliation": "Met Office"
+		},
+		{
+			"name": "Francesca Di Giuseppe",
+			"orcid": "https://orcid.org/0000-0001-9829-0429",
+			"affiliation": "European Centre for Medium-Range Weather Forecasts"
+		},
+		{
+			"name": "Maria Lucia Ferreira Barbosa",
+			"orcid": "https://orcid.org/0000-0002-4702-2974",
+			"affiliation": "Universidade Federal de São Carlos"
+		},
+		{
+			"name": "Esther Brambleby",
+			"orcid": "https://orcid.org/0009-0006-1400-0628",
+			"affiliation": "University of East Anglia"
+		},
+		{
+			"name": "Andrew James Hartley",
+			"orcid": "https://orcid.org/0000-0002-1905-9112",
+			"affiliation": "Met Office"
+		},
+		{
+			"name": "Anna Lombardi",
+			"affiliation": "European Centre for Medium-Range Weather Forecasts"
+		},
+		{
+			"name": "Guilherme Mataveli",
+			"orcid": "https://orcid.org/0000-0002-4645-0117",
+			"affiliation": "University of East Anglia"
+		},
+		{
+			"name": "Joe McNorton",
+			"orcid": "https://orcid.org/0000-0003-0783-0448",
+			"affiliation": "European Centre for Medium-Range Weather Forecasts"
+		},
+		{
+			"name": "Fiona R. Spuler",
+			"orcid": "https://orcid.org/0009-0003-9358-0699",
+			"affiliation": "University of Reading"
+		},
+		{
+			"name": "Jakob Benjamin Wessel",
+			"orcid": "https://orcid.org/0000-0003-2621-2477",
+			"affiliation": "Turing Institute"
+		},
+		{
+			"name": "John T. Abatzoglou",
+			"orcid": "https://orcid.org/0000-0001-7599-9750",
+			"affiliation": "University of California, Merced"
+		},
+		{
+			"name": "Liana O. Anderson",
+			"orcid": "https://orcid.org/0000-0001-9545-5136",
+			"affiliation": "Centro Nacional de Monitoramento e Alertas de Desastres Naturais"
+		},
+		{
+			"name": "Niels Andela",
+			"orcid": "https://orcid.org/0000-0002-8241-6143",
+			"affiliation": "MAST Carbon (United Kingdom)"
+		},
+		{
+			"name": "Sally Archibald",
+			"orcid": "https://orcid.org/0000-0003-2786-3976",
+			"affiliation": "University of the Witwatersrand"
+		},
+		{
+			"name": "Dolors Armenteras",
+			"orcid": "https://orcid.org/0000-0003-0922-7298",
+			"affiliation": "Universidad Nacional de Colombia"
+		},
+		{
+			"name": "Eleanor Burke",
+			"orcid": "https://orcid.org/0000-0002-2158-141X",
+			"affiliation": "Met Office"
+		},
+		{
+			"name": "Rachel Carmenta",
+			"orcid": "https://orcid.org/0000-0001-8607-4147",
+			"affiliation": "University of East Anglia"
+		},
+		{
+			"name": "Emilio Chuvieco",
+			"orcid": "https://orcid.org/0000-0001-5618-4759",
+			"affiliation": "Universidad de Alcalá"
+		}
+	],
+	"authorCount": 44,
+	"venue": "Earth system science data",
+	"publisher": "Copernicus Publications",
+	"year": 2024,
+	"type": "article",
+	"abstract": "Abstract. Climate change contributes to the increased frequency and intensity of wildfires globally, with significant impacts on society and the environment. However, our understanding of the global distribution of extreme fires remains skewed, primarily influenced by media coverage and regionalised research efforts. This inaugural State of Wildfires report systematically analyses fire activity worldwide, identifying extreme events from the March 2023–February 2024 fire season. We assess the causes, predictability, and attribution of these events to climate change and land use and forecast future risks under different climate scenarios. During the 2023–2024 fire season, 3.9×106 km2 burned globally, slightly below the average of previous seasons, but fire carbon (C) emissions were 16 % above average, totalling 2.4 Pg C. Global fire C emissions were increased by record emissions in Canadian boreal forests (over 9 times the average) and reduced by low emissions from African savannahs. Notable events included record-breaking fire extent and emissions in Canada, the largest recorded wildfire in the European Union (Greece), drought-driven fires in western Amazonia and northern parts of South America, and deadly fires in Hawaii (100 deaths) and Chile (131 deaths). Over 232 000 people were evacuated in Canada alone, highlighting the severity of human impact. Our analyses revealed that multiple drivers were needed to cause areas of extreme fire activity. In Canada and Greece, a combination of high fire weather and an abundance of dry fuels increased the probability of fires, whereas burned area anomalies were weaker in regions with lower fuel loads and higher direct suppression, particularly in Canada. Fire weather prediction in Canada showed a mild anomalous signal 1 to 2 months in advance, whereas events in Greece and Amazonia had shorter predictability horizons. Attribution analyses indicated that modelled anomalies in burned area were up to 40 %, 18 %, and 50 % higher due to climate change in Canada, Greece, and western Amazonia during the 2023–2024 fire season, respectively. Meanwhile, the probability of extreme fire seasons of these magnitudes has increased significantly due to anthropogenic climate change, with a 2.9–3.6-fold increase in likelihood of high fire weather in Canada and a 20.0–28.5-fold increase in Amazonia. By the end of the century, events of similar magnitude to 2023 in Canada are projected to occur 6.3–10.8 times more frequently under a medium–high emission scenario (SSP370). This report represents our first annual effort to catalogue extreme wildfire events, explain their occurrence, and predict future risks. By consolidating state-of-the-art wildfire science and delivering key insights relevant to policymakers, disaster management services, firefighting agencies, and land managers, we aim to enhance society's resilience to wildfires and promote advances in preparedness, mitigation, and adaptation. New datasets presented in this work are available from https://doi.org/10.5281/zenodo.11400539 (Jones et al., 2024) and https://doi.org/10.5281/zenodo.11420742 (Kelley et al., 2024a).",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "gold",
+		"url": "https://doi.org/10.5194/essd-16-3601-2024"
+	},
+	"citedByCount": 236,
+	"themes": [
+		"risques",
+		"biodiversite"
+	],
+	"sourceTopics": [
+		"Fire effects on ecosystems",
+		"Fire dynamics and safety research",
+		"Landslides and related hazards"
+	],
+	"url": "https://doi.org/10.5194/essd-16-3601-2024",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-20"
+	},
+	"addedAt": "2026-08-20",
+	"editorial": {},
+	"glossaryTerms": []
+}
