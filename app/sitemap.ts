@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { getAllStudies } from "@/lib/content/studies";
 import { getGlossary } from "@/lib/content/glossary";
 import { getTopics } from "@/lib/content/topics";
+import { getPaths } from "@/lib/content/paths";
 import { DEFAULT_LANG, LANGS } from "@/lib/i18n/config";
 import { absoluteUrl, homeRoute, route, type Section } from "@/lib/routes";
 import { siteConfig } from "@/lib/site-config";
@@ -34,6 +35,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
 		["studies", 0.9],
 		["glossary", 0.9],
 		["topics", 0.8],
+		["paths", 0.8],
+		["indicators", 0.7],
 		["methodology", 0.5],
 		["contribute", 0.4],
 		["about", 0.4],
@@ -63,6 +66,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
 			Object.fromEntries(LANGS.map((l) => [l, route(l, "topics", topic.slug)])),
 			0.7,
 			topic.frontmatter.updatedAt
+		);
+	}
+
+	for (const entry of getPaths(DEFAULT_LANG)) {
+		push(
+			Object.fromEntries(LANGS.map((l) => [l, route(l, "paths", entry.slug)])),
+			0.7,
+			entry.frontmatter.updatedAt
 		);
 	}
 

@@ -1,20 +1,22 @@
 import { cn } from "@/lib/utils";
 
 /**
- * Marque du site : une carotte de forage stylisée — un cylindre strié dont les
- * couches se resserrent vers le haut. C'est l'objet dont on tire les archives
- * climatiques, et le geste du site est le même : empiler des couches de sources.
+ * Marque du site : un delta, le symbole de l'écart.
+ *
+ * C'est la grandeur que manipule toute la science du climat — l'anomalie de
+ * température, la variation de concentration, l'écart à une référence. Le triangle
+ * est strié pour évoquer la stratification des archives climatiques.
  */
 export function Mark({ className }: { className?: string }) {
 	return (
-		<svg
-			viewBox="0 0 24 24"
-			fill="none"
-			aria-hidden="true"
-			className={cn("h-6 w-6", className)}
-		>
-			<rect x="6.5" y="2.5" width="11" height="19" rx="2.5" className="stroke-current" strokeWidth="1.6" />
-			<path d="M6.5 8h11M6.5 12h11M6.5 15.5h11M6.5 18.5h11" className="stroke-current" strokeWidth="1.2" opacity="0.55" />
+		<svg viewBox="0 0 24 24" fill="none" aria-hidden="true" className={cn("h-6 w-6", className)}>
+			<path
+				d="M12 3.2 21 20.2H3L12 3.2Z"
+				className="stroke-current"
+				strokeWidth="1.7"
+				strokeLinejoin="round"
+			/>
+			<path d="M7.7 13h8.6M6 16.4h12" className="stroke-current" strokeWidth="1.2" opacity="0.5" />
 		</svg>
 	);
 }
@@ -30,7 +32,7 @@ export function Wordmark({
 }) {
 	return (
 		<span className={cn("flex items-center gap-2.5", className)}>
-			<Mark className="h-6 w-6 shrink-0 text-primary" />
+			<Mark className="h-[1.35rem] w-[1.35rem] shrink-0 text-primary" />
 			<span className="flex flex-col leading-none">
 				<span className="font-serif text-[1.0625rem] font-semibold tracking-tight">{name}</span>
 				{tagline && (

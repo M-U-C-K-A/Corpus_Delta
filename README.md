@@ -1,11 +1,8 @@
-# Climatothèque
+# Corpus Delta
 
 Annuaire de publications scientifiques sur le climat et les risques naturels, doublé d'un
 glossaire des termes techniques. Le site ne publie pas de recherche : il référence des
 travaux existants et renvoie systématiquement à leur source.
-
-> Le nom du site n'est pas définitif. Il vit dans `lib/site-config.ts` : le changer ne
-> touche qu'un fichier.
 
 ## Principe
 
@@ -40,6 +37,7 @@ Le site est servi sur `http://localhost:3000`, redirigé vers `/fr`.
 | `pnpm study:add <doi> --themes=…` | Ajoute une étude depuis son DOI |
 | `pnpm datasets:fetch [id]` | Régénère les jeux de données des graphiques |
 | `pnpm links:check` | Vérifie que les liens sortants répondent |
+| `pnpm datasets:fetch` | Récupère les séries NOAA et NASA |
 | `pnpm lint` | ESLint |
 
 ### Ajouter une étude
@@ -67,6 +65,7 @@ app/[lang]/          Routes, segments anglais ; les URLs françaises viennent
 content/studies/     Une étude = un JSON, produit par le script d'ingestion
 content/glossary/fr/ Définitions en MDX, source obligatoire
 content/topics/fr/   Dossiers thématiques en MDX
+content/paths/fr/    Parcours de lecture : séquences ordonnées d'étapes
 data/datasets/       Séries chiffrées des graphiques, avec provenance
 lib/content/         Schémas zod, chargeurs, citations, taxonomie
 components/mdx/      Composants disponibles dans les MDX
@@ -86,6 +85,9 @@ Les composants suivants sont disponibles dans les fichiers MDX, sans import :
 <Term id="canicule">canicules</Term>
 <Callout variant="uncertainty" title="…">…</Callout>
 ```
+
+Les pastilles de thème, les bandeaux tramés et les vignettes Open Graph reprennent tous la
+teinte définie une seule fois par thème dans `lib/content/taxonomy.ts`.
 
 `Cite` et `Term` sont vérifiés au build : un renvoi vers une étude ou un terme inexistant
 fait échouer `pnpm validate`, donc le déploiement.

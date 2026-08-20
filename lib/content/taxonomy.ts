@@ -6,63 +6,90 @@ import type { Lang } from "@/lib/i18n/config";
  * Ils ne remplacent pas les concepts renvoyés par OpenAlex (conservés bruts dans
  * `sourceTopics`) : ceux-ci sont trop fins et trop instables pour servir de facettes.
  * Le rattachement d'une étude à un thème est une décision éditoriale.
+ *
+ * Chaque thème porte une teinte qui le signale dans toute l'interface : pastilles,
+ * bandeaux de dossier, facettes. C'est le seul endroit où cette association est définie.
  */
 export const THEMES = {
 	observation: {
 		fr: "Observation du climat",
 		en: "Climate observation",
+		hue: 205,
 	},
 	modelisation: {
 		fr: "Modélisation et projections",
 		en: "Modelling and projections",
+		hue: 258,
 	},
 	carbone: {
 		fr: "Cycle du carbone et gaz à effet de serre",
 		en: "Carbon cycle and greenhouse gases",
+		hue: 25,
 	},
 	chaleur: {
 		fr: "Chaleur et canicules",
 		en: "Heat and heatwaves",
+		hue: 12,
 	},
 	cryosphere: {
 		fr: "Cryosphère",
 		en: "Cryosphere",
+		hue: 190,
 	},
 	ocean: {
 		fr: "Océan et niveau marin",
 		en: "Ocean and sea level",
+		hue: 218,
 	},
 	eau: {
 		fr: "Eau, sécheresses et inondations",
 		en: "Water, droughts and floods",
+		hue: 172,
 	},
 	biodiversite: {
 		fr: "Biodiversité et écosystèmes",
 		en: "Biodiversity and ecosystems",
+		hue: 140,
 	},
 	sante: {
 		fr: "Santé et populations",
 		en: "Health and populations",
+		hue: 340,
 	},
 	agriculture: {
 		fr: "Agriculture et alimentation",
 		en: "Agriculture and food",
+		hue: 78,
 	},
 	energie: {
 		fr: "Énergie et transition",
 		en: "Energy and transition",
+		hue: 42,
 	},
 	politiques: {
 		fr: "Politiques et gouvernance",
 		en: "Policy and governance",
+		hue: 285,
 	},
 	risques: {
 		fr: "Risques naturels",
 		en: "Natural hazards",
+		hue: 358,
 	},
 } as const;
 
 export type ThemeId = keyof typeof THEMES;
+
+/**
+ * Teinte d'accent d'un thème, en degrés HSL.
+ *
+ * On ne stocke que la teinte : saturation et luminosité sont fixées côté CSS,
+ * différemment en clair et en sombre. Cela garantit un contraste homogène d'un
+ * thème à l'autre, là où treize couleurs choisies à la main dériveraient.
+ */
+export function themeHue(id: ThemeId): number {
+	return THEMES[id].hue;
+}
 
 export const THEME_IDS = Object.keys(THEMES) as ThemeId[];
 

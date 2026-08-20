@@ -1,0 +1,197 @@
+{
+	"id": "methane-global",
+	"title": {
+		"fr": "Concentration atmosphérique de méthane",
+		"en": "Atmospheric methane concentration"
+	},
+	"unit": "ppb",
+	"source": {
+		"label": "Trends in Atmospheric Methane",
+		"url": "https://gml.noaa.gov/ccgg/trends_ch4/",
+		"publisher": "NOAA Global Monitoring Laboratory",
+		"accessedAt": "2026-08-19"
+	},
+	"note": {
+		"fr": "Moyennes annuelles globales, calculées à partir du réseau de stations de surface du NOAA.",
+		"en": "Global annual means derived from the NOAA surface station network."
+	},
+	"series": [
+		{
+			"key": "ch4",
+			"label": {
+				"fr": "CH₄ atmosphérique",
+				"en": "Atmospheric CH₄"
+			}
+		}
+	],
+	"rows": [
+		{
+			"year": 1984,
+			"ch4": 1644.84
+		},
+		{
+			"year": 1985,
+			"ch4": 1657.29
+		},
+		{
+			"year": 1986,
+			"ch4": 1670.09
+		},
+		{
+			"year": 1987,
+			"ch4": 1682.71
+		},
+		{
+			"year": 1988,
+			"ch4": 1693.19
+		},
+		{
+			"year": 1989,
+			"ch4": 1704.53
+		},
+		{
+			"year": 1990,
+			"ch4": 1714.46
+		},
+		{
+			"year": 1991,
+			"ch4": 1724.79
+		},
+		{
+			"year": 1992,
+			"ch4": 1735.47
+		},
+		{
+			"year": 1993,
+			"ch4": 1736.48
+		},
+		{
+			"year": 1994,
+			"ch4": 1742.08
+		},
+		{
+			"year": 1995,
+			"ch4": 1748.88
+		},
+		{
+			"year": 1996,
+			"ch4": 1751.3
+		},
+		{
+			"year": 1997,
+			"ch4": 1754.51
+		},
+		{
+			"year": 1998,
+			"ch4": 1765.57
+		},
+		{
+			"year": 1999,
+			"ch4": 1772.3
+		},
+		{
+			"year": 2000,
+			"ch4": 1773.22
+		},
+		{
+			"year": 2001,
+			"ch4": 1771.29
+		},
+		{
+			"year": 2002,
+			"ch4": 1772.68
+		},
+		{
+			"year": 2003,
+			"ch4": 1777.33
+		},
+		{
+			"year": 2004,
+			"ch4": 1777.13
+		},
+		{
+			"year": 2005,
+			"ch4": 1774.23
+		},
+		{
+			"year": 2006,
+			"ch4": 1774.94
+		},
+		{
+			"year": 2007,
+			"ch4": 1781.33
+		},
+		{
+			"year": 2008,
+			"ch4": 1787.01
+		},
+		{
+			"year": 2009,
+			"ch4": 1793.52
+		},
+		{
+			"year": 2010,
+			"ch4": 1798.92
+		},
+		{
+			"year": 2011,
+			"ch4": 1803.03
+		},
+		{
+			"year": 2012,
+			"ch4": 1808.07
+		},
+		{
+			"year": 2013,
+			"ch4": 1813.42
+		},
+		{
+			"year": 2014,
+			"ch4": 1822.59
+		},
+		{
+			"year": 2015,
+			"ch4": 1834.19
+		},
+		{
+			"year": 2016,
+			"ch4": 1843.18
+		},
+		{
+			"year": 2017,
+			"ch4": 1849.62
+		},
+		{
+			"year": 2018,
+			"ch4": 1857.34
+		},
+		{
+			"year": 2019,
+			"ch4": 1866.59
+		},
+		{
+			"year": 2020,
+			"ch4": 1878.72
+		},
+		{
+			"year": 2021,
+			"ch4": 1894.81
+		},
+		{
+			"year": 2022,
+			"ch4": 1910.95
+		},
+		{
+			"year": 2023,
+			"ch4": 1921.38
+		},
+		{
+			"year": 2024,
+			"ch4": 1929.4
+		},
+		{
+			"year": 2025,
+			"ch4": 1935.94
+		}
+	]
+}
