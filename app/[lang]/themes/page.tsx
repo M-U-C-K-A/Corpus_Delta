@@ -1,8 +1,9 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { DitherSurface } from "@/components/site/Dither";
+import { ThemeRadar } from "@/components/site/ThemeRadar";
 import { getThemeSummaries } from "@/lib/content/themes";
-import { themeHue, themeLabel } from "@/lib/content/taxonomy";
+import { themeHue, themeLabel, themeShortLabel } from "@/lib/content/taxonomy";
 import { getDictionary } from "@/lib/i18n/dictionaries";
 import { isLang, LANGS } from "@/lib/i18n/config";
 import { route } from "@/lib/routes";
@@ -78,6 +79,32 @@ export default function ThemesPage({ params }: { params: { lang: string } }) {
 						</li>
 					))}
 				</ul>
+
+				{/*
+				  Le radar ne dit rien du climat : il décrit le corpus lui-même. C'est
+				  la seule lecture qui rende visible d'un coup d'œil ce que treize
+				  cartes alignées ne montrent pas — l'écart entre les thèmes.
+				*/}
+				<section aria-labelledby="corpus-shape" className="rule mt-14 pt-12">
+					<h2 id="corpus-shape" className="font-serif text-2xl font-semibold tracking-tight">
+						{dict.themes.shape}
+					</h2>
+					<p className="mt-2 max-w-2xl text-sm leading-relaxed text-muted-foreground">
+						{dict.themes.shapeLead}
+					</p>
+
+					<div className="mt-6 rounded-xl border border-border bg-card p-4 sm:p-6">
+						<ThemeRadar
+							rows={summaries.map((summary) => ({
+								// Le nom complet ne tient pas sur un axe : treize libellés se chevaucheraient.
+								axis: themeShortLabel(summary.id, lang),
+								studies: summary.studies,
+								glossary: summary.glossary,
+							}))}
+							labels={{ studies: dict.themes.studies, glossary: dict.themes.glossary }}
+						/>
+					</div>
+				</section>
 			</div>
 		</div>
 	);

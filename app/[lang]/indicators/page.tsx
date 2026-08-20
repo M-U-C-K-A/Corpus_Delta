@@ -28,10 +28,15 @@ export function generateMetadata({ params }: { params: { lang: string } }): Meta
 
 /** Ordre d'affichage et forme du graphique, choisis pour chaque série. */
 const INDICATORS: { id: string; kind: ChartKind; decimals: number; color: DitherColor }[] = [
+	// Les causes d'abord, les réponses du système ensuite.
 	{ id: "co2-mauna-loa", kind: "area", decimals: 2, color: "orange" },
-	{ id: "temperature-anomaly-gistemp", kind: "area", decimals: 2, color: "red" },
 	{ id: "methane-global", kind: "line", decimals: 1, color: "purple" },
-	{ id: "nitrous-oxide-global", kind: "line", decimals: 1, color: "blue" },
+	{ id: "nitrous-oxide-global", kind: "line", decimals: 1, color: "pink" },
+	{ id: "greenhouse-forcing-aggi", kind: "area", decimals: 3, color: "orange" },
+	{ id: "temperature-anomaly-gistemp", kind: "area", decimals: 2, color: "red" },
+	{ id: "ocean-heat-content", kind: "area", decimals: 1, color: "red" },
+	{ id: "sea-level-altimetry", kind: "area", decimals: 1, color: "blue" },
+	{ id: "arctic-sea-ice-september", kind: "line", decimals: 2, color: "blue" },
 ];
 
 /** Scénarios comparés, du plus sobre au plus émetteur — l'ordre porte le sens. */

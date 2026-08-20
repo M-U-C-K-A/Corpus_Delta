@@ -136,6 +136,9 @@ const fr = {
 		otherThemes: "Autres thèmes",
 		feed: "Flux RSS du thème",
 		empty: "Rien n'est encore rattaché à ce thème.",
+		shape: "Forme du corpus",
+		shapeLead:
+			"Nombre d'études et de termes rattachés à chaque thème. Les creux indiquent où le corpus demande encore du travail.",
 	},
 	indicators: {
 		title: "Indicateurs",
@@ -362,6 +365,9 @@ const en: Dictionary = {
 		otherThemes: "Other themes",
 		feed: "RSS feed for this theme",
 		empty: "Nothing is attached to this theme yet.",
+		shape: "Shape of the corpus",
+		shapeLead:
+			"Number of studies and terms attached to each theme. The hollows show where the corpus still needs work.",
 	},
 	indicators: {
 		title: "Indicators",

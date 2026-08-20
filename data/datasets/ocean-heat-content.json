@@ -1,0 +1,113 @@
+{
+	"id": "ocean-heat-content",
+	"title": {
+		"fr": "Contenu thermique de l'océan mondial",
+		"en": "Global ocean heat content"
+	},
+	"unit": "10²² J",
+	"source": {
+		"label": "Global Ocean Heat and Salt Content",
+		"url": "https://www.ncei.noaa.gov/access/global-ocean-heat-content/",
+		"publisher": "NOAA National Centers for Environmental Information",
+		"accessedAt": "2026-08-20"
+	},
+	"note": {
+		"fr": "Chaleur accumulée dans les 2 000 premiers mètres, en écart à la moyenne 1955-2006. L'océan absorbe environ neuf dixièmes de l'excédent d'énergie du système climatique : c'est la mesure la moins bruitée du déséquilibre.",
+		"en": "Heat accumulated in the top 2,000 metres, as a departure from the 1955-2006 mean. The ocean takes up around nine tenths of the climate system's energy surplus, making this the least noisy measure of the imbalance."
+	},
+	"series": [
+		{
+			"key": "heat",
+			"label": {
+				"fr": "Océan mondial, 0-2000 m",
+				"en": "World ocean, 0-2000 m"
+			}
+		}
+	],
+	"rows": [
+		{
+			"year": 2005,
+			"heat": 10.171
+		},
+		{
+			"year": 2006,
+			"heat": 12.638
+		},
+		{
+			"year": 2007,
+			"heat": 12.394
+		},
+		{
+			"year": 2008,
+			"heat": 13.257
+		},
+		{
+			"year": 2009,
+			"heat": 13.431
+		},
+		{
+			"year": 2010,
+			"heat": 14.537
+		},
+		{
+			"year": 2011,
+			"heat": 15.394
+		},
+		{
+			"year": 2012,
+			"heat": 16.187
+		},
+		{
+			"year": 2013,
+			"heat": 18.65
+		},
+		{
+			"year": 2014,
+			"heat": 20.11
+		},
+		{
+			"year": 2015,
+			"heat": 22.401
+		},
+		{
+			"year": 2016,
+			"heat": 20.799
+		},
+		{
+			"year": 2017,
+			"heat": 23.589
+		},
+		{
+			"year": 2018,
+			"heat": 24.059
+		},
+		{
+			"year": 2019,
+			"heat": 25.436
+		},
+		{
+			"year": 2020,
+			"heat": 25.525
+		},
+		{
+			"year": 2021,
+			"heat": 27.28
+		},
+		{
+			"year": 2022,
+			"heat": 28.192
+		},
+		{
+			"year": 2023,
+			"heat": 29.22
+		},
+		{
+			"year": 2024,
+			"heat": 30.316
+		},
+		{
+			"year": 2025,
+			"heat": 32.533
+		}
+	]
+}
