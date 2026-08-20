@@ -2,27 +2,10 @@ import { ImageResponse } from "next/og";
 import { siteConfig } from "@/lib/site-config";
 import { MARK_BANDS } from "@/components/site/Wordmark";
 import { themeHue, type ThemeId } from "@/lib/content/taxonomy";
+import { hslToHex } from "@/lib/hsl";
 
 export const OG_SIZE = { width: 1200, height: 630 };
 export const OG_CONTENT_TYPE = "image/png";
-
-/**
- * Satori — le moteur derrière `ImageResponse` — n'implémente qu'un sous-ensemble
- * de CSS. Les dégradés radiaux et `hsl()` à l'intérieur d'un dégradé le font
- * échouer, d'où la conversion en hexadécimal ; les dégradés linéaires, eux,
- * passent.
- */
-function hslToHex(h: number, s: number, l: number): string {
-	const a = (s / 100) * Math.min(l / 100, 1 - l / 100);
-	const channel = (n: number) => {
-		const k = (n + h / 30) % 12;
-		const value = l / 100 - a * Math.max(-1, Math.min(k - 3, 9 - k, 1));
-		return Math.round(255 * value)
-			.toString(16)
-			.padStart(2, "0");
-	};
-	return `#${channel(0)}${channel(8)}${channel(4)}`;
-}
 
 /**
  * Tronque sur une frontière de mot. Couper au caractère près produisait des fins
