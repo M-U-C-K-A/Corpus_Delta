@@ -25,6 +25,22 @@ const nextConfig = {
 	images: {
 		formats: ["image/avif", "image/webp"],
 	},
+	experimental: {
+		/*
+		  Les vignettes de partage sont rendues à la demande, et leurs chargeurs
+		  lisent le contenu via `path.join(process.cwd(), "content", …)`. Ce chemin
+		  étant construit à l'exécution, le traçage de dépendances de Next ne peut
+		  pas le découvrir : aucun fichier de `content/` n'était embarqué, le
+		  chargeur ne trouvait rien et toutes les vignettes retombaient sur l'image
+		  « page introuvable ». On les déclare donc explicitement.
+		*/
+		outputFileTracingIncludes: {
+			"/[lang]/glossary/[term]/opengraph-image": ["./content/**/*"],
+			"/[lang]/paths/[slug]/opengraph-image": ["./content/**/*"],
+			"/[lang]/studies/[id]/opengraph-image": ["./content/**/*"],
+			"/[lang]/topics/[slug]/opengraph-image": ["./content/**/*"],
+		},
+	},
 };
 
 export default nextConfig;
