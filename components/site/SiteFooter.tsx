@@ -16,6 +16,7 @@ export function SiteFooter({ lang }: { lang: Lang }) {
 				{ label: dict.nav.glossary, href: route(lang, "glossary") },
 				{ label: dict.nav.topics, href: route(lang, "topics") },
 				{ label: dict.nav.paths, href: route(lang, "paths") },
+				{ label: dict.themes.title, href: route(lang, "themes") },
 				{ label: dict.nav.indicators, href: route(lang, "indicators") },
 			],
 		},

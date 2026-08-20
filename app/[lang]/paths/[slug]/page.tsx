@@ -242,7 +242,7 @@ export default function PathPage({ params }: { params: { lang: string; slug: str
 							<h2 className="text-xs font-medium uppercase tracking-[0.09em] text-muted-foreground">
 								{dict.common.themes}
 							</h2>
-							<ThemeTagList themes={entry.frontmatter.themes} lang={lang} linkToStudies className="mt-3" />
+							<ThemeTagList themes={entry.frontmatter.themes} lang={lang} linked className="mt-3" />
 						</section>
 					</aside>
 				</div>

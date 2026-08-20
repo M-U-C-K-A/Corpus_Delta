@@ -63,12 +63,13 @@ export function ThemeTag({
 export function ThemeTagList({
 	themes,
 	lang,
-	linkToStudies = false,
+	linked = false,
 	className,
 }: {
 	themes: readonly string[];
 	lang: Lang;
-	linkToStudies?: boolean;
+	/** Rend chaque pastille cliquable vers la page du thème. */
+	linked?: boolean;
 	className?: string;
 }) {
 	return (
@@ -78,7 +79,9 @@ export function ThemeTagList({
 					<ThemeTag
 						theme={theme as ThemeId}
 						lang={lang}
-						href={linkToStudies ? `${route(lang, "studies")}?theme=${theme}` : undefined}
+						// La page du thème, pas l'annuaire filtré : elle mène aux études,
+						// mais aussi aux définitions, dossiers et parcours du sujet.
+						href={linked ? route(lang, "themes", theme) : undefined}
 					/>
 				</li>
 			))}

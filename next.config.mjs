@@ -39,6 +39,7 @@ const nextConfig = {
 			"/[lang]/paths/[slug]/opengraph-image": ["./content/**/*"],
 			"/[lang]/studies/[id]/opengraph-image": ["./content/**/*"],
 			"/[lang]/topics/[slug]/opengraph-image": ["./content/**/*"],
+			"/[lang]/themes/[theme]/opengraph-image": ["./content/**/*"],
 		},
 	},
 };
