@@ -1,0 +1,31 @@
+name: Liens
+
+# Les liens sortants meurent sans prévenir, et rien dans le dépôt ne change à ce
+# moment-là : c'est une vérification qui dépend du temps, pas des commits. D'où
+# une exécution planifiée plutôt qu'un ajout à la CI, qui la rendrait lente et
+# intermittente pour une raison étrangère à la modification proposée.
+on:
+  schedule:
+    - cron: "0 6 * * 1" # tous les lundis, 6 h UTC
+  workflow_dispatch:
+
+jobs:
+  check:
+    name: DOI et sources
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+
+      # Le script distingue « cassé » de « bloqué » : beaucoup d'éditeurs
+      # renvoient 403 à un robot sans que le lien soit mort. Seul un vrai 404
+      # fait échouer la tâche.
+      - name: Vérifier les liens
+        run: pnpm links:check

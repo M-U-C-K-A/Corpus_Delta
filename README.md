@@ -1,5 +1,7 @@
 # Corpus Delta
 
+[![CI](https://github.com/M-U-C-K-A/Corpus_Delta/actions/workflows/ci.yml/badge.svg)](https://github.com/M-U-C-K-A/Corpus_Delta/actions/workflows/ci.yml)
+
 Annuaire de publications scientifiques sur le climat et les risques naturels, doublé d'un
 glossaire des termes techniques. Le site ne publie pas de recherche : il référence des
 travaux existants et renvoie systématiquement à leur source.
@@ -40,6 +42,7 @@ Le site est servi sur `http://localhost:3000`, redirigé vers `/fr`.
 | `pnpm datasets:fetch [id]` | Régénère les jeux de données des graphiques |
 | `pnpm links:check` | Vérifie que les liens sortants répondent |
 | `pnpm lint` | ESLint |
+| `pnpm typecheck` | Vérification des types, sans émettre |
 
 ### Ajouter une étude
 

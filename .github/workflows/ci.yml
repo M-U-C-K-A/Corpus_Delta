@@ -1,0 +1,42 @@
+name: CI
+
+# Sur main et sur chaque proposition de modification : une régression du contenu
+# doit se voir avant la fusion, pas au déploiement.
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  verify:
+    name: Lint, types, contenu, build
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      # --frozen-lockfile : un lockfile désynchronisé du package.json échoue ici
+      # plutôt que d'installer silencieusement des versions différentes.
+      - run: pnpm install --frozen-lockfile
+
+      - name: ESLint
+        run: pnpm lint
+
+      - name: Types
+        run: pnpm typecheck
+
+      # Étape séparée bien que `build` la relance : elle est instantanée et
+      # nomme précisément le fichier fautif, là où un build rouge noie l'erreur.
+      - name: Schémas et renvois croisés
+        run: pnpm validate
+
+      - name: Build
+        run: pnpm build
