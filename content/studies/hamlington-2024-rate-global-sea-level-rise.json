@@ -1,0 +1,76 @@
+{
+	"id": "hamlington-2024-rate-global-sea-level-rise",
+	"doi": "10.1038/s43247-024-01761-5",
+	"title": "The rate of global sea level rise doubled during the past three decades",
+	"authors": [
+		{
+			"name": "Benjamin D. Hamlington",
+			"orcid": "https://orcid.org/0000-0002-5731-9966",
+			"affiliation": "Jet Propulsion Laboratory"
+		},
+		{
+			"name": "Ashley Bellas-Manley",
+			"affiliation": "University of Colorado Boulder"
+		},
+		{
+			"name": "J. K. Willis",
+			"orcid": "https://orcid.org/0000-0002-4515-8771",
+			"affiliation": "Jet Propulsion Laboratory"
+		},
+		{
+			"name": "Séverine Fournier",
+			"orcid": "https://orcid.org/0000-0002-6420-9749",
+			"affiliation": "Jet Propulsion Laboratory"
+		},
+		{
+			"name": "Nadya Vinogradova",
+			"orcid": "https://orcid.org/0000-0002-8262-8453"
+		},
+		{
+			"name": "R. S. Nerem"
+		},
+		{
+			"name": "Christopher G. Piecuch",
+			"orcid": "https://orcid.org/0000-0001-7973-7328",
+			"affiliation": "Woods Hole Oceanographic Institution"
+		},
+		{
+			"name": "Philip R. Thompson",
+			"orcid": "https://orcid.org/0000-0002-0875-4208",
+			"affiliation": "University of Hawaiʻi at Mānoa"
+		},
+		{
+			"name": "Robert E. Kopp",
+			"orcid": "https://orcid.org/0000-0003-4016-9428",
+			"affiliation": "Rutgers, The State University of New Jersey"
+		}
+	],
+	"authorCount": 9,
+	"venue": "Communications Earth & Environment",
+	"publisher": "Nature Portfolio",
+	"year": 2024,
+	"type": "article",
+	"abstract": "The rise in globally averaged sea level—or global mean sea level—is one of the most unambiguous indicators of climate change. Over the past three decades, satellites have provided continuous, accurate measurements of sea level on near-global scales. Here, we show that since satellites began observing sea surface heights in 1993 until the end of 2023, global mean sea level has risen by 111 mm. In addition, the rate of global mean sea level rise over those three decades has increased from ~2.1 mm/year in 1993 to ~4.5 mm/year in 2023. If this trajectory of sea level rise continues over the next three decades, sea levels will increase by an additional 169 mm globally, comparable to mid-range sea level projections from the IPCC AR6. Global mean sea level rise amounted to 4.5 mm per year as a result of warming oceans and melting land ice, more than twice the rate of 2.1 mm/year observed at the start of satellite data in 1993, based on a sea-level trajectory from altimeter data.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "gold",
+		"url": "https://www.nature.com/articles/s43247-024-01761-5.pdf"
+	},
+	"citedByCount": 132,
+	"themes": [
+		"ocean"
+	],
+	"sourceTopics": [
+		"Geophysics and Gravity Measurements",
+		"Groundwater and Isotope Geochemistry"
+	],
+	"url": "https://doi.org/10.1038/s43247-024-01761-5",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-20"
+	},
+	"addedAt": "2026-08-20",
+	"editorial": {},
+	"glossaryTerms": []
+}

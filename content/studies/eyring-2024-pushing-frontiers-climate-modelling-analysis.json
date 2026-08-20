@@ -1,0 +1,136 @@
+{
+	"id": "eyring-2024-pushing-frontiers-climate-modelling-analysis",
+	"doi": "10.1038/s41558-024-02095-y",
+	"title": "Pushing the frontiers in climate modelling and analysis with machine learning",
+	"authors": [
+		{
+			"name": "Veronika Eyring",
+			"orcid": "https://orcid.org/0000-0002-6887-4885",
+			"affiliation": "University of Bremen"
+		},
+		{
+			"name": "William D. Collins",
+			"orcid": "https://orcid.org/0000-0002-4463-9848",
+			"affiliation": "Lawrence Berkeley National Laboratory"
+		},
+		{
+			"name": "Pierre Gentine",
+			"orcid": "https://orcid.org/0000-0002-0845-8345",
+			"affiliation": "Columbia University"
+		},
+		{
+			"name": "Elizabeth A. Barnes",
+			"orcid": "https://orcid.org/0000-0003-4284-9320",
+			"affiliation": "Colorado State University"
+		},
+		{
+			"name": "Marcelo Barreiro",
+			"orcid": "https://orcid.org/0000-0002-7819-1607",
+			"affiliation": "Universidad de la República de Uruguay"
+		},
+		{
+			"name": "Tom Beucler",
+			"orcid": "https://orcid.org/0000-0002-5731-1040",
+			"affiliation": "University of Lausanne"
+		},
+		{
+			"name": "Marc Bocquet",
+			"orcid": "https://orcid.org/0000-0003-2675-0347",
+			"affiliation": "École nationale des ponts et chaussées"
+		},
+		{
+			"name": "Christopher S. Bretherton",
+			"orcid": "https://orcid.org/0000-0002-6712-8856",
+			"affiliation": "Allen Institute for Artificial Intelligence"
+		},
+		{
+			"name": "Hannah M. Christensen",
+			"orcid": "https://orcid.org/0000-0001-8244-0218",
+			"affiliation": "University of Oxford"
+		},
+		{
+			"name": "Katherine Dagon",
+			"orcid": "https://orcid.org/0000-0002-4518-8225",
+			"affiliation": "NSF National Center for Atmospheric Research"
+		},
+		{
+			"name": "David John Gagne",
+			"orcid": "https://orcid.org/0000-0002-0469-2740",
+			"affiliation": "NSF National Center for Atmospheric Research"
+		},
+		{
+			"name": "David Hall",
+			"orcid": "https://orcid.org/0000-0002-0961-1196",
+			"affiliation": "Nvidia (United States)"
+		},
+		{
+			"name": "Dorit Hammerling",
+			"orcid": "https://orcid.org/0000-0003-3583-3611",
+			"affiliation": "Colorado School of Mines"
+		},
+		{
+			"name": "Stephan Hoyer",
+			"orcid": "https://orcid.org/0000-0002-5207-0380",
+			"affiliation": "Google (United States)"
+		},
+		{
+			"name": "Fernando Iglesias‐Suarez",
+			"orcid": "https://orcid.org/0000-0003-3403-8245",
+			"affiliation": "Deutsches Zentrum für Luft- und Raumfahrt e. V. (DLR)"
+		},
+		{
+			"name": "Ignacio Lopez‐Gomez",
+			"orcid": "https://orcid.org/0000-0002-7255-5895",
+			"affiliation": "California Institute of Technology"
+		},
+		{
+			"name": "Marie C. McGraw",
+			"orcid": "https://orcid.org/0000-0002-4469-226X",
+			"affiliation": "Cooperative Institute for Research in the Atmosphere"
+		},
+		{
+			"name": "Gerald A. Meehl",
+			"orcid": "https://orcid.org/0000-0002-8760-9534",
+			"affiliation": "NSF National Center for Atmospheric Research"
+		},
+		{
+			"name": "María J. Molina",
+			"orcid": "https://orcid.org/0000-0001-8539-8916",
+			"affiliation": "NSF National Center for Atmospheric Research"
+		},
+		{
+			"name": "Claire Monteleoni",
+			"orcid": "https://orcid.org/0000-0002-9488-0517",
+			"affiliation": "Institut national de recherche en sciences et technologies du numérique"
+		}
+	],
+	"authorCount": 29,
+	"venue": "Nature Climate Change",
+	"publisher": "Nature Portfolio",
+	"year": 2024,
+	"type": "article",
+	"abstract": null,
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "green",
+		"url": "https://www.osti.gov/biblio/2447145"
+	},
+	"citedByCount": 153,
+	"themes": [
+		"modelisation"
+	],
+	"sourceTopics": [
+		"Climate variability and models",
+		"Meteorological Phenomena and Simulations",
+		"Atmospheric and Environmental Gas Dynamics"
+	],
+	"url": "https://doi.org/10.1038/s41558-024-02095-y",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-20"
+	},
+	"addedAt": "2026-08-20",
+	"editorial": {},
+	"glossaryTerms": []
+}

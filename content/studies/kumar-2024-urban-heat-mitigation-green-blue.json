@@ -1,0 +1,133 @@
+{
+	"id": "kumar-2024-urban-heat-mitigation-green-blue",
+	"doi": "10.1016/j.xinn.2024.100588",
+	"title": "Urban heat mitigation by green and blue infrastructure: Drivers, effectiveness, and future needs",
+	"authors": [
+		{
+			"name": "Prashant Kumar",
+			"orcid": "https://orcid.org/0000-0002-2462-4411",
+			"affiliation": "University of Surrey"
+		},
+		{
+			"name": "Sisay E. Debele",
+			"orcid": "https://orcid.org/0000-0001-9518-8349",
+			"affiliation": "University of Surrey"
+		},
+		{
+			"name": "Soheila Khalili",
+			"orcid": "https://orcid.org/0000-0002-1300-6853",
+			"affiliation": "University of Surrey"
+		},
+		{
+			"name": "Christos H. Halios",
+			"orcid": "https://orcid.org/0000-0001-8301-8449",
+			"affiliation": "University of Reading"
+		},
+		{
+			"name": "Jeetendra Sahani",
+			"orcid": "https://orcid.org/0000-0003-3277-0651",
+			"affiliation": "University of Surrey"
+		},
+		{
+			"name": "Nasrin Aghamohammadi",
+			"orcid": "https://orcid.org/0000-0002-7063-1671",
+			"affiliation": "Murdoch University"
+		},
+		{
+			"name": "María de Fátima Andrade",
+			"orcid": "https://orcid.org/0000-0001-5351-8311",
+			"affiliation": "Universidade de São Paulo"
+		},
+		{
+			"name": "Maria Athanassiadou",
+			"affiliation": "Met Office"
+		},
+		{
+			"name": "Kamaldeep Bhui",
+			"orcid": "https://orcid.org/0000-0002-9205-2144",
+			"affiliation": "University of Oxford"
+		},
+		{
+			"name": "Nerea Calvillo",
+			"affiliation": "University of Warwick"
+		},
+		{
+			"name": "Shi‐Jie Cao",
+			"orcid": "https://orcid.org/0000-0001-9136-0949",
+			"affiliation": "University of Surrey"
+		},
+		{
+			"name": "Frédéric Coulon",
+			"orcid": "https://orcid.org/0000-0002-4384-3222",
+			"affiliation": "Cranfield University"
+		},
+		{
+			"name": "Jill L. Edmondson",
+			"orcid": "https://orcid.org/0000-0002-3623-4816",
+			"affiliation": "University of Sheffield"
+		},
+		{
+			"name": "David Fletcher",
+			"orcid": "https://orcid.org/0000-0001-5029-7453",
+			"affiliation": "UK Centre for Ecology & Hydrology"
+		},
+		{
+			"name": "Edmílson Dias de Freitas",
+			"orcid": "https://orcid.org/0000-0001-8783-2747",
+			"affiliation": "Universidade de São Paulo"
+		},
+		{
+			"name": "Hai Guo",
+			"orcid": "https://orcid.org/0000-0002-7996-7294",
+			"affiliation": "Hong Kong Polytechnic University"
+		},
+		{
+			"name": "Matthew Hort",
+			"affiliation": "Met Office"
+		},
+		{
+			"name": "Madhusudan Katti",
+			"orcid": "https://orcid.org/0000-0003-3076-3562",
+			"affiliation": "North Carolina State University"
+		},
+		{
+			"name": "Thomas Kjeldsen",
+			"orcid": "https://orcid.org/0000-0001-9423-5203",
+			"affiliation": "University of Bath"
+		},
+		{
+			"name": "Steffen Lehmann",
+			"orcid": "https://orcid.org/0000-0003-2453-662X",
+			"affiliation": "University of Nevada, Las Vegas"
+		}
+	],
+	"authorCount": 29,
+	"venue": "The Innovation",
+	"publisher": "Elsevier BV",
+	"year": 2024,
+	"type": "article",
+	"abstract": "The combination of urbanization and global warming leads to urban overheating and compounds the frequency and intensity of extreme heat events due to climate change. Yet, the risk of urban overheating can be mitigated by urban green-blue-grey infrastructure (GBGI), such as parks, wetlands, and engineered greening, which have the potential to effectively reduce summer air temperatures. Despite many reviews, the evidence bases on quantified GBGI cooling benefits remains partial and the practical recommendations for implementation are unclear. This systematic literature review synthesizes the evidence base for heat mitigation and related co-benefits, identifies knowledge gaps, and proposes recommendations for their implementation to maximize their benefits. After screening 27,486 papers, 202 were reviewed, based on 51 GBGI types categorized under 10 main divisions. Certain GBGI (green walls, parks, street trees) have been well researched for their urban cooling capabilities. However, several other GBGI have received negligible (zoological garden, golf course, estuary) or minimal (private garden, allotment) attention. The most efficient air cooling was observed in botanical gardens (5.0 ± 3.5°C), wetlands (4.9 ± 3.2°C), green walls (4.1 ± 4.2°C), street trees (3.8 ± 3.1°C), and vegetated balconies (3.8 ± 2.7°C). Under changing climate conditions (2070-2100) with consideration of RCP8.5, there is a shift in climate subtypes, either within the same climate zone (e.g., Dfa to Dfb and Cfb to Cfa) or across other climate zones (e.g., Dfb [continental warm-summer humid] to BSk [dry, cold semi-arid] and Cwa [temperate] to Am [tropical]). These shifts may result in lower efficiency for the current GBGI in the future. Given the importance of multiple services, it is crucial to balance their functionality, cooling performance, and other related co-benefits when planning for the future GBGI. This global GBGI heat mitigation inventory can assist policymakers and urban planners in prioritizing effective interventions to reduce the risk of urban overheating, filling research gaps, and promoting community resilience.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "gold",
+		"url": "http://www.cell.com/article/S2666675824000262/pdf"
+	},
+	"citedByCount": 256,
+	"themes": [
+		"chaleur"
+	],
+	"sourceTopics": [
+		"Urban Heat Island Mitigation",
+		"Urban Green Space and Health",
+		"Land Use and Ecosystem Services"
+	],
+	"url": "https://doi.org/10.1016/j.xinn.2024.100588",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-20"
+	},
+	"addedAt": "2026-08-20",
+	"editorial": {},
+	"glossaryTerms": []
+}

@@ -1,0 +1,95 @@
+{
+	"id": "weiskopf-2024-biodiversity-loss-reduces-global-terrestrial",
+	"doi": "10.1038/s41467-024-47872-7",
+	"title": "Biodiversity loss reduces global terrestrial carbon storage",
+	"authors": [
+		{
+			"name": "Sarah R. Weiskopf",
+			"orcid": "https://orcid.org/0000-0002-5933-8191",
+			"affiliation": "United States Geological Survey"
+		},
+		{
+			"name": "Forest Isbell",
+			"orcid": "https://orcid.org/0000-0001-9689-769X",
+			"affiliation": "University of Minnesota"
+		},
+		{
+			"name": "María Isabel Arce-Plata",
+			"affiliation": "Université de Montréal"
+		},
+		{
+			"name": "Moreno Di Marco",
+			"orcid": "https://orcid.org/0000-0002-8902-4193",
+			"affiliation": "Sapienza University of Rome"
+		},
+		{
+			"name": "Mike Harfoot",
+			"affiliation": "Vizzuality (Spain)"
+		},
+		{
+			"name": "Justin A. Johnson",
+			"orcid": "https://orcid.org/0000-0001-9903-1787",
+			"affiliation": "University of Minnesota"
+		},
+		{
+			"name": "Susannah B. Lerman",
+			"orcid": "https://orcid.org/0000-0002-2331-8439",
+			"affiliation": "Northern Research Station"
+		},
+		{
+			"name": "Brian W. Miller",
+			"orcid": "https://orcid.org/0000-0003-1716-1161",
+			"affiliation": "United States Geological Survey"
+		},
+		{
+			"name": "Toni Lyn Morelli",
+			"orcid": "https://orcid.org/0000-0001-5865-5294",
+			"affiliation": "United States Geological Survey"
+		},
+		{
+			"name": "Akira Mori",
+			"orcid": "https://orcid.org/0000-0002-8422-1198",
+			"affiliation": "The University of Tokyo"
+		},
+		{
+			"name": "Ensheng Weng",
+			"orcid": "https://orcid.org/0000-0002-1858-4847",
+			"affiliation": "Goddard Institute for Space Studies"
+		},
+		{
+			"name": "Simon Ferrier",
+			"orcid": "https://orcid.org/0000-0001-7884-2388",
+			"affiliation": "Commonwealth Scientific and Industrial Research Organisation"
+		}
+	],
+	"authorCount": 12,
+	"venue": "Nature Communications",
+	"publisher": "Nature Portfolio",
+	"year": 2024,
+	"type": "article",
+	"abstract": "Natural ecosystems store large amounts of carbon globally, as organisms absorb carbon from the atmosphere to build large, long-lasting, or slow-decaying structures such as tree bark or root systems. An ecosystem's carbon sequestration potential is tightly linked to its biological diversity. Yet when considering future projections, many carbon sequestration models fail to account for the role biodiversity plays in carbon storage. Here, we assess the consequences of plant biodiversity loss for carbon storage under multiple climate and land-use change scenarios. We link a macroecological model projecting changes in vascular plant richness under different scenarios with empirical data on relationships between biodiversity and biomass. We find that biodiversity declines from climate and land use change could lead to a global loss of between 7.44-103.14 PgC (global sustainability scenario) and 10.87-145.95 PgC (fossil-fueled development scenario). This indicates a self-reinforcing feedback loop, where higher levels of climate change lead to greater biodiversity loss, which in turn leads to greater carbon emissions and ultimately more climate change. Conversely, biodiversity conservation and restoration can help achieve climate change mitigation goals.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "gold",
+		"url": "https://www.nature.com/articles/s41467-024-47872-7.pdf"
+	},
+	"citedByCount": 166,
+	"themes": [
+		"carbone",
+		"biodiversite"
+	],
+	"sourceTopics": [
+		"Plant Water Relations and Carbon Dynamics",
+		"Conservation, Biodiversity, and Resource Management",
+		"Land Use and Ecosystem Services"
+	],
+	"url": "https://doi.org/10.1038/s41467-024-47872-7",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-20"
+	},
+	"addedAt": "2026-08-20",
+	"editorial": {},
+	"glossaryTerms": []
+}

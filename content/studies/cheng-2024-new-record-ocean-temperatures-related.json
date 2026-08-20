@@ -1,0 +1,133 @@
+{
+	"id": "cheng-2024-new-record-ocean-temperatures-related",
+	"doi": "10.1007/s00376-024-3378-5",
+	"title": "New Record Ocean Temperatures and Related Climate Indicators in 2023",
+	"authors": [
+		{
+			"name": "Lijing Cheng",
+			"orcid": "https://orcid.org/0000-0002-9854-0392",
+			"affiliation": "Chinese Academy of Sciences"
+		},
+		{
+			"name": "John Abraham",
+			"orcid": "https://orcid.org/0000-0002-3818-8681",
+			"affiliation": "University of St. Thomas - Minnesota"
+		},
+		{
+			"name": "Kevin E. Trenberth",
+			"orcid": "https://orcid.org/0000-0002-1445-1000",
+			"affiliation": "NSF National Center for Atmospheric Research"
+		},
+		{
+			"name": "Tim Boyer",
+			"orcid": "https://orcid.org/0000-0002-8827-4836",
+			"affiliation": "National Oceanic and Atmospheric Administration"
+		},
+		{
+			"name": "Michael Mann",
+			"orcid": "https://orcid.org/0000-0003-3067-296X",
+			"affiliation": "University of Pennsylvania"
+		},
+		{
+			"name": "Jiang Zhu",
+			"orcid": "https://orcid.org/0000-0001-9846-8944",
+			"affiliation": "University of St. Thomas - Minnesota"
+		},
+		{
+			"name": "Fan Wang",
+			"orcid": "https://orcid.org/0000-0001-5932-7567",
+			"affiliation": "Chinese Academy of Sciences"
+		},
+		{
+			"name": "Fujiang Yu",
+			"affiliation": "Ministry of Natural Resources"
+		},
+		{
+			"name": "Ricardo Locarnini",
+			"affiliation": "National Oceanic and Atmospheric Administration"
+		},
+		{
+			"name": "John Fasullo",
+			"orcid": "https://orcid.org/0000-0003-1216-892X",
+			"affiliation": "NSF National Center for Atmospheric Research"
+		},
+		{
+			"name": "Fei Zheng",
+			"orcid": "https://orcid.org/0000-0002-6897-1626",
+			"affiliation": "Chinese Academy of Sciences"
+		},
+		{
+			"name": "Yuanlong Li",
+			"orcid": "https://orcid.org/0000-0002-7239-5756",
+			"affiliation": "Chinese Academy of Sciences"
+		},
+		{
+			"name": "Bin Zhang",
+			"orcid": "https://orcid.org/0000-0002-8100-0808",
+			"affiliation": "Chinese Academy of Sciences"
+		},
+		{
+			"name": "Liying Wan",
+			"affiliation": "Ministry of Natural Resources"
+		},
+		{
+			"name": "Xingrong Chen",
+			"orcid": "https://orcid.org/0009-0000-8272-9492",
+			"affiliation": "Ministry of Natural Resources"
+		},
+		{
+			"name": "Dakui Wang",
+			"affiliation": "Ministry of Natural Resources"
+		},
+		{
+			"name": "Licheng Feng",
+			"orcid": "https://orcid.org/0000-0001-6255-412X",
+			"affiliation": "Ministry of Natural Resources"
+		},
+		{
+			"name": "Xiangzhou Song",
+			"orcid": "https://orcid.org/0000-0002-3499-6745",
+			"affiliation": "Hohai University"
+		},
+		{
+			"name": "Yulong Liu",
+			"orcid": "https://orcid.org/0000-0001-9891-8036",
+			"affiliation": "Shandong Marine Resource and Environment Research Institute"
+		},
+		{
+			"name": "Franco Reseghetti",
+			"orcid": "https://orcid.org/0000-0002-7569-8541",
+			"affiliation": "National Agency for New Technologies, Energy and Sustainable Economic Development"
+		}
+	],
+	"authorCount": 34,
+	"venue": "Advances in Atmospheric Sciences",
+	"publisher": "Springer Science+Business Media",
+	"year": 2024,
+	"type": "article",
+	"abstract": "Abstract The global physical and biogeochemical environment has been substantially altered in response to increased atmospheric greenhouse gases from human activities. In 2023, the sea surface temperature (SST) and upper 2000 m ocean heat content (OHC) reached record highs. The 0–2000 m OHC in 2023 exceeded that of 2022 by 15 ± 10 ZJ (1 Zetta Joules = 10 21 Joules) (updated IAP/CAS data); 9 ± 5 ZJ (NCEI/NOAA data). The Tropical Atlantic Ocean, the Mediterranean Sea, and southern oceans recorded their highest OHC observed since the 1950s. Associated with the onset of a strong El Niño, the global SST reached its record high in 2023 with an annual mean of ∼0.23°C higher than 2022 and an astounding &gt; 0.3°C above 2022 values for the second half of 2023. The density stratification and spatial temperature inhomogeneity indexes reached their highest values in 2023.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "hybrid",
+		"url": "https://link.springer.com/content/pdf/10.1007/s00376-024-3378-5.pdf"
+	},
+	"citedByCount": 150,
+	"themes": [
+		"ocean",
+		"observation"
+	],
+	"sourceTopics": [
+		"Climate variability and models",
+		"Oceanographic and Atmospheric Processes",
+		"Marine and coastal ecosystems"
+	],
+	"url": "https://doi.org/10.1007/s00376-024-3378-5",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-20"
+	},
+	"addedAt": "2026-08-20",
+	"editorial": {},
+	"glossaryTerms": []
+}

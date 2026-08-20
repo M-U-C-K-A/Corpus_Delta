@@ -1,0 +1,115 @@
+{
+	"id": "hultgren-2025-impacts-climate-change-global-agriculture",
+	"doi": "10.1038/s41586-025-09085-w",
+	"title": "Impacts of climate change on global agriculture accounting for adaptation",
+	"authors": [
+		{
+			"name": "Andrew Hultgren",
+			"orcid": "https://orcid.org/0000-0002-6720-6252",
+			"affiliation": "University of Illinois Urbana-Champaign"
+		},
+		{
+			"name": "Tamma Carleton",
+			"orcid": "https://orcid.org/0000-0002-5518-0550",
+			"affiliation": "National Bureau of Economic Research"
+		},
+		{
+			"name": "Michael Delgado",
+			"orcid": "https://orcid.org/0000-0002-2414-045X",
+			"affiliation": "Rhodium Group (United States)"
+		},
+		{
+			"name": "Diana R. Gergel",
+			"orcid": "https://orcid.org/0000-0001-8053-7649",
+			"affiliation": "BlackRock (United States)"
+		},
+		{
+			"name": "Michael Greenstone",
+			"orcid": "https://orcid.org/0000-0002-2364-2810",
+			"affiliation": "National Bureau of Economic Research"
+		},
+		{
+			"name": "Trevor Houser",
+			"orcid": "https://orcid.org/0000-0002-0514-7058",
+			"affiliation": "Rhodium Group (United States)"
+		},
+		{
+			"name": "Solomon Hsiang",
+			"orcid": "https://orcid.org/0000-0002-2074-0829",
+			"affiliation": "National Bureau of Economic Research"
+		},
+		{
+			"name": "Amir Jina",
+			"orcid": "https://orcid.org/0000-0003-3446-7883",
+			"affiliation": "National Bureau of Economic Research"
+		},
+		{
+			"name": "Robert E. Kopp",
+			"orcid": "https://orcid.org/0000-0003-4016-9428",
+			"affiliation": "Rutgers, The State University of New Jersey"
+		},
+		{
+			"name": "Steven B. Malevich",
+			"orcid": "https://orcid.org/0000-0002-4752-8190",
+			"affiliation": "Rhodium Group (United States)"
+		},
+		{
+			"name": "Kelly E. McCusker",
+			"orcid": "https://orcid.org/0000-0001-5914-0559",
+			"affiliation": "Rhodium Group (United States)"
+		},
+		{
+			"name": "Terin Mayer",
+			"affiliation": "University of Minnesota"
+		},
+		{
+			"name": "Ishan Nath",
+			"orcid": "https://orcid.org/0000-0001-6093-740X",
+			"affiliation": "Federal Reserve Bank of San Francisco"
+		},
+		{
+			"name": "James Rising",
+			"orcid": "https://orcid.org/0000-0001-8514-4748",
+			"affiliation": "University of Delaware"
+		},
+		{
+			"name": "Ashwin Rode",
+			"orcid": "https://orcid.org/0000-0003-1369-4331",
+			"affiliation": "University of Chicago"
+		},
+		{
+			"name": "Jiacan Yuan",
+			"orcid": "https://orcid.org/0000-0003-3847-4490",
+			"affiliation": "Fudan University"
+		}
+	],
+	"authorCount": 16,
+	"venue": "Nature",
+	"publisher": "Nature Portfolio",
+	"year": 2025,
+	"type": "article",
+	"abstract": "Climate change threatens global food systems1, but the extent to which adaptation will reduce losses remains unknown and controversial2. Even within the well-studied context of US agriculture, some analyses argue that adaptation will be widespread and climate damages small3,4, whereas others conclude that adaptation will be limited and losses severe5,6. Scenario-based analyses indicate that adaptation should have notable consequences on global agricultural productivity7–9, but there has been no systematic study of how extensively real-world producers actually adapt at the global scale. Here we empirically estimate the impact of global producer adaptations using longitudinal data on six staple crops spanning 12,658 regions, capturing two-thirds of global crop calories. We estimate that global production declines 5.5 × 1014 kcal annually per 1 °C global mean surface temperature (GMST) rise (120 kcal per person per day or 4.4% of recommended consumption per 1 °C; P < 0.001). We project that adaptation and income growth alleviate 23% of global losses in 2050 and 34% at the end of the century (6% and 12%, respectively; moderate-emissions scenario), but substantial residual losses remain for all staples except rice. In contrast to analyses of other outcomes that project the greatest damages to the global poor10,11, we find that global impacts are dominated by losses to modern-day breadbaskets with favourable climates and limited present adaptation, although losses in low-income regions losses are also substantial. These results indicate a scale of innovation, cropland expansion or further adaptation that might be necessary to ensure food security in a changing climate. Analysis of data on six stable crops, capturing two-thirds of global crop calories, allows estimation of agricultural impacts and the potential of global producer adaptations to reduce output losses owing to climate change.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "hybrid",
+		"url": "https://doi.org/10.1038/s41586-025-09085-w"
+	},
+	"citedByCount": 295,
+	"themes": [
+		"agriculture"
+	],
+	"sourceTopics": [
+		"Climate change impacts on agriculture",
+		"Agriculture Sustainability and Environmental Impact",
+		"Agricultural risk and resilience"
+	],
+	"url": "https://doi.org/10.1038/s41586-025-09085-w",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-20"
+	},
+	"addedAt": "2026-08-20",
+	"editorial": {},
+	"glossaryTerms": []
+}

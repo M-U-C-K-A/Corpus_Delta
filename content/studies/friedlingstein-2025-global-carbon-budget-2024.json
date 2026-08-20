@@ -1,0 +1,117 @@
+{
+	"id": "friedlingstein-2025-global-carbon-budget-2024",
+	"doi": "10.5194/essd-17-965-2025",
+	"title": "Global Carbon Budget 2024",
+	"authors": [
+		{
+			"name": "Pierre Friedlingstein",
+			"orcid": "https://orcid.org/0000-0003-3309-4739"
+		},
+		{
+			"name": "Michael O’Sullivan",
+			"orcid": "https://orcid.org/0000-0002-6278-3392"
+		},
+		{
+			"name": "Matthew W. Jones",
+			"orcid": "https://orcid.org/0000-0003-3480-7980"
+		},
+		{
+			"name": "Robbie M. Andrew",
+			"orcid": "https://orcid.org/0000-0001-8590-6431"
+		},
+		{
+			"name": "Judith Hauck",
+			"orcid": "https://orcid.org/0000-0003-4723-9652"
+		},
+		{
+			"name": "Peter Landschützer",
+			"orcid": "https://orcid.org/0000-0002-7398-3293"
+		},
+		{
+			"name": "Corinne Le Quéré",
+			"orcid": "https://orcid.org/0000-0003-2319-0452"
+		},
+		{
+			"name": "Hongmei Li",
+			"orcid": "https://orcid.org/0000-0003-2912-1837"
+		},
+		{
+			"name": "Ingrid T. Luijkx",
+			"orcid": "https://orcid.org/0000-0002-3990-6737"
+		},
+		{
+			"name": "Are Olsen",
+			"orcid": "https://orcid.org/0000-0003-1696-9142"
+		},
+		{
+			"name": "Glen P. Peters",
+			"orcid": "https://orcid.org/0000-0001-7889-8568"
+		},
+		{
+			"name": "Wouter Peters",
+			"orcid": "https://orcid.org/0000-0001-8166-2070"
+		},
+		{
+			"name": "Julia Pongratz",
+			"orcid": "https://orcid.org/0000-0003-0372-3960"
+		},
+		{
+			"name": "Clemens Schwingshackl",
+			"orcid": "https://orcid.org/0000-0003-4048-3011"
+		},
+		{
+			"name": "Stephen Sitch",
+			"orcid": "https://orcid.org/0000-0003-1821-8561"
+		},
+		{
+			"name": "Josep G. Canadell",
+			"orcid": "https://orcid.org/0000-0002-8788-3218"
+		},
+		{
+			"name": "Philippe Ciais",
+			"orcid": "https://orcid.org/0000-0001-8560-4943"
+		},
+		{
+			"name": "Robert B. Jackson",
+			"orcid": "https://orcid.org/0000-0001-8846-7147"
+		},
+		{
+			"name": "Simone R. Alin",
+			"orcid": "https://orcid.org/0000-0002-8283-1910"
+		},
+		{
+			"name": "Almut Arneth",
+			"orcid": "https://orcid.org/0000-0001-6616-0822"
+		}
+	],
+	"authorCount": 121,
+	"venue": "Earth system science data",
+	"publisher": "Copernicus Publications",
+	"year": 2025,
+	"type": "article",
+	"abstract": "Abstract. Accurate assessment of anthropogenic carbon dioxide (CO2) emissions and their redistribution among the atmosphere, ocean, and terrestrial biosphere in a changing climate is critical to better understand the global carbon cycle, support the development of climate policies, and project future climate change. Here we describe and synthesize datasets and methodologies to quantify the five major components of the global carbon budget and their uncertainties. Fossil CO2 emissions (EFOS) are based on energy statistics and cement production data, while emissions from land-use change (ELUC) are based on land-use and land-use change data and bookkeeping models. Atmospheric CO2 concentration is measured directly, and its growth rate (GATM) is computed from the annual changes in concentration. The global net uptake of CO2 by the ocean (SOCEAN, called the ocean sink) is estimated with global ocean biogeochemistry models and observation-based fCO2 products (fCO2 is the fugacity of CO2). The global net uptake of CO2 by the land (SLAND, called the land sink) is estimated with dynamic global vegetation models. Additional lines of evidence on land and ocean sinks are provided by atmospheric inversions, atmospheric oxygen measurements, and Earth system models. The sum of all sources and sinks results in the carbon budget imbalance (BIM), a measure of imperfect data and incomplete understanding of the contemporary carbon cycle. All uncertainties are reported as ±1σ. For the year 2023, EFOS increased by 1.3 % relative to 2022, with fossil emissions at 10.1 ± 0.5 GtC yr−1 (10.3 ± 0.5 GtC yr−1 when the cement carbonation sink is not included), and ELUC was 1.0 ± 0.7 GtC yr−1, for a total anthropogenic CO2 emission (including the cement carbonation sink) of 11.1 ± 0.9 GtC yr−1 (40.6 ± 3.2 GtCO2 yr−1). Also, for 2023, GATM was 5.9 ± 0.2 GtC yr−1 (2.79 ± 0.1 ppm yr−1; ppm denotes parts per million), SOCEAN was 2.9 ± 0.4 GtC yr−1, and SLAND was 2.3 ± 1.0 GtC yr−1, with a near-zero BIM (−0.02 GtC yr−1). The global atmospheric CO2 concentration averaged over 2023 reached 419.31 ± 0.1 ppm. Preliminary data for 2024 suggest an increase in EFOS relative to 2023 of +0.8 % (−0.2 % to 1.7 %) globally and an atmospheric CO2 concentration increase by 2.87 ppm, reaching 422.45 ppm, 52 % above the pre-industrial level (around 278 ppm in 1750). Overall, the mean of and trend in the components of the global carbon budget are consistently estimated over the period 1959–2023, with a near-zero overall budget imbalance, although discrepancies of up to around 1 GtC yr−1 persist for the representation of annual to semi-decadal variability in CO2 fluxes. Comparison of estimates from multiple approaches and observations shows the following: (1) a persistent large uncertainty in the estimate of land-use change emissions, (2) low agreement between the different methods on the magnitude of the land CO2 flux in the northern extra-tropics, and (3) a discrepancy between the different methods on the mean ocean sink. This living-data update documents changes in methods and datasets applied to this most recent global carbon budget as well as evolving community understanding of the global carbon cycle. The data presented in this work are available at https://doi.org/10.18160/GCP-2024 (Friedlingstein et al., 2024).",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "gold",
+		"url": "https://doi.org/10.5194/essd-17-965-2025"
+	},
+	"citedByCount": 621,
+	"themes": [
+		"carbone",
+		"observation"
+	],
+	"sourceTopics": [
+		"Atmospheric and Environmental Gas Dynamics",
+		"Climate variability and models",
+		"Atmospheric chemistry and aerosols"
+	],
+	"url": "https://doi.org/10.5194/essd-17-965-2025",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-20"
+	},
+	"addedAt": "2026-08-20",
+	"editorial": {},
+	"glossaryTerms": []
+}

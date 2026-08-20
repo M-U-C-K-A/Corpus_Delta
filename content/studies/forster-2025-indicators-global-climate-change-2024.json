@@ -1,0 +1,135 @@
+{
+	"id": "forster-2025-indicators-global-climate-change-2024",
+	"doi": "10.5194/essd-17-2641-2025",
+	"title": "Indicators of Global Climate Change 2024: annual update of key indicators of the state of the climate system and human influence",
+	"authors": [
+		{
+			"name": "Piers Forster",
+			"orcid": "https://orcid.org/0000-0002-6078-0171",
+			"affiliation": "University of Leeds"
+		},
+		{
+			"name": "Chris Smith",
+			"orcid": "https://orcid.org/0000-0003-0599-4633",
+			"affiliation": "International Institute for Applied Systems Analysis"
+		},
+		{
+			"name": "Tristram Walsh",
+			"orcid": "https://orcid.org/0000-0002-5227-9432",
+			"affiliation": "University of Oxford"
+		},
+		{
+			"name": "William F. Lamb",
+			"orcid": "https://orcid.org/0000-0003-3273-7878",
+			"affiliation": "University of Leeds"
+		},
+		{
+			"name": "Robin Lamboll",
+			"orcid": "https://orcid.org/0000-0002-8410-037X",
+			"affiliation": "Imperial College London"
+		},
+		{
+			"name": "Christophe Cassou",
+			"orcid": "https://orcid.org/0000-0002-5164-1612",
+			"affiliation": "Centre National de la Recherche Scientifique"
+		},
+		{
+			"name": "Mathias Hauser",
+			"orcid": "https://orcid.org/0000-0002-0057-4878",
+			"affiliation": "ETH Zurich"
+		},
+		{
+			"name": "Zeke Hausfather",
+			"orcid": "https://orcid.org/0000-0002-2926-0581",
+			"affiliation": "Earth Island Institute"
+		},
+		{
+			"name": "June‐Yi Lee",
+			"orcid": "https://orcid.org/0000-0002-3986-9753",
+			"affiliation": "Institute for Basic Science"
+		},
+		{
+			"name": "Matthew D. Palmer",
+			"orcid": "https://orcid.org/0000-0001-7422-198X",
+			"affiliation": "Met Office"
+		},
+		{
+			"name": "Karina von Schuckmann",
+			"orcid": "https://orcid.org/0000-0002-9922-8528",
+			"affiliation": "Mercator Ocean (France)"
+		},
+		{
+			"name": "Aimée B. A. Slangen",
+			"orcid": "https://orcid.org/0000-0001-6268-6683",
+			"affiliation": "Royal Netherlands Institute for Sea Research"
+		},
+		{
+			"name": "Sophie Szopa",
+			"orcid": "https://orcid.org/0000-0002-8641-1737",
+			"affiliation": "Centre National de la Recherche Scientifique"
+		},
+		{
+			"name": "Blair Trewin",
+			"orcid": "https://orcid.org/0000-0001-8186-7885",
+			"affiliation": "Bureau of Meteorology"
+		},
+		{
+			"name": "Jeongeun Yun",
+			"affiliation": "Pusan National University"
+		},
+		{
+			"name": "Nathan P. Gillett",
+			"orcid": "https://orcid.org/0000-0002-2957-0002",
+			"affiliation": "Environment and Climate Change Canada"
+		},
+		{
+			"name": "Stuart Jenkins",
+			"orcid": "https://orcid.org/0000-0003-2284-0302",
+			"affiliation": "University of Oxford"
+		},
+		{
+			"name": "H. Damon Matthews",
+			"orcid": "https://orcid.org/0000-0003-3625-390X",
+			"affiliation": "Concordia University"
+		},
+		{
+			"name": "Krishnan Raghavan",
+			"orcid": "https://orcid.org/0000-0003-0433-7818",
+			"affiliation": "Indian Institute of Tropical Meteorology"
+		},
+		{
+			"name": "Aurélien Ribes",
+			"orcid": "https://orcid.org/0000-0001-5102-7885",
+			"affiliation": "Centre National de la Recherche Scientifique"
+		}
+	],
+	"authorCount": 61,
+	"venue": "Earth system science data",
+	"publisher": "Copernicus Publications",
+	"year": 2025,
+	"type": "article",
+	"abstract": "Abstract. In a rapidly changing climate, evidence-based decision-making benefits from up-to-date and timely information. Here we compile monitoring datasets (published at https://doi.org/10.5281/zenodo.15639576; Smith et al., 2025a) to produce updated estimates for key indicators of the state of the climate system: net emissions of greenhouse gases and short-lived climate forcers, greenhouse gas concentrations, radiative forcing, the Earth's energy imbalance, surface temperature changes, warming attributed to human activities, the remaining carbon budget, and estimates of global temperature extremes. This year, we additionally include indicators for sea-level rise and land precipitation change. We follow methods as closely as possible to those used in the IPCC Sixth Assessment Report (AR6) Working Group One report. The indicators show that human activities are increasing the Earth's energy imbalance and driving faster sea-level rise compared to the AR6 assessment. For the 2015–2024 decade average, observed warming relative to 1850–1900 was 1.24 [1.11 to 1.35] °C, of which 1.22 [1.0 to 1.5] °C was human-induced. The 2024-observed best estimate of global surface temperature (1.52 °C) is well above the best estimate of human-caused warming (1.36 °C). However, the 2024 observed warming can still be regarded as a typical year, considering the human-induced warming level and the state of internal variability associated with the phase of El Niño and Atlantic variability. Human-induced warming has been increasing at a rate that is unprecedented in the instrumental record, reaching 0.27 [0.2–0.4] °C per decade over 2015–2024. This high rate of warming is caused by a combination of greenhouse gas emissions being at an all-time high of 53.6±5.2 Gt CO2e yr−1 over the last decade (2014–2023), as well as reductions in the strength of aerosol cooling. Despite this, there is evidence that the rate of increase in CO2 emissions over the last decade has slowed compared to the 2000s, and depending on societal choices, a continued series of these annual updates over the critical 2020s decade could track decreases or increases in the rate of the climatic changes presented here.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "gold",
+		"url": "https://doi.org/10.5194/essd-17-2641-2025"
+	},
+	"citedByCount": 159,
+	"themes": [
+		"observation"
+	],
+	"sourceTopics": [
+		"Atmospheric and Environmental Gas Dynamics",
+		"Climate variability and models",
+		"Atmospheric Ozone and Climate"
+	],
+	"url": "https://doi.org/10.5194/essd-17-2641-2025",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-20"
+	},
+	"addedAt": "2026-08-20",
+	"editorial": {},
+	"glossaryTerms": []
+}

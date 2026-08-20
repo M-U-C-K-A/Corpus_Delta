@@ -1,0 +1,57 @@
+{
+	"id": "liu-2024-global-carbon-emissions-2023",
+	"doi": "10.1038/s43017-024-00532-2",
+	"title": "Global carbon emissions in 2023",
+	"authors": [
+		{
+			"name": "Zhu Liu",
+			"orcid": "https://orcid.org/0000-0002-8968-7050",
+			"affiliation": "University of Hong Kong"
+		},
+		{
+			"name": "Zhu Deng",
+			"orcid": "https://orcid.org/0000-0002-6409-9578",
+			"affiliation": "Alibaba Group (China)"
+		},
+		{
+			"name": "Steven J. Davis",
+			"orcid": "https://orcid.org/0000-0002-9338-0844",
+			"affiliation": "University of California, Irvine"
+		},
+		{
+			"name": "Philippe Ciais",
+			"orcid": "https://orcid.org/0000-0001-8560-4943",
+			"affiliation": "Laboratoire des Sciences du Climat et de l'Environnement"
+		}
+	],
+	"authorCount": 4,
+	"venue": "Nature Reviews Earth & Environment",
+	"publisher": "Nature Portfolio",
+	"year": 2024,
+	"type": "article",
+	"abstract": null,
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "bronze",
+		"url": "https://www.nature.com/articles/s43017-024-00532-2.pdf"
+	},
+	"citedByCount": 428,
+	"themes": [
+		"carbone",
+		"politiques"
+	],
+	"sourceTopics": [
+		"Atmospheric and Environmental Gas Dynamics",
+		"Climate Change Policy and Economics",
+		"Carbon Dioxide Capture Technologies"
+	],
+	"url": "https://doi.org/10.1038/s43017-024-00532-2",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-20"
+	},
+	"addedAt": "2026-08-20",
+	"editorial": {},
+	"glossaryTerms": []
+}

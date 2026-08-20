@@ -1,0 +1,57 @@
+{
+	"id": "jiang-2024-compounding-effects-flood-drivers-challenge",
+	"doi": "10.1126/sciadv.adl4005",
+	"title": "Compounding effects in flood drivers challenge estimates of extreme river floods",
+	"authors": [
+		{
+			"name": "Shijie Jiang",
+			"orcid": "https://orcid.org/0000-0002-2808-9559",
+			"affiliation": "Helmholtz Centre for Environmental Research"
+		},
+		{
+			"name": "Larisa Tarasova",
+			"orcid": "https://orcid.org/0000-0002-7675-0751",
+			"affiliation": "Helmholtz Centre for Environmental Research"
+		},
+		{
+			"name": "Guo Yu",
+			"orcid": "https://orcid.org/0000-0002-6490-7504",
+			"affiliation": "Desert Research Institute"
+		},
+		{
+			"name": "Jakob Zscheischler",
+			"orcid": "https://orcid.org/0000-0001-6045-1629",
+			"affiliation": "Helmholtz Centre for Environmental Research"
+		}
+	],
+	"authorCount": 4,
+	"venue": "Science Advances",
+	"publisher": "American Association for the Advancement of Science",
+	"year": 2024,
+	"type": "article",
+	"abstract": "Estimating river flood risks under climate change is challenging, largely due to the interacting and combined influences of various flood-generating drivers. However, a more detailed quantitative analysis of such compounding effects and the implications of their interplay remains underexplored on a large scale. Here, we use explainable machine learning to disentangle compounding effects between drivers and quantify their importance for different flood magnitudes across thousands of catchments worldwide. Our findings demonstrate the ubiquity of compounding effects in many floods. Their importance often increases with flood magnitude, but the strength of this increase varies on the basis of catchment conditions. Traditional flood analysis might underestimate extreme flood hazards in catchments where the contribution of compounding effects strongly varies with flood magnitude. Overall, our study highlights the need to carefully incorporate compounding effects in flood risk assessment to improve estimates of extreme floods.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "gold",
+		"url": "https://doi.org/10.1126/sciadv.adl4005"
+	},
+	"citedByCount": 85,
+	"themes": [
+		"eau",
+		"risques"
+	],
+	"sourceTopics": [
+		"Flood Risk Assessment and Management",
+		"Hydrology and Watershed Management Studies",
+		"Hydrology and Drought Analysis"
+	],
+	"url": "https://doi.org/10.1126/sciadv.adl4005",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-20"
+	},
+	"addedAt": "2026-08-20",
+	"editorial": {},
+	"glossaryTerms": []
+}

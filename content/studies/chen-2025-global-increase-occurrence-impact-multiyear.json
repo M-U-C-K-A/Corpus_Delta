@@ -1,0 +1,80 @@
+{
+	"id": "chen-2025-global-increase-occurrence-impact-multiyear",
+	"doi": "10.1126/science.ado4245",
+	"title": "Global increase in the occurrence and impact of multiyear droughts",
+	"authors": [
+		{
+			"name": "Liangzhi Chen",
+			"orcid": "https://orcid.org/0000-0002-1021-821X",
+			"affiliation": "Swiss Federal Institute for Forest, Snow and Landscape Research"
+		},
+		{
+			"name": "Philipp Brun",
+			"orcid": "https://orcid.org/0000-0002-2750-9793",
+			"affiliation": "Swiss Federal Institute for Forest, Snow and Landscape Research"
+		},
+		{
+			"name": "Pascal Buri",
+			"affiliation": "Swiss Federal Institute for Forest, Snow and Landscape Research"
+		},
+		{
+			"name": "Simone Fatichi",
+			"orcid": "https://orcid.org/0000-0003-1361-6659",
+			"affiliation": "National University of Singapore"
+		},
+		{
+			"name": "Arthur Geßler",
+			"orcid": "https://orcid.org/0000-0002-1910-9589",
+			"affiliation": "Swiss Federal Institute for Forest, Snow and Landscape Research"
+		},
+		{
+			"name": "Michael McCarthy",
+			"orcid": "https://orcid.org/0000-0002-4138-0578",
+			"affiliation": "Institute of Science and Technology Austria"
+		},
+		{
+			"name": "Francesca Pellicciotti",
+			"orcid": "https://orcid.org/0000-0002-5554-8087",
+			"affiliation": "Institute of Science and Technology Austria"
+		},
+		{
+			"name": "Benjamin D. Stocker",
+			"orcid": "https://orcid.org/0000-0003-2697-9096",
+			"affiliation": "University of Bern"
+		},
+		{
+			"name": "Dirk Nikolaus Karger",
+			"orcid": "https://orcid.org/0000-0001-7770-6229",
+			"affiliation": "Swiss Federal Institute for Forest, Snow and Landscape Research"
+		}
+	],
+	"authorCount": 9,
+	"venue": "Science",
+	"publisher": "American Association for the Advancement of Science",
+	"year": 2025,
+	"type": "article",
+	"abstract": "Persistent multiyear drought (MYD) events pose a growing threat to nature and humans in a changing climate. We identified and inventoried global MYDs by detecting spatiotemporally contiguous climatic anomalies, showing that MYDs have become drier, hotter, and led to increasingly diminished vegetation greenness. The global terrestrial land affected by MYDs has increased at a rate of 49,279 ± 14,771 square kilometers per year from 1980 to 2018. Temperate grasslands have exhibited the greatest declines in vegetation greenness during MYDs, whereas boreal and tropical forests have had comparably minor responses. With MYDs becoming more common, this global quantitative inventory of the occurrence, severity, trend, and impact of MYDs provides an important benchmark for facilitating more effective and collaborative preparedness toward mitigation of and adaptation to such extreme events.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "green",
+		"url": "https://www.dora.lib4ri.ch/wsl/dload/wsl:38589/PDF2/view"
+	},
+	"citedByCount": 182,
+	"themes": [
+		"eau"
+	],
+	"sourceTopics": [
+		"Hydrology and Drought Analysis",
+		"Climate variability and models",
+		"Climate change impacts on agriculture"
+	],
+	"url": "https://doi.org/10.1126/science.ado4245",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-20"
+	},
+	"addedAt": "2026-08-20",
+	"editorial": {},
+	"glossaryTerms": []
+}

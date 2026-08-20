@@ -1,0 +1,134 @@
+{
+	"id": "yang-2024-climate-change-exacerbates-environmental-impacts",
+	"doi": "10.1126/science.adn3747",
+	"title": "Climate change exacerbates the environmental impacts of agriculture",
+	"authors": [
+		{
+			"name": "Yi Yang",
+			"orcid": "https://orcid.org/0000-0002-0600-602X",
+			"affiliation": "Chongqing University"
+		},
+		{
+			"name": "David Tilman",
+			"orcid": "https://orcid.org/0000-0001-6395-7676",
+			"affiliation": "University of Minnesota"
+		},
+		{
+			"name": "Zhenong Jin",
+			"orcid": "https://orcid.org/0000-0002-1252-2514",
+			"affiliation": "University of Minnesota"
+		},
+		{
+			"name": "Pete Smith",
+			"orcid": "https://orcid.org/0000-0002-3784-1124",
+			"affiliation": "University of Aberdeen"
+		},
+		{
+			"name": "Christopher B. Barrett",
+			"orcid": "https://orcid.org/0000-0001-9139-2721",
+			"affiliation": "Cornell University"
+		},
+		{
+			"name": "Yong‐Guan Zhu",
+			"orcid": "https://orcid.org/0000-0003-3861-8482",
+			"affiliation": "Chinese Academy of Sciences"
+		},
+		{
+			"name": "Jennifer Burney",
+			"orcid": "https://orcid.org/0000-0003-3532-2934",
+			"affiliation": "Scripps Institution of Oceanography"
+		},
+		{
+			"name": "Paolo D’Odorico",
+			"orcid": "https://orcid.org/0000-0002-0007-5833",
+			"affiliation": "University of California, Berkeley"
+		},
+		{
+			"name": "Peter Fantke",
+			"orcid": "https://orcid.org/0000-0001-7148-6982",
+			"affiliation": "Technical University of Denmark"
+		},
+		{
+			"name": "Joseph Fargione",
+			"orcid": "https://orcid.org/0000-0002-0636-5380",
+			"affiliation": "The Nature Conservancy"
+		},
+		{
+			"name": "Jacques C. Finlay",
+			"orcid": "https://orcid.org/0000-0002-7968-7030",
+			"affiliation": "University of Minnesota"
+		},
+		{
+			"name": "Maria Cristina Rulli",
+			"orcid": "https://orcid.org/0000-0002-9694-4262",
+			"affiliation": "Politecnico di Milano"
+		},
+		{
+			"name": "Lindsey Sloat",
+			"orcid": "https://orcid.org/0000-0002-2986-9725",
+			"affiliation": "World Resources Institute"
+		},
+		{
+			"name": "Kees Jan van Groenigen",
+			"orcid": "https://orcid.org/0000-0002-9165-3925",
+			"affiliation": "University of Exeter"
+		},
+		{
+			"name": "Paul West",
+			"orcid": "https://orcid.org/0000-0001-9024-1657",
+			"affiliation": "University of Minnesota"
+		},
+		{
+			"name": "Lewis H. Ziska",
+			"orcid": "https://orcid.org/0000-0002-6220-1620",
+			"affiliation": "Columbia University"
+		},
+		{
+			"name": "A. M. Michalak",
+			"orcid": "https://orcid.org/0000-0002-6152-7979",
+			"affiliation": "Google (United States)"
+		},
+		{
+			"name": "the Clim-Ag Team",
+			"affiliation": "Stanford University"
+		},
+		{
+			"name": "David B. Lobell",
+			"orcid": "https://orcid.org/0000-0002-5969-3476",
+			"affiliation": "Chongqing University"
+		},
+		{
+			"name": "Michael Clark",
+			"affiliation": "Chongqing University"
+		}
+	],
+	"authorCount": 40,
+	"venue": "Science",
+	"publisher": "American Association for the Advancement of Science",
+	"year": 2024,
+	"type": "article",
+	"abstract": "Agriculture's global environmental impacts are widely expected to continue expanding, driven by population and economic growth and dietary changes. This Review highlights climate change as an additional amplifier of agriculture's environmental impacts, by reducing agricultural productivity, reducing the efficacy of agrochemicals, increasing soil erosion, accelerating the growth and expanding the range of crop diseases and pests, and increasing land clearing. We identify multiple pathways through which climate change intensifies agricultural greenhouse gas emissions, creating a potentially powerful climate change-reinforcing feedback loop. The challenges raised by climate change underscore the urgent need to transition to sustainable, climate-resilient agricultural systems. This requires investments that both accelerate adoption of proven solutions that provide multiple benefits, and that discover and scale new beneficial processes and food products.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "gold",
+		"url": "https://pure.au.dk/portal/en/publications/4ea5f7b2-cf3c-44da-8ac8-0329968e5852"
+	},
+	"citedByCount": 488,
+	"themes": [
+		"agriculture"
+	],
+	"sourceTopics": [
+		"Climate change impacts on agriculture",
+		"Plant responses to elevated CO2",
+		"Agriculture Sustainability and Environmental Impact"
+	],
+	"url": "https://doi.org/10.1126/science.adn3747",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-20"
+	},
+	"addedAt": "2026-08-20",
+	"editorial": {},
+	"glossaryTerms": []
+}

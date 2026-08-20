@@ -1,0 +1,133 @@
+{
+	"id": "forster-2026-indicators-global-climate-change-2025",
+	"doi": "10.5194/essd-18-3889-2026",
+	"title": "Indicators of Global Climate Change 2025: annual update of key indicators of the state of the climate system and human influence",
+	"authors": [
+		{
+			"name": "Piers Forster",
+			"orcid": "https://orcid.org/0000-0002-6078-0171",
+			"affiliation": "University of Leeds"
+		},
+		{
+			"name": "Tristram Walsh",
+			"orcid": "https://orcid.org/0000-0002-5227-9432",
+			"affiliation": "Met Office"
+		},
+		{
+			"name": "Chris Smith",
+			"orcid": "https://orcid.org/0000-0003-0599-4633",
+			"affiliation": "International Institute for Applied Systems Analysis"
+		},
+		{
+			"name": "William F. Lamb",
+			"orcid": "https://orcid.org/0000-0003-3273-7878",
+			"affiliation": "University of Leeds"
+		},
+		{
+			"name": "Robin Lamboll",
+			"orcid": "https://orcid.org/0000-0002-8410-037X",
+			"affiliation": "Imperial College London"
+		},
+		{
+			"name": "Christophe Cassou",
+			"affiliation": "German Climate Computing Centre"
+		},
+		{
+			"name": "Mathias Hauser",
+			"orcid": "https://orcid.org/0000-0002-0057-4878",
+			"affiliation": "ETH Zurich"
+		},
+		{
+			"name": "Zeke Hausfather",
+			"affiliation": "Public Library of Science"
+		},
+		{
+			"name": "June-Yi Lee",
+			"orcid": "https://orcid.org/0000-0002-3986-9753",
+			"affiliation": "University of Leeds"
+		},
+		{
+			"name": "Matthew D. Palmer",
+			"orcid": "https://orcid.org/0000-0001-7422-198X",
+			"affiliation": "Met Office"
+		},
+		{
+			"name": "Karina von Schuckmann",
+			"orcid": "https://orcid.org/0000-0002-9922-8528",
+			"affiliation": "Met Office"
+		},
+		{
+			"name": "Aimée B. A. Slangen",
+			"orcid": "https://orcid.org/0000-0001-6268-6683",
+			"affiliation": "National University of Ireland, Maynooth"
+		},
+		{
+			"name": "Sophie Szopa",
+			"orcid": "https://orcid.org/0000-0002-8641-1737",
+			"affiliation": "Mercator Ocean (France)"
+		},
+		{
+			"name": "Blair Trewin",
+			"orcid": "https://orcid.org/0000-0001-8186-7885",
+			"affiliation": "Bureau of Meteorology"
+		},
+		{
+			"name": "Jeongeun Yun",
+			"affiliation": "University of Oxford"
+		},
+		{
+			"name": "Nathan P. Gillett",
+			"orcid": "https://orcid.org/0000-0002-2957-0002",
+			"affiliation": "CICERO Center for International Climate Research"
+		},
+		{
+			"name": "Stuart Jenkins",
+			"orcid": "https://orcid.org/0000-0003-2284-0302",
+			"affiliation": "Met Office"
+		},
+		{
+			"name": "H. Damon Matthews",
+			"orcid": "https://orcid.org/0000-0003-3625-390X",
+			"affiliation": "NOAA National Centers for Environmental Information"
+		},
+		{
+			"name": "Krishnan Raghavan",
+			"orcid": "https://orcid.org/0000-0003-0433-7818",
+			"affiliation": "Indian Institute of Tropical Meteorology"
+		},
+		{
+			"name": "Aurélien Ribes",
+			"orcid": "https://orcid.org/0000-0001-5102-7885",
+			"affiliation": "Centre National de la Recherche Scientifique"
+		}
+	],
+	"authorCount": 73,
+	"venue": "Earth system science data",
+	"publisher": "Copernicus Publications",
+	"year": 2026,
+	"type": "article",
+	"abstract": "Abstract. In a rapidly changing climate, evidence-based decision-making benefits from up-to-date and timely information. We track twelve key sets of indicators of the state of the climate system, closely following Intergovernmental Panel on Climate Change (IPCC) Sixth Assessment report (AR6) methods, to produce our fourth annual publication. One of the indicators, the Earth's energy imbalance (EEI) provides a crucial integrative measure of the overall heating of the planet and the pace of climate change – this has more than doubled since the 1976–1995 period. A newly added indicator of temperature extremes, the number of days experiencing marine heatwaves, has more than tripled between 1991 and 2025. For the 2016–2025 decade average, observed warming relative to 1850–1900 was 1.26 [1.13 to 1.36] °C, of which 1.24 [1.0 to 1.5] °C was human-induced. Human-induced warming reached 1.37 °C relative to 1850–1900 in the year 2025, increasing at a rate of 0.27 [0.2–0.4] °C per decade over 2016–2025. This high rate of warming, which matches the all-time high seen last year in the instrumental record, was caused by a combination of greenhouse gas emissions being at an all-time high of 54.6 ± 5.5 GtCO2e yr−1 over the last decade (2015–2024), as well as reductions in the strength of aerosol cooling. Despite this, there is evidence that CO2 emission growth is slowing. The continuation of these annual updates could track decreases or increases in the rate of human influence and climatic changes presented here, reflecting the outcomes of societal choices during the critical 2020s decade. The data presented herein can provide a useful reference point for the drafting of the IPCC seventh assessment report. In total, we employ analysis from over 40 global datasets (https://doi.org/10.5281/zenodo.20499280, Smith et al., 2026a). Future monitoring of these indicators, such as ocean and satellite measurements of the Earth's energy imbalance, are threatened by geopolitical and public funding decisions. Our ability to consistently track many of the indicators requires the continuity of observation programs and coordination mechanisms, including the Global Climate Observing System (GCOS) program, that enable their effective integration and use.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "gold",
+		"url": "https://doi.org/10.5194/essd-18-3889-2026"
+	},
+	"citedByCount": 18,
+	"themes": [
+		"observation"
+	],
+	"sourceTopics": [
+		"Atmospheric and Environmental Gas Dynamics",
+		"Climate Change and Health Impacts",
+		"Climate variability and models"
+	],
+	"url": "https://doi.org/10.5194/essd-18-3889-2026",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-20"
+	},
+	"addedAt": "2026-08-20",
+	"editorial": {},
+	"glossaryTerms": []
+}

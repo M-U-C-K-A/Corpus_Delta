@@ -1,0 +1,110 @@
+{
+	"id": "dobbeling-2024-systematic-review-meta-analysis-post",
+	"doi": "10.1038/s41467-024-48512-w",
+	"title": "Systematic review and meta-analysis of ex-post evaluations on the effectiveness of carbon pricing",
+	"authors": [
+		{
+			"name": "Niklas Döbbeling",
+			"orcid": "https://orcid.org/0000-0002-3170-1825",
+			"affiliation": "University of Leeds"
+		},
+		{
+			"name": "Klaas Miersch",
+			"orcid": "https://orcid.org/0000-0003-1055-267X",
+			"affiliation": "Mercator Research Institute on Global Commons and Climate Change"
+		},
+		{
+			"name": "Tarun Khanna",
+			"orcid": "https://orcid.org/0000-0003-3442-7689",
+			"affiliation": "University of British Columbia"
+		},
+		{
+			"name": "Marion Bachelet",
+			"affiliation": "Mercator Research Institute on Global Commons and Climate Change"
+		},
+		{
+			"name": "Stephan B. Bruns",
+			"orcid": "https://orcid.org/0000-0002-3028-9699",
+			"affiliation": "University of Kassel"
+		},
+		{
+			"name": "Max Callaghan",
+			"orcid": "https://orcid.org/0000-0001-8292-8758",
+			"affiliation": "Mercator Research Institute on Global Commons and Climate Change"
+		},
+		{
+			"name": "Ottmar Edenhofer",
+			"orcid": "https://orcid.org/0000-0001-6029-5208",
+			"affiliation": "Mercator Research Institute on Global Commons and Climate Change"
+		},
+		{
+			"name": "Christian Flachsland",
+			"orcid": "https://orcid.org/0000-0001-8632-5794",
+			"affiliation": "Hertie School"
+		},
+		{
+			"name": "Piers Forster",
+			"orcid": "https://orcid.org/0000-0002-6078-0171",
+			"affiliation": "University of Leeds"
+		},
+		{
+			"name": "Matthias Kalkuhl",
+			"orcid": "https://orcid.org/0000-0003-4797-6628",
+			"affiliation": "University of Potsdam"
+		},
+		{
+			"name": "Nicolas Koch",
+			"orcid": "https://orcid.org/0000-0002-7775-034X",
+			"affiliation": "IZA - Institute of Labor Economics"
+		},
+		{
+			"name": "William F. Lamb",
+			"orcid": "https://orcid.org/0000-0003-3273-7878",
+			"affiliation": "University of Leeds"
+		},
+		{
+			"name": "Nils Ohlendorf",
+			"orcid": "https://orcid.org/0000-0001-6629-7255",
+			"affiliation": "Mercator Research Institute on Global Commons and Climate Change"
+		},
+		{
+			"name": "Jan Christoph Steckel",
+			"orcid": "https://orcid.org/0000-0002-5325-9214",
+			"affiliation": "Mercator Research Institute on Global Commons and Climate Change"
+		},
+		{
+			"name": "Jan C. Minx",
+			"orcid": "https://orcid.org/0000-0002-2862-0178",
+			"affiliation": "University of Leeds"
+		}
+	],
+	"authorCount": 15,
+	"venue": "Nature Communications",
+	"publisher": "Nature Portfolio",
+	"year": 2024,
+	"type": "review",
+	"abstract": "Today, more than 70 carbon pricing schemes have been implemented around the globe, but their contributions to emissions reductions remains a subject of heated debate in science and policy. Here we assess the effectiveness of carbon pricing in reducing emissions using a rigorous, machine-learning assisted systematic review and meta-analysis. Based on 483 effect sizes extracted from 80 causal ex-post evaluations across 21 carbon pricing schemes, we find that introducing a carbon price has yielded immediate and substantial emission reductions for at least 17 of these policies, despite the low level of prices in most instances. Statistically significant emissions reductions range between -5% to -21% across the schemes (-4% to -15% after correcting for publication bias). Our study highlights critical evidence gaps with regard to dozens of unevaluated carbon pricing schemes and the price elasticity of emissions reductions. More rigorous synthesis of carbon pricing and other climate policies is required across a range of outcomes to advance our understanding of \"what works\" and accelerate learning on climate solutions in science and policy.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "gold",
+		"url": "https://www.nature.com/articles/s41467-024-48512-w.pdf"
+	},
+	"citedByCount": 142,
+	"themes": [
+		"politiques"
+	],
+	"sourceTopics": [
+		"Energy, Environment, and Transportation Policies",
+		"Climate Change Policy and Economics",
+		"Environmental Impact and Sustainability"
+	],
+	"url": "https://doi.org/10.1038/s41467-024-48512-w",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-20"
+	},
+	"addedAt": "2026-08-20",
+	"editorial": {},
+	"glossaryTerms": []
+}

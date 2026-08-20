@@ -1,0 +1,122 @@
+{
+	"id": "pan-2024-enduring-world-forest-carbon-sink",
+	"doi": "10.1038/s41586-024-07602-x",
+	"title": "The enduring world forest carbon sink",
+	"authors": [
+		{
+			"name": "Yude Pan",
+			"orcid": "https://orcid.org/0000-0002-1469-9348",
+			"affiliation": "US Forest Service"
+		},
+		{
+			"name": "Richard A. Birdsey",
+			"orcid": "https://orcid.org/0000-0003-4949-8607",
+			"affiliation": "Woodwell Climate Research Center"
+		},
+		{
+			"name": "Oliver L. Phillips",
+			"orcid": "https://orcid.org/0000-0002-8993-6168",
+			"affiliation": "University of Leeds"
+		},
+		{
+			"name": "R. A. Houghton",
+			"orcid": "https://orcid.org/0000-0002-3298-7028",
+			"affiliation": "Woodwell Climate Research Center"
+		},
+		{
+			"name": "Jingyun Fang",
+			"orcid": "https://orcid.org/0000-0001-5997-0384",
+			"affiliation": "Peking University"
+		},
+		{
+			"name": "Pekka E. Kauppi",
+			"orcid": "https://orcid.org/0000-0003-1735-756X",
+			"affiliation": "University of Helsinki"
+		},
+		{
+			"name": "Heather Keith",
+			"orcid": "https://orcid.org/0000-0001-5956-7261",
+			"affiliation": "Griffith University"
+		},
+		{
+			"name": "Werner A. Kurz",
+			"orcid": "https://orcid.org/0000-0003-4576-7849",
+			"affiliation": "Canadian Forest Service"
+		},
+		{
+			"name": "Akihiko Ito",
+			"orcid": "https://orcid.org/0000-0001-5265-0791",
+			"affiliation": "The University of Tokyo"
+		},
+		{
+			"name": "Simon L. Lewis",
+			"orcid": "https://orcid.org/0000-0002-8066-6851",
+			"affiliation": "University of Leeds"
+		},
+		{
+			"name": "G.J. Nabuurs",
+			"orcid": "https://orcid.org/0000-0002-9761-074X",
+			"affiliation": "Wageningen University & Research"
+		},
+		{
+			"name": "А. Shvidenko",
+			"orcid": "https://orcid.org/0000-0001-7640-2151",
+			"affiliation": "International Institute for Applied Systems Analysis"
+		},
+		{
+			"name": "Shoji Hashimoto",
+			"orcid": "https://orcid.org/0000-0003-3022-7495",
+			"affiliation": "Forestry and Forest Products Research Institute"
+		},
+		{
+			"name": "Bas Lerink",
+			"orcid": "https://orcid.org/0000-0003-3032-8042",
+			"affiliation": "Wageningen University & Research"
+		},
+		{
+			"name": "Dmitry Schepaschenko",
+			"orcid": "https://orcid.org/0000-0002-7814-4990",
+			"affiliation": "International Institute for Applied Systems Analysis"
+		},
+		{
+			"name": "Andrea Castanho",
+			"orcid": "https://orcid.org/0000-0002-0756-3952",
+			"affiliation": "Woodwell Climate Research Center"
+		},
+		{
+			"name": "Daniel Murdiyarso",
+			"orcid": "https://orcid.org/0000-0001-5497-6293",
+			"affiliation": "IPB University"
+		}
+	],
+	"authorCount": 17,
+	"venue": "Nature",
+	"publisher": "Nature Portfolio",
+	"year": 2024,
+	"type": "article",
+	"abstract": "The uptake of carbon dioxide (CO2) by terrestrial ecosystems is critical for moderating climate change1. To provide a ground-based long-term assessment of the contribution of forests to terrestrial CO2 uptake, we synthesized in situ forest data from boreal, temperate and tropical biomes spanning three decades. We found that the carbon sink in global forests was steady, at 3.6 ± 0.4 Pg C yr−1 in the 1990s and 2000s, and 3.5 ± 0.4 Pg C yr−1 in the 2010s. Despite this global stability, our analysis revealed some major biome-level changes. Carbon sinks have increased in temperate (+30 ± 5%) and tropical regrowth (+29 ± 8%) forests owing to increases in forest area, but they decreased in boreal (−36 ± 6%) and tropical intact (−31 ± 7%) forests, as a result of intensified disturbances and losses in intact forest area, respectively. Mass-balance studies indicate that the global land carbon sink has increased2, implying an increase in the non-forest-land carbon sink. The global forest sink is equivalent to almost half of fossil-fuel emissions (7.8 ± 0.4 Pg C yr−1 in 1990–2019). However, two-thirds of the benefit from the sink has been negated by tropical deforestation (2.2 ± 0.5 Pg C yr−1 in 1990–2019). Although the global forest sink has endured undiminished for three decades, despite regional variations, it could be weakened by ageing forests, continuing deforestation and further intensification of disturbance regimes1. To protect the carbon sink, land management policies are needed to limit deforestation, promote forest restoration and improve timber-harvesting practices1,3. Data from boreal, temperate and tropical forests over the past three decades reveal that the global forest carbon sink has remained steady during that time, despite considerable regional variation.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "hybrid",
+		"url": "https://doi.org/10.1038/s41586-024-07602-x"
+	},
+	"citedByCount": 652,
+	"themes": [
+		"carbone",
+		"biodiversite"
+	],
+	"sourceTopics": [
+		"Forest Management and Policy",
+		"Conservation, Biodiversity, and Resource Management",
+		"Climate Change Policy and Economics"
+	],
+	"url": "https://doi.org/10.1038/s41586-024-07602-x",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-20"
+	},
+	"addedAt": "2026-08-20",
+	"editorial": {},
+	"glossaryTerms": []
+}

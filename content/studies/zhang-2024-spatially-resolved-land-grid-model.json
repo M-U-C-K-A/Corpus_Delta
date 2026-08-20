@@ -1,0 +1,77 @@
+{
+	"id": "zhang-2024-spatially-resolved-land-grid-model",
+	"doi": "10.1073/pnas.2306517121",
+	"title": "Spatially resolved land and grid model of carbon neutrality in China",
+	"authors": [
+		{
+			"name": "Da Zhang",
+			"orcid": "https://orcid.org/0000-0002-0790-9298",
+			"affiliation": "Tsinghua University"
+		},
+		{
+			"name": "Ziheng Zhu",
+			"orcid": "https://orcid.org/0009-0005-6671-9426",
+			"affiliation": "Tsinghua University"
+		},
+		{
+			"name": "Shi Chen",
+			"orcid": "https://orcid.org/0000-0001-8719-4431",
+			"affiliation": "State Key Joint Laboratory of Environment Simulation and Pollution Control"
+		},
+		{
+			"name": "Chongyu Zhang",
+			"orcid": "https://orcid.org/0000-0002-7302-595X",
+			"affiliation": "State Key Joint Laboratory of Environment Simulation and Pollution Control"
+		},
+		{
+			"name": "Xi Lu",
+			"orcid": "https://orcid.org/0000-0002-5063-3776",
+			"affiliation": "State Key Joint Laboratory of Environment Simulation and Pollution Control"
+		},
+		{
+			"name": "Xiliang Zhang",
+			"orcid": "https://orcid.org/0000-0003-0822-2794",
+			"affiliation": "Chinese Academy of Meteorological Sciences"
+		},
+		{
+			"name": "Xiaoye Zhang",
+			"orcid": "https://orcid.org/0000-0003-1802-3385",
+			"affiliation": "Chinese Academy of Meteorological Sciences"
+		},
+		{
+			"name": "Michael R. Davidson",
+			"orcid": "https://orcid.org/0000-0002-5035-8209",
+			"affiliation": "University of California San Diego"
+		}
+	],
+	"authorCount": 8,
+	"venue": "Proceedings of the National Academy of Sciences",
+	"publisher": "National Academy of Sciences",
+	"year": 2024,
+	"type": "article",
+	"abstract": "China has committed to achieve net carbon neutrality by 2060 to combat global climate change, which will require unprecedented deployment of negative emissions technologies, renewable energies (RE), and complementary infrastructure. At terawatt-scale deployment, land use limitations interact with operational and economic features of power systems. To address this, we developed a spatially resolved resource assessment and power systems planning optimization that models a full year of power system operations, sub-provincial RE siting criteria, and transmission connections. Our modeling results show that wind and solar must be expanded to 2,000 to 3,900 GW each, with one plausible pathway leading to 300 GW/yr combined annual additions in 2046 to 2060, a three-fold increase from today. Over 80% of solar and 55% of wind is constructed within 100 km of major load centers when accounting for current policies regarding land use. Large-scale low-carbon systems must balance key trade-offs in land use, RE resource quality, grid integration, and costs. Under more restrictive RE siting policies, at least 740 GW of distributed solar would become economically feasible in regions with high demand, where utility-scale deployment is limited by competition with agricultural land. Effective planning and policy formulation are necessary to achieve China's climate goals.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "hybrid",
+		"url": "https://doi.org/10.1073/pnas.2306517121"
+	},
+	"citedByCount": 67,
+	"themes": [
+		"energie",
+		"politiques"
+	],
+	"sourceTopics": [
+		"Social Acceptance of Renewable Energy",
+		"demographic modeling and climate adaptation",
+		"Environmental Impact and Sustainability"
+	],
+	"url": "https://doi.org/10.1073/pnas.2306517121",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-20"
+	},
+	"addedAt": "2026-08-20",
+	"editorial": {},
+	"glossaryTerms": []
+}
