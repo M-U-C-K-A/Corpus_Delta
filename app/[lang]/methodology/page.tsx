@@ -1,6 +1,11 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { ArrowUpRight, ShieldCheck } from "lucide-react";
+import { DitherSurface } from "@/components/site/Dither";
+import { getCorpusStats } from "@/lib/content/studies";
+import { getGlossary } from "@/lib/content/glossary";
+import { formatDate, formatNumber } from "@/lib/format";
 import { getDictionary } from "@/lib/i18n/dictionaries";
 import { isLang, LANGS, type Lang } from "@/lib/i18n/config";
 import { route } from "@/lib/routes";
@@ -117,41 +122,126 @@ const CONTENT: Record<Lang, { heading: string; body: string[] }[]> = {
 	],
 };
 
+/** Ancre stable dérivée du titre de section, pour le sommaire latéral. */
+function anchor(heading: string): string {
+	return heading
+		.normalize("NFD")
+		.replace(/[\u0300-\u036f]/g, "")
+		.toLowerCase()
+		.replace(/[^a-z0-9]+/g, "-")
+		.replace(/^-+|-+$/g, "");
+}
+
 export default function MethodologyPage({ params }: { params: { lang: string } }) {
 	if (!isLang(params.lang)) notFound();
 	const lang = params.lang;
 	const dict = getDictionary(lang);
+	const sections = CONTENT[lang];
+	const stats = getCorpusStats();
+	const glossary = getGlossary(lang).length || getGlossary("fr").length;
+
+	// Les garanties tenues par la chaîne de production, chiffrées sur le corpus réel.
+	const guarantees = [
+		{ value: formatNumber(stats.total, lang), label: dict.home.statStudies },
+		{ value: formatNumber(stats.openAccess, lang), label: dict.home.statOpenAccess },
+		{ value: formatNumber(glossary, lang), label: dict.home.statTerms },
+	];
 
 	return (
-		<div className="container py-12">
-			<header className="max-w-2xl">
-				<h1 className="font-serif text-3xl font-semibold tracking-tight">{dict.methodology.title}</h1>
-				<p className="mt-2 text-muted-foreground">{dict.methodology.lead}</p>
-			</header>
+		<div>
+			<section className="relative overflow-hidden border-b border-border">
+				<DitherSurface />
+				<div className="container relative py-14">
+					<h1 className="font-serif text-3xl font-semibold tracking-tight md:text-4xl">
+						{dict.methodology.title}
+					</h1>
+					<p className="mt-3 max-w-2xl text-lg leading-relaxed text-muted-foreground">
+						{dict.methodology.lead}
+					</p>
+				</div>
+			</section>
 
-			<div className="mt-10 max-w-2xl space-y-10">
-				{CONTENT[lang].map((section) => (
-					<section key={section.heading}>
-						<h2 className="font-serif text-xl font-semibold tracking-tight">{section.heading}</h2>
-						<div className="mt-2 space-y-3">
-							{section.body.map((paragraph) => (
-								<p key={paragraph} className="leading-relaxed text-foreground/85">
-									{paragraph}
-								</p>
+			<div className="container grid gap-12 py-12 lg:grid-cols-[1fr_18rem] lg:gap-16">
+				<div className="min-w-0 max-w-2xl space-y-10">
+					{sections.map((section) => (
+						<section key={section.heading} id={anchor(section.heading)}>
+							<h2 className="font-serif text-xl font-semibold tracking-tight">{section.heading}</h2>
+							<div className="mt-2 space-y-3">
+								{section.body.map((paragraph) => (
+									<p key={paragraph} className="leading-relaxed text-foreground/85">
+										{paragraph}
+									</p>
+								))}
+							</div>
+						</section>
+					))}
+				</div>
+
+				{/*
+				  Colonne de droite : sommaire collant et état réel du corpus. La page
+				  n'avait aucun repère de navigation et laissait sa moitié droite vide.
+				*/}
+				<aside className="space-y-8 lg:sticky lg:top-24 lg:self-start">
+					<nav aria-labelledby="method-outline">
+						<h2
+							id="method-outline"
+							className="text-xs font-medium uppercase tracking-[0.09em] text-muted-foreground"
+						>
+							{dict.topics.contents}
+						</h2>
+						<ol className="mt-3 space-y-1.5 border-l border-border">
+							{sections.map((section) => (
+								<li key={section.heading} className="pl-3">
+									<a
+										href={`#${anchor(section.heading)}`}
+										className="block text-sm leading-snug text-muted-foreground transition-colors hover:text-foreground"
+									>
+										{section.heading}
+									</a>
+								</li>
 							))}
-						</div>
-					</section>
-				))}
+						</ol>
+					</nav>
 
-				<p className="rule pt-6 text-sm text-muted-foreground">
-					<Link href={route(lang, "contribute")} className="text-primary hover:underline">
-						{dict.nav.contribute}
-					</Link>{" "}
-					·{" "}
-					<a href={siteConfig.repository} target="_blank" rel="noreferrer" className="text-primary hover:underline">
-						{dict.footer.sourceCode}
-					</a>
-				</p>
+					<section className="rule pt-6">
+						<h2 className="inline-flex items-center gap-1.5 text-xs font-medium uppercase tracking-[0.09em] text-muted-foreground">
+							<ShieldCheck className="h-3.5 w-3.5" aria-hidden="true" />
+							{dict.about.corpusState}
+						</h2>
+						<dl className="mt-3 space-y-1.5 text-sm">
+							{guarantees.map((item) => (
+								<div key={item.label} className="flex items-baseline justify-between gap-3">
+									<dt className="text-muted-foreground">{item.label}</dt>
+									<dd className="tabular font-medium">{item.value}</dd>
+								</div>
+							))}
+							{stats.lastAddedAt && (
+								<div className="flex items-baseline justify-between gap-3">
+									<dt className="text-muted-foreground">{dict.common.addedOn}</dt>
+									<dd className="tabular">{formatDate(stats.lastAddedAt, lang)}</dd>
+								</div>
+							)}
+						</dl>
+					</section>
+
+					<section className="rule space-y-2 pt-6 text-sm">
+						<Link href={route(lang, "contribute")} className="block text-primary hover:underline">
+							{dict.nav.contribute}
+						</Link>
+						<Link href={route(lang, "about")} className="block text-primary hover:underline">
+							{dict.about.title}
+						</Link>
+						<a
+							href={siteConfig.repository}
+							target="_blank"
+							rel="noreferrer"
+							className="inline-flex items-center gap-1 text-primary hover:underline"
+						>
+							{dict.footer.sourceCode}
+							<ArrowUpRight className="h-3.5 w-3.5" aria-hidden="true" />
+						</a>
+					</section>
+				</aside>
 			</div>
 		</div>
 	);
