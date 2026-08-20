@@ -1,0 +1,124 @@
+{
+	"id": "saunois-2020-global-methane-budget-2000-2020",
+	"doi": "10.5194/essd-12-1561-2020",
+	"title": "Global Methane Budget 2000–2020",
+	"authors": [
+		{
+			"name": "Marielle Saunois",
+			"orcid": "https://orcid.org/0000-0003-3983-2931",
+			"affiliation": "Centre National de la Recherche Scientifique"
+		},
+		{
+			"name": "Ann R. Stavert",
+			"affiliation": "CSIRO Oceans and Atmosphere"
+		},
+		{
+			"name": "Benjamin Poulter",
+			"orcid": "https://orcid.org/0000-0002-9493-8600",
+			"affiliation": "Goddard Space Flight Center"
+		},
+		{
+			"name": "Philippe Bousquet",
+			"affiliation": "Centre National de la Recherche Scientifique"
+		},
+		{
+			"name": "Josep G. Canadell",
+			"orcid": "https://orcid.org/0000-0002-8788-3218",
+			"affiliation": "CSIRO Oceans and Atmosphere"
+		},
+		{
+			"name": "Robert B. Jackson",
+			"orcid": "https://orcid.org/0000-0001-8846-7147",
+			"affiliation": "Forest Institute"
+		},
+		{
+			"name": "Peter A. Raymond",
+			"orcid": "https://orcid.org/0000-0002-8564-7860",
+			"affiliation": "Yale University"
+		},
+		{
+			"name": "Edward J. Dlugokencky"
+		},
+		{
+			"name": "Sander Houweling",
+			"orcid": "https://orcid.org/0000-0002-6189-1009",
+			"affiliation": "Space Research Organisation Netherlands"
+		},
+		{
+			"name": "Prabir K. Patra",
+			"orcid": "https://orcid.org/0000-0001-5700-9389",
+			"affiliation": "Japan Agency for Marine-Earth Science and Technology"
+		},
+		{
+			"name": "Philippe Ciais",
+			"orcid": "https://orcid.org/0000-0001-8560-4943",
+			"affiliation": "Centre National de la Recherche Scientifique"
+		},
+		{
+			"name": "Vivek K. Arora",
+			"affiliation": "Environment and Climate Change Canada"
+		},
+		{
+			"name": "David Bastviken",
+			"orcid": "https://orcid.org/0000-0003-0038-2152",
+			"affiliation": "Linköping University"
+		},
+		{
+			"name": "Peter Bergamaschi",
+			"orcid": "https://orcid.org/0000-0003-4555-1829",
+			"affiliation": "Joint Research Centre"
+		},
+		{
+			"name": "Donald R. Blake",
+			"affiliation": "University of California, Irvine"
+		},
+		{
+			"name": "Gordon Brailsford",
+			"affiliation": "National Institute of Water and Atmospheric Research"
+		},
+		{
+			"name": "Lori Bruhwiler"
+		},
+		{
+			"name": "Kimberly M. Carlson",
+			"orcid": "https://orcid.org/0000-0003-2162-1378",
+			"affiliation": "University of Hawaiʻi at Mānoa"
+		},
+		{
+			"name": "Mark Carrol",
+			"affiliation": "Goddard Space Flight Center"
+		},
+		{
+			"name": "Simona Castaldi",
+			"affiliation": "Peoples' Friendship University of Russia"
+		}
+	],
+	"authorCount": 91,
+	"venue": "Earth system science data",
+	"publisher": "Copernicus Publications",
+	"year": 2020,
+	"type": "article",
+	"abstract": "Abstract. The global methane (CH4) budget is becoming an increasingly important component for managing realistic pathways to mitigate climate change. This relevance, due to a shorter atmospheric lifetime and a stronger warming potential than carbon dioxide, is challenged by the still unexplained changes of atmospheric CH4 over the past decade. Emissions and concentrations of CH4 are continuing to increase making CH4 the second most important human-induced greenhouse gas after carbon dioxide. Two major difficulties in reducing uncertainties come from the large variety of diffusive CH4 sources that overlap geographically, and from the destruction of CH4 by the very short-lived hydroxyl radical (OH). To address these difficulties, we have established a consortium of multi-disciplinary scientists under the umbrella of the Global Carbon Project to synthesize and stimulate research on the methane cycle, and producing regular (~biennial) updates of the global methane budget. This consortium includes atmospheric physicists and chemists, biogeochemists of surface and marine emissions, and socio-economists who study anthropogenic emissions. Following Kirschke et al. (2013), we propose here the first version of a living review paper that integrates results of top-down studies (T-D, exploiting atmospheric observations within an atmospheric inverse-modelling framework) and bottom-up models, inventories, and data-driven approaches (B-U, including process-based models for estimating land surface emissions and atmospheric chemistry, and inventories for anthropogenic emissions, data-driven extrapolations). For the 2003–2012 decade, global methane emissions are estimated by T-D inversions at 558 Tg CH4 yr−1 (range [540–568]). About 60 % of global emissions are anthropogenic (range [50–65 %]). B-U approaches suggest larger global emissions (736 Tg CH4 yr−1 [596–884]) mostly because of larger natural emissions from individual sources such as inland waters, natural wetlands and geological sources. Considering the atmospheric constraints on the T-D budget, it is likely that some of the individual emissions reported by the B-U approaches are overestimated, leading to too large global emissions. Latitudinal data from T-D emissions indicate a predominance of tropical emissions (~64 % of the global budget,",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "gold",
+		"url": "https://essd.copernicus.org/articles/12/1561/2020/essd-12-1561-2020.pdf"
+	},
+	"citedByCount": 0,
+	"themes": [
+		"carbone"
+	],
+	"sourceTopics": [
+		"Atmospheric and Environmental Gas Dynamics",
+		"Methane Hydrates and Related Phenomena"
+	],
+	"url": "https://doi.org/10.5194/essd-12-1561-2020",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-20"
+	},
+	"addedAt": "2026-08-20",
+	"editorial": {},
+	"glossaryTerms": []
+}

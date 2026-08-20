@@ -1,0 +1,66 @@
+{
+	"id": "cook-2020-twenty-first-century-drought-projections",
+	"doi": "10.1029/2019ef001461",
+	"title": "Twenty‐First Century Drought Projections in the CMIP6 Forcing Scenarios",
+	"authors": [
+		{
+			"name": "Benjamin I. Cook",
+			"affiliation": "Goddard Institute for Space Studies"
+		},
+		{
+			"name": "Justin Mankin",
+			"orcid": "https://orcid.org/0000-0003-2520-4555",
+			"affiliation": "Dartmouth College"
+		},
+		{
+			"name": "Kate Marvel",
+			"orcid": "https://orcid.org/0000-0002-9771-6720",
+			"affiliation": "Goddard Institute for Space Studies"
+		},
+		{
+			"name": "Park Williams",
+			"orcid": "https://orcid.org/0000-0001-8176-8166",
+			"affiliation": "Lamont-Doherty Earth Observatory"
+		},
+		{
+			"name": "Jason E. Smerdon",
+			"orcid": "https://orcid.org/0000-0001-6276-0249",
+			"affiliation": "Lamont-Doherty Earth Observatory"
+		},
+		{
+			"name": "Kevin J. Anchukaitis",
+			"orcid": "https://orcid.org/0000-0002-8509-8080",
+			"affiliation": "University of Arizona"
+		}
+	],
+	"authorCount": 6,
+	"venue": "Earth s Future",
+	"publisher": "American Geophysical Union",
+	"year": 2020,
+	"type": "article",
+	"abstract": "Abstract There is strong evidence that climate change will increase drought risk and severity, but these conclusions depend on the regions, seasons, and drought metrics being considered. We analyze changes in drought across the hydrologic cycle (precipitation, soil moisture, and runoff) in projections from Phase Six of the Coupled Model Intercomparison Project (CMIP6). The multimodel ensemble shows robust drying in the mean state across many regions and metrics by the end of the 21st century, even following the more aggressive mitigation pathways (SSP1‐2.6 and SSP2‐4.5). Regional hotspots with strong drying include western North America, Central America, Europe and the Mediterranean, the Amazon, southern Africa, China, Southeast Asia, and Australia. Compared to SSP3‐7.0 and SSP5‐8.5, however, the severity of drying in the lower warming scenarios is substantially reduced and further precipitation declines in many regions are avoided. Along with drying in the mean state, the risk of the historically most extreme drought events also increases with warming, by 200–300% in some regions. Soil moisture and runoff drying in CMIP6 is more robust, spatially extensive, and severe than precipitation, indicating an important role for other temperature‐sensitive drought processes, including evapotranspiration and snow. Given the similarity in drought responses between CMIP5 and CMIP6, we speculate that both generations of models are subject to similar uncertainties, including vegetation processes, model representations of precipitation, and the degree to which model responses to warming are consistent with observations. These topics should be further explored to evaluate whether CMIP6 models offer reasons to have increased confidence in drought projections.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "gold",
+		"url": "https://doi.org/10.1029/2019ef001461"
+	},
+	"citedByCount": 1065,
+	"themes": [
+		"modelisation",
+		"eau"
+	],
+	"sourceTopics": [
+		"Hydrology and Drought Analysis",
+		"Climate variability and models",
+		"Climate change impacts on agriculture"
+	],
+	"url": "https://doi.org/10.1029/2019ef001461",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-20"
+	},
+	"addedAt": "2026-08-20",
+	"editorial": {},
+	"glossaryTerms": []
+}

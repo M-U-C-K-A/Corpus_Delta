@@ -1,0 +1,85 @@
+{
+	"id": "mitchell-2016-attributing-human-mortality-during-extreme",
+	"doi": "10.1088/1748-9326/11/7/074006",
+	"title": "Attributing human mortality during extreme heat waves to anthropogenic climate change",
+	"authors": [
+		{
+			"name": "Dann Mitchell",
+			"orcid": "https://orcid.org/0000-0002-0117-3486",
+			"affiliation": "University of Oxford"
+		},
+		{
+			"name": "Clare Heaviside",
+			"orcid": "https://orcid.org/0000-0002-0263-4985",
+			"affiliation": "Public Health England"
+		},
+		{
+			"name": "Sotiris Vardoulakis",
+			"orcid": "https://orcid.org/0000-0003-3944-7128",
+			"affiliation": "Public Health England"
+		},
+		{
+			"name": "Chris Huntingford",
+			"orcid": "https://orcid.org/0000-0002-5941-7770",
+			"affiliation": "UK Centre for Ecology & Hydrology"
+		},
+		{
+			"name": "Giacomo Masato",
+			"affiliation": "University of Reading"
+		},
+		{
+			"name": "Benoît P. Guillod",
+			"orcid": "https://orcid.org/0000-0003-1807-6997",
+			"affiliation": "University of Oxford"
+		},
+		{
+			"name": "Peter C. Frumhoff",
+			"orcid": "https://orcid.org/0000-0002-5037-919X",
+			"affiliation": "Union of Concerned Scientists"
+		},
+		{
+			"name": "Andy Bowery",
+			"affiliation": "University of Oxford"
+		},
+		{
+			"name": "David Wallom",
+			"orcid": "https://orcid.org/0000-0001-7527-3407",
+			"affiliation": "University of Oxford"
+		},
+		{
+			"name": "Myles Allen",
+			"orcid": "https://orcid.org/0000-0002-1721-7172",
+			"affiliation": "University of Oxford"
+		}
+	],
+	"authorCount": 10,
+	"venue": "Environmental Research Letters",
+	"publisher": "IOP Publishing",
+	"year": 2016,
+	"type": "article",
+	"abstract": "It has been argued that climate change is the biggest global health threat of the 21st century. The extreme high temperatures of the summer of 2003 were associated with up to seventy thousand excess deaths across Europe. Previous studies have attributed the meteorological event to the human influence on climate, or examined the role of heat waves on human health. Here, for the first time, we explicitly quantify the role of human activity on climate and heat-related mortality in an event attribution framework, analysing both the Europe-wide temperature response in 2003, and localised responses over London and Paris. Using publicly-donated computing, we perform many thousands of climate simulations of a high-resolution regional climate model. This allows generation of a comprehensive statistical description of the 2003 event and the role of human influence within it, using the results as input to a health impact assessment model of human mortality. We find large-scale dynamical modes of atmospheric variability remain largely unchanged under anthropogenic climate change, and hence the direct thermodynamical response is mainly responsible for the increased mortality. In summer 2003, anthropogenic climate change increased the risk of heat-related mortality in Central Paris by ∼70% and by ∼20% in London, which experienced lower extreme heat. Out of the estimated ∼315 and ∼735 summer deaths attributed to the heatwave event in Greater London and Central Paris, respectively, 64 (±3) deaths were attributable to anthropogenic climate change in London, and 506 (±51) in Paris. Such an ability to robustly attribute specific damages to anthropogenic drivers of increased extreme heat can inform societal responses to, and responsibilities for, climate change.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "gold",
+		"url": "https://iopscience.iop.org/article/10.1088/1748-9326/11/7/074006/pdf"
+	},
+	"citedByCount": 449,
+	"themes": [
+		"sante",
+		"chaleur"
+	],
+	"sourceTopics": [
+		"Climate Change and Health Impacts",
+		"Air Quality and Health Impacts",
+		"Health disparities and outcomes"
+	],
+	"url": "https://doi.org/10.1088/1748-9326/11/7/074006",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-20"
+	},
+	"addedAt": "2026-08-20",
+	"editorial": {},
+	"glossaryTerms": []
+}

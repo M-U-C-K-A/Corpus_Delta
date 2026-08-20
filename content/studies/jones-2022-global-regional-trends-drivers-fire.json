@@ -1,0 +1,117 @@
+{
+	"id": "jones-2022-global-regional-trends-drivers-fire",
+	"doi": "10.1029/2020rg000726",
+	"title": "Global and Regional Trends and Drivers of Fire Under Climate Change",
+	"authors": [
+		{
+			"name": "Matthew W. Jones",
+			"orcid": "https://orcid.org/0000-0003-3480-7980",
+			"affiliation": "University of East Anglia"
+		},
+		{
+			"name": "John T. Abatzoglou",
+			"orcid": "https://orcid.org/0000-0001-7599-9750",
+			"affiliation": "University of California, Merced"
+		},
+		{
+			"name": "Sander Veraverbeke",
+			"orcid": "https://orcid.org/0000-0003-1362-5125",
+			"affiliation": "Vrije Universiteit Amsterdam"
+		},
+		{
+			"name": "Niels Andela",
+			"orcid": "https://orcid.org/0000-0002-8241-6143",
+			"affiliation": "Goddard Space Flight Center"
+		},
+		{
+			"name": "Gitta Lasslop",
+			"orcid": "https://orcid.org/0000-0001-9939-1459",
+			"affiliation": "Senckenberg Biodiversity and Climate Research Centre"
+		},
+		{
+			"name": "Matthias Forkel",
+			"orcid": "https://orcid.org/0000-0003-0363-9697",
+			"affiliation": "Technische Universität Dresden"
+		},
+		{
+			"name": "Adam J. P. Smith",
+			"orcid": "https://orcid.org/0000-0002-5352-2297",
+			"affiliation": "University of East Anglia"
+		},
+		{
+			"name": "Chantelle Burton",
+			"orcid": "https://orcid.org/0000-0003-0201-5727",
+			"affiliation": "Met Office"
+		},
+		{
+			"name": "Richard Betts",
+			"orcid": "https://orcid.org/0000-0002-4929-0307",
+			"affiliation": "Met Office"
+		},
+		{
+			"name": "Guido R. van der Werf",
+			"orcid": "https://orcid.org/0000-0001-9042-8630",
+			"affiliation": "Vrije Universiteit Amsterdam"
+		},
+		{
+			"name": "Stephen Sitch",
+			"orcid": "https://orcid.org/0000-0003-1821-8561",
+			"affiliation": "University of Exeter"
+		},
+		{
+			"name": "Josep G. Canadell",
+			"orcid": "https://orcid.org/0000-0002-8788-3218",
+			"affiliation": "CSIRO Oceans and Atmosphere"
+		},
+		{
+			"name": "Cristina Santín",
+			"orcid": "https://orcid.org/0000-0001-9901-2658",
+			"affiliation": "Universidad de Oviedo"
+		},
+		{
+			"name": "Crystal A. Kolden",
+			"orcid": "https://orcid.org/0000-0001-7093-4552",
+			"affiliation": "University of California, Merced"
+		},
+		{
+			"name": "Stefan H. Doerr",
+			"orcid": "https://orcid.org/0000-0002-8700-9002",
+			"affiliation": "Swansea University"
+		},
+		{
+			"name": "Corinne Le Quéré",
+			"orcid": "https://orcid.org/0000-0003-2319-0452",
+			"affiliation": "University of East Anglia"
+		}
+	],
+	"authorCount": 16,
+	"venue": "Reviews of Geophysics",
+	"publisher": "Wiley",
+	"year": 2022,
+	"type": "article",
+	"abstract": "Abstract Recent wildfire outbreaks around the world have prompted concern that climate change is increasing fire incidence, threatening human livelihood and biodiversity, and perpetuating climate change. Here, we review current understanding of the impacts of climate change on fire weather (weather conditions conducive to the ignition and spread of wildfires) and the consequences for regional fire activity as mediated by a range of other bioclimatic factors (including vegetation biogeography, productivity and lightning) and human factors (including ignition, suppression, and land use). Through supplemental analyses, we present a stocktake of regional trends in fire weather and burned area (BA) during recent decades, and we examine how fire activity relates to its bioclimatic and human drivers. Fire weather controls the annual timing of fires in most world regions and also drives inter‐annual variability in BA in the Mediterranean, the Pacific US and high latitude forests. Increases in the frequency and extremity of fire weather have been globally pervasive due to climate change during 1979–2019, meaning that landscapes are primed to burn more frequently. Correspondingly, increases in BA of ∼50% or higher have been seen in some extratropical forest ecoregions including in the Pacific US and high‐latitude forests during 2001–2019, though interannual variability remains large in these regions. Nonetheless, other bioclimatic and human factors can override the relationship between BA and fire weather. For example, BA in savannahs relates more strongly to patterns of fuel production or to the fragmentation of naturally fire‐prone landscapes by agriculture. Similarly, BA trends in tropical forests relate more strongly to deforestation rates and forest degradation than to changing fire weather. Overall, BA has reduced by 27% globally in the past two decades, due in large part to a decline in BA in African savannahs. According to climate models, the prevalence and extremity of fire weather has already emerged beyond its pre‐industrial variability in the Mediterranean due to climate change, and emergence will become increasingly widespread at additional levels of warming. Moreover, several of the major wildfires experienced in recent years, including the Australian bushfires of 2019/2020, have occurred amidst fire weather conditions that were considerably more likely due to climate change. Current fire models incompletely reproduce the observed spatial patterns of BA based on their existing representations of the relationships between fire and its bioclimatic and human controls, and historical trends in BA also vary considerably across models. Advances in the observation of fire and understanding of its controlling factors are supporting the addition or optimization of a range of processes in models. Overall, climate change is exerting a pervasive upwards pressure on fire globally by increasing the frequency and intensity of fire weather, and this upwards pressure will escalate with each increment of global warming. Improvements to fire models and a better understanding of the interactions between climate, climate extremes, humans and fire are required to predict future fire activity and to mitigate against its consequences.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "hybrid",
+		"url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2020RG000726"
+	},
+	"citedByCount": 1257,
+	"themes": [
+		"risques",
+		"biodiversite"
+	],
+	"sourceTopics": [
+		"Fire effects on ecosystems",
+		"Plant Water Relations and Carbon Dynamics",
+		"Landslides and related hazards"
+	],
+	"url": "https://doi.org/10.1029/2020rg000726",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-20"
+	},
+	"addedAt": "2026-08-20",
+	"editorial": {},
+	"glossaryTerms": []
+}

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { ArrowUpRight, TrendingUp } from "lucide-react";
 import { ChartCanvas, type ChartKind } from "@/components/mdx/ChartCanvas";
+import type { DitherColor } from "@/lib/content/chart-colors";
 import { DitherSurface } from "@/components/site/Dither";
 import { getDataset } from "@/lib/content/datasets";
 import { getDictionary } from "@/lib/i18n/dictionaries";
@@ -28,11 +29,11 @@ export function generateMetadata({ params }: { params: { lang: string } }): Meta
 }
 
 /** Ordre d'affichage et forme du graphique, choisis pour chaque série. */
-const INDICATORS: { id: string; kind: ChartKind; decimals: number }[] = [
-	{ id: "co2-mauna-loa", kind: "area", decimals: 2 },
-	{ id: "temperature-anomaly-gistemp", kind: "area", decimals: 2 },
-	{ id: "methane-global", kind: "line", decimals: 1 },
-	{ id: "nitrous-oxide-global", kind: "line", decimals: 1 },
+const INDICATORS: { id: string; kind: ChartKind; decimals: number; color: DitherColor }[] = [
+	{ id: "co2-mauna-loa", kind: "area", decimals: 2, color: "orange" },
+	{ id: "temperature-anomaly-gistemp", kind: "area", decimals: 2, color: "red" },
+	{ id: "methane-global", kind: "line", decimals: 1, color: "purple" },
+	{ id: "nitrous-oxide-global", kind: "line", decimals: 1, color: "blue" },
 ];
 
 function summarise(rows: Record<string, number | string | null>[], key: string) {
@@ -146,6 +147,8 @@ export default function IndicatorsPage({ params }: { params: { lang: string } })
 									xKey="year"
 									unit={dataset.unit}
 									height={280}
+									color={config.color}
+									decimals={config.decimals}
 								/>
 							</div>
 

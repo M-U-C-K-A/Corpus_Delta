@@ -1,0 +1,72 @@
+{
+	"id": "oliver-2017-unprecedented-2015-tasman-sea-marine",
+	"doi": "10.1038/ncomms16101",
+	"title": "The unprecedented 2015/16 Tasman Sea marine heatwave",
+	"authors": [
+		{
+			"name": "Eric C. J. Oliver",
+			"orcid": "https://orcid.org/0000-0002-4006-2826",
+			"affiliation": "University of Tasmania"
+		},
+		{
+			"name": "Jessica A. Benthuysen",
+			"orcid": "https://orcid.org/0000-0001-7615-6587",
+			"affiliation": "Australian Institute of Marine Science"
+		},
+		{
+			"name": "Nathaniel L. Bindoff",
+			"orcid": "https://orcid.org/0000-0001-5662-9519",
+			"affiliation": "University of Tasmania"
+		},
+		{
+			"name": "Alistair J. Hobday",
+			"orcid": "https://orcid.org/0000-0002-3194-8326",
+			"affiliation": "CSIRO Oceans and Atmosphere"
+		},
+		{
+			"name": "Neil J. Holbrook",
+			"orcid": "https://orcid.org/0000-0002-3523-6254",
+			"affiliation": "University of Tasmania"
+		},
+		{
+			"name": "CN Mundy",
+			"orcid": "https://orcid.org/0000-0002-1945-3750",
+			"affiliation": "University of Tasmania"
+		},
+		{
+			"name": "Sarah Perkins‐Kirkpatrick",
+			"orcid": "https://orcid.org/0000-0001-9443-4915",
+			"affiliation": "Australian Research Council"
+		}
+	],
+	"authorCount": 7,
+	"venue": "Nature Communications",
+	"publisher": "Nature Portfolio",
+	"year": 2017,
+	"type": "article",
+	"abstract": "The Tasman Sea off southeast Australia exhibited its longest and most intense marine heatwave ever recorded in 2015/16. Here we report on several inter-related aspects of this event: observed characteristics, physical drivers, ecological impacts and the role of climate change. This marine heatwave lasted for 251 days reaching a maximum intensity of 2.9 °C above climatology. The anomalous warming is dominated by anomalous convergence of heat linked to the southward flowing East Australian Current. Ecosystem impacts range from new disease outbreaks in farmed shellfish, mortality of wild molluscs and out-of-range species observations. Global climate models indicate it is very likely to be that the occurrence of an extreme warming event of this duration or intensity in this region is respectively ≥330 times and ≥6.8 times as likely to be due to the influence of anthropogenic climate change. Climate projections indicate that event likelihoods will increase in the future, due to increasing anthropogenic influences.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "gold",
+		"url": "https://www.nature.com/articles/ncomms16101.pdf"
+	},
+	"citedByCount": 615,
+	"themes": [
+		"ocean",
+		"chaleur"
+	],
+	"sourceTopics": [
+		"Climate variability and models",
+		"Tropical and Extratropical Cyclones Research",
+		"Ocean Acidification Effects and Responses"
+	],
+	"url": "https://doi.org/10.1038/ncomms16101",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-20"
+	},
+	"addedAt": "2026-08-20",
+	"editorial": {},
+	"glossaryTerms": []
+}

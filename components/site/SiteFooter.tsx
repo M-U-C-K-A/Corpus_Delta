@@ -58,16 +58,26 @@ export function SiteFooter({ lang }: { lang: Lang }) {
 								</li>
 							))}
 							{column.heading === dict.footer.project && (
-								<li>
-									<a
-										href={siteConfig.repository}
-										target="_blank"
-										rel="noreferrer"
-										className="text-sm text-foreground/80 transition-colors hover:text-foreground"
-									>
-										{dict.footer.sourceCode}
-									</a>
-								</li>
+								<>
+									<li>
+										<a
+											href={siteConfig.repository}
+											target="_blank"
+											rel="noreferrer"
+											className="text-sm text-foreground/80 transition-colors hover:text-foreground"
+										>
+											{dict.footer.sourceCode}
+										</a>
+									</li>
+									<li>
+										<a
+											href={`/${lang}/rss.xml`}
+											className="text-sm text-foreground/80 transition-colors hover:text-foreground"
+										>
+											{dict.footer.rss}
+										</a>
+									</li>
+								</>
 							)}
 						</ul>
 					</div>

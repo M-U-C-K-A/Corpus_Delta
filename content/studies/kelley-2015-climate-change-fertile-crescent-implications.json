@@ -1,0 +1,61 @@
+{
+	"id": "kelley-2015-climate-change-fertile-crescent-implications",
+	"doi": "10.1073/pnas.1421533112",
+	"title": "Climate change in the Fertile Crescent and implications of the recent Syrian drought",
+	"authors": [
+		{
+			"name": "C. P. Kelley",
+			"orcid": "https://orcid.org/0000-0003-4947-2108",
+			"affiliation": "University of California, Santa Barbara"
+		},
+		{
+			"name": "Shahrzad Mohtadi",
+			"affiliation": "Columbia University"
+		},
+		{
+			"name": "Mark A. Cane",
+			"orcid": "https://orcid.org/0000-0001-5408-2388",
+			"affiliation": "Lamont-Doherty Earth Observatory"
+		},
+		{
+			"name": "Richard Seager",
+			"orcid": "https://orcid.org/0000-0003-4772-9707",
+			"affiliation": "Lamont-Doherty Earth Observatory"
+		},
+		{
+			"name": "Yochanan Kushnir",
+			"orcid": "https://orcid.org/0000-0003-3312-5160",
+			"affiliation": "Lamont-Doherty Earth Observatory"
+		}
+	],
+	"authorCount": 5,
+	"venue": "Proceedings of the National Academy of Sciences",
+	"publisher": "National Academy of Sciences",
+	"year": 2015,
+	"type": "article",
+	"abstract": "Before the Syrian uprising that began in 2011, the greater Fertile Crescent experienced the most severe drought in the instrumental record. For Syria, a country marked by poor governance and unsustainable agricultural and environmental policies, the drought had a catalytic effect, contributing to political unrest. We show that the recent decrease in Syrian precipitation is a combination of natural variability and a long-term drying trend, and the unusual severity of the observed drought is here shown to be highly unlikely without this trend. Precipitation changes in Syria are linked to rising mean sea-level pressure in the Eastern Mediterranean, which also shows a long-term trend. There has been also a long-term warming trend in the Eastern Mediterranean, adding to the drawdown of soil moisture. No natural cause is apparent for these trends, whereas the observed drying and warming are consistent with model studies of the response to increases in greenhouse gases. Furthermore, model studies show an increasingly drier and hotter future mean climate for the Eastern Mediterranean. Analyses of observations and model simulations indicate that a drought of the severity and duration of the recent Syrian drought, which is implicated in the current conflict, has become more than twice as likely as a consequence of human interference in the climate system.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "green",
+		"url": "https://www.osti.gov/servlets/purl/1349031"
+	},
+	"citedByCount": 1371,
+	"themes": [
+		"eau",
+		"politiques"
+	],
+	"sourceTopics": [
+		"Transboundary Water Resource Management",
+		"Hydrology and Drought Analysis",
+		"Climate variability and models"
+	],
+	"url": "https://doi.org/10.1073/pnas.1421533112",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-20"
+	},
+	"addedAt": "2026-08-20",
+	"editorial": {},
+	"glossaryTerms": []
+}

@@ -1,0 +1,51 @@
+{
+	"id": "cook-2015-unprecedented-21st-century-drought-risk",
+	"doi": "10.1126/sciadv.1400082",
+	"title": "Unprecedented 21st century drought risk in the American Southwest and Central Plains",
+	"authors": [
+		{
+			"name": "Benjamin I. Cook",
+			"affiliation": "Goddard Institute for Space Studies"
+		},
+		{
+			"name": "Toby R. Ault",
+			"orcid": "https://orcid.org/0000-0002-2463-955X",
+			"affiliation": "Cornell University"
+		},
+		{
+			"name": "Jason E. Smerdon",
+			"orcid": "https://orcid.org/0000-0001-6276-0249",
+			"affiliation": "Lamont-Doherty Earth Observatory"
+		}
+	],
+	"authorCount": 3,
+	"venue": "Science Advances",
+	"publisher": "American Association for the Advancement of Science",
+	"year": 2015,
+	"type": "article",
+	"abstract": "In the Southwest and Central Plains of Western North America, climate change is expected to increase drought severity in the coming decades. These regions nevertheless experienced extended Medieval-era droughts that were more persistent than any historical event, providing crucial targets in the paleoclimate record for benchmarking the severity of future drought risks. We use an empirical drought reconstruction and three soil moisture metrics from 17 state-of-the-art general circulation models to show that these models project significantly drier conditions in the later half of the 21st century compared to the 20th century and earlier paleoclimatic intervals. This desiccation is consistent across most of the models and moisture balance variables, indicating a coherent and robust drying response to warming despite the diversity of models and metrics analyzed. Notably, future drought risk will likely exceed even the driest centuries of the Medieval Climate Anomaly (1100-1300 CE) in both moderate (RCP 4.5) and high (RCP 8.5) future emissions scenarios, leading to unprecedented drought conditions during the last millennium.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "gold",
+		"url": "https://doi.org/10.1126/sciadv.1400082"
+	},
+	"citedByCount": 1465,
+	"themes": [
+		"eau",
+		"risques"
+	],
+	"sourceTopics": [
+		"Plant Water Relations and Carbon Dynamics",
+		"Hydrology and Drought Analysis",
+		"Tree-ring climate responses"
+	],
+	"url": "https://doi.org/10.1126/sciadv.1400082",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-20"
+	},
+	"addedAt": "2026-08-20",
+	"editorial": {},
+	"glossaryTerms": []
+}

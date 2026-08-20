@@ -1,0 +1,47 @@
+{
+	"id": "fischer-2015-anthropogenic-contribution-global-occurrence-heavy",
+	"doi": "10.1038/nclimate2617",
+	"title": "Anthropogenic contribution to global occurrence of heavy-precipitation and high-temperature extremes",
+	"authors": [
+		{
+			"name": "Erich Fischer",
+			"orcid": "https://orcid.org/0000-0003-1931-6737",
+			"affiliation": "ETH Zurich"
+		},
+		{
+			"name": "Reto Knutti",
+			"orcid": "https://orcid.org/0000-0001-8303-6700",
+			"affiliation": "ETH Zurich"
+		}
+	],
+	"authorCount": 2,
+	"venue": "Nature Climate Change",
+	"publisher": "Nature Portfolio",
+	"year": 2015,
+	"type": "article",
+	"abstract": null,
+	"language": "en",
+	"openAccess": {
+		"isOpen": false,
+		"status": "closed",
+		"url": null
+	},
+	"citedByCount": 1429,
+	"themes": [
+		"modelisation",
+		"eau"
+	],
+	"sourceTopics": [
+		"Climate variability and models",
+		"Flood Risk Assessment and Management",
+		"Hydrology and Drought Analysis"
+	],
+	"url": "https://doi.org/10.1038/nclimate2617",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-20"
+	},
+	"addedAt": "2026-08-20",
+	"editorial": {},
+	"glossaryTerms": []
+}

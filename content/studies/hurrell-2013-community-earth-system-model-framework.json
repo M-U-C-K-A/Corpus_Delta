@@ -1,0 +1,132 @@
+{
+	"id": "hurrell-2013-community-earth-system-model-framework",
+	"doi": "10.1175/bams-d-12-00121.1",
+	"title": "The Community Earth System Model: A Framework for Collaborative Research",
+	"authors": [
+		{
+			"name": "James W. Hurrell",
+			"orcid": "https://orcid.org/0000-0002-3169-6384",
+			"affiliation": "NSF National Center for Atmospheric Research"
+		},
+		{
+			"name": "Marika M. Holland",
+			"orcid": "https://orcid.org/0000-0001-5621-8939",
+			"affiliation": "NSF National Center for Atmospheric Research"
+		},
+		{
+			"name": "P. R. Gent",
+			"affiliation": "NSF National Center for Atmospheric Research"
+		},
+		{
+			"name": "S. J. Ghan",
+			"orcid": "https://orcid.org/0000-0001-8355-8699",
+			"affiliation": "Pacific Northwest National Laboratory"
+		},
+		{
+			"name": "Jennifer E. Kay",
+			"orcid": "https://orcid.org/0000-0002-3625-5377",
+			"affiliation": "NSF National Center for Atmospheric Research"
+		},
+		{
+			"name": "P. J. Kushner",
+			"affiliation": "University of Toronto"
+		},
+		{
+			"name": "Jean‐François Lamarque",
+			"orcid": "https://orcid.org/0000-0002-4225-5074",
+			"affiliation": "NSF National Center for Atmospheric Research"
+		},
+		{
+			"name": "William G. Large",
+			"affiliation": "NSF National Center for Atmospheric Research"
+		},
+		{
+			"name": "David M. Lawrence",
+			"orcid": "https://orcid.org/0000-0002-2968-3023",
+			"affiliation": "NSF National Center for Atmospheric Research"
+		},
+		{
+			"name": "Keith Lindsay",
+			"orcid": "https://orcid.org/0000-0002-3672-1665",
+			"affiliation": "NSF National Center for Atmospheric Research"
+		},
+		{
+			"name": "William H. Lipscomb",
+			"orcid": "https://orcid.org/0000-0002-7100-3730",
+			"affiliation": "Los Alamos National Laboratory"
+		},
+		{
+			"name": "Matthew C. Long",
+			"orcid": "https://orcid.org/0000-0003-1273-2957",
+			"affiliation": "NSF National Center for Atmospheric Research"
+		},
+		{
+			"name": "N. M. Mahowald",
+			"orcid": "https://orcid.org/0000-0002-2873-997X",
+			"affiliation": "Cornell University"
+		},
+		{
+			"name": "D. R. Marsh",
+			"orcid": "https://orcid.org/0000-0001-6699-494X",
+			"affiliation": "NSF National Center for Atmospheric Research"
+		},
+		{
+			"name": "Richard Neale",
+			"orcid": "https://orcid.org/0000-0003-4222-3918",
+			"affiliation": "NSF National Center for Atmospheric Research"
+		},
+		{
+			"name": "Philip J. Rasch",
+			"orcid": "https://orcid.org/0000-0002-5125-2174",
+			"affiliation": "Pacific Northwest National Laboratory"
+		},
+		{
+			"name": "S. J. Vavrus",
+			"orcid": "https://orcid.org/0000-0002-7612-3109",
+			"affiliation": "University of Wisconsin–Madison"
+		},
+		{
+			"name": "M. Vertenstein",
+			"affiliation": "Lawrence Livermore National Laboratory"
+		},
+		{
+			"name": "David C. Bader",
+			"orcid": "https://orcid.org/0000-0003-3210-339X",
+			"affiliation": "Lawrence Livermore National Laboratory"
+		},
+		{
+			"name": "William D. Collins",
+			"orcid": "https://orcid.org/0000-0002-4463-9848",
+			"affiliation": "Lawrence Berkeley National Laboratory"
+		}
+	],
+	"authorCount": 23,
+	"venue": "Bulletin of the American Meteorological Society",
+	"publisher": "American Meteorological Society",
+	"year": 2013,
+	"type": "article",
+	"abstract": "By simulating biogeochemical cycles, the Greenland ice sheet, and more-with reach to the lower thermosphere-this system gives the research community a flexible, state-of-thescience tool for understanding climate variability and change.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "bronze",
+		"url": "https://journals.ametsoc.org/downloadpdf/journals/bams/94/9/bams-d-12-00121.1.pdf"
+	},
+	"citedByCount": 2843,
+	"themes": [
+		"modelisation"
+	],
+	"sourceTopics": [
+		"Atmospheric and Environmental Gas Dynamics",
+		"Climate variability and models",
+		"Meteorological Phenomena and Simulations"
+	],
+	"url": "https://doi.org/10.1175/bams-d-12-00121.1",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-20"
+	},
+	"addedAt": "2026-08-20",
+	"editorial": {},
+	"glossaryTerms": []
+}

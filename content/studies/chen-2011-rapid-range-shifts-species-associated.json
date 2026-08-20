@@ -1,0 +1,60 @@
+{
+	"id": "chen-2011-rapid-range-shifts-species-associated",
+	"doi": "10.1126/science.1206432",
+	"title": "Rapid Range Shifts of Species Associated with High Levels of Climate Warming",
+	"authors": [
+		{
+			"name": "I‐Ching Chen",
+			"affiliation": "Biodiversity Research Center, Academia Sinica"
+		},
+		{
+			"name": "Jane K. Hill",
+			"orcid": "https://orcid.org/0000-0003-1871-7715",
+			"affiliation": "University of York"
+		},
+		{
+			"name": "Ralf Ohlemüller",
+			"orcid": "https://orcid.org/0000-0001-9102-6481",
+			"affiliation": "Durham University"
+		},
+		{
+			"name": "David B. Roy",
+			"orcid": "https://orcid.org/0000-0002-5147-0331",
+			"affiliation": "UK Centre for Ecology & Hydrology"
+		},
+		{
+			"name": "Chris D. Thomas",
+			"orcid": "https://orcid.org/0000-0003-2822-1334",
+			"affiliation": "University of York"
+		}
+	],
+	"authorCount": 5,
+	"venue": "Science",
+	"publisher": "American Association for the Advancement of Science",
+	"year": 2011,
+	"type": "article",
+	"abstract": "The distributions of many terrestrial organisms are currently shifting in latitude or elevation in response to changing climate. Using a meta-analysis, we estimated that the distributions of species have recently shifted to higher elevations at a median rate of 11.0 meters per decade, and to higher latitudes at a median rate of 16.9 kilometers per decade. These rates are approximately two and three times faster than previously reported. The distances moved by species are greatest in studies showing the highest levels of warming, with average latitudinal shifts being generally sufficient to track temperature changes. However, individual species vary greatly in their rates of change, suggesting that the range shift of each species depends on multiple internal species traits and external drivers of change. Rapid average shifts derive from a wide diversity of responses by individual species.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "green",
+		"url": "https://zotero.org/groups/5435545/items/G6C5XR9S"
+	},
+	"citedByCount": 5532,
+	"themes": [
+		"biodiversite"
+	],
+	"sourceTopics": [
+		"Species Distribution and Climate Change",
+		"Ecology and Vegetation Dynamics Studies",
+		"Wildlife Ecology and Conservation"
+	],
+	"url": "https://doi.org/10.1126/science.1206432",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-20"
+	},
+	"addedAt": "2026-08-20",
+	"editorial": {},
+	"glossaryTerms": []
+}

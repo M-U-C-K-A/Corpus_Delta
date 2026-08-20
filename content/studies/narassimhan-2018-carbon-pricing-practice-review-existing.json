@@ -1,0 +1,54 @@
+{
+	"id": "narassimhan-2018-carbon-pricing-practice-review-existing",
+	"doi": "10.1080/14693062.2018.1467827",
+	"title": "Carbon pricing in practice: a review of existing emissions trading systems",
+	"authors": [
+		{
+			"name": "Easwaran Narassimhan",
+			"orcid": "https://orcid.org/0000-0001-8910-2246",
+			"affiliation": "Tufts University"
+		},
+		{
+			"name": "Kelly Sims Gallagher",
+			"orcid": "https://orcid.org/0000-0002-4724-8949",
+			"affiliation": "Tufts University"
+		},
+		{
+			"name": "Stefan Koester",
+			"affiliation": "Tufts University"
+		},
+		{
+			"name": "Julio Rivera Alejo",
+			"affiliation": "Tufts University"
+		}
+	],
+	"authorCount": 4,
+	"venue": "Climate Policy",
+	"publisher": "Taylor & Francis",
+	"year": 2018,
+	"type": "article",
+	"abstract": "This article analyses the implementation of emissions trading systems (ETSs) in eight jurisdictions: the EU, Switzerland, the Regional Greenhouse Gas Initiative (RGGI) and California in the US, Québec in Canada, New Zealand, the Republic of Korea and pilot schemes in China. The article clarifies what is working, what isn’t and why, when it comes to the practice of implementing an ETS. The eight ETSs are evaluated against five main criteria: environmental effectiveness, economic efficiency, market management, revenue management and stakeholder engagement. Within each of these categories, ETS attributes − including abatement cost, stringency of the cap, improved allocation practices over time and the trajectory of price stability − are assessed for each system. Institutional learning, administrative prudence, appropriate carbon revenue management and stakeholder engagement are identified as key ingredients for successful ETS regimes. Recent implementation of ETSs in regions including California, Québec and South Korea indicates significant institutional learning from prior systems, especially the EU ETS, with these regions implementing more robust administrative and regulatory structures suitable for handling unique national and sub-national opportunities and constraints. The analysis also shows that there is potential for a ‘double dividend’ in emissions reductions even with a modest carbon price, provided the cap tightens over time and a portion of the auctioned revenues are reinvested in other emissions-reduction activities. Knowledge gaps exist in understanding the interaction of pricing instruments with other climate policy instruments and how governments manage these policies to achieve optimum emissions reductions with lower administrative costs.Key policy insights Countries are learning from each other on ETS implementation.Administrative and regulatory structures of ETS jurisdictions appear to evolve and become more robust in every ETS analysed.A ‘double dividend’ for emissions reductions may also exist in cases where mitigation occurs as a result of the ETS policy and when auction revenues are reinvested in other emissions-reduction activities.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "hybrid",
+		"url": "https://www.tandfonline.com/doi/pdf/10.1080/14693062.2018.1467827?needAccess=true"
+	},
+	"citedByCount": 502,
+	"themes": [
+		"politiques"
+	],
+	"sourceTopics": [
+		"Climate Change Policy and Economics",
+		"Energy, Environment, and Transportation Policies",
+		"Global Energy and Sustainability Research"
+	],
+	"url": "https://doi.org/10.1080/14693062.2018.1467827",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-20"
+	},
+	"addedAt": "2026-08-20",
+	"editorial": {},
+	"glossaryTerms": []
+}

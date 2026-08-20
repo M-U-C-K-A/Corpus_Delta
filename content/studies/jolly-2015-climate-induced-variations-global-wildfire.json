@@ -1,0 +1,71 @@
+{
+	"id": "jolly-2015-climate-induced-variations-global-wildfire",
+	"doi": "10.1038/ncomms8537",
+	"title": "Climate-induced variations in global wildfire danger from 1979 to 2013",
+	"authors": [
+		{
+			"name": "W. Matt Jolly",
+			"orcid": "https://orcid.org/0000-0002-0457-6563",
+			"affiliation": "US Forest Service"
+		},
+		{
+			"name": "Mark A. Cochrane",
+			"orcid": "https://orcid.org/0000-0002-4573-568X",
+			"affiliation": "South Dakota State University"
+		},
+		{
+			"name": "Patrick H. Freeborn",
+			"orcid": "https://orcid.org/0000-0002-0771-2866",
+			"affiliation": "South Dakota State University"
+		},
+		{
+			"name": "Zachary A. Holden",
+			"orcid": "https://orcid.org/0000-0002-4319-6491",
+			"affiliation": "US Forest Service"
+		},
+		{
+			"name": "Timothy J. Brown",
+			"orcid": "https://orcid.org/0000-0002-4843-4639",
+			"affiliation": "Desert Research Institute"
+		},
+		{
+			"name": "Grant J. Williamson",
+			"orcid": "https://orcid.org/0000-0002-3469-7550",
+			"affiliation": "University of Tasmania"
+		},
+		{
+			"name": "David M. J. S. Bowman",
+			"orcid": "https://orcid.org/0000-0001-8075-124X",
+			"affiliation": "University of Tasmania"
+		}
+	],
+	"authorCount": 7,
+	"venue": "Nature Communications",
+	"publisher": "Nature Portfolio",
+	"year": 2015,
+	"type": "article",
+	"abstract": "Climate strongly influences global wildfire activity, and recent wildfire surges may signal fire weather-induced pyrogeographic shifts. Here we use three daily global climate data sets and three fire danger indices to develop a simple annual metric of fire weather season length, and map spatio-temporal trends from 1979 to 2013. We show that fire weather seasons have lengthened across 29.6 million km(2) (25.3%) of the Earth's vegetated surface, resulting in an 18.7% increase in global mean fire weather season length. We also show a doubling (108.1% increase) of global burnable area affected by long fire weather seasons (>1.0 σ above the historical mean) and an increased global frequency of long fire weather seasons across 62.4 million km(2) (53.4%) during the second half of the study period. If these fire weather changes are coupled with ignition sources and available fuel, they could markedly impact global ecosystems, societies, economies and climate.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "gold",
+		"url": "https://www.nature.com/articles/ncomms8537.pdf"
+	},
+	"citedByCount": 2181,
+	"themes": [
+		"risques"
+	],
+	"sourceTopics": [
+		"Fire effects on ecosystems",
+		"Landslides and related hazards",
+		"Fire dynamics and safety research"
+	],
+	"url": "https://doi.org/10.1038/ncomms8537",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-20"
+	},
+	"addedAt": "2026-08-20",
+	"editorial": {},
+	"glossaryTerms": []
+}

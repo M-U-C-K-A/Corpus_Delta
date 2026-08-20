@@ -1,0 +1,112 @@
+{
+	"id": "hobday-2016-hierarchical-approach-defining-marine-heatwaves",
+	"doi": "10.1016/j.pocean.2015.12.014",
+	"title": "A hierarchical approach to defining marine heatwaves",
+	"authors": [
+		{
+			"name": "Alistair J. Hobday",
+			"orcid": "https://orcid.org/0000-0002-3194-8326",
+			"affiliation": "CSIRO Oceans and Atmosphere"
+		},
+		{
+			"name": "Lisa V. Alexander",
+			"orcid": "https://orcid.org/0000-0002-5635-2457",
+			"affiliation": "UNSW Sydney"
+		},
+		{
+			"name": "Sarah Perkins‐Kirkpatrick",
+			"orcid": "https://orcid.org/0000-0001-9443-4915",
+			"affiliation": "UNSW Sydney"
+		},
+		{
+			"name": "Dan A. Smale",
+			"orcid": "https://orcid.org/0000-0003-4157-541X",
+			"affiliation": "Marine Biological Association of the United Kingdom"
+		},
+		{
+			"name": "Sandra C. Straub",
+			"orcid": "https://orcid.org/0000-0003-2450-4978",
+			"affiliation": "The University of Western Australia"
+		},
+		{
+			"name": "Eric C. J. Oliver",
+			"orcid": "https://orcid.org/0000-0002-4006-2826",
+			"affiliation": "University of Tasmania"
+		},
+		{
+			"name": "Jessica A. Benthuysen",
+			"orcid": "https://orcid.org/0000-0001-7615-6587",
+			"affiliation": "Australian Institute of Marine Science"
+		},
+		{
+			"name": "Michael T. Burrows",
+			"orcid": "https://orcid.org/0000-0003-4620-5899",
+			"affiliation": "Scottish Association For Marine Science"
+		},
+		{
+			"name": "Markus G. Donat",
+			"orcid": "https://orcid.org/0000-0002-0608-7288",
+			"affiliation": "UNSW Sydney"
+		},
+		{
+			"name": "Ming Feng",
+			"orcid": "https://orcid.org/0000-0002-2855-7092",
+			"affiliation": "CSIRO Oceans and Atmosphere"
+		},
+		{
+			"name": "Neil J. Holbrook",
+			"orcid": "https://orcid.org/0000-0002-3523-6254",
+			"affiliation": "University of Tasmania"
+		},
+		{
+			"name": "Pippa J. Moore",
+			"orcid": "https://orcid.org/0000-0002-9889-2216",
+			"affiliation": "Aberystwyth University"
+		},
+		{
+			"name": "Hillary A. Scannell",
+			"orcid": "https://orcid.org/0000-0002-6604-1695",
+			"affiliation": "University of Washington"
+		},
+		{
+			"name": "Alex Sen Gupta",
+			"orcid": "https://orcid.org/0000-0001-5226-871X",
+			"affiliation": "UNSW Sydney"
+		},
+		{
+			"name": "Thomas Wernberg",
+			"orcid": "https://orcid.org/0000-0003-1185-9745",
+			"affiliation": "The University of Western Australia"
+		}
+	],
+	"authorCount": 15,
+	"venue": "Progress In Oceanography",
+	"publisher": "Elsevier BV",
+	"year": 2016,
+	"type": "article",
+	"abstract": null,
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "green",
+		"url": "http://pure.aber.ac.uk/ws/files/6834954/hierarchical.pdf"
+	},
+	"citedByCount": 2334,
+	"themes": [
+		"ocean",
+		"chaleur"
+	],
+	"sourceTopics": [
+		"Marine and fisheries research",
+		"Coral and Marine Ecosystems Studies",
+		"Oceanographic and Atmospheric Processes"
+	],
+	"url": "https://doi.org/10.1016/j.pocean.2015.12.014",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-20"
+	},
+	"addedAt": "2026-08-20",
+	"editorial": {},
+	"glossaryTerms": []
+}

@@ -1,0 +1,116 @@
+{
+	"id": "rosenzweig-2012-agricultural-model-intercomparison-improvement-project",
+	"doi": "10.1016/j.agrformet.2012.09.011",
+	"title": "The Agricultural Model Intercomparison and Improvement Project (AgMIP): Protocols and pilot studies",
+	"authors": [
+		{
+			"name": "Cynthia Rosenzweig",
+			"orcid": "https://orcid.org/0000-0002-8541-2201",
+			"affiliation": "Goddard Institute for Space Studies"
+		},
+		{
+			"name": "James W. Jones",
+			"orcid": "https://orcid.org/0000-0002-3239-8960",
+			"affiliation": "University of Florida"
+		},
+		{
+			"name": "Jerry L. Hatfield",
+			"orcid": "https://orcid.org/0000-0002-2981-8856",
+			"affiliation": "United States Department of Agriculture"
+		},
+		{
+			"name": "Alex C. Ruane",
+			"orcid": "https://orcid.org/0000-0002-5582-9217",
+			"affiliation": "Goddard Institute for Space Studies"
+		},
+		{
+			"name": "Kenneth J. Boote",
+			"orcid": "https://orcid.org/0000-0002-1358-5496",
+			"affiliation": "University of Florida"
+		},
+		{
+			"name": "Peter Thorburn",
+			"affiliation": "Commonwealth Scientific and Industrial Research Organisation"
+		},
+		{
+			"name": "John M. Antle",
+			"orcid": "https://orcid.org/0000-0003-4224-2318",
+			"affiliation": "Oregon State University"
+		},
+		{
+			"name": "Gerald C. Nelson",
+			"orcid": "https://orcid.org/0000-0003-3626-1221",
+			"affiliation": "International Food Policy Research Institute"
+		},
+		{
+			"name": "Cheryl Porter",
+			"orcid": "https://orcid.org/0000-0001-7269-6543",
+			"affiliation": "University of Florida"
+		},
+		{
+			"name": "Sander Janssen",
+			"orcid": "https://orcid.org/0000-0003-2226-0674",
+			"affiliation": "Altera (United States)"
+		},
+		{
+			"name": "Senthold Asseng",
+			"orcid": "https://orcid.org/0000-0002-7583-3811",
+			"affiliation": "University of Florida"
+		},
+		{
+			"name": "Bruno Basso",
+			"orcid": "https://orcid.org/0000-0003-2090-4616",
+			"affiliation": "Michigan State University"
+		},
+		{
+			"name": "Frank Ewert",
+			"orcid": "https://orcid.org/0000-0002-4392-8154",
+			"affiliation": "University of Bonn"
+		},
+		{
+			"name": "Daniel Wallach",
+			"orcid": "https://orcid.org/0000-0003-3500-8179",
+			"affiliation": "Institut National Polytechnique de Toulouse"
+		},
+		{
+			"name": "Guillermo A. Baigorria",
+			"orcid": "https://orcid.org/0000-0001-7618-1125",
+			"affiliation": "University of Nebraska–Lincoln"
+		},
+		{
+			"name": "Jonathan M. Winter",
+			"orcid": "https://orcid.org/0000-0003-1261-4774",
+			"affiliation": "Columbia University"
+		}
+	],
+	"authorCount": 16,
+	"venue": "Agricultural and Forest Meteorology",
+	"publisher": "Elsevier BV",
+	"year": 2012,
+	"type": "article",
+	"abstract": null,
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "green",
+		"url": "https://research.wur.nl/en/publications/the-agricultural-model-intercomparison-and-improvement-project-ag"
+	},
+	"citedByCount": 1070,
+	"themes": [
+		"agriculture",
+		"modelisation"
+	],
+	"sourceTopics": [
+		"Climate change impacts on agriculture",
+		"Plant responses to elevated CO2",
+		"Climate variability and models"
+	],
+	"url": "https://doi.org/10.1016/j.agrformet.2012.09.011",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-20"
+	},
+	"addedAt": "2026-08-20",
+	"editorial": {},
+	"glossaryTerms": []
+}

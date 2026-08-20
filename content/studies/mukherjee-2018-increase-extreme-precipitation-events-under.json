@@ -1,0 +1,56 @@
+{
+	"id": "mukherjee-2018-increase-extreme-precipitation-events-under",
+	"doi": "10.1016/j.wace.2018.03.005",
+	"title": "Increase in extreme precipitation events under anthropogenic warming in India",
+	"authors": [
+		{
+			"name": "Sourav Mukherjee",
+			"orcid": "https://orcid.org/0000-0003-2509-7622",
+			"affiliation": "Indian Institute of Technology Gandhinagar"
+		},
+		{
+			"name": "Saran Aadhar",
+			"orcid": "https://orcid.org/0000-0003-1645-4093",
+			"affiliation": "Indian Institute of Technology Gandhinagar"
+		},
+		{
+			"name": "Dáithí A. Stone",
+			"orcid": "https://orcid.org/0000-0002-2518-100X",
+			"affiliation": "Lawrence Berkeley National Laboratory"
+		},
+		{
+			"name": "Vimal Mishra",
+			"orcid": "https://orcid.org/0000-0002-3046-6296",
+			"affiliation": "Indian Institute of Technology Gandhinagar"
+		}
+	],
+	"authorCount": 4,
+	"venue": "Weather and Climate Extremes",
+	"publisher": "Elsevier BV",
+	"year": 2018,
+	"type": "article",
+	"abstract": "India has witnessed some of the most devastating extreme precipitation events, which have affected urban transportation, agriculture, and infrastructure. Despite the profound implications and damage due to extreme precipitation events, the influence of anthropogenic warming on the intensity and frequency of extreme precipitation events over India remains poorly constrained. Here using the gridded observations and simulations from the Coupled model intercomparison project 5 (CMIP5) and Climate of 20th century plus (C20C+) detection and attribution (D&A) project, we show that the frequency and intensity of extreme precipitation events have increased in India during the last few decades. Along with the extreme precipitation, dew point temperature has also increased during 1979–2015. The scaling relationship between extreme precipitation and dew point temperature shows a super (more than 7% increase per unit rise in dew point temperature) Clausius-Clapeyron (C-C) relationship for the majority of south India. Moreover, southern and central India show a higher (10%/°C) scaling relationship than north India (3.5%/°C). Our analysis using the Hist (historic) and HistNat (historic natural) simulations from the CMIP5 and C20C+ projects confirms an increase in the frequency of extreme precipitation events under the anthropogenic warming. Moreover, we show that 1–5 day precipitation maxima at 5–500 year return period increases (10–30%) under the anthropogenic warming. The frequency of precipitation extremes is projected to rise more prominently in southern and central India in the mid and end of the 21st century under the representative concentration pathway (RCP) 8.5. Our results show a significant contribution of anthropogenic warming in the rise of the frequency of extreme precipitation, which has implications for infrastructure, agriculture, and water resources in India.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "gold",
+		"url": "https://www.sciencedirect.com/science/article/pii/S2212094717301068/pdf"
+	},
+	"citedByCount": 442,
+	"themes": [
+		"eau"
+	],
+	"sourceTopics": [
+		"Climate variability and models",
+		"Hydrology and Drought Analysis",
+		"Meteorological Phenomena and Simulations"
+	],
+	"url": "https://doi.org/10.1016/j.wace.2018.03.005",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-20"
+	},
+	"addedAt": "2026-08-20",
+	"editorial": {},
+	"glossaryTerms": []
+}

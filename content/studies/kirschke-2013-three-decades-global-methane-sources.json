@@ -1,0 +1,133 @@
+{
+	"id": "kirschke-2013-three-decades-global-methane-sources",
+	"doi": "10.1038/ngeo1955",
+	"title": "Three decades of global methane sources and sinks",
+	"authors": [
+		{
+			"name": "S. Kirschke",
+			"affiliation": "Centre National de la Recherche Scientifique"
+		},
+		{
+			"name": "Philippe Bousquet",
+			"orcid": "https://orcid.org/0000-0002-4444-2703",
+			"affiliation": "Centre National de la Recherche Scientifique"
+		},
+		{
+			"name": "Philippe Ciais",
+			"orcid": "https://orcid.org/0000-0001-8560-4943",
+			"affiliation": "Centre National de la Recherche Scientifique"
+		},
+		{
+			"name": "Marielle Saunois",
+			"orcid": "https://orcid.org/0000-0003-3983-2931",
+			"affiliation": "Centre National de la Recherche Scientifique"
+		},
+		{
+			"name": "Josep G. Canadell",
+			"orcid": "https://orcid.org/0000-0002-8788-3218",
+			"affiliation": "CSIRO Oceans and Atmosphere"
+		},
+		{
+			"name": "E. J. Dlugokencky",
+			"orcid": "https://orcid.org/0000-0003-0612-6985",
+			"affiliation": "National Oceanic and Atmospheric Administration"
+		},
+		{
+			"name": "P. Bergamaschi",
+			"orcid": "https://orcid.org/0000-0003-4555-1829",
+			"affiliation": "Joint Research Centre"
+		},
+		{
+			"name": "D. Bergmann",
+			"orcid": "https://orcid.org/0000-0002-5631-7141",
+			"affiliation": "Lawrence Livermore National Laboratory"
+		},
+		{
+			"name": "D. R. Blake",
+			"orcid": "https://orcid.org/0000-0002-8283-5014",
+			"affiliation": "University of California, Irvine"
+		},
+		{
+			"name": "Lori Bruhwiler",
+			"orcid": "https://orcid.org/0000-0002-3554-9250",
+			"affiliation": "National Oceanic and Atmospheric Administration"
+		},
+		{
+			"name": "Philip Cameron‐Smith",
+			"orcid": "https://orcid.org/0000-0002-8802-8627",
+			"affiliation": "Lawrence Livermore National Laboratory"
+		},
+		{
+			"name": "Simona Castaldi",
+			"orcid": "https://orcid.org/0000-0003-3937-8169",
+			"affiliation": "University of Campania \"Luigi Vanvitelli\""
+		},
+		{
+			"name": "Frédéric Chevallier",
+			"orcid": "https://orcid.org/0000-0002-4327-3813",
+			"affiliation": "Centre National de la Recherche Scientifique"
+		},
+		{
+			"name": "Liang Feng",
+			"orcid": "https://orcid.org/0000-0002-4587-7020",
+			"affiliation": "University of Edinburgh"
+		},
+		{
+			"name": "A. Fraser",
+			"affiliation": "University of Edinburgh"
+		},
+		{
+			"name": "Martin Heimann",
+			"orcid": "https://orcid.org/0000-0001-6296-5113",
+			"affiliation": "Max Planck Institute for Biogeochemistry"
+		},
+		{
+			"name": "E. L. Hodson",
+			"affiliation": "Swiss Federal Institute for Forest, Snow and Landscape Research"
+		},
+		{
+			"name": "Sander Houweling",
+			"orcid": "https://orcid.org/0000-0002-6189-1009",
+			"affiliation": "Utrecht University"
+		},
+		{
+			"name": "Béatrice Josse",
+			"orcid": "https://orcid.org/0000-0003-0473-4098",
+			"affiliation": "Centre National de Recherches Météorologiques"
+		},
+		{
+			"name": "Paul J. Fraser",
+			"orcid": "https://orcid.org/0000-0001-5951-6819",
+			"affiliation": "CSIRO Oceans and Atmosphere"
+		}
+	],
+	"authorCount": 48,
+	"venue": "Nature Geoscience",
+	"publisher": "Nature Portfolio",
+	"year": 2013,
+	"type": "article",
+	"abstract": null,
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "bronze",
+		"url": "https://www.nature.com/articles/ngeo1955.pdf"
+	},
+	"citedByCount": 2388,
+	"themes": [
+		"carbone"
+	],
+	"sourceTopics": [
+		"Atmospheric and Environmental Gas Dynamics",
+		"Atmospheric chemistry and aerosols",
+		"Climate variability and models"
+	],
+	"url": "https://doi.org/10.1038/ngeo1955",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-20"
+	},
+	"addedAt": "2026-08-20",
+	"editorial": {},
+	"glossaryTerms": []
+}

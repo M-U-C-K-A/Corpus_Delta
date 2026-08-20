@@ -1,0 +1,107 @@
+{
+	"id": "oneill-2016-scenario-model-intercomparison-project-scenariomip",
+	"doi": "10.5194/gmd-9-3461-2016",
+	"title": "The Scenario Model Intercomparison Project (ScenarioMIP) for CMIP6",
+	"authors": [
+		{
+			"name": "Brian C. O’Neill",
+			"orcid": "https://orcid.org/0000-0001-7505-8897",
+			"affiliation": "NSF National Center for Atmospheric Research"
+		},
+		{
+			"name": "Claudia Tebaldi",
+			"orcid": "https://orcid.org/0000-0001-9233-8903",
+			"affiliation": "NSF National Center for Atmospheric Research"
+		},
+		{
+			"name": "Detlef P. van Vuuren",
+			"orcid": "https://orcid.org/0000-0003-0398-2831",
+			"affiliation": "Netherlands Environmental Assessment Agency"
+		},
+		{
+			"name": "Veronika Eyring",
+			"orcid": "https://orcid.org/0000-0002-6887-4885",
+			"affiliation": "Deutsches Zentrum für Luft- und Raumfahrt e. V. (DLR)"
+		},
+		{
+			"name": "Pierre Friedlingstein",
+			"orcid": "https://orcid.org/0000-0003-3309-4739",
+			"affiliation": "University of Exeter"
+		},
+		{
+			"name": "G. C. Hurtt",
+			"orcid": "https://orcid.org/0000-0001-7278-202X",
+			"affiliation": "University of Maryland, College Park"
+		},
+		{
+			"name": "Reto Knutti",
+			"orcid": "https://orcid.org/0000-0001-8303-6700",
+			"affiliation": "ETH Zurich"
+		},
+		{
+			"name": "Elmar Kriegler",
+			"orcid": "https://orcid.org/0000-0002-3307-2647",
+			"affiliation": "Potsdam Institute for Climate Impact Research"
+		},
+		{
+			"name": "Jean‐François Lamarque",
+			"orcid": "https://orcid.org/0000-0002-4225-5074",
+			"affiliation": "NSF National Center for Atmospheric Research"
+		},
+		{
+			"name": "Jason Lowe",
+			"orcid": "https://orcid.org/0000-0002-8201-3926",
+			"affiliation": "Met Office"
+		},
+		{
+			"name": "Gerald A. Meehl",
+			"orcid": "https://orcid.org/0000-0002-8760-9534",
+			"affiliation": "NSF National Center for Atmospheric Research"
+		},
+		{
+			"name": "Richard H. Moss",
+			"orcid": "https://orcid.org/0000-0001-5005-0063",
+			"affiliation": "Joint Global Change Research Institute"
+		},
+		{
+			"name": "Keywan Riahi",
+			"orcid": "https://orcid.org/0000-0001-7193-3498",
+			"affiliation": "International Institute for Applied Systems Analysis"
+		},
+		{
+			"name": "Benjamin M. Sanderson",
+			"orcid": "https://orcid.org/0000-0001-8635-4624",
+			"affiliation": "NSF National Center for Atmospheric Research"
+		}
+	],
+	"authorCount": 14,
+	"venue": "Geoscientific model development",
+	"publisher": "Copernicus Publications",
+	"year": 2016,
+	"type": "article",
+	"abstract": "Abstract. Projections of future climate change play a fundamental role in improving understanding of the climate system as well as characterizing societal risks and response options. The Scenario Model Intercomparison Project (ScenarioMIP) is the primary activity within Phase 6 of the Coupled Model Intercomparison Project (CMIP6) that will provide multi-model climate projections based on alternative scenarios of future emissions and land use changes produced with integrated assessment models. In this paper, we describe ScenarioMIP's objectives, experimental design, and its relation to other activities within CMIP6. The ScenarioMIP design is one component of a larger scenario process that aims to facilitate a wide range of integrated studies across the climate science, integrated assessment modeling, and impacts, adaptation, and vulnerability communities, and will form an important part of the evidence base in the forthcoming Intergovernmental Panel on Climate Change (IPCC) assessments. At the same time, it will provide the basis for investigating a number of targeted science and policy questions that are especially relevant to scenario-based analysis, including the role of specific forcings such as land use and aerosols, the effect of a peak and decline in forcing, the consequences of scenarios that limit warming to below 2 °C, the relative contributions to uncertainty from scenarios, climate models, and internal variability, and long-term climate system outcomes beyond the 21st century. To serve this wide range of scientific communities and address these questions, a design has been identified consisting of eight alternative 21st century scenarios plus one large initial condition ensemble and a set of long-term extensions, divided into two tiers defined by relative priority. Some of these scenarios will also provide a basis for variants planned to be run in other CMIP6-Endorsed MIPs to investigate questions related to specific forcings. Harmonized, spatially explicit emissions and land use scenarios generated with integrated assessment models will be provided to participating climate modeling groups by late 2016, with the climate model simulations run within the 2017–2018 time frame, and output from the climate model projections made available and analyses performed over the 2018–2020 period.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "gold",
+		"url": "https://www.geosci-model-dev.net/9/3461/2016/gmd-9-3461-2016.pdf"
+	},
+	"citedByCount": 5079,
+	"themes": [
+		"modelisation",
+		"politiques"
+	],
+	"sourceTopics": [
+		"Climate variability and models",
+		"Atmospheric and Environmental Gas Dynamics",
+		"Climate Change and Health Impacts"
+	],
+	"url": "https://doi.org/10.5194/gmd-9-3461-2016",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-20"
+	},
+	"addedAt": "2026-08-20",
+	"editorial": {},
+	"glossaryTerms": []
+}

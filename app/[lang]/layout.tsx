@@ -45,6 +45,7 @@ export async function generateMetadata({
 		alternates: {
 			canonical: homeRoute(lang),
 			languages: Object.fromEntries(LANGS.map((l) => [l, homeRoute(l)])),
+			types: { "application/rss+xml": `/${lang}/rss.xml` },
 		},
 		openGraph: {
 			type: "website",

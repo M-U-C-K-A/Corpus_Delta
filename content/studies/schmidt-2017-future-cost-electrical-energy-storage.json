@@ -1,0 +1,56 @@
+{
+	"id": "schmidt-2017-future-cost-electrical-energy-storage",
+	"doi": "10.1038/nenergy.2017.110",
+	"title": "The future cost of electrical energy storage based on experience rates",
+	"authors": [
+		{
+			"name": "Oliver Schmidt",
+			"orcid": "https://orcid.org/0000-0002-8902-2913",
+			"affiliation": "Imperial Consultants"
+		},
+		{
+			"name": "Adam Hawkes",
+			"orcid": "https://orcid.org/0000-0001-9720-332X",
+			"affiliation": "Imperial College London"
+		},
+		{
+			"name": "Ajay Gambhir",
+			"orcid": "https://orcid.org/0000-0002-5079-4537",
+			"affiliation": "Imperial Consultants"
+		},
+		{
+			"name": "Iain Staffell",
+			"orcid": "https://orcid.org/0000-0003-1012-7075",
+			"affiliation": "Imperial College London"
+		}
+	],
+	"authorCount": 4,
+	"venue": "Nature Energy",
+	"publisher": "Nature Portfolio",
+	"year": 2017,
+	"type": "article",
+	"abstract": null,
+	"language": "en",
+	"openAccess": {
+		"isOpen": false,
+		"status": "closed",
+		"url": null
+	},
+	"citedByCount": 1133,
+	"themes": [
+		"energie"
+	],
+	"sourceTopics": [
+		"Electric Vehicles and Infrastructure",
+		"Smart Grid Energy Management",
+		"Advanced Battery Technologies Research"
+	],
+	"url": "https://doi.org/10.1038/nenergy.2017.110",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-20"
+	},
+	"addedAt": "2026-08-20",
+	"editorial": {},
+	"glossaryTerms": []
+}

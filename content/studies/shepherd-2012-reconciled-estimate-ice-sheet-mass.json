@@ -1,0 +1,132 @@
+{
+	"id": "shepherd-2012-reconciled-estimate-ice-sheet-mass",
+	"doi": "10.1126/science.1228102",
+	"title": "A Reconciled Estimate of Ice-Sheet Mass Balance",
+	"authors": [
+		{
+			"name": "Andrew Shepherd",
+			"orcid": "https://orcid.org/0000-0002-4914-1299",
+			"affiliation": "University of Leeds"
+		},
+		{
+			"name": "Erik R. Ivins",
+			"orcid": "https://orcid.org/0000-0003-0148-357X",
+			"affiliation": "Jet Propulsion Laboratory"
+		},
+		{
+			"name": "A Geruo",
+			"affiliation": "University of Colorado Boulder"
+		},
+		{
+			"name": "Valentina R. Barletta",
+			"orcid": "https://orcid.org/0000-0003-4427-0830",
+			"affiliation": "Technical University of Denmark"
+		},
+		{
+			"name": "Mike J. Bentley",
+			"affiliation": "Durham University"
+		},
+		{
+			"name": "Srinivas Bettadpur",
+			"orcid": "https://orcid.org/0000-0003-3885-2228",
+			"affiliation": "The University of Texas at Austin"
+		},
+		{
+			"name": "Kate Briggs",
+			"orcid": "https://orcid.org/0000-0002-9831-7262",
+			"affiliation": "University of Leeds"
+		},
+		{
+			"name": "David H. Bromwich",
+			"orcid": "https://orcid.org/0000-0003-4608-8071",
+			"affiliation": "The Ohio State University"
+		},
+		{
+			"name": "R. Forsberg",
+			"orcid": "https://orcid.org/0000-0002-7288-9545",
+			"affiliation": "Technical University of Denmark"
+		},
+		{
+			"name": "N. Galin",
+			"affiliation": "Centre for Polar Observation and Modelling"
+		},
+		{
+			"name": "Martin Horwath",
+			"orcid": "https://orcid.org/0000-0001-5797-244X",
+			"affiliation": "Technical University of Munich"
+		},
+		{
+			"name": "Stan Jacobs",
+			"affiliation": "Lamont-Doherty Earth Observatory"
+		},
+		{
+			"name": "Ian Joughin",
+			"orcid": "https://orcid.org/0000-0001-6229-679X",
+			"affiliation": "Johns Hopkins University Applied Physics Laboratory"
+		},
+		{
+			"name": "Matt A. King",
+			"orcid": "https://orcid.org/0000-0001-5611-9498",
+			"affiliation": "University of Tasmania"
+		},
+		{
+			"name": "Jan T. M. Lenaerts",
+			"orcid": "https://orcid.org/0000-0003-4309-4011",
+			"affiliation": "Utrecht University"
+		},
+		{
+			"name": "Jilu Li",
+			"orcid": "https://orcid.org/0000-0002-8048-8186",
+			"affiliation": "Center for Remote Sensing and Integrated Systems"
+		},
+		{
+			"name": "Stefan Ligtenberg",
+			"orcid": "https://orcid.org/0000-0002-6195-5420",
+			"affiliation": "Utrecht University"
+		},
+		{
+			"name": "Adrian Luckman",
+			"orcid": "https://orcid.org/0000-0002-9618-5905",
+			"affiliation": "Swansea University"
+		},
+		{
+			"name": "S. B. Luthcke",
+			"orcid": "https://orcid.org/0000-0002-0558-3634",
+			"affiliation": "Goddard Space Flight Center"
+		},
+		{
+			"name": "Malcolm McMillan",
+			"orcid": "https://orcid.org/0000-0002-5113-0177",
+			"affiliation": "University of Leeds"
+		}
+	],
+	"authorCount": 47,
+	"venue": "Science",
+	"publisher": "American Association for the Advancement of Science",
+	"year": 2012,
+	"type": "article",
+	"abstract": "Warming and Melting Mass loss from the ice sheets of Greenland and Antarctica account for a large fraction of global sea-level rise. Part of this loss is because of the effects of warmer air temperatures, and another because of the rising ocean temperatures to which they are being exposed. Joughin et al. (p. 1172 ) review how ocean-ice interactions are impacting ice sheets and discuss the possible ways that exposure of floating ice shelves and grounded ice margins are subject to the influences of warming ocean currents. Estimates of the mass balance of the ice sheets of Greenland and Antarctica have differed greatly—in some cases, not even agreeing about whether there is a net loss or a net gain—making it more difficult to project accurately future sea-level change. Shepherd et al. (p. 1183 ) combined data sets produced by satellite altimetry, interferometry, and gravimetry to construct a more robust ice-sheet mass balance for the period between 1992 and 2011. All major regions of the two ice sheets appear to be losing mass, except for East Antarctica. All told, mass loss from the polar ice sheets is contributing about 0.6 millimeters per year (roughly 20% of the total) to the current rate of global sea-level rise.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "green",
+		"url": "https://durham-repository.worktribe.com/output/1491868"
+	},
+	"citedByCount": 1648,
+	"themes": [
+		"cryosphere"
+	],
+	"sourceTopics": [
+		"Cryospheric studies and observations",
+		"Geophysics and Gravity Measurements",
+		"Winter Sports Injuries and Performance"
+	],
+	"url": "https://doi.org/10.1126/science.1228102",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-20"
+	},
+	"addedAt": "2026-08-20",
+	"editorial": {},
+	"glossaryTerms": []
+}

@@ -1,0 +1,89 @@
+{
+	"id": "hallmann-2017-more-than-percent-decline-over",
+	"doi": "10.1371/journal.pone.0185809",
+	"title": "More than 75 percent decline over 27 years in total flying insect biomass in protected areas",
+	"authors": [
+		{
+			"name": "Caspar A. Hallmann",
+			"orcid": "https://orcid.org/0000-0002-4630-0522",
+			"affiliation": "Radboud University Nijmegen"
+		},
+		{
+			"name": "Martin Sorg",
+			"orcid": "https://orcid.org/0000-0001-6406-2778"
+		},
+		{
+			"name": "Eelke Jongejans",
+			"orcid": "https://orcid.org/0000-0003-1148-7419",
+			"affiliation": "Radboud University Nijmegen"
+		},
+		{
+			"name": "H. Siepel",
+			"orcid": "https://orcid.org/0000-0003-4503-4485",
+			"affiliation": "Radboud University Nijmegen"
+		},
+		{
+			"name": "Nick Hofland",
+			"orcid": "https://orcid.org/0000-0001-6064-1043",
+			"affiliation": "Radboud University Nijmegen"
+		},
+		{
+			"name": "Heinz Schwan"
+		},
+		{
+			"name": "Werner Stenmans",
+			"orcid": "https://orcid.org/0000-0001-8282-4668"
+		},
+		{
+			"name": "Antoine Müller",
+			"orcid": "https://orcid.org/0000-0002-8322-1292"
+		},
+		{
+			"name": "Hubert Sumser",
+			"orcid": "https://orcid.org/0000-0002-1375-9257"
+		},
+		{
+			"name": "Thomas Hörren",
+			"orcid": "https://orcid.org/0000-0003-4062-3707"
+		},
+		{
+			"name": "Dave Goulson",
+			"orcid": "https://orcid.org/0000-0003-4421-2876",
+			"affiliation": "University of Sussex"
+		},
+		{
+			"name": "Hans de Kroon",
+			"orcid": "https://orcid.org/0000-0001-6151-3561",
+			"affiliation": "Radboud University Nijmegen"
+		}
+	],
+	"authorCount": 12,
+	"venue": "PLoS ONE",
+	"publisher": "Public Library of Science",
+	"year": 2017,
+	"type": "article",
+	"abstract": "Global declines in insects have sparked wide interest among scientists, politicians, and the general public. Loss of insect diversity and abundance is expected to provoke cascading effects on food webs and to jeopardize ecosystem services. Our understanding of the extent and underlying causes of this decline is based on the abundance of single species or taxonomic groups only, rather than changes in insect biomass which is more relevant for ecological functioning. Here, we used a standardized protocol to measure total insect biomass using Malaise traps, deployed over 27 years in 63 nature protection areas in Germany (96 unique location-year combinations) to infer on the status and trend of local entomofauna. Our analysis estimates a seasonal decline of 76%, and mid-summer decline of 82% in flying insect biomass over the 27 years of study. We show that this decline is apparent regardless of habitat type, while changes in weather, land use, and habitat characteristics cannot explain this overall decline. This yet unrecognized loss of insect biomass must be taken into account in evaluating declines in abundance of species depending on insects as a food source, and ecosystem functioning in the European landscape.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "gold",
+		"url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0185809&type=printable"
+	},
+	"citedByCount": 3480,
+	"themes": [
+		"biodiversite"
+	],
+	"sourceTopics": [
+		"Plant and animal studies",
+		"Ecology and Vegetation Dynamics Studies",
+		"Species Distribution and Climate Change"
+	],
+	"url": "https://doi.org/10.1371/journal.pone.0185809",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-20"
+	},
+	"addedAt": "2026-08-20",
+	"editorial": {},
+	"glossaryTerms": []
+}

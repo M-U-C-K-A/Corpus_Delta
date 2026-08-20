@@ -1,0 +1,40 @@
+{
+	"id": "team-2018-mass-balance-antarctic-ice-sheet",
+	"doi": "10.1038/s41586-018-0179-y",
+	"title": "Mass balance of the Antarctic Ice Sheet from 1992 to 2017",
+	"authors": [
+		{
+			"name": "The IMBIE team"
+		}
+	],
+	"authorCount": 1,
+	"venue": "Nature",
+	"publisher": "Nature Portfolio",
+	"year": 2018,
+	"type": "article",
+	"abstract": null,
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "bronze",
+		"url": "https://www.nature.com/articles/s41586-018-0179-y.pdf"
+	},
+	"citedByCount": 1332,
+	"themes": [
+		"cryosphere",
+		"ocean"
+	],
+	"sourceTopics": [
+		"Cryospheric studies and observations",
+		"Winter Sports Injuries and Performance",
+		"Landslides and related hazards"
+	],
+	"url": "https://doi.org/10.1038/s41586-018-0179-y",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-20"
+	},
+	"addedAt": "2026-08-20",
+	"editorial": {},
+	"glossaryTerms": []
+}

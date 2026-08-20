@@ -1,0 +1,51 @@
+{
+	"id": "chiang-2021-evidence-anthropogenic-impacts-global-drought",
+	"doi": "10.1038/s41467-021-22314-w",
+	"title": "Evidence of anthropogenic impacts on global drought frequency, duration, and intensity",
+	"authors": [
+		{
+			"name": "Felicia Chiang",
+			"orcid": "https://orcid.org/0000-0003-4191-6157",
+			"affiliation": "University of California, Irvine"
+		},
+		{
+			"name": "Omid Mazdiyasni",
+			"affiliation": "University of California, Irvine"
+		},
+		{
+			"name": "Amir AghaKouchak",
+			"orcid": "https://orcid.org/0000-0003-4689-8357",
+			"affiliation": "University of California, Irvine"
+		}
+	],
+	"authorCount": 3,
+	"venue": "Nature Communications",
+	"publisher": "Nature Portfolio",
+	"year": 2021,
+	"type": "article",
+	"abstract": "Most climate change detection and attribution studies have focused on mean or extreme temperature or precipitation, neglecting to explore long-term changes in drought characteristics. Here we provide evidence that anthropogenic forcing has impacted interrelated meteorological drought characteristics. Using SPI and SPEI indices generated from an ensemble of 9 CMIP6 models (using 3 realizations per model), we show that the presence of anthropogenic forcing has increased the drought frequency, maximum drought duration, and maximum drought intensity experienced in large parts of the Americas, Africa, and Asia. Using individual greenhouse gas and anthropogenic aerosol forcings, we also highlight that regional balances between the two major forcings have contributed to the drying patterns detected in our results. Overall, we provide a comprehensive characterization of the influence of anthropogenic forcing on drought characteristics, providing important perspectives on the role of forcings in driving changes in drought events.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "gold",
+		"url": "https://www.nature.com/articles/s41467-021-22314-w.pdf"
+	},
+	"citedByCount": 667,
+	"themes": [
+		"eau",
+		"modelisation"
+	],
+	"sourceTopics": [
+		"Hydrology and Drought Analysis",
+		"Climate variability and models",
+		"Plant Water Relations and Carbon Dynamics"
+	],
+	"url": "https://doi.org/10.1038/s41467-021-22314-w",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-20"
+	},
+	"addedAt": "2026-08-20",
+	"editorial": {},
+	"glossaryTerms": []
+}
