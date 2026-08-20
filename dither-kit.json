@@ -129,6 +129,28 @@
           "hash": "sha256:96d8cad3d7ca87a2a6f092399a60ba2f32612413a190f2885da67854229cdeff"
         }
       ]
+    },
+    "radar-chart": {
+      "version": "0.1.0",
+      "hash": "sha256:78c9b966e31f80224947f417a7b7f29cc2e367bad865b97c3b5e18fa1f053b0f",
+      "files": [
+        {
+          "path": "components/dither-kit/radar-canvas.tsx",
+          "hash": "sha256:be08e9d801c1dc866a3d8eb74fe70208c888a1f6857b584e5f9de631863535ae"
+        },
+        {
+          "path": "components/dither-kit/radar-chart.tsx",
+          "hash": "sha256:b62686351465de7d14cf4d919938e005691e8363d45ac8e625cb863a4ad421db"
+        },
+        {
+          "path": "components/dither-kit/radar-frame.tsx",
+          "hash": "sha256:a516ed03eb4f5e864532df1f49f265498f1d2c89a676eb93251fad73a6914a67"
+        },
+        {
+          "path": "components/dither-kit/radar.tsx",
+          "hash": "sha256:f55dae75073cef3eab55ede93a5fa394711a9c5736046236ebd11623d02849e9"
+        }
+      ]
     }
   }
 }
