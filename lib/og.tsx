@@ -25,6 +25,17 @@ function hslToHex(h: number, s: number, l: number): string {
 }
 
 /**
+ * Tronque sur une frontière de mot. Couper au caractère près produisait des fins
+ * de phrase amputées en plein mot sur la seule image que voient les réseaux.
+ */
+function clamp(text: string, max: number): string {
+	if (text.length <= max) return text;
+	const cut = text.slice(0, max);
+	const lastSpace = cut.lastIndexOf(" ");
+	return `${(lastSpace > max * 0.6 ? cut.slice(0, lastSpace) : cut).replace(/[\s,;:—-]+$/, "")}…`;
+}
+
+/**
  * Vignette de partage, rendue à la demande pour chaque page.
  *
  * Aucune police n'est chargée : `ImageResponse` téléchargerait sinon un fichier
@@ -139,7 +150,7 @@ export function renderOgImage({
 								color: "#16212E",
 							}}
 						>
-							{title.length > 150 ? `${title.slice(0, 150)}…` : title}
+							{clamp(title, 150)}
 						</div>
 						{subtitle && (
 							<div
@@ -151,7 +162,7 @@ export function renderOgImage({
 									color: "#566575",
 								}}
 							>
-								{subtitle.length > 120 ? `${subtitle.slice(0, 120)}…` : subtitle}
+								{clamp(subtitle, 155)}
 							</div>
 						)}
 					</div>
