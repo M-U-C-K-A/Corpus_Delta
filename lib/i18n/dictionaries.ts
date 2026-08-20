@@ -121,6 +121,7 @@ const fr = {
 	},
 	about: {
 		title: "À propos",
+		corpusState: "État du corpus",
 	},
 	indicators: {
 		title: "Indicateurs",
@@ -318,6 +319,7 @@ const en: Dictionary = {
 	},
 	about: {
 		title: "About",
+		corpusState: "Corpus status",
 	},
 	indicators: {
 		title: "Indicators",

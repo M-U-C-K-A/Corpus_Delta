@@ -52,6 +52,7 @@ export default function PathPage({ params }: { params: { lang: string; slug: str
 	const dict = getDictionary(lang);
 	const steps = resolveSteps(lang, entry.lang, entry.frontmatter.steps);
 	const primaryTheme = entry.frontmatter.themes[0] as ThemeId;
+	const siblings = getPaths(entry.lang).filter((candidate) => candidate.slug !== entry.slug);
 
 	const kindLabels = {
 		glossary: dict.paths.kindGlossary,
@@ -101,17 +102,23 @@ export default function PathPage({ params }: { params: { lang: string; slug: str
 					</div>
 				)}
 
+				<div className="mt-12 grid gap-12 lg:grid-cols-[1fr_17rem]">
+				<div className="min-w-0">
 				{/*
 				  Liste ordonnée reliée par un filet vertical : la séquence est
 				  l'information principale d'un parcours, elle doit se voir avant les titres.
 				*/}
-				<ol className="mt-12 max-w-3xl">
+				<ol>
 					{steps.map((step, index) => {
 						const Icon = STEP_ICONS[step.kind];
 						const isLast = index === steps.length - 1;
 
 						return (
-							<li key={`${step.kind}-${step.id}`} className="relative flex gap-5 pb-8 last:pb-0">
+							<li
+								key={`${step.kind}-${step.id}`}
+								id={`etape-${index + 1}`}
+								className="relative flex gap-5 pb-8 last:pb-0"
+							>
 								{!isLast && (
 									<span
 										aria-hidden="true"
@@ -162,7 +169,7 @@ export default function PathPage({ params }: { params: { lang: string; slug: str
 					})}
 				</ol>
 
-				<div className="mt-8 max-w-3xl rounded-lg border border-border bg-muted/30 p-5">
+				<div className="mt-8 rounded-lg border border-border bg-muted/30 p-5">
 					<h2 className="font-serif text-lg font-semibold">{dict.paths.finished}</h2>
 					<p className="mt-1.5 text-sm text-muted-foreground">{dict.paths.finishedBody}</p>
 					<div className="mt-4 flex flex-wrap gap-3 text-sm">
@@ -173,6 +180,65 @@ export default function PathPage({ params }: { params: { lang: string; slug: str
 							{dict.paths.title}
 						</Link>
 					</div>
+				</div>
+				</div>
+
+				{/*
+				  La colonne de droite tient le sommaire de la séquence et les parcours
+				  voisins : sans elle, la page laissait un tiers de sa largeur vide.
+				*/}
+				<aside className="space-y-8 lg:sticky lg:top-24 lg:self-start">
+					<nav aria-labelledby="path-outline">
+						<h2
+							id="path-outline"
+							className="text-xs font-medium uppercase tracking-[0.09em] text-muted-foreground"
+						>
+							{dict.paths.inThisPath}
+						</h2>
+						<ol className="mt-3 space-y-1.5 border-l border-border">
+							{steps.map((step, index) => (
+								<li key={`outline-${step.kind}-${step.id}`} className="pl-3">
+									<a
+										href={`#etape-${index + 1}`}
+										className="flex gap-2 text-sm leading-snug text-muted-foreground transition-colors hover:text-foreground"
+									>
+										<span className="tabular text-xs opacity-60">{index + 1}</span>
+										<span className="line-clamp-2">{step.title}</span>
+									</a>
+								</li>
+							))}
+						</ol>
+					</nav>
+
+					{siblings.length > 0 && (
+						<section className="rule pt-6">
+							<h2 className="text-xs font-medium uppercase tracking-[0.09em] text-muted-foreground">
+								{dict.paths.title}
+							</h2>
+							<ul className="mt-3 space-y-2.5">
+								{siblings.map((sibling) => (
+									<li key={sibling.slug}>
+										<Link href={route(lang, "paths", sibling.slug)} className="group block">
+											<span className="text-sm leading-snug transition-colors group-hover:text-primary">
+												{sibling.frontmatter.title}
+											</span>
+											<span className="mt-0.5 block text-xs text-muted-foreground">
+												{sibling.frontmatter.steps.length} {dict.paths.steps}
+											</span>
+										</Link>
+									</li>
+								))}
+							</ul>
+						</section>
+					)}
+
+					<section className="rule pt-6">
+						<h2 className="text-xs font-medium uppercase tracking-[0.09em] text-muted-foreground">
+							{dict.common.themes}
+						</h2>
+						<ThemeTagList themes={entry.frontmatter.themes} lang={lang} linkToStudies className="mt-3" />
+					</section>
+				</aside>
 				</div>
 			</div>
 		</div>
