@@ -1,22 +1,31 @@
 import { cn } from "@/lib/utils";
 
 /**
- * Marque du site : un delta, le symbole de l'écart.
+ * Bandes du delta, du sommet à la base.
  *
- * C'est la grandeur que manipule toute la science du climat — l'anomalie de
- * température, la variation de concentration, l'écart à une référence. Le triangle
- * est strié pour évoquer la stratification des archives climatiques.
+ * Le tracé est découpé en trapèzes séparés par un jour constant, plutôt que
+ * strié par des traits de la couleur du fond : la marque reste ainsi lisible sur
+ * n'importe quel support, y compris une vignette de partage ou un favicon.
+ */
+export const MARK_BANDS = [
+	"M12 2.60L14.40 7.40H9.60Z",
+	"M9.29 8.02H14.71L16.50 11.60H7.50Z",
+	"M7.19 12.22H16.81L18.35 15.30H5.65Z",
+	"M5.34 15.92H18.66L19.95 18.50H4.05Z",
+	"M3.74 19.12H20.26L21.40 21.40H2.60Z",
+] as const;
+
+/**
+ * Marque du site : un delta plein — le symbole de l'écart, grandeur que manipule
+ * toute la science du climat — entaillé de coutures horizontales qui se lisent
+ * comme des strates climatiques empilées, et comme les pages d'un corpus.
  */
 export function Mark({ className }: { className?: string }) {
 	return (
 		<svg viewBox="0 0 24 24" fill="none" aria-hidden="true" className={cn("h-6 w-6", className)}>
-			<path
-				d="M12 3.2 21 20.2H3L12 3.2Z"
-				className="stroke-current"
-				strokeWidth="1.7"
-				strokeLinejoin="round"
-			/>
-			<path d="M7.7 13h8.6M6 16.4h12" className="stroke-current" strokeWidth="1.2" opacity="0.5" />
+			{MARK_BANDS.map((d) => (
+				<path key={d} d={d} className="fill-current" />
+			))}
 		</svg>
 	);
 }
