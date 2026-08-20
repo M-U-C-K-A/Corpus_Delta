@@ -8,7 +8,7 @@ import { getDataset } from "@/lib/content/datasets";
 import { getDictionary } from "@/lib/i18n/dictionaries";
 import { isLang, LANGS, type Lang } from "@/lib/i18n/config";
 import { formatDate, formatNumber } from "@/lib/format";
-import { route } from "@/lib/routes";
+import { pageMetadata } from "@/lib/metadata";
 
 export function generateStaticParams() {
 	return LANGS.map((lang) => ({ lang }));
@@ -18,14 +18,12 @@ export function generateMetadata({ params }: { params: { lang: string } }): Meta
 	if (!isLang(params.lang)) return {};
 	const dict = getDictionary(params.lang);
 
-	return {
+	return pageMetadata({
+		lang: params.lang,
 		title: dict.indicators.title,
 		description: dict.indicators.lead,
-		alternates: {
-			canonical: route(params.lang, "indicators"),
-			languages: Object.fromEntries(LANGS.map((l) => [l, route(l, "indicators")])),
-		},
-	};
+		section: "indicators",
+	});
 }
 
 /** Ordre d'affichage et forme du graphique, choisis pour chaque série. */

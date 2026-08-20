@@ -10,6 +10,7 @@ import { getDictionary, interpolate } from "@/lib/i18n/dictionaries";
 import { isLang, LANGS } from "@/lib/i18n/config";
 import type { ThemeId } from "@/lib/content/taxonomy";
 import { route } from "@/lib/routes";
+import { pageMetadata } from "@/lib/metadata";
 
 export function generateStaticParams() {
 	return LANGS.map((lang) => ({ lang }));
@@ -19,14 +20,12 @@ export function generateMetadata({ params }: { params: { lang: string } }): Meta
 	if (!isLang(params.lang)) return {};
 	const dict = getDictionary(params.lang);
 
-	return {
+	return pageMetadata({
+		lang: params.lang,
 		title: dict.paths.title,
 		description: dict.paths.lead,
-		alternates: {
-			canonical: route(params.lang, "paths"),
-			languages: Object.fromEntries(LANGS.map((l) => [l, route(l, "paths")])),
-		},
-	};
+		section: "paths",
+	});
 }
 
 export default function PathsPage({ params }: { params: { lang: string } }) {

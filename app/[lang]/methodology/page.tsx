@@ -9,6 +9,7 @@ import { formatDate, formatNumber } from "@/lib/format";
 import { getDictionary } from "@/lib/i18n/dictionaries";
 import { isLang, LANGS, type Lang } from "@/lib/i18n/config";
 import { route } from "@/lib/routes";
+import { pageMetadata } from "@/lib/metadata";
 import { siteConfig } from "@/lib/site-config";
 
 export function generateStaticParams() {
@@ -18,14 +19,12 @@ export function generateStaticParams() {
 export function generateMetadata({ params }: { params: { lang: string } }): Metadata {
 	if (!isLang(params.lang)) return {};
 	const dict = getDictionary(params.lang);
-	return {
+	return pageMetadata({
+		lang: params.lang,
 		title: dict.methodology.title,
 		description: dict.methodology.lead,
-		alternates: {
-			canonical: route(params.lang, "methodology"),
-			languages: Object.fromEntries(LANGS.map((l) => [l, route(l, "methodology")])),
-		},
-	};
+		section: "methodology",
+	});
 }
 
 /**
