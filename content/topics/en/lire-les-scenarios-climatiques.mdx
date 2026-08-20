@@ -1,0 +1,82 @@
+---
+title: "Reading climate scenarios"
+description: "What labels like SSP1-2.6 or SSP5-8.5 mean, how models are compared with one another, and why a scenario is not a forecast."
+themes: ["modelisation", "politiques"]
+studies:
+  - "riahi-2016-shared-socioeconomic-pathways-their-energy"
+  - "eyring-2016-overview-coupled-model-intercomparison-project"
+  - "calvin-2023-ipcc-2023-climate-change-2023"
+glossary: ["scenario-ssp", "sensibilite-climatique", "forcage-radiatif", "anomalie-de-temperature"]
+sources:
+  - label: "IPCC Sixth Assessment Report, Working Group I"
+    url: "https://www.ipcc.ch/report/ar6/wg1/"
+    publisher: "IPCC"
+    year: 2021
+  - label: "IPCC AR6 Synthesis Report"
+    url: "https://www.ipcc.ch/report/ar6/syr/"
+    publisher: "IPCC"
+    year: 2023
+updatedAt: "2026-08-19"
+---
+
+Climate projections are almost always presented as bundles of trajectories tagged with an
+acronym. Understanding what those labels cover changes the way the resulting charts read.
+
+## A model does not guess the future of societies
+
+The physics of the atmosphere and the ocean is simulated from known laws. But the path of
+emissions depends on political, economic and demographic decisions that no physical model
+can anticipate.
+
+The chosen solution is to make those assumptions explicit rather than hide them: they are
+the <Term id="scenario-ssp">shared socio-economic pathways</Term>, described in detail by
+the community that built them
+<Cite id="riahi-2016-shared-socioeconomic-pathways-their-energy" />.
+
+## Decoding the label
+
+The label `SSP2-4.5` carries two distinct pieces of information.
+
+The first digit denotes the socio-economic narrative: `1` a world oriented towards
+sustainability, `2` a continuation of current trends, `3` regional fragmentation, `5` rapid
+growth built on fossil fuels.
+
+The decimal number gives the <Term id="forcage-radiatif">radiative forcing</Term> reached in
+2100, in watts per square metre. The higher it is, the greater the energy imbalance imposed
+on the system.
+
+<Callout variant="caution" title="SSP5-8.5 is not the business-as-usual case">
+This scenario is routinely presented as the path followed in the absence of action. It was
+in fact designed as an **upper bound**, meant to test how models respond, and assumes a
+reliance on coal that observed trends do not support. Using it as the default reference
+distorts the reading in both directions.
+</Callout>
+
+## Why several models rather than one
+
+A projection from a single model teaches you little: there would be no way to separate what
+follows from the physics of the climate from what follows from that particular model's
+implementation choices.
+
+The CMIP protocol answers this by running dozens of independent models through rigorously
+identical experiments
+<Cite id="eyring-2016-overview-coupled-model-intercomparison-project" />. The spread between
+their results then becomes information in its own right: it measures the structural
+uncertainty that remains, whatever scenario is chosen.
+
+It is from this collective exercise that the ranges published by the IPCC come
+<Cite id="calvin-2023-ipcc-2023-climate-change-2023" />.
+
+## Three uncertainties that are not alike
+
+A projection accumulates uncertainties of different kinds, and it helps not to confuse them.
+
+**Scenario** uncertainty depends on human decisions: science cannot reduce it, only
+collective choices can. **Model** uncertainty comes from the approximations needed to
+represent complex processes, clouds above all; it shrinks as modelling improves. **Internal
+variability** stems from the system's chaotic character: it dominates in the short term and
+at small spatial scales, and fades over the long run.
+
+<Term id="sensibilite-climatique">Climate sensitivity</Term> belongs to the second category.
+It is the parameter by which an emissions assumption is converted into a
+<Term id="anomalie-de-temperature">temperature anomaly</Term>.
