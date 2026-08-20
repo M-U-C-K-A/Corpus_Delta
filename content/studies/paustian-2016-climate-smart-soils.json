@@ -1,0 +1,67 @@
+{
+	"id": "paustian-2016-climate-smart-soils",
+	"doi": "10.1038/nature17174",
+	"title": "Climate-smart soils",
+	"authors": [
+		{
+			"name": "Keith Paustian",
+			"orcid": "https://orcid.org/0000-0001-5262-5596",
+			"affiliation": "Colorado State University"
+		},
+		{
+			"name": "Johannes Lehmann",
+			"orcid": "https://orcid.org/0000-0002-4701-2936",
+			"affiliation": "Atkins (United States)"
+		},
+		{
+			"name": "Stephen M. Ogle",
+			"orcid": "https://orcid.org/0000-0003-1899-7446",
+			"affiliation": "Colorado State University"
+		},
+		{
+			"name": "David Reay",
+			"orcid": "https://orcid.org/0000-0001-5829-9007",
+			"affiliation": "University of Edinburgh"
+		},
+		{
+			"name": "G. Philip Robertson",
+			"orcid": "https://orcid.org/0000-0001-9771-9895",
+			"affiliation": "Michigan State University"
+		},
+		{
+			"name": "Pete Smith",
+			"orcid": "https://orcid.org/0000-0002-3784-1124",
+			"affiliation": "University of Aberdeen"
+		}
+	],
+	"authorCount": 6,
+	"venue": "Nature",
+	"publisher": "Nature Portfolio",
+	"year": 2016,
+	"type": "article",
+	"abstract": null,
+	"language": "fr",
+	"openAccess": {
+		"isOpen": true,
+		"status": "green",
+		"url": "http://hdl.handle.net/2164/7569"
+	},
+	"citedByCount": 2138,
+	"themes": [
+		"carbone",
+		"agriculture"
+	],
+	"sourceTopics": [
+		"Soil Carbon and Nitrogen Dynamics",
+		"Landfill Environmental Impact Studies",
+		"Peatlands and Wetlands Ecology"
+	],
+	"url": "https://doi.org/10.1038/nature17174",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-20"
+	},
+	"addedAt": "2026-08-20",
+	"editorial": {},
+	"glossaryTerms": []
+}

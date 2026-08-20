@@ -1,0 +1,131 @@
+{
+	"id": "shindell-2012-simultaneously-mitigating-near-term-climate",
+	"doi": "10.1126/science.1210026",
+	"title": "Simultaneously Mitigating Near-Term Climate Change and Improving Human Health and Food Security",
+	"authors": [
+		{
+			"name": "Drew Shindell",
+			"orcid": "https://orcid.org/0000-0003-1552-4715",
+			"affiliation": "Goddard Institute for Space Studies"
+		},
+		{
+			"name": "Johan Kuylenstierna",
+			"affiliation": "Stockholm Environment Institute"
+		},
+		{
+			"name": "E. Vignati",
+			"affiliation": "Joint Research Centre"
+		},
+		{
+			"name": "Rita Van Dingenen",
+			"orcid": "https://orcid.org/0000-0003-2521-4972",
+			"affiliation": "Joint Research Centre"
+		},
+		{
+			"name": "Markus Amann",
+			"orcid": "https://orcid.org/0000-0002-1963-0972",
+			"affiliation": "International Institute for Applied Systems Analysis"
+		},
+		{
+			"name": "Zbigniew Klimont",
+			"orcid": "https://orcid.org/0000-0003-2630-198X",
+			"affiliation": "International Institute for Applied Systems Analysis"
+		},
+		{
+			"name": "Susan C. Anenberg",
+			"orcid": "https://orcid.org/0000-0002-9668-603X",
+			"affiliation": "Environmental Protection Agency"
+		},
+		{
+			"name": "Nicholas Z. Muller",
+			"orcid": "https://orcid.org/0000-0003-1712-6526",
+			"affiliation": "Middlebury College"
+		},
+		{
+			"name": "Greet Janssens‐Maenhout",
+			"orcid": "https://orcid.org/0000-0002-9335-0709",
+			"affiliation": "Joint Research Centre"
+		},
+		{
+			"name": "Frank Raes",
+			"affiliation": "Joint Research Centre"
+		},
+		{
+			"name": "Joel Schwartz"
+		},
+		{
+			"name": "G. Faluvegi",
+			"orcid": "https://orcid.org/0000-0001-9011-3663",
+			"affiliation": "Goddard Institute for Space Studies"
+		},
+		{
+			"name": "Luca Pozzoli",
+			"orcid": "https://orcid.org/0000-0003-0485-9624",
+			"affiliation": "Joint Research Centre"
+		},
+		{
+			"name": "Kaarle Kupiainen",
+			"affiliation": "International Institute for Applied Systems Analysis"
+		},
+		{
+			"name": "Lena Höglund-Isaksson",
+			"orcid": "https://orcid.org/0000-0001-7514-3135",
+			"affiliation": "International Institute for Applied Systems Analysis"
+		},
+		{
+			"name": "Lisa Emberson",
+			"orcid": "https://orcid.org/0000-0003-3463-0054",
+			"affiliation": "Stockholm Environment Institute"
+		},
+		{
+			"name": "David G. Streets",
+			"orcid": "https://orcid.org/0000-0002-0223-1350",
+			"affiliation": "Argonne National Laboratory"
+		},
+		{
+			"name": "V. Ramanathan",
+			"orcid": "https://orcid.org/0000-0002-3534-5987",
+			"affiliation": "Scripps Institution of Oceanography"
+		},
+		{
+			"name": "Kevin Hicks",
+			"orcid": "https://orcid.org/0000-0002-9568-4606",
+			"affiliation": "Stockholm Environment Institute"
+		},
+		{
+			"name": "Nguyễn Thị Kim Oanh",
+			"orcid": "https://orcid.org/0000-0002-0367-0013",
+			"affiliation": "Asian Institute of Technology"
+		}
+	],
+	"authorCount": 24,
+	"venue": "Science",
+	"publisher": "American Association for the Advancement of Science",
+	"year": 2012,
+	"type": "article",
+	"abstract": "Tropospheric ozone and black carbon (BC) contribute to both degraded air quality and global warming. We considered ~400 emission control measures to reduce these pollutants by using current technology and experience. We identified 14 measures targeting methane and BC emissions that reduce projected global mean warming ~0.5°C by 2050. This strategy avoids 0.7 to 4.7 million annual premature deaths from outdoor air pollution and increases annual crop yields by 30 to 135 million metric tons due to ozone reductions in 2030 and beyond. Benefits of methane emissions reductions are valued at $700 to $5000 per metric ton, which is well above typical marginal abatement costs (less than $250). The selected controls target different sources and influence climate on shorter time scales than those of carbon dioxide-reduction measures. Implementing both substantially reduces the risks of crossing the 2°C threshold.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": false,
+		"status": "closed",
+		"url": null
+	},
+	"citedByCount": 1485,
+	"themes": [
+		"sante",
+		"politiques"
+	],
+	"sourceTopics": [
+		"Atmospheric chemistry and aerosols",
+		"Air Quality and Health Impacts",
+		"Vehicle emissions and performance"
+	],
+	"url": "https://doi.org/10.1126/science.1210026",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-20"
+	},
+	"addedAt": "2026-08-20",
+	"editorial": {},
+	"glossaryTerms": []
+}

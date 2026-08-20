@@ -1,0 +1,89 @@
+{
+	"id": "cohen-2014-recent-arctic-amplification-extreme-mid",
+	"doi": "10.1038/ngeo2234",
+	"title": "Recent Arctic amplification and extreme mid-latitude weather",
+	"authors": [
+		{
+			"name": "Judah Cohen",
+			"affiliation": "Atmospheric and Environmental Research"
+		},
+		{
+			"name": "James A. Screen",
+			"orcid": "https://orcid.org/0000-0003-1728-783X",
+			"affiliation": "University of Exeter"
+		},
+		{
+			"name": "Jason C. Furtado",
+			"orcid": "https://orcid.org/0000-0001-6580-2109",
+			"affiliation": "Atmospheric and Environmental Research"
+		},
+		{
+			"name": "Mathew Barlow",
+			"orcid": "https://orcid.org/0000-0002-7612-3811",
+			"affiliation": "University of Massachusetts Lowell"
+		},
+		{
+			"name": "D. P. Whittleston",
+			"affiliation": "Massachusetts Institute of Technology"
+		},
+		{
+			"name": "Dim Coumou",
+			"orcid": "https://orcid.org/0000-0003-2155-8495",
+			"affiliation": "Potsdam Institute for Climate Impact Research"
+		},
+		{
+			"name": "Jennifer A. Francis",
+			"orcid": "https://orcid.org/0000-0002-7358-9296",
+			"affiliation": "Rutgers, The State University of New Jersey"
+		},
+		{
+			"name": "Klaus Dethloff",
+			"orcid": "https://orcid.org/0000-0003-4162-148X",
+			"affiliation": "Alfred-Wegener-Institut Helmholtz-Zentrum für Polar- und Meeresforschung"
+		},
+		{
+			"name": "Dara Entekhabi",
+			"orcid": "https://orcid.org/0000-0002-8362-4761",
+			"affiliation": "Massachusetts Institute of Technology"
+		},
+		{
+			"name": "James E. Overland",
+			"orcid": "https://orcid.org/0000-0002-2012-8832",
+			"affiliation": "NOAA Pacific Marine Environmental Laboratory"
+		},
+		{
+			"name": "Justin E. Jones",
+			"affiliation": "Atmospheric and Environmental Research"
+		}
+	],
+	"authorCount": 11,
+	"venue": "Nature Geoscience",
+	"publisher": "Nature Portfolio",
+	"year": 2014,
+	"type": "article",
+	"abstract": null,
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "bronze",
+		"url": "https://www.nature.com/articles/ngeo2234.pdf"
+	},
+	"citedByCount": 2592,
+	"themes": [
+		"cryosphere",
+		"risques"
+	],
+	"sourceTopics": [
+		"Arctic and Antarctic ice dynamics",
+		"Climate variability and models",
+		"Climate change and permafrost"
+	],
+	"url": "https://doi.org/10.1038/ngeo2234",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-20"
+	},
+	"addedAt": "2026-08-20",
+	"editorial": {},
+	"glossaryTerms": []
+}

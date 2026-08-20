@@ -1,0 +1,46 @@
+{
+	"id": "pausas-2021-wildfires-global-change",
+	"doi": "10.1002/fee.2359",
+	"title": "Wildfires and global change",
+	"authors": [
+		{
+			"name": "Juli G. Pausas",
+			"orcid": "https://orcid.org/0000-0003-3533-5786",
+			"affiliation": "Consejo Superior de Investigaciones Científicas"
+		},
+		{
+			"name": "Jon E. Keeley",
+			"orcid": "https://orcid.org/0000-0002-4564-6521",
+			"affiliation": "United States Geological Survey"
+		}
+	],
+	"authorCount": 2,
+	"venue": "Frontiers in Ecology and the Environment",
+	"publisher": "Wiley",
+	"year": 2021,
+	"type": "article",
+	"abstract": "No single factor produces wildfires; rather, they occur when fire thresholds (ignitions, fuels, and drought) are crossed. Anomalous weather events may lower these thresholds and thereby enhance the likelihood and spread of wildfires. Climate change increases the frequency with which some of these thresholds are crossed, extending the duration of the fire season and increasing the frequency of dry years. However, climate‐related factors do not explain all of the complexity of global fire‐regime changes, as altered ignition patterns (eg human behavior) and fuel structures (eg land‐use changes, fire suppression, drought‐induced dieback, fragmentation) are extremely important. When the thresholds are crossed, the size of a fire will largely depend on the duration of the fire weather and the extent of the available area with continuous fuels in the landscape.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": false,
+		"status": "closed",
+		"url": null
+	},
+	"citedByCount": 611,
+	"themes": [
+		"risques"
+	],
+	"sourceTopics": [
+		"Fire effects on ecosystems",
+		"Landslides and related hazards",
+		"Plant Water Relations and Carbon Dynamics"
+	],
+	"url": "https://doi.org/10.1002/fee.2359",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-20"
+	},
+	"addedAt": "2026-08-20",
+	"editorial": {},
+	"glossaryTerms": []
+}

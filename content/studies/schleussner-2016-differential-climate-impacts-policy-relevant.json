@@ -1,0 +1,101 @@
+{
+	"id": "schleussner-2016-differential-climate-impacts-policy-relevant",
+	"doi": "10.5194/esd-7-327-2016",
+	"title": "Differential climate impacts for policy-relevant limits to global warming: the case of 1.5 °C and 2 °C",
+	"authors": [
+		{
+			"name": "Carl‐Friedrich Schleussner",
+			"orcid": "https://orcid.org/0000-0001-8471-848X",
+			"affiliation": "Climate Analytics"
+		},
+		{
+			"name": "Tabea Lissner",
+			"orcid": "https://orcid.org/0000-0001-6637-6084",
+			"affiliation": "Climate Analytics"
+		},
+		{
+			"name": "Erich Fischer",
+			"orcid": "https://orcid.org/0000-0003-1931-6737",
+			"affiliation": "ETH Zurich"
+		},
+		{
+			"name": "Jan Wohland",
+			"orcid": "https://orcid.org/0000-0001-8336-0009",
+			"affiliation": "Potsdam Institute for Climate Impact Research"
+		},
+		{
+			"name": "Mahé Perrette",
+			"orcid": "https://orcid.org/0000-0002-6309-4863",
+			"affiliation": "Potsdam Institute for Climate Impact Research"
+		},
+		{
+			"name": "Antonius Golly",
+			"orcid": "https://orcid.org/0000-0001-6213-0183",
+			"affiliation": "University of Potsdam"
+		},
+		{
+			"name": "Joeri Rogelj",
+			"orcid": "https://orcid.org/0000-0003-2056-9061",
+			"affiliation": "International Institute for Applied Systems Analysis"
+		},
+		{
+			"name": "Katelin Childers",
+			"affiliation": "Potsdam Institute for Climate Impact Research"
+		},
+		{
+			"name": "Jacob Schewe",
+			"orcid": "https://orcid.org/0000-0001-9455-4159",
+			"affiliation": "Potsdam Institute for Climate Impact Research"
+		},
+		{
+			"name": "Katja Frieler",
+			"orcid": "https://orcid.org/0000-0003-4869-3013",
+			"affiliation": "Potsdam Institute for Climate Impact Research"
+		},
+		{
+			"name": "Matthias Mengel",
+			"orcid": "https://orcid.org/0000-0001-6724-9685",
+			"affiliation": "Climate Analytics"
+		},
+		{
+			"name": "Bill Hare",
+			"orcid": "https://orcid.org/0000-0003-1242-8250",
+			"affiliation": "Climate Analytics"
+		},
+		{
+			"name": "Michiel Schaeffer",
+			"orcid": "https://orcid.org/0000-0003-0052-5088",
+			"affiliation": "Climate Analytics"
+		}
+	],
+	"authorCount": 13,
+	"venue": "Earth System Dynamics",
+	"publisher": "Copernicus Publications",
+	"year": 2016,
+	"type": "article",
+	"abstract": "Abstract. Robust appraisals of climate impacts at different levels of global-mean temperature increase are vital to guide assessments of dangerous anthropogenic interference with the climate system. The 2015 Paris Agreement includes a two-headed temperature goal: \"holding the increase in the global average temperature to well below 2 °C above pre-industrial levels and pursuing efforts to limit the temperature increase to 1.5 °C\". Despite the prominence of these two temperature limits, a comprehensive overview of the differences in climate impacts at these levels is still missing. Here we provide an assessment of key impacts of climate change at warming levels of 1.5 °C and 2 °C, including extreme weather events, water availability, agricultural yields, sea-level rise and risk of coral reef loss. Our results reveal substantial differences in impacts between a 1.5 °C and 2 °C warming that are highly relevant for the assessment of dangerous anthropogenic interference with the climate system. For heat-related extremes, the additional 0.5 °C increase in global-mean temperature marks the difference between events at the upper limit of present-day natural variability and a new climate regime, particularly in tropical regions. Similarly, this warming difference is likely to be decisive for the future of tropical coral reefs. In a scenario with an end-of-century warming of 2 °C, virtually all tropical coral reefs are projected to be at risk of severe degradation due to temperature-induced bleaching from 2050 onwards. This fraction is reduced to about 90 % in 2050 and projected to decline to 70 % by 2100 for a 1.5 °C scenario. Analyses of precipitation-related impacts reveal distinct regional differences and hot-spots of change emerge. Regional reduction in median water availability for the Mediterranean is found to nearly double from 9 % to 17 % between 1.5 °C and 2 °C, and the projected lengthening of regional dry spells increases from 7 to 11 %. Projections for agricultural yields differ between crop types as well as world regions. While some (in particular high-latitude) regions may benefit, tropical regions like West Africa, South-East Asia, as well as Central and northern South America are projected to face substantial local yield reductions, particularly for wheat and maize. Best estimate sea-level rise projections based on two illustrative scenarios indicate a 50 cm rise by 2100 relative to year 2000-levels for a 2 °C scenario, and about 10 cm lower levels for a 1.5 °C scenario. In a 1.5 °C scenario, the rate of sea-level rise in 2100 would be reduced by about 30 % compared to a 2 °C scenario. Our findings highlight the importance of regional differentiation to assess both future climate risks and different vulnerabilities to incremental increases in global-mean temperature. The article provides a consistent and comprehensive assessment of existing projections and a good basis for future work on refining our understanding of the difference between impacts at 1.5 °C and 2 °C warming.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "gold",
+		"url": "https://www.earth-syst-dynam.net/7/327/2016/esd-7-327-2016.pdf"
+	},
+	"citedByCount": 673,
+	"themes": [
+		"agriculture",
+		"politiques"
+	],
+	"sourceTopics": [
+		"Climate variability and models",
+		"Tropical and Extratropical Cyclones Research",
+		"Climate change impacts on agriculture"
+	],
+	"url": "https://doi.org/10.5194/esd-7-327-2016",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-20"
+	},
+	"addedAt": "2026-08-20",
+	"editorial": {},
+	"glossaryTerms": []
+}

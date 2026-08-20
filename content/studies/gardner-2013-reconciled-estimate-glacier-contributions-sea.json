@@ -1,0 +1,112 @@
+{
+	"id": "gardner-2013-reconciled-estimate-glacier-contributions-sea",
+	"doi": "10.1126/science.1234532",
+	"title": "A Reconciled Estimate of Glacier Contributions to Sea Level Rise: 2003 to 2009",
+	"authors": [
+		{
+			"name": "Alex Gardner",
+			"orcid": "https://orcid.org/0000-0002-8394-8889",
+			"affiliation": "Clark University"
+		},
+		{
+			"name": "Geir Moholdt",
+			"orcid": "https://orcid.org/0000-0002-8883-1620",
+			"affiliation": "Scripps Institution of Oceanography"
+		},
+		{
+			"name": "J. Graham Cogley",
+			"affiliation": "Trent University"
+		},
+		{
+			"name": "Bert Wouters",
+			"orcid": "https://orcid.org/0000-0002-1086-2435",
+			"affiliation": "University of Colorado Boulder"
+		},
+		{
+			"name": "A. A. Arendt",
+			"orcid": "https://orcid.org/0000-0003-0429-6905",
+			"affiliation": "University of Alaska Fairbanks"
+		},
+		{
+			"name": "John Wahr",
+			"affiliation": "Cooperative Institute for Research in Environmental Sciences"
+		},
+		{
+			"name": "Étienne Berthier",
+			"orcid": "https://orcid.org/0000-0001-5978-9155",
+			"affiliation": "Université Fédérale de Toulouse Midi-Pyrénées"
+		},
+		{
+			"name": "Regine Hock",
+			"orcid": "https://orcid.org/0000-0001-8336-9441",
+			"affiliation": "Uppsala University"
+		},
+		{
+			"name": "W. T. Pfeffer",
+			"affiliation": "Institute of Arctic and Alpine Research"
+		},
+		{
+			"name": "Georg Kaser",
+			"orcid": "https://orcid.org/0000-0001-5916-6206",
+			"affiliation": "Universität Innsbruck"
+		},
+		{
+			"name": "Stefan Ligtenberg",
+			"orcid": "https://orcid.org/0000-0002-6195-5420",
+			"affiliation": "University of Applied Sciences Utrecht"
+		},
+		{
+			"name": "Tobias Bolch",
+			"orcid": "https://orcid.org/0000-0002-8201-5059",
+			"affiliation": "University of Zurich"
+		},
+		{
+			"name": "Martin Sharp",
+			"orcid": "https://orcid.org/0000-0001-5299-7955",
+			"affiliation": "University of Alberta"
+		},
+		{
+			"name": "Jon Ove Hagen",
+			"affiliation": "University of Oslo"
+		},
+		{
+			"name": "M. R. van den Broeke",
+			"orcid": "https://orcid.org/0000-0003-4662-7565",
+			"affiliation": "University of Applied Sciences Utrecht"
+		},
+		{
+			"name": "Frank Paul",
+			"affiliation": "University of Zurich"
+		}
+	],
+	"authorCount": 16,
+	"venue": "Science",
+	"publisher": "American Association for the Advancement of Science",
+	"year": 2013,
+	"type": "article",
+	"abstract": "Glaciers distinct from the Greenland and Antarctic Ice Sheets are losing large amounts of water to the world's oceans. However, estimates of their contribution to sea level rise disagree. We provide a consensus estimate by standardizing existing, and creating new, mass-budget estimates from satellite gravimetry and altimetry and from local glaciological records. In many regions, local measurements are more negative than satellite-based estimates. All regions lost mass during 2003-2009, with the largest losses from Arctic Canada, Alaska, coastal Greenland, the southern Andes, and high-mountain Asia, but there was little loss from glaciers in Antarctica. Over this period, the global mass budget was -259 ± 28 gigatons per year, equivalent to the combined loss from both ice sheets and accounting for 29 ± 13% of the observed sea level rise.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "green",
+		"url": "https://www.zora.uzh.ch/id/eprint/83966/1/2013_PaulF_science13_gardner_slr.pdf"
+	},
+	"citedByCount": 1362,
+	"themes": [
+		"cryosphere",
+		"ocean"
+	],
+	"sourceTopics": [
+		"Cryospheric studies and observations",
+		"Arctic and Antarctic ice dynamics",
+		"Climate change and permafrost"
+	],
+	"url": "https://doi.org/10.1126/science.1234532",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-20"
+	},
+	"addedAt": "2026-08-20",
+	"editorial": {},
+	"glossaryTerms": []
+}

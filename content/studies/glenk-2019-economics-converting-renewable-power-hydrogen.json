@@ -1,0 +1,45 @@
+{
+	"id": "glenk-2019-economics-converting-renewable-power-hydrogen",
+	"doi": "10.1038/s41560-019-0326-1",
+	"title": "Economics of converting renewable power to hydrogen",
+	"authors": [
+		{
+			"name": "Gunther Glenk",
+			"orcid": "https://orcid.org/0000-0003-2540-838X",
+			"affiliation": "Technical University of Munich"
+		},
+		{
+			"name": "Stefan Reichelstein",
+			"affiliation": "University of Mannheim"
+		}
+	],
+	"authorCount": 2,
+	"venue": "Nature Energy",
+	"publisher": "Nature Portfolio",
+	"year": 2019,
+	"type": "article",
+	"abstract": null,
+	"language": "en",
+	"openAccess": {
+		"isOpen": false,
+		"status": "closed",
+		"url": null
+	},
+	"citedByCount": 1334,
+	"themes": [
+		"energie"
+	],
+	"sourceTopics": [
+		"Hybrid Renewable Energy Systems",
+		"Integrated Energy Systems Optimization",
+		"Energy and Environment Impacts"
+	],
+	"url": "https://doi.org/10.1038/s41560-019-0326-1",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-20"
+	},
+	"addedAt": "2026-08-20",
+	"editorial": {},
+	"glossaryTerms": []
+}

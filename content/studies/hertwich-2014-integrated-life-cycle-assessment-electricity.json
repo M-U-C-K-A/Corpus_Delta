@@ -1,0 +1,85 @@
+{
+	"id": "hertwich-2014-integrated-life-cycle-assessment-electricity",
+	"doi": "10.1073/pnas.1312753111",
+	"title": "Integrated life-cycle assessment of electricity-supply scenarios confirms global environmental benefit of low-carbon technologies",
+	"authors": [
+		{
+			"name": "Edgar G. Hertwich",
+			"orcid": "https://orcid.org/0000-0002-4934-3421",
+			"affiliation": "Norwegian University of Science and Technology"
+		},
+		{
+			"name": "Thomas Gibon",
+			"orcid": "https://orcid.org/0000-0002-2778-8825",
+			"affiliation": "Norwegian University of Science and Technology"
+		},
+		{
+			"name": "Evert A. Bouman",
+			"orcid": "https://orcid.org/0000-0002-0882-9580",
+			"affiliation": "Norwegian University of Science and Technology"
+		},
+		{
+			"name": "Anders Arvesen",
+			"orcid": "https://orcid.org/0000-0002-1378-3142",
+			"affiliation": "Norwegian University of Science and Technology"
+		},
+		{
+			"name": "Sangwon Suh",
+			"orcid": "https://orcid.org/0000-0001-8290-6276",
+			"affiliation": "University of California, Santa Barbara"
+		},
+		{
+			"name": "Garvin Heath",
+			"orcid": "https://orcid.org/0000-0001-6010-4475",
+			"affiliation": "National Laboratory of the Rockies"
+		},
+		{
+			"name": "Joseph D. Bergesen",
+			"affiliation": "University of California, Santa Barbara"
+		},
+		{
+			"name": "Andrea Ramírez",
+			"orcid": "https://orcid.org/0000-0003-4715-9548",
+			"affiliation": "Utrecht University"
+		},
+		{
+			"name": "Mabel Vega‐Coloma",
+			"orcid": "https://orcid.org/0000-0003-1599-6747",
+			"affiliation": "University of Concepción"
+		},
+		{
+			"name": "Lei Shi",
+			"orcid": "https://orcid.org/0000-0001-5201-4082",
+			"affiliation": "Tsinghua University"
+		}
+	],
+	"authorCount": 10,
+	"venue": "Proceedings of the National Academy of Sciences",
+	"publisher": "National Academy of Sciences",
+	"year": 2014,
+	"type": "article",
+	"abstract": "Decarbonization of electricity generation can support climate-change mitigation and presents an opportunity to address pollution resulting from fossil-fuel combustion. Generally, renewable technologies require higher initial investments in infrastructure than fossil-based power systems. To assess the tradeoffs of increased up-front emissions and reduced operational emissions, we present, to our knowledge, the first global, integrated life-cycle assessment (LCA) of long-term, wide-scale implementation of electricity generation from renewable sources (i.e., photovoltaic and solar thermal, wind, and hydropower) and of carbon dioxide capture and storage for fossil power generation. We compare emissions causing particulate matter exposure, freshwater ecotoxicity, freshwater eutrophication, and climate change for the climate-change-mitigation (BLUE Map) and business-as-usual (Baseline) scenarios of the International Energy Agency up to 2050. We use a vintage stock model to conduct an LCA of newly installed capacity year-by-year for each region, thus accounting for changes in the energy mix used to manufacture future power plants. Under the Baseline scenario, emissions of air and water pollutants more than double whereas the low-carbon technologies introduced in the BLUE Map scenario allow a doubling of electricity supply while stabilizing or even reducing pollution. Material requirements per unit generation for low-carbon technologies can be higher than for conventional fossil generation: 11-40 times more copper for photovoltaic systems and 6-14 times more iron for wind power plants. However, only two years of current global copper and one year of iron production will suffice to build a low-carbon energy system capable of supplying the world's electricity needs in 2050.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "green",
+		"url": "https://dspace.library.uu.nl/handle/1874/464429"
+	},
+	"citedByCount": 753,
+	"themes": [
+		"energie"
+	],
+	"sourceTopics": [
+		"Extraction and Separation Processes",
+		"Environmental Impact and Sustainability",
+		"Global Energy and Sustainability Research"
+	],
+	"url": "https://doi.org/10.1073/pnas.1312753111",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-20"
+	},
+	"addedAt": "2026-08-20",
+	"editorial": {},
+	"glossaryTerms": []
+}

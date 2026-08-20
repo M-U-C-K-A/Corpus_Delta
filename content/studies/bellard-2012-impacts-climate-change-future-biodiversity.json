@@ -1,0 +1,61 @@
+{
+	"id": "bellard-2012-impacts-climate-change-future-biodiversity",
+	"doi": "10.1111/j.1461-0248.2011.01736.x",
+	"title": "Impacts of climate change on the future of biodiversity",
+	"authors": [
+		{
+			"name": "Céline Bellard",
+			"orcid": "https://orcid.org/0000-0003-2012-1160",
+			"affiliation": "Centre National de la Recherche Scientifique"
+		},
+		{
+			"name": "Cléo Bertelsmeier",
+			"orcid": "https://orcid.org/0000-0003-3624-1300",
+			"affiliation": "Centre National de la Recherche Scientifique"
+		},
+		{
+			"name": "Paul Leadley",
+			"orcid": "https://orcid.org/0000-0002-8994-5507",
+			"affiliation": "Centre National de la Recherche Scientifique"
+		},
+		{
+			"name": "Wilfried Thuiller",
+			"orcid": "https://orcid.org/0000-0002-5388-5274",
+			"affiliation": "Centre National de la Recherche Scientifique"
+		},
+		{
+			"name": "Franck Courchamp",
+			"orcid": "https://orcid.org/0000-0001-7605-4548",
+			"affiliation": "Centre National de la Recherche Scientifique"
+		}
+	],
+	"authorCount": 5,
+	"venue": "Ecology Letters",
+	"publisher": "Wiley",
+	"year": 2012,
+	"type": "article",
+	"abstract": "Many studies in recent years have investigated the effects of climate change on the future of biodiversity. In this review, we first examine the different possible effects of climate change that can operate at individual, population, species, community, ecosystem and biome scales, notably showing that species can respond to climate change challenges by shifting their climatic niche along three non-exclusive axes: time (e.g. phenology), space (e.g. range) and self (e.g. physiology). Then, we present the principal specificities and caveats of the most common approaches used to estimate future biodiversity at global and sub-continental scales and we synthesise their results. Finally, we highlight several challenges for future research both in theoretical and applied realms. Overall, our review shows that current estimates are very variable, depending on the method, taxonomic group, biodiversity loss metrics, spatial scales and time periods considered. Yet, the majority of models indicate alarming consequences for biodiversity, with the worst-case scenarios leading to extinction rates that would qualify as the sixth mass extinction in the history of the earth.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "bronze",
+		"url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.1461-0248.2011.01736.x?download=true"
+	},
+	"citedByCount": 4236,
+	"themes": [
+		"biodiversite"
+	],
+	"sourceTopics": [
+		"Species Distribution and Climate Change",
+		"Plant and animal studies",
+		"Ecology and Vegetation Dynamics Studies"
+	],
+	"url": "https://doi.org/10.1111/j.1461-0248.2011.01736.x",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-20"
+	},
+	"addedAt": "2026-08-20",
+	"editorial": {},
+	"glossaryTerms": []
+}

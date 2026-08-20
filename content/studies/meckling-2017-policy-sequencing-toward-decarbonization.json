@@ -1,0 +1,52 @@
+{
+	"id": "meckling-2017-policy-sequencing-toward-decarbonization",
+	"doi": "10.1038/s41560-017-0025-8",
+	"title": "Policy sequencing toward decarbonization",
+	"authors": [
+		{
+			"name": "Jonas Meckling",
+			"orcid": "https://orcid.org/0000-0003-1829-8741",
+			"affiliation": "University of California, Berkeley"
+		},
+		{
+			"name": "Thomas Sterner",
+			"orcid": "https://orcid.org/0000-0003-4771-3545",
+			"affiliation": "University of Gothenburg"
+		},
+		{
+			"name": "Gernot Wagner",
+			"orcid": "https://orcid.org/0000-0001-6059-0688",
+			"affiliation": "Harvard University"
+		}
+	],
+	"authorCount": 3,
+	"venue": "Nature Energy",
+	"publisher": "Nature Portfolio",
+	"year": 2017,
+	"type": "article",
+	"abstract": null,
+	"language": "en",
+	"openAccess": {
+		"isOpen": false,
+		"status": "closed",
+		"url": null
+	},
+	"citedByCount": 470,
+	"themes": [
+		"energie",
+		"politiques"
+	],
+	"sourceTopics": [
+		"Climate Change Policy and Economics",
+		"Environmental Impact and Sustainability",
+		"Energy, Environment, and Transportation Policies"
+	],
+	"url": "https://doi.org/10.1038/s41560-017-0025-8",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-20"
+	},
+	"addedAt": "2026-08-20",
+	"editorial": {},
+	"glossaryTerms": []
+}

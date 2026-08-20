@@ -1,0 +1,90 @@
+{
+	"id": "stott-2015-attribution-extreme-weather-climate-related",
+	"doi": "10.1002/wcc.380",
+	"title": "Attribution of extreme weather and climate‐related events",
+	"authors": [
+		{
+			"name": "Peter A. Stott",
+			"orcid": "https://orcid.org/0000-0003-4853-7686",
+			"affiliation": "Met Office"
+		},
+		{
+			"name": "Nikolaos Christidis",
+			"orcid": "https://orcid.org/0000-0002-5661-711X",
+			"affiliation": "Met Office"
+		},
+		{
+			"name": "Friederike E. L. Otto",
+			"orcid": "https://orcid.org/0000-0001-8166-5917",
+			"affiliation": "University of Oxford"
+		},
+		{
+			"name": "Ying Sun",
+			"orcid": "https://orcid.org/0000-0003-2335-3485",
+			"affiliation": "China Meteorological Administration"
+		},
+		{
+			"name": "Jean‐Paul Vanderlinden",
+			"affiliation": "Université de Versailles Saint-Quentin-en-Yvelines"
+		},
+		{
+			"name": "Geert Jan van Oldenborgh",
+			"orcid": "https://orcid.org/0000-0002-6898-9535",
+			"affiliation": "Royal Netherlands Meteorological Institute"
+		},
+		{
+			"name": "Robert Vautard",
+			"orcid": "https://orcid.org/0000-0001-5544-9903",
+			"affiliation": "Centre National de la Recherche Scientifique"
+		},
+		{
+			"name": "Hans von Storch",
+			"orcid": "https://orcid.org/0000-0002-5825-8069"
+		},
+		{
+			"name": "Peter Walton",
+			"orcid": "https://orcid.org/0000-0003-1735-4545",
+			"affiliation": "University of Oxford"
+		},
+		{
+			"name": "Pascal Yiou",
+			"orcid": "https://orcid.org/0000-0001-8534-5355",
+			"affiliation": "Laboratoire des Sciences du Climat et de l'Environnement"
+		},
+		{
+			"name": "Francis W. Zwiers",
+			"orcid": "https://orcid.org/0000-0002-8375-5147",
+			"affiliation": "Pacific Institute for Climate Solutions"
+		}
+	],
+	"authorCount": 11,
+	"venue": "Wiley Interdisciplinary Reviews Climate Change",
+	"publisher": "Wiley",
+	"year": 2015,
+	"type": "article",
+	"abstract": "Extreme weather and climate‐related events occur in a particular place, by definition, infrequently. It is therefore challenging to detect systematic changes in their occurrence given the relative shortness of observational records. However, there is a clear interest from outside the climate science community in the extent to which recent damaging extreme events can be linked to human‐induced climate change or natural climate variability. Event attribution studies seek to determine to what extent anthropogenic climate change has altered the probability or magnitude of particular events. They have shown clear evidence for human influence having increased the probability of many extremely warm seasonal temperatures and reduced the probability of extremely cold seasonal temperatures in many parts of the world. The evidence for human influence on the probability of extreme precipitation events, droughts, and storms is more mixed. Although the science of event attribution has developed rapidly in recent years, geographical coverage of events remains patchy and based on the interests and capabilities of individual research groups. The development of operational event attribution would allow a more timely and methodical production of attribution assessments than currently obtained on an ad hoc basis. For event attribution assessments to be most useful, remaining scientific uncertainties need to be robustly assessed and the results clearly communicated. This requires the continuing development of methodologies to assess the reliability of event attribution results and further work to understand the potential utility of event attribution for stakeholder groups and decision makers. WIREs Clim Change 2016, 7:23–41. doi: 10.1002/wcc.380 This article is categorized under: Paleoclimates and Current Trends > Detection and Attribution Climate Models and Modeling > Knowledge Generation with Models",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "hybrid",
+		"url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/wcc.380"
+	},
+	"citedByCount": 791,
+	"themes": [
+		"modelisation",
+		"risques"
+	],
+	"sourceTopics": [
+		"Climate variability and models",
+		"Meteorological Phenomena and Simulations",
+		"Flood Risk Assessment and Management"
+	],
+	"url": "https://doi.org/10.1002/wcc.380",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-20"
+	},
+	"addedAt": "2026-08-20",
+	"editorial": {},
+	"glossaryTerms": []
+}

@@ -1,0 +1,75 @@
+{
+	"id": "pall-2011-anthropogenic-greenhouse-gas-contribution-flood",
+	"doi": "10.1038/nature09762",
+	"title": "Anthropogenic greenhouse gas contribution to flood risk in England and Wales in autumn 2000",
+	"authors": [
+		{
+			"name": "Pardeep Pall",
+			"orcid": "https://orcid.org/0000-0002-2380-0874",
+			"affiliation": "University of Oxford"
+		},
+		{
+			"name": "T. Aina",
+			"affiliation": "University of Oxford"
+		},
+		{
+			"name": "Dáithí A. Stone",
+			"orcid": "https://orcid.org/0000-0002-2518-100X",
+			"affiliation": "University of Oxford"
+		},
+		{
+			"name": "Peter A. Stott",
+			"orcid": "https://orcid.org/0000-0003-4853-7686",
+			"affiliation": "Met Office"
+		},
+		{
+			"name": "Toru Nozawa",
+			"affiliation": "National Institute for Environmental Studies"
+		},
+		{
+			"name": "Arno Hilberts",
+			"orcid": "https://orcid.org/0000-0003-2329-6724",
+			"affiliation": "Risk Management Solutions (United Kingdom)"
+		},
+		{
+			"name": "Dag Lohmann",
+			"orcid": "https://orcid.org/0009-0004-6337-4656",
+			"affiliation": "Risk Management Solutions (United Kingdom)"
+		},
+		{
+			"name": "Myles Allen",
+			"orcid": "https://orcid.org/0000-0002-1721-7172",
+			"affiliation": "University of Oxford"
+		}
+	],
+	"authorCount": 8,
+	"venue": "Nature",
+	"publisher": "Nature Portfolio",
+	"year": 2011,
+	"type": "article",
+	"abstract": null,
+	"language": "en",
+	"openAccess": {
+		"isOpen": false,
+		"status": "closed",
+		"url": null
+	},
+	"citedByCount": 894,
+	"themes": [
+		"eau",
+		"risques"
+	],
+	"sourceTopics": [
+		"Hydrology and Watershed Management Studies",
+		"Flood Risk Assessment and Management",
+		"Hydrology and Drought Analysis"
+	],
+	"url": "https://doi.org/10.1038/nature09762",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-20"
+	},
+	"addedAt": "2026-08-20",
+	"editorial": {},
+	"glossaryTerms": []
+}

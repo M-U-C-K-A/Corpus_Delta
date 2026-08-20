@@ -1,6 +1,8 @@
 import { ChartCanvas, type ChartKind } from "@/components/mdx/ChartCanvas";
+import { colorForTheme } from "@/lib/content/chart-colors";
 import { getDataset } from "@/lib/content/datasets";
 import { formatDate } from "@/lib/format";
+import type { ThemeId } from "@/lib/content/taxonomy";
 import type { Lang } from "@/lib/i18n/config";
 
 /**
@@ -16,12 +18,15 @@ export function Chart({
 	kind = "line",
 	xKey = "year",
 	height,
+	theme,
 	lang,
 }: {
 	dataset: string;
 	kind?: ChartKind;
 	xKey?: string;
 	height?: number;
+	/** Teinte du graphique ; par défaut celle du thème dominant du dossier. */
+	theme?: ThemeId;
 	lang: Lang;
 }) {
 	const dataset = getDataset(datasetId);
@@ -52,6 +57,7 @@ export function Chart({
 				xKey={xKey}
 				unit={dataset.unit}
 				height={height}
+				color={colorForTheme(theme)}
 			/>
 
 			<p className="mt-3 text-xs leading-relaxed text-muted-foreground">

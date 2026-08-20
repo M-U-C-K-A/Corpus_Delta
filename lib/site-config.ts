@@ -5,10 +5,18 @@
 export const siteConfig = {
 	name: "Corpus Delta",
 	shortName: "Corpus Delta",
-	/** Baseline affichée sous le nom, volontairement descriptive et non promotionnelle. */
+	/**
+	 * Baseline complète : titres de page, métadonnées, vignettes de partage.
+	 * Trop longue pour le header, d'où `shortTagline`.
+	 */
 	tagline: {
 		fr: "Annuaire de la recherche sur le climat",
 		en: "A directory of climate research",
+	},
+	/** Version affichée sous le nom dans l'en-tête, où la place est comptée. */
+	shortTagline: {
+		fr: "Recherche climatique",
+		en: "Climate research",
 	},
 	description: {
 		fr: "Un annuaire de publications scientifiques sur le climat et les risques naturels, avec un glossaire des termes techniques. Chaque référence renvoie à sa source d'origine.",

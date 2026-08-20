@@ -36,7 +36,7 @@ export function SiteHeader({ lang }: { lang: Lang }) {
 					href={homeRoute(lang)}
 					className="shrink-0 rounded-sm outline-none focus-visible:ring-2 focus-visible:ring-ring"
 				>
-					<Wordmark name={siteConfig.name} tagline={siteConfig.tagline[lang]} />
+					<Wordmark name={siteConfig.name} tagline={siteConfig.shortTagline[lang]} />
 				</Link>
 
 				<div className="flex-1">

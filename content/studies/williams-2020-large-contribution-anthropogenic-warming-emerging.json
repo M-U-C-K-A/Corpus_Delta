@@ -1,0 +1,80 @@
+{
+	"id": "williams-2020-large-contribution-anthropogenic-warming-emerging",
+	"doi": "10.1126/science.aaz9600",
+	"title": "Large contribution from anthropogenic warming to an emerging North American megadrought",
+	"authors": [
+		{
+			"name": "Park Williams",
+			"orcid": "https://orcid.org/0000-0001-8176-8166",
+			"affiliation": "Lamont-Doherty Earth Observatory"
+		},
+		{
+			"name": "Edward R. Cook",
+			"orcid": "https://orcid.org/0000-0001-7478-4176",
+			"affiliation": "Lamont-Doherty Earth Observatory"
+		},
+		{
+			"name": "Jason E. Smerdon",
+			"orcid": "https://orcid.org/0000-0001-6276-0249",
+			"affiliation": "Lamont-Doherty Earth Observatory"
+		},
+		{
+			"name": "Benjamin I. Cook",
+			"affiliation": "Goddard Institute for Space Studies"
+		},
+		{
+			"name": "John T. Abatzoglou",
+			"orcid": "https://orcid.org/0000-0001-7599-9750",
+			"affiliation": "Lamont-Doherty Earth Observatory"
+		},
+		{
+			"name": "Kasey Bolles",
+			"orcid": "https://orcid.org/0000-0001-7547-6730",
+			"affiliation": "Lamont-Doherty Earth Observatory"
+		},
+		{
+			"name": "Seung H. Baek",
+			"orcid": "https://orcid.org/0000-0001-8369-3081",
+			"affiliation": "Lamont-Doherty Earth Observatory"
+		},
+		{
+			"name": "Andrew M. Badger",
+			"orcid": "https://orcid.org/0000-0003-4537-9993",
+			"affiliation": "Goddard Space Flight Center"
+		},
+		{
+			"name": "Ben Livneh",
+			"orcid": "https://orcid.org/0000-0001-5445-2473",
+			"affiliation": "Cooperative Institute for Research in Environmental Sciences"
+		}
+	],
+	"authorCount": 9,
+	"venue": "Science",
+	"publisher": "American Association for the Advancement of Science",
+	"year": 2020,
+	"type": "article",
+	"abstract": "Severe and persistent 21st-century drought in southwestern North America (SWNA) motivates comparisons to medieval megadroughts and questions about the role of anthropogenic climate change. We use hydrological modeling and new 1200-year tree-ring reconstructions of summer soil moisture to demonstrate that the 2000-2018 SWNA drought was the second driest 19-year period since 800 CE, exceeded only by a late-1500s megadrought. The megadrought-like trajectory of 2000-2018 soil moisture was driven by natural variability superimposed on drying due to anthropogenic warming. Anthropogenic trends in temperature, relative humidity, and precipitation estimated from 31 climate models account for 47% (model interquartiles of 35 to 105%) of the 2000-2018 drought severity, pushing an otherwise moderate drought onto a trajectory comparable to the worst SWNA megadroughts since 800 CE.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "green",
+		"url": "https://repository.library.noaa.gov/view/noaa/55058/noaa_55058_DS1.pdf"
+	},
+	"citedByCount": 998,
+	"themes": [
+		"eau"
+	],
+	"sourceTopics": [
+		"Tree-ring climate responses",
+		"Climate variability and models",
+		"Plant Water Relations and Carbon Dynamics"
+	],
+	"url": "https://doi.org/10.1126/science.aaz9600",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-20"
+	},
+	"addedAt": "2026-08-20",
+	"editorial": {},
+	"glossaryTerms": []
+}

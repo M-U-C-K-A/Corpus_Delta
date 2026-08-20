@@ -1,0 +1,136 @@
+{
+	"id": "jagermeyr-2021-climate-impacts-global-agriculture-emerge",
+	"doi": "10.1038/s43016-021-00400-y",
+	"title": "Climate impacts on global agriculture emerge earlier in new generation of climate and crop models",
+	"authors": [
+		{
+			"name": "Jonas Jägermeyr",
+			"orcid": "https://orcid.org/0000-0002-8368-0018",
+			"affiliation": "Goddard Institute for Space Studies"
+		},
+		{
+			"name": "Christoph Müller",
+			"orcid": "https://orcid.org/0000-0002-9491-3550",
+			"affiliation": "Leibniz Association"
+		},
+		{
+			"name": "Alex C. Ruane",
+			"orcid": "https://orcid.org/0000-0002-5582-9217",
+			"affiliation": "Goddard Institute for Space Studies"
+		},
+		{
+			"name": "Joshua Elliott",
+			"orcid": "https://orcid.org/0000-0003-0258-9886",
+			"affiliation": "University of Chicago"
+		},
+		{
+			"name": "Juraj Balkovič",
+			"orcid": "https://orcid.org/0000-0003-2955-4931",
+			"affiliation": "International Institute for Applied Systems Analysis"
+		},
+		{
+			"name": "Óscar Castillo",
+			"affiliation": "University of Florida"
+		},
+		{
+			"name": "Babacar Faye",
+			"orcid": "https://orcid.org/0000-0002-1055-6614",
+			"affiliation": "Institut de Recherche pour le Développement"
+		},
+		{
+			"name": "Ian Foster",
+			"orcid": "https://orcid.org/0000-0003-2129-5269",
+			"affiliation": "University of Chicago"
+		},
+		{
+			"name": "Christian Folberth",
+			"orcid": "https://orcid.org/0000-0002-6738-5238",
+			"affiliation": "International Institute for Applied Systems Analysis"
+		},
+		{
+			"name": "James Franke",
+			"orcid": "https://orcid.org/0000-0001-8598-750X",
+			"affiliation": "University of Chicago"
+		},
+		{
+			"name": "Kathrin Fuchs",
+			"orcid": "https://orcid.org/0000-0003-1776-283X",
+			"affiliation": "Karlsruhe Institute of Technology"
+		},
+		{
+			"name": "Jose Rafael Guarin",
+			"orcid": "https://orcid.org/0000-0002-3167-4329",
+			"affiliation": "Goddard Institute for Space Studies"
+		},
+		{
+			"name": "Jens Heinke",
+			"orcid": "https://orcid.org/0000-0001-5256-0024",
+			"affiliation": "Leibniz Association"
+		},
+		{
+			"name": "Gerrit Hoogenboom",
+			"orcid": "https://orcid.org/0000-0002-1555-0537",
+			"affiliation": "University of Florida"
+		},
+		{
+			"name": "Toshichika Iizumi",
+			"orcid": "https://orcid.org/0000-0002-0611-4637",
+			"affiliation": "National Agriculture and Food Research Organization"
+		},
+		{
+			"name": "Atul K. Jain",
+			"orcid": "https://orcid.org/0000-0002-4051-3228",
+			"affiliation": "University of Illinois Urbana-Champaign"
+		},
+		{
+			"name": "David Kelly",
+			"orcid": "https://orcid.org/0000-0002-5880-4162",
+			"affiliation": "University of Chicago"
+		},
+		{
+			"name": "Nikolay Khabarov",
+			"orcid": "https://orcid.org/0000-0001-5372-4668",
+			"affiliation": "International Institute for Applied Systems Analysis"
+		},
+		{
+			"name": "Stefan Lange",
+			"orcid": "https://orcid.org/0000-0003-2102-8873",
+			"affiliation": "Leibniz Association"
+		},
+		{
+			"name": "Tzu‐Shun Lin",
+			"orcid": "https://orcid.org/0000-0002-5741-8585",
+			"affiliation": "University of Illinois Urbana-Champaign"
+		}
+	],
+	"authorCount": 38,
+	"venue": "Nature Food",
+	"publisher": "Nature Portfolio",
+	"year": 2021,
+	"type": "article",
+	"abstract": null,
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "bronze",
+		"url": "https://www.nature.com/articles/s43016-021-00400-y.pdf"
+	},
+	"citedByCount": 982,
+	"themes": [
+		"agriculture",
+		"modelisation"
+	],
+	"sourceTopics": [
+		"Climate change impacts on agriculture",
+		"Climate variability and models",
+		"Plant responses to elevated CO2"
+	],
+	"url": "https://doi.org/10.1038/s43016-021-00400-y",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-20"
+	},
+	"addedAt": "2026-08-20",
+	"editorial": {},
+	"glossaryTerms": []
+}

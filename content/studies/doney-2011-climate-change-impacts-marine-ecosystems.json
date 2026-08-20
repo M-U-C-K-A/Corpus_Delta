@@ -1,0 +1,92 @@
+{
+	"id": "doney-2011-climate-change-impacts-marine-ecosystems",
+	"doi": "10.1146/annurev-marine-041911-111611",
+	"title": "Climate Change Impacts on Marine Ecosystems",
+	"authors": [
+		{
+			"name": "Scott C. Doney",
+			"orcid": "https://orcid.org/0000-0002-3683-2437",
+			"affiliation": "Woods Hole Oceanographic Institution"
+		},
+		{
+			"name": "Mary Ruckelshaus",
+			"orcid": "https://orcid.org/0000-0001-9492-2708"
+		},
+		{
+			"name": "J. Emmett Duffy",
+			"orcid": "https://orcid.org/0000-0001-8595-6391"
+		},
+		{
+			"name": "James Barry",
+			"orcid": "https://orcid.org/0000-0002-4263-8999"
+		},
+		{
+			"name": "Francis Chan",
+			"orcid": "https://orcid.org/0000-0001-8661-1109"
+		},
+		{
+			"name": "Chad English"
+		},
+		{
+			"name": "Heather M. Galindo"
+		},
+		{
+			"name": "Jacqueline M. Grebmeier",
+			"orcid": "https://orcid.org/0000-0001-7624-3568"
+		},
+		{
+			"name": "Anne B. Hollowed",
+			"orcid": "https://orcid.org/0000-0002-4225-6026"
+		},
+		{
+			"name": "Nancy­ Knowlton­",
+			"orcid": "https://orcid.org/0000-0002-4062-5502"
+		},
+		{
+			"name": "Jeffrey J. Polovina"
+		},
+		{
+			"name": "Nancy N. Rabalais",
+			"orcid": "https://orcid.org/0000-0002-1514-837X"
+		},
+		{
+			"name": "William J. Sydeman",
+			"orcid": "https://orcid.org/0000-0003-1902-4654"
+		},
+		{
+			"name": "Lynne D. Talley",
+			"orcid": "https://orcid.org/0000-0003-1574-729X",
+			"affiliation": "Woods Hole Oceanographic Institution"
+		}
+	],
+	"authorCount": 14,
+	"venue": "Annual Review of Marine Science",
+	"publisher": "Annual Reviews",
+	"year": 2011,
+	"type": "article",
+	"abstract": "In marine ecosystems, rising atmospheric CO2 and climate change are associated with concurrent shifts in temperature, circulation, stratification, nutrient input, oxygen content, and ocean acidification, with potentially wide-ranging biological effects. Population-level shifts are occurring because of physiological intolerance to new environments, altered dispersal patterns, and changes in species interactions. Together with local climate-driven invasion and extinction, these processes result in altered community structure and diversity, including possible emergence of novel ecosystems. Impacts are particularly striking for the poles and the tropics, because of the sensitivity of polar ecosystems to sea-ice retreat and poleward species migrations as well as the sensitivity of coral-algal symbiosis to minor increases in temperature. Midlatitude upwelling systems, like the California Current, exhibit strong linkages between climate and species distributions, phenology, and demography. Aggregated effects may modify energy and material flows as well as biogeochemical cycles, eventually impacting the overall ecosystem functioning and services upon which people and societies depend.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": false,
+		"status": "closed",
+		"url": null
+	},
+	"citedByCount": 3012,
+	"themes": [
+		"ocean",
+		"biodiversite"
+	],
+	"sourceTopics": [
+		"Ocean Acidification Effects and Responses",
+		"Coral and Marine Ecosystems Studies",
+		"Marine and coastal plant biology"
+	],
+	"url": "https://doi.org/10.1146/annurev-marine-041911-111611",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-20"
+	},
+	"addedAt": "2026-08-20",
+	"editorial": {},
+	"glossaryTerms": []
+}

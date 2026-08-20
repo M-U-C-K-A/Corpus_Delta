@@ -1,0 +1,77 @@
+{
+	"id": "rantanen-2022-arctic-has-warmed-nearly-four",
+	"doi": "10.1038/s43247-022-00498-3",
+	"title": "The Arctic has warmed nearly four times faster than the globe since 1979",
+	"authors": [
+		{
+			"name": "Mika Rantanen",
+			"orcid": "https://orcid.org/0000-0003-4279-0322",
+			"affiliation": "Finnish Meteorological Institute"
+		},
+		{
+			"name": "Alexey Yu. Karpechko",
+			"orcid": "https://orcid.org/0000-0003-0902-0414",
+			"affiliation": "Finnish Meteorological Institute"
+		},
+		{
+			"name": "Antti Lipponen",
+			"orcid": "https://orcid.org/0000-0002-6902-9974",
+			"affiliation": "Finnish Meteorological Institute"
+		},
+		{
+			"name": "Kalle Nordling",
+			"orcid": "https://orcid.org/0000-0003-1824-9659",
+			"affiliation": "Finnish Meteorological Institute"
+		},
+		{
+			"name": "Otto Hyvärinen",
+			"orcid": "https://orcid.org/0000-0001-6189-3648",
+			"affiliation": "Finnish Meteorological Institute"
+		},
+		{
+			"name": "Kimmo Ruosteenoja",
+			"orcid": "https://orcid.org/0000-0002-4370-0782",
+			"affiliation": "Finnish Meteorological Institute"
+		},
+		{
+			"name": "Timo Vihma",
+			"orcid": "https://orcid.org/0000-0002-6557-7084",
+			"affiliation": "Finnish Meteorological Institute"
+		},
+		{
+			"name": "Ari Laaksonen",
+			"orcid": "https://orcid.org/0000-0002-1657-2383",
+			"affiliation": "Finnish Meteorological Institute"
+		}
+	],
+	"authorCount": 8,
+	"venue": "Communications Earth & Environment",
+	"publisher": "Nature Portfolio",
+	"year": 2022,
+	"type": "article",
+	"abstract": "Abstract In recent decades, the warming in the Arctic has been much faster than in the rest of the world, a phenomenon known as Arctic amplification. Numerous studies report that the Arctic is warming either twice, more than twice, or even three times as fast as the globe on average. Here we show, by using several observational datasets which cover the Arctic region, that during the last 43 years the Arctic has been warming nearly four times faster than the globe, which is a higher ratio than generally reported in literature. We compared the observed Arctic amplification ratio with the ratio simulated by state-of-the-art climate models, and found that the observed four-fold warming ratio over 1979–2021 is an extremely rare occasion in the climate model simulations. The observed and simulated amplification ratios are more consistent with each other if calculated over a longer period; however the comparison is obscured by observational uncertainties before 1979. Our results indicate that the recent four-fold Arctic warming ratio is either an extremely unlikely event, or the climate models systematically tend to underestimate the amplification.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "gold",
+		"url": "https://www.nature.com/articles/s43247-022-00498-3.pdf"
+	},
+	"citedByCount": 3008,
+	"themes": [
+		"cryosphere",
+		"observation"
+	],
+	"sourceTopics": [
+		"Climate variability and models",
+		"Arctic and Antarctic ice dynamics",
+		"Climate change and permafrost"
+	],
+	"url": "https://doi.org/10.1038/s43247-022-00498-3",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-20"
+	},
+	"addedAt": "2026-08-20",
+	"editorial": {},
+	"glossaryTerms": []
+}

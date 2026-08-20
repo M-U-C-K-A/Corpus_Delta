@@ -1,0 +1,46 @@
+{
+	"id": "newman-2023-global-costs-extreme-weather-that",
+	"doi": "10.1038/s41467-023-41888-1",
+	"title": "The global costs of extreme weather that are attributable to climate change",
+	"authors": [
+		{
+			"name": "Rebecca Newman",
+			"affiliation": "Reserve Bank of New Zealand"
+		},
+		{
+			"name": "Ilan Noy",
+			"orcid": "https://orcid.org/0000-0003-3214-6568",
+			"affiliation": "Victoria University of Wellington"
+		}
+	],
+	"authorCount": 2,
+	"venue": "Nature Communications",
+	"publisher": "Nature Portfolio",
+	"year": 2023,
+	"type": "article",
+	"abstract": "Extreme weather events lead to significant adverse societal costs. Extreme Event Attribution (EEA), a methodology that examines how anthropogenic greenhouse gas emissions had changed the occurrence of specific extreme weather events, allows us to quantify the climate change-induced component of these costs. We collect data from all available EEA studies, combine these with data on the socio-economic costs of these events and extrapolate for missing data to arrive at an estimate of the global costs of extreme weather attributable to climate change in the last twenty years. We find that US[Formula: see text] 143 billion per year of the costs of extreme events is attributable to climatic change. The majority (63%), of this is due to human loss of life. Our results suggest that the frequently cited estimates of the economic costs of climate change arrived at by using Integrated Assessment Models may be substantially underestimated.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "gold",
+		"url": "https://www.nature.com/articles/s41467-023-41888-1.pdf"
+	},
+	"citedByCount": 521,
+	"themes": [
+		"risques",
+		"politiques"
+	],
+	"sourceTopics": [
+		"Climate Change Policy and Economics",
+		"Climate Change and Health Impacts",
+		"Atmospheric and Environmental Gas Dynamics"
+	],
+	"url": "https://doi.org/10.1038/s41467-023-41888-1",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-20"
+	},
+	"addedAt": "2026-08-20",
+	"editorial": {},
+	"glossaryTerms": []
+}

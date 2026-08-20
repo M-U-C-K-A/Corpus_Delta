@@ -170,6 +170,7 @@ const fr = {
 		project: "Le projet",
 		legal: "Mentions",
 		sourceCode: "Code source",
+		rss: "Flux RSS",
 		builtWith: "Métadonnées bibliographiques fournies par OpenAlex et Crossref.",
 		noAffiliation:
 			"Site indépendant, sans affiliation avec les organisations ou revues citées.",
@@ -366,6 +367,7 @@ const en: Dictionary = {
 		project: "The project",
 		legal: "Legal",
 		sourceCode: "Source code",
+		rss: "RSS feed",
 		builtWith: "Bibliographic metadata provided by OpenAlex and Crossref.",
 		noAffiliation: "Independent site, not affiliated with any organisation or journal cited.",
 	},

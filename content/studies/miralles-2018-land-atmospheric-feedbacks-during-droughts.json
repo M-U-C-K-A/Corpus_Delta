@@ -1,0 +1,57 @@
+{
+	"id": "miralles-2018-land-atmospheric-feedbacks-during-droughts",
+	"doi": "10.1111/nyas.13912",
+	"title": "Land–atmospheric feedbacks during droughts and heatwaves: state of the science and current challenges",
+	"authors": [
+		{
+			"name": "Diego G. Miralles",
+			"orcid": "https://orcid.org/0000-0001-6186-5751",
+			"affiliation": "Ghent University"
+		},
+		{
+			"name": "Pierre Gentine",
+			"orcid": "https://orcid.org/0000-0002-0845-8345",
+			"affiliation": "Earth Island Institute"
+		},
+		{
+			"name": "Sonia I. Seneviratne",
+			"orcid": "https://orcid.org/0000-0001-9528-2917",
+			"affiliation": "ETH Zurich"
+		},
+		{
+			"name": "Adriaan J. Teuling",
+			"orcid": "https://orcid.org/0000-0003-4302-2835",
+			"affiliation": "Wageningen University & Research"
+		}
+	],
+	"authorCount": 4,
+	"venue": "Annals of the New York Academy of Sciences",
+	"publisher": "Wiley",
+	"year": 2018,
+	"type": "article",
+	"abstract": "Droughts and heatwaves cause agricultural loss, forest mortality, and drinking water scarcity, especially when they occur simultaneously as combined events. Their predicted increase in recurrence and intensity poses serious threats to future food security. Still today, the knowledge of how droughts and heatwaves start and evolve remains limited, and so does our understanding of how climate change may affect them. Droughts and heatwaves have been suggested to intensify and propagate via land-atmosphere feedbacks. However, a global capacity to observe these processes is still lacking, and climate and forecast models are immature when it comes to representing the influences of land on temperature and rainfall. Key open questions remain in our goal to uncover the real importance of these feedbacks: What is the impact of the extreme meteorological conditions on ecosystem evaporation? How do these anomalies regulate the atmospheric boundary layer state (event self-intensification) and contribute to the inflow of heat and moisture to other regions (event self-propagation)? Can this knowledge on the role of land feedbacks, when available, be exploited to develop geo-engineering mitigation strategies that prevent these events from aggravating during their early stages? The goal of our perspective is not to present a convincing answer to these questions, but to assess the scientific progress to date, while highlighting new and innovative avenues to keep advancing our understanding in the future.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "hybrid",
+		"url": "https://nyaspubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1111/nyas.13912"
+	},
+	"citedByCount": 1093,
+	"themes": [
+		"chaleur",
+		"eau"
+	],
+	"sourceTopics": [
+		"Plant Water Relations and Carbon Dynamics",
+		"Climate variability and models",
+		"Meteorological Phenomena and Simulations"
+	],
+	"url": "https://doi.org/10.1111/nyas.13912",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-20"
+	},
+	"addedAt": "2026-08-20",
+	"editorial": {},
+	"glossaryTerms": []
+}
