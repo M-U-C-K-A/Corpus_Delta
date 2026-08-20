@@ -8,6 +8,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "typecheck": "tsc --noEmit",
     "validate": "tsx scripts/validate-content.ts",
     "study:add": "tsx scripts/add-study.ts",
     "links:check": "tsx scripts/check-links.ts",
@@ -64,5 +65,6 @@
     "tailwindcss": "^3.4.1",
     "tsx": "^4.19.0",
     "typescript": "^5"
-  }
+  },
+  "packageManager": "pnpm@10.28.0"
 }
