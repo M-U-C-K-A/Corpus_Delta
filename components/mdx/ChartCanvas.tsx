@@ -55,8 +55,10 @@ export function ChartCanvas({
 	);
 
 	const formatValue = (value: number) =>
+		// Même nombre de décimales pour toute la série : dans une infobulle qui
+		// compare quatre scénarios, « 2,7 » aligné sous « 1,96 » se lit mal.
 		`${new Intl.NumberFormat("fr-FR", {
-			minimumFractionDigits: 0,
+			minimumFractionDigits: decimals,
 			maximumFractionDigits: decimals,
 		}).format(value)}${unit ? ` ${unit}` : ""}`;
 

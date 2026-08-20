@@ -231,8 +231,8 @@ async function sspWarmingLevels(): Promise<Dataset> {
 			en: "Year each warming level is crossed",
 		},
 		note: {
-			fr: "Année médiane des modèles CMIP6 qui franchissent le palier, telle que publiée par l'Atlas du GIEC. L'année indiquée est le centre d'une fenêtre de 20 ans : le palier est atteint sur la période [n-9, n+10]. Une case vide signale un palier que moins de la moitié des modèles atteignent avant 2100.",
-			en: "Median year across the CMIP6 models that cross the level, as published by the IPCC Atlas. The year given is the centre of a 20-year window: the level is reached over [n-9, n+10]. An empty cell marks a level that fewer than half the models reach before 2100.",
+			fr: "Année médiane des modèles CMIP6 qui franchissent le palier, telle que publiée par l'Atlas du GIEC. L'année indiquée est le centre d'une fenêtre de 20 ans : le palier est atteint sur la période [n-9, n+10]. Une case vide signale un palier qu'au plus la moitié des modèles atteignent avant 2100.",
+			en: "Median year across the CMIP6 models that cross the level, as published by the IPCC Atlas. The year given is the centre of a 20-year window: the level is reached over [n-9, n+10]. An empty cell marks a level that at most half the models reach before 2100.",
 		},
 		source: {
 			...ATLAS_SOURCE,
