@@ -11,6 +11,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { datasetSchema, type Dataset } from "../lib/content/schemas";
+import { ATLAS_SOURCE, scenarioWarming, SSPS, warmingLevelYears } from "./lib/cmip6";
 
 const OUTPUT_DIR = path.join(process.cwd(), "data", "datasets");
 
@@ -159,11 +160,102 @@ async function temperatureAnomaly(): Promise<Dataset> {
 	};
 }
 
+/**
+ * Comparateur de scénarios : trajectoires de réchauffement selon les SSP.
+ *
+ * Les colonnes `_low` / `_high` portent la dispersion de l'ensemble et ne sont
+ * pas tracées ; elles alimentent le tableau de synthèse de la page Indicateurs.
+ */
+async function sspWarmingProjections(): Promise<Dataset> {
+	const { members, byScenario } = await scenarioWarming();
+
+	const years = [...byScenario.ssp126.keys()].sort((a, b) => a - b);
+	const round = (value: number) => Math.round(value * 100) / 100;
+
+	const rows = years
+		// Horizon commun aux quatre scénarios : sans cela, une comparaison de fin
+		// de siècle porterait sur une année où l'un d'eux ne dit plus rien.
+		.filter((year) => SSPS.every((scenario) => byScenario[scenario].has(year)))
+		.map((year) => {
+			const row: Record<string, number> = { year };
+			for (const scenario of SSPS) {
+				const stats = byScenario[scenario].get(year);
+				if (!stats) continue;
+				row[scenario] = round(stats.median);
+				row[`${scenario}_low`] = round(stats.low);
+				row[`${scenario}_high`] = round(stats.high);
+			}
+			return row;
+		});
+
+	return {
+		id: "ssp-warming-projections",
+		title: {
+			fr: "Réchauffement projeté selon les scénarios SSP",
+			en: "Projected warming by SSP scenario",
+		},
+		unit: "°C",
+		note: {
+			fr: `Médiane de ${members} modèles CMIP6, en écart à la moyenne 1850-1900 de chaque modèle. Le même ensemble sert aux quatre scénarios. Il s'agit de la dispersion brute de CMIP6, et non des fourchettes évaluées par le GIEC, qui sont plus resserrées.`,
+			en: `Median of ${members} CMIP6 models, as a departure from each model's own 1850-1900 mean. The same ensemble is used for all four scenarios. This is the raw CMIP6 spread, not the IPCC's assessed ranges, which are narrower.`,
+		},
+		source: { ...ATLAS_SOURCE, accessedAt: today() },
+		series: [
+			{ key: "ssp126", label: { fr: "SSP1-2.6", en: "SSP1-2.6" } },
+			{ key: "ssp245", label: { fr: "SSP2-4.5", en: "SSP2-4.5" } },
+			{ key: "ssp370", label: { fr: "SSP3-7.0", en: "SSP3-7.0" } },
+			{ key: "ssp585", label: { fr: "SSP5-8.5", en: "SSP5-8.5" } },
+		],
+		rows,
+	};
+}
+
+/** Année médiane de franchissement de chaque palier de réchauffement. */
+async function sspWarmingLevels(): Promise<Dataset> {
+	const { levels } = await warmingLevelYears();
+
+	const rows = levels.map(({ level, byScenario }) => {
+		const row: Record<string, number | null> = { level };
+		for (const scenario of SSPS) {
+			row[scenario] = byScenario[scenario].median;
+			row[`${scenario}_reaching`] = byScenario[scenario].reaching;
+			row[`${scenario}_available`] = byScenario[scenario].available;
+		}
+		return row;
+	});
+
+	return {
+		id: "ssp-warming-levels",
+		title: {
+			fr: "Année de franchissement des paliers de réchauffement",
+			en: "Year each warming level is crossed",
+		},
+		note: {
+			fr: "Année médiane des modèles CMIP6 qui franchissent le palier, telle que publiée par l'Atlas du GIEC. L'année indiquée est le centre d'une fenêtre de 20 ans : le palier est atteint sur la période [n-9, n+10]. Une case vide signale un palier que moins de la moitié des modèles atteignent avant 2100.",
+			en: "Median year across the CMIP6 models that cross the level, as published by the IPCC Atlas. The year given is the centre of a 20-year window: the level is reached over [n-9, n+10]. An empty cell marks a level that fewer than half the models reach before 2100.",
+		},
+		source: {
+			...ATLAS_SOURCE,
+			label: "Interactive Atlas — CMIP6 warming levels",
+			accessedAt: today(),
+		},
+		series: [
+			{ key: "ssp126", label: { fr: "SSP1-2.6", en: "SSP1-2.6" } },
+			{ key: "ssp245", label: { fr: "SSP2-4.5", en: "SSP2-4.5" } },
+			{ key: "ssp370", label: { fr: "SSP3-7.0", en: "SSP3-7.0" } },
+			{ key: "ssp585", label: { fr: "SSP5-8.5", en: "SSP5-8.5" } },
+		],
+		rows,
+	};
+}
+
 const BUILDERS: Record<string, () => Promise<Dataset>> = {
 	"co2-mauna-loa": co2MaunaLoa,
 	"methane-global": methaneGlobal,
 	"nitrous-oxide-global": nitrousOxideGlobal,
 	"temperature-anomaly-gistemp": temperatureAnomaly,
+	"ssp-warming-projections": sspWarmingProjections,
+	"ssp-warming-levels": sspWarmingLevels,
 };
 
 async function main(): Promise<void> {

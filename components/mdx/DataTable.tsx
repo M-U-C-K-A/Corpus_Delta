@@ -38,7 +38,9 @@ export function DataTable({
 							{dataset.series.map((series) => (
 								<th key={series.key} scope="col" className="px-3 py-2 text-right font-medium">
 									{series.label[lang] ?? series.label.fr}
-									<span className="ml-1 font-normal text-muted-foreground">({dataset.unit})</span>
+									{dataset.unit && (
+										<span className="ml-1 font-normal text-muted-foreground">({dataset.unit})</span>
+									)}
 								</th>
 							))}
 						</tr>

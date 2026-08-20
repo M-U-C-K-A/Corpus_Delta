@@ -1,0 +1,109 @@
+{
+	"id": "ssp-warming-levels",
+	"title": {
+		"fr": "Année de franchissement des paliers de réchauffement",
+		"en": "Year each warming level is crossed"
+	},
+	"source": {
+		"label": "Interactive Atlas — CMIP6 warming levels",
+		"url": "https://github.com/IPCC-WG1/Atlas",
+		"publisher": "IPCC WGI Interactive Atlas",
+		"accessedAt": "2026-08-20"
+	},
+	"note": {
+		"fr": "Année médiane des modèles CMIP6 qui franchissent le palier, telle que publiée par l'Atlas du GIEC. L'année indiquée est le centre d'une fenêtre de 20 ans : le palier est atteint sur la période [n-9, n+10]. Une case vide signale un palier que moins de la moitié des modèles atteignent avant 2100.",
+		"en": "Median year across the CMIP6 models that cross the level, as published by the IPCC Atlas. The year given is the centre of a 20-year window: the level is reached over [n-9, n+10]. An empty cell marks a level that fewer than half the models reach before 2100."
+	},
+	"series": [
+		{
+			"key": "ssp126",
+			"label": {
+				"fr": "SSP1-2.6",
+				"en": "SSP1-2.6"
+			}
+		},
+		{
+			"key": "ssp245",
+			"label": {
+				"fr": "SSP2-4.5",
+				"en": "SSP2-4.5"
+			}
+		},
+		{
+			"key": "ssp370",
+			"label": {
+				"fr": "SSP3-7.0",
+				"en": "SSP3-7.0"
+			}
+		},
+		{
+			"key": "ssp585",
+			"label": {
+				"fr": "SSP5-8.5",
+				"en": "SSP5-8.5"
+			}
+		}
+	],
+	"rows": [
+		{
+			"level": 1.5,
+			"ssp126": 2027,
+			"ssp126_reaching": 28,
+			"ssp126_available": 32,
+			"ssp245": 2030,
+			"ssp245_reaching": 34,
+			"ssp245_available": 34,
+			"ssp370": 2032,
+			"ssp370_reaching": 30,
+			"ssp370_available": 30,
+			"ssp585": 2027,
+			"ssp585_reaching": 34,
+			"ssp585_available": 34
+		},
+		{
+			"level": 2,
+			"ssp126": null,
+			"ssp126_reaching": 16,
+			"ssp126_available": 32,
+			"ssp245": 2049,
+			"ssp245_reaching": 34,
+			"ssp245_available": 34,
+			"ssp370": 2045,
+			"ssp370_reaching": 30,
+			"ssp370_available": 30,
+			"ssp585": 2039,
+			"ssp585_reaching": 34,
+			"ssp585_available": 34
+		},
+		{
+			"level": 3,
+			"ssp126": null,
+			"ssp126_reaching": 0,
+			"ssp126_available": 32,
+			"ssp245": null,
+			"ssp245_reaching": 14,
+			"ssp245_available": 34,
+			"ssp370": 2067,
+			"ssp370_reaching": 26,
+			"ssp370_available": 30,
+			"ssp585": 2060,
+			"ssp585_reaching": 34,
+			"ssp585_available": 34
+		},
+		{
+			"level": 4,
+			"ssp126": null,
+			"ssp126_reaching": 0,
+			"ssp126_available": 32,
+			"ssp245": null,
+			"ssp245_reaching": 1,
+			"ssp245_available": 34,
+			"ssp370": null,
+			"ssp370_reaching": 14,
+			"ssp370_available": 30,
+			"ssp585": 2070,
+			"ssp585_reaching": 20,
+			"ssp585_available": 34
+		}
+	]
+}

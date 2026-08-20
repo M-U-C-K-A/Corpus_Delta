@@ -155,7 +155,8 @@ export type PathFrontmatter = z.infer<typeof pathFrontmatterSchema>;
 export const datasetSchema = z.object({
 	id: slug,
 	title: z.record(z.enum(LANGS), z.string()),
-	unit: z.string().min(1),
+	/** Absente quand la grandeur n'en a pas — une année de franchissement, par exemple. */
+	unit: z.string().min(1).optional(),
 	source: sourceRefSchema,
 	note: z.record(z.enum(LANGS), z.string()).optional(),
 	series: z
