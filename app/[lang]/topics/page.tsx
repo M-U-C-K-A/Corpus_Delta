@@ -8,6 +8,7 @@ import { getDictionary } from "@/lib/i18n/dictionaries";
 import { isLang, LANGS } from "@/lib/i18n/config";
 import { formatDate } from "@/lib/format";
 import { route } from "@/lib/routes";
+import { pageMetadata } from "@/lib/metadata";
 
 export function generateStaticParams() {
 	return LANGS.map((lang) => ({ lang }));
@@ -17,14 +18,12 @@ export function generateMetadata({ params }: { params: { lang: string } }): Meta
 	if (!isLang(params.lang)) return {};
 	const dict = getDictionary(params.lang);
 
-	return {
+	return pageMetadata({
+		lang: params.lang,
 		title: dict.topics.title,
 		description: dict.topics.lead,
-		alternates: {
-			canonical: route(params.lang, "topics"),
-			languages: Object.fromEntries(LANGS.map((l) => [l, route(l, "topics")])),
-		},
-	};
+		section: "topics",
+	});
 }
 
 export default function TopicsPage({ params }: { params: { lang: string } }) {

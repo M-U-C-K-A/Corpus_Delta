@@ -17,6 +17,7 @@ import { getDictionary, interpolate } from "@/lib/i18n/dictionaries";
 import { isLang, LANGS, type Lang } from "@/lib/i18n/config";
 import { formatDate, formatNumber } from "@/lib/format";
 import { route } from "@/lib/routes";
+import { pageMetadata } from "@/lib/metadata";
 import { siteConfig } from "@/lib/site-config";
 
 export function generateStaticParams() {
@@ -32,15 +33,14 @@ export function generateMetadata({ params }: { params: { lang: string; id: strin
 		study.abstract?.slice(0, 200) ??
 		`${study.authors[0]?.name ?? ""} — ${study.venue ?? ""} (${study.year})`.trim();
 
-	return {
+	return pageMetadata({
+		lang: params.lang,
 		title: displayTitle(study),
 		description,
-		alternates: {
-			canonical: route(params.lang, "studies", study.id),
-			languages: Object.fromEntries(LANGS.map((l) => [l, route(l, "studies", study.id)])),
-		},
-		openGraph: { title: displayTitle(study), description, type: "article" },
-	};
+		section: "studies",
+		segments: [study.id],
+		modifiedTime: study.addedAt,
+	});
 }
 
 export default function StudyPage({ params }: { params: { lang: string; id: string } }) {

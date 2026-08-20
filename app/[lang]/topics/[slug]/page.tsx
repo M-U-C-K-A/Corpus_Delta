@@ -15,6 +15,7 @@ import { getDictionary } from "@/lib/i18n/dictionaries";
 import { DEFAULT_LANG, isLang, LANGS, type Lang } from "@/lib/i18n/config";
 import { formatDate } from "@/lib/format";
 import { route } from "@/lib/routes";
+import { pageMetadata } from "@/lib/metadata";
 
 export function generateStaticParams() {
 	// Les slugs sont communs à toutes les langues : le contenu français sert de
@@ -36,20 +37,14 @@ export function generateMetadata({ params }: { params: { lang: string; slug: str
 	const resolved = resolveTopic(params.lang, params.slug);
 	if (!resolved) return {};
 
-	return {
+	return pageMetadata({
+		lang: params.lang,
 		title: resolved.topic.frontmatter.title,
 		description: resolved.topic.frontmatter.description,
-		alternates: {
-			canonical: route(params.lang, "topics", params.slug),
-			languages: Object.fromEntries(LANGS.map((l) => [l, route(l, "topics", params.slug)])),
-		},
-		openGraph: {
-			type: "article",
-			title: resolved.topic.frontmatter.title,
-			description: resolved.topic.frontmatter.description,
-			modifiedTime: resolved.topic.frontmatter.updatedAt,
-		},
-	};
+		section: "topics",
+		segments: [params.slug],
+		modifiedTime: resolved.topic.frontmatter.updatedAt,
+	});
 }
 
 export default function TopicPage({ params }: { params: { lang: string; slug: string } }) {

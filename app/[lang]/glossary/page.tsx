@@ -5,7 +5,7 @@ import { TranslationNotice } from "@/components/site/TranslationNotice";
 import { getGlossaryWithFallback } from "@/lib/content/glossary";
 import { getDictionary } from "@/lib/i18n/dictionaries";
 import { isLang, LANGS } from "@/lib/i18n/config";
-import { route } from "@/lib/routes";
+import { pageMetadata } from "@/lib/metadata";
 
 export function generateStaticParams() {
 	return LANGS.map((lang) => ({ lang }));
@@ -15,14 +15,12 @@ export function generateMetadata({ params }: { params: { lang: string } }): Meta
 	if (!isLang(params.lang)) return {};
 	const dict = getDictionary(params.lang);
 
-	return {
+	return pageMetadata({
+		lang: params.lang,
 		title: dict.glossary.title,
 		description: dict.glossary.lead,
-		alternates: {
-			canonical: route(params.lang, "glossary"),
-			languages: Object.fromEntries(LANGS.map((l) => [l, route(l, "glossary")])),
-		},
-	};
+		section: "glossary",
+	});
 }
 
 export default function GlossaryPage({ params }: { params: { lang: string } }) {

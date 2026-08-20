@@ -5,7 +5,7 @@ import { StudiesExplorer } from "@/components/site/StudiesExplorer";
 import { getSearchDocuments } from "@/lib/search/documents";
 import { getDictionary } from "@/lib/i18n/dictionaries";
 import { isLang, LANGS } from "@/lib/i18n/config";
-import { route } from "@/lib/routes";
+import { pageMetadata } from "@/lib/metadata";
 
 export function generateStaticParams() {
 	return LANGS.map((lang) => ({ lang }));
@@ -15,14 +15,12 @@ export function generateMetadata({ params }: { params: { lang: string } }): Meta
 	if (!isLang(params.lang)) return {};
 	const dict = getDictionary(params.lang);
 
-	return {
+	return pageMetadata({
+		lang: params.lang,
 		title: dict.studies.title,
 		description: dict.studies.lead,
-		alternates: {
-			canonical: route(params.lang, "studies"),
-			languages: Object.fromEntries(LANGS.map((l) => [l, route(l, "studies")])),
-		},
-	};
+		section: "studies",
+	});
 }
 
 export default function StudiesPage({ params }: { params: { lang: string } }) {

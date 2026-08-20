@@ -14,6 +14,7 @@ import { getDictionary } from "@/lib/i18n/dictionaries";
 import { DEFAULT_LANG, isLang, LANGS, type Lang } from "@/lib/i18n/config";
 import { formatDate } from "@/lib/format";
 import { route } from "@/lib/routes";
+import { pageMetadata } from "@/lib/metadata";
 
 export function generateStaticParams() {
 	return LANGS.flatMap((lang) =>
@@ -33,14 +34,14 @@ export function generateMetadata({ params }: { params: { lang: string; term: str
 	const resolved = resolveEntry(params.lang, params.term);
 	if (!resolved) return {};
 
-	return {
+	return pageMetadata({
+		lang: params.lang,
 		title: resolved.entry.frontmatter.term,
 		description: resolved.entry.frontmatter.shortDefinition,
-		alternates: {
-			canonical: route(params.lang, "glossary", params.term),
-			languages: Object.fromEntries(LANGS.map((l) => [l, route(l, "glossary", params.term)])),
-		},
-	};
+		section: "glossary",
+		segments: [params.term],
+		modifiedTime: resolved.entry.frontmatter.updatedAt,
+	});
 }
 
 export default function GlossaryTermPage({ params }: { params: { lang: string; term: string } }) {
