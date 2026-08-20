@@ -5,7 +5,6 @@ import { SearchPalette } from "@/components/site/SearchPalette";
 import { LangSwitcher } from "@/components/site/LangSwitcher";
 import { ThemeToggle } from "@/components/site/ThemeToggle";
 import { Wordmark } from "@/components/site/Wordmark";
-import { getGlobalEntries } from "@/lib/search/global";
 import { siteConfig } from "@/lib/site-config";
 import { getDictionary } from "@/lib/i18n/dictionaries";
 import { homeRoute } from "@/lib/routes";
@@ -45,12 +44,13 @@ export function SiteHeader({ lang }: { lang: Lang }) {
 
 				<div className="flex shrink-0 items-center gap-1">
 					<SearchPalette
-						entries={getGlobalEntries(lang)}
+						endpoint={`/${lang}/search-index.json`}
 						labels={{
 							open: dict.search.open,
 							placeholder: dict.search.placeholder,
 							empty: dict.search.empty,
 							emptyHint: dict.search.emptyHint,
+							loading: dict.search.loading,
 							groups: {
 								study: dict.search.groupStudies,
 								glossary: dict.search.groupGlossary,

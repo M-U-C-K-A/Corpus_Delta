@@ -22,6 +22,7 @@ export interface PaletteLabels {
 	placeholder: string;
 	empty: string;
 	emptyHint: string;
+	loading: string;
 	groups: Record<GlobalKind, string>;
 	hintNavigate: string;
 	hintSelect: string;
@@ -29,10 +30,11 @@ export interface PaletteLabels {
 }
 
 export function SearchPalette({
-	entries,
+	endpoint,
 	labels,
 }: {
-	entries: GlobalEntry[];
+	/** URL du fichier d'index, récupéré à la première ouverture. */
+	endpoint: string;
 	labels: PaletteLabels;
 }) {
 	const router = useRouter();
@@ -46,11 +48,30 @@ export function SearchPalette({
 		setIsMac(/Mac|iPhone|iPad/.test(navigator.platform));
 	}, []);
 
-	// L'index n'est construit qu'à la première ouverture : inutile de le payer
-	// au chargement de chaque page alors que la plupart des visiteurs ne l'ouvriront pas.
+	/*
+	  Ni les entrées ni l'index ne sont payés au chargement d'une page : la plupart
+	  des visiteurs n'ouvriront jamais la palette. L'index était auparavant passé
+	  en props depuis l'en-tête, donc sérialisé dans le HTML des 296 pages.
+	*/
 	const [primed, setPrimed] = useState(false);
+	const [entries, setEntries] = useState<GlobalEntry[]>([]);
+	const [loading, setLoading] = useState(false);
+
+	useEffect(() => {
+		if (!primed || entries.length > 0) return;
+		const controller = new AbortController();
+		setLoading(true);
+		fetch(endpoint, { signal: controller.signal })
+			.then((response) => (response.ok ? response.json() : []))
+			.then((data: GlobalEntry[]) => setEntries(data))
+			// Une palette vide vaut mieux qu'une erreur : la navigation reste possible.
+			.catch(() => undefined)
+			.finally(() => setLoading(false));
+		return () => controller.abort();
+	}, [primed, entries.length, endpoint]);
+
 	const index = useMemo(() => {
-		if (!primed) return null;
+		if (!primed || entries.length === 0) return null;
 		const miniSearch = new MiniSearch<GlobalEntry>({
 			fields: ["title", "subtitle", "keywords"],
 			storeFields: ["id"],
@@ -180,7 +201,11 @@ export function SearchPalette({
 						/>
 					</div>
 
-					{flat.length === 0 ? (
+					{loading && flat.length === 0 ? (
+						<div className="px-4 py-10 text-center">
+							<p className="text-sm text-muted-foreground">{labels.loading}</p>
+						</div>
+					) : flat.length === 0 ? (
 						<div className="px-4 py-10 text-center">
 							<p className="text-sm font-medium">{labels.empty}</p>
 							<p className="mt-1 text-sm text-muted-foreground">{labels.emptyHint}</p>
