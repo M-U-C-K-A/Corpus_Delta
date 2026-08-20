@@ -60,15 +60,21 @@ export function ChartCanvas({
 			maximumFractionDigits: decimals,
 		}).format(value)} ${unit}`;
 
-	const chrome = (
-		<>
-			<Grid />
-			<XAxis dataKey={xKey} />
-			<YAxis tickFormatter={(value) => String(value)} />
-			<Tooltip labelKey={xKey} valueFormatter={(value) => formatValue(value)} />
-			{series.length > 1 && <Legend />}
-		</>
-	);
+	/*
+	  Un tableau, surtout pas un fragment : la racine du graphique trie ses enfants
+	  par couche de rendu avec `Children.forEach`, qui aplatit les tableaux mais ne
+	  traverse pas les fragments. Enveloppés dans un fragment, ces éléments étaient
+	  tous versés dans la couche SVG — la grille passait devant le tracé, et
+	  l'infobulle, qui est un <div>, se retrouvait dans le <svg> où elle ne pouvait
+	  pas s'afficher.
+	*/
+	const chrome = [
+		<Grid key="grid" />,
+		<XAxis key="x" dataKey={xKey} />,
+		<YAxis key="y" tickFormatter={(value) => String(value)} />,
+		<Tooltip key="tooltip" labelKey={xKey} valueFormatter={(value) => formatValue(value)} />,
+		series.length > 1 ? <Legend key="legend" /> : null,
+	];
 
 	return (
 		<div className="not-prose w-full" style={{ height }}>
