@@ -1,0 +1,71 @@
+---
+title: "Observing the climate"
+description: "How a global mean temperature is arrived at, what reanalyses add, and why observation is a work of reconstruction."
+themes: ["observation", "modelisation"]
+studies:
+  - "munoz-sabater-2021-era5-land-state-art-global"
+  - "eyring-2016-overview-coupled-model-intercomparison-project"
+  - "friedlingstein-2023-global-carbon-budget-2023"
+glossary: ["anomalie-de-temperature", "forcage-radiatif", "sensibilite-climatique"]
+sources:
+  - label: "GISS Surface Temperature Analysis (GISTEMP v4)"
+    url: "https://data.giss.nasa.gov/gistemp/"
+    publisher: "NASA Goddard Institute for Space Studies"
+  - label: "Climate indicators — Temperature"
+    url: "https://climate.copernicus.eu/climate-indicators/temperature"
+    publisher: "Copernicus Climate Change Service"
+  - label: "Trends in Atmospheric Carbon Dioxide"
+    url: "https://gml.noaa.gov/ccgg/trends/"
+    publisher: "NOAA Global Monitoring Laboratory"
+updatedAt: "2026-08-19"
+---
+
+A "global mean temperature" exists nowhere as a direct measurement. It is a reconstructed
+quantity, and understanding how it is reconstructed disposes of most of the objections
+raised against it.
+
+## The problem with stations
+
+The observing network has never been regular. Stations cluster in inhabited, wealthy
+regions; they have moved, changed instruments, and watched their surroundings become urban.
+Crudely averaging their readings would produce a figure governed by that geography rather
+than by the climate.
+
+The solution is a shift of object: we do not average temperatures, we average
+<Term id="anomalie-de-temperature">anomalies</Term> — each station's departure from its own
+normal. Anomalies behave coherently across wide regions where absolute temperatures do not,
+which makes it possible to interpolate between stations without inventing anything.
+
+<Callout variant="info" title="The check by independence">
+Several teams — NASA, NOAA, the Met Office, Berkeley Earth — separately produce a global
+series, with different homogenisation and interpolation methods. Their results agree. It is
+that convergence between independent approaches, more than the quality of any one method,
+that grounds confidence in the signal.
+</Callout>
+
+## Reanalyses: filling the gaps with physics
+
+Stations do not cover the oceans, the deserts or the poles evenly. A **reanalysis** answers
+this by running a weather model over the past, constraining it continuously with every
+available observation — stations, buoys, ships, radiosondes, satellites.
+
+The result is neither a pure observation nor a free-running simulation: it is the state of
+the atmosphere most consistent with all the measurements and with physical law. These
+products have become the reference for studying extremes, because they provide complete,
+regular fields <Cite id="munoz-sabater-2021-era5-land-state-art-global" />.
+
+## Measuring directly what can be measured
+
+Not every quantity requires that reconstruction. Atmospheric CO₂ concentration is measured
+directly, at sites chosen far from local sources, and its record is among the most reliable
+in climate science. That is what makes it the anchor point of the
+<Term id="forcage-radiatif">radiative balance</Term> and of the carbon budget
+<Cite id="friedlingstein-2023-global-carbon-budget-2023" />.
+
+## Observation and modelling are not opposed
+
+Observations serve to build models, to evaluate them, and to constrain their parameters —
+foremost among them <Term id="sensibilite-climatique">climate sensitivity</Term>.
+Intercomparison protocols systematically confront simulations with observations over the
+historical period before granting any credit to their projections
+<Cite id="eyring-2016-overview-coupled-model-intercomparison-project" />.
