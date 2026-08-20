@@ -64,7 +64,7 @@ export default function StudyPage({ params }: { params: { lang: string; id: stri
 		{ label: dict.common.type, value: publicationTypeLabel(study.type as PublicationType, lang) },
 		{
 			label: dict.common.themes,
-			value: <ThemeTagList themes={study.themes} lang={lang} linkToStudies className="mt-1" />,
+			value: <ThemeTagList themes={study.themes} lang={lang} linked className="mt-1" />,
 		},
 	];
 

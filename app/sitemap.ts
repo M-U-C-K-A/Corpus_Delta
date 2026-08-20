@@ -3,6 +3,7 @@ import { getAllStudies } from "@/lib/content/studies";
 import { getGlossary } from "@/lib/content/glossary";
 import { getTopics } from "@/lib/content/topics";
 import { getPaths } from "@/lib/content/paths";
+import { THEME_IDS } from "@/lib/content/taxonomy";
 import { DEFAULT_LANG, LANGS } from "@/lib/i18n/config";
 import { absoluteUrl, homeRoute, route, type Section } from "@/lib/routes";
 import { siteConfig } from "@/lib/site-config";
@@ -36,6 +37,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 		["glossary", 0.9],
 		["topics", 0.8],
 		["paths", 0.8],
+		["themes", 0.7],
 		["indicators", 0.7],
 		["methodology", 0.5],
 		["contribute", 0.4],
@@ -43,6 +45,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
 	];
 	for (const [section, priority] of sections) {
 		push(Object.fromEntries(LANGS.map((l) => [l, route(l, section)])), priority);
+	}
+
+	for (const theme of THEME_IDS) {
+		push(Object.fromEntries(LANGS.map((l) => [l, route(l, "themes", theme)])), 0.6);
 	}
 
 	for (const study of getAllStudies()) {
