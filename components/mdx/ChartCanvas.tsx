@@ -39,7 +39,7 @@ export function ChartCanvas({
 	rows: Record<string, number | string | null>[];
 	series: SeriesSpec[];
 	xKey: string;
-	unit: string;
+	unit?: string;
 	height?: number;
 	color?: DitherColor;
 	decimals?: number;
@@ -58,7 +58,7 @@ export function ChartCanvas({
 		`${new Intl.NumberFormat("fr-FR", {
 			minimumFractionDigits: 0,
 			maximumFractionDigits: decimals,
-		}).format(value)} ${unit}`;
+		}).format(value)}${unit ? ` ${unit}` : ""}`;
 
 	/*
 	  Un tableau, surtout pas un fragment : la racine du graphique trie ses enfants

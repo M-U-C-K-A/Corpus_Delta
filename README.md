@@ -10,9 +10,10 @@ travaux existants et renvoie systématiquement à leur source.
 interroge OpenAlex (Crossref en repli) et écrit la fiche. Ce choix rend la fabrication de
 références structurellement impossible et garde le corpus alignable sur sa source.
 
-Le même principe s'applique aux graphiques : les séries chiffrées sont récupérées depuis
-leur producteur (NOAA, NASA), versionnées avec leur date de relevé, et cette provenance est
-affichée sous chaque graphique.
+Le même principe s'applique aux graphiques : les séries chiffrées sont récupérées par script
+chez leur producteur — NOAA, NASA, Atlas interactif du GIEC — versionnées avec leur date de
+relevé, et cette provenance est affichée sous chaque graphique. Une série dont l'origine ne
+peut pas être montrée n'est pas publiée.
 
 Ce qui relève du jugement humain — rattachement thématique, choix d'inclusion, notes de
 contexte, définitions du glossaire — est identifié comme tel et documenté sur la page
@@ -33,11 +34,11 @@ Le site est servi sur `http://localhost:3000`, redirigé vers `/fr`.
 |---|---|
 | `pnpm dev` | Serveur de développement |
 | `pnpm build` | Build de production (lance `validate` au préalable) |
+| `pnpm start` | Sert le build de production |
 | `pnpm validate` | Valide schémas et renvois croisés entre contenus |
 | `pnpm study:add <doi> --themes=…` | Ajoute une étude depuis son DOI |
 | `pnpm datasets:fetch [id]` | Régénère les jeux de données des graphiques |
 | `pnpm links:check` | Vérifie que les liens sortants répondent |
-| `pnpm datasets:fetch` | Récupère les séries NOAA et NASA |
 | `pnpm lint` | ESLint |
 
 ### Ajouter une étude
@@ -57,6 +58,32 @@ Pour un rapport institutionnel sans DOI exploitable :
 pnpm study:add --manual --title="…" --url=https://… --year=2023 --publisher="GIEC" --themes=politiques
 ```
 
+### Régénérer les données des graphiques
+
+```bash
+pnpm datasets:fetch                        # tout
+pnpm datasets:fetch co2-mauna-loa          # une seule série
+```
+
+Chaque source a son format, donc son analyseur, dans `scripts/fetch-datasets.ts`. Les séries
+NOAA et NASA sont de simples fichiers tabulaires ; les projections par scénario demandent
+une agrégation, isolée dans `scripts/lib/cmip6.ts`, qui télécharge 145 fichiers et prend
+quelques minutes.
+
+## Pages
+
+| Section | URL française | Contenu |
+|---|---|---|
+| Études | `/fr/etudes` | L'annuaire, avec recherche et facettes |
+| Glossaire | `/fr/glossaire` | Définitions sourcées des termes techniques |
+| Dossiers | `/fr/dossiers` | Synthèses thématiques renvoyant à l'annuaire |
+| Parcours | `/fr/parcours` | Séquences de lecture ordonnées |
+| Indicateurs | `/fr/indicateurs` | Séries de référence et comparateur de scénarios |
+| Méthode | `/fr/methodologie` | Le contrat du site avec son lecteur |
+
+Une recherche globale est disponible partout au clavier (`⌘K` / `Ctrl+K`). Chaque langue
+expose un flux RSS sur `/<lang>/rss.xml`.
+
 ## Organisation
 
 ```
@@ -69,7 +96,9 @@ content/paths/fr/    Parcours de lecture : séquences ordonnées d'étapes
 data/datasets/       Séries chiffrées des graphiques, avec provenance
 lib/content/         Schémas zod, chargeurs, citations, taxonomie
 components/mdx/      Composants disponibles dans les MDX
+components/dither-kit/ Graphiques tramés — voir son README pour les correctifs React 18
 scripts/             Ingestion, validation, contrôle des liens
+scripts/lib/         Agrégations trop volumineuses pour tenir dans un script
 archive/             Version 1 du site, conservée hors build
 ```
 
@@ -91,6 +120,24 @@ teinte définie une seule fois par thème dans `lib/content/taxonomy.ts`.
 
 `Cite` et `Term` sont vérifiés au build : un renvoi vers une étude ou un terme inexistant
 fait échouer `pnpm validate`, donc le déploiement.
+
+## Sur les projections de scénarios
+
+Le comparateur SSP de la page Indicateurs mérite une mise en garde, parce qu'il est le seul
+contenu chiffré du site à ne pas être une observation.
+
+Les fourchettes de réchauffement les plus citées — celles du tableau SPM.1 du sixième rapport
+du GIEC — ne sont publiées qu'en PDF. Aucune version exploitable par script n'a été trouvée,
+et les recopier à la main aurait été la seule entorse au principe ci-dessus. Le comparateur
+s'appuie donc sur les séries CMIP6 agrégées que publie l'[Atlas interactif du
+GIEC](https://github.com/IPCC-WG1/Atlas), agrégées à leur tour par
+`scripts/lib/cmip6.ts` : moyennes annuelles globales par modèle, écart au préindustriel
+1850-1900 propre à chaque modèle, puis médiane sur les modèles disposant à la fois du run
+historique et des quatre scénarios.
+
+**Ce n'est pas la même chose que les fourchettes évaluées par le GIEC.** L'AR6 a resserré
+l'éventail CMIP6 en pondérant les modèles à forte sensibilité climatique ; la dispersion
+brute affichée ici est plus large. La page le dit, et le calcul est vérifiable dans le script.
 
 ## Langues
 
