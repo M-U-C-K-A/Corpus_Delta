@@ -1,0 +1,129 @@
+{
+	"id": "nitrous-oxide-global",
+	"title": {
+		"fr": "Concentration atmosphérique de protoxyde d'azote",
+		"en": "Atmospheric nitrous oxide concentration"
+	},
+	"unit": "ppb",
+	"source": {
+		"label": "Trends in Atmospheric Nitrous Oxide",
+		"url": "https://gml.noaa.gov/ccgg/trends_n2o/",
+		"publisher": "NOAA Global Monitoring Laboratory",
+		"accessedAt": "2026-08-19"
+	},
+	"note": {
+		"fr": "Moyennes annuelles globales. Le protoxyde d'azote provient surtout de la fertilisation azotée et persiste plus d'un siècle dans l'atmosphère.",
+		"en": "Global annual means. Nitrous oxide comes mostly from nitrogen fertilisation and persists over a century in the atmosphere."
+	},
+	"series": [
+		{
+			"key": "n2o",
+			"label": {
+				"fr": "N₂O atmosphérique",
+				"en": "Atmospheric N₂O"
+			}
+		}
+	],
+	"rows": [
+		{
+			"year": 2001,
+			"n2o": 316.36
+		},
+		{
+			"year": 2002,
+			"n2o": 316.94
+		},
+		{
+			"year": 2003,
+			"n2o": 317.63
+		},
+		{
+			"year": 2004,
+			"n2o": 318.25
+		},
+		{
+			"year": 2005,
+			"n2o": 318.91
+		},
+		{
+			"year": 2006,
+			"n2o": 319.82
+		},
+		{
+			"year": 2007,
+			"n2o": 320.44
+		},
+		{
+			"year": 2008,
+			"n2o": 321.5
+		},
+		{
+			"year": 2009,
+			"n2o": 322.27
+		},
+		{
+			"year": 2010,
+			"n2o": 323.18
+		},
+		{
+			"year": 2011,
+			"n2o": 324.21
+		},
+		{
+			"year": 2012,
+			"n2o": 325.05
+		},
+		{
+			"year": 2013,
+			"n2o": 325.94
+		},
+		{
+			"year": 2014,
+			"n2o": 327.09
+		},
+		{
+			"year": 2015,
+			"n2o": 328.17
+		},
+		{
+			"year": 2016,
+			"n2o": 328.95
+		},
+		{
+			"year": 2017,
+			"n2o": 329.74
+		},
+		{
+			"year": 2018,
+			"n2o": 330.9
+		},
+		{
+			"year": 2019,
+			"n2o": 331.88
+		},
+		{
+			"year": 2020,
+			"n2o": 333
+		},
+		{
+			"year": 2021,
+			"n2o": 334.27
+		},
+		{
+			"year": 2022,
+			"n2o": 335.61
+		},
+		{
+			"year": 2023,
+			"n2o": 336.68
+		},
+		{
+			"year": 2024,
+			"n2o": 337.71
+		},
+		{
+			"year": 2025,
+			"n2o": 338.85
+		}
+	]
+}

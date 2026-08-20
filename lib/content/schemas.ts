@@ -118,6 +118,36 @@ export const topicFrontmatterSchema = z.object({
 export type TopicFrontmatter = z.infer<typeof topicFrontmatterSchema>;
 
 /**
+ * Parcours de lecture : une séquence ordonnée d'étapes qui traverse le glossaire,
+ * les dossiers et l'annuaire.
+ *
+ * L'ordre porte l'essentiel de la valeur — on définit le vocabulaire avant de s'en
+ * servir, on lit la synthèse avant les publications d'origine.
+ */
+export const pathStepSchema = z.object({
+	kind: z.enum(["glossary", "topic", "study"]),
+	/** Slug de terme, de dossier, ou identifiant d'étude selon `kind`. */
+	id: slug,
+	/** Pourquoi cette étape figure ici, et ce qu'il faut en retenir. */
+	note: z.string().min(1),
+});
+
+export type PathStep = z.infer<typeof pathStepSchema>;
+
+export const pathFrontmatterSchema = z.object({
+	title: z.string().min(1),
+	description: z.string().min(1).max(400),
+	themes: z.array(z.enum(THEME_IDS as [string, ...string[]])).min(1),
+	/** Niveau supposé du lecteur à l'entrée du parcours. */
+	level: z.enum(["decouverte", "approfondissement"]),
+	steps: z.array(pathStepSchema).min(2),
+	updatedAt: isoDate,
+	draft: z.boolean().default(false),
+});
+
+export type PathFrontmatter = z.infer<typeof pathFrontmatterSchema>;
+
+/**
  * Jeu de données servant un graphique.
  * La source et la date de relevé sont obligatoires : un graphique sans provenance
  * affichable ne peut pas être publié.

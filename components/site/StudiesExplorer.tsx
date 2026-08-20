@@ -8,7 +8,16 @@ import { Lock, Search, Unlock, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import type { StudyDocument } from "@/lib/search/documents";
-import { THEME_IDS, PUBLICATION_TYPE_IDS, themeLabel, publicationTypeLabel, type ThemeId, type PublicationType } from "@/lib/content/taxonomy";
+import { ThemeTagList } from "@/components/site/ThemeTag";
+import {
+	THEME_IDS,
+	PUBLICATION_TYPE_IDS,
+	themeHue,
+	themeLabel,
+	publicationTypeLabel,
+	type ThemeId,
+	type PublicationType,
+} from "@/lib/content/taxonomy";
 import { getDictionary } from "@/lib/i18n/dictionaries";
 import { route } from "@/lib/routes";
 import { formatNumber, plural } from "@/lib/format";
@@ -158,6 +167,7 @@ export function StudiesExplorer({ lang, documents }: { lang: Lang; documents: St
 					{THEME_IDS.filter((theme) => themeCounts.has(theme)).map((theme) => (
 						<FacetCheckbox
 							key={theme}
+							hue={themeHue(theme)}
 							label={themeLabel(theme, lang)}
 							count={themeCounts.get(theme) ?? 0}
 							checked={filters.themes.includes(theme)}
@@ -285,15 +295,7 @@ export function StudiesExplorer({ lang, documents }: { lang: Lang; documents: St
 									</p>
 								)}
 
-								<ul className="mt-3 flex flex-wrap gap-1.5">
-									{doc.themes.map((theme) => (
-										<li key={theme}>
-											<span className="rounded border border-border bg-background px-1.5 py-0.5 text-[0.6875rem] text-muted-foreground">
-												{themeLabel(theme as ThemeId, lang)}
-											</span>
-										</li>
-									))}
-								</ul>
+								<ThemeTagList themes={doc.themes} lang={lang} className="mt-3" />
 							</li>
 						))}
 					</ul>
@@ -317,11 +319,14 @@ function FacetCheckbox({
 	count,
 	checked,
 	onChange,
+	hue,
 }: {
 	label: string;
 	count: number;
 	checked: boolean;
 	onChange: () => void;
+	/** Teinte du thème, reprise de la pastille pour que l'œil fasse le lien. */
+	hue?: number;
 }) {
 	return (
 		<label className="flex cursor-pointer items-baseline gap-2 rounded px-1.5 py-1 text-sm transition-colors hover:bg-muted">
@@ -331,6 +336,13 @@ function FacetCheckbox({
 				onChange={onChange}
 				className="mt-0.5 h-3.5 w-3.5 shrink-0 accent-[hsl(var(--primary))]"
 			/>
+			{hue !== undefined && (
+				<span
+					aria-hidden="true"
+					className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full"
+					style={{ background: `hsl(${hue} 60% 48%)` }}
+				/>
+			)}
 			<span className="flex-1">{label}</span>
 			<span className="tabular text-xs text-muted-foreground">{count}</span>
 		</label>

@@ -12,6 +12,7 @@ import path from "node:path";
 import { getAllStudies } from "../lib/content/studies";
 import { getGlossary } from "../lib/content/glossary";
 import { getTopics } from "../lib/content/topics";
+import { getPaths } from "../lib/content/paths";
 import { datasetSchema } from "../lib/content/schemas";
 import { LANGS } from "../lib/i18n/config";
 
@@ -69,13 +70,16 @@ function main(): void {
 
 	let glossaryCount = 0;
 	let topicCount = 0;
+	let pathCount = 0;
 
 	for (const lang of LANGS) {
 		let glossary: ReturnType<typeof getGlossary> = [];
 		let topics: ReturnType<typeof getTopics> = [];
+		let paths: ReturnType<typeof getPaths> = [];
 		try {
 			glossary = getGlossary(lang);
 			topics = getTopics(lang);
+			paths = getPaths(lang);
 		} catch (error) {
 			console.error(`\n✗ ${(error as Error).message}\n`);
 			process.exit(1);
@@ -83,8 +87,10 @@ function main(): void {
 
 		glossaryCount += glossary.length;
 		topicCount += topics.length;
+		pathCount += paths.length;
 
 		const termSlugs = new Set(glossary.map((entry) => entry.slug));
+		const topicSlugs = new Set(topics.map((entry) => entry.slug));
 
 		for (const entry of glossary) {
 			const where = `content/glossary/${lang}/${entry.slug}.mdx`;
@@ -115,6 +121,23 @@ function main(): void {
 			}
 		}
 
+		// Un parcours dont une étape pointe dans le vide perd tout son intérêt :
+		// l'ordre des étapes est précisément ce qu'il apporte.
+		for (const entry of paths) {
+			const where = `content/paths/${lang}/${entry.slug}.mdx`;
+			entry.frontmatter.steps.forEach((step, index) => {
+				const exists =
+					step.kind === "glossary"
+						? termSlugs.has(step.id)
+						: step.kind === "topic"
+							? topicSlugs.has(step.id)
+							: studyIds.has(step.id);
+				if (!exists) {
+					report(where, `étape ${index + 1} : ${step.kind} « ${step.id} » introuvable`);
+				}
+			});
+		}
+
 		for (const study of studies) {
 			for (const term of study.glossaryTerms) {
 				if (lang === "fr" && !termSlugs.has(term)) {
@@ -134,7 +157,7 @@ function main(): void {
 	}
 
 	console.log(
-		`✓ contenu valide — ${studies.length} étude(s), ${glossaryCount} terme(s), ${topicCount} dossier(s), ${datasetCount} jeu(x) de données`
+		`✓ contenu valide — ${studies.length} étude(s), ${glossaryCount} terme(s), ${topicCount} dossier(s), ${pathCount} parcours, ${datasetCount} jeu(x) de données`
 	);
 }
 

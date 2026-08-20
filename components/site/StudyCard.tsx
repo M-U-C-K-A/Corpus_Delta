@@ -4,7 +4,7 @@ import { cn } from "@/lib/utils";
 import { citationLine } from "@/lib/content/citation";
 import { displayTitle } from "@/lib/content/studies";
 import type { Study } from "@/lib/content/schemas";
-import { themeLabel, type ThemeId } from "@/lib/content/taxonomy";
+import { ThemeTagList } from "@/components/site/ThemeTag";
 import { getDictionary } from "@/lib/i18n/dictionaries";
 import { route } from "@/lib/routes";
 import type { Lang } from "@/lib/i18n/config";
@@ -59,15 +59,7 @@ export function StudyCard({
 				</p>
 			)}
 
-			<ul className="mt-3 flex flex-wrap gap-1.5">
-				{study.themes.map((theme) => (
-					<li key={theme}>
-						<span className="rounded border border-border bg-background px-1.5 py-0.5 text-[0.6875rem] text-muted-foreground">
-							{themeLabel(theme as ThemeId, lang)}
-						</span>
-					</li>
-				))}
-			</ul>
+			<ThemeTagList themes={study.themes} lang={lang} className="mt-3" />
 		</article>
 	);
 }

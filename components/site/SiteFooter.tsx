@@ -15,6 +15,8 @@ export function SiteFooter({ lang }: { lang: Lang }) {
 				{ label: dict.nav.studies, href: route(lang, "studies") },
 				{ label: dict.nav.glossary, href: route(lang, "glossary") },
 				{ label: dict.nav.topics, href: route(lang, "topics") },
+				{ label: dict.nav.paths, href: route(lang, "paths") },
+				{ label: dict.nav.indicators, href: route(lang, "indicators") },
 			],
 		},
 		{

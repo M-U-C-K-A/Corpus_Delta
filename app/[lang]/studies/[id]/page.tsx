@@ -2,13 +2,17 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowUpRight, ChevronRight } from "lucide-react";
+import { Abstract } from "@/components/site/Abstract";
+import { AuthorList } from "@/components/site/AuthorList";
 import { CitationBlock } from "@/components/site/CitationBlock";
+import { DitherBand } from "@/components/site/Dither";
 import { OpenAccessTag, StudyList } from "@/components/site/StudyCard";
+import { ThemeTagList } from "@/components/site/ThemeTag";
 import { getAllStudies, getRelatedStudies, getStudy, getEditorial, displayTitle } from "@/lib/content/studies";
 import { getGlossaryEntries } from "@/lib/content/glossary";
 import { getTopicsCitingStudy } from "@/lib/content/topics";
 import { toApa, toBibtex } from "@/lib/content/citation";
-import { publicationTypeLabel, themeLabel, type PublicationType, type ThemeId } from "@/lib/content/taxonomy";
+import { publicationTypeLabel, type PublicationType, type ThemeId } from "@/lib/content/taxonomy";
 import { getDictionary, interpolate } from "@/lib/i18n/dictionaries";
 import { isLang, LANGS, type Lang } from "@/lib/i18n/config";
 import { formatDate, formatNumber } from "@/lib/format";
@@ -55,25 +59,12 @@ export default function StudyPage({ params }: { params: { lang: string; id: stri
 	const citingTopics = getTopicsCitingStudy(lang, study.id);
 
 	const metadataRows: { label: string; value: React.ReactNode }[] = [
-		{
-			label: dict.studies.authors,
-			value:
-				study.authors.length > 0
-					? `${study.authors.map((a) => a.name).join(", ")}${
-							study.authorCount > study.authors.length
-								? ` ${interpolate(dict.studies.andOthers, {
-										count: study.authorCount - study.authors.length,
-									})}`
-								: ""
-						}`
-					: "—",
-		},
 		{ label: dict.studies.publishedIn, value: study.venue ?? study.publisher ?? "—" },
 		{ label: dict.studies.publishedOn, value: String(study.year) },
 		{ label: dict.common.type, value: publicationTypeLabel(study.type as PublicationType, lang) },
 		{
 			label: dict.common.themes,
-			value: study.themes.map((theme) => themeLabel(theme as ThemeId, lang)).join(", "),
+			value: <ThemeTagList themes={study.themes} lang={lang} linkToStudies className="mt-1" />,
 		},
 	];
 
@@ -110,8 +101,15 @@ export default function StudyPage({ params }: { params: { lang: string; id: stri
 		...(study.abstract ? { abstract: study.abstract } : {}),
 	};
 
+	const primaryTheme = study.themes[0] as ThemeId;
+
 	return (
-		<div className="container py-10">
+		<div className="relative">
+			<div className="pointer-events-none absolute inset-x-0 top-0 h-64">
+				<DitherBand theme={primaryTheme} />
+			</div>
+
+			<div className="container relative py-10">
 			<script
 				type="application/ld+json"
 				dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
@@ -138,11 +136,18 @@ export default function StudyPage({ params }: { params: { lang: string; id: stri
 						{study.title}
 					</h1>
 
-					<p className="mt-3 text-sm leading-relaxed text-muted-foreground">
-						{study.authors.map((author) => author.name).join(", ")}
-						{study.authorCount > study.authors.length &&
-							` ${interpolate(dict.studies.andOthers, { count: study.authorCount - study.authors.length })}`}
-					</p>
+					<div className="mt-3">
+						<AuthorList
+							authors={study.authors}
+							total={study.authorCount}
+							labels={{
+								showAll: dict.studies.authors,
+								showLess: dict.studies.showLessAuthors,
+								andOthers: dict.studies.andOthers,
+								truncated: dict.studies.authorsTruncated,
+							}}
+						/>
+					</div>
 
 					<div className="mt-6 flex flex-wrap gap-2">
 						<a
@@ -184,7 +189,18 @@ export default function StudyPage({ params }: { params: { lang: string; id: stri
 							{dict.studies.abstract}
 						</h2>
 						{study.abstract ? (
-							<p className="mt-2 text-[0.9375rem] leading-relaxed">{study.abstract}</p>
+							<div className="mt-2">
+								<Abstract
+									text={study.abstract}
+									language={study.language}
+									pageLang={lang}
+									labels={{
+										readMore: dict.studies.readMore,
+										readLess: dict.studies.readLess,
+										foreignLanguage: dict.studies.abstractForeign,
+									}}
+								/>
+							</div>
 						) : (
 							<p className="mt-2 text-sm italic leading-relaxed text-muted-foreground">
 								{dict.studies.noAbstract}
@@ -294,6 +310,7 @@ export default function StudyPage({ params }: { params: { lang: string; id: stri
 					</p>
 				</aside>
 			</div>
+		</div>
 		</div>
 	);
 }

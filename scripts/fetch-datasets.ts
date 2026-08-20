@@ -17,44 +17,108 @@ const OUTPUT_DIR = path.join(process.cwd(), "data", "datasets");
 const today = () => new Date().toISOString().slice(0, 10);
 
 async function fetchText(url: string): Promise<string> {
-	const response = await fetch(url, { headers: { "User-Agent": "climatotheque-datasets" } });
+	const response = await fetch(url, { headers: { "User-Agent": "corpus-delta-datasets" } });
 	if (!response.ok) throw new Error(`${response.status} sur ${url}`);
 	return response.text();
 }
 
-/** NOAA Global Monitoring Laboratory — moyennes annuelles de CO₂ à Mauna Loa. */
-async function co2MaunaLoa(): Promise<Dataset> {
-	const url = "https://gml.noaa.gov/webdata/ccgg/trends/co2/co2_annmean_mlo.txt";
-	const text = await fetchText(url);
+/**
+ * Séries de gaz à effet de serre du NOAA Global Monitoring Laboratory.
+ *
+ * Ces fichiers partagent tous le même format en colonnes — année, moyenne,
+ * incertitude — d'où un seul analyseur paramétré plutôt qu'une fonction par gaz.
+ */
+function noaaGas(config: {
+	id: string;
+	url: string;
+	unit: string;
+	key: string;
+	title: { fr: string; en: string };
+	seriesLabel: { fr: string; en: string };
+	note: { fr: string; en: string };
+	sourceLabel: string;
+	sourceUrl: string;
+}): () => Promise<Dataset> {
+	return async () => {
+		const text = await fetchText(config.url);
 
-	const rows = text
-		.split("\n")
-		.filter((line) => line.trim() && !line.startsWith("#"))
-		.map((line) => line.trim().split(/\s+/))
-		.filter((parts) => parts.length >= 2 && /^\d{4}$/.test(parts[0]))
-		.map((parts) => ({ year: Number(parts[0]), co2: Number(parts[1]) }));
+		const rows = text
+			.split("\n")
+			.filter((line) => line.trim() && !line.startsWith("#"))
+			.map((line) => line.trim().split(/\s+/))
+			.filter((parts) => parts.length >= 2 && /^\d{4}$/.test(parts[0]))
+			.map((parts) => ({ year: Number(parts[0]), [config.key]: Number(parts[1]) }));
 
-	return {
-		id: "co2-mauna-loa",
-		title: {
-			fr: "Concentration atmosphérique de CO₂ à Mauna Loa",
-			en: "Atmospheric CO₂ concentration at Mauna Loa",
-		},
-		unit: "ppm",
-		note: {
-			fr: "Moyennes annuelles mesurées à l'observatoire de Mauna Loa (Hawaï), la plus longue série continue de mesure directe du CO₂ atmosphérique.",
-			en: "Annual means measured at Mauna Loa Observatory (Hawaii), the longest continuous direct record of atmospheric CO₂.",
-		},
-		source: {
-			label: "Trends in Atmospheric Carbon Dioxide",
-			url: "https://gml.noaa.gov/ccgg/trends/",
-			publisher: "NOAA Global Monitoring Laboratory",
-			accessedAt: today(),
-		},
-		series: [{ key: "co2", label: { fr: "CO₂ atmosphérique", en: "Atmospheric CO₂" } }],
-		rows,
+		return {
+			id: config.id,
+			title: config.title,
+			unit: config.unit,
+			note: config.note,
+			source: {
+				label: config.sourceLabel,
+				url: config.sourceUrl,
+				publisher: "NOAA Global Monitoring Laboratory",
+				accessedAt: today(),
+			},
+			series: [{ key: config.key, label: config.seriesLabel }],
+			rows,
+		};
 	};
 }
+
+const co2MaunaLoa = noaaGas({
+	id: "co2-mauna-loa",
+	url: "https://gml.noaa.gov/webdata/ccgg/trends/co2/co2_annmean_mlo.txt",
+	unit: "ppm",
+	key: "co2",
+	title: {
+		fr: "Concentration atmosphérique de CO₂ à Mauna Loa",
+		en: "Atmospheric CO₂ concentration at Mauna Loa",
+	},
+	seriesLabel: { fr: "CO₂ atmosphérique", en: "Atmospheric CO₂" },
+	note: {
+		fr: "Moyennes annuelles mesurées à l'observatoire de Mauna Loa (Hawaï), la plus longue série continue de mesure directe du CO₂ atmosphérique.",
+		en: "Annual means measured at Mauna Loa Observatory (Hawaii), the longest continuous direct record of atmospheric CO₂.",
+	},
+	sourceLabel: "Trends in Atmospheric Carbon Dioxide",
+	sourceUrl: "https://gml.noaa.gov/ccgg/trends/",
+});
+
+const methaneGlobal = noaaGas({
+	id: "methane-global",
+	url: "https://gml.noaa.gov/webdata/ccgg/trends/ch4/ch4_annmean_gl.txt",
+	unit: "ppb",
+	key: "ch4",
+	title: {
+		fr: "Concentration atmosphérique de méthane",
+		en: "Atmospheric methane concentration",
+	},
+	seriesLabel: { fr: "CH₄ atmosphérique", en: "Atmospheric CH₄" },
+	note: {
+		fr: "Moyennes annuelles globales, calculées à partir du réseau de stations de surface du NOAA.",
+		en: "Global annual means derived from the NOAA surface station network.",
+	},
+	sourceLabel: "Trends in Atmospheric Methane",
+	sourceUrl: "https://gml.noaa.gov/ccgg/trends_ch4/",
+});
+
+const nitrousOxideGlobal = noaaGas({
+	id: "nitrous-oxide-global",
+	url: "https://gml.noaa.gov/webdata/ccgg/trends/n2o/n2o_annmean_gl.txt",
+	unit: "ppb",
+	key: "n2o",
+	title: {
+		fr: "Concentration atmosphérique de protoxyde d'azote",
+		en: "Atmospheric nitrous oxide concentration",
+	},
+	seriesLabel: { fr: "N₂O atmosphérique", en: "Atmospheric N₂O" },
+	note: {
+		fr: "Moyennes annuelles globales. Le protoxyde d'azote provient surtout de la fertilisation azotée et persiste plus d'un siècle dans l'atmosphère.",
+		en: "Global annual means. Nitrous oxide comes mostly from nitrogen fertilisation and persists over a century in the atmosphere.",
+	},
+	sourceLabel: "Trends in Atmospheric Nitrous Oxide",
+	sourceUrl: "https://gml.noaa.gov/ccgg/trends_n2o/",
+});
 
 /** NASA GISS — anomalie de température moyenne globale, référence 1951-1980. */
 async function temperatureAnomaly(): Promise<Dataset> {
@@ -97,6 +161,8 @@ async function temperatureAnomaly(): Promise<Dataset> {
 
 const BUILDERS: Record<string, () => Promise<Dataset>> = {
 	"co2-mauna-loa": co2MaunaLoa,
+	"methane-global": methaneGlobal,
+	"nitrous-oxide-global": nitrousOxideGlobal,
 	"temperature-anomaly-gistemp": temperatureAnomaly,
 };
 
