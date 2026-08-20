@@ -1,0 +1,157 @@
+{
+	"id": "sea-level-altimetry",
+	"title": {
+		"fr": "Niveau marin moyen global",
+		"en": "Global mean sea level"
+	},
+	"unit": "mm",
+	"source": {
+		"label": "Global Mean Sea Level — Laboratory for Satellite Altimetry",
+		"url": "https://www.star.nesdis.noaa.gov/socd/lsa/SeaLevelRise/",
+		"publisher": "NOAA Laboratory for Satellite Altimetry",
+		"accessedAt": "2026-08-20"
+	},
+	"note": {
+		"fr": "Écart au niveau de référence, mesuré par altimétrie satellitaire depuis 1993. Les valeurs fusionnent les missions successives, inter-calibrées entre elles. Aucune correction d'ajustement isostatique n'est appliquée.",
+		"en": "Departure from the reference level, measured by satellite altimetry since 1993. Values merge the successive, mutually calibrated missions. No glacial isostatic adjustment is applied."
+	},
+	"series": [
+		{
+			"key": "level",
+			"label": {
+				"fr": "Niveau moyen",
+				"en": "Mean level"
+			}
+		}
+	],
+	"rows": [
+		{
+			"year": 1993,
+			"level": -19.4
+		},
+		{
+			"year": 1994,
+			"level": -14.7
+		},
+		{
+			"year": 1995,
+			"level": -9.3
+		},
+		{
+			"year": 1996,
+			"level": -5.7
+		},
+		{
+			"year": 1997,
+			"level": -1.7
+		},
+		{
+			"year": 1998,
+			"level": -2.6
+		},
+		{
+			"year": 1999,
+			"level": -3.6
+		},
+		{
+			"year": 2000,
+			"level": 0.7
+		},
+		{
+			"year": 2001,
+			"level": 6
+		},
+		{
+			"year": 2002,
+			"level": 8
+		},
+		{
+			"year": 2003,
+			"level": 11
+		},
+		{
+			"year": 2004,
+			"level": 12.6
+		},
+		{
+			"year": 2005,
+			"level": 14.9
+		},
+		{
+			"year": 2006,
+			"level": 18
+		},
+		{
+			"year": 2007,
+			"level": 18.1
+		},
+		{
+			"year": 2008,
+			"level": 22.6
+		},
+		{
+			"year": 2009,
+			"level": 25.8
+		},
+		{
+			"year": 2010,
+			"level": 27.1
+		},
+		{
+			"year": 2011,
+			"level": 25.4
+		},
+		{
+			"year": 2012,
+			"level": 36.3
+		},
+		{
+			"year": 2013,
+			"level": 37.1
+		},
+		{
+			"year": 2014,
+			"level": 41
+		},
+		{
+			"year": 2015,
+			"level": 49.7
+		},
+		{
+			"year": 2016,
+			"level": 53.4
+		},
+		{
+			"year": 2017,
+			"level": 53
+		},
+		{
+			"year": 2018,
+			"level": 56.6
+		},
+		{
+			"year": 2019,
+			"level": 63
+		},
+		{
+			"year": 2020,
+			"level": 65.7
+		},
+		{
+			"year": 2021,
+			"level": 69.3
+		},
+		{
+			"year": 2022,
+			"level": 73
+		},
+		{
+			"year": 2023,
+			"level": 78.5
+		},
+		{
+			"year": 2024,
+			"level": 81.9
+		}
+	]
+}

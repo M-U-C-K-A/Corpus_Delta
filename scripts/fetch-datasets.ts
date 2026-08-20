@@ -249,6 +249,173 @@ async function sspWarmingLevels(): Promise<Dataset> {
 	};
 }
 
+/** NSIDC — étendue de la banquise arctique au minimum de septembre. */
+async function arcticSeaIce(): Promise<Dataset> {
+	const url = "https://noaadata.apps.nsidc.org/NOAA/G02135/north/monthly/data/N_09_extent_v4.0.csv";
+	const text = await fetchText(url);
+
+	const rows = text
+		.split("\n")
+		.slice(1)
+		.map((line) => line.split(",").map((cell) => cell.trim()))
+		.filter((parts) => parts.length >= 5 && /^\d{4}$/.test(parts[0]))
+		.map((parts) => ({ year: Number(parts[0]), extent: Number(parts[4]) }))
+		// Les mois non couverts par les satellites portent une valeur sentinelle négative.
+		.filter((row) => Number.isFinite(row.extent) && row.extent > 0);
+
+	return {
+		id: "arctic-sea-ice-september",
+		title: {
+			fr: "Étendue de la banquise arctique en septembre",
+			en: "Arctic sea ice extent in September",
+		},
+		unit: "10⁶ km²",
+		note: {
+			fr: "Moyenne du mois de septembre, celui du minimum annuel. L'étendue compte toute surface couverte par au moins 15 % de glace ; elle recule moins vite que l'épaisseur, plus difficile à observer.",
+			en: "September mean, the month of the annual minimum. Extent counts any surface with at least 15 % ice cover; it declines more slowly than thickness, which is harder to observe.",
+		},
+		source: {
+			label: "Sea Ice Index, Version 4",
+			url: "https://nsidc.org/data/g02135/",
+			publisher: "National Snow and Ice Data Center",
+			accessedAt: today(),
+		},
+		series: [{ key: "extent", label: { fr: "Étendue en septembre", en: "September extent" } }],
+		rows,
+	};
+}
+
+/** NOAA NCEI — contenu thermique de l'océan mondial, couche 0-2000 m. */
+async function oceanHeatContent(): Promise<Dataset> {
+	const url =
+		"https://www.ncei.noaa.gov/data/oceans/woa/DATA_ANALYSIS/3M_HEAT_CONTENT/DATA/basin/yearly/h22-w0-2000m.dat";
+	const text = await fetchText(url);
+
+	const rows = text
+		.split("\n")
+		.map((line) => line.trim().split(/\s+/))
+		.filter((parts) => parts.length >= 2 && /^\d{4}\.\d+$/.test(parts[0]))
+		// L'année est donnée au milieu de l'intervalle : 2005.500 désigne 2005.
+		.map((parts) => ({ year: Math.floor(Number(parts[0])), heat: Number(parts[1]) }))
+		.filter((row) => Number.isFinite(row.heat));
+
+	return {
+		id: "ocean-heat-content",
+		title: {
+			fr: "Contenu thermique de l'océan mondial",
+			en: "Global ocean heat content",
+		},
+		unit: "10²² J",
+		note: {
+			fr: "Chaleur accumulée dans les 2 000 premiers mètres, en écart à la moyenne 1955-2006. L'océan absorbe environ neuf dixièmes de l'excédent d'énergie du système climatique : c'est la mesure la moins bruitée du déséquilibre.",
+			en: "Heat accumulated in the top 2,000 metres, as a departure from the 1955-2006 mean. The ocean takes up around nine tenths of the climate system's energy surplus, making this the least noisy measure of the imbalance.",
+		},
+		source: {
+			label: "Global Ocean Heat and Salt Content",
+			url: "https://www.ncei.noaa.gov/access/global-ocean-heat-content/",
+			publisher: "NOAA National Centers for Environmental Information",
+			accessedAt: today(),
+		},
+		series: [{ key: "heat", label: { fr: "Océan mondial, 0-2000 m", en: "World ocean, 0-2000 m" } }],
+		rows,
+	};
+}
+
+/**
+ * NOAA/LSA — niveau marin moyen mesuré par altimétrie satellitaire.
+ *
+ * Le fichier répartit la série sur cinq colonnes, une par mission successive :
+ * une seule est renseignée à chaque relevé. Les missions étant inter-calibrées
+ * sur la même référence, on les fusionne pour obtenir une moyenne annuelle.
+ */
+async function seaLevel(): Promise<Dataset> {
+	const url = "https://www.star.nesdis.noaa.gov/socd/lsa/SeaLevelRise/slr/slr_sla_gbl_keep_ref_90.csv";
+	const text = await fetchText(url);
+
+	const perYear = new Map<number, number[]>();
+	for (const line of text.split("\n")) {
+		if (!line.trim() || line.startsWith("#") || line.startsWith("year")) continue;
+		const cells = line.split(",");
+		const year = Math.floor(Number(cells[0]));
+		if (!Number.isFinite(year)) continue;
+
+		const value = cells.slice(1).map(Number).find((n) => Number.isFinite(n) && n !== 0);
+		if (value === undefined) continue;
+
+		const bucket = perYear.get(year);
+		if (bucket) bucket.push(value);
+		else perYear.set(year, [value]);
+	}
+
+	const rows = [...perYear.entries()]
+		.sort((a, b) => a[0] - b[0])
+		// Une année entamée fausserait la moyenne : le niveau a un cycle saisonnier.
+		.filter(([, values]) => values.length >= 20)
+		.map(([year, values]) => ({
+			year,
+			level: Math.round((values.reduce((sum, v) => sum + v, 0) / values.length) * 10) / 10,
+		}));
+
+	return {
+		id: "sea-level-altimetry",
+		title: {
+			fr: "Niveau marin moyen global",
+			en: "Global mean sea level",
+		},
+		unit: "mm",
+		note: {
+			fr: "Écart au niveau de référence, mesuré par altimétrie satellitaire depuis 1993. Les valeurs fusionnent les missions successives, inter-calibrées entre elles. Aucune correction d'ajustement isostatique n'est appliquée.",
+			en: "Departure from the reference level, measured by satellite altimetry since 1993. Values merge the successive, mutually calibrated missions. No glacial isostatic adjustment is applied.",
+		},
+		source: {
+			label: "Global Mean Sea Level — Laboratory for Satellite Altimetry",
+			url: "https://www.star.nesdis.noaa.gov/socd/lsa/SeaLevelRise/",
+			publisher: "NOAA Laboratory for Satellite Altimetry",
+			accessedAt: today(),
+		},
+		series: [{ key: "level", label: { fr: "Niveau moyen", en: "Mean level" } }],
+		rows,
+	};
+}
+
+/**
+ * NOAA — forçage radiatif cumulé des gaz à effet de serre à longue durée de vie.
+ *
+ * Le tableau porte deux colonnes nommées « Total » : la première en W/m², la
+ * seconde en ppm d'équivalent CO₂. C'est la première qui nous intéresse.
+ */
+async function greenhouseForcing(): Promise<Dataset> {
+	const text = await fetchText("https://gml.noaa.gov/aggi/AGGI_Table.csv");
+
+	const rows = text
+		.split("\n")
+		.map((line) => line.split(",").map((cell) => cell.trim()))
+		.filter((parts) => parts.length >= 8 && /^\d{4}$/.test(parts[0]))
+		.map((parts) => ({ year: Number(parts[0]), forcing: Number(parts[7]) }))
+		.filter((row) => Number.isFinite(row.forcing));
+
+	return {
+		id: "greenhouse-forcing-aggi",
+		title: {
+			fr: "Forçage radiatif des gaz à effet de serre",
+			en: "Greenhouse gas radiative forcing",
+		},
+		unit: "W/m²",
+		note: {
+			fr: "Somme du forçage exercé par les gaz à longue durée de vie — CO₂, méthane, protoxyde d'azote, halocarbures — par rapport à 1750. C'est la grandeur qui ramène tous ces gaz à une même unité physique.",
+			en: "Combined forcing from the long-lived gases — CO₂, methane, nitrous oxide, halocarbons — relative to 1750. This is the quantity that reduces all of them to a single physical unit.",
+		},
+		source: {
+			label: "The NOAA Annual Greenhouse Gas Index (AGGI)",
+			url: "https://gml.noaa.gov/aggi/",
+			publisher: "NOAA Global Monitoring Laboratory",
+			accessedAt: today(),
+		},
+		series: [{ key: "forcing", label: { fr: "Forçage total", en: "Total forcing" } }],
+		rows,
+	};
+}
+
 const BUILDERS: Record<string, () => Promise<Dataset>> = {
 	"co2-mauna-loa": co2MaunaLoa,
 	"methane-global": methaneGlobal,
@@ -256,6 +423,10 @@ const BUILDERS: Record<string, () => Promise<Dataset>> = {
 	"temperature-anomaly-gistemp": temperatureAnomaly,
 	"ssp-warming-projections": sspWarmingProjections,
 	"ssp-warming-levels": sspWarmingLevels,
+	"arctic-sea-ice-september": arcticSeaIce,
+	"ocean-heat-content": oceanHeatContent,
+	"sea-level-altimetry": seaLevel,
+	"greenhouse-forcing-aggi": greenhouseForcing,
 };
 
 async function main(): Promise<void> {
