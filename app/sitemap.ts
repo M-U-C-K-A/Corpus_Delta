@@ -39,6 +39,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 		["paths", 0.8],
 		["themes", 0.7],
 		["indicators", 0.7],
+		["updates", 0.6],
 		["methodology", 0.5],
 		["contribute", 0.4],
 		["about", 0.4],

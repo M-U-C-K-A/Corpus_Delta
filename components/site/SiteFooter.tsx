@@ -8,6 +8,11 @@ import type { Lang } from "@/lib/i18n/config";
 export function SiteFooter({ lang }: { lang: Lang }) {
 	const dict = getDictionary(lang);
 
+	/*
+	  Trois colonnes plutôt que deux. « Parcourir » approchait de sept liens, et
+	  suivre le site n'est pas parcourir le corpus : les deux entrées de veille
+	  ont leur propre colonne, ce qui allège la première sans rien cacher.
+	*/
 	const columns = [
 		{
 			heading: dict.footer.browse,
@@ -21,18 +26,26 @@ export function SiteFooter({ lang }: { lang: Lang }) {
 			],
 		},
 		{
+			heading: dict.footer.follow,
+			links: [
+				{ label: dict.updates.title, href: route(lang, "updates") },
+				{ label: dict.footer.rss, href: `/${lang}/rss.xml`, external: true },
+			],
+		},
+		{
 			heading: dict.footer.project,
 			links: [
 				{ label: dict.nav.methodology, href: route(lang, "methodology") },
 				{ label: dict.nav.contribute, href: route(lang, "contribute") },
 				{ label: dict.nav.about, href: route(lang, "about") },
+				{ label: dict.footer.sourceCode, href: siteConfig.repository, external: true },
 			],
 		},
 	];
 
 	return (
 		<footer className="mt-20 border-t border-border bg-muted/30">
-			<div className="container grid gap-10 py-12 md:grid-cols-[1.5fr_1fr_1fr]">
+			<div className="container grid gap-10 py-12 sm:grid-cols-2 lg:grid-cols-[1.6fr_1fr_1fr_1fr]">
 				<div className="max-w-sm">
 					<Link href={homeRoute(lang)} className="inline-block">
 						<Wordmark name={siteConfig.name} />
@@ -50,36 +63,26 @@ export function SiteFooter({ lang }: { lang: Lang }) {
 						<ul className="mt-3 space-y-2">
 							{column.links.map((link) => (
 								<li key={link.href}>
-									<Link
-										href={link.href}
-										className="text-sm text-foreground/80 transition-colors hover:text-foreground"
-									>
-										{link.label}
-									</Link>
+									{"external" in link && link.external ? (
+										<a
+											href={link.href}
+											{...(link.href.startsWith("http")
+												? { target: "_blank", rel: "noreferrer" }
+												: {})}
+											className="text-sm text-foreground/80 transition-colors hover:text-foreground"
+										>
+											{link.label}
+										</a>
+									) : (
+										<Link
+											href={link.href}
+											className="text-sm text-foreground/80 transition-colors hover:text-foreground"
+										>
+											{link.label}
+										</Link>
+									)}
 								</li>
 							))}
-							{column.heading === dict.footer.project && (
-								<>
-									<li>
-										<a
-											href={siteConfig.repository}
-											target="_blank"
-											rel="noreferrer"
-											className="text-sm text-foreground/80 transition-colors hover:text-foreground"
-										>
-											{dict.footer.sourceCode}
-										</a>
-									</li>
-									<li>
-										<a
-											href={`/${lang}/rss.xml`}
-											className="text-sm text-foreground/80 transition-colors hover:text-foreground"
-										>
-											{dict.footer.rss}
-										</a>
-									</li>
-								</>
-							)}
 						</ul>
 					</div>
 				))}

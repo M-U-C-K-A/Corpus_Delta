@@ -143,6 +143,14 @@ const fr = {
 		shapeLead:
 			"Nombre d'études et de termes rattachés à chaque thème. Les creux indiquent où le corpus demande encore du travail.",
 	},
+	updates: {
+		title: "Quoi de neuf",
+		lead: "Les ajouts et mises à jour du corpus, du plus récent au plus ancien.",
+		seeded: "Le corpus a été constitué en quelques jours : les premières dates sont donc groupées. L'intérêt de cette page grandira avec l'étalement des ajouts.",
+		entries: "entrées",
+		more: "et {count} autres ce jour-là",
+		follow: "Suivre par flux RSS",
+	},
 	indicators: {
 		title: "Indicateurs",
 		lead: "Les grandeurs de référence du système climatique, telles que les publient les organismes qui les mesurent.",
@@ -202,6 +210,7 @@ const fr = {
 	},
 	footer: {
 		browse: "Parcourir",
+		follow: "Suivre",
 		project: "Le projet",
 		legal: "Mentions",
 		sourceCode: "Code source",
@@ -375,6 +384,14 @@ const en: Dictionary = {
 		shapeLead:
 			"Number of studies and terms attached to each theme. The hollows show where the corpus still needs work.",
 	},
+	updates: {
+		title: "What's new",
+		lead: "Additions and updates to the corpus, most recent first.",
+		seeded: "The corpus was assembled over a few days, so the earliest dates are bunched together. This page grows more useful as additions spread out.",
+		entries: "entries",
+		more: "and {count} more that day",
+		follow: "Follow by RSS",
+	},
 	indicators: {
 		title: "Indicators",
 		lead: "The reference measurements of the climate system, as published by the bodies that record them.",
@@ -434,6 +451,7 @@ const en: Dictionary = {
 	},
 	footer: {
 		browse: "Browse",
+		follow: "Follow",
 		project: "The project",
 		legal: "Legal",
 		sourceCode: "Source code",
