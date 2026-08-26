@@ -33,6 +33,9 @@ jobs:
       - name: Types
         run: pnpm typecheck
 
+      - name: Tests
+        run: pnpm test
+
       # Étape séparée bien que `build` la relance : elle est instantanée et
       # nomme précisément le fichier fautif, là où un build rouge noie l'erreur.
       - name: Schémas et renvois croisés

@@ -97,7 +97,7 @@ async function annualWorldMeans(member: Member, experiment: string): Promise<Map
 	return annual;
 }
 
-function percentile(sorted: number[], p: number): number {
+export function percentile(sorted: number[], p: number): number {
 	const rank = (sorted.length - 1) * p;
 	const low = Math.floor(rank);
 	const high = Math.ceil(rank);
