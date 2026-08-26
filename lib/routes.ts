@@ -17,6 +17,7 @@ export const SECTIONS = {
 	// Même mot dans les deux langues : aucune réécriture nécessaire côté next.config.
 	themes: { fr: "themes", en: "themes" },
 	indicators: { fr: "indicateurs", en: "indicators" },
+	updates: { fr: "quoi-de-neuf", en: "updates" },
 	contribute: { fr: "contribuer", en: "contribute" },
 	methodology: { fr: "methodologie", en: "methodology" },
 	about: { fr: "a-propos", en: "about" },
@@ -32,6 +33,7 @@ export const CANONICAL_SEGMENT: Record<Section, string> = {
 	paths: "paths",
 	themes: "themes",
 	indicators: "indicators",
+	updates: "updates",
 	contribute: "contribute",
 	methodology: "methodology",
 	about: "about",

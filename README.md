@@ -83,6 +83,7 @@ quelques minutes.
 | Dossiers | `/fr/dossiers` | Synthèses thématiques renvoyant à l'annuaire |
 | Parcours | `/fr/parcours` | Séquences de lecture ordonnées |
 | Indicateurs | `/fr/indicateurs` | Séries de référence et comparateur de scénarios |
+| Quoi de neuf | `/fr/quoi-de-neuf` | Journal des ajouts, même source que le flux RSS |
 | Méthode | `/fr/methodologie` | Le contrat du site avec son lecteur |
 
 Une recherche globale est disponible partout au clavier (`⌘K` / `Ctrl+K`). Chaque langue

@@ -9,6 +9,7 @@ const LOCALISED_SEGMENTS = [
 	["dossiers", "topics"],
 	["parcours", "paths"],
 	["indicateurs", "indicators"],
+	["quoi-de-neuf", "updates"],
 	["contribuer", "contribute"],
 	["methodologie", "methodology"],
 	["a-propos", "about"],
