@@ -43,6 +43,7 @@ Le site est servi sur `http://localhost:3000`, redirigé vers `/fr`.
 | `pnpm links:check` | Vérifie que les liens sortants répondent |
 | `pnpm lint` | ESLint |
 | `pnpm typecheck` | Vérification des types, sans émettre |
+| `pnpm test` | Tests unitaires (Vitest) |
 
 ### Ajouter une étude
 
@@ -102,7 +103,10 @@ components/mdx/      Composants disponibles dans les MDX
 components/dither-kit/ Graphiques tramés — voir son README pour les correctifs React 18
 scripts/             Ingestion, validation, contrôle des liens
 scripts/lib/         Agrégations trop volumineuses pour tenir dans un script
-archive/             Version 1 du site, conservée hors build
+tests/               Tests des fonctions de calcul et invariants du corpus
+archive/content-v1/  Contenu de la v1, conservé hors build. Les images, elles,
+                     ne sont plus dans l'arbre de travail : le commit f61612c9
+                     les conserve, `git show f61612c9:public/articles/…` les rend
 ```
 
 ### Écrire un dossier
