@@ -85,6 +85,9 @@ const fr = {
 		inTopics: "Cité dans nos dossiers",
 		glossaryTerms: "Termes du glossaire",
 		editorialNote: "Pourquoi cette étude",
+		ageing: "Publication ancienne",
+		ageingBody:
+			"Ce travail a plus de dix ans. Il peut rester une référence, mais le champ a pu évoluer depuis. Publications plus récentes sur les mêmes thèmes :",
 		allStudies: "Toutes les études",
 		showLessAuthors: "Réduire la liste",
 		authorsTruncated: "Liste limitée aux 20 premiers auteurs sur {count}.",
@@ -314,6 +317,9 @@ const en: Dictionary = {
 		inTopics: "Cited in our topic briefs",
 		glossaryTerms: "Glossary terms",
 		editorialNote: "Why this study",
+		ageing: "Older publication",
+		ageingBody:
+			"This work is more than ten years old. It may still be a reference, but the field may have moved on. More recent publications on the same themes:",
 		allStudies: "All studies",
 		showLessAuthors: "Show fewer",
 		authorsTruncated: "List limited to the first 20 authors out of {count}.",

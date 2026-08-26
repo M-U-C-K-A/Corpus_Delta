@@ -1,14 +1,22 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ArrowUpRight, ChevronRight } from "lucide-react";
+import { ArrowUpRight, ChevronRight, History } from "lucide-react";
 import { Abstract } from "@/components/site/Abstract";
 import { AuthorList } from "@/components/site/AuthorList";
 import { CitationBlock } from "@/components/site/CitationBlock";
 import { DitherBand } from "@/components/site/Dither";
 import { OpenAccessTag, StudyList } from "@/components/site/StudyCard";
 import { ThemeTagList } from "@/components/site/ThemeTag";
-import { getAllStudies, getRelatedStudies, getStudy, getEditorial, displayTitle } from "@/lib/content/studies";
+import {
+	AGEING_YEARS,
+	displayTitle,
+	getAllStudies,
+	getEditorial,
+	getNewerStudies,
+	getRelatedStudies,
+	getStudy,
+} from "@/lib/content/studies";
 import { getGlossaryEntries } from "@/lib/content/glossary";
 import { getTopicsCitingStudy } from "@/lib/content/topics";
 import { toApa, toBibtex } from "@/lib/content/citation";
@@ -55,6 +63,14 @@ export default function StudyPage({ params }: { params: { lang: string; id: stri
 	const dict = getDictionary(lang);
 	const editorial = getEditorial(study, lang);
 	const related = getRelatedStudies(study);
+
+	/*
+	  L'avertissement d'ancienneté n'a d'intérêt que s'il mène quelque part :
+	  répéter « publiée en 2012 » n'apprend rien de plus que la date affichée
+	  deux lignes au-dessus. On ne l'affiche donc que si des travaux plus
+	  récents existent réellement sur les mêmes thèmes.
+	*/
+	const newer = new Date().getFullYear() - study.year >= AGEING_YEARS ? getNewerStudies(study) : [];
 	const terms = getGlossaryEntries(lang, study.glossaryTerms);
 	const citingTopics = getTopicsCitingStudy(lang, study.id);
 
@@ -171,6 +187,33 @@ export default function StudyPage({ params }: { params: { lang: string; id: stri
 							</a>
 						)}
 					</div>
+
+					{newer.length > 0 && (
+						<section className="mt-8 rounded-lg border border-border bg-muted/40 p-4">
+							<h2 className="inline-flex items-center gap-1.5 text-xs font-medium uppercase tracking-[0.09em] text-muted-foreground">
+								<History className="h-3.5 w-3.5" aria-hidden="true" />
+								{dict.studies.ageing}
+							</h2>
+							<p className="mt-2 text-sm leading-relaxed text-muted-foreground">
+								{dict.studies.ageingBody}
+							</p>
+							<ul className="mt-3 space-y-1.5">
+								{newer.map((candidate) => (
+									<li key={candidate.id}>
+										<Link
+											href={route(lang, "studies", candidate.id)}
+											className="group inline-flex items-baseline gap-2 text-sm"
+										>
+											<span className="tabular text-xs text-muted-foreground">{candidate.year}</span>
+											<span className="transition-colors group-hover:text-primary">
+												{displayTitle(candidate)}
+											</span>
+										</Link>
+									</li>
+								))}
+							</ul>
+						</section>
+					)}
 
 					{editorial && (
 						<section className="mt-8 rounded-lg border-l-2 border-primary bg-accent/40 p-4">

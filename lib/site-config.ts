@@ -22,7 +22,13 @@ export const siteConfig = {
 		fr: "Un annuaire de publications scientifiques sur le climat et les risques naturels, avec un glossaire des termes techniques. Chaque référence renvoie à sa source d'origine.",
 		en: "A directory of peer-reviewed research on climate and natural hazards, with a glossary of technical terms. Every reference links back to its original source.",
 	},
-	url: "https://corpus-delta.vercel.app",
+	/**
+	 * URL canonique : URLs absolues du sitemap, du flux RSS et des vignettes de
+	 * partage. Le jour où un vrai domaine remplacera le sous-domaine Vercel, il
+	 * suffira de définir NEXT_PUBLIC_SITE_URL dans les variables d'environnement
+	 * du déploiement — sans toucher au code ni redéployer depuis le dépôt.
+	 */
+	url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://corpus-delta.vercel.app",
 	repository: "https://github.com/M-U-C-K-A/Corpus_Delta",
 	/**
 	 * Adresse transmise aux API bibliographiques (OpenAlex, Crossref) pour accéder
