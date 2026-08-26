@@ -49,6 +49,15 @@ const CONTENT: Record<Lang, { heading: string; body: string[] }[]> = {
 			],
 		},
 		{
+			heading: "Comment une étude est retenue",
+			body: [
+				"Quatre critères, dans cet ordre. La publication doit avoir passé une évaluation par les pairs, ou émaner d'une institution scientifique dont la procédure de relecture est publique — GIEC, agences spatiales, services météorologiques nationaux. Un préprint n'est référencé que s'il fait autorité dans son domaine, et son statut est alors affiché.",
+				"Priorité est donnée aux synthèses et aux méta-analyses sur les études primaires isolées : une revue de littérature dit ce qu'établit un champ, un résultat unique dit ce qu'a trouvé une équipe. Cette hiérarchie évite de donner à un travail exploratoire le même poids qu'à un consensus.",
+				"Le comptage de citations sert de signal, pas de critère. Il repère les travaux structurants d'un domaine, mais favorise mécaniquement les publications anciennes et les sujets populaires : il est corrigé à la main pour ne pas laisser des pans entiers du corpus dans l'ombre.",
+				"Enfin, la couverture thématique est surveillée. Un thème sous-représenté est complété délibérément, ce qui est visible sur le radar de la page Thèmes. Un annuaire dont l'équilibre ne dépendrait que des hasards de la recherche donnerait une image faussée de la littérature.",
+			],
+		},
+		{
 			heading: "Les résumés et les nombres",
 			body: [
 				"Les résumés affichés sont ceux des éditeurs, reproduits sans reformulation. Certains éditeurs n'en diffusent pas de version réutilisable : la fiche renvoie alors directement au DOI.",
@@ -89,6 +98,15 @@ const CONTENT: Record<Lang, { heading: string; body: string[] }[]> = {
 			body: [
 				"Assigning a study to a theme, including it in a topic brief, and any contextual note are human decisions made when the study is added. They are fallible and open to challenge.",
 				"The selection of indexed studies does not follow a systematic protocol: this is not a literature review. It favours peer-reviewed work, reports from scientific institutions, and widely cited syntheses.",
+			],
+		},
+		{
+			heading: "How a study is selected",
+			body: [
+				"Four criteria, in this order. The publication must have been peer-reviewed, or come from a scientific institution whose review procedure is public — the IPCC, space agencies, national weather services. A preprint is indexed only if it carries authority in its field, and its status is then displayed.",
+				"Priority goes to syntheses and meta-analyses over isolated primary studies: a literature review states what a field has established, a single result states what one team found. This ordering avoids giving exploratory work the same weight as a consensus.",
+				"Citation counts serve as a signal, not a criterion. They identify the structuring work of a field, but mechanically favour older publications and popular subjects: they are corrected by hand so that whole parts of the corpus are not left in the dark.",
+				"Finally, thematic coverage is watched. An under-represented theme is filled in deliberately, which the radar on the Themes page makes visible. A directory whose balance depended only on the accidents of research would give a distorted picture of the literature.",
 			],
 		},
 		{

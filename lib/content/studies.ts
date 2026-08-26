@@ -103,6 +103,28 @@ export function getRelatedStudies(study: Study, limit = 4): Study[] {
 		.map(({ study: related }) => related);
 }
 
+/** Ancienneté au-delà de laquelle une fiche invite à chercher plus récent. */
+export const AGEING_YEARS = 10;
+
+/**
+ * Travaux nettement plus récents partageant un thème avec l'étude donnée.
+ *
+ * Sert l'avertissement d'ancienneté : signaler qu'une publication a plus de dix
+ * ans ne dit rien que la date ne dise déjà. Ce qui manque au lecteur, c'est la
+ * suite — d'où une liste, et l'avertissement seulement quand elle existe.
+ */
+export function getNewerStudies(study: Study, limit = 3): Study[] {
+	return getAllStudies()
+		.filter(
+			(candidate) =>
+				candidate.id !== study.id &&
+				candidate.year >= study.year + AGEING_YEARS &&
+				candidate.themes.some((theme) => study.themes.includes(theme))
+		)
+		.sort((a, b) => b.year - a.year || (b.citedByCount ?? 0) - (a.citedByCount ?? 0))
+		.slice(0, limit);
+}
+
 export function getEditorial(study: Study, lang: Lang) {
 	return study.editorial?.[lang] ?? null;
 }
