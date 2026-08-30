@@ -1,0 +1,132 @@
+{
+	"id": "fowler-2021-anthropogenic-intensification-short-duration-rainfall",
+	"doi": "10.1038/s43017-020-00128-6",
+	"title": "Anthropogenic intensification of short-duration rainfall extremes",
+	"authors": [
+		{
+			"name": "Hayley J. Fowler",
+			"orcid": "https://orcid.org/0000-0001-8848-3606",
+			"affiliation": "Newcastle University"
+		},
+		{
+			"name": "Geert Lenderink",
+			"orcid": "https://orcid.org/0000-0002-1572-4867",
+			"affiliation": "Royal Netherlands Meteorological Institute"
+		},
+		{
+			"name": "Andreas F. Prein",
+			"orcid": "https://orcid.org/0000-0001-6250-179X",
+			"affiliation": "NSF National Center for Atmospheric Research"
+		},
+		{
+			"name": "Seth Westra",
+			"orcid": "https://orcid.org/0000-0003-4023-6061",
+			"affiliation": "The University of Adelaide"
+		},
+		{
+			"name": "Richard P. Allan",
+			"orcid": "https://orcid.org/0000-0003-0264-9447",
+			"affiliation": "National Centre for Earth Observation"
+		},
+		{
+			"name": "Nikolina Ban",
+			"orcid": "https://orcid.org/0000-0002-1672-3655",
+			"affiliation": "Universität Innsbruck"
+		},
+		{
+			"name": "Renaud Barbero",
+			"orcid": "https://orcid.org/0000-0001-8610-0018",
+			"affiliation": "Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement"
+		},
+		{
+			"name": "Peter Berg",
+			"orcid": "https://orcid.org/0000-0002-1469-2568",
+			"affiliation": "Swedish Meteorological and Hydrological Institute"
+		},
+		{
+			"name": "Stephen Blenkinsop",
+			"orcid": "https://orcid.org/0000-0003-0790-6545",
+			"affiliation": "Newcastle University"
+		},
+		{
+			"name": "Hong X. Do",
+			"orcid": "https://orcid.org/0000-0001-9169-579X",
+			"affiliation": "University of Michigan"
+		},
+		{
+			"name": "Selma B. Guerreiro",
+			"orcid": "https://orcid.org/0000-0001-7129-4219",
+			"affiliation": "Newcastle University"
+		},
+		{
+			"name": "Jan O. Haerter",
+			"orcid": "https://orcid.org/0000-0002-8617-3847",
+			"affiliation": "University of Copenhagen"
+		},
+		{
+			"name": "Elizabeth Kendon",
+			"orcid": "https://orcid.org/0000-0003-1538-2147",
+			"affiliation": "Met Office"
+		},
+		{
+			"name": "Elizabeth Lewis",
+			"orcid": "https://orcid.org/0000-0002-7471-9988",
+			"affiliation": "Newcastle University"
+		},
+		{
+			"name": "Christoph Schaer",
+			"affiliation": "ETH Zurich"
+		},
+		{
+			"name": "Ashish Sharma",
+			"orcid": "https://orcid.org/0000-0002-6758-0519",
+			"affiliation": "UNSW Sydney"
+		},
+		{
+			"name": "Gabriele Villarini",
+			"orcid": "https://orcid.org/0000-0001-9566-2370",
+			"affiliation": "University of Iowa"
+		},
+		{
+			"name": "Conrad Wasko",
+			"orcid": "https://orcid.org/0000-0002-9166-8289",
+			"affiliation": "The University of Melbourne"
+		},
+		{
+			"name": "Xuebin Zhang",
+			"orcid": "https://orcid.org/0000-0002-6551-6249",
+			"affiliation": "Environment and Climate Change Canada"
+		}
+	],
+	"authorCount": 19,
+	"venue": "Nature Reviews Earth & Environment",
+	"publisher": "Nature Portfolio",
+	"year": 2021,
+	"type": "article",
+	"abstract": null,
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "green",
+		"url": "https://research.manchester.ac.uk/en/publications/bc7cf173-1afa-4543-86c9-ad269efa0c21"
+	},
+	"citedByCount": 896,
+	"themes": [
+		"eau",
+		"risques"
+	],
+	"sourceTopics": [
+		"Flood Risk Assessment and Management",
+		"Climate variability and models",
+		"Hydrology and Drought Analysis"
+	],
+	"url": "https://doi.org/10.1038/s43017-020-00128-6",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-30"
+	},
+	"addedAt": "2026-08-30",
+	"editorial": {},
+	"glossaryTerms": [],
+	"typeOverride": "review"
+}

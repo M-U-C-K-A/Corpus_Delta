@@ -1,0 +1,92 @@
+{
+	"id": "ebi-2021-extreme-weather-climate-change-population",
+	"doi": "10.1146/annurev-publhealth-012420-105026",
+	"title": "Extreme Weather and Climate Change: Population Health and Health System Implications",
+	"authors": [
+		{
+			"name": "Kristie L. Ebi",
+			"orcid": "https://orcid.org/0000-0003-4746-8236",
+			"affiliation": "University of Washington"
+		},
+		{
+			"name": "Jennifer Vanos",
+			"orcid": "https://orcid.org/0000-0003-1854-9096",
+			"affiliation": "Arizona State University"
+		},
+		{
+			"name": "Jane W. Baldwin",
+			"orcid": "https://orcid.org/0000-0002-4174-2743",
+			"affiliation": "Lamont-Doherty Earth Observatory"
+		},
+		{
+			"name": "Jesse E. Bell",
+			"orcid": "https://orcid.org/0000-0001-5011-9614",
+			"affiliation": "University of Nebraska Medical Center"
+		},
+		{
+			"name": "David M. Hondula",
+			"orcid": "https://orcid.org/0000-0003-2465-2671",
+			"affiliation": "Arizona State University"
+		},
+		{
+			"name": "Nicole A. Errett",
+			"orcid": "https://orcid.org/0000-0002-8247-8336",
+			"affiliation": "University of Washington"
+		},
+		{
+			"name": "Katie Hayes",
+			"orcid": "https://orcid.org/0000-0001-8113-5828",
+			"affiliation": "University of Toronto"
+		},
+		{
+			"name": "Colleen E. Reid",
+			"orcid": "https://orcid.org/0000-0001-8572-1162",
+			"affiliation": "University of Colorado Boulder"
+		},
+		{
+			"name": "Shubhayu Saha",
+			"orcid": "https://orcid.org/0000-0002-4770-8773",
+			"affiliation": "Emory University"
+		},
+		{
+			"name": "June T. Spector",
+			"orcid": "https://orcid.org/0000-0002-0761-1256",
+			"affiliation": "University of Washington"
+		},
+		{
+			"name": "Peter Berry",
+			"affiliation": "University of Waterloo"
+		}
+	],
+	"authorCount": 11,
+	"venue": "Annual Review of Public Health",
+	"publisher": "Annual Reviews",
+	"year": 2021,
+	"type": "article",
+	"abstract": "Extreme weather and climate events, such as heat waves, cyclones, and floods, are an expression of climate variability. These events and events influenced by climate change, such as wildfires, continue to cause significant human morbidity and mortality and adversely affect mental health and well-being. Although adverse health impacts from extreme events declined over the past few decades, climate change and more people moving into harm's way could alter this trend. Long-term changes to Earth's energy balance are increasing the frequency and intensity of many extreme events and the probability of compound events, with trends projected to accelerate under certain greenhouse gas emissions scenarios. While most of these events cannot be completely avoided, many of the health risks could be prevented through building climate-resilient health systems with improved risk reduction, preparation, response, and recovery. Conducting vulnerability and adaptation assessments and developing health system adaptation plans can identify priority actions to effectively reduce risks, such as disaster risk management and more resilient infrastructure. The risks are urgent, so action is needed now.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "hybrid",
+		"url": "https://doi.org/10.1146/annurev-publhealth-012420-105026"
+	},
+	"citedByCount": 1172,
+	"themes": [
+		"sante",
+		"risques"
+	],
+	"sourceTopics": [
+		"Climate Change and Health Impacts",
+		"Disaster Response and Management",
+		"Health and Conflict Studies"
+	],
+	"url": "https://doi.org/10.1146/annurev-publhealth-012420-105026",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-30"
+	},
+	"addedAt": "2026-08-30",
+	"editorial": {},
+	"glossaryTerms": [],
+	"typeOverride": "review"
+}

@@ -1,0 +1,81 @@
+{
+	"id": "zhou-2019-land-atmosphere-feedbacks-exacerbate-concurrent",
+	"doi": "10.1073/pnas.1904955116",
+	"title": "Land–atmosphere feedbacks exacerbate concurrent soil drought and atmospheric aridity",
+	"authors": [
+		{
+			"name": "Sha Zhou",
+			"orcid": "https://orcid.org/0000-0001-7161-5959",
+			"affiliation": "Lamont-Doherty Earth Observatory"
+		},
+		{
+			"name": "Park Williams",
+			"orcid": "https://orcid.org/0000-0001-8176-8166",
+			"affiliation": "Lamont-Doherty Earth Observatory"
+		},
+		{
+			"name": "Alexis Berg",
+			"orcid": "https://orcid.org/0000-0002-7580-2521",
+			"affiliation": "Princeton University"
+		},
+		{
+			"name": "Benjamin I. Cook",
+			"affiliation": "Goddard Institute for Space Studies"
+		},
+		{
+			"name": "Yao Zhang",
+			"orcid": "https://orcid.org/0000-0002-7468-2409",
+			"affiliation": "Columbia University"
+		},
+		{
+			"name": "Stefan Hagemann",
+			"orcid": "https://orcid.org/0000-0001-5444-2945",
+			"affiliation": "Helmholtz-Zentrum Hereon"
+		},
+		{
+			"name": "Ruth Lorenz",
+			"orcid": "https://orcid.org/0000-0002-3986-1268",
+			"affiliation": "Board of the Swiss Federal Institutes of Technology"
+		},
+		{
+			"name": "Sonia I. Seneviratne",
+			"orcid": "https://orcid.org/0000-0001-9528-2917",
+			"affiliation": "Board of the Swiss Federal Institutes of Technology"
+		},
+		{
+			"name": "Pierre Gentine",
+			"orcid": "https://orcid.org/0000-0002-0845-8345",
+			"affiliation": "Earth Island Institute"
+		}
+	],
+	"authorCount": 9,
+	"venue": "Proceedings of the National Academy of Sciences",
+	"publisher": "National Academy of Sciences",
+	"year": 2019,
+	"type": "article",
+	"abstract": "Compound extremes such as cooccurring soil drought (low soil moisture) and atmospheric aridity (high vapor pressure deficit) can be disastrous for natural and societal systems. Soil drought and atmospheric aridity are 2 main physiological stressors driving widespread vegetation mortality and reduced terrestrial carbon uptake. Here, we empirically demonstrate that strong negative coupling between soil moisture and vapor pressure deficit occurs globally, indicating high probability of cooccurring soil drought and atmospheric aridity. Using the Global Land Atmosphere Coupling Experiment (GLACE)-CMIP5 experiment, we further show that concurrent soil drought and atmospheric aridity are greatly exacerbated by land-atmosphere feedbacks. The feedback of soil drought on the atmosphere is largely responsible for enabling atmospheric aridity extremes. In addition, the soil moisture-precipitation feedback acts to amplify precipitation and soil moisture deficits in most regions. CMIP5 models further show that the frequency of concurrent soil drought and atmospheric aridity enhanced by land-atmosphere feedbacks is projected to increase in the 21st century. Importantly, land-atmosphere feedbacks will greatly increase the intensity of both soil drought and atmospheric aridity beyond that expected from changes in mean climate alone.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "bronze",
+		"url": "https://www.pnas.org/content/pnas/116/38/18848.full.pdf"
+	},
+	"citedByCount": 701,
+	"themes": [
+		"eau",
+		"chaleur"
+	],
+	"sourceTopics": [
+		"Climate variability and models",
+		"Plant Water Relations and Carbon Dynamics",
+		"Tree-ring climate responses"
+	],
+	"url": "https://doi.org/10.1073/pnas.1904955116",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-30"
+	},
+	"addedAt": "2026-08-30",
+	"editorial": {},
+	"glossaryTerms": []
+}

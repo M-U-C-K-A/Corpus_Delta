@@ -1,0 +1,135 @@
+{
+	"id": "sherwood-2020-assessment-earths-climate-sensitivity-using",
+	"doi": "10.1029/2019rg000678",
+	"title": "An Assessment of Earth's Climate Sensitivity Using Multiple Lines of Evidence",
+	"authors": [
+		{
+			"name": "Steven C. Sherwood",
+			"orcid": "https://orcid.org/0000-0001-7420-8216",
+			"affiliation": "UNSW Sydney"
+		},
+		{
+			"name": "Mark J. Webb",
+			"orcid": "https://orcid.org/0000-0002-7709-7088",
+			"affiliation": "Met Office"
+		},
+		{
+			"name": "J. D. Annan",
+			"affiliation": "Blue Sky Research (United States)"
+		},
+		{
+			"name": "Kyle C. Armour",
+			"orcid": "https://orcid.org/0000-0002-6833-5179",
+			"affiliation": "University of Washington"
+		},
+		{
+			"name": "Piers Forster",
+			"orcid": "https://orcid.org/0000-0002-6078-0171",
+			"affiliation": "University of Leeds"
+		},
+		{
+			"name": "J. C. Hargreaves",
+			"orcid": "https://orcid.org/0000-0002-4217-5023",
+			"affiliation": "Blue Sky Research (United States)"
+		},
+		{
+			"name": "Gabriele C. Hegerl",
+			"orcid": "https://orcid.org/0000-0002-4159-1295",
+			"affiliation": "University of Edinburgh"
+		},
+		{
+			"name": "Stephen A. Klein",
+			"orcid": "https://orcid.org/0000-0002-5476-858X",
+			"affiliation": "Leech Lake Tribal College"
+		},
+		{
+			"name": "Kate Marvel",
+			"orcid": "https://orcid.org/0000-0002-9771-6720",
+			"affiliation": "Goddard Institute for Space Studies"
+		},
+		{
+			"name": "Eelco J. Rohling",
+			"orcid": "https://orcid.org/0000-0001-5349-2158",
+			"affiliation": "Australian National University"
+		},
+		{
+			"name": "Masahiro Watanabe",
+			"orcid": "https://orcid.org/0000-0001-6500-2101",
+			"affiliation": "The University of Tokyo"
+		},
+		{
+			"name": "Timothy Andrews",
+			"orcid": "https://orcid.org/0000-0002-8248-8753",
+			"affiliation": "Met Office"
+		},
+		{
+			"name": "Pascale Braconnot",
+			"orcid": "https://orcid.org/0000-0002-1852-9178",
+			"affiliation": "Centre National de la Recherche Scientifique"
+		},
+		{
+			"name": "Christopher S. Bretherton",
+			"orcid": "https://orcid.org/0000-0002-6712-8856",
+			"affiliation": "University of Washington"
+		},
+		{
+			"name": "Gavin L. Foster",
+			"orcid": "https://orcid.org/0000-0003-3688-9668",
+			"affiliation": "National Oceanography Centre"
+		},
+		{
+			"name": "Zeke Hausfather",
+			"orcid": "https://orcid.org/0000-0002-2926-0581",
+			"affiliation": "Breakthrough Institute"
+		},
+		{
+			"name": "Anna S. von der Heydt",
+			"orcid": "https://orcid.org/0000-0002-5557-3282",
+			"affiliation": "University of Applied Sciences Utrecht"
+		},
+		{
+			"name": "Reto Knutti",
+			"orcid": "https://orcid.org/0000-0001-8303-6700"
+		},
+		{
+			"name": "Thorsten Mauritsen",
+			"orcid": "https://orcid.org/0000-0003-1418-4077",
+			"affiliation": "Stockholm University"
+		},
+		{
+			"name": "Joel R. Norris",
+			"orcid": "https://orcid.org/0000-0003-4384-0977",
+			"affiliation": "Scripps Institution of Oceanography"
+		}
+	],
+	"authorCount": 25,
+	"venue": "Reviews of Geophysics",
+	"publisher": "Wiley",
+	"year": 2020,
+	"type": "article",
+	"abstract": "Abstract We assess evidence relevant to Earth's equilibrium climate sensitivity per doubling of atmospheric CO 2 , characterized by an effective sensitivity S . This evidence includes feedback process understanding, the historical climate record, and the paleoclimate record. An S value lower than 2 K is difficult to reconcile with any of the three lines of evidence. The amount of cooling during the Last Glacial Maximum provides strong evidence against values of S greater than 4.5 K. Other lines of evidence in combination also show that this is relatively unlikely. We use a Bayesian approach to produce a probability density function (PDF) for S given all the evidence, including tests of robustness to difficult‐to‐quantify uncertainties and different priors. The 66% range is 2.6–3.9 K for our Baseline calculation and remains within 2.3–4.5 K under the robustness tests; corresponding 5–95% ranges are 2.3–4.7 K, bounded by 2.0–5.7 K (although such high‐confidence ranges should be regarded more cautiously). This indicates a stronger constraint on S than reported in past assessments, by lifting the low end of the range. This narrowing occurs because the three lines of evidence agree and are judged to be largely independent and because of greater confidence in understanding feedback processes and in combining evidence. We identify promising avenues for further narrowing the range in S , in particular using comprehensive models and process understanding to address limitations in the traditional forcing‐feedback paradigm for interpreting past changes.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "bronze",
+		"url": "https://agupubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2019RG000678"
+	},
+	"citedByCount": 1319,
+	"themes": [
+		"modelisation"
+	],
+	"sourceTopics": [
+		"Climate variability and models",
+		"Meteorological Phenomena and Simulations",
+		"Atmospheric and Environmental Gas Dynamics"
+	],
+	"url": "https://doi.org/10.1029/2019rg000678",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-30"
+	},
+	"addedAt": "2026-08-30",
+	"editorial": {},
+	"glossaryTerms": [],
+	"typeOverride": "review"
+}

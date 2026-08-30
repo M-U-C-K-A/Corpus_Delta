@@ -1,0 +1,67 @@
+{
+	"id": "vanos-2023-physiological-approach-assessing-human-survivability",
+	"doi": "10.1038/s41467-023-43121-5",
+	"title": "A physiological approach for assessing human survivability and liveability to heat in a changing climate",
+	"authors": [
+		{
+			"name": "Jennifer Vanos",
+			"orcid": "https://orcid.org/0000-0003-1854-9096",
+			"affiliation": "Arizona State University"
+		},
+		{
+			"name": "Gisel Guzmán-Echavarría",
+			"orcid": "https://orcid.org/0000-0002-4953-8587",
+			"affiliation": "Arizona State University"
+		},
+		{
+			"name": "Jane W. Baldwin",
+			"orcid": "https://orcid.org/0000-0002-4174-2743",
+			"affiliation": "Lamont-Doherty Earth Observatory"
+		},
+		{
+			"name": "Coen C. W. G. Bongers",
+			"orcid": "https://orcid.org/0000-0003-0055-5308",
+			"affiliation": "The University of Sydney"
+		},
+		{
+			"name": "Kristie L. Ebi",
+			"orcid": "https://orcid.org/0000-0003-4746-8236",
+			"affiliation": "University of Washington"
+		},
+		{
+			"name": "Ollie Jay",
+			"orcid": "https://orcid.org/0000-0002-6076-6337",
+			"affiliation": "The University of Sydney"
+		}
+	],
+	"authorCount": 6,
+	"venue": "Nature Communications",
+	"publisher": "Nature Portfolio",
+	"year": 2023,
+	"type": "article",
+	"abstract": "Abstract Most studies projecting human survivability limits to extreme heat with climate change use a 35 °C wet-bulb temperature (T w ) threshold without integrating variations in human physiology. This study applies physiological and biophysical principles for young and older adults, in sun or shade, to improve current estimates of survivability and introduce liveability (maximum safe, sustained activity) under current and future climates. Our physiology-based survival limits show a vast underestimation of risks by the 35 °C T w model in hot-dry conditions. Updated survivability limits correspond to T w ~25.8–34.1 °C (young) and ~21.9–33.7 °C (old)—0.9–13.1 °C lower than T w = 35 °C. For older female adults, estimates are ~7.2–13.1 °C lower than 35 °C in dry conditions. Liveability declines with sun exposure and humidity, yet most dramatically with age (2.5–3.0 METs lower for older adults). Reductions in safe activity for younger and older adults between the present and future indicate a stronger impact from aging than warming.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "gold",
+		"url": "https://www.nature.com/articles/s41467-023-43121-5.pdf"
+	},
+	"citedByCount": 192,
+	"themes": [
+		"chaleur",
+		"sante"
+	],
+	"sourceTopics": [
+		"Climate Change and Health Impacts",
+		"Thermoregulation and physiological responses",
+		"Spaceflight effects on biology"
+	],
+	"url": "https://doi.org/10.1038/s41467-023-43121-5",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-30"
+	},
+	"addedAt": "2026-08-30",
+	"editorial": {},
+	"glossaryTerms": []
+}

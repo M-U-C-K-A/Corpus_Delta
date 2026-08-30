@@ -1,0 +1,81 @@
+{
+	"id": "hepburn-2019-technological-economic-prospects-co2-utilization",
+	"doi": "10.1038/s41586-019-1681-6",
+	"title": "The technological and economic prospects for CO2 utilization and removal",
+	"authors": [
+		{
+			"name": "Cameron Hepburn",
+			"orcid": "https://orcid.org/0000-0003-0467-7441",
+			"affiliation": "University of Oxford"
+		},
+		{
+			"name": "Ella Adlen",
+			"orcid": "https://orcid.org/0000-0003-0626-8246",
+			"affiliation": "University of Oxford"
+		},
+		{
+			"name": "J. R. Beddington",
+			"affiliation": "University of Oxford"
+		},
+		{
+			"name": "Emily A. Carter",
+			"orcid": "https://orcid.org/0000-0001-7330-7554",
+			"affiliation": "University of California, Los Angeles"
+		},
+		{
+			"name": "Sabine Fuss",
+			"orcid": "https://orcid.org/0000-0002-8681-9839",
+			"affiliation": "Humboldt-Universität zu Berlin"
+		},
+		{
+			"name": "Niall Mac Dowell",
+			"orcid": "https://orcid.org/0000-0002-0207-2900",
+			"affiliation": "Imperial College London"
+		},
+		{
+			"name": "Jan C. Minx",
+			"orcid": "https://orcid.org/0000-0002-2862-0178",
+			"affiliation": "University of Leeds"
+		},
+		{
+			"name": "Pete Smith",
+			"orcid": "https://orcid.org/0000-0002-3784-1124",
+			"affiliation": "University of Aberdeen"
+		},
+		{
+			"name": "Charlotte K. Williams",
+			"orcid": "https://orcid.org/0000-0002-0734-1575",
+			"affiliation": "University of Oxford"
+		}
+	],
+	"authorCount": 9,
+	"venue": "Nature",
+	"publisher": "Nature Portfolio",
+	"year": 2019,
+	"type": "article",
+	"abstract": null,
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "bronze",
+		"url": "https://www.nature.com/articles/s41586-019-1681-6.pdf"
+	},
+	"citedByCount": 2396,
+	"themes": [
+		"carbone",
+		"energie"
+	],
+	"sourceTopics": [
+		"Carbon Dioxide Capture Technologies",
+		"Algal biology and biofuel production",
+		"Atmospheric and Environmental Gas Dynamics"
+	],
+	"url": "https://doi.org/10.1038/s41586-019-1681-6",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-30"
+	},
+	"addedAt": "2026-08-30",
+	"editorial": {},
+	"glossaryTerms": []
+}

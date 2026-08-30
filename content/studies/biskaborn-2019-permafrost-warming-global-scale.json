@@ -1,0 +1,134 @@
+{
+	"id": "biskaborn-2019-permafrost-warming-global-scale",
+	"doi": "10.1038/s41467-018-08240-4",
+	"title": "Permafrost is warming at a global scale",
+	"authors": [
+		{
+			"name": "Boris K. Biskaborn",
+			"orcid": "https://orcid.org/0000-0003-2378-0348",
+			"affiliation": "Alfred-Wegener-Institut Helmholtz-Zentrum für Polar- und Meeresforschung"
+		},
+		{
+			"name": "Sharon L. Smith",
+			"orcid": "https://orcid.org/0000-0002-0059-094X",
+			"affiliation": "Natural Resources Canada"
+		},
+		{
+			"name": "Jeannette Noetzli",
+			"orcid": "https://orcid.org/0000-0001-9188-6318"
+		},
+		{
+			"name": "Heidrun Matthes",
+			"orcid": "https://orcid.org/0000-0001-9913-7696",
+			"affiliation": "Alfred-Wegener-Institut Helmholtz-Zentrum für Polar- und Meeresforschung"
+		},
+		{
+			"name": "Gonçalo Vieira",
+			"orcid": "https://orcid.org/0000-0001-7611-3464",
+			"affiliation": "University of Lisbon"
+		},
+		{
+			"name": "D. A. Streletskiy",
+			"orcid": "https://orcid.org/0000-0003-2563-2664",
+			"affiliation": "George Washington University"
+		},
+		{
+			"name": "Philippe Schoeneich",
+			"orcid": "https://orcid.org/0000-0002-3143-5547",
+			"affiliation": "Laboratoire d'Écologie Alpine"
+		},
+		{
+			"name": "V. E. Romanovsky",
+			"orcid": "https://orcid.org/0000-0002-9515-2087",
+			"affiliation": "University of Alaska Fairbanks"
+		},
+		{
+			"name": "Antoni G. Lewkowicz",
+			"orcid": "https://orcid.org/0000-0002-9307-2147",
+			"affiliation": "University of Ottawa"
+		},
+		{
+			"name": "Andrey Abramov",
+			"orcid": "https://orcid.org/0000-0002-3602-1159",
+			"affiliation": "Institute of Physical-Chemical and Biological Problems in Soil Science"
+		},
+		{
+			"name": "Michel Allard",
+			"orcid": "https://orcid.org/0000-0002-7945-3138",
+			"affiliation": "Center for Northern Studies"
+		},
+		{
+			"name": "Julia Boike",
+			"orcid": "https://orcid.org/0000-0002-5875-2112",
+			"affiliation": "Alfred-Wegener-Institut Helmholtz-Zentrum für Polar- und Meeresforschung"
+		},
+		{
+			"name": "William Cable",
+			"orcid": "https://orcid.org/0000-0002-7951-3946",
+			"affiliation": "Alfred-Wegener-Institut Helmholtz-Zentrum für Polar- und Meeresforschung"
+		},
+		{
+			"name": "Hanne H. Christiansen",
+			"orcid": "https://orcid.org/0000-0002-6218-3493"
+		},
+		{
+			"name": "Reynald Delaloye",
+			"orcid": "https://orcid.org/0000-0002-2037-2018",
+			"affiliation": "University of Fribourg"
+		},
+		{
+			"name": "Bernhard Diekmann",
+			"orcid": "https://orcid.org/0000-0001-5129-3649",
+			"affiliation": "Alfred-Wegener-Institut Helmholtz-Zentrum für Polar- und Meeresforschung"
+		},
+		{
+			"name": "Dmitry Drozdov",
+			"orcid": "https://orcid.org/0000-0001-8864-3657",
+			"affiliation": "Earth Cryosphere Institute"
+		},
+		{
+			"name": "Bernd Etzelmüller",
+			"orcid": "https://orcid.org/0000-0001-5156-3653",
+			"affiliation": "University of Oslo"
+		},
+		{
+			"name": "Guido Grosse",
+			"orcid": "https://orcid.org/0000-0001-5895-2141",
+			"affiliation": "Alfred-Wegener-Institut Helmholtz-Zentrum für Polar- und Meeresforschung"
+		},
+		{
+			"name": "Mauro Guglielmin",
+			"orcid": "https://orcid.org/0000-0002-5966-9572",
+			"affiliation": "University of Insubria"
+		}
+	],
+	"authorCount": 48,
+	"venue": "Nature Communications",
+	"publisher": "Nature Portfolio",
+	"year": 2019,
+	"type": "article",
+	"abstract": "Permafrost warming has the potential to amplify global climate change, because when frozen sediments thaw it unlocks soil organic carbon. Yet to date, no globally consistent assessment of permafrost temperature change has been compiled. Here we use a global data set of permafrost temperature time series from the Global Terrestrial Network for Permafrost to evaluate temperature change across permafrost regions for the period since the International Polar Year (2007-2009). During the reference decade between 2007 and 2016, ground temperature near the depth of zero annual amplitude in the continuous permafrost zone increased by 0.39 ± 0.15 °C. Over the same period, discontinuous permafrost warmed by 0.20 ± 0.10 °C. Permafrost in mountains warmed by 0.19 ± 0.05 °C and in Antarctica by 0.37 ± 0.10 °C. Globally, permafrost temperature increased by 0.29 ± 0.12 °C. The observed trend follows the Arctic amplification of air temperature increase in the Northern Hemisphere. In the discontinuous zone, however, ground warming occurred due to increased snow thickness while air temperature remained statistically unchanged.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "gold",
+		"url": "https://www.nature.com/articles/s41467-018-08240-4.pdf"
+	},
+	"citedByCount": 2118,
+	"themes": [
+		"cryosphere"
+	],
+	"sourceTopics": [
+		"Climate change and permafrost",
+		"Cryospheric studies and observations",
+		"Arctic and Antarctic ice dynamics"
+	],
+	"url": "https://doi.org/10.1038/s41467-018-08240-4",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-30"
+	},
+	"addedAt": "2026-08-30",
+	"editorial": {},
+	"glossaryTerms": []
+}
