@@ -147,7 +147,7 @@ const fr = {
 	author: {
 		title: "Qui écrit ce site",
 		eyebrow: "L'auteur",
-		lead: "Développeur web, vingt-quatre ans. Je n'apporte pas de science à ce projet : j'apporte de l'accès.",
+		lead: "Développeur, vingt-quatre ans. Je n'apporte pas de science à ce projet, j'apporte le chemin qui y mène.",
 		reach: "Me joindre",
 		githubLabel: "GitHub",
 	},
@@ -396,7 +396,7 @@ const en: Dictionary = {
 	author: {
 		title: "Who writes this site",
 		eyebrow: "The author",
-		lead: "Web developer, twenty-four. I bring no science to this project: I bring access.",
+		lead: "Developer, twenty-four. I bring no science to this project, I bring the way in.",
 		reach: "Get in touch",
 		githubLabel: "GitHub",
 	},
