@@ -32,26 +32,28 @@ export function generateMetadata({ params }: { params: { lang: string } }) {
 const CONTENT: Record<Lang, { heading: string; body: string[] }[]> = {
 	fr: [
 		{
-			heading: "Ce que je fais",
+			heading: "Développeur",
 			body: [
-				"Je suis développeur web. J'ai vingt-quatre ans, et ce site est né d'une frustration simple : les données sur le climat existent, elles sont publiques, souvent gratuites — et pourtant presque personne ne les consulte à la source. Entre le fichier brut d'un observatoire et ce qu'en comprend quelqu'un qui n'est pas du métier, il manque un travail que personne n'a intérêt à faire. C'est celui-là qui m'intéresse.",
-				"Mon métier consiste à rendre de l'information manipulable : la récupérer là où elle se trouve, la structurer, la présenter de façon qu'on puisse s'en servir. Appliqué au climat, ça donne ce site. Je n'apporte pas de science ; j'apporte de l'accès.",
+				"Je suis développeur. Ce n'est pas une précaution oratoire avant de parler d'un sujet qui ne serait pas le mien : c'est le fond de l'affaire.",
+				"Développer, c'est prendre quelque chose qui existe déjà mais dont personne ne peut se servir, et le rendre praticable. Un fichier de mesures posé sur le serveur d'un observatoire existe. Il est public, gratuit, exact. Et il ne sert à rien tant que personne n'a fait le trajet entre lui et quelqu'un qui se demande simplement si les canicules s'aggravent. Ce trajet est un métier, et c'est le mien.",
+				"On présente souvent ce travail comme secondaire, une couche de vernis posée sur la vraie matière. Je crois l'inverse. Une connaissance que personne ne peut atteindre n'est pas encore une connaissance publique : elle en est la promesse. La rendre accessible n'est pas de la communication, c'est la dernière étape de sa production.",
+				"J'ai vingt-quatre ans. Je n'ai ni laboratoire, ni terrain, ni données propres. J'ai un ordinateur, du temps, et une conviction assez simple : entre une science solide et un débat public désorienté, ce ne sont presque jamais les résultats qui manquent. Ce sont les chemins.",
 			],
 		},
 		{
 			heading: "Ce que je ne suis pas",
 			body: [
 				"Je ne suis ni climatologue, ni chercheur, ni journaliste scientifique. Cette précision n'est pas de la modestie de façade : elle explique la manière dont ce site est construit.",
-				"Comme je n'ai aucune autorité propre sur le sujet, je ne peux pas demander qu'on me croie sur parole. D'où la règle qui gouverne tout le reste : aucune métadonnée bibliographique n'est saisie à la main, aucune série chiffrée n'est recopiée, chaque définition cite la source dont elle est tirée. Ce ne sont pas des scrupules de développeur — c'est la seule façon pour un non-spécialiste de produire quelque chose de vérifiable.",
-				"La contrepartie est que vous n'avez pas à me faire confiance. Vous pouvez remonter à la source de chaque affirmation, et le code qui les produit est lisible par n'importe qui.",
+				"Comme je n'ai aucune autorité propre sur le sujet, je ne peux pas demander qu'on me croie sur parole. D'où la règle qui gouverne tout le reste : aucune métadonnée bibliographique n'est saisie à la main, aucune série chiffrée n'est recopiée, chaque définition cite la source dont elle est tirée. Ce ne sont pas des scrupules de développeur, c'est la seule façon pour un non-spécialiste de produire quelque chose de vérifiable.",
+				"La contrepartie vous revient : vous n'avez pas à me faire confiance. Vous pouvez remonter à la source de chaque affirmation, et le code qui les produit est lisible par n'importe qui.",
 			],
 		},
 		{
 			heading: "Pourquoi le climat",
 			body: [
-				"Parce que c'est le sujet où l'écart entre ce que la science établit et ce qui circule dans le débat public est le plus large, et le plus coûteux. Il ne manque pas de recherche sur le climat — il en manque terriblement peu. Ce qui manque, ce sont des chemins praticables pour y entrer.",
-				"Une part de cet écart est du vocabulaire. « Canicule », « forçage radiatif », « point de bascule », « scénario SSP » : ces mots ont un sens précis, et ce sens est presque toujours plus intéressant que l'usage flou qu'on en fait. Le glossaire est né de là, et il est devenu la partie du site à laquelle je tiens le plus.",
-				"Le reste tient à des données qui me fascinent pour elles-mêmes. Une courbe de CO₂ mesurée sans interruption depuis 1958 au milieu du Pacifique, l'année où chaque modèle franchit un palier de réchauffement, l'étendue de la banquise chaque mois de septembre depuis 1979 : ce sont des objets remarquables avant d'être des arguments.",
+				"Parce que c'est le sujet où l'écart entre ce que la science établit et ce qui circule dans le débat public est le plus large, et le plus coûteux. Il ne manque pas de recherche sur le climat. Ce qui manque, ce sont des portes d'entrée.",
+				"Une part de cet écart tient au vocabulaire. « Canicule », « forçage radiatif », « point de bascule », « scénario SSP » : ces mots ont un sens précis, et ce sens est presque toujours plus intéressant que l'usage flou qu'on en fait. Le glossaire est né de là, et il est devenu la partie du site à laquelle je tiens le plus.",
+				"Le reste tient à des données qui me fascinent pour elles-mêmes. Une courbe de CO₂ mesurée sans interruption depuis 1958 au milieu du Pacifique. L'année où chaque modèle franchit un palier de réchauffement. L'étendue de la banquise chaque mois de septembre depuis 1979. Ce sont des objets remarquables avant d'être des arguments.",
 			],
 		},
 		{
@@ -59,7 +61,7 @@ const CONTENT: Record<Lang, { heading: string; body: string[] }[]> = {
 			body: [
 				"Le code, le contenu, les scripts d'ingestion, l'historique des modifications : tout est public, sous licence MIT, sur un dépôt que n'importe qui peut cloner.",
 				"C'est d'abord cohérent avec la promesse du site. Un annuaire qui demande qu'on vérifie ses sources et qui garderait sa fabrication secrète serait mal placé pour parler de transparence. On peut lire le script qui interroge OpenAlex, voir exactement ce qu'il conserve et ce qu'il écarte, et refaire le corpus depuis zéro.",
-				"C'est ensuite ce à quoi je crois. Le web s'est construit sur des spécifications publiques, des implémentations qu'on pouvait lire et des gens qui publiaient leur travail sans savoir qui s'en servirait. J'ai appris ce métier grâce à des inconnus qui avaient rendu leur code lisible. Rendre le mien ouvert est la seule manière que je connaisse de rendre la pareille.",
+				"C'est ensuite ce à quoi je crois. Le web s'est construit sur des spécifications publiques, des implémentations qu'on pouvait lire, et des gens qui publiaient leur travail sans savoir qui s'en servirait. J'ai appris ce métier grâce à des inconnus qui avaient rendu leur code lisible. Rendre le mien ouvert est la seule manière que je connaisse de rendre la pareille.",
 				"Concrètement : si une définition est fausse, corrigez-la. Si une étude manque, proposez son DOI. Si le code est maladroit, dites-le. Tout passe par le dépôt, ce qui laisse une trace publique de chaque correction.",
 			],
 		},
@@ -73,26 +75,28 @@ const CONTENT: Record<Lang, { heading: string; body: string[] }[]> = {
 	],
 	en: [
 		{
-			heading: "What I do",
+			heading: "Developer",
 			body: [
-				"I am a web developer. I am twenty-four, and this site grew out of a simple frustration: climate data exists, it is public, often free — and yet almost nobody consults it at the source. Between an observatory's raw file and what someone outside the field can make of it lies a piece of work nobody has an interest in doing. That is the work that interests me.",
-				"My trade is making information workable: fetching it where it lives, structuring it, presenting it so that it can be used. Applied to climate, that gives this site. I contribute no science; I contribute access.",
+				"I am a developer. That is not a disclaimer before speaking about a subject that isn't mine: it is the heart of the matter.",
+				"To develop is to take something that already exists but that nobody can use, and make it workable. A file of measurements sitting on an observatory's server exists. It is public, free, accurate. And it is good for nothing until someone has made the journey between it and a person who simply wants to know whether heatwaves are getting worse. That journey is a trade, and it is mine.",
+				"This work is often described as secondary, a coat of varnish over the real substance. I believe the opposite. Knowledge nobody can reach is not yet public knowledge: it is the promise of it. Making it reachable is not communication, it is the last step of producing it.",
+				"I am twenty-four. I have no laboratory, no fieldwork, no data of my own. I have a computer, time, and a fairly simple conviction: between sound science and a disoriented public debate, what is missing is almost never the results. It is the ways in.",
 			],
 		},
 		{
 			heading: "What I am not",
 			body: [
 				"I am not a climate scientist, not a researcher, not a science journalist. This is not false modesty: it explains how the site is built.",
-				"Since I hold no authority of my own on the subject, I cannot ask to be taken at my word. Hence the rule that governs everything else: no bibliographic metadata is typed by hand, no numerical series is retyped, every definition cites the source it comes from. These are not a developer's scruples — they are the only way a non-specialist can produce something verifiable.",
-				"The upside is that you do not have to trust me. You can trace every claim back to its source, and the code that produces them is readable by anyone.",
+				"Since I hold no authority of my own on the subject, I cannot ask to be taken at my word. Hence the rule that governs everything else: no bibliographic metadata is typed by hand, no numerical series is retyped, every definition cites the source it comes from. These are not a developer's scruples, they are the only way a non-specialist can produce something verifiable.",
+				"The upside is yours: you do not have to trust me. You can trace every claim back to its source, and the code that produces them is readable by anyone.",
 			],
 		},
 		{
 			heading: "Why climate",
 			body: [
-				"Because it is the subject where the gap between what science establishes and what circulates in public debate is widest, and costliest. There is no shortage of climate research — there is remarkably little shortage of it. What is missing are workable ways in.",
-				"Part of that gap is vocabulary. \"Heatwave\", \"radiative forcing\", \"tipping point\", \"SSP scenario\": these words have precise meanings, and those meanings are almost always more interesting than the loose usage they get. The glossary grew out of that, and it has become the part of the site I care most about.",
-				"The rest comes down to data I find remarkable in its own right. A CO₂ curve measured without interruption since 1958 in the middle of the Pacific, the year each model crosses a warming threshold, Arctic sea ice extent every September since 1979: these are remarkable objects before they are arguments.",
+				"Because it is the subject where the gap between what science establishes and what circulates in public debate is widest, and costliest. There is no shortage of climate research. What is missing are ways in.",
+				"Part of that gap is vocabulary. « Heatwave », « radiative forcing », « tipping point », « SSP scenario » : these words have precise meanings, and those meanings are almost always more interesting than the loose usage they get. The glossary grew out of that, and it has become the part of the site I care most about.",
+				"The rest comes down to data I find remarkable in its own right. A CO₂ curve measured without interruption since 1958 in the middle of the Pacific. The year each model crosses a warming threshold. Arctic sea ice extent every September since 1979. These are remarkable objects before they are arguments.",
 			],
 		},
 		{
@@ -137,14 +141,14 @@ export default function AuthorPage({ params }: { params: { lang: string } }) {
 					<h1 className="mt-2 font-serif text-3xl font-semibold tracking-tight md:text-4xl">
 						{siteConfig.author.name}
 					</h1>
-					<p className="mt-3 max-w-2xl text-lg leading-relaxed text-muted-foreground">
+					<p className="mt-3 max-w-3xl text-lg leading-relaxed text-muted-foreground">
 						{dict.author.lead}
 					</p>
 				</div>
 			</section>
 
 			<div className="container grid gap-12 py-12 lg:grid-cols-[1fr_16rem] lg:gap-16">
-				<div className="min-w-0 max-w-2xl space-y-10">
+				<div className="min-w-0 space-y-10">
 					{sections.map((section) => (
 						<section key={section.heading}>
 							<h2 className="font-serif text-xl font-semibold tracking-tight">{section.heading}</h2>
