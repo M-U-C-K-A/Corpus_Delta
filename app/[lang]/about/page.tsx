@@ -117,6 +117,9 @@ export default function AboutPage({ params }: { params: { lang: string } }) {
 					</section>
 
 					<section className="rule space-y-2 pt-6 text-sm">
+						<Link href={route(lang, "author")} className="block text-primary hover:underline">
+							{dict.author.title}
+						</Link>
 						<Link href={route(lang, "methodology")} className="block text-primary hover:underline">
 							{dict.methodology.title}
 						</Link>

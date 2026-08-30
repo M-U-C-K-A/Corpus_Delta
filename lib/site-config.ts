@@ -35,6 +35,15 @@ export const siteConfig = {
 	 * à leur « polite pool ». Ces API demandent un contact technique joignable.
 	 */
 	contactEmail: "contact@corpusdelta.org",
+	/**
+	 * Qui répond du site. Un ouvrage qui définit des termes techniques sans que
+	 * personne le signe demande une confiance qu'il ne justifie pas — c'était le
+	 * principal manque relevé à l'audit.
+	 */
+	author: {
+		name: "Hugo Delacour",
+		github: "https://github.com/M-U-C-K-A",
+	},
 } as const;
 
 export type SiteConfig = typeof siteConfig;

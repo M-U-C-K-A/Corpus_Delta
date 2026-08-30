@@ -43,6 +43,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 		["methodology", 0.5],
 		["contribute", 0.4],
 		["about", 0.4],
+		["author", 0.5],
 	];
 	for (const [section, priority] of sections) {
 		push(Object.fromEntries(LANGS.map((l) => [l, route(l, section)])), priority);

@@ -143,6 +143,13 @@ const fr = {
 		shapeLead:
 			"Nombre d'études et de termes rattachés à chaque thème. Les creux indiquent où le corpus demande encore du travail.",
 	},
+	author: {
+		title: "Qui écrit ce site",
+		eyebrow: "L'auteur",
+		lead: "Développeur web, vingt-quatre ans. Je n'apporte pas de science à ce projet : j'apporte de l'accès.",
+		reach: "Me joindre",
+		githubLabel: "GitHub",
+	},
 	updates: {
 		title: "Quoi de neuf",
 		lead: "Les ajouts et mises à jour du corpus, du plus récent au plus ancien.",
@@ -383,6 +390,13 @@ const en: Dictionary = {
 		shape: "Shape of the corpus",
 		shapeLead:
 			"Number of studies and terms attached to each theme. The hollows show where the corpus still needs work.",
+	},
+	author: {
+		title: "Who writes this site",
+		eyebrow: "The author",
+		lead: "Web developer, twenty-four. I bring no science to this project: I bring access.",
+		reach: "Get in touch",
+		githubLabel: "GitHub",
 	},
 	updates: {
 		title: "What's new",

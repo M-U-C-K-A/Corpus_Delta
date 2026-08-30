@@ -13,6 +13,7 @@ const LOCALISED_SEGMENTS = [
 	["contribuer", "contribute"],
 	["methodologie", "methodology"],
 	["a-propos", "about"],
+	["auteur", "author"],
 ];
 
 /** @type {import('next').NextConfig} */
