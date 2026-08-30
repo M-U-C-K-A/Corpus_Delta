@@ -13,7 +13,8 @@ import { themeLabel, type ThemeId } from "@/lib/content/taxonomy";
 import { getDictionary } from "@/lib/i18n/dictionaries";
 import { DEFAULT_LANG, isLang, LANGS, type Lang } from "@/lib/i18n/config";
 import { formatDate } from "@/lib/format";
-import { route } from "@/lib/routes";
+import { absoluteUrl, route } from "@/lib/routes";
+import { siteConfig } from "@/lib/site-config";
 import { pageMetadata } from "@/lib/metadata";
 
 export function generateStaticParams() {
@@ -66,7 +67,17 @@ export default function GlossaryTermPage({ params }: { params: { lang: string; t
 		inDefinedTermSet: {
 			"@type": "DefinedTermSet",
 			name: dict.glossary.title,
+			url: absoluteUrl(siteConfig.url, route(lang, "glossary")),
 		},
+		// Une définition sans auteur déclaré n'est qu'un texte trouvé sur le web.
+		author: {
+			"@type": "Person",
+			name: siteConfig.author.name,
+			url: absoluteUrl(siteConfig.url, route(lang, "author")),
+		},
+		publisher: { "@type": "Organization", name: siteConfig.name },
+		license: "https://opensource.org/licenses/MIT",
+		dateModified: entry.frontmatter.updatedAt,
 	};
 
 	return (

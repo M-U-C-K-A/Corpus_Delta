@@ -21,6 +21,7 @@ export const SECTIONS = {
 	contribute: { fr: "contribuer", en: "contribute" },
 	methodology: { fr: "methodologie", en: "methodology" },
 	about: { fr: "a-propos", en: "about" },
+	author: { fr: "auteur", en: "author" },
 } as const satisfies Record<string, Record<Lang, string>>;
 
 export type Section = keyof typeof SECTIONS;
@@ -37,6 +38,7 @@ export const CANONICAL_SEGMENT: Record<Section, string> = {
 	contribute: "contribute",
 	methodology: "methodology",
 	about: "about",
+	author: "author",
 };
 
 /**

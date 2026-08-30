@@ -38,6 +38,7 @@ export function SiteFooter({ lang }: { lang: Lang }) {
 				{ label: dict.nav.methodology, href: route(lang, "methodology") },
 				{ label: dict.nav.contribute, href: route(lang, "contribute") },
 				{ label: dict.nav.about, href: route(lang, "about") },
+				{ label: dict.author.title, href: route(lang, "author") },
 				{ label: dict.footer.sourceCode, href: siteConfig.repository, external: true },
 			],
 		},
