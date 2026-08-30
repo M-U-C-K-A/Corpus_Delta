@@ -1,0 +1,38 @@
+---
+term: "Modèle climatique"
+shortDefinition: "Représentation numérique du système climatique fondée sur les lois de la physique, qui calcule l'évolution de l'atmosphère, de l'océan et des surfaces."
+themes: ["modelisation"]
+synonyms: ["Modèle de circulation générale", "Modèle du système Terre"]
+related: ["cmip", "scenario-ssp", "sensibilite-climatique", "reanalyse"]
+sources:
+  - label: "IPCC AR6 WGI, Annex VII: Glossary"
+    url: "https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_AnnexVII.pdf"
+    publisher: "GIEC"
+    year: 2021
+  - label: "IPCC Sixth Assessment Report, Working Group I"
+    url: "https://www.ipcc.ch/report/ar6/wg1/"
+    publisher: "GIEC"
+    year: 2021
+studies: ["eyring-2016-overview-coupled-model-intercomparison-project", "calvin-2023-ipcc-2023-climate-change-2023"]
+updatedAt: "2026-08-20"
+---
+
+## Ce qu'un modèle calcule, et ce qu'on lui donne
+
+Un modèle découpe la planète en mailles de quelques dizaines de kilomètres et résout, pas de
+temps après pas de temps, les équations de la mécanique des fluides et du transfert
+radiatif. Il ne contient aucune courbe de température future : celle-ci sort du calcul.
+
+Ce qu'on lui fournit, ce sont les conditions extérieures : concentration des gaz, activité
+solaire, aérosols volcaniques. Les <Term id="scenario-ssp">scénarios</Term> servent
+précisément à cela.
+
+<Callout variant="caution" title="La maille impose ses limites">
+Les phénomènes plus petits que la maille — nuages, orages, tourbillons océaniques — ne
+peuvent pas être calculés directement. Ils sont représentés par des formules approchées,
+calées sur l'observation. C'est là que se logent les principales divergences entre modèles,
+et la raison pour laquelle on en fait tourner plusieurs dizaines plutôt qu'un seul.
+</Callout>
+
+Un modèle se juge d'abord sur sa capacité à reproduire le climat observé du passé, avant
+qu'on accorde du crédit à ses projections.
