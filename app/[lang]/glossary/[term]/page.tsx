@@ -15,6 +15,8 @@ import { DEFAULT_LANG, isLang, LANGS, type Lang } from "@/lib/i18n/config";
 import { formatDate } from "@/lib/format";
 import { absoluteUrl, route } from "@/lib/routes";
 import { siteConfig } from "@/lib/site-config";
+import { pageApa, pageBibtex } from "@/lib/content/citation";
+import { CitationBlock } from "@/components/site/CitationBlock";
 import { pageMetadata } from "@/lib/metadata";
 
 export function generateStaticParams() {
@@ -57,6 +59,14 @@ export default function GlossaryTermPage({ params }: { params: { lang: string; t
 	const related = getGlossaryEntries(entry.lang, entry.frontmatter.related);
 	const studies = getStudies(entry.frontmatter.studies);
 	const topics = getTopicsUsingTerm(lang, entry.slug);
+
+	const citationInput = {
+		author: siteConfig.author.name,
+		title: entry.frontmatter.term,
+		siteName: siteConfig.name,
+		url: absoluteUrl(siteConfig.url, route(lang, "glossary", params.term)),
+		updatedAt: entry.frontmatter.updatedAt,
+	};
 
 	// Un terme défini est une entité que les moteurs savent représenter.
 	const jsonLd = {
@@ -199,6 +209,23 @@ export default function GlossaryTermPage({ params }: { params: { lang: string; t
 							</ul>
 						</section>
 					)}
+
+					{/*
+					  Une définition qu'on ne sait pas citer n'entre dans aucune
+					  bibliographie. La citation renvoie à cette page et à son auteur,
+					  distincte de celle des études qu'elle référence.
+					*/}
+					<div className="rule pt-6">
+						<CitationBlock
+							apa={pageApa(citationInput)}
+							bibtex={pageBibtex({ ...citationInput, key: entry.slug })}
+							labels={{
+								citation: dict.studies.citation,
+								copy: dict.common.copy,
+								copied: dict.common.copied,
+							}}
+						/>
+					</div>
 
 					<p className="rule pt-6 text-xs text-muted-foreground">
 						{dict.common.updatedOn} {formatDate(entry.frontmatter.updatedAt, lang)}

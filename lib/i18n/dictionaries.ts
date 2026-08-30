@@ -85,6 +85,7 @@ const fr = {
 		inTopics: "Cité dans nos dossiers",
 		glossaryTerms: "Termes du glossaire",
 		editorialNote: "Pourquoi cette étude",
+		typeCorrected: "(corrigé éditorialement)",
 		ageing: "Publication ancienne",
 		ageingBody:
 			"Ce travail a plus de dix ans. Il peut rester une référence, mais le champ a pu évoluer depuis. Publications plus récentes sur les mêmes thèmes :",
@@ -333,6 +334,7 @@ const en: Dictionary = {
 		inTopics: "Cited in our topic briefs",
 		glossaryTerms: "Glossary terms",
 		editorialNote: "Why this study",
+		typeCorrected: "(editorially corrected)",
 		ageing: "Older publication",
 		ageingBody:
 			"This work is more than ten years old. It may still be a reference, but the field may have moved on. More recent publications on the same themes:",

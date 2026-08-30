@@ -123,5 +123,6 @@
 	"glossaryTerms": [
 		"puits-de-carbone",
 		"forcage-radiatif"
-	]
+	],
+	"typeOverride": "review"
 }

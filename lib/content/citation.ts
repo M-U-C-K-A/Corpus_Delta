@@ -80,3 +80,49 @@ export function citationLine(study: Study): string {
 
 	return [authorPart, study.venue, String(study.year)].filter(Boolean).join(" · ");
 }
+
+/**
+ * Citation d'une page du site, et non d'une publication référencée.
+ *
+ * Un contenu qu'on ne sait pas citer n'entre dans aucune bibliographie. Les
+ * définitions et les dossiers sont rédigés ici : ils demandent leur propre
+ * forme, distincte de celle des études, qui renvoie à leurs auteurs d'origine.
+ */
+export function pageApa(input: {
+	author: string;
+	title: string;
+	siteName: string;
+	url: string;
+	updatedAt: string;
+}): string {
+	const year = input.updatedAt.slice(0, 4);
+	const [family, ...given] = input.author.trim().split(/\s+/).reverse();
+	const initials = given
+		.reverse()
+		.map((part) => `${part.charAt(0).toUpperCase()}.`)
+		.join(" ");
+
+	return `${family}, ${initials} (${year}). ${input.title}. ${input.siteName}. ${input.url}`;
+}
+
+export function pageBibtex(input: {
+	author: string;
+	title: string;
+	siteName: string;
+	url: string;
+	updatedAt: string;
+	key: string;
+}): string {
+	const [family, ...given] = input.author.trim().split(/\s+/).reverse();
+
+	return [
+		`@misc{${slugify(`${input.siteName}-${input.key}`)},`,
+		`  author       = {${family}, ${given.reverse().join(" ")}},`,
+		`  title        = {${input.title}},`,
+		`  year         = {${input.updatedAt.slice(0, 4)}},`,
+		`  howpublished = {${input.siteName}},`,
+		`  url          = {${input.url}},`,
+		`  urldate      = {${input.updatedAt.slice(0, 10)}}`,
+		"}",
+	].join("\n");
+}

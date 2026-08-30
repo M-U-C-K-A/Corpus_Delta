@@ -77,7 +77,19 @@ export default function StudyPage({ params }: { params: { lang: string; id: stri
 	const metadataRows: { label: string; value: React.ReactNode }[] = [
 		{ label: dict.studies.publishedIn, value: study.venue ?? study.publisher ?? "—" },
 		{ label: dict.studies.publishedOn, value: String(study.year) },
-		{ label: dict.common.type, value: publicationTypeLabel(study.type as PublicationType, lang) },
+		{
+			label: dict.common.type,
+			value: (
+				<>
+					{publicationTypeLabel(study.type as PublicationType, lang)}
+					{/* Le type effectif diffère de celui de la source : le dire, comme
+					    tout ce qui relève d'une décision humaine sur ce site. */}
+					{study.typeOverride && (
+						<span className="ml-2 text-xs text-muted-foreground">{dict.studies.typeCorrected}</span>
+					)}
+				</>
+			),
+		},
 		{
 			label: dict.common.themes,
 			value: <ThemeTagList themes={study.themes} lang={lang} linked className="mt-1" />,
