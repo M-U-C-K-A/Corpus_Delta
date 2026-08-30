@@ -1,0 +1,269 @@
+{
+	"id": "snow-cover-march",
+	"title": {
+		"fr": "Couverture neigeuse de l'hémisphère nord en mars",
+		"en": "Northern hemisphere snow cover in March"
+	},
+	"unit": "10⁶ km²",
+	"source": {
+		"label": "Rutgers Northern Hemisphere Snow Cover Extent",
+		"url": "https://climate.rutgers.edu/snowcover/",
+		"publisher": "Rutgers University Global Snow Lab",
+		"accessedAt": "2026-08-30"
+	},
+	"note": {
+		"fr": "Surface des terres émergées couvertes de neige au mois de mars, fin de la saison d'accumulation. La série satellitaire commence en 1966 et compte parmi les plus longues de la cryosphère.",
+		"en": "Land area under snow in March, the end of the accumulation season. The satellite record begins in 1966 and is among the longest in the cryosphere."
+	},
+	"series": [
+		{
+			"key": "extent",
+			"label": {
+				"fr": "Couverture en mars",
+				"en": "March cover"
+			}
+		}
+	],
+	"rows": [
+		{
+			"year": 1967,
+			"extent": 42.98
+		},
+		{
+			"year": 1968,
+			"extent": 37.63
+		},
+		{
+			"year": 1969,
+			"extent": 41.88
+		},
+		{
+			"year": 1970,
+			"extent": 42
+		},
+		{
+			"year": 1971,
+			"extent": 44.07
+		},
+		{
+			"year": 1972,
+			"extent": 40.89
+		},
+		{
+			"year": 1973,
+			"extent": 40.31
+		},
+		{
+			"year": 1974,
+			"extent": 39.47
+		},
+		{
+			"year": 1975,
+			"extent": 41.27
+		},
+		{
+			"year": 1976,
+			"extent": 41.45
+		},
+		{
+			"year": 1977,
+			"extent": 40.05
+		},
+		{
+			"year": 1978,
+			"extent": 43.76
+		},
+		{
+			"year": 1979,
+			"extent": 43.72
+		},
+		{
+			"year": 1980,
+			"extent": 42.77
+		},
+		{
+			"year": 1981,
+			"extent": 42.65
+		},
+		{
+			"year": 1982,
+			"extent": 40.69
+		},
+		{
+			"year": 1983,
+			"extent": 40.41
+		},
+		{
+			"year": 1984,
+			"extent": 41.12
+		},
+		{
+			"year": 1985,
+			"extent": 44.28
+		},
+		{
+			"year": 1986,
+			"extent": 39.93
+		},
+		{
+			"year": 1987,
+			"extent": 43.63
+		},
+		{
+			"year": 1988,
+			"extent": 39.87
+		},
+		{
+			"year": 1989,
+			"extent": 38.57
+		},
+		{
+			"year": 1990,
+			"extent": 37.12
+		},
+		{
+			"year": 1991,
+			"extent": 39.45
+		},
+		{
+			"year": 1992,
+			"extent": 38.54
+		},
+		{
+			"year": 1993,
+			"extent": 39.78
+		},
+		{
+			"year": 1994,
+			"extent": 39.4
+		},
+		{
+			"year": 1995,
+			"extent": 38.25
+		},
+		{
+			"year": 1996,
+			"extent": 41.86
+		},
+		{
+			"year": 1997,
+			"extent": 39.02
+		},
+		{
+			"year": 1998,
+			"extent": 41.35
+		},
+		{
+			"year": 1999,
+			"extent": 39.67
+		},
+		{
+			"year": 2000,
+			"extent": 39.59
+		},
+		{
+			"year": 2001,
+			"extent": 40.52
+		},
+		{
+			"year": 2002,
+			"extent": 37.62
+		},
+		{
+			"year": 2003,
+			"extent": 41.68
+		},
+		{
+			"year": 2004,
+			"extent": 38.7
+		},
+		{
+			"year": 2005,
+			"extent": 41.08
+		},
+		{
+			"year": 2006,
+			"extent": 40.98
+		},
+		{
+			"year": 2007,
+			"extent": 39.42
+		},
+		{
+			"year": 2008,
+			"extent": 37.85
+		},
+		{
+			"year": 2009,
+			"extent": 39.71
+		},
+		{
+			"year": 2010,
+			"extent": 41.14
+		},
+		{
+			"year": 2011,
+			"extent": 42.63
+		},
+		{
+			"year": 2012,
+			"extent": 40.74
+		},
+		{
+			"year": 2013,
+			"extent": 41.68
+		},
+		{
+			"year": 2014,
+			"extent": 38.41
+		},
+		{
+			"year": 2015,
+			"extent": 38.46
+		},
+		{
+			"year": 2016,
+			"extent": 37.16
+		},
+		{
+			"year": 2017,
+			"extent": 40.07
+		},
+		{
+			"year": 2018,
+			"extent": 41.83
+		},
+		{
+			"year": 2019,
+			"extent": 39.48
+		},
+		{
+			"year": 2020,
+			"extent": 37.71
+		},
+		{
+			"year": 2021,
+			"extent": 38.61
+		},
+		{
+			"year": 2022,
+			"extent": 40.04
+		},
+		{
+			"year": 2023,
+			"extent": 39.26
+		},
+		{
+			"year": 2024,
+			"extent": 38.37
+		},
+		{
+			"year": 2025,
+			"extent": 37.93
+		},
+		{
+			"year": 2026,
+			"extent": 37.8
+		}
+	]
+}

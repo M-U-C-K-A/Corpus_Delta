@@ -1,0 +1,297 @@
+{
+	"id": "co2-growth-rate",
+	"title": {
+		"fr": "Croissance annuelle du CO₂ atmosphérique",
+		"en": "Annual growth of atmospheric CO₂"
+	},
+	"unit": "ppm/an",
+	"source": {
+		"label": "Trends in Atmospheric Carbon Dioxide — Growth Rate",
+		"url": "https://gml.noaa.gov/ccgg/trends/gl_gr.html",
+		"publisher": "NOAA Global Monitoring Laboratory",
+		"accessedAt": "2026-08-30"
+	},
+	"note": {
+		"fr": "Augmentation de la concentration d'une année sur l'autre, moyenne globale. La concentration monte de toute façon : c'est sa dérivée qui indique si les émissions ralentissent. Elle n'est jamais passée sous zéro.",
+		"en": "Year-on-year increase in concentration, global mean. Concentration rises regardless: it is its derivative that shows whether emissions are slowing. It has never fallen below zero."
+	},
+	"series": [
+		{
+			"key": "growth",
+			"label": {
+				"fr": "Croissance annuelle",
+				"en": "Annual growth"
+			}
+		}
+	],
+	"rows": [
+		{
+			"year": 1959,
+			"growth": 0.96
+		},
+		{
+			"year": 1960,
+			"growth": 0.71
+		},
+		{
+			"year": 1961,
+			"growth": 0.78
+		},
+		{
+			"year": 1962,
+			"growth": 0.56
+		},
+		{
+			"year": 1963,
+			"growth": 0.57
+		},
+		{
+			"year": 1964,
+			"growth": 0.49
+		},
+		{
+			"year": 1965,
+			"growth": 1.1
+		},
+		{
+			"year": 1966,
+			"growth": 1.1
+		},
+		{
+			"year": 1967,
+			"growth": 0.61
+		},
+		{
+			"year": 1968,
+			"growth": 0.99
+		},
+		{
+			"year": 1969,
+			"growth": 1.32
+		},
+		{
+			"year": 1970,
+			"growth": 1.13
+		},
+		{
+			"year": 1971,
+			"growth": 0.73
+		},
+		{
+			"year": 1972,
+			"growth": 1.47
+		},
+		{
+			"year": 1973,
+			"growth": 1.46
+		},
+		{
+			"year": 1974,
+			"growth": 0.68
+		},
+		{
+			"year": 1975,
+			"growth": 1.23
+		},
+		{
+			"year": 1976,
+			"growth": 0.97
+		},
+		{
+			"year": 1977,
+			"growth": 1.92
+		},
+		{
+			"year": 1978,
+			"growth": 1.29
+		},
+		{
+			"year": 1979,
+			"growth": 2.14
+		},
+		{
+			"year": 1980,
+			"growth": 1.67
+		},
+		{
+			"year": 1981,
+			"growth": 1.15
+		},
+		{
+			"year": 1982,
+			"growth": 1
+		},
+		{
+			"year": 1983,
+			"growth": 1.84
+		},
+		{
+			"year": 1984,
+			"growth": 1.23
+		},
+		{
+			"year": 1985,
+			"growth": 1.65
+		},
+		{
+			"year": 1986,
+			"growth": 1.01
+		},
+		{
+			"year": 1987,
+			"growth": 2.66
+		},
+		{
+			"year": 1988,
+			"growth": 2.17
+		},
+		{
+			"year": 1989,
+			"growth": 1.47
+		},
+		{
+			"year": 1990,
+			"growth": 1.22
+		},
+		{
+			"year": 1991,
+			"growth": 0.75
+		},
+		{
+			"year": 1992,
+			"growth": 0.71
+		},
+		{
+			"year": 1993,
+			"growth": 1.24
+		},
+		{
+			"year": 1994,
+			"growth": 1.66
+		},
+		{
+			"year": 1995,
+			"growth": 2
+		},
+		{
+			"year": 1996,
+			"growth": 1.05
+		},
+		{
+			"year": 1997,
+			"growth": 1.98
+		},
+		{
+			"year": 1998,
+			"growth": 2.84
+		},
+		{
+			"year": 1999,
+			"growth": 1.33
+		},
+		{
+			"year": 2000,
+			"growth": 1.25
+		},
+		{
+			"year": 2001,
+			"growth": 1.85
+		},
+		{
+			"year": 2002,
+			"growth": 2.36
+		},
+		{
+			"year": 2003,
+			"growth": 2.28
+		},
+		{
+			"year": 2004,
+			"growth": 1.56
+		},
+		{
+			"year": 2005,
+			"growth": 2.47
+		},
+		{
+			"year": 2006,
+			"growth": 1.77
+		},
+		{
+			"year": 2007,
+			"growth": 2.13
+		},
+		{
+			"year": 2008,
+			"growth": 1.78
+		},
+		{
+			"year": 2009,
+			"growth": 1.58
+		},
+		{
+			"year": 2010,
+			"growth": 2.36
+		},
+		{
+			"year": 2011,
+			"growth": 1.73
+		},
+		{
+			"year": 2012,
+			"growth": 2.42
+		},
+		{
+			"year": 2013,
+			"growth": 2.45
+		},
+		{
+			"year": 2014,
+			"growth": 2.03
+		},
+		{
+			"year": 2015,
+			"growth": 2.95
+		},
+		{
+			"year": 2016,
+			"growth": 2.83
+		},
+		{
+			"year": 2017,
+			"growth": 2.14
+		},
+		{
+			"year": 2018,
+			"growth": 2.39
+		},
+		{
+			"year": 2019,
+			"growth": 2.5
+		},
+		{
+			"year": 2020,
+			"growth": 2.33
+		},
+		{
+			"year": 2021,
+			"growth": 2.38
+		},
+		{
+			"year": 2022,
+			"growth": 2.24
+		},
+		{
+			"year": 2023,
+			"growth": 2.7
+		},
+		{
+			"year": 2024,
+			"growth": 3.76
+		},
+		{
+			"year": 2025,
+			"growth": 2.06
+		}
+	]
+}

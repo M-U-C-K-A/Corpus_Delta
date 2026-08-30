@@ -416,6 +416,119 @@ async function greenhouseForcing(): Promise<Dataset> {
 	};
 }
 
+/** NSIDC — étendue de la banquise antarctique en février, son minimum annuel. */
+async function antarcticSeaIce(): Promise<Dataset> {
+	const url = "https://noaadata.apps.nsidc.org/NOAA/G02135/south/monthly/data/S_02_extent_v4.0.csv";
+	const text = await fetchText(url);
+
+	const rows = text
+		.split("\n")
+		.slice(1)
+		.map((line) => line.split(",").map((cell) => cell.trim()))
+		.filter((parts) => parts.length >= 5 && /^\d{4}$/.test(parts[0]))
+		.map((parts) => ({ year: Number(parts[0]), extent: Number(parts[4]) }))
+		.filter((row) => Number.isFinite(row.extent) && row.extent > 0);
+
+	return {
+		id: "antarctic-sea-ice-february",
+		title: {
+			fr: "Étendue de la banquise antarctique en février",
+			en: "Antarctic sea ice extent in February",
+		},
+		unit: "10⁶ km²",
+		note: {
+			fr: "Moyenne de février, mois du minimum annuel dans l'hémisphère sud. Contrairement à l'Arctique, l'Antarctique n'a montré aucune tendance nette jusqu'aux années 2010 : la rupture récente est d'autant plus remarquée.",
+			en: "February mean, the month of the southern hemisphere's annual minimum. Unlike the Arctic, Antarctica showed no clear trend until the 2010s, which is what makes the recent break so remarked upon.",
+		},
+		source: {
+			label: "Sea Ice Index, Version 4",
+			url: "https://nsidc.org/data/g02135/",
+			publisher: "National Snow and Ice Data Center",
+			accessedAt: today(),
+		},
+		series: [{ key: "extent", label: { fr: "Étendue en février", en: "February extent" } }],
+		rows,
+	};
+}
+
+/**
+ * NOAA — croissance annuelle du CO₂ atmosphérique.
+ *
+ * Complément indispensable de la concentration : celle-ci monte de toute façon,
+ * seule sa dérivée dit si l'on freine. Elle n'a jamais été négative.
+ */
+async function co2GrowthRate(): Promise<Dataset> {
+	const text = await fetchText("https://gml.noaa.gov/webdata/ccgg/trends/co2/co2_gr_gl.txt");
+
+	const rows = text
+		.split("\n")
+		.filter((line) => line.trim() && !line.trim().startsWith("#"))
+		.map((line) => line.trim().split(/\s+/))
+		.filter((parts) => parts.length >= 2 && /^\d{4}$/.test(parts[0]))
+		.map((parts) => ({ year: Number(parts[0]), growth: Number(parts[1]) }))
+		.filter((row) => Number.isFinite(row.growth));
+
+	return {
+		id: "co2-growth-rate",
+		title: {
+			fr: "Croissance annuelle du CO₂ atmosphérique",
+			en: "Annual growth of atmospheric CO₂",
+		},
+		unit: "ppm/an",
+		note: {
+			fr: "Augmentation de la concentration d'une année sur l'autre, moyenne globale. La concentration monte de toute façon : c'est sa dérivée qui indique si les émissions ralentissent. Elle n'est jamais passée sous zéro.",
+			en: "Year-on-year increase in concentration, global mean. Concentration rises regardless: it is its derivative that shows whether emissions are slowing. It has never fallen below zero.",
+		},
+		source: {
+			label: "Trends in Atmospheric Carbon Dioxide — Growth Rate",
+			url: "https://gml.noaa.gov/ccgg/trends/gl_gr.html",
+			publisher: "NOAA Global Monitoring Laboratory",
+			accessedAt: today(),
+		},
+		series: [{ key: "growth", label: { fr: "Croissance annuelle", en: "Annual growth" } }],
+		rows,
+	};
+}
+
+/**
+ * Rutgers Global Snow Lab — couverture neigeuse de l'hémisphère nord en mars.
+ *
+ * Le fichier est mensuel ; on retient mars, fin de la saison d'accumulation,
+ * où le signal du réchauffement se lit sans être noyé par la variabilité d'hiver.
+ */
+async function snowCover(): Promise<Dataset> {
+	const text = await fetchText("https://climate.rutgers.edu/snowcover/files/moncov.nhland.txt");
+
+	const rows = text
+		.split("\n")
+		.map((line) => line.trim().split(/\s+/))
+		.filter((parts) => parts.length >= 3 && /^\d{4}$/.test(parts[0]) && parts[1] === "03")
+		// Le fichier donne des km² ; on ramène aux millions de km² des autres séries.
+		.map((parts) => ({ year: Number(parts[0]), extent: Math.round(Number(parts[2]) / 1e4) / 100 }))
+		.filter((row) => Number.isFinite(row.extent) && row.extent > 0);
+
+	return {
+		id: "snow-cover-march",
+		title: {
+			fr: "Couverture neigeuse de l'hémisphère nord en mars",
+			en: "Northern hemisphere snow cover in March",
+		},
+		unit: "10⁶ km²",
+		note: {
+			fr: "Surface des terres émergées couvertes de neige au mois de mars, fin de la saison d'accumulation. La série satellitaire commence en 1966 et compte parmi les plus longues de la cryosphère.",
+			en: "Land area under snow in March, the end of the accumulation season. The satellite record begins in 1966 and is among the longest in the cryosphere.",
+		},
+		source: {
+			label: "Rutgers Northern Hemisphere Snow Cover Extent",
+			url: "https://climate.rutgers.edu/snowcover/",
+			publisher: "Rutgers University Global Snow Lab",
+			accessedAt: today(),
+		},
+		series: [{ key: "extent", label: { fr: "Couverture en mars", en: "March cover" } }],
+		rows,
+	};
+}
+
 const BUILDERS: Record<string, () => Promise<Dataset>> = {
 	"co2-mauna-loa": co2MaunaLoa,
 	"methane-global": methaneGlobal,
@@ -427,6 +540,9 @@ const BUILDERS: Record<string, () => Promise<Dataset>> = {
 	"ocean-heat-content": oceanHeatContent,
 	"sea-level-altimetry": seaLevel,
 	"greenhouse-forcing-aggi": greenhouseForcing,
+	"antarctic-sea-ice-february": antarcticSeaIce,
+	"co2-growth-rate": co2GrowthRate,
+	"snow-cover-march": snowCover,
 };
 
 async function main(): Promise<void> {

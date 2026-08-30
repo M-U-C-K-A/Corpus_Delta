@@ -32,12 +32,11 @@ export function generateMetadata({ params }: { params: { lang: string } }) {
 const CONTENT: Record<Lang, { heading: string; body: string[] }[]> = {
 	fr: [
 		{
-			heading: "Développeur",
+			heading: "Abréger une distance",
 			body: [
-				"Je suis développeur. Ce n'est pas une précaution oratoire avant de parler d'un sujet qui ne serait pas le mien : c'est le fond de l'affaire.",
-				"Développer, c'est prendre quelque chose qui existe déjà mais dont personne ne peut se servir, et le rendre praticable. Un fichier de mesures posé sur le serveur d'un observatoire existe. Il est public, gratuit, exact. Et il ne sert à rien tant que personne n'a fait le trajet entre lui et quelqu'un qui se demande simplement si les canicules s'aggravent. Ce trajet est un métier, et c'est le mien.",
-				"On présente souvent ce travail comme secondaire, une couche de vernis posée sur la vraie matière. Je crois l'inverse. Une connaissance que personne ne peut atteindre n'est pas encore une connaissance publique : elle en est la promesse. La rendre accessible n'est pas de la communication, c'est la dernière étape de sa production.",
-				"J'ai vingt-quatre ans. Je n'ai ni laboratoire, ni terrain, ni données propres. J'ai un ordinateur, du temps, et une conviction assez simple : entre une science solide et un débat public désorienté, ce ne sont presque jamais les résultats qui manquent. Ce sont les chemins.",
+				"Une connaissance que personne ne peut atteindre n'est pas encore une connaissance publique : elle n'en est que la promesse. Un relevé déposé sur le serveur d'un observatoire est exact, gratuit, ouvert à quiconque en connaît l'adresse. Il demeure pourtant lettre morte tant que rien ne relie ce fichier à la personne qui voudrait seulement savoir si les canicules s'aggravent.",
+				"Ce site n'a pas d'autre ambition que d'être ce lien. Il ne mesure rien, n'établit rien, ne découvre rien. Il abrège une distance, et il me semble que raccourcir le chemin qui mène à un savoir déjà constitué est en soi un travail légitime.",
+				"J'ai vingt-quatre ans et je développe des sites. Ni laboratoire, ni terrain, ni données propres : un ordinateur, du temps, et la conviction que dans le désaccord public sur le climat, ce ne sont presque jamais les résultats qui manquent. Ce sont les portes d'entrée.",
 			],
 		},
 		{
@@ -75,12 +74,11 @@ const CONTENT: Record<Lang, { heading: string; body: string[] }[]> = {
 	],
 	en: [
 		{
-			heading: "Developer",
+			heading: "Shortening a distance",
 			body: [
-				"I am a developer. That is not a disclaimer before speaking about a subject that isn't mine: it is the heart of the matter.",
-				"To develop is to take something that already exists but that nobody can use, and make it workable. A file of measurements sitting on an observatory's server exists. It is public, free, accurate. And it is good for nothing until someone has made the journey between it and a person who simply wants to know whether heatwaves are getting worse. That journey is a trade, and it is mine.",
-				"This work is often described as secondary, a coat of varnish over the real substance. I believe the opposite. Knowledge nobody can reach is not yet public knowledge: it is the promise of it. Making it reachable is not communication, it is the last step of producing it.",
-				"I am twenty-four. I have no laboratory, no fieldwork, no data of my own. I have a computer, time, and a fairly simple conviction: between sound science and a disoriented public debate, what is missing is almost never the results. It is the ways in.",
+				"Knowledge nobody can reach is not yet public knowledge: it is only the promise of it. A reading deposited on an observatory's server is accurate, free, open to anyone who knows the address. It nonetheless remains a dead letter until something connects that file to the person who merely wants to know whether heatwaves are getting worse.",
+				"This site has no ambition beyond being that connection. It measures nothing, establishes nothing, discovers nothing. It shortens a distance, and it seems to me that shortening the path to knowledge already established is legitimate work in itself.",
+				"I am twenty-four and I build websites. No laboratory, no fieldwork, no data of my own: a computer, time, and the conviction that in public disagreement about the climate, what is missing is almost never the results. It is the ways in.",
 			],
 		},
 		{
