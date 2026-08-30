@@ -52,7 +52,15 @@ export const studySchema = z.object({
 	venue: z.string().nullable(),
 	publisher: z.string().nullable(),
 	year: z.number().int().min(1800).max(2100),
+	/** Type renvoyé par la source bibliographique, conservé tel quel. */
 	type: z.enum(PUBLICATION_TYPE_IDS as [string, ...string[]]),
+	/**
+	 * Type corrigé à la main. OpenAlex se trompe souvent : « Drought under global
+	 * warming: a review » y est typé `article`, comme les bilans carbone annuels.
+	 * La facette de l'annuaire devenait trompeuse, alors même que la page Méthode
+	 * annonce privilégier les synthèses.
+	 */
+	typeOverride: z.enum(PUBLICATION_TYPE_IDS as [string, ...string[]]).optional(),
 	abstract: z.string().nullable(),
 	/** Langue de la publication, code ISO 639-1. */
 	language: z.string().min(2).max(5).nullable(),

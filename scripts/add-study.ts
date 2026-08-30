@@ -219,6 +219,9 @@ function writeStudy(study: Study, force: boolean): void {
 		study.editorial = { ...study.editorial, ...existing.editorial };
 		study.glossaryTerms = existing.glossaryTerms?.length ? existing.glossaryTerms : study.glossaryTerms;
 		study.addedAt = existing.addedAt ?? study.addedAt;
+		// La correction de type est une décision éditoriale : un rafraîchissement
+		// des métadonnées ne doit pas la reprendre à la source qui l'a motivée.
+		if (existing.typeOverride) study.typeOverride = existing.typeOverride;
 		console.log(`  ↻ mise à jour (apport rédactionnel conservé)`);
 	}
 

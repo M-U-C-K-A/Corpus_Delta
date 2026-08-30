@@ -62,6 +62,7 @@ const CONTENT: Record<Lang, { heading: string; body: string[] }[]> = {
 			body: [
 				"Les résumés affichés sont ceux des éditeurs, reproduits sans reformulation. Certains éditeurs n'en diffusent pas de version réutilisable : la fiche renvoie alors directement au DOI.",
 				"Les compteurs de citations proviennent d'OpenAlex et sont affichés comme tels. Ils diffèrent d'une base à l'autre et sous-estiment parfois nettement le nombre réel : ce sont des ordres de grandeur, pas des mesures.",
+				"Le type de publication vient lui aussi d'OpenAlex, qui se trompe souvent : une revue de littérature y est fréquemment étiquetée « article ». Quand la classification est manifestement fausse, elle est corrigée à la main et la fiche le signale. Sans cela, la facette de l'annuaire contredirait le critère de sélection annoncé plus haut.",
 			],
 		},
 		{
@@ -114,6 +115,7 @@ const CONTENT: Record<Lang, { heading: string; body: string[] }[]> = {
 			body: [
 				"Abstracts are the publishers' own, reproduced without rewording. Some publishers release no reusable abstract; those records link straight to the DOI instead.",
 				"Citation counts come from OpenAlex and are labelled as such. They differ between databases and sometimes badly understate the real figure: treat them as orders of magnitude, not measurements.",
+				"Publication type also comes from OpenAlex, which often gets it wrong: a literature review is frequently tagged as an article. Where the classification is plainly mistaken it is corrected by hand and the record says so. Without that, the directory's facet would contradict the selection criterion stated above.",
 			],
 		},
 		{

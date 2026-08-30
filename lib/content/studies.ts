@@ -36,7 +36,14 @@ export function getAllStudies(): Study[] {
 						.join("\n")}`
 				);
 			}
-			return parsed.data;
+			/*
+			  Le type effectif prime dès le chargement : chaque consommateur —
+			  facettes, décomptes, affichage — travaille ainsi sur la même valeur,
+			  sans avoir à connaître l'existence de la correction. `typeOverride`
+			  reste dans la fiche pour que l'écart avec la source soit visible.
+			*/
+			const study = parsed.data;
+			return study.typeOverride ? { ...study, type: study.typeOverride } : study;
 		});
 
 	cache = studies.sort((a, b) => b.year - a.year || a.title.localeCompare(b.title, "fr"));
