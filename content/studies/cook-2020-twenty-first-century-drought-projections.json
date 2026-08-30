@@ -45,10 +45,10 @@
 		"status": "gold",
 		"url": "https://doi.org/10.1029/2019ef001461"
 	},
-	"citedByCount": 1065,
+	"citedByCount": 1068,
 	"themes": [
-		"modelisation",
-		"eau"
+		"eau",
+		"modelisation"
 	],
 	"sourceTopics": [
 		"Hydrology and Drought Analysis",
@@ -58,7 +58,7 @@
 	"url": "https://doi.org/10.1029/2019ef001461",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-08-20"
+		"retrievedAt": "2026-08-30"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},

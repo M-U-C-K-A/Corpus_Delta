@@ -1,0 +1,68 @@
+{
+	"id": "bowman-2020-vegetation-fires-anthropocene",
+	"doi": "10.1038/s43017-020-0085-3",
+	"title": "Vegetation fires in the Anthropocene",
+	"authors": [
+		{
+			"name": "David M. J. S. Bowman",
+			"orcid": "https://orcid.org/0000-0001-8075-124X",
+			"affiliation": "University of Tasmania"
+		},
+		{
+			"name": "Crystal A. Kolden",
+			"orcid": "https://orcid.org/0000-0001-7093-4552",
+			"affiliation": "University of California, Merced"
+		},
+		{
+			"name": "John T. Abatzoglou",
+			"orcid": "https://orcid.org/0000-0001-7599-9750",
+			"affiliation": "University of California, Merced"
+		},
+		{
+			"name": "Fay H. Johnston",
+			"orcid": "https://orcid.org/0000-0002-5150-8678",
+			"affiliation": "University of Tasmania"
+		},
+		{
+			"name": "Guido R. van der Werf",
+			"orcid": "https://orcid.org/0000-0001-9042-8630",
+			"affiliation": "Vrije Universiteit Amsterdam"
+		},
+		{
+			"name": "Mike Flannigan",
+			"orcid": "https://orcid.org/0000-0002-9970-5363",
+			"affiliation": "University of Alberta"
+		}
+	],
+	"authorCount": 6,
+	"venue": "Nature Reviews Earth & Environment",
+	"publisher": "Nature Portfolio",
+	"year": 2020,
+	"type": "article",
+	"abstract": null,
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "green",
+		"url": "https://research.vu.nl/en/publications/ef2e9785-0178-4f01-8863-c2020369323a"
+	},
+	"citedByCount": 1093,
+	"themes": [
+		"risques",
+		"biodiversite"
+	],
+	"sourceTopics": [
+		"Fire effects on ecosystems",
+		"Fire dynamics and safety research",
+		"Landslides and related hazards"
+	],
+	"url": "https://doi.org/10.1038/s43017-020-0085-3",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-30"
+	},
+	"addedAt": "2026-08-30",
+	"editorial": {},
+	"glossaryTerms": [],
+	"typeOverride": "review"
+}

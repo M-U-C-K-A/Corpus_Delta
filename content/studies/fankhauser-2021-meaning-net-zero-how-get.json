@@ -1,0 +1,110 @@
+{
+	"id": "fankhauser-2021-meaning-net-zero-how-get",
+	"doi": "10.1038/s41558-021-01245-w",
+	"title": "The meaning of net zero and how to get it right",
+	"authors": [
+		{
+			"name": "Samuel Fankhauser",
+			"orcid": "https://orcid.org/0000-0003-2100-7888",
+			"affiliation": "University of Oxford"
+		},
+		{
+			"name": "Stephen M. Smith",
+			"orcid": "https://orcid.org/0000-0002-5737-0155",
+			"affiliation": "University of Oxford"
+		},
+		{
+			"name": "Myles Allen",
+			"orcid": "https://orcid.org/0000-0002-1721-7172",
+			"affiliation": "University of Oxford"
+		},
+		{
+			"name": "Kaya Axelsson",
+			"affiliation": "University of Oxford"
+		},
+		{
+			"name": "Thomas Hale",
+			"orcid": "https://orcid.org/0000-0002-8871-3376",
+			"affiliation": "University of Oxford"
+		},
+		{
+			"name": "Cameron Hepburn",
+			"orcid": "https://orcid.org/0000-0003-0467-7441",
+			"affiliation": "University of Oxford"
+		},
+		{
+			"name": "J. M. Kendall",
+			"orcid": "https://orcid.org/0000-0002-1486-3945",
+			"affiliation": "University of Oxford"
+		},
+		{
+			"name": "Radhika Khosla",
+			"orcid": "https://orcid.org/0000-0002-7730-8041",
+			"affiliation": "University of Oxford"
+		},
+		{
+			"name": "Javier Lezaun",
+			"affiliation": "University of Oxford"
+		},
+		{
+			"name": "Eli Mitchell-Larson",
+			"orcid": "https://orcid.org/0000-0002-3775-3482",
+			"affiliation": "University of Oxford"
+		},
+		{
+			"name": "Michael Obersteiner",
+			"orcid": "https://orcid.org/0000-0001-6981-2769",
+			"affiliation": "University of Oxford"
+		},
+		{
+			"name": "Lavanya Rajamani",
+			"orcid": "https://orcid.org/0000-0002-1977-9574",
+			"affiliation": "University of Oxford"
+		},
+		{
+			"name": "Rosalind E. M. Rickaby",
+			"orcid": "https://orcid.org/0000-0002-6095-8419",
+			"affiliation": "University of Oxford"
+		},
+		{
+			"name": "Nathalie Seddon",
+			"orcid": "https://orcid.org/0000-0002-1880-6104",
+			"affiliation": "University of Oxford"
+		},
+		{
+			"name": "Thom Wetzer",
+			"orcid": "https://orcid.org/0000-0001-5728-7012",
+			"affiliation": "University of Oxford"
+		}
+	],
+	"authorCount": 15,
+	"venue": "Nature Climate Change",
+	"publisher": "Nature Portfolio",
+	"year": 2021,
+	"type": "article",
+	"abstract": null,
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "bronze",
+		"url": "https://www.nature.com/articles/s41558-021-01245-w.pdf"
+	},
+	"citedByCount": 949,
+	"themes": [
+		"politiques",
+		"carbone"
+	],
+	"sourceTopics": [
+		"Climate Change Policy and Economics",
+		"Climate Change and Geoengineering",
+		"Atmospheric and Environmental Gas Dynamics"
+	],
+	"url": "https://doi.org/10.1038/s41558-021-01245-w",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-30"
+	},
+	"addedAt": "2026-08-30",
+	"editorial": {},
+	"glossaryTerms": []
+}

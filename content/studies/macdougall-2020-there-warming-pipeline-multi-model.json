@@ -1,0 +1,135 @@
+{
+	"id": "macdougall-2020-there-warming-pipeline-multi-model",
+	"doi": "10.5194/bg-17-2987-2020",
+	"title": "Is there warming in the pipeline? A multi-model analysis of the Zero Emissions Commitment from CO 2",
+	"authors": [
+		{
+			"name": "Andrew H. MacDougall",
+			"orcid": "https://orcid.org/0000-0001-7899-9940",
+			"affiliation": "St. Francis Xavier University"
+		},
+		{
+			"name": "Thomas L. Frölicher",
+			"orcid": "https://orcid.org/0000-0003-2348-7854",
+			"affiliation": "University of Bern"
+		},
+		{
+			"name": "Chris Jones",
+			"orcid": "https://orcid.org/0000-0002-7141-9285",
+			"affiliation": "Met Office"
+		},
+		{
+			"name": "Joeri Rogelj",
+			"orcid": "https://orcid.org/0000-0003-2056-9061",
+			"affiliation": "International Institute for Applied Systems Analysis"
+		},
+		{
+			"name": "H. Damon Matthews",
+			"orcid": "https://orcid.org/0000-0003-3625-390X",
+			"affiliation": "Concordia University"
+		},
+		{
+			"name": "Kirsten Zickfeld",
+			"orcid": "https://orcid.org/0000-0001-8866-6541",
+			"affiliation": "Simon Fraser University"
+		},
+		{
+			"name": "Vivek K. Arora",
+			"orcid": "https://orcid.org/0000-0002-2620-9342",
+			"affiliation": "Environment and Climate Change Canada"
+		},
+		{
+			"name": "Noah J. Barrett",
+			"affiliation": "St. Francis Xavier University"
+		},
+		{
+			"name": "﻿Victor Brovkin",
+			"orcid": "https://orcid.org/0000-0001-6420-3198",
+			"affiliation": "Universität Hamburg"
+		},
+		{
+			"name": "Friedrich A. Burger",
+			"orcid": "https://orcid.org/0000-0002-7781-8498",
+			"affiliation": "University of Bern"
+		},
+		{
+			"name": "M. Eby",
+			"affiliation": "University of Victoria"
+		},
+		{
+			"name": "А. В. Елисеев",
+			"orcid": "https://orcid.org/0000-0001-7288-7649",
+			"affiliation": "Lomonosov Moscow State University"
+		},
+		{
+			"name": "Tomohiro Hajima",
+			"orcid": "https://orcid.org/0000-0002-4828-5100",
+			"affiliation": "Japan Agency for Marine-Earth Science and Technology"
+		},
+		{
+			"name": "Philip B. Holden",
+			"orcid": "https://orcid.org/0000-0002-2369-0062",
+			"affiliation": "The Open University"
+		},
+		{
+			"name": "Aurich Jeltsch‐Thömmes",
+			"orcid": "https://orcid.org/0000-0002-2050-1975",
+			"affiliation": "University of Bern"
+		},
+		{
+			"name": "Charles D. Koven",
+			"orcid": "https://orcid.org/0000-0002-3367-0065",
+			"affiliation": "Lawrence Berkeley National Laboratory"
+		},
+		{
+			"name": "Nadine Mengis",
+			"orcid": "https://orcid.org/0000-0003-0312-7069",
+			"affiliation": "GEOMAR Helmholtz Centre for Ocean Research Kiel"
+		},
+		{
+			"name": "Laurie Menviel",
+			"orcid": "https://orcid.org/0000-0002-5068-1591",
+			"affiliation": "UNSW Sydney"
+		},
+		{
+			"name": "Martine Michou",
+			"orcid": "https://orcid.org/0000-0002-1751-3326",
+			"affiliation": "Centre National de la Recherche Scientifique"
+		},
+		{
+			"name": "И. И. Мохов",
+			"orcid": "https://orcid.org/0000-0003-0033-8581",
+			"affiliation": "Lomonosov Moscow State University"
+		}
+	],
+	"authorCount": 29,
+	"venue": "Biogeosciences",
+	"publisher": "Copernicus Publications",
+	"year": 2020,
+	"type": "article",
+	"abstract": "Abstract. The Zero Emissions Commitment (ZEC) is the change in global mean temperature expected to occur following the cessation of net CO2 emissions and as such is a critical parameter for calculating the remaining carbon budget. The Zero Emissions Commitment Model Intercomparison Project (ZECMIP) was established to gain a better understanding of the potential magnitude and sign of ZEC, in addition to the processes that underlie this metric. A total of 18 Earth system models of both full and intermediate complexity participated in ZECMIP. All models conducted an experiment where atmospheric CO2 concentration increases exponentially until 1000 PgC has been emitted. Thereafter emissions are set to zero and models are configured to allow free evolution of atmospheric CO2 concentration. Many models conducted additional second-priority simulations with different cumulative emission totals and an alternative idealized emissions pathway with a gradual transition to zero emissions. The inter-model range of ZEC 50 years after emissions cease for the 1000 PgC experiment is −0.36 to 0.29 ∘C, with a model ensemble mean of −0.07 ∘C, median of −0.05 ∘C, and standard deviation of 0.19 ∘C. Models exhibit a wide variety of behaviours after emissions cease, with some models continuing to warm for decades to millennia and others cooling substantially. Analysis shows that both the carbon uptake by the ocean and the terrestrial biosphere are important for counteracting the warming effect from the reduction in ocean heat uptake in the decades after emissions cease. This warming effect is difficult to constrain due to high uncertainty in the efficacy of ocean heat uptake. Overall, the most likely value of ZEC on multi-decadal timescales is close to zero, consistent with previous model experiments and simple theory.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "gold",
+		"url": "https://bg.copernicus.org/articles/17/2987/2020/bg-17-2987-2020.pdf"
+	},
+	"citedByCount": 245,
+	"themes": [
+		"ocean",
+		"modelisation"
+	],
+	"sourceTopics": [
+		"Atmospheric and Environmental Gas Dynamics",
+		"Atmospheric chemistry and aerosols",
+		"Carbon Dioxide Capture Technologies"
+	],
+	"url": "https://doi.org/10.5194/bg-17-2987-2020",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-30"
+	},
+	"addedAt": "2026-08-30",
+	"editorial": {},
+	"glossaryTerms": []
+}

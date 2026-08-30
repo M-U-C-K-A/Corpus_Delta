@@ -1,0 +1,47 @@
+{
+	"id": "johnson-2020-warming-trends-increasingly-dominate-global",
+	"doi": "10.1038/s41558-020-0822-0",
+	"title": "Warming trends increasingly dominate global ocean",
+	"authors": [
+		{
+			"name": "Gregory C. Johnson",
+			"orcid": "https://orcid.org/0000-0002-8023-4020",
+			"affiliation": "NOAA Pacific Marine Environmental Laboratory"
+		},
+		{
+			"name": "John M. Lyman",
+			"orcid": "https://orcid.org/0000-0002-7200-4663",
+			"affiliation": "University of Hawaiʻi at Mānoa"
+		}
+	],
+	"authorCount": 2,
+	"venue": "Nature Climate Change",
+	"publisher": "Nature Portfolio",
+	"year": 2020,
+	"type": "article",
+	"abstract": null,
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "green",
+		"url": "http://repository.library.noaa.gov/view/noaa/33008/noaa_33008_DS1.pdf"
+	},
+	"citedByCount": 250,
+	"themes": [
+		"ocean",
+		"observation"
+	],
+	"sourceTopics": [
+		"Climate variability and models",
+		"Oceanographic and Atmospheric Processes",
+		"Marine and coastal ecosystems"
+	],
+	"url": "https://doi.org/10.1038/s41558-020-0822-0",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-30"
+	},
+	"addedAt": "2026-08-30",
+	"editorial": {},
+	"glossaryTerms": []
+}

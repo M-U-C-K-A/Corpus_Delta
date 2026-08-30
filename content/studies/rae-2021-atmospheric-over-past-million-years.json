@@ -1,0 +1,68 @@
+{
+	"id": "rae-2021-atmospheric-over-past-million-years",
+	"doi": "10.1146/annurev-earth-082420-063026",
+	"title": "Atmospheric CO 2 over the Past 66 Million Years from Marine Archives",
+	"authors": [
+		{
+			"name": "James Rae",
+			"orcid": "https://orcid.org/0000-0003-3904-2526",
+			"affiliation": "University of St Andrews"
+		},
+		{
+			"name": "Yige Zhang",
+			"orcid": "https://orcid.org/0000-0001-7331-1246",
+			"affiliation": "Texas A&M University"
+		},
+		{
+			"name": "Xiaoqing Liu",
+			"orcid": "https://orcid.org/0000-0001-7647-7364",
+			"affiliation": "Texas A&M University"
+		},
+		{
+			"name": "Gavin L. Foster",
+			"orcid": "https://orcid.org/0000-0003-3688-9668",
+			"affiliation": "National Oceanography Centre"
+		},
+		{
+			"name": "Heather Stoll",
+			"orcid": "https://orcid.org/0000-0002-2953-7835",
+			"affiliation": "ETH Zurich"
+		},
+		{
+			"name": "Ross Whiteford",
+			"orcid": "https://orcid.org/0000-0002-2178-3476",
+			"affiliation": "University of St Andrews"
+		}
+	],
+	"authorCount": 6,
+	"venue": "Annual Review of Earth and Planetary Sciences",
+	"publisher": "Annual Reviews",
+	"year": 2021,
+	"type": "article",
+	"abstract": "Throughout Earth's history, CO 2 is thought to have exerted a fundamental control on environmental change. Here we review and revise CO 2 reconstructions from boron isotopes in carbonates and carbon isotopes in organic matter over the Cenozoic—the past 66 million years. We find close coupling between CO 2 and climate throughout the Cenozoic, with peak CO 2 levels of ∼1,500 ppm in the Eocene greenhouse, decreasing to ∼500 ppm in the Miocene, and falling further into the ice age world of the Plio–Pleistocene. Around two-thirds of Cenozoic CO 2 drawdown is explained by an increase in the ratio of ocean alkalinity to dissolved inorganic carbon, likely linked to a change in the balance of weathering to outgassing, with the remaining one-third due to changing ocean temperature and major ion composition. Earth system climate sensitivity is explored and may vary between different time intervals. The Cenozoic CO 2 record highlights the truly geological scale of anthropogenic CO 2 change: Current CO 2 levels were last seen around 3 million years ago, and major cuts in emissions are required to prevent a return to the CO 2 levels of the Miocene or Eocene in the coming century. ▪ CO 2 reconstructions over the past 66 Myr from boron isotopes and alkenones are reviewed and re-evaluated. ▪ CO 2 estimates from the different proxies show close agreement, yielding a consistent picture of the evolution of the ocean-atmosphere CO 2 system over the Cenozoic. ▪ CO 2 and climate are coupled throughout the past 66 Myr, providing broad constraints on Earth system climate sensitivity. ▪ Twenty-first-century carbon emissions have the potential to return CO 2 to levels not seen since the much warmer climates of Earth's distant past.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": false,
+		"status": "closed",
+		"url": null
+	},
+	"citedByCount": 424,
+	"themes": [
+		"observation",
+		"carbone"
+	],
+	"sourceTopics": [
+		"Methane Hydrates and Related Phenomena",
+		"Ocean Acidification Effects and Responses",
+		"Paleontology and Stratigraphy of Fossils"
+	],
+	"url": "https://doi.org/10.1146/annurev-earth-082420-063026",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-30"
+	},
+	"addedAt": "2026-08-30",
+	"editorial": {},
+	"glossaryTerms": [],
+	"typeOverride": "review"
+}

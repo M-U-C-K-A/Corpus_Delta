@@ -1,0 +1,136 @@
+{
+	"id": "nisbet-2020-methane-mitigation-methods-reduce-emissions",
+	"doi": "10.1029/2019rg000675",
+	"title": "Methane Mitigation: Methods to Reduce Emissions, on the Path to the Paris Agreement",
+	"authors": [
+		{
+			"name": "Euan G. Nisbet",
+			"orcid": "https://orcid.org/0000-0001-8379-857X",
+			"affiliation": "Royal Holloway University of London"
+		},
+		{
+			"name": "Rebecca Fisher",
+			"orcid": "https://orcid.org/0000-0002-9262-5467",
+			"affiliation": "Royal Holloway University of London"
+		},
+		{
+			"name": "David Lowry",
+			"orcid": "https://orcid.org/0000-0002-8535-0346",
+			"affiliation": "Royal Holloway University of London"
+		},
+		{
+			"name": "James L. France",
+			"orcid": "https://orcid.org/0000-0002-8785-1240",
+			"affiliation": "Royal Holloway University of London"
+		},
+		{
+			"name": "Grant Allen",
+			"orcid": "https://orcid.org/0000-0002-7070-3620",
+			"affiliation": "University of Manchester"
+		},
+		{
+			"name": "Semra Bakkaloglu",
+			"orcid": "https://orcid.org/0000-0002-0476-1929",
+			"affiliation": "Royal Holloway University of London"
+		},
+		{
+			"name": "Tim Broderick",
+			"affiliation": "Department of Research and Specialist Services"
+		},
+		{
+			"name": "Michelle Cain",
+			"orcid": "https://orcid.org/0000-0003-2062-6556",
+			"affiliation": "NOAA Oceanic and Atmospheric Research"
+		},
+		{
+			"name": "Max Coleman",
+			"orcid": "https://orcid.org/0000-0002-5709-6141",
+			"affiliation": "University of Reading"
+		},
+		{
+			"name": "Julianne M. Fernandez",
+			"orcid": "https://orcid.org/0000-0001-5137-6620",
+			"affiliation": "Royal Holloway University of London"
+		},
+		{
+			"name": "Grant L. Forster",
+			"orcid": "https://orcid.org/0000-0003-1783-9307",
+			"affiliation": "University of East Anglia"
+		},
+		{
+			"name": "Paul D. Griffiths",
+			"orcid": "https://orcid.org/0000-0002-2706-5897",
+			"affiliation": "University of Cambridge"
+		},
+		{
+			"name": "Charlotte P. Iverach",
+			"orcid": "https://orcid.org/0000-0002-8849-7925",
+			"affiliation": "UNSW Sydney"
+		},
+		{
+			"name": "Bryce F. J. Kelly",
+			"orcid": "https://orcid.org/0009-0001-6350-2839",
+			"affiliation": "UNSW Sydney"
+		},
+		{
+			"name": "Martin Manning",
+			"orcid": "https://orcid.org/0000-0003-2628-6089",
+			"affiliation": "Victoria University of Wellington"
+		},
+		{
+			"name": "Peter B. R. Nisbet-Jones",
+			"orcid": "https://orcid.org/0000-0003-3332-9905",
+			"affiliation": "Royal Holloway University of London"
+		},
+		{
+			"name": "J. A. Pyle",
+			"orcid": "https://orcid.org/0000-0003-3629-9916",
+			"affiliation": "University of Cambridge"
+		},
+		{
+			"name": "Amy Townsend‐Small",
+			"orcid": "https://orcid.org/0000-0002-6107-0833",
+			"affiliation": "University of Cincinnati"
+		},
+		{
+			"name": "Aalia al-Shalaan",
+			"affiliation": "Royal Holloway University of London"
+		},
+		{
+			"name": "N. J. Warwick",
+			"orcid": "https://orcid.org/0000-0003-1840-0283",
+			"affiliation": "University of Cambridge"
+		}
+	],
+	"authorCount": 21,
+	"venue": "Reviews of Geophysics",
+	"publisher": "Wiley",
+	"year": 2020,
+	"type": "article",
+	"abstract": "Abstract The atmospheric methane burden is increasing rapidly, contrary to pathways compatible with the goals of the 2015 United Nations Framework Convention on Climate Change Paris Agreement. Urgent action is required to bring methane back to a pathway more in line with the Paris goals. Emission reduction from “tractable” (easier to mitigate) anthropogenic sources such as the fossil fuel industries and landfills is being much facilitated by technical advances in the past decade, which have radically improved our ability to locate, identify, quantify, and reduce emissions. Measures to reduce emissions from “intractable” (harder to mitigate) anthropogenic sources such as agriculture and biomass burning have received less attention and are also becoming more feasible, including removal from elevated‐methane ambient air near to sources. The wider effort to use microbiological and dietary intervention to reduce emissions from cattle (and humans) is not addressed in detail in this essentially geophysical review. Though they cannot replace the need to reach “net‐zero” emissions of CO 2 , significant reductions in the methane burden will ease the timescales needed to reach required CO 2 reduction targets for any particular future temperature limit. There is no single magic bullet, but implementation of a wide array of mitigation and emission reduction strategies could substantially cut the global methane burden, at a cost that is relatively low compared to the parallel and necessary measures to reduce CO 2 , and thereby reduce the atmospheric methane burden back toward pathways consistent with the goals of the Paris Agreement.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "hybrid",
+		"url": "https://agupubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2019RG000675"
+	},
+	"citedByCount": 415,
+	"themes": [
+		"politiques",
+		"carbone"
+	],
+	"sourceTopics": [
+		"Atmospheric and Environmental Gas Dynamics",
+		"Coal Properties and Utilization",
+		"Carbon Dioxide Capture Technologies"
+	],
+	"url": "https://doi.org/10.1029/2019rg000675",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-30"
+	},
+	"addedAt": "2026-08-30",
+	"editorial": {},
+	"glossaryTerms": [],
+	"typeOverride": "review"
+}

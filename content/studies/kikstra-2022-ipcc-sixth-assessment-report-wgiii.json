@@ -1,0 +1,137 @@
+{
+	"id": "kikstra-2022-ipcc-sixth-assessment-report-wgiii",
+	"doi": "10.5194/gmd-15-9075-2022",
+	"title": "The IPCC Sixth Assessment Report WGIII climate assessment of mitigation pathways: from emissions to global temperatures",
+	"authors": [
+		{
+			"name": "Jarmo Kikstra",
+			"orcid": "https://orcid.org/0000-0001-9405-1228",
+			"affiliation": "International Institute for Applied Systems Analysis"
+		},
+		{
+			"name": "Zebedee Nicholls",
+			"orcid": "https://orcid.org/0000-0002-4767-2723",
+			"affiliation": "International Institute for Applied Systems Analysis"
+		},
+		{
+			"name": "Chris Smith",
+			"orcid": "https://orcid.org/0000-0003-0599-4633",
+			"affiliation": "University of Leeds"
+		},
+		{
+			"name": "Jared Lewis",
+			"orcid": "https://orcid.org/0000-0002-8155-8924",
+			"affiliation": "International Institute for Applied Systems Analysis"
+		},
+		{
+			"name": "Robin Lamboll",
+			"orcid": "https://orcid.org/0000-0002-8410-037X",
+			"affiliation": "Imperial College London"
+		},
+		{
+			"name": "Edward Byers",
+			"orcid": "https://orcid.org/0000-0003-0349-5742",
+			"affiliation": "International Institute for Applied Systems Analysis"
+		},
+		{
+			"name": "Marit Sandstad",
+			"orcid": "https://orcid.org/0009-0007-2329-694X",
+			"affiliation": "CICERO Center for International Climate Research"
+		},
+		{
+			"name": "Malte Meinshausen",
+			"orcid": "https://orcid.org/0000-0003-4048-3521",
+			"affiliation": "The University of Melbourne"
+		},
+		{
+			"name": "Matthew Gidden",
+			"orcid": "https://orcid.org/0000-0003-0687-414X",
+			"affiliation": "International Institute for Applied Systems Analysis"
+		},
+		{
+			"name": "Joeri Rogelj",
+			"orcid": "https://orcid.org/0000-0003-2056-9061",
+			"affiliation": "International Institute for Applied Systems Analysis"
+		},
+		{
+			"name": "Elmar Kriegler",
+			"orcid": "https://orcid.org/0000-0002-3307-2647",
+			"affiliation": "University of Potsdam"
+		},
+		{
+			"name": "Glen P. Peters",
+			"orcid": "https://orcid.org/0000-0001-7889-8568",
+			"affiliation": "CICERO Center for International Climate Research"
+		},
+		{
+			"name": "Jan S. Fuglestvedt",
+			"orcid": "https://orcid.org/0000-0001-6140-8374",
+			"affiliation": "CICERO Center for International Climate Research"
+		},
+		{
+			"name": "Ragnhild Bieltvedt Skeie",
+			"orcid": "https://orcid.org/0000-0003-1246-4446",
+			"affiliation": "CICERO Center for International Climate Research"
+		},
+		{
+			"name": "B. H. Samset",
+			"orcid": "https://orcid.org/0000-0001-8013-1833",
+			"affiliation": "CICERO Center for International Climate Research"
+		},
+		{
+			"name": "Laura Wienpahl",
+			"orcid": "https://orcid.org/0000-0003-2049-8531",
+			"affiliation": "International Institute for Applied Systems Analysis"
+		},
+		{
+			"name": "Detlef P. van Vuuren",
+			"orcid": "https://orcid.org/0000-0003-0398-2831",
+			"affiliation": "Netherlands Environmental Assessment Agency"
+		},
+		{
+			"name": "Kaj-Ivar van der Wijst",
+			"orcid": "https://orcid.org/0000-0002-9588-7059",
+			"affiliation": "Utrecht University"
+		},
+		{
+			"name": "Alaa Al Khourdajie",
+			"orcid": "https://orcid.org/0000-0003-1376-7529",
+			"affiliation": "Imperial College London"
+		},
+		{
+			"name": "Piers Forster",
+			"orcid": "https://orcid.org/0000-0002-6078-0171",
+			"affiliation": "University of Leeds"
+		}
+	],
+	"authorCount": 23,
+	"venue": "Geoscientific model development",
+	"publisher": "Copernicus Publications",
+	"year": 2022,
+	"type": "article",
+	"abstract": "Abstract. While the Intergovernmental Panel on Climate Change (IPCC) physical science reports usually assess a handful of future scenarios, the Working Group III contribution on climate mitigation to the IPCC's Sixth Assessment Report (AR6 WGIII) assesses hundreds to thousands of future emissions scenarios. A key task in WGIII is to assess the global mean temperature outcomes of these scenarios in a consistent manner, given the challenge that the emissions scenarios from different integrated assessment models (IAMs) come with different sectoral and gas-to-gas coverage and cannot all be assessed consistently by complex Earth system models. In this work, we describe the “climate-assessment” workflow and its methods, including infilling of missing emissions and emissions harmonisation as applied to 1202 mitigation scenarios in AR6 WGIII. We evaluate the global mean temperature projections and effective radiative forcing (ERF) characteristics of climate emulators FaIRv1.6.2 and MAGICCv7.5.3 and use the CICERO simple climate model (CICERO-SCM) for sensitivity analysis. We discuss the implied overshoot severity of the mitigation pathways using overshoot degree years and look at emissions and temperature characteristics of scenarios compatible with one possible interpretation of the Paris Agreement. We find that the lowest class of emissions scenarios that limit global warming to “1.5 ∘C (with a probability of greater than 50 %) with no or limited overshoot” includes 97 scenarios for MAGICCv7.5.3 and 203 for FaIRv1.6.2. For the MAGICCv7.5.3 results, “limited overshoot” typically implies exceedance of median temperature projections of up to about 0.1 ∘C for up to a few decades before returning to below 1.5 ∘C by or before the year 2100. For more than half of the scenarios in this category that comply with three criteria for being “Paris-compatible”, including net-zero or net-negative greenhouse gas (GHG) emissions, median temperatures decline by about 0.3–0.4 ∘C after peaking at 1.5–1.6 ∘C in 2035–2055. We compare the methods applied in AR6 with the methods used for SR1.5 and discuss their implications. This article also introduces a “climate-assessment” Python package which allows for fully reproducing the IPCC AR6 WGIII temperature assessment. This work provides a community tool for assessing the temperature outcomes of emissions pathways and provides a basis for further work such as extending the workflow to include downscaling of climate characteristics to a regional level and calculating impacts.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "gold",
+		"url": "https://gmd.copernicus.org/articles/15/9075/2022/gmd-15-9075-2022.pdf"
+	},
+	"citedByCount": 405,
+	"themes": [
+		"politiques",
+		"modelisation"
+	],
+	"sourceTopics": [
+		"Climate Change Policy and Economics",
+		"Atmospheric and Environmental Gas Dynamics",
+		"Climate variability and models"
+	],
+	"url": "https://doi.org/10.5194/gmd-15-9075-2022",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-30"
+	},
+	"addedAt": "2026-08-30",
+	"editorial": {},
+	"glossaryTerms": []
+}

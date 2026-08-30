@@ -1,0 +1,106 @@
+{
+	"id": "turetsky-2020-carbon-release-through-abrupt-permafrost",
+	"doi": "10.1038/s41561-019-0526-0",
+	"title": "Carbon release through abrupt permafrost thaw",
+	"authors": [
+		{
+			"name": "Merritt R. Turetsky",
+			"orcid": "https://orcid.org/0000-0003-0155-8666",
+			"affiliation": "Institute of Arctic and Alpine Research"
+		},
+		{
+			"name": "Benjamin W. Abbott",
+			"orcid": "https://orcid.org/0000-0001-5861-3481",
+			"affiliation": "Brigham Young University"
+		},
+		{
+			"name": "Miriam C. Jones",
+			"orcid": "https://orcid.org/0000-0002-6650-7619",
+			"affiliation": "United States Geological Survey"
+		},
+		{
+			"name": "Katey Walter Anthony",
+			"orcid": "https://orcid.org/0000-0003-2079-2896",
+			"affiliation": "University of Alaska Fairbanks"
+		},
+		{
+			"name": "David Olefeldt",
+			"orcid": "https://orcid.org/0000-0002-5976-1475",
+			"affiliation": "University of Alberta"
+		},
+		{
+			"name": "Edward A. G. Schuur",
+			"orcid": "https://orcid.org/0000-0002-1096-2436",
+			"affiliation": "Northern Arizona University"
+		},
+		{
+			"name": "Guido Grosse",
+			"orcid": "https://orcid.org/0000-0001-5895-2141",
+			"affiliation": "Alfred-Wegener-Institut Helmholtz-Zentrum für Polar- und Meeresforschung"
+		},
+		{
+			"name": "Peter Kuhry",
+			"orcid": "https://orcid.org/0000-0002-6910-6749",
+			"affiliation": "Stockholm University"
+		},
+		{
+			"name": "Gustaf Hugelius",
+			"orcid": "https://orcid.org/0000-0002-8096-1594",
+			"affiliation": "Stockholm University"
+		},
+		{
+			"name": "Charles D. Koven",
+			"orcid": "https://orcid.org/0000-0002-3367-0065",
+			"affiliation": "Lawrence Berkeley National Laboratory"
+		},
+		{
+			"name": "David M. Lawrence",
+			"orcid": "https://orcid.org/0000-0002-2968-3023",
+			"affiliation": "NSF National Center for Atmospheric Research"
+		},
+		{
+			"name": "Carolyn Gibson",
+			"affiliation": "University of Guelph"
+		},
+		{
+			"name": "A. Britta K. Sannel",
+			"orcid": "https://orcid.org/0000-0002-1350-6516",
+			"affiliation": "Stockholm University"
+		},
+		{
+			"name": "A. David McGuire",
+			"orcid": "https://orcid.org/0000-0003-4646-0750",
+			"affiliation": "University of Alaska Fairbanks"
+		}
+	],
+	"authorCount": 14,
+	"venue": "Nature Geoscience",
+	"publisher": "Nature Portfolio",
+	"year": 2020,
+	"type": "article",
+	"abstract": null,
+	"language": "en",
+	"openAccess": {
+		"isOpen": false,
+		"status": "closed",
+		"url": null
+	},
+	"citedByCount": 1001,
+	"themes": [
+		"cryosphere",
+		"carbone"
+	],
+	"sourceTopics": [
+		"Climate change and permafrost",
+		"Cryospheric studies and observations",
+		"Arctic and Antarctic ice dynamics"
+	],
+	"url": "https://doi.org/10.1038/s41561-019-0526-0",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-30"
+	},
+	"addedAt": "2026-08-30",
+	"editorial": {},
+	"glossaryTerms": []
+}

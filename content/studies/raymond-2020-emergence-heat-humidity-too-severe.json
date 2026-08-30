@@ -1,0 +1,52 @@
+{
+	"id": "raymond-2020-emergence-heat-humidity-too-severe",
+	"doi": "10.1126/sciadv.aaw1838",
+	"title": "The emergence of heat and humidity too severe for human tolerance",
+	"authors": [
+		{
+			"name": "Colin Raymond",
+			"orcid": "https://orcid.org/0000-0003-3093-5774",
+			"affiliation": "Jet Propulsion Laboratory"
+		},
+		{
+			"name": "Tom Matthews",
+			"orcid": "https://orcid.org/0000-0001-6295-1870",
+			"affiliation": "Loughborough University"
+		},
+		{
+			"name": "Radley Horton",
+			"orcid": "https://orcid.org/0000-0002-5574-9962",
+			"affiliation": "Lamont-Doherty Earth Observatory"
+		}
+	],
+	"authorCount": 3,
+	"venue": "Science Advances",
+	"publisher": "American Association for the Advancement of Science",
+	"year": 2020,
+	"type": "article",
+	"abstract": "Humans' ability to efficiently shed heat has enabled us to range over every continent, but a wet-bulb temperature (TW) of 35°C marks our upper physiological limit, and much lower values have serious health and productivity impacts. Climate models project the first 35°C TW occurrences by the mid-21st century. However, a comprehensive evaluation of weather station data shows that some coastal subtropical locations have already reported a TW of 35°C and that extreme humid heat overall has more than doubled in frequency since 1979. Recent exceedances of 35°C in global maximum sea surface temperature provide further support for the validity of these dangerously high TW values. We find the most extreme humid heat is highly localized in both space and time and is correspondingly substantially underestimated in reanalysis products. Our findings thus underscore the serious challenge posed by humid heat that is more intense than previously reported and increasingly severe.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "gold",
+		"url": "https://www.science.org/doi/pdf/10.1126/sciadv.aaw1838?download=true"
+	},
+	"citedByCount": 834,
+	"themes": [
+		"chaleur",
+		"sante"
+	],
+	"sourceTopics": [
+		"Climate Change and Health Impacts",
+		"Thermoregulation and physiological responses",
+		"Spaceflight effects on biology"
+	],
+	"url": "https://doi.org/10.1126/sciadv.aaw1838",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-30"
+	},
+	"addedAt": "2026-08-30",
+	"editorial": {},
+	"glossaryTerms": []
+}

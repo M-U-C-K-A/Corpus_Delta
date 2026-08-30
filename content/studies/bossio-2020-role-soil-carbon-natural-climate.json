@@ -1,0 +1,90 @@
+{
+	"id": "bossio-2020-role-soil-carbon-natural-climate",
+	"doi": "10.1038/s41893-020-0491-z",
+	"title": "The role of soil carbon in natural climate solutions",
+	"authors": [
+		{
+			"name": "Déborah Bossio",
+			"orcid": "https://orcid.org/0000-0002-2296-9125",
+			"affiliation": "The Nature Conservancy"
+		},
+		{
+			"name": "Susan C. Cook‐Patton",
+			"orcid": "https://orcid.org/0000-0002-7194-4397",
+			"affiliation": "The Nature Conservancy"
+		},
+		{
+			"name": "Peter W. Ellis",
+			"orcid": "https://orcid.org/0000-0001-7933-8298",
+			"affiliation": "The Nature Conservancy"
+		},
+		{
+			"name": "Joseph Fargione",
+			"orcid": "https://orcid.org/0000-0002-0636-5380",
+			"affiliation": "The Nature Conservancy"
+		},
+		{
+			"name": "Jonathan Sanderman",
+			"orcid": "https://orcid.org/0000-0002-3215-1706",
+			"affiliation": "Woodwell Climate Research Center"
+		},
+		{
+			"name": "Pete Smith",
+			"orcid": "https://orcid.org/0000-0002-3784-1124",
+			"affiliation": "University of Aberdeen"
+		},
+		{
+			"name": "Stephen A. Wood",
+			"orcid": "https://orcid.org/0000-0002-9551-8165",
+			"affiliation": "The Nature Conservancy"
+		},
+		{
+			"name": "Robert J. Zomer",
+			"orcid": "https://orcid.org/0000-0002-2259-3359",
+			"affiliation": "Kunming Institute of Botany"
+		},
+		{
+			"name": "M. Unger",
+			"affiliation": "Silvestrum Climate Associates"
+		},
+		{
+			"name": "I.M. Emmer",
+			"affiliation": "Silvestrum Climate Associates"
+		},
+		{
+			"name": "Bronson W. Griscom",
+			"orcid": "https://orcid.org/0000-0002-8496-7213",
+			"affiliation": "Conservation International"
+		}
+	],
+	"authorCount": 11,
+	"venue": "Nature Sustainability",
+	"publisher": "Nature Portfolio",
+	"year": 2020,
+	"type": "article",
+	"abstract": null,
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "green",
+		"url": "https://hdl.handle.net/2164/15138"
+	},
+	"citedByCount": 1253,
+	"themes": [
+		"carbone",
+		"agriculture"
+	],
+	"sourceTopics": [
+		"Peatlands and Wetlands Ecology",
+		"Soil Carbon and Nitrogen Dynamics",
+		"Coastal wetland ecosystem dynamics"
+	],
+	"url": "https://doi.org/10.1038/s41893-020-0491-z",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-30"
+	},
+	"addedAt": "2026-08-30",
+	"editorial": {},
+	"glossaryTerms": []
+}

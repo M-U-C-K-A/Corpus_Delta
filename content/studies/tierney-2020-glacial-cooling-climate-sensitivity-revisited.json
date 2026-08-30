@@ -1,0 +1,66 @@
+{
+	"id": "tierney-2020-glacial-cooling-climate-sensitivity-revisited",
+	"doi": "10.1038/s41586-020-2617-x",
+	"title": "Glacial cooling and climate sensitivity revisited",
+	"authors": [
+		{
+			"name": "Jessica E. Tierney",
+			"orcid": "https://orcid.org/0000-0002-9080-9289",
+			"affiliation": "University of Arizona"
+		},
+		{
+			"name": "Jiang Zhu",
+			"orcid": "https://orcid.org/0000-0002-0908-5130",
+			"affiliation": "NSF National Center for Atmospheric Research"
+		},
+		{
+			"name": "Jonathan King",
+			"orcid": "https://orcid.org/0000-0003-0834-2200",
+			"affiliation": "University of Arizona"
+		},
+		{
+			"name": "Steven B. Malevich",
+			"orcid": "https://orcid.org/0000-0002-4752-8190",
+			"affiliation": "University of Arizona"
+		},
+		{
+			"name": "Gregory J. Hakim",
+			"orcid": "https://orcid.org/0000-0001-8486-9739",
+			"affiliation": "University of Washington"
+		},
+		{
+			"name": "Christopher J. Poulsen",
+			"orcid": "https://orcid.org/0000-0001-5104-4271",
+			"affiliation": "University of Michigan"
+		}
+	],
+	"authorCount": 6,
+	"venue": "Nature",
+	"publisher": "Nature Portfolio",
+	"year": 2020,
+	"type": "article",
+	"abstract": null,
+	"language": "en",
+	"openAccess": {
+		"isOpen": false,
+		"status": "closed",
+		"url": null
+	},
+	"citedByCount": 517,
+	"themes": [
+		"modelisation"
+	],
+	"sourceTopics": [
+		"Geology and Paleoclimatology Research",
+		"Cryospheric studies and observations",
+		"Climate variability and models"
+	],
+	"url": "https://doi.org/10.1038/s41586-020-2617-x",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-08-30"
+	},
+	"addedAt": "2026-08-30",
+	"editorial": {},
+	"glossaryTerms": []
+}
