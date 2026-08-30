@@ -1,0 +1,36 @@
+---
+term: "Rétroaction nuageuse"
+shortDefinition: "Effet net des changements de nébulosité sur le bilan énergétique ; principale source d'incertitude restante sur l'ampleur du réchauffement."
+themes: ["modelisation"]
+synonyms: ["Effet des nuages"]
+related: ["retroaction-climatique", "sensibilite-climatique", "albedo", "cmip"]
+sources:
+  - label: "IPCC AR6 WGI, Annex VII: Glossary"
+    url: "https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_AnnexVII.pdf"
+    publisher: "GIEC"
+    year: 2021
+  - label: "IPCC Sixth Assessment Report, Working Group I"
+    url: "https://www.ipcc.ch/report/ar6/wg1/"
+    publisher: "GIEC"
+    year: 2021
+studies: ["sherwood-2020-assessment-earths-climate-sensitivity-using", "eyring-2016-overview-coupled-model-intercomparison-project"]
+updatedAt: "2026-08-20"
+---
+
+## Deux effets opposés dans le même objet
+
+Un nuage renvoie une partie du rayonnement solaire vers l'espace, ce qui refroidit. Et il
+absorbe le rayonnement infrarouge émis par la surface, ce qui réchauffe. Lequel des deux
+l'emporte dépend de l'altitude du nuage, de son épaisseur et de la taille de ses
+gouttelettes.
+
+Les nuages bas et épais des océans refroidissent nettement. Les cirrus, fins et hauts,
+réchauffent. La question n'est donc pas de savoir si les nuages refroidissent, mais comment
+leur répartition se déplacera dans un climat plus chaud.
+
+<Callout variant="uncertainty" title="Le point faible des modèles">
+Un nuage se forme à des échelles bien inférieures à la maille d'un modèle climatique : il
+faut le représenter indirectement, par des approximations. C'est de là que vient
+l'essentiel de la dispersion entre modèles <Cite id="eyring-2016-overview-coupled-model-intercomparison-project" />,
+et donc la largeur de la fourchette de <Term id="sensibilite-climatique">sensibilité</Term>.
+</Callout>

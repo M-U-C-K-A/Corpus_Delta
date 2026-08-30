@@ -1,0 +1,36 @@
+---
+term: "Surmortalité"
+shortDefinition: "Écart entre les décès observés sur une période et ceux attendus en son absence, utilisé pour mesurer l'effet sanitaire d'un événement."
+themes: ["sante", "chaleur", "risques"]
+synonyms: ["Excès de mortalité"]
+related: ["canicule", "vulnerabilite", "ilot-de-chaleur-urbain"]
+sources:
+  - label: "Fortes chaleurs et canicule"
+    url: "https://www.santepubliquefrance.fr/determinants-de-sante/climat/fortes-chaleurs-canicule"
+    publisher: "Santé publique France"
+  - label: "IPCC Sixth Assessment Report, Working Group II"
+    url: "https://www.ipcc.ch/report/ar6/wg2/"
+    publisher: "GIEC"
+    year: 2022
+studies: ["gasparrini-2015-mortality-risk-attributable-high-low", "ebi-2021-extreme-weather-climate-change-population"]
+updatedAt: "2026-08-20"
+---
+
+## Pourquoi on estime au lieu de compter
+
+Presque personne ne meurt avec « chaleur » inscrit sur son certificat de décès. La
+contrainte thermique aggrave des pathologies existantes, et les décès sont enregistrés sous
+leur cause médicale. Compter les morts d'une <Term id="canicule">canicule</Term> à partir des
+causes déclarées en manquerait donc la quasi-totalité.
+
+La méthode consiste à établir une mortalité attendue, à partir des mêmes semaines des années
+précédentes corrigées des tendances de fond, puis à mesurer l'écart avec la mortalité
+observée. Cet écart est la surmortalité.
+
+<Callout variant="caution" title="Ce que le chiffre ne dit pas">
+Une estimation statistique ne désigne aucun décès en particulier, ce qui la rend facile à
+contester et difficile à défendre publiquement. Elle reste pourtant la seule mesure
+disponible, et son ordre de grandeur est robuste : la même méthode appliquée par des équipes
+indépendantes donne des résultats convergents
+<Cite id="gasparrini-2015-mortality-risk-attributable-high-low" />.
+</Callout>

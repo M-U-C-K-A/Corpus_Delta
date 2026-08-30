@@ -1,0 +1,37 @@
+---
+term: "Climate model"
+shortDefinition: "A numerical representation of the climate system grounded in physical law, computing how the atmosphere, ocean and land surfaces evolve."
+themes: ["modelisation"]
+synonyms: ["General circulation model", "Earth system model"]
+related: ["cmip", "scenario-ssp", "sensibilite-climatique", "reanalyse"]
+sources:
+  - label: "IPCC AR6 WGI, Annex VII: Glossary"
+    url: "https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_AnnexVII.pdf"
+    publisher: "IPCC"
+    year: 2021
+  - label: "IPCC Sixth Assessment Report, Working Group I"
+    url: "https://www.ipcc.ch/report/ar6/wg1/"
+    publisher: "IPCC"
+    year: 2021
+studies: ["eyring-2016-overview-coupled-model-intercomparison-project", "calvin-2023-ipcc-2023-climate-change-2023"]
+updatedAt: "2026-08-20"
+---
+
+## What a model computes, and what it is given
+
+A model divides the planet into cells of a few tens of kilometres and solves, time step
+after time step, the equations of fluid mechanics and radiative transfer. It contains no
+curve of future temperature: that comes out of the calculation.
+
+What it is given are the external conditions: gas concentrations, solar activity, volcanic
+aerosols. That is exactly what <Term id="scenario-ssp">scenarios</Term> are for.
+
+<Callout variant="caution" title="The grid sets the limits">
+Phenomena smaller than a grid cell, such as clouds, storms and ocean eddies, cannot be
+computed directly. They are represented by approximate formulas tuned against observations.
+That is where the main divergences between models live, and the reason dozens are run rather
+than one.
+</Callout>
+
+A model is judged first on its ability to reproduce the observed climate of the past, before
+any credit is given to its projections.
