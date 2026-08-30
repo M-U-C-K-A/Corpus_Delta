@@ -1,0 +1,221 @@
+{
+	"id": "antarctic-sea-ice-february",
+	"title": {
+		"fr": "Étendue de la banquise antarctique en février",
+		"en": "Antarctic sea ice extent in February"
+	},
+	"unit": "10⁶ km²",
+	"source": {
+		"label": "Sea Ice Index, Version 4",
+		"url": "https://nsidc.org/data/g02135/",
+		"publisher": "National Snow and Ice Data Center",
+		"accessedAt": "2026-08-30"
+	},
+	"note": {
+		"fr": "Moyenne de février, mois du minimum annuel dans l'hémisphère sud. Contrairement à l'Arctique, l'Antarctique n'a montré aucune tendance nette jusqu'aux années 2010 : la rupture récente est d'autant plus remarquée.",
+		"en": "February mean, the month of the southern hemisphere's annual minimum. Unlike the Arctic, Antarctica showed no clear trend until the 2010s, which is what makes the recent break so remarked upon."
+	},
+	"series": [
+		{
+			"key": "extent",
+			"label": {
+				"fr": "Étendue en février",
+				"en": "February extent"
+			}
+		}
+	],
+	"rows": [
+		{
+			"year": 1979,
+			"extent": 3.14
+		},
+		{
+			"year": 1980,
+			"extent": 2.82
+		},
+		{
+			"year": 1981,
+			"extent": 2.87
+		},
+		{
+			"year": 1982,
+			"extent": 3.13
+		},
+		{
+			"year": 1983,
+			"extent": 3.07
+		},
+		{
+			"year": 1984,
+			"extent": 2.68
+		},
+		{
+			"year": 1985,
+			"extent": 2.84
+		},
+		{
+			"year": 1986,
+			"extent": 3.19
+		},
+		{
+			"year": 1987,
+			"extent": 3.25
+		},
+		{
+			"year": 1988,
+			"extent": 2.89
+		},
+		{
+			"year": 1989,
+			"extent": 2.98
+		},
+		{
+			"year": 1990,
+			"extent": 3.04
+		},
+		{
+			"year": 1991,
+			"extent": 3.16
+		},
+		{
+			"year": 1992,
+			"extent": 2.84
+		},
+		{
+			"year": 1993,
+			"extent": 2.48
+		},
+		{
+			"year": 1994,
+			"extent": 3.2
+		},
+		{
+			"year": 1995,
+			"extent": 3.56
+		},
+		{
+			"year": 1996,
+			"extent": 2.98
+		},
+		{
+			"year": 1997,
+			"extent": 2.49
+		},
+		{
+			"year": 1998,
+			"extent": 2.99
+		},
+		{
+			"year": 1999,
+			"extent": 2.97
+		},
+		{
+			"year": 2000,
+			"extent": 2.91
+		},
+		{
+			"year": 2001,
+			"extent": 3.65
+		},
+		{
+			"year": 2002,
+			"extent": 2.96
+		},
+		{
+			"year": 2003,
+			"extent": 3.79
+		},
+		{
+			"year": 2004,
+			"extent": 3.58
+		},
+		{
+			"year": 2005,
+			"extent": 2.97
+		},
+		{
+			"year": 2006,
+			"extent": 2.65
+		},
+		{
+			"year": 2007,
+			"extent": 2.9
+		},
+		{
+			"year": 2008,
+			"extent": 3.89
+		},
+		{
+			"year": 2009,
+			"extent": 2.99
+		},
+		{
+			"year": 2010,
+			"extent": 3.11
+		},
+		{
+			"year": 2011,
+			"extent": 2.52
+		},
+		{
+			"year": 2012,
+			"extent": 3.55
+		},
+		{
+			"year": 2013,
+			"extent": 3.84
+		},
+		{
+			"year": 2014,
+			"extent": 3.84
+		},
+		{
+			"year": 2015,
+			"extent": 3.8
+		},
+		{
+			"year": 2016,
+			"extent": 2.79
+		},
+		{
+			"year": 2017,
+			"extent": 2.29
+		},
+		{
+			"year": 2018,
+			"extent": 2.33
+		},
+		{
+			"year": 2019,
+			"extent": 2.65
+		},
+		{
+			"year": 2020,
+			"extent": 2.92
+		},
+		{
+			"year": 2021,
+			"extent": 2.89
+		},
+		{
+			"year": 2022,
+			"extent": 2.21
+		},
+		{
+			"year": 2023,
+			"extent": 1.98
+		},
+		{
+			"year": 2024,
+			"extent": 2.19
+		},
+		{
+			"year": 2025,
+			"extent": 2.22
+		},
+		{
+			"year": 2026,
+			"extent": 2.91
+		}
+	]
+}

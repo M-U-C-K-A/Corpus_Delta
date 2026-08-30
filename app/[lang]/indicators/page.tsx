@@ -37,6 +37,9 @@ const INDICATORS: { id: string; kind: ChartKind; decimals: number; color: Dither
 	{ id: "ocean-heat-content", kind: "area", decimals: 1, color: "red" },
 	{ id: "sea-level-altimetry", kind: "area", decimals: 1, color: "blue" },
 	{ id: "arctic-sea-ice-september", kind: "line", decimals: 2, color: "blue" },
+	{ id: "antarctic-sea-ice-february", kind: "line", decimals: 2, color: "blue" },
+	{ id: "snow-cover-march", kind: "line", decimals: 2, color: "grey" },
+	{ id: "co2-growth-rate", kind: "bar", decimals: 2, color: "orange" },
 ];
 
 /** Scénarios comparés, du plus sobre au plus émetteur — l'ordre porte le sens. */
