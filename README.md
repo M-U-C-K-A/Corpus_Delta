@@ -6,6 +6,13 @@ Annuaire de publications scientifiques sur le climat et les risques naturels, do
 glossaire des termes techniques. Le site ne publie pas de recherche : il référence des
 travaux existants et renvoie systématiquement à leur source.
 
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/hairline/delta-dark.svg">
+    <img alt="Cinq strates empilées formant un delta" src="docs/hairline/delta.svg" width="560">
+  </picture>
+</p>
+
 ## Principe
 
 **Aucune métadonnée bibliographique n'est saisie à la main.** On fournit un DOI, un script
@@ -64,6 +71,14 @@ pnpm study:add --manual --title="…" --url=https://… --year=2023 --publisher=
 
 ### Régénérer les données des graphiques
 
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/hairline/abri-dark.svg">
+    <img alt="Un abri météorologique à persiennes" src="docs/hairline/abri.svg" width="480">
+  </picture>
+</p>
+
+
 ```bash
 pnpm datasets:fetch                        # tout
 pnpm datasets:fetch co2-mauna-loa          # une seule série
@@ -73,6 +88,13 @@ Chaque source a son format, donc son analyseur, dans `scripts/fetch-datasets.ts`
 NOAA et NASA sont de simples fichiers tabulaires ; les projections par scénario demandent
 une agrégation, isolée dans `scripts/lib/cmip6.ts`, qui télécharge 145 fichiers et prend
 quelques minutes.
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/hairline/casier-dark.svg">
+    <img alt="Une casse d'imprimeur aux cases inégales" src="docs/hairline/casier.svg" width="520">
+  </picture>
+</p>
 
 ## Pages
 
@@ -165,3 +187,6 @@ jeux de données conservent la licence de leur producteur, indiquée avec leur s
 
 Ce site est indépendant : il n'est affilié à aucune institution, revue ou organisation, et
 ne relaie l'identité visuelle d'aucune d'entre elles.
+
+Illustrations dessinées avec [Hairline](https://github.com/lucasmarkes/hairline) ;
+leurs sources et la manière de les refaire sont dans [`docs/hairline`](docs/hairline).
