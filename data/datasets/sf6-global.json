@@ -1,0 +1,141 @@
+{
+	"id": "sf6-global",
+	"title": {
+		"fr": "Concentration atmosphérique d'hexafluorure de soufre",
+		"en": "Atmospheric sulfur hexafluoride concentration"
+	},
+	"unit": "ppt",
+	"source": {
+		"label": "Trends in Atmospheric Sulfur Hexafluoride",
+		"url": "https://gml.noaa.gov/ccgg/trends_sf6/",
+		"publisher": "NOAA Global Monitoring Laboratory",
+		"accessedAt": "2026-11-15"
+	},
+	"note": {
+		"fr": "Le SF₆ est le gaz à effet de serre le plus puissant répertorié par le GIEC : à masse égale, son effet sur un siècle vaut environ 24 000 fois celui du CO₂, et il séjourne plus de trois mille ans dans l'atmosphère. Les quantités en jeu restent mille fois moindres que celles du CO₂, d'où une unité en parties par billion.",
+		"en": "SF₆ is the most potent greenhouse gas listed by the IPCC: per unit mass its hundred-year effect is some 24,000 times that of CO₂, and it persists in the atmosphere for over three thousand years. The quantities involved remain a thousandfold smaller than CO₂, hence the parts-per-trillion unit."
+	},
+	"series": [
+		{
+			"key": "sf6",
+			"label": {
+				"fr": "SF₆ atmosphérique",
+				"en": "Atmospheric SF₆"
+			}
+		}
+	],
+	"rows": [
+		{
+			"year": 1998,
+			"sf6": 4.21
+		},
+		{
+			"year": 1999,
+			"sf6": 4.38
+		},
+		{
+			"year": 2000,
+			"sf6": 4.58
+		},
+		{
+			"year": 2001,
+			"sf6": 4.78
+		},
+		{
+			"year": 2002,
+			"sf6": 4.98
+		},
+		{
+			"year": 2003,
+			"sf6": 5.23
+		},
+		{
+			"year": 2004,
+			"sf6": 5.45
+		},
+		{
+			"year": 2005,
+			"sf6": 5.67
+		},
+		{
+			"year": 2006,
+			"sf6": 5.91
+		},
+		{
+			"year": 2007,
+			"sf6": 6.18
+		},
+		{
+			"year": 2008,
+			"sf6": 6.46
+		},
+		{
+			"year": 2009,
+			"sf6": 6.75
+		},
+		{
+			"year": 2010,
+			"sf6": 7.04
+		},
+		{
+			"year": 2011,
+			"sf6": 7.3
+		},
+		{
+			"year": 2012,
+			"sf6": 7.6
+		},
+		{
+			"year": 2013,
+			"sf6": 7.91
+		},
+		{
+			"year": 2014,
+			"sf6": 8.25
+		},
+		{
+			"year": 2015,
+			"sf6": 8.58
+		},
+		{
+			"year": 2016,
+			"sf6": 8.91
+		},
+		{
+			"year": 2017,
+			"sf6": 9.26
+		},
+		{
+			"year": 2018,
+			"sf6": 9.6
+		},
+		{
+			"year": 2019,
+			"sf6": 9.94
+		},
+		{
+			"year": 2020,
+			"sf6": 10.26
+		},
+		{
+			"year": 2021,
+			"sf6": 10.62
+		},
+		{
+			"year": 2022,
+			"sf6": 11.01
+		},
+		{
+			"year": 2023,
+			"sf6": 11.4
+		},
+		{
+			"year": 2024,
+			"sf6": 11.8
+		},
+		{
+			"year": 2025,
+			"sf6": 12.24
+		}
+	]
+}

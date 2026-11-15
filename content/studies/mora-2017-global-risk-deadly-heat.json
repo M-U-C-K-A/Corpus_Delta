@@ -1,0 +1,121 @@
+{
+	"id": "mora-2017-global-risk-deadly-heat",
+	"doi": "10.1038/nclimate3322",
+	"title": "Global risk of deadly heat",
+	"authors": [
+		{
+			"name": "Camilo Mora",
+			"orcid": "https://orcid.org/0000-0002-7183-960X",
+			"affiliation": "University of Hawaiʻi at Mānoa"
+		},
+		{
+			"name": "Bénédicte Dousset",
+			"orcid": "https://orcid.org/0000-0002-0038-2358",
+			"affiliation": "University of Hawaiʻi at Mānoa"
+		},
+		{
+			"name": "Iain R. Caldwell",
+			"orcid": "https://orcid.org/0000-0001-8148-8762",
+			"affiliation": "University of Hawaiʻi at Mānoa"
+		},
+		{
+			"name": "Farrah E. Powell",
+			"affiliation": "University of Hawaiʻi at Mānoa"
+		},
+		{
+			"name": "Rollan C. Geronimo",
+			"orcid": "https://orcid.org/0000-0002-2843-3030",
+			"affiliation": "University of Hawaiʻi at Mānoa"
+		},
+		{
+			"name": "Coral R. Bielecki",
+			"affiliation": "University of Hawaiʻi at Mānoa"
+		},
+		{
+			"name": "Chelsie W. W. Counsell",
+			"orcid": "https://orcid.org/0000-0002-2077-3487",
+			"affiliation": "University of Hawaiʻi at Mānoa"
+		},
+		{
+			"name": "Bonnie S. Dietrich",
+			"affiliation": "University of Hawaiʻi at Mānoa"
+		},
+		{
+			"name": "Emily T. Johnston",
+			"affiliation": "University of Hawaiʻi at Mānoa"
+		},
+		{
+			"name": "Leo V. Louis",
+			"orcid": "https://orcid.org/0000-0001-8223-2355",
+			"affiliation": "University of Hawaiʻi at Mānoa"
+		},
+		{
+			"name": "Matthew P. Lucas",
+			"affiliation": "University of Hawaiʻi at Mānoa"
+		},
+		{
+			"name": "Marie M. McKenzie",
+			"orcid": "https://orcid.org/0000-0002-9365-4286",
+			"affiliation": "University of Hawaiʻi at Mānoa"
+		},
+		{
+			"name": "Alessandra G. Shea",
+			"affiliation": "University of Hawaiʻi at Mānoa"
+		},
+		{
+			"name": "Han Tseng",
+			"orcid": "https://orcid.org/0000-0003-0445-9284",
+			"affiliation": "University of Hawaiʻi at Mānoa"
+		},
+		{
+			"name": "Thomas W. Giambelluca",
+			"orcid": "https://orcid.org/0000-0002-6798-3780",
+			"affiliation": "University of Hawaiʻi at Mānoa"
+		},
+		{
+			"name": "Lisa R. Leon",
+			"orcid": "https://orcid.org/0000-0002-2304-8651",
+			"affiliation": "U.S. Army Research Institute of Environmental Medicine"
+		},
+		{
+			"name": "Ed Hawkins",
+			"orcid": "https://orcid.org/0000-0001-9477-3677",
+			"affiliation": "National Centre for Atmospheric Science"
+		},
+		{
+			"name": "Clay Trauernicht",
+			"orcid": "https://orcid.org/0000-0002-1509-8536",
+			"affiliation": "University of Hawaiʻi at Mānoa"
+		}
+	],
+	"authorCount": 18,
+	"venue": "Nature Climate Change",
+	"publisher": "Nature Portfolio",
+	"year": 2017,
+	"type": "article",
+	"abstract": null,
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "green",
+		"url": "https://centaur.reading.ac.uk/71263/1/Mora_etal_heatwaves.pdf"
+	},
+	"citedByCount": 1880,
+	"themes": [
+		"sante",
+		"chaleur"
+	],
+	"sourceTopics": [
+		"Climate Change and Health Impacts",
+		"Thermoregulation and physiological responses",
+		"Urban Heat Island Mitigation"
+	],
+	"url": "https://doi.org/10.1038/nclimate3322",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-11-15"
+	},
+	"addedAt": "2026-11-15",
+	"editorial": {},
+	"glossaryTerms": []
+}

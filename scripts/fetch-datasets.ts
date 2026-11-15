@@ -529,6 +529,136 @@ async function snowCover(): Promise<Dataset> {
 	};
 }
 
+
+const sulfurHexafluoride = noaaGas({
+	id: "sf6-global",
+	url: "https://gml.noaa.gov/webdata/ccgg/trends/sf6/sf6_annmean_gl.txt",
+	unit: "ppt",
+	key: "sf6",
+	title: {
+		fr: "Concentration atmosphérique d'hexafluorure de soufre",
+		en: "Atmospheric sulfur hexafluoride concentration",
+	},
+	seriesLabel: { fr: "SF₆ atmosphérique", en: "Atmospheric SF₆" },
+	note: {
+		fr: "Le SF₆ est le gaz à effet de serre le plus puissant répertorié par le GIEC : à masse égale, son effet sur un siècle vaut environ 24 000 fois celui du CO₂, et il séjourne plus de trois mille ans dans l'atmosphère. Les quantités en jeu restent mille fois moindres que celles du CO₂, d'où une unité en parties par billion.",
+		en: "SF₆ is the most potent greenhouse gas listed by the IPCC: per unit mass its hundred-year effect is some 24,000 times that of CO₂, and it persists in the atmosphere for over three thousand years. The quantities involved remain a thousandfold smaller than CO₂, hence the parts-per-trillion unit.",
+	},
+	sourceLabel: "Trends in Atmospheric Sulfur Hexafluoride",
+	sourceUrl: "https://gml.noaa.gov/ccgg/trends_sf6/",
+});
+
+/**
+ * NOAA NCEI — écarts de température, terres émergées et surface de l'océan.
+ *
+ * Les deux moitiés du globe ne se réchauffent pas au même rythme : la mer
+ * absorbe la chaleur sur une épaisseur bien plus grande que le sol, et une
+ * part de l'énergie qu'elle reçoit sert à évaporer plutôt qu'à chauffer. Les
+ * deux séries viennent du même producteur et de la même référence 1901-2000,
+ * et tiennent donc dans un seul jeu de données à deux courbes.
+ */
+async function landOceanWarming(): Promise<Dataset> {
+	const base = "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/global/time-series/globe";
+
+	/** Les fichiers portent trois lignes de commentaire puis un en-tête `Year,...`. */
+	async function departures(surface: "land" | "ocean"): Promise<Map<number, number>> {
+		const text = await fetchText(`${base}/${surface}/12/12/1880-${new Date().getFullYear()}.csv`);
+		const pairs = text
+			.split("\n")
+			.map((line) => line.trim().split(","))
+			.filter((parts) => parts.length >= 2 && /^\d{4}$/.test(parts[0]))
+			.map((parts) => [Number(parts[0]), Number(parts[1])] as const)
+			.filter(([, value]) => Number.isFinite(value));
+		return new Map(pairs);
+	}
+
+	const [land, ocean] = await Promise.all([departures("land"), departures("ocean")]);
+
+	// Une année n'est retenue que si les deux surfaces sont renseignées, pour que
+	// l'écart entre les deux courbes se lise sans trou.
+	const rows = [...land.keys()]
+		.filter((year) => ocean.has(year))
+		.sort((a, b) => a - b)
+		.map((year) => ({ year, land: land.get(year)!, ocean: ocean.get(year)! }));
+
+	return {
+		id: "land-ocean-warming",
+		title: {
+			fr: "Réchauffement des terres et de l'océan",
+			en: "Land and ocean warming",
+		},
+		unit: "°C",
+		note: {
+			fr: "Écarts annuels à la moyenne 1901-2000, mesurés séparément sur les terres émergées et à la surface de l'océan. Les terres se réchauffent environ deux fois plus vite : la mer répartit la chaleur reçue sur une couche bien plus épaisse, et en consacre une partie à l'évaporation. C'est pourquoi un chiffre global de réchauffement sous-estime toujours ce que connaissent les régions habitées.",
+			en: "Annual departures from the 1901-2000 mean, measured separately over land and at the ocean surface. Land warms about twice as fast: the sea spreads the heat it takes up through a far thicker layer, and spends part of it on evaporation. This is why a global warming figure always understates what inhabited regions experience.",
+		},
+		source: {
+			label: "Climate at a Glance — Global Time Series",
+			url: "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/global/time-series",
+			publisher: "NOAA National Centers for Environmental Information",
+			accessedAt: today(),
+		},
+		series: [
+			{ key: "land", label: { fr: "Terres émergées", en: "Land" } },
+			{ key: "ocean", label: { fr: "Surface de l'océan", en: "Ocean surface" } },
+		],
+		rows,
+	};
+}
+
+/**
+ * PIOMAS — volume de la banquise arctique en septembre.
+ *
+ * L'étendue ne dit rien de l'épaisseur : une banquise peut couvrir la même
+ * surface en étant deux fois plus mince. Le volume, reconstruit par un modèle
+ * contraint par les observations, recule nettement plus vite que l'étendue.
+ */
+async function arcticSeaIceVolume(): Promise<Dataset> {
+	const url = "http://psc.apl.uw.edu/wordpress/wp-content/uploads/schweiger/ice_volume/PIOMAS.2sst.monthly.Current.v2.1.txt";
+	const text = await fetchText(url);
+
+	const rows = text
+		.split("\n")
+		.map((line) => line.trim().split(/\s+/))
+		.filter((parts) => parts.length >= 10 && /^\d{4}$/.test(parts[0]))
+		// Colonne 10 : septembre, mois du minimum annuel. -1 marque un mois à venir.
+		.map((parts) => ({ year: Number(parts[0]), volume: Number(parts[9]) }))
+		.filter((row) => Number.isFinite(row.volume) && row.volume > 0);
+
+	return {
+		id: "arctic-sea-ice-volume",
+		title: {
+			fr: "Volume de la banquise arctique en septembre",
+			en: "Arctic sea ice volume in September",
+		},
+		unit: "10³ km³",
+		note: {
+			fr: "Volume au minimum annuel, reconstruit par le modèle PIOMAS contraint par les observations de concentration et les mesures d'épaisseur disponibles. L'étendue ne renseigne que la surface : à couverture égale, une banquise amincie contient bien moins de glace, et le volume recule plus vite que l'étendue. C'est une reconstruction, non une mesure directe.",
+			en: "Volume at the annual minimum, reconstructed by the PIOMAS model constrained by concentration observations and available thickness measurements. Extent reports surface only: at equal cover a thinned ice pack holds far less ice, and volume declines faster than extent. This is a reconstruction, not a direct measurement.",
+		},
+		source: {
+			label: "PIOMAS Arctic Sea Ice Volume Reanalysis",
+			url: "http://psc.apl.uw.edu/research/projects/arctic-sea-ice-volume-anomaly/",
+			publisher: "Polar Science Center, University of Washington",
+			accessedAt: today(),
+		},
+		series: [{ key: "volume", label: { fr: "Volume en septembre", en: "September volume" } }],
+		rows,
+	};
+}
+
+
+
+/** Marégraphe de référence : la série continue la plus longue des États-Unis. */
+const BATTERY = {
+	station: "8518750",
+	name: "The Battery, New York",
+	url: "https://tidesandcurrents.noaa.gov/stationhome.html?id=8518750",
+	publisher: "NOAA Center for Operational Oceanographic Products and Services",
+};
+
+
+
 const BUILDERS: Record<string, () => Promise<Dataset>> = {
 	"co2-mauna-loa": co2MaunaLoa,
 	"methane-global": methaneGlobal,
@@ -543,6 +673,9 @@ const BUILDERS: Record<string, () => Promise<Dataset>> = {
 	"antarctic-sea-ice-february": antarcticSeaIce,
 	"co2-growth-rate": co2GrowthRate,
 	"snow-cover-march": snowCover,
+	"sf6-global": sulfurHexafluoride,
+	"land-ocean-warming": landOceanWarming,
+	"arctic-sea-ice-volume": arcticSeaIceVolume,
 };
 
 async function main(): Promise<void> {

@@ -69,21 +69,22 @@
 	"openAccess": {
 		"isOpen": true,
 		"status": "green",
-		"url": "https://pure.ulster.ac.uk/en/publications/be02e8ac-8b69-4bbd-aad0-8915b238b988"
+		"url": "https://pure.ulster.ac.uk/ws/files/90482504/main_paper_ww_mass_change_Nature_final_textonly.pdf"
 	},
-	"citedByCount": 37,
+	"citedByCount": 2184,
 	"themes": [
-		"cryosphere"
+		"cryosphere",
+		"observation"
 	],
 	"sourceTopics": [
 		"Cryospheric studies and observations",
-		"Winter Sports Injuries and Performance",
-		"Climate change and permafrost"
+		"Geophysics and Gravity Measurements",
+		"Geology and Paleoclimatology Research"
 	],
 	"url": "https://doi.org/10.1038/s41586-021-03436-z",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-08-19"
+		"retrievedAt": "2026-11-15"
 	},
 	"addedAt": "2026-08-19",
 	"editorial": {

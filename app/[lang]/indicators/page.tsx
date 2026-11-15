@@ -33,10 +33,13 @@ const INDICATORS: { id: string; kind: ChartKind; decimals: number; color: Dither
 	{ id: "methane-global", kind: "line", decimals: 1, color: "purple" },
 	{ id: "nitrous-oxide-global", kind: "line", decimals: 1, color: "pink" },
 	{ id: "greenhouse-forcing-aggi", kind: "area", decimals: 3, color: "orange" },
+	{ id: "sf6-global", kind: "line", decimals: 2, color: "purple" },
 	{ id: "temperature-anomaly-gistemp", kind: "area", decimals: 2, color: "red" },
+	{ id: "land-ocean-warming", kind: "line", decimals: 2, color: "red" },
 	{ id: "ocean-heat-content", kind: "area", decimals: 1, color: "red" },
 	{ id: "sea-level-altimetry", kind: "area", decimals: 1, color: "blue" },
 	{ id: "arctic-sea-ice-september", kind: "line", decimals: 2, color: "blue" },
+	{ id: "arctic-sea-ice-volume", kind: "area", decimals: 1, color: "blue" },
 	{ id: "antarctic-sea-ice-february", kind: "line", decimals: 2, color: "blue" },
 	{ id: "snow-cover-march", kind: "line", decimals: 2, color: "grey" },
 	{ id: "co2-growth-rate", kind: "bar", decimals: 2, color: "orange" },
@@ -97,6 +100,13 @@ export default function IndicatorsPage({ params }: { params: { lang: string } })
 						<div key={config.id} className="bg-card p-5">
 							<dt className="text-xs uppercase tracking-[0.07em] text-muted-foreground">
 								{dataset.title[lang] ?? dataset.title.fr}
+								{/* Un jeu à plusieurs courbes n'en résume qu'une : il faut dire laquelle. */}
+								{dataset.series.length > 1 && (
+									<span className="normal-case tracking-normal">
+										{" · "}
+										{dataset.series[0].label[lang] ?? dataset.series[0].label.fr}
+									</span>
+								)}
 							</dt>
 							<dd className="mt-2">
 								<span className="font-serif text-3xl font-semibold tabular">
@@ -150,12 +160,10 @@ export default function IndicatorsPage({ params }: { params: { lang: string } })
 								<ChartCanvas
 									kind={config.kind}
 									rows={dataset.rows}
-									series={[
-										{
-											key,
-											label: dataset.series[0].label[lang] ?? dataset.series[0].label.fr ?? key,
-										},
-									]}
+									series={dataset.series.map((item) => ({
+										key: item.key,
+										label: item.label[lang] ?? item.label.fr ?? item.key,
+									}))}
 									xKey="year"
 									unit={dataset.unit}
 									height={280}

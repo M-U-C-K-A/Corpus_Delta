@@ -1,0 +1,74 @@
+{
+	"id": "meinshausen-2022-realization-paris-agreement-pledges-may",
+	"doi": "10.1038/s41586-022-04553-z",
+	"title": "Realization of Paris Agreement pledges may limit warming just below 2 °C",
+	"authors": [
+		{
+			"name": "Malte Alexander Meinshausen",
+			"orcid": "https://orcid.org/0000-0003-4048-3521",
+			"affiliation": "The University of Melbourne"
+		},
+		{
+			"name": "Jared Lewis",
+			"orcid": "https://orcid.org/0000-0002-8155-8924",
+			"affiliation": "International Institute for Applied Systems Analysis"
+		},
+		{
+			"name": "Christophe McGlade",
+			"affiliation": "Agence internationale de l'énergie"
+		},
+		{
+			"name": "Johannes Gütschow",
+			"orcid": "https://orcid.org/0000-0001-9944-3685",
+			"affiliation": "Climate Resource (Australia)"
+		},
+		{
+			"name": "Zebedee Nicholls",
+			"orcid": "https://orcid.org/0000-0002-4767-2723",
+			"affiliation": "International Institute for Applied Systems Analysis"
+		},
+		{
+			"name": "Rebecca Burdon",
+			"affiliation": "The University of Melbourne"
+		},
+		{
+			"name": "Laura Cozzi",
+			"orcid": "https://orcid.org/0000-0003-2764-2161",
+			"affiliation": "Agence internationale de l'énergie"
+		},
+		{
+			"name": "Bernd Hackmann",
+			"affiliation": "United Nations"
+		}
+	],
+	"authorCount": 8,
+	"venue": "Nature",
+	"publisher": "Nature Portfolio",
+	"year": 2022,
+	"type": "article",
+	"abstract": null,
+	"language": "en",
+	"openAccess": {
+		"isOpen": false,
+		"status": "closed",
+		"url": null
+	},
+	"citedByCount": 760,
+	"themes": [
+		"politiques",
+		"modelisation"
+	],
+	"sourceTopics": [
+		"Climate Change Policy and Economics",
+		"Climate variability and models",
+		"Climate Change and Geoengineering"
+	],
+	"url": "https://doi.org/10.1038/s41586-022-04553-z",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-11-15"
+	},
+	"addedAt": "2026-11-15",
+	"editorial": {},
+	"glossaryTerms": []
+}

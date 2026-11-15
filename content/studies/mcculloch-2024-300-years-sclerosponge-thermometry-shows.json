@@ -1,0 +1,57 @@
+{
+	"id": "mcculloch-2024-300-years-sclerosponge-thermometry-shows",
+	"doi": "10.1038/s41558-023-01919-7",
+	"title": "300 years of sclerosponge thermometry shows global warming has exceeded 1.5 °C",
+	"authors": [
+		{
+			"name": "Malcolm T. McCulloch",
+			"orcid": "https://orcid.org/0000-0003-1538-1558",
+			"affiliation": "The University of Western Australia"
+		},
+		{
+			"name": "Amos Winter",
+			"orcid": "https://orcid.org/0000-0003-4618-5402",
+			"affiliation": "Indiana State University"
+		},
+		{
+			"name": "Clark E. Sherman",
+			"orcid": "https://orcid.org/0000-0003-0758-7900",
+			"affiliation": "University of Puerto Rico-Mayaguez"
+		},
+		{
+			"name": "Julie Trotter",
+			"orcid": "https://orcid.org/0000-0002-0505-488X",
+			"affiliation": "The University of Western Australia"
+		}
+	],
+	"authorCount": 4,
+	"venue": "Nature Climate Change",
+	"publisher": "Nature Portfolio",
+	"year": 2024,
+	"type": "article",
+	"abstract": "Abstract Anthropogenic emissions drive global-scale warming yet the temperature increase relative to pre-industrial levels is uncertain. Using 300 years of ocean mixed-layer temperature records preserved in sclerosponge carbonate skeletons, we demonstrate that industrial-era warming began in the mid-1860s, more than 80 years earlier than instrumental sea surface temperature records. The Sr/Ca palaeothermometer was calibrated against ‘modern’ (post-1963) highly correlated ( R 2 = 0.91) instrumental records of global sea surface temperatures, with the pre-industrial defined by nearly constant (<±0.1 °C) temperatures from 1700 to the early 1860s. Increasing ocean and land-air temperatures overlap until the late twentieth century, when the land began warming at nearly twice the rate of the surface oceans. Hotter land temperatures, together with the earlier onset of industrial-era warming, indicate that global warming was already 1.7 ± 0.1 °C above pre-industrial levels by 2020. Our result is 0.5 °C higher than IPCC estimates, with 2 °C global warming projected by the late 2020s, nearly two decades earlier than expected.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "hybrid",
+		"url": "https://www.nature.com/articles/s41558-023-01919-7.pdf"
+	},
+	"citedByCount": 230,
+	"themes": [
+		"ocean",
+		"observation"
+	],
+	"sourceTopics": [
+		"Geology and Paleoclimatology Research",
+		"Climate variability and models",
+		"Climate Change and Environmental Impact"
+	],
+	"url": "https://doi.org/10.1038/s41558-023-01919-7",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-11-15"
+	},
+	"addedAt": "2026-11-15",
+	"editorial": {},
+	"glossaryTerms": []
+}

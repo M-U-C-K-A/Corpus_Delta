@@ -1,0 +1,136 @@
+{
+	"id": "rockstrom-2023-safe-just-earth-system-boundaries",
+	"doi": "10.1038/s41586-023-06083-8",
+	"title": "Safe and just Earth system boundaries",
+	"authors": [
+		{
+			"name": "Johan Rockström",
+			"orcid": "https://orcid.org/0000-0001-8988-2983",
+			"affiliation": "Stockholm Resilience Centre"
+		},
+		{
+			"name": "Joyeeta Gupta",
+			"orcid": "https://orcid.org/0000-0003-1424-2660",
+			"affiliation": "IHE Delft Institute for Water Education"
+		},
+		{
+			"name": "Dahe Qin",
+			"affiliation": "China Meteorological Administration"
+		},
+		{
+			"name": "Steven J. Lade",
+			"orcid": "https://orcid.org/0000-0001-9719-9826",
+			"affiliation": "Australian National University"
+		},
+		{
+			"name": "Jesse F. Abrams",
+			"orcid": "https://orcid.org/0000-0003-0411-8519",
+			"affiliation": "University of Exeter"
+		},
+		{
+			"name": "Lauren Seaby Andersen",
+			"orcid": "https://orcid.org/0000-0003-3080-0503",
+			"affiliation": "Leibniz Association"
+		},
+		{
+			"name": "David I. Armstrong McKay",
+			"orcid": "https://orcid.org/0000-0002-0020-7461",
+			"affiliation": "Stockholm Resilience Centre"
+		},
+		{
+			"name": "Xuemei Bai",
+			"orcid": "https://orcid.org/0000-0001-6556-8041",
+			"affiliation": "Australian National University"
+		},
+		{
+			"name": "Govindasamy Bala",
+			"orcid": "https://orcid.org/0000-0002-3079-0600",
+			"affiliation": "Indian Institute of Science Bangalore"
+		},
+		{
+			"name": "Stuart Edward Bunn",
+			"orcid": "https://orcid.org/0000-0002-6540-3586",
+			"affiliation": "Griffith University"
+		},
+		{
+			"name": "Daniel Ciobanu",
+			"orcid": "https://orcid.org/0000-0001-9544-9422",
+			"affiliation": "Stockholm Resilience Centre"
+		},
+		{
+			"name": "Fabrice DeClerck",
+			"orcid": "https://orcid.org/0000-0002-3631-8745",
+			"affiliation": "CGIAR"
+		},
+		{
+			"name": "Kristie L. Ebi",
+			"orcid": "https://orcid.org/0000-0003-4746-8236",
+			"affiliation": "University of Washington"
+		},
+		{
+			"name": "Lauren Gifford",
+			"orcid": "https://orcid.org/0000-0002-8130-4684",
+			"affiliation": "University of Arizona"
+		},
+		{
+			"name": "Christopher Gordon",
+			"orcid": "https://orcid.org/0000-0003-2734-851X",
+			"affiliation": "University of Ghana"
+		},
+		{
+			"name": "Syezlin Hasan",
+			"orcid": "https://orcid.org/0000-0002-0637-7963",
+			"affiliation": "Griffith University"
+		},
+		{
+			"name": "Norichika Kanie",
+			"orcid": "https://orcid.org/0000-0003-4346-3163",
+			"affiliation": "Keio University"
+		},
+		{
+			"name": "Timothy M. Lenton",
+			"orcid": "https://orcid.org/0000-0002-6725-7498",
+			"affiliation": "University of Exeter"
+		},
+		{
+			"name": "Sina Loriani",
+			"orcid": "https://orcid.org/0000-0001-6660-960X",
+			"affiliation": "Leibniz Association"
+		},
+		{
+			"name": "Diana M. Liverman",
+			"orcid": "https://orcid.org/0000-0002-3671-1491",
+			"affiliation": "University of Arizona"
+		}
+	],
+	"authorCount": 51,
+	"venue": "Nature",
+	"publisher": "Nature Portfolio",
+	"year": 2023,
+	"type": "article",
+	"abstract": "Abstract The stability and resilience of the Earth system and human well-being are inseparably linked 1–3 , yet their interdependencies are generally under-recognized; consequently, they are often treated independently 4,5 . Here, we use modelling and literature assessment to quantify safe and just Earth system boundaries (ESBs) for climate, the biosphere, water and nutrient cycles, and aerosols at global and subglobal scales. We propose ESBs for maintaining the resilience and stability of the Earth system (safe ESBs) and minimizing exposure to significant harm to humans from Earth system change (a necessary but not sufficient condition for justice) 4 . The stricter of the safe or just boundaries sets the integrated safe and just ESB. Our findings show that justice considerations constrain the integrated ESBs more than safety considerations for climate and atmospheric aerosol loading. Seven of eight globally quantified safe and just ESBs and at least two regional safe and just ESBs in over half of global land area are already exceeded. We propose that our assessment provides a quantitative foundation for safeguarding the global commons for all people now and into the future.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "hybrid",
+		"url": "https://www.nature.com/articles/s41586-023-06083-8.pdf"
+	},
+	"citedByCount": 1828,
+	"themes": [
+		"politiques",
+		"risques"
+	],
+	"sourceTopics": [
+		"Sustainability and Climate Change Governance",
+		"Earth Systems and Cosmic Evolution",
+		"Land Use and Ecosystem Services"
+	],
+	"url": "https://doi.org/10.1038/s41586-023-06083-8",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-11-15"
+	},
+	"addedAt": "2026-11-15",
+	"editorial": {},
+	"glossaryTerms": []
+}

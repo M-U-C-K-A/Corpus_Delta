@@ -1,0 +1,87 @@
+{
+	"id": "ballester-2023-heat-related-mortality-europe-during",
+	"doi": "10.1038/s41591-023-02419-z",
+	"title": "Heat-related mortality in Europe during the summer of 2022",
+	"authors": [
+		{
+			"name": "Joan Ballester",
+			"orcid": "https://orcid.org/0000-0003-0009-437X",
+			"affiliation": "California Institute of Technology"
+		},
+		{
+			"name": "Marcos Quijal-Zamorano",
+			"orcid": "https://orcid.org/0000-0003-4603-5877",
+			"affiliation": "Universitat Pompeu Fabra"
+		},
+		{
+			"name": "Raúl Fernando Méndez Turrubiates",
+			"orcid": "https://orcid.org/0000-0001-8994-8874",
+			"affiliation": "Barcelona Institute for Global Health"
+		},
+		{
+			"name": "Ferran Pegenaute",
+			"orcid": "https://orcid.org/0000-0003-0197-3675",
+			"affiliation": "Barcelona Institute for Global Health"
+		},
+		{
+			"name": "François Richard Herrmann",
+			"orcid": "https://orcid.org/0000-0003-1312-1517",
+			"affiliation": "University of Geneva"
+		},
+		{
+			"name": "Jean‐Marie Robine",
+			"orcid": "https://orcid.org/0000-0002-4111-6195",
+			"affiliation": "Centre National de la Recherche Scientifique"
+		},
+		{
+			"name": "Xavier Basagaña",
+			"orcid": "https://orcid.org/0000-0002-8457-1489",
+			"affiliation": "Universitat Pompeu Fabra"
+		},
+		{
+			"name": "Cathryn C. Tonne",
+			"orcid": "https://orcid.org/0000-0003-3919-8264",
+			"affiliation": "Universitat Pompeu Fabra"
+		},
+		{
+			"name": "Josep M. Antó",
+			"orcid": "https://orcid.org/0000-0002-4736-8529",
+			"affiliation": "Universitat Pompeu Fabra"
+		},
+		{
+			"name": "Hicham Achebak",
+			"orcid": "https://orcid.org/0000-0002-7705-3659",
+			"affiliation": "Inserm"
+		}
+	],
+	"authorCount": 10,
+	"venue": "Nature Medicine",
+	"publisher": "Nature Portfolio",
+	"year": 2023,
+	"type": "article",
+	"abstract": "Over 70,000 excess deaths occurred in Europe during the summer of 2003. The resulting societal awareness led to the design and implementation of adaptation strategies to protect at-risk populations. We aimed to quantify heat-related mortality burden during the summer of 2022, the hottest season on record in Europe. We analyzed the Eurostat mortality database, which includes 45,184,044 counts of death from 823 contiguous regions in 35 European countries, representing the whole population of over 543 million people. We estimated 61,672 (95% confidence interval (CI) = 37,643-86,807) heat-related deaths in Europe between 30 May and 4 September 2022. Italy (18,010 deaths; 95% CI = 13,793-22,225), Spain (11,324; 95% CI = 7,908-14,880) and Germany (8,173; 95% CI = 5,374-11,018) had the highest summer heat-related mortality numbers, while Italy (295 deaths per million, 95% CI = 226-364), Greece (280, 95% CI = 201-355), Spain (237, 95% CI = 166-312) and Portugal (211, 95% CI = 162-255) had the highest heat-related mortality rates. Relative to population, we estimated 56% more heat-related deaths in women than men, with higher rates in men aged 0-64 (+41%) and 65-79 (+14%) years, and in women aged 80+ years (+27%). Our results call for a reevaluation and strengthening of existing heat surveillance platforms, prevention plans and long-term adaptation strategies.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "hybrid",
+		"url": "https://www.nature.com/articles/s41591-023-02419-z.pdf"
+	},
+	"citedByCount": 1208,
+	"themes": [
+		"sante",
+		"chaleur"
+	],
+	"sourceTopics": [
+		"Climate Change and Health Impacts",
+		"Thermoregulation and physiological responses",
+		"Urban Heat Island Mitigation"
+	],
+	"url": "https://doi.org/10.1038/s41591-023-02419-z",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-11-15"
+	},
+	"addedAt": "2026-11-15",
+	"editorial": {},
+	"glossaryTerms": []
+}

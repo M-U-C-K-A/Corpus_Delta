@@ -1,0 +1,52 @@
+{
+	"id": "bartusek-2022-2021-north-american-heatwave-amplified",
+	"doi": "10.1038/s41558-022-01520-4",
+	"title": "2021 North American heatwave amplified by climate change-driven nonlinear interactions",
+	"authors": [
+		{
+			"name": "Samuel Bartusek",
+			"orcid": "https://orcid.org/0000-0002-2787-7668",
+			"affiliation": "Lamont-Doherty Earth Observatory"
+		},
+		{
+			"name": "Kai Kornhuber",
+			"orcid": "https://orcid.org/0000-0001-5466-2059",
+			"affiliation": "Lamont-Doherty Earth Observatory"
+		},
+		{
+			"name": "Mingfang Ting",
+			"orcid": "https://orcid.org/0000-0002-4302-4614",
+			"affiliation": "Lamont-Doherty Earth Observatory"
+		}
+	],
+	"authorCount": 3,
+	"venue": "Nature Climate Change",
+	"publisher": "Nature Portfolio",
+	"year": 2022,
+	"type": "article",
+	"abstract": "Heat conditions in North America in summer 2021 exceeded previous heatwaves by margins many would have considered impossible under current climate conditions. Associated severe impacts highlight the need for understanding the physical drivers of the heatwave and relations to climate change, to improve the projection and prediction of future extreme heat risks. Here, we find that slow- and fast-moving components of the atmospheric circulation interacted, along with regional soil moisture deficiency, to trigger a 5-sigma heat event. Its severity was amplified ~40% by nonlinear interactions between its drivers, probably driven in part by land–atmosphere feedbacks catalysed by long-term regional warming and soil drying. Since the 1950s, global warming has transformed the peak daily regional temperature anomaly of the event from virtually impossible to a presently estimated ~200-yearly occurrence. Its likelihood is projected to increase rapidly with further global warming, possibly becoming a 10-yearly occurrence in a climate 2 °C warmer than the pre-industrial period, which may be reached by 2050. The North American Pacific Northwest experienced an unprecedented heatwave in summer 2021. This study shows that atmospheric circulation features and regional soil dryness both amplified the event’s severity; future warming increases the chance of an equivalent or stronger event.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "green",
+		"url": "https://eartharxiv.org/repository/object/3067/download/9149/"
+	},
+	"citedByCount": 220,
+	"themes": [
+		"risques",
+		"chaleur"
+	],
+	"sourceTopics": [
+		"Climate variability and models",
+		"Meteorological Phenomena and Simulations",
+		"Hydrology and Drought Analysis"
+	],
+	"url": "https://doi.org/10.1038/s41558-022-01520-4",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-11-15"
+	},
+	"addedAt": "2026-11-15",
+	"editorial": {},
+	"glossaryTerms": []
+}

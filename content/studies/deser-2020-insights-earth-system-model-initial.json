@@ -1,0 +1,136 @@
+{
+	"id": "deser-2020-insights-earth-system-model-initial",
+	"doi": "10.1038/s41558-020-0731-2",
+	"title": "Insights from Earth system model initial-condition large ensembles and future prospects",
+	"authors": [
+		{
+			"name": "Clara Deser",
+			"orcid": "https://orcid.org/0000-0002-5517-9103",
+			"affiliation": "NSF National Center for Atmospheric Research"
+		},
+		{
+			"name": "Flavio Lehner",
+			"orcid": "https://orcid.org/0000-0003-4632-9701",
+			"affiliation": "NSF National Center for Atmospheric Research"
+		},
+		{
+			"name": "Keith B. Rodgers",
+			"orcid": "https://orcid.org/0000-0002-6465-8923",
+			"affiliation": "Institute for Basic Science"
+		},
+		{
+			"name": "Toby R. Ault",
+			"orcid": "https://orcid.org/0000-0002-2463-955X",
+			"affiliation": "Cornell University"
+		},
+		{
+			"name": "Thomas L. Delworth",
+			"orcid": "https://orcid.org/0000-0003-4865-5391",
+			"affiliation": "NOAA Geophysical Fluid Dynamics Laboratory"
+		},
+		{
+			"name": "Pedro DiNezio",
+			"orcid": "https://orcid.org/0000-0002-5201-3300",
+			"affiliation": "US Climate Variability and Predictability Program"
+		},
+		{
+			"name": "Arlene M. Fiore",
+			"orcid": "https://orcid.org/0000-0003-0221-2122",
+			"affiliation": "Lamont-Doherty Earth Observatory"
+		},
+		{
+			"name": "Claude Frankignoul",
+			"orcid": "https://orcid.org/0000-0001-7038-1839",
+			"affiliation": "Sorbonne Université"
+		},
+		{
+			"name": "John C. Fyfe",
+			"orcid": "https://orcid.org/0000-0003-2524-0652",
+			"affiliation": "Environment and Climate Change Canada"
+		},
+		{
+			"name": "Daniel E. Horton",
+			"orcid": "https://orcid.org/0000-0002-2065-4517",
+			"affiliation": "Northwestern University"
+		},
+		{
+			"name": "Jennifer E. Kay",
+			"orcid": "https://orcid.org/0000-0002-3625-5377",
+			"affiliation": "Cooperative Institute for Research in Environmental Sciences"
+		},
+		{
+			"name": "Reto Knutti",
+			"orcid": "https://orcid.org/0000-0001-8303-6700",
+			"affiliation": "ETH Zurich"
+		},
+		{
+			"name": "Nicole Suzanne Lovenduski",
+			"orcid": "https://orcid.org/0000-0001-5893-1009",
+			"affiliation": "Cooperative Institute for Research in Environmental Sciences"
+		},
+		{
+			"name": "Jochem Marotzke",
+			"orcid": "https://orcid.org/0000-0001-9857-9900",
+			"affiliation": "US Climate Variability and Predictability Program"
+		},
+		{
+			"name": "Karen A. McKinnon",
+			"orcid": "https://orcid.org/0000-0003-3314-8442",
+			"affiliation": "University of California, Los Angeles"
+		},
+		{
+			"name": "Shoshiro Minobe",
+			"orcid": "https://orcid.org/0000-0002-9487-9006",
+			"affiliation": "Hokkaido University"
+		},
+		{
+			"name": "James T. Randerson",
+			"orcid": "https://orcid.org/0000-0001-6559-7387",
+			"affiliation": "University of California, Irvine"
+		},
+		{
+			"name": "James A. Screen",
+			"orcid": "https://orcid.org/0000-0003-1728-783X",
+			"affiliation": "University of Exeter"
+		},
+		{
+			"name": "Isla Ruth Simpson",
+			"orcid": "https://orcid.org/0000-0002-2915-1377",
+			"affiliation": "NSF National Center for Atmospheric Research"
+		},
+		{
+			"name": "Mingfang Ting",
+			"orcid": "https://orcid.org/0000-0002-4302-4614",
+			"affiliation": "Lamont-Doherty Earth Observatory"
+		}
+	],
+	"authorCount": 20,
+	"venue": "Nature Climate Change",
+	"publisher": "Nature Portfolio",
+	"year": 2020,
+	"type": "article",
+	"abstract": null,
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "green",
+		"url": "https://hal.science/hal-03825953v1/file/s41558-020-0731-2.pdf"
+	},
+	"citedByCount": 1036,
+	"themes": [
+		"modelisation"
+	],
+	"sourceTopics": [
+		"Climate variability and models",
+		"Meteorological Phenomena and Simulations",
+		"Climate Change and Geoengineering"
+	],
+	"url": "https://doi.org/10.1038/s41558-020-0731-2",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-11-15"
+	},
+	"addedAt": "2026-11-15",
+	"editorial": {},
+	"glossaryTerms": []
+}

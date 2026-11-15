@@ -8,7 +8,7 @@
 		"label": "Interactive Atlas — CMIP6 warming levels",
 		"url": "https://github.com/IPCC-WG1/Atlas",
 		"publisher": "IPCC WGI Interactive Atlas",
-		"accessedAt": "2026-08-20"
+		"accessedAt": "2026-11-15"
 	},
 	"note": {
 		"fr": "Année médiane des modèles CMIP6 qui franchissent le palier, telle que publiée par l'Atlas du GIEC. L'année indiquée est le centre d'une fenêtre de 20 ans : le palier est atteint sur la période [n-9, n+10]. Une case vide signale un palier qu'au plus la moitié des modèles atteignent avant 2100.",

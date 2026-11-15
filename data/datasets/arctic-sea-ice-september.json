@@ -9,7 +9,7 @@
 		"label": "Sea Ice Index, Version 4",
 		"url": "https://nsidc.org/data/g02135/",
 		"publisher": "National Snow and Ice Data Center",
-		"accessedAt": "2026-08-20"
+		"accessedAt": "2026-11-15"
 	},
 	"note": {
 		"fr": "Moyenne du mois de septembre, celui du minimum annuel. L'étendue compte toute surface couverte par au moins 15 % de glace ; elle recule moins vite que l'épaisseur, plus difficile à observer.",
@@ -212,6 +212,10 @@
 		{
 			"year": 2025,
 			"extent": 4.75
+		},
+		{
+			"year": 2026,
+			"extent": 4.81
 		}
 	]
 }

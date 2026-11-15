@@ -9,7 +9,7 @@
 		"label": "Trends in Atmospheric Carbon Dioxide — Growth Rate",
 		"url": "https://gml.noaa.gov/ccgg/trends/gl_gr.html",
 		"publisher": "NOAA Global Monitoring Laboratory",
-		"accessedAt": "2026-08-30"
+		"accessedAt": "2026-11-15"
 	},
 	"note": {
 		"fr": "Augmentation de la concentration d'une année sur l'autre, moyenne globale. La concentration monte de toute façon : c'est sa dérivée qui indique si les émissions ralentissent. Elle n'est jamais passée sous zéro.",
@@ -159,11 +159,11 @@
 		},
 		{
 			"year": 1992,
-			"growth": 0.71
+			"growth": 0.72
 		},
 		{
 			"year": 1993,
-			"growth": 1.24
+			"growth": 1.23
 		},
 		{
 			"year": 1994,
@@ -203,7 +203,7 @@
 		},
 		{
 			"year": 2003,
-			"growth": 2.28
+			"growth": 2.29
 		},
 		{
 			"year": 2004,
@@ -215,7 +215,7 @@
 		},
 		{
 			"year": 2006,
-			"growth": 1.77
+			"growth": 1.78
 		},
 		{
 			"year": 2007,
@@ -223,7 +223,7 @@
 		},
 		{
 			"year": 2008,
-			"growth": 1.78
+			"growth": 1.77
 		},
 		{
 			"year": 2009,
@@ -235,11 +235,11 @@
 		},
 		{
 			"year": 2011,
-			"growth": 1.73
+			"growth": 1.74
 		},
 		{
 			"year": 2012,
-			"growth": 2.42
+			"growth": 2.41
 		},
 		{
 			"year": 2013,
@@ -271,7 +271,7 @@
 		},
 		{
 			"year": 2020,
-			"growth": 2.33
+			"growth": 2.32
 		},
 		{
 			"year": 2021,
@@ -283,7 +283,7 @@
 		},
 		{
 			"year": 2023,
-			"growth": 2.7
+			"growth": 2.69
 		},
 		{
 			"year": 2024,

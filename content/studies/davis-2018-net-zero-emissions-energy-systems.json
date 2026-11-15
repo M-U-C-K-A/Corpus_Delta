@@ -1,0 +1,130 @@
+{
+	"id": "davis-2018-net-zero-emissions-energy-systems",
+	"doi": "10.1126/science.aas9793",
+	"title": "Net-zero emissions energy systems",
+	"authors": [
+		{
+			"name": "Steven J. Davis",
+			"orcid": "https://orcid.org/0000-0002-9338-0844",
+			"affiliation": "University of California, Irvine"
+		},
+		{
+			"name": "Nathan S. Lewis",
+			"orcid": "https://orcid.org/0000-0001-5245-0538",
+			"affiliation": "California Institute of Technology"
+		},
+		{
+			"name": "Matthew R. Shaner",
+			"orcid": "https://orcid.org/0000-0003-4682-9757",
+			"affiliation": "Carnegie Institution for Science"
+		},
+		{
+			"name": "Sonia Aggarwal"
+		},
+		{
+			"name": "D. J. Arent",
+			"orcid": "https://orcid.org/0000-0002-4219-3950",
+			"affiliation": "National Laboratory of the Rockies"
+		},
+		{
+			"name": "Inês L. Azevedo",
+			"orcid": "https://orcid.org/0000-0002-4755-8656",
+			"affiliation": "Carnegie Mellon University"
+		},
+		{
+			"name": "Sally M. Benson",
+			"orcid": "https://orcid.org/0000-0002-3733-4296",
+			"affiliation": "Stanford University"
+		},
+		{
+			"name": "Thomas H. Bradley",
+			"orcid": "https://orcid.org/0000-0003-3533-293X",
+			"affiliation": "Colorado State University"
+		},
+		{
+			"name": "Jack Brouwer",
+			"orcid": "https://orcid.org/0000-0001-9260-7579",
+			"affiliation": "University of California, Irvine"
+		},
+		{
+			"name": "Yet‐Ming Chiang",
+			"orcid": "https://orcid.org/0000-0002-0833-7674",
+			"affiliation": "Massachusetts Institute of Technology"
+		},
+		{
+			"name": "Christopher T. M. Clack",
+			"orcid": "https://orcid.org/0000-0003-3280-9747"
+		},
+		{
+			"name": "Armond M. Cohen",
+			"affiliation": "Clean Air Task Force"
+		},
+		{
+			"name": "Stephen Doig",
+			"affiliation": "Rocky Mountain Institute"
+		},
+		{
+			"name": "Jae Edmonds",
+			"orcid": "https://orcid.org/0000-0002-3210-9209",
+			"affiliation": "Pacific Northwest National Laboratory"
+		},
+		{
+			"name": "Paul S. Fennell",
+			"orcid": "https://orcid.org/0000-0002-6001-5285",
+			"affiliation": "Imperial College London"
+		},
+		{
+			"name": "Christopher B. Field",
+			"orcid": "https://orcid.org/0000-0002-1684-8247",
+			"affiliation": "Stanford University"
+		},
+		{
+			"name": "Bryan Hannegan",
+			"orcid": "https://orcid.org/0000-0002-4989-6341",
+			"affiliation": "Glens Falls Hospital"
+		},
+		{
+			"name": "Bri‐Mathias S. Hodge",
+			"orcid": "https://orcid.org/0000-0001-8684-0534",
+			"affiliation": "National Laboratory of the Rockies"
+		},
+		{
+			"name": "Martin I. Hoffert",
+			"affiliation": "New York University"
+		},
+		{
+			"name": "Eric D. Ingersoll",
+			"orcid": "https://orcid.org/0000-0002-3431-2171"
+		}
+	],
+	"authorCount": 32,
+	"venue": "Science",
+	"publisher": "American Association for the Advancement of Science",
+	"year": 2018,
+	"type": "review",
+	"abstract": "Path to zero carbon emissions Models show that to avert dangerous levels of climate change, global carbon dioxide emissions must fall to zero later this century. Most of these emissions arise from energy use. Daviset al.review what it would take to achieve decarbonization of the energy system. Some parts of the energy system are particularly difficult to decarbonize, including aviation, long-distance transport, steel and cement production, and provision of a reliable electricity supply. Current technologies and pathways show promise, but integration of now-discrete energy sectors and industrial processes is vital to achieve minimal emissions. Science, this issue p. eaas9793",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "green",
+		"url": "https://escholarship.org/content/qt16109441/qt16109441.pdf"
+	},
+	"citedByCount": 2539,
+	"themes": [
+		"energie",
+		"politiques"
+	],
+	"sourceTopics": [
+		"Integrated Energy Systems Optimization",
+		"Climate Change Policy and Economics",
+		"Hybrid Renewable Energy Systems"
+	],
+	"url": "https://doi.org/10.1126/science.aas9793",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-11-15"
+	},
+	"addedAt": "2026-11-15",
+	"editorial": {},
+	"glossaryTerms": []
+}

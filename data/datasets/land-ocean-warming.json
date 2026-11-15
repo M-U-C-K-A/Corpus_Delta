@@ -1,0 +1,766 @@
+{
+	"id": "land-ocean-warming",
+	"title": {
+		"fr": "Réchauffement des terres et de l'océan",
+		"en": "Land and ocean warming"
+	},
+	"unit": "°C",
+	"source": {
+		"label": "Climate at a Glance — Global Time Series",
+		"url": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/global/time-series",
+		"publisher": "NOAA National Centers for Environmental Information",
+		"accessedAt": "2026-11-15"
+	},
+	"note": {
+		"fr": "Écarts annuels à la moyenne 1901-2000, mesurés séparément sur les terres émergées et à la surface de l'océan. Les terres se réchauffent environ deux fois plus vite : la mer répartit la chaleur reçue sur une couche bien plus épaisse, et en consacre une partie à l'évaporation. C'est pourquoi un chiffre global de réchauffement sous-estime toujours ce que connaissent les régions habitées.",
+		"en": "Annual departures from the 1901-2000 mean, measured separately over land and at the ocean surface. Land warms about twice as fast: the sea spreads the heat it takes up through a far thicker layer, and spends part of it on evaporation. This is why a global warming figure always understates what inhabited regions experience."
+	},
+	"series": [
+		{
+			"key": "land",
+			"label": {
+				"fr": "Terres émergées",
+				"en": "Land"
+			}
+		},
+		{
+			"key": "ocean",
+			"label": {
+				"fr": "Surface de l'océan",
+				"en": "Ocean surface"
+			}
+		}
+	],
+	"rows": [
+		{
+			"year": 1880,
+			"land": -0.5,
+			"ocean": -0.05
+		},
+		{
+			"year": 1881,
+			"land": -0.38,
+			"ocean": 0.04
+		},
+		{
+			"year": 1882,
+			"land": -0.55,
+			"ocean": 0
+		},
+		{
+			"year": 1883,
+			"land": -0.49,
+			"ocean": -0.03
+		},
+		{
+			"year": 1884,
+			"land": -0.66,
+			"ocean": -0.1
+		},
+		{
+			"year": 1885,
+			"land": -0.52,
+			"ocean": -0.1
+		},
+		{
+			"year": 1886,
+			"land": -0.53,
+			"ocean": -0.15
+		},
+		{
+			"year": 1887,
+			"land": -0.63,
+			"ocean": -0.22
+		},
+		{
+			"year": 1888,
+			"land": -0.3,
+			"ocean": -0.04
+		},
+		{
+			"year": 1889,
+			"land": -0.14,
+			"ocean": -0.02
+		},
+		{
+			"year": 1890,
+			"land": -0.52,
+			"ocean": -0.22
+		},
+		{
+			"year": 1891,
+			"land": -0.5,
+			"ocean": -0.11
+		},
+		{
+			"year": 1892,
+			"land": -0.52,
+			"ocean": -0.23
+		},
+		{
+			"year": 1893,
+			"land": -0.62,
+			"ocean": -0.19
+		},
+		{
+			"year": 1894,
+			"land": -0.56,
+			"ocean": -0.23
+		},
+		{
+			"year": 1895,
+			"land": -0.46,
+			"ocean": -0.12
+		},
+		{
+			"year": 1896,
+			"land": -0.41,
+			"ocean": 0
+		},
+		{
+			"year": 1897,
+			"land": -0.26,
+			"ocean": -0.05
+		},
+		{
+			"year": 1898,
+			"land": -0.42,
+			"ocean": -0.19
+		},
+		{
+			"year": 1899,
+			"land": -0.26,
+			"ocean": -0.12
+		},
+		{
+			"year": 1900,
+			"land": -0.14,
+			"ocean": -0.05
+		},
+		{
+			"year": 1901,
+			"land": -0.07,
+			"ocean": -0.14
+		},
+		{
+			"year": 1902,
+			"land": -0.27,
+			"ocean": -0.19
+		},
+		{
+			"year": 1903,
+			"land": -0.39,
+			"ocean": -0.31
+		},
+		{
+			"year": 1904,
+			"land": -0.39,
+			"ocean": -0.39
+		},
+		{
+			"year": 1905,
+			"land": -0.32,
+			"ocean": -0.24
+		},
+		{
+			"year": 1906,
+			"land": -0.09,
+			"ocean": -0.21
+		},
+		{
+			"year": 1907,
+			"land": -0.48,
+			"ocean": -0.29
+		},
+		{
+			"year": 1908,
+			"land": -0.43,
+			"ocean": -0.37
+		},
+		{
+			"year": 1909,
+			"land": -0.37,
+			"ocean": -0.38
+		},
+		{
+			"year": 1910,
+			"land": -0.26,
+			"ocean": -0.39
+		},
+		{
+			"year": 1911,
+			"land": -0.38,
+			"ocean": -0.36
+		},
+		{
+			"year": 1912,
+			"land": -0.48,
+			"ocean": -0.22
+		},
+		{
+			"year": 1913,
+			"land": -0.33,
+			"ocean": -0.26
+		},
+		{
+			"year": 1914,
+			"land": -0.09,
+			"ocean": -0.13
+		},
+		{
+			"year": 1915,
+			"land": -0.08,
+			"ocean": -0.06
+		},
+		{
+			"year": 1916,
+			"land": -0.37,
+			"ocean": -0.25
+		},
+		{
+			"year": 1917,
+			"land": -0.64,
+			"ocean": -0.32
+		},
+		{
+			"year": 1918,
+			"land": -0.57,
+			"ocean": -0.21
+		},
+		{
+			"year": 1919,
+			"land": -0.27,
+			"ocean": -0.17
+		},
+		{
+			"year": 1920,
+			"land": -0.26,
+			"ocean": -0.15
+		},
+		{
+			"year": 1921,
+			"land": -0.11,
+			"ocean": -0.17
+		},
+		{
+			"year": 1922,
+			"land": -0.21,
+			"ocean": -0.24
+		},
+		{
+			"year": 1923,
+			"land": -0.26,
+			"ocean": -0.21
+		},
+		{
+			"year": 1924,
+			"land": -0.18,
+			"ocean": -0.23
+		},
+		{
+			"year": 1925,
+			"land": -0.18,
+			"ocean": -0.19
+		},
+		{
+			"year": 1926,
+			"land": 0.01,
+			"ocean": -0.11
+		},
+		{
+			"year": 1927,
+			"land": -0.17,
+			"ocean": -0.17
+		},
+		{
+			"year": 1928,
+			"land": -0.04,
+			"ocean": -0.21
+		},
+		{
+			"year": 1929,
+			"land": -0.42,
+			"ocean": -0.25
+		},
+		{
+			"year": 1930,
+			"land": -0.06,
+			"ocean": -0.13
+		},
+		{
+			"year": 1931,
+			"land": 0.06,
+			"ocean": -0.1
+		},
+		{
+			"year": 1932,
+			"land": 0.01,
+			"ocean": -0.16
+		},
+		{
+			"year": 1933,
+			"land": -0.26,
+			"ocean": -0.23
+		},
+		{
+			"year": 1934,
+			"land": 0.03,
+			"ocean": -0.16
+		},
+		{
+			"year": 1935,
+			"land": -0.11,
+			"ocean": -0.14
+		},
+		{
+			"year": 1936,
+			"land": -0.06,
+			"ocean": -0.11
+		},
+		{
+			"year": 1937,
+			"land": 0.05,
+			"ocean": -0.03
+		},
+		{
+			"year": 1938,
+			"land": 0.26,
+			"ocean": -0.1
+		},
+		{
+			"year": 1939,
+			"land": 0.14,
+			"ocean": -0.03
+		},
+		{
+			"year": 1940,
+			"land": 0.15,
+			"ocean": 0.16
+		},
+		{
+			"year": 1941,
+			"land": 0.1,
+			"ocean": 0.26
+		},
+		{
+			"year": 1942,
+			"land": 0.07,
+			"ocean": 0.08
+		},
+		{
+			"year": 1943,
+			"land": 0.09,
+			"ocean": 0.08
+		},
+		{
+			"year": 1944,
+			"land": 0.25,
+			"ocean": 0.19
+		},
+		{
+			"year": 1945,
+			"land": 0.01,
+			"ocean": 0.19
+		},
+		{
+			"year": 1946,
+			"land": -0.02,
+			"ocean": 0
+		},
+		{
+			"year": 1947,
+			"land": 0.14,
+			"ocean": -0.07
+		},
+		{
+			"year": 1948,
+			"land": 0.03,
+			"ocean": -0.07
+		},
+		{
+			"year": 1949,
+			"land": -0.03,
+			"ocean": -0.05
+		},
+		{
+			"year": 1950,
+			"land": -0.21,
+			"ocean": -0.09
+		},
+		{
+			"year": 1951,
+			"land": -0.08,
+			"ocean": 0.02
+		},
+		{
+			"year": 1952,
+			"land": -0.01,
+			"ocean": 0.07
+		},
+		{
+			"year": 1953,
+			"land": 0.2,
+			"ocean": 0.06
+		},
+		{
+			"year": 1954,
+			"land": -0.04,
+			"ocean": -0.09
+		},
+		{
+			"year": 1955,
+			"land": -0.12,
+			"ocean": -0.13
+		},
+		{
+			"year": 1956,
+			"land": -0.31,
+			"ocean": -0.1
+		},
+		{
+			"year": 1957,
+			"land": -0.03,
+			"ocean": 0.1
+		},
+		{
+			"year": 1958,
+			"land": 0.04,
+			"ocean": 0.11
+		},
+		{
+			"year": 1959,
+			"land": 0.11,
+			"ocean": 0.07
+		},
+		{
+			"year": 1960,
+			"land": -0.1,
+			"ocean": 0.03
+		},
+		{
+			"year": 1961,
+			"land": 0.06,
+			"ocean": 0.08
+		},
+		{
+			"year": 1962,
+			"land": 0.03,
+			"ocean": 0.04
+		},
+		{
+			"year": 1963,
+			"land": 0.04,
+			"ocean": 0.07
+		},
+		{
+			"year": 1964,
+			"land": -0.36,
+			"ocean": -0.1
+		},
+		{
+			"year": 1965,
+			"land": -0.16,
+			"ocean": -0.05
+		},
+		{
+			"year": 1966,
+			"land": -0.16,
+			"ocean": 0.02
+		},
+		{
+			"year": 1967,
+			"land": 0.02,
+			"ocean": -0.02
+		},
+		{
+			"year": 1968,
+			"land": -0.21,
+			"ocean": 0.02
+		},
+		{
+			"year": 1969,
+			"land": -0.1,
+			"ocean": 0.17
+		},
+		{
+			"year": 1970,
+			"land": 0,
+			"ocean": 0.05
+		},
+		{
+			"year": 1971,
+			"land": -0.06,
+			"ocean": -0.09
+		},
+		{
+			"year": 1972,
+			"land": -0.09,
+			"ocean": 0.12
+		},
+		{
+			"year": 1973,
+			"land": 0.28,
+			"ocean": 0.12
+		},
+		{
+			"year": 1974,
+			"land": -0.14,
+			"ocean": 0
+		},
+		{
+			"year": 1975,
+			"land": 0.07,
+			"ocean": -0.04
+		},
+		{
+			"year": 1976,
+			"land": -0.22,
+			"ocean": 0.01
+		},
+		{
+			"year": 1977,
+			"land": 0.2,
+			"ocean": 0.2
+		},
+		{
+			"year": 1978,
+			"land": 0.03,
+			"ocean": 0.15
+		},
+		{
+			"year": 1979,
+			"land": 0.03,
+			"ocean": 0.26
+		},
+		{
+			"year": 1980,
+			"land": 0.34,
+			"ocean": 0.26
+		},
+		{
+			"year": 1981,
+			"land": 0.56,
+			"ocean": 0.23
+		},
+		{
+			"year": 1982,
+			"land": 0.01,
+			"ocean": 0.22
+		},
+		{
+			"year": 1983,
+			"land": 0.39,
+			"ocean": 0.29
+		},
+		{
+			"year": 1984,
+			"land": 0.13,
+			"ocean": 0.19
+		},
+		{
+			"year": 1985,
+			"land": 0.09,
+			"ocean": 0.17
+		},
+		{
+			"year": 1986,
+			"land": 0.22,
+			"ocean": 0.22
+		},
+		{
+			"year": 1987,
+			"land": 0.25,
+			"ocean": 0.36
+		},
+		{
+			"year": 1988,
+			"land": 0.54,
+			"ocean": 0.31
+		},
+		{
+			"year": 1989,
+			"land": 0.29,
+			"ocean": 0.25
+		},
+		{
+			"year": 1990,
+			"land": 0.61,
+			"ocean": 0.34
+		},
+		{
+			"year": 1991,
+			"land": 0.58,
+			"ocean": 0.32
+		},
+		{
+			"year": 1992,
+			"land": 0.2,
+			"ocean": 0.25
+		},
+		{
+			"year": 1993,
+			"land": 0.27,
+			"ocean": 0.25
+		},
+		{
+			"year": 1994,
+			"land": 0.38,
+			"ocean": 0.29
+		},
+		{
+			"year": 1995,
+			"land": 0.76,
+			"ocean": 0.32
+		},
+		{
+			"year": 1996,
+			"land": 0.42,
+			"ocean": 0.31
+		},
+		{
+			"year": 1997,
+			"land": 0.51,
+			"ocean": 0.46
+		},
+		{
+			"year": 1998,
+			"land": 0.85,
+			"ocean": 0.5
+		},
+		{
+			"year": 1999,
+			"land": 0.61,
+			"ocean": 0.3
+		},
+		{
+			"year": 2000,
+			"land": 0.57,
+			"ocean": 0.33
+		},
+		{
+			"year": 2001,
+			"land": 0.75,
+			"ocean": 0.43
+		},
+		{
+			"year": 2002,
+			"land": 0.91,
+			"ocean": 0.45
+		},
+		{
+			"year": 2003,
+			"land": 0.88,
+			"ocean": 0.47
+		},
+		{
+			"year": 2004,
+			"land": 0.7,
+			"ocean": 0.46
+		},
+		{
+			"year": 2005,
+			"land": 1.13,
+			"ocean": 0.46
+		},
+		{
+			"year": 2006,
+			"land": 1.01,
+			"ocean": 0.46
+		},
+		{
+			"year": 2007,
+			"land": 1.16,
+			"ocean": 0.38
+		},
+		{
+			"year": 2008,
+			"land": 0.87,
+			"ocean": 0.37
+		},
+		{
+			"year": 2009,
+			"land": 0.96,
+			"ocean": 0.51
+		},
+		{
+			"year": 2010,
+			"land": 1.16,
+			"ocean": 0.51
+		},
+		{
+			"year": 2011,
+			"land": 1.03,
+			"ocean": 0.41
+		},
+		{
+			"year": 2012,
+			"land": 1.02,
+			"ocean": 0.46
+		},
+		{
+			"year": 2013,
+			"land": 1.02,
+			"ocean": 0.5
+		},
+		{
+			"year": 2014,
+			"land": 1.05,
+			"ocean": 0.59
+		},
+		{
+			"year": 2015,
+			"land": 1.3,
+			"ocean": 0.69
+		},
+		{
+			"year": 2016,
+			"land": 1.6,
+			"ocean": 0.73
+		},
+		{
+			"year": 2017,
+			"land": 1.43,
+			"ocean": 0.7
+		},
+		{
+			"year": 2018,
+			"land": 1.31,
+			"ocean": 0.66
+		},
+		{
+			"year": 2019,
+			"land": 1.49,
+			"ocean": 0.77
+		},
+		{
+			"year": 2020,
+			"land": 1.63,
+			"ocean": 0.73
+		},
+		{
+			"year": 2021,
+			"land": 1.36,
+			"ocean": 0.63
+		},
+		{
+			"year": 2022,
+			"land": 1.37,
+			"ocean": 0.68
+		},
+		{
+			"year": 2023,
+			"land": 1.77,
+			"ocean": 0.9
+		},
+		{
+			"year": 2024,
+			"land": 1.93,
+			"ocean": 0.95
+		},
+		{
+			"year": 2025,
+			"land": 1.75,
+			"ocean": 0.83
+		}
+	]
+}

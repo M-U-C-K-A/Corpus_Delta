@@ -1,0 +1,135 @@
+{
+	"id": "natali-2019-large-loss-co2-winter-observed",
+	"doi": "10.1038/s41558-019-0592-8",
+	"title": "Large loss of CO2 in winter observed across the northern permafrost region",
+	"authors": [
+		{
+			"name": "Susan M. Natali",
+			"orcid": "https://orcid.org/0000-0002-3010-2994",
+			"affiliation": "Woodwell Climate Research Center"
+		},
+		{
+			"name": "Jennifer D. Watts",
+			"orcid": "https://orcid.org/0000-0001-7207-8999",
+			"affiliation": "Woodwell Climate Research Center"
+		},
+		{
+			"name": "Brendan M. Rogers",
+			"orcid": "https://orcid.org/0000-0001-6711-8466",
+			"affiliation": "Woodwell Climate Research Center"
+		},
+		{
+			"name": "Stefano Potter",
+			"orcid": "https://orcid.org/0000-0002-5141-3409",
+			"affiliation": "Woodwell Climate Research Center"
+		},
+		{
+			"name": "S. Ludwig",
+			"orcid": "https://orcid.org/0000-0002-2873-479X",
+			"affiliation": "Woodwell Climate Research Center"
+		},
+		{
+			"name": "A. K. Selbmann",
+			"affiliation": "University of Bayreuth"
+		},
+		{
+			"name": "Patrick F. Sullivan",
+			"orcid": "https://orcid.org/0000-0002-8015-3036",
+			"affiliation": "University of Alaska Anchorage"
+		},
+		{
+			"name": "Benjamin W. Abbott",
+			"orcid": "https://orcid.org/0000-0001-5861-3481",
+			"affiliation": "Brigham Young University"
+		},
+		{
+			"name": "Kyle A. Arndt",
+			"orcid": "https://orcid.org/0000-0003-4158-2054",
+			"affiliation": "San Diego State University"
+		},
+		{
+			"name": "Leah Birch",
+			"orcid": "https://orcid.org/0000-0002-0371-109X",
+			"affiliation": "Woodwell Climate Research Center"
+		},
+		{
+			"name": "Mats P. Björkman",
+			"orcid": "https://orcid.org/0000-0001-5768-1976",
+			"affiliation": "University of Gothenburg"
+		},
+		{
+			"name": "A. Anthony Bloom",
+			"orcid": "https://orcid.org/0000-0002-1486-1499",
+			"affiliation": "California Institute of Technology"
+		},
+		{
+			"name": "Gerardo Celis",
+			"orcid": "https://orcid.org/0000-0003-1265-4063",
+			"affiliation": "Northern Arizona University"
+		},
+		{
+			"name": "Torben R. Christensen",
+			"orcid": "https://orcid.org/0000-0002-4917-148X",
+			"affiliation": "Aarhus University"
+		},
+		{
+			"name": "Casper Tai Christiansen",
+			"orcid": "https://orcid.org/0000-0002-4526-614X",
+			"affiliation": "Bjerknes Centre for Climate Research"
+		},
+		{
+			"name": "Roisin Commane",
+			"orcid": "https://orcid.org/0000-0003-1373-1550",
+			"affiliation": "Lamont-Doherty Earth Observatory"
+		},
+		{
+			"name": "Elisabeth J. Cooper",
+			"orcid": "https://orcid.org/0000-0002-0634-1282",
+			"affiliation": "UiT The Arctic University of Norway"
+		},
+		{
+			"name": "Patrick Crill",
+			"orcid": "https://orcid.org/0000-0003-1110-3059",
+			"affiliation": "Stockholm University"
+		},
+		{
+			"name": "CLAUDIA I. CZIMCZIK",
+			"orcid": "https://orcid.org/0000-0002-8251-6603",
+			"affiliation": "University of California, Irvine"
+		},
+		{
+			"name": "Sergei P. Davydov",
+			"orcid": "https://orcid.org/0000-0003-0820-9426"
+		}
+	],
+	"authorCount": 75,
+	"venue": "Nature Climate Change",
+	"publisher": "Nature Portfolio",
+	"year": 2019,
+	"type": "article",
+	"abstract": "Recent warming in the Arctic, which has been amplified during the winter1–3, greatly enhances microbial decomposition of soil organic matter and subsequent release of carbon dioxide (CO2)4. However, the amount of CO2 released in winter is not known and has not been well represented by ecosystem models or empirically based estimates5,6. Here we synthesize regional in situ observations of CO2 flux from Arctic and boreal soils to assess current and future winter carbon losses from the northern permafrost domain. We estimate a contemporary loss of 1,662 TgC per year from the permafrost region during the winter season (October–April). This loss is greater than the average growing season carbon uptake for this region estimated from process models (−1,032 TgC per year). Extending model predictions to warmer conditions up to 2100 indicates that winter CO2 emissions will increase 17% under a moderate mitigation scenario—Representative Concentration Pathway 4.5—and 41% under business-as-usual emissions scenario—Representative Concentration Pathway 8.5. Our results provide a baseline for winter CO2 emissions from northern terrestrial regions and indicate that enhanced soil CO2 loss due to winter warming may offset growing season carbon uptake under future climatic conditions. Winter warming in the Arctic will increase the CO2 flux from soils. A pan-Arctic analysis shows a current loss of 1,662 TgC per year over the winter, exceeding estimated carbon uptake in the growing season; projections suggest a 17% increase under RCP 4.5 and a 41% increase under RCP 8.5 by 2100.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "green",
+		"url": "https://pure.au.dk/portal/en/publications/5350e44e-3657-4e99-87be-5ff1ab390f1a"
+	},
+	"citedByCount": 499,
+	"themes": [
+		"cryosphere",
+		"carbone"
+	],
+	"sourceTopics": [
+		"Climate change and permafrost",
+		"Soil Carbon and Nitrogen Dynamics",
+		"Polar Research and Ecology"
+	],
+	"url": "https://doi.org/10.1038/s41558-019-0592-8",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-11-15"
+	},
+	"addedAt": "2026-11-15",
+	"editorial": {},
+	"glossaryTerms": []
+}

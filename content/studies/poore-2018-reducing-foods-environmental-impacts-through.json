@@ -1,0 +1,47 @@
+{
+	"id": "poore-2018-reducing-foods-environmental-impacts-through",
+	"doi": "10.1126/science.aaq0216",
+	"title": "Reducing food’s environmental impacts through producers and consumers",
+	"authors": [
+		{
+			"name": "Joseph Poore",
+			"orcid": "https://orcid.org/0000-0002-2527-7466",
+			"affiliation": "University of Oxford"
+		},
+		{
+			"name": "Thomas Nemecek",
+			"orcid": "https://orcid.org/0000-0001-8249-1170",
+			"affiliation": "Agroscope"
+		}
+	],
+	"authorCount": 2,
+	"venue": "Science",
+	"publisher": "American Association for the Advancement of Science",
+	"year": 2018,
+	"type": "article",
+	"abstract": "Food's environmental impacts are created by millions of diverse producers. To identify solutions that are effective under this heterogeneity, we consolidated data covering five environmental indicators; 38,700 farms; and 1600 processors, packaging types, and retailers. Impact can vary 50-fold among producers of the same product, creating substantial mitigation opportunities. However, mitigation is complicated by trade-offs, multiple ways for producers to achieve low impacts, and interactions throughout the supply chain. Producers have limits on how far they can reduce impacts. Most strikingly, impacts of the lowest-impact animal products typically exceed those of vegetable substitutes, providing new evidence for the importance of dietary change. Cumulatively, our findings support an approach where producers monitor their own impacts, flexibly meet environmental targets by choosing from multiple practices, and communicate their impacts to consumers.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "green",
+		"url": "https://ora.ox.ac.uk/objects/uuid:b0b53649-5e93-4415-bf07-6b0b1227172f/files/m13e577c73b56987e9c3e8eeb47ca6e74"
+	},
+	"citedByCount": 6843,
+	"themes": [
+		"agriculture",
+		"politiques"
+	],
+	"sourceTopics": [
+		"Agriculture Sustainability and Environmental Impact",
+		"Sustainable Agricultural Systems Analysis",
+		"Environmental Impact and Sustainability"
+	],
+	"url": "https://doi.org/10.1126/science.aaq0216",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-11-15"
+	},
+	"addedAt": "2026-11-15",
+	"editorial": {},
+	"glossaryTerms": []
+}

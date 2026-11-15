@@ -1,0 +1,51 @@
+{
+	"id": "fan-2013-global-patterns-groundwater-table-depth",
+	"doi": "10.1126/science.1229881",
+	"title": "Global Patterns of Groundwater Table Depth",
+	"authors": [
+		{
+			"name": "Ying Fan",
+			"orcid": "https://orcid.org/0000-0002-0024-7965",
+			"affiliation": "Rutgers, The State University of New Jersey"
+		},
+		{
+			"name": "H. Li",
+			"affiliation": "Rutgers, The State University of New Jersey"
+		},
+		{
+			"name": "Gonzalo Miguez‐Macho",
+			"orcid": "https://orcid.org/0000-0002-4259-7883",
+			"affiliation": "Universidade de Santiago de Compostela"
+		}
+	],
+	"authorCount": 3,
+	"venue": "Science",
+	"publisher": "American Association for the Advancement of Science",
+	"year": 2013,
+	"type": "article",
+	"abstract": "Shallow groundwater affects terrestrial ecosystems by sustaining river base-flow and root-zone soil water in the absence of rain, but little is known about the global patterns of water table depth and where it provides vital support for land ecosystems. We present global observations of water table depth compiled from government archives and literature, and fill in data gaps and infer patterns and processes using a groundwater model forced by modern climate, terrain, and sea level. Patterns in water table depth explain patterns in wetlands at the global scale and vegetation gradients at regional and local scales. Overall, shallow groundwater influences 22 to 32% of global land area, including ~15% as groundwater-fed surface water features and 7 to 17% with the water table or its capillary fringe within plant rooting depths.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": false,
+		"status": "closed",
+		"url": null
+	},
+	"citedByCount": 1402,
+	"themes": [
+		"eau",
+		"observation"
+	],
+	"sourceTopics": [
+		"Hydrology and Watershed Management Studies",
+		"Groundwater and Isotope Geochemistry",
+		"Groundwater flow and contamination studies"
+	],
+	"url": "https://doi.org/10.1126/science.1229881",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-11-15"
+	},
+	"addedAt": "2026-11-15",
+	"editorial": {},
+	"glossaryTerms": []
+}

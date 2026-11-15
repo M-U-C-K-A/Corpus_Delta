@@ -9,7 +9,7 @@
 		"label": "Global Mean Sea Level — Laboratory for Satellite Altimetry",
 		"url": "https://www.star.nesdis.noaa.gov/socd/lsa/SeaLevelRise/",
 		"publisher": "NOAA Laboratory for Satellite Altimetry",
-		"accessedAt": "2026-08-20"
+		"accessedAt": "2026-11-15"
 	},
 	"note": {
 		"fr": "Écart au niveau de référence, mesuré par altimétrie satellitaire depuis 1993. Les valeurs fusionnent les missions successives, inter-calibrées entre elles. Aucune correction d'ajustement isostatique n'est appliquée.",

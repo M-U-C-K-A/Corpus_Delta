@@ -1,0 +1,87 @@
+{
+	"id": "mckay-2022-exceeding-global-warming-could-trigger",
+	"doi": "10.1126/science.abn7950",
+	"title": "Exceeding 1.5°C global warming could trigger multiple climate tipping points",
+	"authors": [
+		{
+			"name": "David I. Armstrong McKay",
+			"orcid": "https://orcid.org/0000-0002-0020-7461",
+			"affiliation": "Stockholm Resilience Centre"
+		},
+		{
+			"name": "Arie Staal",
+			"orcid": "https://orcid.org/0000-0001-5409-1436",
+			"affiliation": "Stockholm Resilience Centre"
+		},
+		{
+			"name": "Jesse F. Abrams",
+			"orcid": "https://orcid.org/0000-0003-0411-8519",
+			"affiliation": "University of Exeter"
+		},
+		{
+			"name": "Ricarda Winkelmann",
+			"orcid": "https://orcid.org/0000-0003-1248-3217",
+			"affiliation": "University of Potsdam"
+		},
+		{
+			"name": "Boris Sakschewski",
+			"orcid": "https://orcid.org/0000-0002-7230-9723",
+			"affiliation": "Potsdam Institute for Climate Impact Research"
+		},
+		{
+			"name": "Sina Loriani",
+			"orcid": "https://orcid.org/0000-0001-6660-960X",
+			"affiliation": "Potsdam Institute for Climate Impact Research"
+		},
+		{
+			"name": "Ingo Fetzer",
+			"orcid": "https://orcid.org/0000-0001-7335-5679",
+			"affiliation": "Stockholm Resilience Centre"
+		},
+		{
+			"name": "Sarah Cornell",
+			"orcid": "https://orcid.org/0000-0003-4367-1296",
+			"affiliation": "Stockholm Resilience Centre"
+		},
+		{
+			"name": "Johan Rockström",
+			"orcid": "https://orcid.org/0000-0001-8988-2983",
+			"affiliation": "Stockholm Resilience Centre"
+		},
+		{
+			"name": "Timothy M. Lenton",
+			"orcid": "https://orcid.org/0000-0002-6725-7498",
+			"affiliation": "University of Exeter"
+		}
+	],
+	"authorCount": 10,
+	"venue": "Science",
+	"publisher": "American Association for the Advancement of Science",
+	"year": 2022,
+	"type": "article",
+	"abstract": "Climate tipping points occur when change in a part of the climate system becomes self-perpetuating beyond a warming threshold, leading to substantial Earth system impacts. Synthesizing paleoclimate, observational, and model-based studies, we provide a revised shortlist of global \"core\" tipping elements and regional \"impact\" tipping elements and their temperature thresholds. Current global warming of ~1.1°C above preindustrial temperatures already lies within the lower end of some tipping point uncertainty ranges. Several tipping points may be triggered in the Paris Agreement range of 1.5 to <2°C global warming, with many more likely at the 2 to 3°C of warming expected on current policy trajectories. This strengthens the evidence base for urgent action to mitigate climate change and to develop improved tipping point risk assessment, early warning capability, and adaptation strategies.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "green",
+		"url": "https://dspace.library.uu.nl/handle/1874/422858"
+	},
+	"citedByCount": 2268,
+	"themes": [
+		"risques",
+		"modelisation"
+	],
+	"sourceTopics": [
+		"Ecosystem dynamics and resilience",
+		"Climate variability and models",
+		"Geology and Paleoclimatology Research"
+	],
+	"url": "https://doi.org/10.1126/science.abn7950",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-11-15"
+	},
+	"addedAt": "2026-11-15",
+	"editorial": {},
+	"glossaryTerms": []
+}

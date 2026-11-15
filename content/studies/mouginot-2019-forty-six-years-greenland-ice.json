@@ -1,0 +1,82 @@
+{
+	"id": "mouginot-2019-forty-six-years-greenland-ice",
+	"doi": "10.1073/pnas.1904242116",
+	"title": "Forty-six years of Greenland Ice Sheet mass balance from 1972 to 2018",
+	"authors": [
+		{
+			"name": "J. Mouginot",
+			"orcid": "https://orcid.org/0000-0001-9155-5455",
+			"affiliation": "Centre National de la Recherche Scientifique"
+		},
+		{
+			"name": "Eric J. Rignot",
+			"orcid": "https://orcid.org/0000-0002-3366-0481",
+			"affiliation": "California Institute of Technology"
+		},
+		{
+			"name": "Anders Anker Bjørk",
+			"orcid": "https://orcid.org/0000-0002-4919-792X",
+			"affiliation": "University of Copenhagen"
+		},
+		{
+			"name": "M. R. van den Broeke",
+			"orcid": "https://orcid.org/0000-0003-4662-7565",
+			"affiliation": "Utrecht University"
+		},
+		{
+			"name": "Romain Millan",
+			"orcid": "https://orcid.org/0000-0002-7987-1305",
+			"affiliation": "University of California, Irvine"
+		},
+		{
+			"name": "Mathieu Morlighem",
+			"orcid": "https://orcid.org/0000-0001-5219-1310",
+			"affiliation": "University of California, Irvine"
+		},
+		{
+			"name": "Brice P. Y. Noel",
+			"orcid": "https://orcid.org/0000-0002-7159-5369",
+			"affiliation": "Utrecht University"
+		},
+		{
+			"name": "B. Scheuchl",
+			"orcid": "https://orcid.org/0000-0001-5947-7709",
+			"affiliation": "University of California, Irvine"
+		},
+		{
+			"name": "Michael Wood",
+			"orcid": "https://orcid.org/0000-0003-3074-7845",
+			"affiliation": "University of California, Irvine"
+		}
+	],
+	"authorCount": 9,
+	"venue": "Proceedings of the National Academy of Sciences",
+	"publisher": "National Academy of Sciences",
+	"year": 2019,
+	"type": "article",
+	"abstract": "We reconstruct the mass balance of the Greenland Ice Sheet using a comprehensive survey of thickness, surface elevation, velocity, and surface mass balance (SMB) of 260 glaciers from 1972 to 2018. We calculate mass discharge, D, into the ocean directly for 107 glaciers (85% of D) and indirectly for 110 glaciers (15%) using velocity-scaled reference fluxes. The decadal mass balance switched from a mass gain of +47 ± 21 Gt/y in 1972-1980 to a loss of 51 ± 17 Gt/y in 1980-1990. The mass loss increased from 41 ± 17 Gt/y in 1990-2000, to 187 ± 17 Gt/y in 2000-2010, to 286 ± 20 Gt/y in 2010-2018, or sixfold since the 1980s, or 80 ± 6 Gt/y per decade, on average. The acceleration in mass loss switched from positive in 2000-2010 to negative in 2010-2018 due to a series of cold summers, which illustrates the difficulty of extrapolating short records into longer-term trends. Cumulated since 1972, the largest contributions to global sea level rise are from northwest (4.4 ± 0.2 mm), southeast (3.0 ± 0.3 mm), and central west (2.0 ± 0.2 mm) Greenland, with a total 13.7 ± 1.1 mm for the ice sheet. The mass loss is controlled at 66 ± 8% by glacier dynamics (9.1 mm) and 34 ± 8% by SMB (4.6 mm). Even in years of high SMB, enhanced glacier discharge has remained sufficiently high above equilibrium to maintain an annual mass loss every year since 1998.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "hybrid",
+		"url": "https://doi.org/10.1073/pnas.1904242116"
+	},
+	"citedByCount": 1058,
+	"themes": [
+		"cryosphere",
+		"observation"
+	],
+	"sourceTopics": [
+		"Cryospheric studies and observations",
+		"Geology and Paleoclimatology Research",
+		"Geophysics and Gravity Measurements"
+	],
+	"url": "https://doi.org/10.1073/pnas.1904242116",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-11-15"
+	},
+	"addedAt": "2026-11-15",
+	"editorial": {},
+	"glossaryTerms": []
+}

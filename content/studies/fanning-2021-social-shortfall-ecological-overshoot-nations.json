@@ -1,0 +1,56 @@
+{
+	"id": "fanning-2021-social-shortfall-ecological-overshoot-nations",
+	"doi": "10.1038/s41893-021-00799-z",
+	"title": "The social shortfall and ecological overshoot of nations",
+	"authors": [
+		{
+			"name": "Andrew L. Fanning",
+			"orcid": "https://orcid.org/0000-0002-7929-3672",
+			"affiliation": "University of Leeds"
+		},
+		{
+			"name": "Daniel W. O’Neill",
+			"orcid": "https://orcid.org/0000-0002-0790-8295",
+			"affiliation": "University of Leeds"
+		},
+		{
+			"name": "Jason Hickel",
+			"orcid": "https://orcid.org/0000-0002-7490-9757",
+			"affiliation": "Universitat Autònoma de Barcelona"
+		},
+		{
+			"name": "Nicolas Roux",
+			"orcid": "https://orcid.org/0000-0002-4758-4870",
+			"affiliation": "BOKU University"
+		}
+	],
+	"authorCount": 4,
+	"venue": "Nature Sustainability",
+	"publisher": "Nature Portfolio",
+	"year": 2021,
+	"type": "article",
+	"abstract": null,
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "green",
+		"url": "https://zenodo.org/record/6983414"
+	},
+	"citedByCount": 474,
+	"themes": [
+		"politiques"
+	],
+	"sourceTopics": [
+		"Sustainable Development and Environmental Policy",
+		"Sustainability and Ecological Systems Analysis",
+		"Sustainability and Climate Change Governance"
+	],
+	"url": "https://doi.org/10.1038/s41893-021-00799-z",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-11-15"
+	},
+	"addedAt": "2026-11-15",
+	"editorial": {},
+	"glossaryTerms": []
+}

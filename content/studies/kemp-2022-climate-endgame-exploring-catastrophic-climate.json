@@ -1,0 +1,91 @@
+{
+	"id": "kemp-2022-climate-endgame-exploring-catastrophic-climate",
+	"doi": "10.1073/pnas.2108146119",
+	"title": "Climate Endgame: Exploring catastrophic climate change scenarios",
+	"authors": [
+		{
+			"name": "Luke Kemp",
+			"orcid": "https://orcid.org/0000-0002-7447-4335",
+			"affiliation": "University of Cambridge"
+		},
+		{
+			"name": "Chi Xu",
+			"orcid": "https://orcid.org/0000-0002-1841-9032",
+			"affiliation": "Nanjing University"
+		},
+		{
+			"name": "Joanna Depledge",
+			"orcid": "https://orcid.org/0000-0002-1137-0096",
+			"affiliation": "University of Cambridge"
+		},
+		{
+			"name": "Kristie L. Ebi",
+			"orcid": "https://orcid.org/0000-0003-4746-8236",
+			"affiliation": "University of Washington"
+		},
+		{
+			"name": "Goodwin Gibbins",
+			"affiliation": "University of Oxford"
+		},
+		{
+			"name": "Timothy A. Kohler",
+			"orcid": "https://orcid.org/0000-0002-3414-6660",
+			"affiliation": "Santa Fe Institute"
+		},
+		{
+			"name": "Johan Rockström",
+			"orcid": "https://orcid.org/0000-0001-8988-2983",
+			"affiliation": "Potsdam Institute for Climate Impact Research"
+		},
+		{
+			"name": "Marten Scheffer",
+			"orcid": "https://orcid.org/0000-0002-2100-0312",
+			"affiliation": "Wageningen University & Research"
+		},
+		{
+			"name": "Hans Joachim Schellnhuber",
+			"orcid": "https://orcid.org/0000-0001-7453-4935",
+			"affiliation": "Potsdam Institute for Climate Impact Research"
+		},
+		{
+			"name": "Will Steffen",
+			"orcid": "https://orcid.org/0000-0003-1163-6736",
+			"affiliation": "Australian National University"
+		},
+		{
+			"name": "Timothy M. Lenton",
+			"orcid": "https://orcid.org/0000-0002-6725-7498",
+			"affiliation": "University of Exeter"
+		}
+	],
+	"authorCount": 11,
+	"venue": "Proceedings of the National Academy of Sciences",
+	"publisher": "National Academy of Sciences",
+	"year": 2022,
+	"type": "article",
+	"abstract": "Prudent risk management requires consideration of bad-to-worst-case scenarios. Yet, for climate change, such potential futures are poorly understood. Could anthropogenic climate change result in worldwide societal collapse or even eventual human extinction? At present, this is a dangerously underexplored topic. Yet there are ample reasons to suspect that climate change could result in a global catastrophe. Analyzing the mechanisms for these extreme consequences could help galvanize action, improve resilience, and inform policy, including emergency responses. We outline current knowledge about the likelihood of extreme climate change, discuss why understanding bad-to-worst cases is vital, articulate reasons for concern about catastrophic outcomes, define key terms, and put forward a research agenda. The proposed agenda covers four main questions: 1) What is the potential for climate change to drive mass extinction events? 2) What are the mechanisms that could result in human mass mortality and morbidity? 3) What are human societies' vulnerabilities to climate-triggered risk cascades, such as from conflict, political instability, and systemic financial risk? 4) How can these multiple strands of evidence-together with other global dangers-be usefully synthesized into an \"integrated catastrophe assessment\"? It is time for the scientific community to grapple with the challenge of better understanding catastrophic climate change.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "hybrid",
+		"url": "https://doi.org/10.1073/pnas.2108146119"
+	},
+	"citedByCount": 923,
+	"themes": [
+		"risques",
+		"politiques"
+	],
+	"sourceTopics": [
+		"Climate Change and Environmental Impact",
+		"Climate Change Policy and Economics",
+		"Climate variability and models"
+	],
+	"url": "https://doi.org/10.1073/pnas.2108146119",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-11-15"
+	},
+	"addedAt": "2026-11-15",
+	"editorial": {},
+	"glossaryTerms": []
+}

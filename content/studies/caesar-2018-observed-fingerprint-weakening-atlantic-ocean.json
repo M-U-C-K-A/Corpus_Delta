@@ -1,0 +1,62 @@
+{
+	"id": "caesar-2018-observed-fingerprint-weakening-atlantic-ocean",
+	"doi": "10.1038/s41586-018-0006-5",
+	"title": "Observed fingerprint of a weakening Atlantic Ocean overturning circulation",
+	"authors": [
+		{
+			"name": "Levke Caesar",
+			"orcid": "https://orcid.org/0000-0002-5626-0392",
+			"affiliation": "University of Potsdam"
+		},
+		{
+			"name": "Stefan Rahmstorf",
+			"orcid": "https://orcid.org/0000-0001-6786-7723",
+			"affiliation": "University of Potsdam"
+		},
+		{
+			"name": "Alexander Robinson",
+			"orcid": "https://orcid.org/0000-0003-3519-5293",
+			"affiliation": "Universidad Complutense de Madrid"
+		},
+		{
+			"name": "Georg Feulner",
+			"orcid": "https://orcid.org/0000-0001-9215-5517",
+			"affiliation": "Potsdam Institute for Climate Impact Research"
+		},
+		{
+			"name": "Vincent S. Saba",
+			"orcid": "https://orcid.org/0000-0002-2974-4826",
+			"affiliation": "NOAA National Marine Fisheries Service"
+		}
+	],
+	"authorCount": 5,
+	"venue": "Nature",
+	"publisher": "Nature Portfolio",
+	"year": 2018,
+	"type": "article",
+	"abstract": null,
+	"language": "en",
+	"openAccess": {
+		"isOpen": false,
+		"status": "closed",
+		"url": null
+	},
+	"citedByCount": 1211,
+	"themes": [
+		"ocean",
+		"observation"
+	],
+	"sourceTopics": [
+		"Climate variability and models",
+		"Oceanographic and Atmospheric Processes",
+		"Geology and Paleoclimatology Research"
+	],
+	"url": "https://doi.org/10.1038/s41586-018-0006-5",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-11-15"
+	},
+	"addedAt": "2026-11-15",
+	"editorial": {},
+	"glossaryTerms": []
+}

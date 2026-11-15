@@ -1,0 +1,137 @@
+{
+	"id": "zhao-2017-temperature-increase-reduces-global-yields",
+	"doi": "10.1073/pnas.1701762114",
+	"title": "Temperature increase reduces global yields of major crops in four independent estimates",
+	"authors": [
+		{
+			"name": "Chuang Zhao",
+			"orcid": "https://orcid.org/0000-0002-9535-8181",
+			"affiliation": "Peking University"
+		},
+		{
+			"name": "Bing Liu",
+			"orcid": "https://orcid.org/0000-0002-2702-3398",
+			"affiliation": "Nanjing Agricultural University"
+		},
+		{
+			"name": "Shilong L. Piao",
+			"orcid": "https://orcid.org/0000-0001-8057-2292",
+			"affiliation": "Chinese Academy of Sciences"
+		},
+		{
+			"name": "Xuhui Wang",
+			"orcid": "https://orcid.org/0000-0003-0818-9816",
+			"affiliation": "Peking University"
+		},
+		{
+			"name": "David B. Lobell",
+			"orcid": "https://orcid.org/0000-0002-5969-3476",
+			"affiliation": "Stanford University"
+		},
+		{
+			"name": "Yao Huang",
+			"orcid": "https://orcid.org/0000-0002-0192-1421",
+			"affiliation": "Chinese Academy of Sciences"
+		},
+		{
+			"name": "Mengtian Huang",
+			"orcid": "https://orcid.org/0000-0002-1092-1562",
+			"affiliation": "Peking University"
+		},
+		{
+			"name": "Yitong Yao",
+			"orcid": "https://orcid.org/0000-0002-1713-6719",
+			"affiliation": "Peking University"
+		},
+		{
+			"name": "Simona Bassu",
+			"orcid": "https://orcid.org/0009-0003-4475-9836",
+			"affiliation": "University of Sassari"
+		},
+		{
+			"name": "Philippe Ciais",
+			"orcid": "https://orcid.org/0000-0001-8560-4943",
+			"affiliation": "Centre National de la Recherche Scientifique"
+		},
+		{
+			"name": "J. L. Durand",
+			"orcid": "https://orcid.org/0000-0003-2751-168X",
+			"affiliation": "Unité de Recherche Pluridisciplinaire Prairies et Plantes Fourragères"
+		},
+		{
+			"name": "Joshua W. Elliott",
+			"orcid": "https://orcid.org/0000-0003-0258-9886",
+			"affiliation": "University of Chicago"
+		},
+		{
+			"name": "Frank A. Ewert",
+			"orcid": "https://orcid.org/0000-0002-4392-8154",
+			"affiliation": "University of Bonn"
+		},
+		{
+			"name": "Ivan A. Janssens",
+			"orcid": "https://orcid.org/0000-0002-5705-1787",
+			"affiliation": "University of Antwerp"
+		},
+		{
+			"name": "Tao Li",
+			"orcid": "https://orcid.org/0000-0002-1360-1396",
+			"affiliation": "International Rice Research Institute"
+		},
+		{
+			"name": "Erda Lin",
+			"orcid": "https://orcid.org/0000-0002-7340-479X",
+			"affiliation": "Chinese Academy of Agricultural Sciences"
+		},
+		{
+			"name": "Qiang Liu",
+			"orcid": "https://orcid.org/0000-0002-1895-9725",
+			"affiliation": "Peking University"
+		},
+		{
+			"name": "Pierre Martre",
+			"orcid": "https://orcid.org/0000-0002-7419-6558",
+			"affiliation": "Institut Agro Montpellier"
+		},
+		{
+			"name": "Christoph Müller",
+			"orcid": "https://orcid.org/0000-0002-9491-3550",
+			"affiliation": "Potsdam Institute for Climate Impact Research"
+		},
+		{
+			"name": "Shushi Peng",
+			"orcid": "https://orcid.org/0000-0001-5098-726X",
+			"affiliation": "Peking University"
+		}
+	],
+	"authorCount": 29,
+	"venue": "Proceedings of the National Academy of Sciences",
+	"publisher": "National Academy of Sciences",
+	"year": 2017,
+	"type": "article",
+	"abstract": "Significance Agricultural production is vulnerable to climate change. Understanding climate change, especially the temperature impacts, is critical if policymakers, agriculturalists, and crop breeders are to ensure global food security. Our study, by compiling extensive published results from four analytical methods, shows that independent methods consistently estimated negative temperature impacts on yields of four major crops at the global scale, generally underpinned by similar impacts at country and site scales. Multimethod analyses improved the confidence in assessments of future climate impacts on global major crops, with important implications for developing crop- and region-specific adaptation strategies to ensure future food supply of an increasing world population.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "green",
+		"url": "https://www.ncbi.nlm.nih.gov/pmc/articles/5584412"
+	},
+	"citedByCount": 3563,
+	"themes": [
+		"agriculture",
+		"chaleur"
+	],
+	"sourceTopics": [
+		"Climate change impacts on agriculture",
+		"Climate variability and models",
+		"Climate Change and Health Impacts"
+	],
+	"url": "https://doi.org/10.1073/pnas.1701762114",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-11-15"
+	},
+	"addedAt": "2026-11-15",
+	"editorial": {},
+	"glossaryTerms": []
+}

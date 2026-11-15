@@ -9,7 +9,7 @@
 		"label": "The NOAA Annual Greenhouse Gas Index (AGGI)",
 		"url": "https://gml.noaa.gov/aggi/",
 		"publisher": "NOAA Global Monitoring Laboratory",
-		"accessedAt": "2026-08-20"
+		"accessedAt": "2026-11-15"
 	},
 	"note": {
 		"fr": "Somme du forçage exercé par les gaz à longue durée de vie — CO₂, méthane, protoxyde d'azote, halocarbures — par rapport à 1750. C'est la grandeur qui ramène tous ces gaz à une même unité physique.",
@@ -79,7 +79,7 @@
 		},
 		{
 			"year": 1992,
-			"forcing": 2.364
+			"forcing": 2.365
 		},
 		{
 			"year": 1993,
@@ -91,7 +91,7 @@
 		},
 		{
 			"year": 1995,
-			"forcing": 2.448
+			"forcing": 2.449
 		},
 		{
 			"year": 1996,
@@ -139,15 +139,15 @@
 		},
 		{
 			"year": 2007,
-			"forcing": 2.856
+			"forcing": 2.857
 		},
 		{
 			"year": 2008,
-			"forcing": 2.894
+			"forcing": 2.895
 		},
 		{
 			"year": 2009,
-			"forcing": 2.922
+			"forcing": 2.923
 		},
 		{
 			"year": 2010,
@@ -155,59 +155,63 @@
 		},
 		{
 			"year": 2011,
-			"forcing": 2.994
+			"forcing": 2.995
 		},
 		{
 			"year": 2012,
-			"forcing": 3.029
+			"forcing": 3.03
 		},
 		{
 			"year": 2013,
-			"forcing": 3.074
+			"forcing": 3.075
 		},
 		{
 			"year": 2014,
-			"forcing": 3.11
+			"forcing": 3.111
 		},
 		{
 			"year": 2015,
-			"forcing": 3.152
+			"forcing": 3.153
 		},
 		{
 			"year": 2016,
-			"forcing": 3.208
+			"forcing": 3.209
 		},
 		{
 			"year": 2017,
-			"forcing": 3.244
+			"forcing": 3.245
 		},
 		{
 			"year": 2018,
-			"forcing": 3.285
+			"forcing": 3.287
 		},
 		{
 			"year": 2019,
-			"forcing": 3.326
+			"forcing": 3.328
 		},
 		{
 			"year": 2020,
-			"forcing": 3.366
+			"forcing": 3.369
 		},
 		{
 			"year": 2021,
-			"forcing": 3.407
+			"forcing": 3.41
 		},
 		{
 			"year": 2022,
-			"forcing": 3.45
+			"forcing": 3.453
 		},
 		{
 			"year": 2023,
-			"forcing": 3.487
+			"forcing": 3.491
 		},
 		{
 			"year": 2024,
-			"forcing": 3.539
+			"forcing": 3.543
+		},
+		{
+			"year": 2025,
+			"forcing": 3.587
 		}
 	]
 }

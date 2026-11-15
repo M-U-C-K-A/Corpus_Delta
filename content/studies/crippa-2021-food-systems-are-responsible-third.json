@@ -1,0 +1,67 @@
+{
+	"id": "crippa-2021-food-systems-are-responsible-third",
+	"doi": "10.1038/s43016-021-00225-9",
+	"title": "Food systems are responsible for a third of global anthropogenic GHG emissions",
+	"authors": [
+		{
+			"name": "Monica Crippa",
+			"orcid": "https://orcid.org/0000-0001-5946-3139",
+			"affiliation": "European Commission"
+		},
+		{
+			"name": "Efisio Solazzo",
+			"orcid": "https://orcid.org/0000-0002-6333-1101",
+			"affiliation": "Joint Research Centre"
+		},
+		{
+			"name": "Diego Guizzardi",
+			"orcid": "https://orcid.org/0000-0002-4372-8953",
+			"affiliation": "Joint Research Centre"
+		},
+		{
+			"name": "Fabio Monforti-Ferrario",
+			"orcid": "https://orcid.org/0000-0003-3272-2684",
+			"affiliation": "Joint Research Centre"
+		},
+		{
+			"name": "Francesco Nicola Tubiello",
+			"orcid": "https://orcid.org/0000-0003-4617-4690",
+			"affiliation": "Food and Agriculture Organization of the United Nations"
+		},
+		{
+			"name": "Adrian Leip",
+			"orcid": "https://orcid.org/0000-0001-7616-5029",
+			"affiliation": "European Commission"
+		}
+	],
+	"authorCount": 6,
+	"venue": "Nature Food",
+	"publisher": "Nature Portfolio",
+	"year": 2021,
+	"type": "article",
+	"abstract": null,
+	"language": "en",
+	"openAccess": {
+		"isOpen": false,
+		"status": "closed",
+		"url": null
+	},
+	"citedByCount": 3646,
+	"themes": [
+		"agriculture",
+		"carbone"
+	],
+	"sourceTopics": [
+		"Agriculture Sustainability and Environmental Impact",
+		"Environmental Impact and Sustainability",
+		"Food Waste Reduction and Sustainability"
+	],
+	"url": "https://doi.org/10.1038/s43016-021-00225-9",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-11-15"
+	},
+	"addedAt": "2026-11-15",
+	"editorial": {},
+	"glossaryTerms": []
+}

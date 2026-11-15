@@ -9,7 +9,7 @@
 		"label": "Trends in Atmospheric Nitrous Oxide",
 		"url": "https://gml.noaa.gov/ccgg/trends_n2o/",
 		"publisher": "NOAA Global Monitoring Laboratory",
-		"accessedAt": "2026-08-19"
+		"accessedAt": "2026-11-15"
 	},
 	"note": {
 		"fr": "Moyennes annuelles globales. Le protoxyde d'azote provient surtout de la fertilisation azotée et persiste plus d'un siècle dans l'atmosphère.",
@@ -103,27 +103,27 @@
 		},
 		{
 			"year": 2020,
-			"n2o": 333
+			"n2o": 333.01
 		},
 		{
 			"year": 2021,
-			"n2o": 334.27
+			"n2o": 334.29
 		},
 		{
 			"year": 2022,
-			"n2o": 335.61
+			"n2o": 335.63
 		},
 		{
 			"year": 2023,
-			"n2o": 336.68
+			"n2o": 336.7
 		},
 		{
 			"year": 2024,
-			"n2o": 337.71
+			"n2o": 337.72
 		},
 		{
 			"year": 2025,
-			"n2o": 338.85
+			"n2o": 338.86
 		}
 	]
 }

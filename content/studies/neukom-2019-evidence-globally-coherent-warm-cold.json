@@ -1,0 +1,60 @@
+{
+	"id": "neukom-2019-evidence-globally-coherent-warm-cold",
+	"doi": "10.1038/s41586-019-1401-2",
+	"title": "No evidence for globally coherent warm and cold periods over the preindustrial Common Era",
+	"authors": [
+		{
+			"name": "Raphael Neukom",
+			"orcid": "https://orcid.org/0000-0001-9392-0997",
+			"affiliation": "University of Bern"
+		},
+		{
+			"name": "Nathan Steiger",
+			"orcid": "https://orcid.org/0000-0003-3817-9168",
+			"affiliation": "Lamont-Doherty Earth Observatory"
+		},
+		{
+			"name": "Juan José Gómez‐Navarro",
+			"orcid": "https://orcid.org/0000-0001-5488-775X",
+			"affiliation": "Universidad de Murcia"
+		},
+		{
+			"name": "Jianghao Wang",
+			"affiliation": "MathWorks (United States)"
+		},
+		{
+			"name": "J. Werner",
+			"orcid": "https://orcid.org/0000-0003-4015-7398",
+			"affiliation": "Bjerknes Centre for Climate Research"
+		}
+	],
+	"authorCount": 5,
+	"venue": "Nature",
+	"publisher": "Nature Portfolio",
+	"year": 2019,
+	"type": "article",
+	"abstract": null,
+	"language": "en",
+	"openAccess": {
+		"isOpen": false,
+		"status": "closed",
+		"url": null
+	},
+	"citedByCount": 556,
+	"themes": [
+		"observation"
+	],
+	"sourceTopics": [
+		"Geology and Paleoclimatology Research",
+		"Climate variability and models",
+		"Tree-ring climate responses"
+	],
+	"url": "https://doi.org/10.1038/s41586-019-1401-2",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-11-15"
+	},
+	"addedAt": "2026-11-15",
+	"editorial": {},
+	"glossaryTerms": []
+}

@@ -1,0 +1,57 @@
+{
+	"id": "way-2022-empirically-grounded-technology-forecasts-energy",
+	"doi": "10.1016/j.joule.2022.08.009",
+	"title": "Empirically grounded technology forecasts and the energy transition",
+	"authors": [
+		{
+			"name": "Rupert Way",
+			"orcid": "https://orcid.org/0000-0002-0684-4955",
+			"affiliation": "University of Oxford"
+		},
+		{
+			"name": "Matthew C. Ives",
+			"orcid": "https://orcid.org/0000-0002-3536-2787",
+			"affiliation": "University of Oxford"
+		},
+		{
+			"name": "Penny Mealy",
+			"orcid": "https://orcid.org/0000-0003-2729-3037",
+			"affiliation": "University of Oxford"
+		},
+		{
+			"name": "J. Doyne Farmer",
+			"orcid": "https://orcid.org/0000-0001-7871-073X",
+			"affiliation": "Santa Fe Institute"
+		}
+	],
+	"authorCount": 4,
+	"venue": "Joule",
+	"publisher": "Elsevier BV",
+	"year": 2022,
+	"type": "article",
+	"abstract": "Rapidly decarbonizing the global energy system is critical for addressing climate change, but concerns about costs have been a barrier to implementation. Most energy-economy models have historically underestimated deployment rates for renewable energy technologies and overestimated their costs. These issues have driven calls for alternative approaches and more reliable technology forecasting methods. Here, we use an approach based on probabilistic cost forecasting methods that have been statistically validated by backtesting on more than 50 technologies. We generate probabilistic cost forecasts for solar energy, wind energy, batteries, and electrolyzers, conditional on deployment. We use these methods to estimate future energy system costs and explore how technology cost uncertainty propagates through to system costs in three different scenarios. Compared to continuing with a fossil fuel-based system, a rapid green energy transition will likely result in overall net savings of many trillions of dollars—even without accounting for climate damages or co-benefits of climate policy.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "hybrid",
+		"url": "https://doi.org/10.1016/j.joule.2022.08.009"
+	},
+	"citedByCount": 622,
+	"themes": [
+		"energie",
+		"politiques"
+	],
+	"sourceTopics": [
+		"Integrated Energy Systems Optimization",
+		"Renewable Energy and Sustainability",
+		"Renewable energy and sustainable power systems"
+	],
+	"url": "https://doi.org/10.1016/j.joule.2022.08.009",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-11-15"
+	},
+	"addedAt": "2026-11-15",
+	"editorial": {},
+	"glossaryTerms": []
+}

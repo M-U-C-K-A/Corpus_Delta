@@ -1,0 +1,130 @@
+{
+	"id": "gatti-2021-amazonia-carbon-source-linked-deforestation",
+	"doi": "10.1038/s41586-021-03629-6",
+	"title": "Amazonia as a carbon source linked to deforestation and climate change",
+	"authors": [
+		{
+			"name": "Luciana V. Gatti",
+			"orcid": "https://orcid.org/0000-0003-4908-8974",
+			"affiliation": "Instituto de Pesquisas Energéticas e Nucleares"
+		},
+		{
+			"name": "Luana S. Basso",
+			"orcid": "https://orcid.org/0000-0002-4208-6039",
+			"affiliation": "Instituto Nacional de Pesquisas Espaciais"
+		},
+		{
+			"name": "John Bharat Miller",
+			"orcid": "https://orcid.org/0000-0001-8630-1610",
+			"affiliation": "National Oceanic and Atmospheric Administration"
+		},
+		{
+			"name": "Manuel U. Gloor",
+			"orcid": "https://orcid.org/0000-0002-9384-6341",
+			"affiliation": "University of Leeds"
+		},
+		{
+			"name": "Lucas G. Domingues",
+			"orcid": "https://orcid.org/0000-0003-4868-917X",
+			"affiliation": "GNS Science"
+		},
+		{
+			"name": "Henrique Cassol",
+			"orcid": "https://orcid.org/0000-0001-6728-4712",
+			"affiliation": "Instituto Nacional de Pesquisas Espaciais"
+		},
+		{
+			"name": "Graciela Tejada",
+			"orcid": "https://orcid.org/0000-0002-8389-0269",
+			"affiliation": "Instituto Nacional de Pesquisas Espaciais"
+		},
+		{
+			"name": "Luiz E. O. C. Aragão",
+			"orcid": "https://orcid.org/0000-0002-4134-6708",
+			"affiliation": "University of Exeter"
+		},
+		{
+			"name": "Carlos A. Nobre",
+			"orcid": "https://orcid.org/0000-0002-5808-8784",
+			"affiliation": "Universidade de São Paulo"
+		},
+		{
+			"name": "Wouter Peters",
+			"orcid": "https://orcid.org/0000-0001-8166-2070",
+			"affiliation": "University of Groningen"
+		},
+		{
+			"name": "Luciano Marani",
+			"orcid": "https://orcid.org/0000-0001-7382-464X",
+			"affiliation": "Instituto Nacional de Pesquisas Espaciais"
+		},
+		{
+			"name": "Egídio Arai",
+			"orcid": "https://orcid.org/0000-0003-1994-5277",
+			"affiliation": "Instituto Nacional de Pesquisas Espaciais"
+		},
+		{
+			"name": "Alber H. Sanches",
+			"affiliation": "Instituto Nacional de Pesquisas Espaciais"
+		},
+		{
+			"name": "Sérgio Machado Corrêa",
+			"orcid": "https://orcid.org/0000-0002-0038-0790",
+			"affiliation": "Universidade do Estado do Rio de Janeiro"
+		},
+		{
+			"name": "Liana O. Anderson",
+			"orcid": "https://orcid.org/0000-0001-9545-5136",
+			"affiliation": "Centro Nacional de Monitoramento e Alertas de Desastres Naturais"
+		},
+		{
+			"name": "Celso von Randow",
+			"orcid": "https://orcid.org/0000-0003-1045-4316",
+			"affiliation": "Instituto Nacional de Pesquisas Espaciais"
+		},
+		{
+			"name": "Caio Correia",
+			"orcid": "https://orcid.org/0000-0002-3675-0159",
+			"affiliation": "Instituto de Pesquisas Energéticas e Nucleares"
+		},
+		{
+			"name": "Stephane P. Crispim",
+			"affiliation": "Instituto Nacional de Pesquisas Espaciais"
+		},
+		{
+			"name": "Raiane A.L. Neves",
+			"orcid": "https://orcid.org/0000-0001-9433-7090",
+			"affiliation": "Instituto Nacional de Pesquisas Espaciais"
+		}
+	],
+	"authorCount": 19,
+	"venue": "Nature",
+	"publisher": "Nature Portfolio",
+	"year": 2021,
+	"type": "article",
+	"abstract": null,
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "green",
+		"url": "https://research.wur.nl/en/publications/amazonia-as-a-carbon-source-linked-to-deforestation-and-climate-c"
+	},
+	"citedByCount": 1244,
+	"themes": [
+		"carbone",
+		"biodiversite"
+	],
+	"sourceTopics": [
+		"Atmospheric and Environmental Gas Dynamics",
+		"Fire effects on ecosystems",
+		"Plant Water Relations and Carbon Dynamics"
+	],
+	"url": "https://doi.org/10.1038/s41586-021-03629-6",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-11-15"
+	},
+	"addedAt": "2026-11-15",
+	"editorial": {},
+	"glossaryTerms": []
+}

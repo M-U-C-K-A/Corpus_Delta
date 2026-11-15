@@ -1,0 +1,136 @@
+{
+	"id": "vicedo-cabrera-2021-burden-heat-related-mortality-attributable",
+	"doi": "10.1038/s41558-021-01058-x",
+	"title": "The burden of heat-related mortality attributable to recent human-induced climate change",
+	"authors": [
+		{
+			"name": "Ana M. Vicedo‐Cabrera",
+			"orcid": "https://orcid.org/0000-0001-6982-8867",
+			"affiliation": "University of Bern"
+		},
+		{
+			"name": "Noah Scovronick",
+			"orcid": "https://orcid.org/0000-0003-1410-3337",
+			"affiliation": "Emory University"
+		},
+		{
+			"name": "Francesco Sera",
+			"orcid": "https://orcid.org/0000-0002-8890-6848",
+			"affiliation": "London School of Hygiene & Tropical Medicine"
+		},
+		{
+			"name": "Dominic Royé",
+			"orcid": "https://orcid.org/0000-0002-5516-6396",
+			"affiliation": "Universidade de Santiago de Compostela"
+		},
+		{
+			"name": "Rochelle Schneider",
+			"orcid": "https://orcid.org/0000-0002-2905-0154",
+			"affiliation": "European Centre for Medium-Range Weather Forecasts"
+		},
+		{
+			"name": "Aurelio Tobías",
+			"orcid": "https://orcid.org/0000-0001-6428-6755",
+			"affiliation": "Institute of Environmental Assessment and Water Research"
+		},
+		{
+			"name": "Christofer Åström",
+			"orcid": "https://orcid.org/0000-0003-4208-0718",
+			"affiliation": "Umeå University"
+		},
+		{
+			"name": "Yuming Guo",
+			"orcid": "https://orcid.org/0000-0002-1766-6592",
+			"affiliation": "National Health Research Institutes"
+		},
+		{
+			"name": "Yasushi Honda",
+			"orcid": "https://orcid.org/0000-0003-2248-1629",
+			"affiliation": "University of Tsukuba"
+		},
+		{
+			"name": "David M. Hondula",
+			"orcid": "https://orcid.org/0000-0003-2465-2671",
+			"affiliation": "Arizona State University"
+		},
+		{
+			"name": "Rosana Abrutzky",
+			"orcid": "https://orcid.org/0000-0002-5580-0211",
+			"affiliation": "Universidad de Buenos Aires"
+		},
+		{
+			"name": "Shilu Tong",
+			"orcid": "https://orcid.org/0000-0001-9579-6889",
+			"affiliation": "Queensland University of Technology"
+		},
+		{
+			"name": "Micheline de Sousa Zanotti Stagliorio Coêlho",
+			"orcid": "https://orcid.org/0000-0002-9732-1278",
+			"affiliation": "Universidade de São Paulo"
+		},
+		{
+			"name": "Paulo Hilário Nascimento Saldiva",
+			"orcid": "https://orcid.org/0000-0003-2005-8253",
+			"affiliation": "Universidade de São Paulo"
+		},
+		{
+			"name": "Éric Lavigne",
+			"orcid": "https://orcid.org/0000-0001-6146-9839",
+			"affiliation": "Health Canada"
+		},
+		{
+			"name": "Patricia Matus Correa",
+			"orcid": "https://orcid.org/0000-0003-1844-6564",
+			"affiliation": "Universidad de Los Andes, Chile"
+		},
+		{
+			"name": "Nicolás Valdés Ortega",
+			"orcid": "https://orcid.org/0000-0001-7609-4291",
+			"affiliation": "Universidad de Los Andes, Chile"
+		},
+		{
+			"name": "Haidong Kan",
+			"orcid": "https://orcid.org/0000-0002-1871-8999",
+			"affiliation": "Fudan University"
+		},
+		{
+			"name": "Samuel Osorio",
+			"affiliation": "Universidade de São Paulo"
+		},
+		{
+			"name": "Jan Kyselý",
+			"orcid": "https://orcid.org/0000-0002-6371-6597",
+			"affiliation": "Czech University of Life Sciences Prague"
+		}
+	],
+	"authorCount": 70,
+	"venue": "Nature Climate Change",
+	"publisher": "Nature Portfolio",
+	"year": 2021,
+	"type": "article",
+	"abstract": "Climate change affects human health; however, there have been no large-scale, systematic efforts to quantify the heat-related human health impacts that have already occurred due to climate change. Here, we use empirical data from 732 locations in 43 countries to estimate the mortality burdens associated with the additional heat exposure that has resulted from recent human-induced warming, during the period 1991–2018. Across all study countries, we find that 37.0% (range 20.5–76.3%) of warm-season heat-related deaths can be attributed to anthropogenic climate change and that increased mortality is evident on every continent. Burdens varied geographically but were of the order of dozens to hundreds of deaths per year in many locations. Our findings support the urgent need for more ambitious mitigation and adaptation strategies to minimize the public health impacts of climate change. Current and future climate change is expected to impact human health, both indirectly and directly, through increasing temperatures. Climate change has already had an impact and is responsible for 37% of warm-season heat-related deaths between 1991 and 2018, with increases in mortality observed globally.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "bronze",
+		"url": "https://www.nature.com/articles/s41558-021-01058-x.pdf"
+	},
+	"citedByCount": 1497,
+	"themes": [
+		"sante",
+		"chaleur"
+	],
+	"sourceTopics": [
+		"Climate Change and Health Impacts",
+		"Thermoregulation and physiological responses",
+		"Air Quality and Health Impacts"
+	],
+	"url": "https://doi.org/10.1038/s41558-021-01058-x",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-11-15"
+	},
+	"addedAt": "2026-11-15",
+	"editorial": {},
+	"glossaryTerms": []
+}

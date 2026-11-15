@@ -1,0 +1,56 @@
+{
+	"id": "wiedmann-2020-scientists-warning-affluence",
+	"doi": "10.1038/s41467-020-16941-y",
+	"title": "Scientists’ warning on affluence",
+	"authors": [
+		{
+			"name": "Thomas Wiedmann",
+			"orcid": "https://orcid.org/0000-0002-6395-8887",
+			"affiliation": "UNSW Sydney"
+		},
+		{
+			"name": "Manfred Lenzen",
+			"orcid": "https://orcid.org/0000-0002-0828-5288",
+			"affiliation": "The University of Sydney"
+		},
+		{
+			"name": "Lorenz Tilmann Keyßer",
+			"orcid": "https://orcid.org/0000-0002-0823-9150",
+			"affiliation": "ETH Zurich"
+		},
+		{
+			"name": "Julia  K. Steinberger",
+			"orcid": "https://orcid.org/0000-0002-5925-9602",
+			"affiliation": "University of Leeds"
+		}
+	],
+	"authorCount": 4,
+	"venue": "Nature Communications",
+	"publisher": "Nature Portfolio",
+	"year": 2020,
+	"type": "review",
+	"abstract": "For over half a century, worldwide growth in affluence has continuously increased resource use and pollutant emissions far more rapidly than these have been reduced through better technology. The affluent citizens of the world are responsible for most environmental impacts and are central to any future prospect of retreating to safer environmental conditions. We summarise the evidence and present possible solution approaches. Any transition towards sustainability can only be effective if far-reaching lifestyle changes complement technological advancements. However, existing societies, economies and cultures incite consumption expansion and the structural imperative for growth in competitive market economies inhibits necessary societal change.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "gold",
+		"url": "https://www.nature.com/articles/s41467-020-16941-y.pdf"
+	},
+	"citedByCount": 1313,
+	"themes": [
+		"politiques"
+	],
+	"sourceTopics": [
+		"Sustainable Development and Environmental Policy",
+		"Sustainable Development and Environmental Management",
+		"Environmental Impact and Sustainability"
+	],
+	"url": "https://doi.org/10.1038/s41467-020-16941-y",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-11-15"
+	},
+	"addedAt": "2026-11-15",
+	"editorial": {},
+	"glossaryTerms": []
+}

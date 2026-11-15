@@ -1,0 +1,71 @@
+{
+	"id": "tokarska-2020-past-warming-trend-constrains-future",
+	"doi": "10.1126/sciadv.aaz9549",
+	"title": "Past warming trend constrains future warming in CMIP6 models",
+	"authors": [
+		{
+			"name": "Katarzyna B. Tokarska",
+			"orcid": "https://orcid.org/0000-0001-8887-8798",
+			"affiliation": "ETH Zurich"
+		},
+		{
+			"name": "Martin B. Stolpe",
+			"orcid": "https://orcid.org/0000-0001-6792-285X",
+			"affiliation": "ETH Zurich"
+		},
+		{
+			"name": "Sebastian Sippel",
+			"orcid": "https://orcid.org/0000-0002-4510-4458",
+			"affiliation": "ETH Zurich"
+		},
+		{
+			"name": "Erich Markus Fischer",
+			"orcid": "https://orcid.org/0000-0003-1931-6737",
+			"affiliation": "ETH Zurich"
+		},
+		{
+			"name": "Chris Smith",
+			"orcid": "https://orcid.org/0000-0003-0599-4633",
+			"affiliation": "University of Leeds"
+		},
+		{
+			"name": "Flavio Lehner",
+			"orcid": "https://orcid.org/0000-0003-4632-9701",
+			"affiliation": "ETH Zurich"
+		},
+		{
+			"name": "Reto Knutti",
+			"orcid": "https://orcid.org/0000-0001-8303-6700",
+			"affiliation": "ETH Zurich"
+		}
+	],
+	"authorCount": 7,
+	"venue": "Science Advances",
+	"publisher": "American Association for the Advancement of Science",
+	"year": 2020,
+	"type": "article",
+	"abstract": "Future global warming estimates have been similar across past assessments, but several climate models of the latest Sixth Coupled Model Intercomparison Project (CMIP6) simulate much stronger warming, apparently inconsistent with past assessments. Here, we show that projected future warming is correlated with the simulated warming trend during recent decades across CMIP5 and CMIP6 models, enabling us to constrain future warming based on consistency with the observed warming. These findings carry important policy-relevant implications: The observationally constrained CMIP6 median warming in high emissions and ambitious mitigation scenarios is over 16 and 14% lower by 2050 compared to the raw CMIP6 median, respectively, and over 14 and 8% lower by 2090, relative to 1995-2014. Observationally constrained CMIP6 warming is consistent with previous assessments based on CMIP5 models, and in an ambitious mitigation scenario, the likely range is consistent with reaching the Paris Agreement target.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "gold",
+		"url": "https://doi.org/10.1126/sciadv.aaz9549"
+	},
+	"citedByCount": 765,
+	"themes": [
+		"modelisation"
+	],
+	"sourceTopics": [
+		"Climate variability and models",
+		"Climate Change Policy and Economics",
+		"Climate Change and Environmental Impact"
+	],
+	"url": "https://doi.org/10.1126/sciadv.aaz9549",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-11-15"
+	},
+	"addedAt": "2026-11-15",
+	"editorial": {},
+	"glossaryTerms": []
+}

@@ -1,0 +1,52 @@
+{
+	"id": "crona-2021-anthropocene-reality-financial-risk",
+	"doi": "10.1016/j.oneear.2021.04.016",
+	"title": "The Anthropocene reality of financial risk",
+	"authors": [
+		{
+			"name": "Beatrice Crona",
+			"orcid": "https://orcid.org/0000-0003-1617-4067",
+			"affiliation": "Royal Swedish Academy of Sciences"
+		},
+		{
+			"name": "Carl Folke",
+			"orcid": "https://orcid.org/0000-0002-4050-3281",
+			"affiliation": "Royal Swedish Academy of Sciences"
+		},
+		{
+			"name": "Victor Galaz",
+			"orcid": "https://orcid.org/0000-0002-7303-8849",
+			"affiliation": "Stockholm Resilience Centre"
+		}
+	],
+	"authorCount": 3,
+	"venue": "One Earth",
+	"publisher": "Elsevier BV",
+	"year": 2021,
+	"type": "article",
+	"abstract": "Globally, financial services are well positioned to contribute to the transformation needed for sustainable futures and will be critical for supporting corporate activities that regenerate and promote biosphere resilience as a key strategy to confront the new risk landscape of the Anthropocene. While current financial risk frameworks focus primarily on financial materiality and risks to the financial sector, failure to account for investment externalities will aggravate climate and other environmental change and set current sustainable finance initiatives off course. This article unpacks the cognitive disconnect in financial risk frameworks between environmental and financial risk. Through analysis of environmental, social, and governance ratings and estimates of global green investments, we exemplify how the cognitive disconnect around risk plays out in practice. We discuss what this means for the ability of society at large, and finance in particular, to deliver on sustainability ambitions and global goals.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "hybrid",
+		"url": "http://www.cell.com/article/S2590332221002359/pdf"
+	},
+	"citedByCount": 99,
+	"themes": [
+		"politiques",
+		"risques"
+	],
+	"sourceTopics": [
+		"Sustainable Finance and Green Bonds",
+		"Corporate Social Responsibility Reporting",
+		"Sustainable Development and Environmental Policy"
+	],
+	"url": "https://doi.org/10.1016/j.oneear.2021.04.016",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-11-15"
+	},
+	"addedAt": "2026-11-15",
+	"editorial": {},
+	"glossaryTerms": []
+}

@@ -1,0 +1,217 @@
+{
+	"id": "arctic-sea-ice-volume",
+	"title": {
+		"fr": "Volume de la banquise arctique en septembre",
+		"en": "Arctic sea ice volume in September"
+	},
+	"unit": "10³ km³",
+	"source": {
+		"label": "PIOMAS Arctic Sea Ice Volume Reanalysis",
+		"url": "http://psc.apl.uw.edu/research/projects/arctic-sea-ice-volume-anomaly/",
+		"publisher": "Polar Science Center, University of Washington",
+		"accessedAt": "2026-11-15"
+	},
+	"note": {
+		"fr": "Volume au minimum annuel, reconstruit par le modèle PIOMAS contraint par les observations de concentration et les mesures d'épaisseur disponibles. L'étendue ne renseigne que la surface : à couverture égale, une banquise amincie contient bien moins de glace, et le volume recule plus vite que l'étendue. C'est une reconstruction, non une mesure directe.",
+		"en": "Volume at the annual minimum, reconstructed by the PIOMAS model constrained by concentration observations and available thickness measurements. Extent reports surface only: at equal cover a thinned ice pack holds far less ice, and volume declines faster than extent. This is a reconstruction, not a direct measurement."
+	},
+	"series": [
+		{
+			"key": "volume",
+			"label": {
+				"fr": "Volume en septembre",
+				"en": "September volume"
+			}
+		}
+	],
+	"rows": [
+		{
+			"year": 1979,
+			"volume": 16.911
+		},
+		{
+			"year": 1980,
+			"volume": 16.316
+		},
+		{
+			"year": 1981,
+			"volume": 12.808
+		},
+		{
+			"year": 1982,
+			"volume": 13.508
+		},
+		{
+			"year": 1983,
+			"volume": 15.2
+		},
+		{
+			"year": 1984,
+			"volume": 14.635
+		},
+		{
+			"year": 1985,
+			"volume": 14.583
+		},
+		{
+			"year": 1986,
+			"volume": 16.076
+		},
+		{
+			"year": 1987,
+			"volume": 15.353
+		},
+		{
+			"year": 1988,
+			"volume": 14.987
+		},
+		{
+			"year": 1989,
+			"volume": 14.77
+		},
+		{
+			"year": 1990,
+			"volume": 13.815
+		},
+		{
+			"year": 1991,
+			"volume": 13.593
+		},
+		{
+			"year": 1992,
+			"volume": 15.078
+		},
+		{
+			"year": 1993,
+			"volume": 12.441
+		},
+		{
+			"year": 1994,
+			"volume": 13.855
+		},
+		{
+			"year": 1995,
+			"volume": 11.236
+		},
+		{
+			"year": 1996,
+			"volume": 13.949
+		},
+		{
+			"year": 1997,
+			"volume": 13.228
+		},
+		{
+			"year": 1998,
+			"volume": 11.626
+		},
+		{
+			"year": 1999,
+			"volume": 11.045
+		},
+		{
+			"year": 2000,
+			"volume": 11.084
+		},
+		{
+			"year": 2001,
+			"volume": 12.275
+		},
+		{
+			"year": 2002,
+			"volume": 10.846
+		},
+		{
+			"year": 2003,
+			"volume": 10.284
+		},
+		{
+			"year": 2004,
+			"volume": 10.037
+		},
+		{
+			"year": 2005,
+			"volume": 9.283
+		},
+		{
+			"year": 2006,
+			"volume": 9.113
+		},
+		{
+			"year": 2007,
+			"volume": 6.526
+		},
+		{
+			"year": 2008,
+			"volume": 7.25
+		},
+		{
+			"year": 2009,
+			"volume": 6.925
+		},
+		{
+			"year": 2010,
+			"volume": 4.742
+		},
+		{
+			"year": 2011,
+			"volume": 4.48
+		},
+		{
+			"year": 2012,
+			"volume": 3.787
+		},
+		{
+			"year": 2013,
+			"volume": 5.479
+		},
+		{
+			"year": 2014,
+			"volume": 6.974
+		},
+		{
+			"year": 2015,
+			"volume": 5.852
+		},
+		{
+			"year": 2016,
+			"volume": 4.53
+		},
+		{
+			"year": 2017,
+			"volume": 4.679
+		},
+		{
+			"year": 2018,
+			"volume": 5.081
+		},
+		{
+			"year": 2019,
+			"volume": 4.188
+		},
+		{
+			"year": 2020,
+			"volume": 4.158
+		},
+		{
+			"year": 2021,
+			"volume": 4.763
+		},
+		{
+			"year": 2022,
+			"volume": 5.215
+		},
+		{
+			"year": 2023,
+			"volume": 4.805
+		},
+		{
+			"year": 2024,
+			"volume": 4.188
+		},
+		{
+			"year": 2025,
+			"volume": 4.021
+		}
+	]
+}

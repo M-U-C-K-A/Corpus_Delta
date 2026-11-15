@@ -1,0 +1,57 @@
+{
+	"id": "berends-2021-cause-mid-pleistocene-transition",
+	"doi": "10.1029/2020RG000727",
+	"title": "On the Cause of the Mid‐Pleistocene Transition",
+	"authors": [
+		{
+			"name": "Constantijn J. Berends",
+			"orcid": "https://orcid.org/0000-0002-2961-0350",
+			"affiliation": "Utrecht University"
+		},
+		{
+			"name": "Peter Köhler",
+			"orcid": "https://orcid.org/0000-0003-0904-8484",
+			"affiliation": "Alfred-Wegener-Institut Helmholtz-Zentrum für Polar- und Meeresforschung"
+		},
+		{
+			"name": "Lucas Joost Lourens",
+			"orcid": "https://orcid.org/0000-0002-3815-7770",
+			"affiliation": "Utrecht University"
+		},
+		{
+			"name": "Roderik S. W. van de Wal",
+			"orcid": "https://orcid.org/0000-0003-2543-3892",
+			"affiliation": "Utrecht University"
+		}
+	],
+	"authorCount": 4,
+	"venue": "Reviews of Geophysics",
+	"publisher": "Wiley",
+	"year": 2021,
+	"type": "article",
+	"abstract": "Abstract The Mid‐Pleistocene Transition (MPT), where the Pleistocene glacial cycles changed from 41 to ∼100 kyr periodicity, is one of the most intriguing unsolved issues in the field of paleoclimatology. Over the course of over four decades of research, several different physical mechanisms have been proposed to explain the MPT, involving non‐linear feedbacks between ice sheets and the global climate, the solid Earth, ocean circulation, and the carbon cycle. Here, we review these different mechanisms, comparing how each of them relates to the others, and to the currently available observational evidence. Based on this discussion, we identify the most important gaps in our current understanding of the MPT. We discuss how new model experiments, which focus on the quantitative differences between the different physical mechanisms, could help fill these gaps. The results of those experiments could help interpret available proxy evidence, as well as new evidence that is expected to become available.",
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "hybrid",
+		"url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2020RG000727"
+	},
+	"citedByCount": 157,
+	"themes": [
+		"observation",
+		"modelisation"
+	],
+	"sourceTopics": [
+		"Geology and Paleoclimatology Research",
+		"Climate variability and models",
+		"Marine and environmental studies"
+	],
+	"url": "https://doi.org/10.1029/2020RG000727",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-11-15"
+	},
+	"addedAt": "2026-11-15",
+	"editorial": {},
+	"glossaryTerms": []
+}

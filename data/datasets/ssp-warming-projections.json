@@ -9,7 +9,7 @@
 		"label": "Interactive Atlas — CMIP6 aggregated regionally",
 		"url": "https://github.com/IPCC-WG1/Atlas",
 		"publisher": "IPCC WGI Interactive Atlas",
-		"accessedAt": "2026-08-20"
+		"accessedAt": "2026-11-15"
 	},
 	"note": {
 		"fr": "Médiane de 29 modèles CMIP6, en écart à la moyenne 1850-1900 de chaque modèle. Le même ensemble sert aux quatre scénarios. Il s'agit de la dispersion brute de CMIP6, et non des fourchettes évaluées par le GIEC, qui sont plus resserrées.",

@@ -1,0 +1,90 @@
+{
+	"id": "vorosmarty-2010-global-threats-human-water-security",
+	"doi": "10.1038/nature09440",
+	"title": "Global threats to human water security and river biodiversity",
+	"authors": [
+		{
+			"name": "Charles J. Vörösmarty",
+			"affiliation": "City College of New York"
+		},
+		{
+			"name": "Peter B. McIntyre",
+			"orcid": "https://orcid.org/0000-0003-1809-7552",
+			"affiliation": "University of Wisconsin–Madison"
+		},
+		{
+			"name": "Mark O. Gessner",
+			"orcid": "https://orcid.org/0000-0003-2516-7416",
+			"affiliation": "ETH Zurich"
+		},
+		{
+			"name": "David L. Dudgeon",
+			"orcid": "https://orcid.org/0000-0003-4632-3473",
+			"affiliation": "University of Hong Kong"
+		},
+		{
+			"name": "Alexander Prusevich",
+			"orcid": "https://orcid.org/0000-0002-9529-443X",
+			"affiliation": "University of New Hampshire"
+		},
+		{
+			"name": "Pamela Green",
+			"orcid": "https://orcid.org/0009-0006-7803-8182",
+			"affiliation": "City College of New York"
+		},
+		{
+			"name": "Stanley Glidden",
+			"orcid": "https://orcid.org/0000-0001-9366-8023",
+			"affiliation": "University of New Hampshire"
+		},
+		{
+			"name": "Stuart Edward Bunn",
+			"orcid": "https://orcid.org/0000-0002-6540-3586",
+			"affiliation": "Griffith University"
+		},
+		{
+			"name": "Caroline A Sullivan",
+			"orcid": "https://orcid.org/0000-0001-8486-0523",
+			"affiliation": "Southern Cross University"
+		},
+		{
+			"name": "Catherine Reidy Liermann",
+			"orcid": "https://orcid.org/0000-0001-6305-1073",
+			"affiliation": "University of Washington"
+		},
+		{
+			"name": "Peter M. Davies",
+			"affiliation": "The University of Western Australia"
+		}
+	],
+	"authorCount": 11,
+	"venue": "Nature",
+	"publisher": "Nature Portfolio",
+	"year": 2010,
+	"type": "article",
+	"abstract": null,
+	"language": "en",
+	"openAccess": {
+		"isOpen": true,
+		"status": "green",
+		"url": "https://researchportal.scu.edu.au/view/delivery/61SCU_INST/1266817910002368/1367369310002368"
+	},
+	"citedByCount": 7952,
+	"themes": [
+		"eau",
+		"biodiversite"
+	],
+	"sourceTopics": [
+		"Transboundary Water Resource Management",
+		"Environmental Science and Water Management",
+		"Water resources management and optimization"
+	],
+	"url": "https://doi.org/10.1038/nature09440",
+	"provenance": {
+		"source": "openalex",
+		"retrievedAt": "2026-11-15"
+	},
+	"addedAt": "2026-11-15",
+	"editorial": {},
+	"glossaryTerms": []
+}
