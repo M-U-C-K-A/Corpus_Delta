@@ -68,7 +68,7 @@ export default function PathPage({ params }: { params: { lang: string; slug: str
 			</div>
 
 			<div className="container relative py-10">
-				<nav aria-label="Fil d'Ariane" className="text-sm text-muted-foreground">
+				<nav aria-label={dict.common.breadcrumb} className="text-sm text-muted-foreground">
 					<Link href={route(lang, "paths")} className="hover:text-foreground">
 						{dict.paths.title}
 					</Link>

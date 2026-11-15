@@ -5,6 +5,7 @@ import type { DitherColor } from "@/lib/content/chart-colors";
 import type { DomainHeadline } from "@/lib/content/schemas";
 import { formatDate } from "@/lib/format";
 import { LOCALES, type Lang } from "@/lib/i18n/config";
+import { getDictionary } from "@/lib/i18n/dictionaries";
 import { cn } from "@/lib/utils";
 
 /**
@@ -56,10 +57,16 @@ function tailMean(points: readonly { value: number }[], count: number): number {
 function drift(spec: TileSpec, summary: SeriesSummary, lang: Lang) {
 	const { points, recentPerYear, perYear, min, max, dataset } = summary;
 	const unit = dataset.unit ?? "";
+	const labels = getDictionary(lang).charts;
+	// Une série sans unité ne doit pas laisser d'espace double avant le libellé.
+	const join = (...parts: string[]) => parts.filter(Boolean).join(" ");
 
 	if (spec.metric === "amplitude") {
 		const value = max.value - min.value;
-		return { value: 0, text: `${number(value, spec.decimals, lang)} ${unit} d’amplitude` };
+		return {
+			value: 0,
+			text: join(number(value, spec.decimals, lang), unit, labels.driftAmplitude),
+		};
 	}
 
 	// Comparer deux décennies demande d'en avoir deux : sous ce seuil, la
@@ -72,14 +79,14 @@ function drift(spec: TileSpec, summary: SeriesSummary, lang: Lang) {
 		const value = recent - previous;
 		return {
 			value,
-			text: `${signed(value, decimalsFor(value, spec.decimals), lang)} ${unit} vs décennie précédente`,
+			text: join(signed(value, decimalsFor(value, spec.decimals), lang), unit, labels.driftDecade),
 		};
 	}
 
 	const rate = recentPerYear ?? perYear;
 	return {
 		value: rate,
-		text: `${signed(rate, decimalsFor(rate, spec.decimals), lang)} ${unit} / an`,
+		text: join(signed(rate, decimalsFor(rate, spec.decimals), lang), unit, labels.driftPerYear),
 	};
 }
 

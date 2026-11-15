@@ -88,7 +88,7 @@ export default function DomainPage({ params }: { params: { lang: string; domain:
 				<DitherBand theme={accent} />
 				<div className="container relative py-12">
 					<nav
-						aria-label="Fil d'Ariane"
+						aria-label={dict.common.breadcrumb}
 						className="flex items-center gap-1.5 text-sm text-muted-foreground"
 					>
 						<Link href={route(lang, "indicators")} className="hover:text-foreground">

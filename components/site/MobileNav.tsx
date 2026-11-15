@@ -14,11 +14,13 @@ export function MobileNav({
 	items,
 	label,
 	title,
+	navLabel,
 }: {
 	lang: Lang;
 	items: NavItem[];
 	label: string;
 	title: string;
+	navLabel: string;
 }) {
 	const [open, setOpen] = useState(false);
 	const resolved = useNavItems(lang, items);
@@ -34,7 +36,7 @@ export function MobileNav({
 				<SheetHeader className="text-left">
 					<SheetTitle className="font-serif">{title}</SheetTitle>
 				</SheetHeader>
-				<nav className="mt-6 flex flex-col" aria-label="Navigation principale">
+				<nav className="mt-6 flex flex-col" aria-label={navLabel}>
 					{resolved.map((item) => (
 						<Link
 							key={item.section}

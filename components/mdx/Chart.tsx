@@ -2,6 +2,7 @@ import { ChartCanvas, type ChartKind } from "@/components/mdx/ChartCanvas";
 import { colorForTheme } from "@/lib/content/chart-colors";
 import { getDataset } from "@/lib/content/datasets";
 import { formatDate } from "@/lib/format";
+import { getDictionary, interpolate } from "@/lib/i18n/dictionaries";
 import type { ThemeId } from "@/lib/content/taxonomy";
 import type { Lang } from "@/lib/i18n/config";
 
@@ -51,6 +52,7 @@ export function Chart({
 			</figcaption>
 
 			<ChartCanvas
+				lang={lang}
 				kind={kind}
 				rows={dataset.rows}
 				series={series}
@@ -71,7 +73,11 @@ export function Chart({
 					{dataset.source.label}
 				</a>
 				{dataset.source.year ? ` (${dataset.source.year})` : ""}
-				{dataset.source.accessedAt ? ` · relevé le ${formatDate(dataset.source.accessedAt, lang)}` : ""}
+				{dataset.source.accessedAt
+					? ` · ${interpolate(getDictionary(lang).charts.accessedOn, {
+							date: formatDate(dataset.source.accessedAt, lang),
+						})}`
+					: ""}
 			</p>
 		</figure>
 	);

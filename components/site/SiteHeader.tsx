@@ -39,7 +39,7 @@ export function SiteHeader({ lang }: { lang: Lang }) {
 				</Link>
 
 				<div className="flex-1">
-					<MainNav lang={lang} items={items} />
+					<MainNav lang={lang} items={items} navLabel={dict.nav.mainNav} />
 				</div>
 
 				<div className="flex shrink-0 items-center gap-1">
@@ -72,7 +72,13 @@ export function SiteHeader({ lang }: { lang: Lang }) {
 							system: dict.common.systemTheme,
 						}}
 					/>
-					<MobileNav lang={lang} items={mobileItems} label={dict.nav.openMenu} title={siteConfig.name} />
+					<MobileNav
+						lang={lang}
+						items={mobileItems}
+						label={dict.nav.openMenu}
+						title={siteConfig.name}
+						navLabel={dict.nav.mainNav}
+					/>
 				</div>
 			</div>
 		</header>

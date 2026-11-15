@@ -1,5 +1,6 @@
 import { getDataset } from "@/lib/content/datasets";
 import { formatDate } from "@/lib/format";
+import { getDictionary, interpolate } from "@/lib/i18n/dictionaries";
 import type { Lang } from "@/lib/i18n/config";
 
 /**
@@ -72,7 +73,11 @@ export function DataTable({
 				>
 					{dataset.source.label}
 				</a>
-				{dataset.source.accessedAt ? ` · relevé le ${formatDate(dataset.source.accessedAt, lang)}` : ""}
+				{dataset.source.accessedAt
+					? ` · ${interpolate(getDictionary(lang).charts.accessedOn, {
+							date: formatDate(dataset.source.accessedAt, lang),
+						})}`
+					: ""}
 			</p>
 		</figure>
 	);

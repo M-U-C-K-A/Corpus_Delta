@@ -5,6 +5,7 @@ import { colorForTheme, type DitherColor } from "@/lib/content/chart-colors";
 import type { ThemeId } from "@/lib/content/taxonomy";
 import { formatDate } from "@/lib/format";
 import { LOCALES, type Lang } from "@/lib/i18n/config";
+import { getDictionary, interpolate } from "@/lib/i18n/dictionaries";
 
 /**
  * Moyennes par décennie, en volumes.
@@ -110,17 +111,22 @@ export function DecadeBars({
 			maximumFractionDigits: decimals,
 		}).format(value);
 
-	const title = dataset.title[lang] ?? dataset.title.fr;
+	const dict = getDictionary(lang);
+	const title = dataset.title[lang] ?? dataset.title.fr ?? datasetId;
 	const partial = bars.filter((bar) => bar.partial).map((bar) => bar.decade);
 
 	return (
 		<div className="not-prose my-10">
-			<p className="mb-3 font-serif text-base font-semibold">{title}, par décennie</p>
+			<p className="mb-3 font-serif text-base font-semibold">
+				{interpolate(dict.charts.decadeHeading, { title })}
+			</p>
 
 			<IsoFigure
-				title={`Moyennes par décennie de « ${title} », de ${bars[0].decade} à ${
-					bars[bars.length - 1].decade
-				}, représentées en volumes isométriques.`}
+				title={interpolate(dict.charts.decadeFigureTitle, {
+					title,
+					from: bars[0].decade,
+					to: bars[bars.length - 1].decade,
+				})}
 				viewBox={view.viewBox}
 				maxWidth={760}
 				className="my-0"
@@ -151,17 +157,21 @@ export function DecadeBars({
 			</IsoFigure>
 
 			<p className="mt-3 text-xs leading-relaxed text-muted-foreground">
-				Hauteurs proportionnelles à l&apos;écart au minimum de la période, soit{" "}
-				<span className="tabular">{number(floor)}</span> {dataset.unit} pour les années{" "}
-				<span className="tabular">{bars.find((bar) => bar.mean === floor)?.decade}</span>.
-				{partial.length > 0 && (
-					<>
-						{" "}
-						{partial.length > 1 ? "Les décennies" : "La décennie"}{" "}
-						<span className="tabular">{partial.join(", ")}</span>{" "}
-						{partial.length > 1 ? "comptent" : "compte"} moins de dix années de relevé.
-					</>
-				)}{" "}
+				{/*
+				  Phrases assemblées côté dictionnaire et non en fragments de JSX :
+				  l'ordre des mots et l'accord du pluriel diffèrent d'une langue à
+				  l'autre, et une phrase découpée en morceaux ne se traduit pas.
+				*/}
+				{interpolate(dict.charts.decadeFloor, {
+					value: number(floor),
+					unit: dataset.unit ?? "",
+					decade: bars.find((bar) => bar.mean === floor)?.decade ?? "",
+				})}
+				{partial.length > 0 &&
+					` ${interpolate(
+						partial.length > 1 ? dict.charts.decadePartialMany : dict.charts.decadePartialOne,
+						{ decades: partial.join(", ") }
+					)}`}{" "}
 				{dataset.source.publisher ? `${dataset.source.publisher} — ` : ""}
 				<a
 					href={dataset.source.url}
@@ -172,7 +182,9 @@ export function DecadeBars({
 					{dataset.source.label}
 				</a>
 				{dataset.source.accessedAt
-					? ` · relevé le ${formatDate(dataset.source.accessedAt, lang)}`
+					? ` · ${interpolate(dict.charts.accessedOn, {
+							date: formatDate(dataset.source.accessedAt, lang),
+						})}`
 					: ""}
 			</p>
 		</div>

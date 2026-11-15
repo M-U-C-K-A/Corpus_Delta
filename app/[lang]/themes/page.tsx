@@ -102,6 +102,7 @@ export default function ThemesPage({ params }: { params: { lang: string } }) {
 								glossary: summary.glossary,
 							}))}
 							labels={{ studies: dict.themes.studies, glossary: dict.themes.glossary }}
+							lang={lang}
 						/>
 					</div>
 				</section>

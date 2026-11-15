@@ -13,6 +13,7 @@ const fr = {
 		openMenu: "Ouvrir le menu",
 		closeMenu: "Fermer le menu",
 		skipToContent: "Aller au contenu",
+		mainNav: "Navigation principale",
 	},
 	common: {
 		search: "Rechercher",
@@ -48,6 +49,7 @@ const fr = {
 		language: "Langue",
 		copy: "Copier",
 		copied: "Copié",
+		breadcrumb: "Fil d'Ariane",
 	},
 	home: {
 		lead: "Un annuaire de publications scientifiques sur le climat et les risques naturels, et un glossaire pour en comprendre le vocabulaire.",
@@ -223,6 +225,24 @@ const fr = {
 		hintSelect: "ouvrir",
 		hintClose: "fermer",
 	},
+	/*
+	  Le libellé de provenance et la légende des barres par décennie étaient
+	  écrits en dur dans les composants : la date se localisait, la phrase qui
+	  l'introduisait restait française sur les pages anglaises.
+	*/
+	charts: {
+		accessedOn: "relevé le {date}",
+		decadeFloor:
+			"Hauteurs proportionnelles à l'écart au minimum de la période, soit {value} {unit} pour les années {decade}.",
+		decadePartialOne: "La décennie {decades} compte moins de dix années de relevé.",
+		decadePartialMany: "Les décennies {decades} comptent moins de dix années de relevé.",
+		decadeHeading: "{title}, par décennie",
+		decadeFigureTitle:
+			"Moyennes par décennie de « {title} », de {from} à {to}, représentées en volumes isométriques.",
+		driftPerYear: "/ an",
+		driftDecade: "vs décennie précédente",
+		driftAmplitude: "d'amplitude",
+	},
 	footer: {
 		browse: "Parcourir",
 		follow: "Suivre",
@@ -269,6 +289,7 @@ const en: Dictionary = {
 		openMenu: "Open menu",
 		closeMenu: "Close menu",
 		skipToContent: "Skip to content",
+		mainNav: "Main navigation",
 	},
 	common: {
 		search: "Search",
@@ -304,6 +325,7 @@ const en: Dictionary = {
 		language: "Language",
 		copy: "Copy",
 		copied: "Copied",
+		breadcrumb: "Breadcrumb",
 	},
 	home: {
 		lead: "A directory of peer-reviewed research on climate and natural hazards, with a glossary of the vocabulary that goes with it.",
@@ -478,6 +500,19 @@ const en: Dictionary = {
 		hintNavigate: "navigate",
 		hintSelect: "open",
 		hintClose: "close",
+	},
+	charts: {
+		accessedOn: "accessed {date}",
+		decadeFloor:
+			"Bar heights are proportional to the gap from the period's minimum, {value} {unit} for the {decade} decade.",
+		decadePartialOne: "The {decades} decade has fewer than ten years on record.",
+		decadePartialMany: "The {decades} decades have fewer than ten years on record.",
+		decadeHeading: "{title}, by decade",
+		decadeFigureTitle:
+			"Decade averages of “{title}”, from {from} to {to}, drawn as isometric volumes.",
+		driftPerYear: "/ yr",
+		driftDecade: "vs previous decade",
+		driftAmplitude: "range",
 	},
 	footer: {
 		browse: "Browse",

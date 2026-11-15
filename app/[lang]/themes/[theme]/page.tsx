@@ -74,7 +74,7 @@ export default function ThemePage({ params }: { params: { lang: string; theme: s
 			</div>
 
 			<div className="container relative py-10">
-				<nav aria-label="Fil d'Ariane" className="text-sm text-muted-foreground">
+				<nav aria-label={dict.common.breadcrumb} className="text-sm text-muted-foreground">
 					<Link href={route(lang, "themes")} className="hover:text-foreground">
 						{dict.themes.title}
 					</Link>

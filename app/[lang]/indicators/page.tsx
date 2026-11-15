@@ -219,6 +219,7 @@ export default function IndicatorsPage({ params }: { params: { lang: string } })
 
 							<div className="mt-5 rounded-xl border border-border bg-card p-4 sm:p-6">
 								<ChartCanvas
+									lang={lang}
 									kind={config.kind}
 									rows={dataset.rows}
 									series={dataset.series.map((item) => ({
@@ -262,6 +263,7 @@ export default function IndicatorsPage({ params }: { params: { lang: string } })
 
 						<div className="mt-5 rounded-xl border border-border bg-card p-4 sm:p-6">
 							<ChartCanvas
+								lang={lang}
 								kind="line"
 								rows={projections.rows}
 								series={projections.series.map((item) => ({

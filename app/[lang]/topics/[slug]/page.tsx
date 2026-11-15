@@ -62,7 +62,7 @@ export default function TopicPage({ params }: { params: { lang: string; slug: st
 
 	return (
 		<div className="container py-10">
-			<nav aria-label="Fil d'Ariane" className="flex items-center gap-1.5 text-sm text-muted-foreground">
+			<nav aria-label={dict.common.breadcrumb} className="flex items-center gap-1.5 text-sm text-muted-foreground">
 				<Link href={route(lang, "topics")} className="hover:text-foreground">
 					{dict.topics.title}
 				</Link>

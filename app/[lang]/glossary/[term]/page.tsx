@@ -94,7 +94,7 @@ export default function GlossaryTermPage({ params }: { params: { lang: string; t
 		<div className="container py-10">
 			<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
-			<nav aria-label="Fil d'Ariane" className="flex items-center gap-1.5 text-sm text-muted-foreground">
+			<nav aria-label={dict.common.breadcrumb} className="flex items-center gap-1.5 text-sm text-muted-foreground">
 				<Link href={route(lang, "glossary")} className="hover:text-foreground">
 					{dict.glossary.title}
 				</Link>

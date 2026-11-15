@@ -10,6 +10,7 @@ import { Tooltip } from "@/components/dither-kit/tooltip";
 import { XAxis } from "@/components/dither-kit/x-axis";
 import { YAxis } from "@/components/dither-kit/y-axis";
 import { SERIES_COLORS, type DitherColor } from "@/lib/content/chart-colors";
+import { LOCALES, type Lang } from "@/lib/i18n/config";
 
 export type ChartKind = "line" | "area" | "bar";
 
@@ -34,6 +35,7 @@ export function ChartCanvas({
 	height = 300,
 	color,
 	decimals = 2,
+	lang,
 }: {
 	kind: ChartKind;
 	rows: Record<string, number | string | null>[];
@@ -43,6 +45,12 @@ export function ChartCanvas({
 	height?: number;
 	color?: DitherColor;
 	decimals?: number;
+	/*
+	  L'infobulle formatait ses valeurs en `fr-FR` quelle que soit la page : sur
+	  la version anglaise, les milliers étaient séparés par une espace et les
+	  décimales par une virgule. La langue est donc passée explicitement.
+	*/
+	lang: Lang;
 }) {
 	const config = Object.fromEntries(
 		series.map((item, index) => [
@@ -57,7 +65,7 @@ export function ChartCanvas({
 	const formatValue = (value: number) =>
 		// Même nombre de décimales pour toute la série : dans une infobulle qui
 		// compare quatre scénarios, « 2,7 » aligné sous « 1,96 » se lit mal.
-		`${new Intl.NumberFormat("fr-FR", {
+		`${new Intl.NumberFormat(LOCALES[lang], {
 			minimumFractionDigits: decimals,
 			maximumFractionDigits: decimals,
 		}).format(value)}${unit ? ` ${unit}` : ""}`;

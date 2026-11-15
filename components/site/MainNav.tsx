@@ -20,11 +20,19 @@ export function useNavItems(lang: Lang, items: NavItem[]) {
 	});
 }
 
-export function MainNav({ lang, items }: { lang: Lang; items: NavItem[] }) {
+export function MainNav({
+	lang,
+	items,
+	navLabel,
+}: {
+	lang: Lang;
+	items: NavItem[];
+	navLabel: string;
+}) {
 	const resolved = useNavItems(lang, items);
 
 	return (
-		<nav aria-label="Navigation principale" className="hidden items-center gap-1 md:flex">
+		<nav aria-label={navLabel} className="hidden items-center gap-1 md:flex">
 			{resolved.map((item) => (
 				<Link
 					key={item.section}

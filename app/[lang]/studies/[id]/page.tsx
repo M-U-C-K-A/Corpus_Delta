@@ -143,7 +143,7 @@ export default function StudyPage({ params }: { params: { lang: string; id: stri
 				dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
 			/>
 
-			<nav aria-label="Fil d'Ariane" className="flex items-center gap-1.5 text-sm text-muted-foreground">
+			<nav aria-label={dict.common.breadcrumb} className="flex items-center gap-1.5 text-sm text-muted-foreground">
 				<Link href={route(lang, "studies")} className="hover:text-foreground">
 					{dict.studies.title}
 				</Link>

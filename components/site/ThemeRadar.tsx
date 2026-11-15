@@ -4,6 +4,7 @@ import { RadarChart } from "@/components/dither-kit/radar-chart";
 import { Radar } from "@/components/dither-kit/radar";
 import { Legend } from "@/components/dither-kit/legend";
 import { Tooltip } from "@/components/dither-kit/tooltip";
+import { LOCALES, type Lang } from "@/lib/i18n/config";
 
 export interface ThemeRadarRow {
 	axis: string;
@@ -21,10 +22,18 @@ export interface ThemeRadarRow {
 export function ThemeRadar({
 	rows,
 	labels,
+	lang,
 }: {
 	rows: ThemeRadarRow[];
 	labels: { studies: string; glossary: string };
+	lang: Lang;
 }) {
+	/*
+	  Sans formateur, l'infobulle de dither-kit retombe sur `toLocaleString()`
+	  sans argument, qui suit la locale du navigateur et non celle de la page.
+	*/
+	const format = new Intl.NumberFormat(LOCALES[lang]);
+
 	return (
 		<div className="not-prose h-[26rem] w-full">
 			<RadarChart
@@ -38,7 +47,7 @@ export function ThemeRadar({
 				<Radar dataKey="studies" />
 				<Radar dataKey="glossary" />
 				<Legend />
-				<Tooltip labelKey="axis" />
+				<Tooltip labelKey="axis" valueFormatter={(value) => format.format(value)} />
 			</RadarChart>
 		</div>
 	);
