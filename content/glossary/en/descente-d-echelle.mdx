@@ -1,0 +1,31 @@
+---
+term: "Downscaling"
+shortDefinition: "Moving from a global model output to a regional resolution usable locally."
+themes: ["modelisation"]
+synonyms: ["Regionalisation"]
+related: ["modele-climatique", "cmip", "scenario-ssp", "reanalyse"]
+sources:
+  - label: "IPCC AR6 WGI, Annex VII: Glossary"
+    url: "https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_AnnexVII.pdf"
+    publisher: "IPCC"
+    year: 2021
+studies: ["deser-2020-insights-earth-system-model-initial", "tokarska-2020-past-warming-trend-constrains-future"]
+updatedAt: "2026-11-15"
+---
+
+## From the global grid to the valley
+
+A <Term id="modele-climatique">global model</Term> cuts the planet into cells about a
+hundred kilometres across. At that resolution a mountain range becomes a bump, a coastline a stair
+step, and a city does not exist. For a question posed at the scale of a catchment or a conurbation,
+the raw output is unusable.
+
+Two routes exist. **Dynamical** downscaling runs a fine-grid regional model, taking global outputs
+as boundary conditions: the physics is solved, the computing cost is high. **Statistical**
+downscaling establishes a relationship between large scale and local observations over the past,
+then applies it to the future: it is cheap, but assumes that relationship still holds in a different
+climate.
+
+Neither adds information absent from the global model. They redistribute what it contains onto a
+finer grid. A highly detailed local projection therefore inherits in full the uncertainty of the
+global simulation behind it — spatial detail is not precision.

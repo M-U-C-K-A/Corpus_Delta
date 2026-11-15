@@ -1,0 +1,31 @@
+---
+term: "Descente d'échelle"
+shortDefinition: "Passage d'une sortie de modèle global à une résolution régionale exploitable localement."
+themes: ["modelisation"]
+synonyms: ["Régionalisation", "Downscaling"]
+related: ["modele-climatique", "cmip", "scenario-ssp", "reanalyse"]
+sources:
+  - label: "IPCC AR6 WGI, Annex VII: Glossary"
+    url: "https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_AnnexVII.pdf"
+    publisher: "GIEC"
+    year: 2021
+studies: ["deser-2020-insights-earth-system-model-initial", "tokarska-2020-past-warming-trend-constrains-future"]
+updatedAt: "2026-11-15"
+---
+
+## Du maillage global à la vallée
+
+Un <Term id="modele-climatique">modèle global</Term> découpe la planète en mailles d'une
+centaine de kilomètres de côté. À cette résolution, une chaîne de montagnes devient une bosse, un
+littoral une marche d'escalier, et une ville n'existe pas. Pour une question posée à l'échelle d'un
+bassin-versant ou d'une agglomération, la sortie brute n'est pas utilisable.
+
+Deux voies existent. La descente **dynamique** fait tourner un modèle régional à maille fine, en
+prenant les sorties du modèle global comme conditions aux limites : la physique est résolue, le coût
+de calcul est élevé. La descente **statistique** établit sur le passé une relation entre grande
+échelle et observations locales, puis l'applique au futur : elle est peu coûteuse, mais suppose que
+cette relation reste valable dans un climat différent.
+
+Aucune des deux n'ajoute d'information absente du modèle global. Elles redistribuent ce qu'il
+contient sur une grille plus fine. Une projection locale très détaillée hérite donc entièrement de
+l'incertitude de la simulation globale dont elle vient — un détail spatial n'est pas une précision.
