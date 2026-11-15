@@ -31,6 +31,20 @@ export const siteConfig = {
 	url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://corpus-delta.vercel.app",
 	repository: "https://github.com/M-U-C-K-A/Corpus_Delta",
 	/**
+	 * Preuve de propriété pour Google Search Console.
+	 *
+	 * Ce jeton n'est pas un secret : il est servi dans une balise meta sur
+	 * chaque page du site, donc visible de quiconque affiche la source. Le
+	 * publier ici ne révèle rien qui ne le soit déjà, et il suffit de le
+	 * posséder pour vérifier — encore faut-il posséder le domaine.
+	 *
+	 * Un autre déploiement que celui-ci — un domaine propre, une duplication
+	 * du dépôt — doit utiliser le sien : définir
+	 * NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION dans ses variables d'environnement
+	 * remplace cette valeur sans toucher au code.
+	 */
+	googleSiteVerification: "99EymaLcDVfxlS7f6nr_hdLmf1B-Jhaq-MOHPcElQ_o",
+	/**
 	 * Adresse transmise aux API bibliographiques (OpenAlex, Crossref) pour accéder
 	 * à leur « polite pool ». Ces API demandent un contact technique joignable.
 	 */

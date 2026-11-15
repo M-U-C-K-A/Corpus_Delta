@@ -204,10 +204,13 @@ deux démarches à faire une fois, hors du dépôt :
 2. **Bing Webmaster Tools** — même démarche. L'outil importe une propriété Search Console
    existante, ce qui évite de tout refaire.
 
-La preuve de propriété par balise meta se fait sans toucher au code : définir
-`NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION` dans les variables d'environnement du déploiement
-avec le jeton fourni par Search Console, et redéployer. Le jeton n'a donc pas à figurer
-dans un dépôt public.
+La preuve de propriété par balise meta est en place : le jeton de ce déploiement est
+déclaré dans `lib/site-config.ts`. Ce n'est pas un secret — il est servi dans le HTML de
+chaque page, donc visible de quiconque affiche la source, et le posséder ne sert à rien
+sans posséder aussi le domaine. Un autre déploiement — un domaine propre, une duplication
+du dépôt — doit en revanche utiliser le sien : définir
+`NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION` dans les variables d'environnement remplace la
+valeur du dépôt sans toucher au code.
 
 Dernier point, qui n'est pas technique : un sous-domaine en `.vercel.app` part de zéro.
 `vercel.app` figure sur la *Public Suffix List*, ce qui veut dire que chaque sous-domaine

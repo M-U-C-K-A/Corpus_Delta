@@ -36,6 +36,10 @@ export function generateStaticParams() {
 	return LANGS.map((lang) => ({ lang }));
 }
 
+/** La variable d'environnement l'emporte : voir `siteConfig.googleSiteVerification`. */
+const googleVerification =
+	process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION ?? siteConfig.googleSiteVerification;
+
 export async function generateMetadata({
 	params,
 }: {
@@ -63,13 +67,10 @@ export async function generateMetadata({
 		},
 		/*
 		  Google Search Console propose plusieurs preuves de propriété ; la balise
-		  meta est la seule qui n'exige pas d'accès au DNS. Le jeton arrive par
-		  variable d'environnement pour ne pas figurer dans un dépôt public : le
-		  définir dans le projet Vercel suffit, sans toucher au code.
+		  meta est la seule qui n'exige pas d'accès au DNS. La valeur du dépôt sert
+		  ce déploiement-ci ; un autre la remplace par variable d'environnement.
 		*/
-		verification: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION
-			? { google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION }
-			: undefined,
+		verification: { google: googleVerification },
 		openGraph: {
 			type: "website",
 			locale: lang === "fr" ? "fr_FR" : "en_GB",
