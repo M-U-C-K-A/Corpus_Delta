@@ -89,6 +89,13 @@ NOAA et NASA sont de simples fichiers tabulaires ; les projections par scénario
 une agrégation, isolée dans `scripts/lib/cmip6.ts`, qui télécharge 145 fichiers et prend
 quelques minutes.
 
+Certaines séries vont par paires, et c'est délibéré : prise seule, chacune se lit de
+travers. Les terres émergées et la surface de l'océan figurent sur le même graphique parce
+que les premières se réchauffent environ deux fois plus vite, ce qu'un chiffre global
+masque. L'étendue et le volume de la banquise arctique coexistent parce que l'étendue ne
+dit rien de l'épaisseur : depuis 1979 le volume a perdu les trois quarts, l'étendue moins
+de la moitié. Une série dont la lecture appelle une seconde série est publiée avec elle.
+
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="docs/hairline/casier-dark.svg">
