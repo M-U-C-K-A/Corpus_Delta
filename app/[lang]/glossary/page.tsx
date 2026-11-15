@@ -34,6 +34,7 @@ export default function GlossaryPage({ params }: { params: { lang: string } }) {
 		term: entry.frontmatter.term,
 		shortDefinition: entry.frontmatter.shortDefinition,
 		synonyms: entry.frontmatter.synonyms,
+		themes: entry.frontmatter.themes,
 		initial: entry.frontmatter.term
 			.normalize("NFD")
 			.replace(/[̀-ͯ]/g, "")
@@ -58,6 +59,9 @@ export default function GlossaryPage({ params }: { params: { lang: string } }) {
 						search: dict.common.search,
 						placeholder: dict.glossary.searchPlaceholder,
 						empty: dict.glossary.empty,
+						reset: dict.common.reset,
+						results: dict.common.results,
+						resultsPlural: dict.common.resultsPlural,
 					}}
 				/>
 			</div>
