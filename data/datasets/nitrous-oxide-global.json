@@ -4,7 +4,10 @@
 		"fr": "Concentration atmosphérique de protoxyde d'azote",
 		"en": "Atmospheric nitrous oxide concentration"
 	},
-	"unit": "ppb",
+	"unit": {
+		"fr": "ppb",
+		"en": "ppb"
+	},
 	"source": {
 		"label": "Trends in Atmospheric Nitrous Oxide",
 		"url": "https://gml.noaa.gov/ccgg/trends_n2o/",

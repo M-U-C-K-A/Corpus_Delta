@@ -4,7 +4,10 @@
 		"fr": "Réchauffement projeté selon les scénarios SSP",
 		"en": "Projected warming by SSP scenario"
 	},
-	"unit": "°C",
+	"unit": {
+		"fr": "°C",
+		"en": "°C"
+	},
 	"source": {
 		"label": "Interactive Atlas — CMIP6 aggregated regionally",
 		"url": "https://github.com/IPCC-WG1/Atlas",

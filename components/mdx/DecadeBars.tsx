@@ -1,6 +1,7 @@
 import { boundsOf, frame, plate, project } from "@/lib/iso";
 import { Block, IsoFigure, type Tone } from "@/components/iso/Figure";
 import { byDecade, readSeries } from "@/lib/content/series";
+import { unitFor } from "@/lib/content/datasets";
 import { colorForTheme, type DitherColor } from "@/lib/content/chart-colors";
 import type { ThemeId } from "@/lib/content/taxonomy";
 import { formatDate } from "@/lib/format";
@@ -164,7 +165,7 @@ export function DecadeBars({
 				*/}
 				{interpolate(dict.charts.decadeFloor, {
 					value: number(floor),
-					unit: dataset.unit ?? "",
+					unit: unitFor(dataset, lang),
 					decade: bars.find((bar) => bar.mean === floor)?.decade ?? "",
 				})}
 				{partial.length > 0 &&

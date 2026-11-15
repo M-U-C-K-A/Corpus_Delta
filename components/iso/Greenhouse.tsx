@@ -1,5 +1,6 @@
 import { arc, boundsOf, frame, heading, path, plate, project } from "@/lib/iso";
 import { Block, Head, IsoFigure, Runner, Tag, toneVars } from "@/components/iso/Figure";
+import type { Lang } from "@/lib/i18n/config";
 
 /**
  * L'effet de serre, en deux dalles et cinq trajets.
@@ -14,6 +15,45 @@ import { Block, Head, IsoFigure, Runner, Tag, toneVars } from "@/components/iso/
  * projetée, et deux dalles plus rapprochées que cela se recouvriraient en
  * plein milieu, là où se trouvent les libellés.
  */
+
+/*
+  Les libellés d'une figure sont du contenu, pas de l'habillage : ils sont
+  dessinés dans l'image et ne passent donc pas par le dictionnaire, qui sert
+  l'interface. Chaque figure porte sa propre table, au plus près du dessin
+  qu'elle légende.
+*/
+const COPY = {
+	fr: {
+		title:
+			"Schéma de l'effet de serre : le rayonnement solaire traverse l'atmosphère et chauffe la surface, qui réémet un rayonnement infrarouge que les gaz à effet de serre renvoient vers le bas.",
+		caption: "Ce que la couche laisse passer, et ce qu'elle renvoie.",
+		description:
+			"Les mobiles orange sont du rayonnement visible, les rouges de l'infrarouge. Toute la dissymétrie tient là : l'atmosphère est transparente aux premiers et opaque aux seconds.",
+		surface: "SURFACE",
+		surfaceSub: "sol · océan",
+		air: "ATMOSPHÈRE",
+		visible: "visible",
+		infrared: "infrarouge",
+		reemitted: "réémis",
+		escape: "fuite",
+		reflected: "réfléchi",
+	},
+	en: {
+		title:
+			"Diagram of the greenhouse effect: sunlight passes through the atmosphere and warms the surface, which re-emits infrared radiation that greenhouse gases send back down.",
+		caption: "What the layer lets through, and what it sends back.",
+		description:
+			"The orange runners are visible light, the red ones infrared. The whole asymmetry sits there: the atmosphere is transparent to the first and opaque to the second.",
+		surface: "SURFACE",
+		surfaceSub: "land · ocean",
+		air: "ATMOSPHERE",
+		visible: "visible",
+		infrared: "infrared",
+		reemitted: "re-emitted",
+		escape: "escape",
+		reflected: "reflected",
+	},
+} satisfies Record<Lang, Record<string, string>>;
 
 const W = 165;
 const D = 70;
@@ -56,16 +96,18 @@ const VIEW = frame(
 	14
 );
 
-export function GreenhouseFigure() {
+export function GreenhouseFigure({ lang }: { lang: Lang }) {
+	const t = COPY[lang];
+
 	return (
 		<IsoFigure
-			title="Schéma de l'effet de serre : le rayonnement solaire traverse l'atmosphère et chauffe la surface, qui réémet un rayonnement infrarouge que les gaz à effet de serre renvoient vers le bas."
-			caption="Ce que la couche laisse passer, et ce qu'elle renvoie."
-			description="Les mobiles orange sont du rayonnement visible, les rouges de l'infrarouge. Toute la dissymétrie tient là : l'atmosphère est transparente aux premiers et opaque aux seconds."
+			title={t.title}
+			caption={t.caption}
+			description={t.description}
 			viewBox={VIEW.viewBox}
 			maxWidth={620}
 		>
-			<Block slab={SURFACE} tone="orange" label="SURFACE" sub="sol · océan" labelDy={4} />
+			<Block slab={SURFACE} tone="orange" label={t.surface} sub={t.surfaceSub} labelDy={4} />
 
 			{/* Les deux colonnes infrarouges : ce qui monte, ce qui revient. */}
 			<g style={toneVars("red")}>
@@ -77,7 +119,7 @@ export function GreenhouseFigure() {
 			<Head at={backTo} angle={heading(backFrom, backTo)} tone="red" />
 
 			{/* Translucide : on doit voir ce qui la traverse, c'est tout le propos. */}
-			<Block slab={AIR} tone="cyan" label="ATMOSPHÈRE" sub="CO₂ · CH₄ · N₂O" labelDy={4} glass />
+			<Block slab={AIR} tone="cyan" label={t.air} sub="CO₂ · CH₄ · N₂O" labelDy={4} glass />
 
 			<g style={toneVars("red")}>
 				<path d={ESCAPE} className="wire" />
@@ -108,19 +150,19 @@ export function GreenhouseFigure() {
 			<Runner d={ALBEDO} tone="slate" count={1} duration={6} radius={1.5} />
 
 			<Tag x={sun[0] + 34} y={sun[1] + 46} tone="amber">
-				visible
+				{t.visible}
 			</Tag>
 			<Tag x={riseFrom[0]} y={(riseFrom[1] + riseTo[1]) / 2} tone="red">
-				infrarouge
+				{t.infrared}
 			</Tag>
 			<Tag x={backFrom[0]} y={(backFrom[1] + backTo[1]) / 2} tone="red">
-				réémis
+				{t.reemitted}
 			</Tag>
 			<Tag x={escapeTo[0] - 10} y={escapeTo[1] + 12} tone="red">
-				fuite
+				{t.escape}
 			</Tag>
 			<Tag x={albedoTo[0] + 12} y={albedoTo[1] + 14} tone="slate">
-				réfléchi
+				{t.reflected}
 			</Tag>
 		</IsoFigure>
 	);

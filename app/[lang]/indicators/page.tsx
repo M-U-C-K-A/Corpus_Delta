@@ -6,7 +6,7 @@ import { ChartCanvas, type ChartKind } from "@/components/mdx/ChartCanvas";
 import type { DitherColor } from "@/lib/content/chart-colors";
 import { DitherBand, DitherSurface } from "@/components/site/Dither";
 import { getDomains } from "@/lib/content/domains";
-import { getDataset } from "@/lib/content/datasets";
+import { getDataset, unitFor } from "@/lib/content/datasets";
 import type { ThemeId } from "@/lib/content/taxonomy";
 import { route } from "@/lib/routes";
 import { getDictionary } from "@/lib/i18n/dictionaries";
@@ -117,14 +117,14 @@ export default function IndicatorsPage({ params }: { params: { lang: string } })
 								<span className="font-serif text-3xl font-semibold tabular">
 									{stats.last.value.toFixed(config.decimals)}
 								</span>
-								<span className="ml-1.5 text-sm text-muted-foreground">{dataset.unit}</span>
+								<span className="ml-1.5 text-sm text-muted-foreground">{unitFor(dataset, lang)}</span>
 								<span className="mt-1 block text-xs text-muted-foreground tabular">
 									{stats.last.year}
 								</span>
 								<span className="mt-2.5 inline-flex items-center gap-1 text-xs text-muted-foreground">
 									<TrendingUp className="h-3 w-3" aria-hidden="true" />
 									{stats.change > 0 ? "+" : ""}
-									{stats.change.toFixed(config.decimals)} {dataset.unit}{" "}
+									{stats.change.toFixed(config.decimals)} {unitFor(dataset, lang)}{" "}
 									<span className="tabular">
 										({stats.first.year}–{stats.last.year})
 									</span>
@@ -227,7 +227,7 @@ export default function IndicatorsPage({ params }: { params: { lang: string } })
 										label: item.label[lang] ?? item.label.fr ?? item.key,
 									}))}
 									xKey="year"
-									unit={dataset.unit}
+									unit={unitFor(dataset, lang)}
 									height={280}
 									color={config.color}
 									decimals={config.decimals}
@@ -271,7 +271,7 @@ export default function IndicatorsPage({ params }: { params: { lang: string } })
 									label: item.label[lang] ?? item.label.fr ?? item.key,
 								}))}
 								xKey="year"
-								unit={projections.unit}
+								unit={unitFor(projections, lang)}
 								height={320}
 								decimals={2}
 							/>

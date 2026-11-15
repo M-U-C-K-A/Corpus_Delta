@@ -4,7 +4,10 @@
 		"fr": "Couverture neigeuse de l'hémisphère nord en mars",
 		"en": "Northern hemisphere snow cover in March"
 	},
-	"unit": "10⁶ km²",
+	"unit": {
+		"fr": "10⁶ km²",
+		"en": "10⁶ km²"
+	},
 	"source": {
 		"label": "Rutgers Northern Hemisphere Snow Cover Extent",
 		"url": "https://climate.rutgers.edu/snowcover/",

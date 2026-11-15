@@ -4,7 +4,10 @@
 		"fr": "Niveau marin moyen global",
 		"en": "Global mean sea level"
 	},
-	"unit": "mm",
+	"unit": {
+		"fr": "mm",
+		"en": "mm"
+	},
 	"source": {
 		"label": "Global Mean Sea Level — Laboratory for Satellite Altimetry",
 		"url": "https://www.star.nesdis.noaa.gov/socd/lsa/SeaLevelRise/",

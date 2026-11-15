@@ -4,7 +4,10 @@
 		"fr": "Contenu thermique de l'océan mondial",
 		"en": "Global ocean heat content"
 	},
-	"unit": "10²² J",
+	"unit": {
+		"fr": "10²² J",
+		"en": "10²² J"
+	},
 	"source": {
 		"label": "Global Ocean Heat and Salt Content",
 		"url": "https://www.ncei.noaa.gov/access/global-ocean-heat-content/",

@@ -4,7 +4,10 @@
 		"fr": "Concentration atmosphérique de CO₂ à Mauna Loa",
 		"en": "Atmospheric CO₂ concentration at Mauna Loa"
 	},
-	"unit": "ppm",
+	"unit": {
+		"fr": "ppm",
+		"en": "ppm"
+	},
 	"source": {
 		"label": "Trends in Atmospheric Carbon Dioxide",
 		"url": "https://gml.noaa.gov/ccgg/trends/",

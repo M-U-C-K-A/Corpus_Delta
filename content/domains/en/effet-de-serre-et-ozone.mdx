@@ -1,0 +1,171 @@
+---
+title: "Greenhouse effect and the ozone layer"
+description: "Two atmospheric problems that everyone confuses: the gases that trap infrared near the ground, and the halogens that destroy ozone thirty kilometres up. Distinct mechanisms, distinct altitudes, and very different outcomes."
+tagline: "Two atmospheric problems, two mechanisms, and only one of them is being solved."
+themes: ["carbone", "observation", "politiques"]
+headline:
+  - dataset: "co2-mauna-loa"
+    decimals: 2
+    drift: "hausse-defavorable"
+  - dataset: "methane-global"
+    decimals: 1
+    drift: "hausse-defavorable"
+  - dataset: "greenhouse-forcing-aggi"
+    decimals: 3
+    drift: "hausse-defavorable"
+  - dataset: "ozone-depleting-gas-index"
+    series: "antarctic"
+    decimals: 1
+    drift: "hausse-defavorable"
+studies:
+  - "friedlingstein-2026-global-carbon-budget-2025"
+  - "saunois-2025-global-methane-budget-2000-2020"
+  - "rae-2021-atmospheric-over-past-million-years"
+  - "shindell-2012-simultaneously-mitigating-near-term-climate"
+  - "forster-2026-indicators-global-climate-change-2025"
+  - "kirschke-2013-three-decades-global-methane-sources"
+glossary:
+  - "effet-de-serre"
+  - "gaz-a-effet-de-serre"
+  - "forcage-radiatif"
+  - "bilan-radiatif"
+  - "equivalent-co2"
+  - "potentiel-de-rechauffement-global"
+  - "courbe-de-keeling"
+  - "cycle-du-carbone"
+sources:
+  - label: "Trends in Atmospheric Carbon Dioxide"
+    url: "https://gml.noaa.gov/ccgg/trends/"
+    publisher: "NOAA Global Monitoring Laboratory"
+  - label: "The NOAA Annual Greenhouse Gas Index"
+    url: "https://gml.noaa.gov/aggi/aggi.html"
+    publisher: "NOAA Global Monitoring Laboratory"
+  - label: "The NOAA Ozone Depleting Gas Index"
+    url: "https://gml.noaa.gov/odgi/"
+    publisher: "NOAA Global Monitoring Laboratory"
+  - label: "Scientific Assessment of Ozone Depletion"
+    url: "https://csl.noaa.gov/assessments/ozone/"
+    publisher: "World Meteorological Organization"
+order: 20
+updatedAt: "2026-11-15"
+---
+
+These are two different subjects, and confusing them prevents understanding either. The
+greenhouse effect plays out in the first ten kilometres of the atmosphere and concerns the
+infrared radiation the Earth emits. The ozone hole plays out around thirty kilometres up
+and concerns the ultraviolet the Sun sends. The gases involved are not the same, the
+molecules do not do the same thing, and only one of the two problems is on its way to
+being solved.
+
+## What a greenhouse gas actually does
+
+<Mechanism name="effet-de-serre" />
+
+The atmosphere is not a blanket. A blanket slows convection; a
+<Term id="gaz-a-effet-de-serre">greenhouse gas</Term> does something else entirely, and the
+mechanism comes in three steps.
+
+Sunlight is essentially visible and near-infrared radiation. Nitrogen and oxygen
+molecules, which make up 99 % of the air, are transparent to it: the light reaches the
+ground almost unobstructed. The ground warms and re-emits, but at a completely different
+wavelength — thermal infrared, because a body at 15 °C radiates around 10 micrometres.
+
+And there, the atmosphere stops being transparent. Molecules with three atoms or more —
+CO₂, H₂O, CH₄, N₂O — have vibration modes whose frequencies fall precisely in that range.
+They absorb this radiation, then re-emit it in every direction. Half goes back down.
+
+<Callout variant="info" title="Why nitrogen and oxygen take no part">
+A molecule absorbs an infrared photon only if its vibration changes its dipole moment. N₂
+and O₂, made of two identical atoms, stay perfectly symmetrical whatever their vibrations:
+their dipole moment remains zero, and they are blind to infrared. It is for this reason of
+pure molecular geometry that 1 % of the atmosphere governs the temperature of the other
+99 %.
+</Callout>
+
+## The most solid series in the discipline
+
+CO₂ concentration requires no reconstruction: it is measured directly, far from local
+sources. The Mauna Loa series, begun in 1958, is the longest continuous measurement of the
+atmosphere and the anchor point for everything else.
+
+<Chart dataset="co2-mauna-loa" kind="area" theme="carbone" />
+
+What the annual curve does not show is that the acceleration is itself under way: it is
+not only the concentration that is rising, it is the speed at which it rises.
+
+<DecadeBars dataset="co2-growth-rate" from={1960} theme="carbone" />
+
+Polar ice cores and marine archives place these values in their long context: the current
+concentration has no equivalent over the past two million years
+<Cite id="rae-2021-atmospheric-over-past-million-years" />. The annual accounting of
+fluxes — what is emitted, what the ocean and vegetation absorb, what stays airborne — is
+kept by the global carbon budget
+<Cite id="friedlingstein-2026-global-carbon-budget-2025" />.
+
+## The other gases, and why they are not naively added up
+
+<Indicators ids="methane-global,nitrous-oxide-global,sf6-global" decimals={1} drift="hausse-defavorable" columns={3} />
+
+Methane is about eighty times more effective than CO₂ over twenty years, but it breaks
+down in a dozen; nitrous oxide is less powerful but persists more than a century; sulphur
+hexafluoride exceeds three thousand years. Reducing them to a
+<Term id="equivalent-co2">CO₂ equivalent</Term> therefore requires choosing a time horizon,
+and that choice changes the rankings. The hundred-year
+<Term id="potentiel-de-rechauffement-global">global warming potential</Term>, the most
+widely used, mechanically understates short-lived gases.
+
+This asymmetry has a consequence for action: cutting methane affects temperature within a
+decade, where cutting CO₂ only does so after a century. The two levers are not
+interchangeable, and the first does not excuse skipping the second
+<Cite id="shindell-2012-simultaneously-mitigating-near-term-climate" />.
+
+The methane budget remains the hardest to close: natural and human sources are entangled —
+wetlands, livestock, gas leaks, landfills — and inventories still diverge appreciably from
+atmospheric measurements
+<Cite id="saunois-2025-global-methane-budget-2000-2020" /><Cite id="kirschke-2013-three-decades-global-methane-sources" />.
+
+## The ozone layer: another storey, another problem
+
+<Mechanism name="couche-ozone" />
+
+Thirty kilometres up, ozone absorbs solar ultraviolet. It is not stored there: it is
+manufactured and destroyed there continuously, in an equilibrium sustained by the
+radiation itself. What CFCs broke is that equilibrium.
+
+The point to remember comes down to one word: **catalysis**. A chlorine atom released by
+the photolysis of a CFC breaks an ozone molecule, then leaves the reaction intact and
+starts again — tens of thousands of times before it leaves the stratosphere. It was not
+the quantity of CFCs emitted that opened a hole above a continent, it was this reuse.
+
+## The indicator that is coming back down
+
+The Montreal Protocol, signed in 1987, banned these compounds. Thirty-five years later,
+the halogen load of the stratosphere is decreasing. It is, to our knowledge, the only
+indicator on this page heading in the right direction.
+
+<Chart dataset="ozone-depleting-gas-index" kind="line" theme="politiques" />
+
+The index is 100 at the late-1990s maximum and 0 at the 1980 level, taken as the reference
+from before the hole. The two curves measure the same thing in two places: the air that
+feeds the Antarctic vortex has spent longer at altitude, so its index declines several
+years behind the mid-latitude one.
+
+<Chart dataset="stratospheric-halogens-eesc" kind="area" theme="politiques" />
+
+<Callout variant="caution" title="What this success does not prove">
+It is often concluded that the climate will be settled the same way. The comparison has
+its limits. CFCs were produced by a handful of manufacturers, for uses that had
+substitutes, and represented a minuscule fraction of the world economy. Fossil fuels are
+the energy of everything else. What the Montreal Protocol demonstrates is that a binding
+international agreement can bend a global atmospheric curve — not that the next problem
+will be of the same difficulty.
+</Callout>
+
+## One overlap, all the same
+
+The two subjects do touch at one point. CFCs are also powerful greenhouse gases, and
+banning them avoided appreciable additional warming. Conversely, their first-generation
+substitutes, HFCs, do not destroy ozone but do warm — which required a separate amendment,
+in 2016, to bring them under control in turn. The total radiative balance accounts for
+these compounds, and that is why the forcing curve cannot be deduced from CO₂ alone
+<Cite id="forster-2026-indicators-global-climate-change-2025" />.

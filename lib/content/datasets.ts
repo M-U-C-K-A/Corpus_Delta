@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { datasetSchema, type Dataset } from "@/lib/content/schemas";
+import type { Lang } from "@/lib/i18n/config";
 
 const DATASETS_DIR = path.join(process.cwd(), "data", "datasets");
 
@@ -24,6 +25,16 @@ export function getDataset(id: string): Dataset | null {
 
 	cache.set(id, parsed.data);
 	return parsed.data;
+}
+
+/**
+ * Unité dans la langue demandée, avec repli sur le français.
+ *
+ * Renvoie une chaîne vide plutôt qu'`undefined` : les appelants la concatènent,
+ * et un « undefined » affiché serait pire qu'une unité absente.
+ */
+export function unitFor(dataset: Dataset, lang: Lang): string {
+	return dataset.unit?.[lang] ?? dataset.unit?.fr ?? "";
 }
 
 export type { Dataset };

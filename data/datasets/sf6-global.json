@@ -4,7 +4,10 @@
 		"fr": "Concentration atmosphérique d'hexafluorure de soufre",
 		"en": "Atmospheric sulfur hexafluoride concentration"
 	},
-	"unit": "ppt",
+	"unit": {
+		"fr": "ppt",
+		"en": "ppt"
+	},
 	"source": {
 		"label": "Trends in Atmospheric Sulfur Hexafluoride",
 		"url": "https://gml.noaa.gov/ccgg/trends_sf6/",

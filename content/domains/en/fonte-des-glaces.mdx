@@ -1,0 +1,156 @@
+---
+title: "Melting ice"
+description: "Sea ice, glaciers and ice sheets melt neither at the same pace nor for the same reasons, and only some of them raise the sea. What extent, volume and mass balance measure, and why these three quantities diverge."
+tagline: "Three different kinds of ice, three clocks, and only one that raises the sea."
+themes: ["cryosphere", "ocean", "observation"]
+headline:
+  - dataset: "arctic-sea-ice-september"
+    decimals: 2
+    drift: "baisse-defavorable"
+  - dataset: "arctic-sea-ice-volume"
+    decimals: 1
+    drift: "baisse-defavorable"
+  - dataset: "snow-cover-march"
+    decimals: 2
+    drift: "baisse-defavorable"
+  - dataset: "sea-level-altimetry"
+    decimals: 1
+    drift: "hausse-defavorable"
+studies:
+  - "hugonnet-2021-accelerated-global-glacier-mass-loss"
+  - "team-2025-community-estimate-global-glacier-mass"
+  - "greene-2024-ubiquitous-acceleration-greenland-ice-sheet"
+  - "mouginot-2019-forty-six-years-greenland-ice"
+  - "team-2018-mass-balance-antarctic-ice-sheet"
+  - "rantanen-2022-arctic-has-warmed-nearly-four"
+  - "biskaborn-2019-permafrost-warming-global-scale"
+glossary:
+  - "banquise"
+  - "calotte-glaciaire"
+  - "glacier"
+  - "bilan-de-masse-glaciaire"
+  - "albedo"
+  - "amplification-arctique"
+  - "niveau-marin"
+  - "dilatation-thermique"
+  - "permafrost"
+sources:
+  - label: "Sea Ice Index, Version 4"
+    url: "https://nsidc.org/data/g02135/"
+    publisher: "National Snow and Ice Data Center"
+  - label: "PIOMAS Arctic Sea Ice Volume Reanalysis"
+    url: "http://psc.apl.uw.edu/research/projects/arctic-sea-ice-volume-anomaly/"
+    publisher: "Polar Science Center, University of Washington"
+  - label: "Global Mean Sea Level — Laboratory for Satellite Altimetry"
+    url: "https://www.star.nesdis.noaa.gov/socd/lsa/SeaLevelRise/"
+    publisher: "NOAA Laboratory for Satellite Altimetry"
+order: 30
+updatedAt: "2026-11-15"
+---
+
+"The ice is melting" covers three objects that must be separated before anything else,
+because they share neither a timescale nor a set of consequences.
+
+**Sea ice** is frozen seawater, and it floats. It forms each winter and disappears each
+summer; its melting does not raise sea level, for the same reason a melted ice cube does
+not make a glass overflow. Mountain **glaciers** are continental ice, fed by snow, and
+their loss goes straight to the ocean. The **ice sheets** of Greenland and Antarctica are
+the same thing on an entirely different scale: they hold enough to raise the sea by
+sixty-five metres, and they respond over centuries.
+
+## Sea ice: a misleading extent
+
+<Mechanism name="albedo-banquise" />
+
+<Term id="albedo">Albedo</Term> is why sea ice matters, even without contributing to sea
+level. An ice surface returns most of the radiation it receives to space; open water, being
+dark, absorbs nearly all of it. Every square metre lost therefore turns a reflector into
+an absorber, and the heat thus gained melts the neighbouring ice.
+
+This loop, more than the warming of the air itself, explains why the Arctic has warmed
+nearly four times faster than the global average over the past forty years
+<Cite id="rantanen-2022-arctic-has-warmed-nearly-four" />.
+
+<Chart dataset="arctic-sea-ice-september" kind="line" theme="cryosphere" />
+
+<Callout variant="caution" title="Extent says nothing about thickness">
+Extent counts any surface covered by at least 15 % ice. Sea ice half as thick therefore
+occupies exactly the same extent. This is an important limit of the most-cited indicator
+in the field: it understates the real loss, because it measures a surface where the
+phenomenon is volumetric.
+</Callout>
+
+Volume, for its part, is not observed directly: it is reconstructed by a model constrained
+by the available concentration and thickness measurements. It is a reconstruction, and it
+must be read as one — but it is retreating markedly faster than extent.
+
+<Chart dataset="arctic-sea-ice-volume" kind="area" theme="cryosphere" />
+
+<DecadeBars dataset="arctic-sea-ice-september" from={1980} theme="cryosphere" />
+
+## Antarctica does not follow the same script
+
+For a long time, Antarctic sea ice was the exception: its extent stayed stable, even
+slightly up, while the Arctic retreated. The gap was explained by an inverted geography — a
+continent surrounded by ocean rather than an ocean surrounded by continents — and by the
+role of the circumpolar winds.
+
+<Chart dataset="antarctic-sea-ice-february" kind="line" theme="cryosphere" />
+
+Since 2016 the series has shifted regime, with minima unprecedented in the satellite
+archive. It is still too early to decide between a lasting tipping point and a prolonged
+phase of variability: the series covers only four decades, which is short for telling one
+from the other.
+
+## Glaciers: the best-constrained contribution
+
+Mountain glaciers hold far less ice than the ice sheets, but they respond quickly and
+their <Term id="bilan-de-masse-glaciaire">mass balance</Term> is now measured by satellite
+over almost the whole globe. The systematic reconstruction of the past two decades showed
+an accelerated loss, more or less everywhere
+<Cite id="hugonnet-2021-accelerated-global-glacier-mass-loss" />, confirmed since by a
+community estimate cross-checking several independent methods
+<Cite id="team-2025-community-estimate-global-glacier-mass" />.
+
+## Ice sheets: inertia and uncertainty
+
+Greenland loses mass by two routes: surface melting, and the acceleration of the outlet
+glaciers that discharge ice into the sea. The second is the harder to model, because it
+depends on the mechanics of the contact between ice and bedrock
+<Cite id="mouginot-2019-forty-six-years-greenland-ice" />. The acceleration is now observed
+around the entire periphery of the ice sheet
+<Cite id="greene-2024-ubiquitous-acceleration-greenland-ice-sheet" />.
+
+Antarctica is slower, and its western part rests on bedrock below sea level — a
+configuration that makes a self-sustaining retreat possible once it has begun
+<Cite id="team-2018-mass-balance-antarctic-ice-sheet" />. That is where most of the
+uncertainty on sea level by 2100 and beyond comes from.
+
+## What reaches the sea
+
+<Indicators ids="sea-level-altimetry,ocean-heat-content" decimals={1} drift="hausse-defavorable" columns={2} />
+
+<Term id="niveau-marin">Sea level</Term> rises for two reasons of comparable importance:
+the water added by continental melting, and the
+<Term id="dilatation-thermique">thermal expansion</Term> of an ocean that is warming. The
+second owes nothing to ice — it is water taking up more room because it is warmer.
+
+<Chart dataset="sea-level-altimetry" kind="area" theme="ocean" />
+
+<DecadeBars dataset="sea-level-altimetry" theme="ocean" decimals={0} />
+
+What this rise actually produces on a coastline — a flooding threshold crossed more and
+more often by a tide that has not itself changed — is the subject of the dossier on the
+[tidal cycle](/en/indicators/cycle-des-marees).
+
+## Snow, and the ground that thaws
+
+Spring snow cover belongs to the same family of mechanisms: it is bright, it is
+retreating, and its retreat uncovers dark ground earlier in the season.
+
+<Chart dataset="snow-cover-march" kind="line" theme="cryosphere" />
+
+<Term id="permafrost">Permafrost</Term>, for its part, poses a problem of another kind: it
+holds organic carbon frozen for millennia, whose thaw opens a source of emissions that no
+human decision closes again. The warming of these soils is now documented globally
+<Cite id="biskaborn-2019-permafrost-warming-global-scale" />.

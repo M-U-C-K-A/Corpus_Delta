@@ -4,7 +4,10 @@
 		"fr": "Concentration atmosphérique de méthane",
 		"en": "Atmospheric methane concentration"
 	},
-	"unit": "ppb",
+	"unit": {
+		"fr": "ppb",
+		"en": "ppb"
+	},
 	"source": {
 		"label": "Trends in Atmospheric Methane",
 		"url": "https://gml.noaa.gov/ccgg/trends_ch4/",

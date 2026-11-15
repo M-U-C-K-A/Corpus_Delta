@@ -220,8 +220,14 @@ export type PathFrontmatter = z.infer<typeof pathFrontmatterSchema>;
 export const datasetSchema = z.object({
 	id: slug,
 	title: z.record(z.enum(LANGS), z.string()),
-	/** Absente quand la grandeur n'en a pas — une année de franchissement, par exemple. */
-	unit: z.string().min(1).optional(),
+	/**
+	 * Absente quand la grandeur n'en a pas — une année de franchissement, par
+	 * exemple. Déclarée par langue comme `title` et `note` : la plupart des
+	 * unités sont des symboles identiques partout, mais « jours », « indice » ou
+	 * « ppm/an » sont des mots, et ils s'affichaient en français sur les pages
+	 * anglaises.
+	 */
+	unit: z.record(z.enum(LANGS), z.string()).optional(),
 	source: sourceRefSchema,
 	note: z.record(z.enum(LANGS), z.string()).optional(),
 	series: z

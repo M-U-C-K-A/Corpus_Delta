@@ -4,7 +4,10 @@
 		"fr": "Marnage moyen annuel à New York",
 		"en": "Annual mean tidal range at New York"
 	},
-	"unit": "cm",
+	"unit": {
+		"fr": "cm",
+		"en": "cm"
+	},
 	"source": {
 		"label": "Tides and Currents — The Battery, New York",
 		"url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8518750",

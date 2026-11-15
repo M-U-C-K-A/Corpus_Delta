@@ -4,7 +4,10 @@
 		"fr": "Anomalie de température moyenne globale",
 		"en": "Global mean temperature anomaly"
 	},
-	"unit": "°C",
+	"unit": {
+		"fr": "°C",
+		"en": "°C"
+	},
 	"source": {
 		"label": "GISS Surface Temperature Analysis (GISTEMP v4)",
 		"url": "https://data.giss.nasa.gov/gistemp/",

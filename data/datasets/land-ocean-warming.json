@@ -4,7 +4,10 @@
 		"fr": "Réchauffement des terres et de l'océan",
 		"en": "Land and ocean warming"
 	},
-	"unit": "°C",
+	"unit": {
+		"fr": "°C",
+		"en": "°C"
+	},
 	"source": {
 		"label": "Climate at a Glance — Global Time Series",
 		"url": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/global/time-series",

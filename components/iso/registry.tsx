@@ -3,6 +3,7 @@ import { GreenhouseFigure } from "@/components/iso/Greenhouse";
 import { IceAlbedoFigure } from "@/components/iso/IceAlbedo";
 import { OzoneFigure } from "@/components/iso/Ozone";
 import { TideFigure, TideGaugeFigure } from "@/components/iso/Tides";
+import type { Lang } from "@/lib/i18n/config";
 
 /**
  * Registre des figures isométriques, par nom.
@@ -29,8 +30,13 @@ export function isFigureName(value: string): value is FigureName {
 	return value in FIGURES;
 }
 
-/** Rend la figure nommée. Un nom inconnu est une erreur de build, pas un trou. */
-export function Mechanism({ name }: { name: string }) {
+/**
+ * Rend la figure nommée. Un nom inconnu est une erreur de build, pas un trou.
+ *
+ * La langue vient de `MdxContent`, donc du contenu rendu et non de l'URL : une
+ * figure légendée en anglais au milieu d'un dossier français se lirait mal.
+ */
+export function Mechanism({ name, lang }: { name: string; lang: Lang }) {
 	if (!isFigureName(name)) {
 		throw new Error(
 			`<Mechanism name="${name}"> : figure inconnue. Disponibles : ${FIGURE_NAMES.join(", ")}.`
@@ -38,5 +44,5 @@ export function Mechanism({ name }: { name: string }) {
 	}
 
 	const Figure = FIGURES[name];
-	return <Figure />;
+	return <Figure lang={lang} />;
 }

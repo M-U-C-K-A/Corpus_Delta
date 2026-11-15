@@ -1,0 +1,157 @@
+---
+title: "The tidal cycle"
+description: "The tide is the only astronomical phenomenon you can read in a coastal measurement. Its range follows an 18.6-year cycle, it has barely changed — and that is precisely why it makes sea level rise visible."
+tagline: "An astronomical clock billions of years old, and the mean level rising beneath it."
+themes: ["ocean", "observation", "risques"]
+headline:
+  - dataset: "tidal-range-battery"
+    series: "range"
+    decimals: 1
+    drift: "neutre"
+    metric: "amplitude"
+  - dataset: "tidal-range-battery"
+    series: "level"
+    decimals: 1
+    drift: "hausse-defavorable"
+  - dataset: "high-tide-flooding-battery"
+    decimals: 0
+    drift: "hausse-defavorable"
+    metric: "decennie"
+  - dataset: "sea-level-altimetry"
+    decimals: 1
+    drift: "hausse-defavorable"
+studies:
+  - "church-2011-sea-level-rise-late-19th"
+  - "hamlington-2024-rate-global-sea-level-rise"
+  - "jiang-2024-compounding-effects-flood-drivers-challenge"
+  - "zscheischler-2018-future-climate-risk-compound-events"
+glossary:
+  - "niveau-marin"
+  - "submersion-marine"
+  - "dilatation-thermique"
+  - "periode-de-retour"
+  - "alea"
+  - "exposition"
+sources:
+  - label: "Tides and Currents — The Battery, New York"
+    url: "https://tidesandcurrents.noaa.gov/stationhome.html?id=8518750"
+    publisher: "NOAA Center for Operational Oceanographic Products and Services"
+  - label: "High Tide Flooding — Annual Flood Count"
+    url: "https://tidesandcurrents.noaa.gov/high-tide-flooding/"
+    publisher: "NOAA Center for Operational Oceanographic Products and Services"
+  - label: "Permanent Service for Mean Sea Level"
+    url: "https://psmsl.org/"
+    publisher: "National Oceanography Centre"
+order: 40
+updatedAt: "2026-11-15"
+---
+
+The tide is not a climate subject. It is set by celestial mechanics, it was here long
+before us, and warming barely alters it. That is exactly what makes it useful: because it
+does not change, it serves as a yardstick, and what does change can be read against it.
+
+## Why two tides a day
+
+<Mechanism name="maree-lunaire" />
+
+Lunar attraction stretches the ocean into two bulges: one facing the Moon, where the pull
+is strongest, the other opposite it, where the pull is weakest and the rotation of the
+Earth–Moon system wins out. Both bulges stay aligned with the Moon.
+
+The common misunderstanding is to picture a wave travelling around the globe. That is not
+what happens: the bulges are roughly stationary relative to the Moon, and it is the Earth
+that turns beneath them. Each coast therefore passes through two bulges a day, hence two
+high waters — and the daily lag of about fifty minutes comes from the Moon having moved
+along its orbit in the meantime.
+
+The Sun produces the same effect, twice as weak. When the two line up, at new and full
+moon, tides are strong: these are spring tides. In quadrature they work against each
+other: these are neap tides.
+
+## The 18.6-year cycle
+
+The plane of the lunar orbit is tilted by about 5° from that of the Earth's orbit, and
+that plane swings slowly: it returns to the same position every 18.6 years. This is the
+**nodal cycle**, and it modulates the tidal range by a few percent.
+
+A few percent on a range of one metre forty makes several centimetres — a signal that is
+perfectly legible in a long series, and one of the few astronomical quantities a tide
+gauge records directly.
+
+<Chart dataset="tidal-range-battery" kind="line" theme="ocean" height={320} />
+
+The New York series spans more than a century, that is five and a half cycles. The two
+curves tell two superimposed stories: the range oscillates without drifting, the mean
+level drifts without oscillating.
+
+<Callout variant="info" title="What the oscillation makes it possible to check">
+A tide gauge measures a water height, not a mean level: ground motion, atmospheric
+pressure and currents still have to be corrected for. The nodal cycle, whose period is
+known in advance to astronomical precision, offers a control: if an instrument does not
+find it where it should be, it is the instrument or the processing that needs revisiting,
+not the ocean.
+</Callout>
+
+## The threshold does not move, the sea rises
+
+<Mechanism name="maregraphe" />
+
+Here is where the tide stops being a matter of astronomy. A tide gauge counts the number
+of days a year on which high water exceeds a flooding threshold fixed once and for all,
+set from the height at which the water starts causing trouble — flooded streets, storm
+drains backing up.
+
+The tidal range has not changed. Neither has the threshold. What changes is the mean level
+on which that tide is superimposed.
+
+<Chart dataset="high-tide-flooding-battery" kind="bar" theme="risques" height={320} />
+
+The result is not proportional, and that is the whole interest of this indicator. High
+water heights are distributed around a mean; raising that mean by a few centimetres does
+not shift the distribution by one notch, it tips above the threshold a whole population of
+tides that used to pass just below it. A steady rise therefore produces growth that runs
+away.
+
+<DecadeBars dataset="high-tide-flooding-battery" from={1930} theme="risques" decimals={1} />
+
+The annual count is very noisy — one storm season or one El Niño episode is enough to
+double it. It is the decade average that carries the signal, and it is unambiguous.
+
+## What this changes for the notion of risk
+
+<Indicators ids="sea-level-altimetry,ocean-heat-content" decimals={1} drift="hausse-defavorable" columns={2} />
+
+<Term id="submersion-marine">Coastal flooding</Term> is the textbook case of what
+specialists call a compound event: it results not from a single cause but from the
+coincidence of several — a spring tide, a depression lifting the water surface, an onshore
+wind, sometimes a river flood arriving at the same time from upstream
+<Cite id="zscheischler-2018-future-climate-risk-compound-events" />. Each of these factors
+taken alone remains ordinary; it is their meeting that floods.
+
+The rise in mean level creates none of these factors. It raises the common starting point
+for all of them, which amounts to shortening the
+<Term id="periode-de-retour">return period</Term> of every combination. A hundred-year
+event becomes a ten-year one without any storm having changed its nature
+<Cite id="jiang-2024-compounding-effects-flood-drivers-challenge" />.
+
+## The mean level, and how we know it
+
+<Chart dataset="sea-level-altimetry" kind="area" theme="ocean" />
+
+Two independent measurement systems coexist. Tide gauges, the older of the two, give a
+**relative** level: they are attached to ground that moves as well — subsiding deltas,
+rebounding regions formerly under ice. Satellite altimetry, since 1993, gives an
+**absolute** level, referenced to the centre of the Earth.
+
+Their agreement over the common period is what grounds confidence in the reconstruction of
+the previous century, made from tide gauges alone
+<Cite id="church-2011-sea-level-rise-late-19th" />. The global rate is not constant: it has
+more than doubled since the start of the altimetry series
+<Cite id="hamlington-2024-rate-global-sea-level-rise" />.
+
+<Callout variant="caution" title="One tide gauge is not the world">
+The series on this page come from a single station, chosen for its length. The relative
+level there combines the global rise with local ground motion, which differs from coast to
+coast: some see a rise twice the average, others see a fall. A station illustrates a
+mechanism; it does not measure the planet. Altimetry does that.
+</Callout>

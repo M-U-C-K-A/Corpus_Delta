@@ -4,7 +4,10 @@
 		"fr": "Étendue de la banquise antarctique en février",
 		"en": "Antarctic sea ice extent in February"
 	},
-	"unit": "10⁶ km²",
+	"unit": {
+		"fr": "10⁶ km²",
+		"en": "10⁶ km²"
+	},
 	"source": {
 		"label": "Sea Ice Index, Version 4",
 		"url": "https://nsidc.org/data/g02135/",

@@ -1,6 +1,6 @@
 import { ChartCanvas, type ChartKind } from "@/components/mdx/ChartCanvas";
 import { colorForTheme } from "@/lib/content/chart-colors";
-import { getDataset } from "@/lib/content/datasets";
+import { getDataset, unitFor } from "@/lib/content/datasets";
 import { formatDate } from "@/lib/format";
 import { getDictionary, interpolate } from "@/lib/i18n/dictionaries";
 import type { ThemeId } from "@/lib/content/taxonomy";
@@ -57,7 +57,7 @@ export function Chart({
 				rows={dataset.rows}
 				series={series}
 				xKey={xKey}
-				unit={dataset.unit}
+				unit={unitFor(dataset, lang)}
 				height={height}
 				color={colorForTheme(theme)}
 			/>

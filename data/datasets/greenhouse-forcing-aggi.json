@@ -4,7 +4,10 @@
 		"fr": "Forçage radiatif des gaz à effet de serre",
 		"en": "Greenhouse gas radiative forcing"
 	},
-	"unit": "W/m²",
+	"unit": {
+		"fr": "W/m²",
+		"en": "W/m²"
+	},
 	"source": {
 		"label": "The NOAA Annual Greenhouse Gas Index (AGGI)",
 		"url": "https://gml.noaa.gov/aggi/",

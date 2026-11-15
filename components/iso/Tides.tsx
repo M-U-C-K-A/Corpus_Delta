@@ -1,5 +1,71 @@
 import { arc, boundsOf, frame, heading, path, plate, project, ring } from "@/lib/iso";
 import { Block, Head, IsoFigure, Runner, Tag, toneVars } from "@/components/iso/Figure";
+import type { Lang } from "@/lib/i18n/config";
+
+/* Voir `Greenhouse`. Deux figures dans ce fichier, donc deux tables. */
+const TIDE_COPY = {
+	fr: {
+		title:
+			"Schéma des marées : la Lune déforme l'océan en deux renflements opposés, immobiles par rapport à elle, que la rotation de la Terre fait défiler deux fois par jour sous chaque côte.",
+		caption: "Ce n'est pas la marée qui se déplace, c'est la Terre qui tourne dessous.",
+		description:
+			"L'enveloppe bleue ne tourne pas : elle reste alignée sur la Lune, et la Terre défile dessous. L'ellipse violette est le plan de l'orbite lunaire, dont le basculement met 18,6 ans à revenir à son point de départ.",
+		earth: "TERRE",
+		rotation: "rotation · 24 h",
+		moon: "LUNE",
+		nearBulge: "renflement direct",
+		farBulge: "renflement opposé",
+		orbit: "orbite · 27,3 jours",
+		nodal: "cycle nodal · 18,6 ans",
+	},
+	en: {
+		title:
+			"Diagram of the tides: the Moon stretches the ocean into two opposite bulges, fixed relative to it, which the Earth's rotation carries past each coast twice a day.",
+		caption: "It is not the tide that travels, it is the Earth turning underneath it.",
+		description:
+			"The blue envelope does not rotate: it stays aligned with the Moon while the Earth turns beneath it. The violet ellipse is the plane of the lunar orbit, whose tilt takes 18.6 years to return to its starting point.",
+		earth: "EARTH",
+		rotation: "rotation · 24 h",
+		moon: "MOON",
+		nearBulge: "near bulge",
+		farBulge: "far bulge",
+		orbit: "orbit · 27.3 days",
+		nodal: "nodal cycle · 18.6 yr",
+	},
+} satisfies Record<Lang, Record<string, string>>;
+
+const GAUGE_COPY = {
+	fr: {
+		title:
+			"Schéma de la submersion à marée haute : le seuil du quai et l'amplitude de la marée sont inchangés, mais le niveau moyen de la mer monte sous eux.",
+		caption: "Le seuil n'a pas bougé, la marée non plus.",
+		description:
+			"Le trait rouge sur l'arête du quai est le seuil, posé une fois pour toutes. La tranche d'eau monte et redescend avec la marée ; la flèche, elle, est la dérive du niveau moyen, qui ne redescend pas.",
+		sea: "MER",
+		seaSub: "marnage ≈ 1,4 m",
+		threshold: "seuil de submersion",
+		meanLevel: "niveau moyen · +3 mm/an",
+		bed: "FOND",
+		bedSub: "estran",
+		quay: "QUAI",
+		quaySub: "seuil fixe",
+	},
+	en: {
+		title:
+			"Diagram of high-tide flooding: the quay's threshold and the tidal range are unchanged, but the mean sea level rises beneath them.",
+		caption: "The threshold has not moved, and neither has the tide.",
+		description:
+			"The red line along the quay edge is the threshold, set once and for all. The slab of water rises and falls with the tide; the arrow is the drift of the mean level, which does not come back down.",
+		sea: "SEA",
+		seaSub: "range ≈ 1.4 m",
+		threshold: "flooding threshold",
+		meanLevel: "mean level · +3 mm/yr",
+		bed: "SEABED",
+		bedSub: "foreshore",
+		quay: "QUAY",
+		quaySub: "fixed threshold",
+	},
+} satisfies Record<Lang, Record<string, string>>;
 
 /**
  * Deux figures pour la marée, parce qu'il y a deux histoires distinctes et
@@ -68,12 +134,14 @@ const TIDE_VIEW = frame(
 	12
 );
 
-export function TideFigure() {
+export function TideFigure({ lang }: { lang: Lang }) {
+	const t = TIDE_COPY[lang];
+
 	return (
 		<IsoFigure
-			title="Schéma des marées : la Lune déforme l'océan en deux renflements opposés, immobiles par rapport à elle, que la rotation de la Terre fait défiler deux fois par jour sous chaque côte."
-			caption="Ce n'est pas la marée qui se déplace, c'est la Terre qui tourne dessous."
-			description="L'enveloppe bleue ne tourne pas : elle reste alignée sur la Lune, et la Terre défile dessous. L'ellipse violette est le plan de l'orbite lunaire, dont le basculement met 18,6 ans à revenir à son point de départ."
+			title={t.title}
+			caption={t.caption}
+			description={t.description}
 			viewBox={TIDE_VIEW.viewBox}
 			maxWidth={680}
 		>
@@ -102,10 +170,10 @@ export function TideFigure() {
 					<path key={i} d={d} className="hair" />
 				))}
 				<text x={0} y={2} textAnchor="middle" className="ink" fontSize="7.2" fontWeight="600">
-					TERRE
+					{t.earth}
 				</text>
 				<text x={0} y={10.4} textAnchor="middle" className="dim" fontSize="5.4">
-					rotation · 24 h
+					{t.rotation}
 				</text>
 			</g>
 
@@ -117,7 +185,7 @@ export function TideFigure() {
 				<circle cx={moon[0] - 4} cy={moon[1] - 3} r={2.6} className="hair" />
 				<circle cx={moon[0] + 3} cy={moon[1] + 4} r={1.8} className="hair" />
 				<text x={moon[0]} y={moon[1] + 25} textAnchor="middle" className="ink" fontSize="6.4" fontWeight="600">
-					LUNE
+					{t.moon}
 				</text>
 			</g>
 			<Runner d={EQUATOR} tone="teal" count={2} duration={7} radius={1.6} loop />
@@ -125,16 +193,16 @@ export function TideFigure() {
 			<Head at={project([R_EARTH + 30, 0, 0])} angle={heading(moon, nearBulge)} tone="slate" />
 
 			<Tag x={nearBulge[0] + 36} y={nearBulge[1] - 32} tone="blue" width={66}>
-				renflement direct
+				{t.nearBulge}
 			</Tag>
 			<Tag x={farBulge[0] - 34} y={farBulge[1] + 34} tone="blue" width={68}>
-				renflement opposé
+				{t.farBulge}
 			</Tag>
 			<Tag x={-R_ORBIT * 0.72} y={-R_ORBIT * 0.5} tone="violet" width={86}>
-				cycle nodal · 18,6 ans
+				{t.nodal}
 			</Tag>
 			<Tag x={R_ORBIT * 0.3} y={R_ORBIT * 0.56} tone="slate" width={74}>
-				orbite · 27,3 jours
+				{t.orbit}
 			</Tag>
 		</IsoFigure>
 	);
@@ -167,23 +235,25 @@ const RISE = arc(riseFrom, riseTo, 0);
 
 const GAUGE_VIEW = frame([SEABED.bounds, WATER.bounds, QUAY.bounds], 16);
 
-export function TideGaugeFigure() {
+export function TideGaugeFigure({ lang }: { lang: Lang }) {
+	const t = GAUGE_COPY[lang];
+
 	return (
 		<IsoFigure
-			title="Schéma de la submersion à marée haute : le seuil du quai et l'amplitude de la marée sont inchangés, mais le niveau moyen de la mer monte sous eux."
-			caption="Le seuil n'a pas bougé, la marée non plus."
-			description="Le trait rouge sur l'arête du quai est le seuil, posé une fois pour toutes. La tranche d'eau monte et redescend avec la marée ; la flèche, elle, est la dérive du niveau moyen, qui ne redescend pas."
+			title={t.title}
+			caption={t.caption}
+			description={t.description}
 			viewBox={GAUGE_VIEW.viewBox}
 			maxWidth={680}
 		>
-			<Block slab={SEABED} tone="slate" label="FOND" sub="estran" labelDy={26} labelDx={46} />
+			<Block slab={SEABED} tone="slate" label={t.bed} sub={t.bedSub} labelDy={26} labelDx={46} />
 
 			{/* La tranche d'eau respire : la marée monte et redescend. */}
 			<Block
 				slab={WATER}
 				tone="blue"
-				label="MER"
-				sub="marnage ≈ 1,4 m"
+				label={t.sea}
+				sub={t.seaSub}
 				labelDy={16}
 				labelDx={-12}
 				className="float"
@@ -191,7 +261,7 @@ export function TideGaugeFigure() {
 				glass
 			/>
 
-			<Block slab={QUAY} tone="amber" label="QUAI" sub="seuil fixe" labelDy={-2} />
+			<Block slab={QUAY} tone="amber" label={t.quay} sub={t.quaySub} labelDy={-2} />
 
 			{/* Le seuil : un trait net, qui ne bouge pas d'une figure à l'autre. */}
 			<g style={toneVars("red")}>
@@ -206,10 +276,10 @@ export function TideGaugeFigure() {
 			<Head at={riseTo} angle={heading(riseFrom, riseTo)} tone="red" />
 
 			<Tag x={thresholdA[0] + 30} y={thresholdA[1] + 10} tone="red" width={78}>
-				seuil de submersion
+				{t.threshold}
 			</Tag>
 			<Tag x={riseFrom[0] + 6} y={riseFrom[1] - 42} tone="red" width={78}>
-				niveau moyen · +3 mm/an
+				{t.meanLevel}
 			</Tag>
 		</IsoFigure>
 	);

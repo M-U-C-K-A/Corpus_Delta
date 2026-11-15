@@ -10,6 +10,7 @@ import { getGlossary } from "@/lib/content/glossary";
 import { getTopics } from "@/lib/content/topics";
 import { getPaths, resolveSteps, totalMinutes } from "@/lib/content/paths";
 import { getDataset } from "@/lib/content/datasets";
+import { unitFor } from "@/lib/content/datasets";
 import { THEME_IDS, themeHue, themeLabel, type ThemeId } from "@/lib/content/taxonomy";
 import { getDictionary, interpolate } from "@/lib/i18n/dictionaries";
 import { DEFAULT_LANG, isLang } from "@/lib/i18n/config";
@@ -248,7 +249,7 @@ export default function HomePage({ params }: { params: { lang: string } }) {
 											<span className="font-serif text-2xl font-semibold tabular">
 												{value.toFixed(config.decimals)}
 											</span>
-											<span className="text-sm text-muted-foreground">{dataset.unit}</span>
+											<span className="text-sm text-muted-foreground">{unitFor(dataset, lang)}</span>
 											<span className="ml-auto text-xs text-muted-foreground tabular">{year}</span>
 										</dd>
 									</div>

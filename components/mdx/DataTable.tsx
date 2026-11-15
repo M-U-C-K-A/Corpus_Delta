@@ -1,4 +1,4 @@
-import { getDataset } from "@/lib/content/datasets";
+import { getDataset, unitFor } from "@/lib/content/datasets";
 import { formatDate } from "@/lib/format";
 import { getDictionary, interpolate } from "@/lib/i18n/dictionaries";
 import type { Lang } from "@/lib/i18n/config";
@@ -39,8 +39,10 @@ export function DataTable({
 							{dataset.series.map((series) => (
 								<th key={series.key} scope="col" className="px-3 py-2 text-right font-medium">
 									{series.label[lang] ?? series.label.fr}
-									{dataset.unit && (
-										<span className="ml-1 font-normal text-muted-foreground">({dataset.unit})</span>
+									{unitFor(dataset, lang) && (
+										<span className="ml-1 font-normal text-muted-foreground">
+											({unitFor(dataset, lang)})
+										</span>
 									)}
 								</th>
 							))}

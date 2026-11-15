@@ -4,7 +4,10 @@
 		"fr": "Volume de la banquise arctique en septembre",
 		"en": "Arctic sea ice volume in September"
 	},
-	"unit": "10³ km³",
+	"unit": {
+		"fr": "10³ km³",
+		"en": "10³ km³"
+	},
 	"source": {
 		"label": "PIOMAS Arctic Sea Ice Volume Reanalysis",
 		"url": "http://psc.apl.uw.edu/research/projects/arctic-sea-ice-volume-anomaly/",

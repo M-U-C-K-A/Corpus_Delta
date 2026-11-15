@@ -1,0 +1,155 @@
+---
+title: "Global warming"
+description: "What is actually measured when we say the Earth is warming: a reconstructed temperature anomaly, an ocean that absorbs almost all of the energy, and an imbalance that has not closed."
+tagline: "An imbalance of one watt per square metre, and everything that follows from it."
+themes: ["chaleur", "observation", "modelisation"]
+headline:
+  - dataset: "temperature-anomaly-gistemp"
+    decimals: 2
+    drift: "hausse-defavorable"
+  - dataset: "ocean-heat-content"
+    decimals: 1
+    drift: "hausse-defavorable"
+  - dataset: "greenhouse-forcing-aggi"
+    decimals: 3
+    drift: "hausse-defavorable"
+  - dataset: "land-ocean-warming"
+    series: "land"
+    decimals: 2
+    drift: "hausse-defavorable"
+studies:
+  - "forster-2026-indicators-global-climate-change-2025"
+  - "sherwood-2020-assessment-earths-climate-sensitivity-using"
+  - "cheng-2024-new-record-ocean-temperatures-related"
+  - "johnson-2020-warming-trends-increasingly-dominate-global"
+  - "tokarska-2020-past-warming-trend-constrains-future"
+  - "macdougall-2020-there-warming-pipeline-multi-model"
+glossary:
+  - "anomalie-de-temperature"
+  - "bilan-radiatif"
+  - "forcage-radiatif"
+  - "contenu-thermique-de-l-ocean"
+  - "sensibilite-climatique"
+  - "retroaction-climatique"
+  - "ere-preindustrielle"
+sources:
+  - label: "GISS Surface Temperature Analysis (GISTEMP v4)"
+    url: "https://data.giss.nasa.gov/gistemp/"
+    publisher: "NASA Goddard Institute for Space Studies"
+  - label: "Global Ocean Heat and Salt Content"
+    url: "https://www.ncei.noaa.gov/access/global-ocean-heat-content/"
+    publisher: "NOAA National Centers for Environmental Information"
+  - label: "The NOAA Annual Greenhouse Gas Index"
+    url: "https://gml.noaa.gov/aggi/aggi.html"
+    publisher: "NOAA Global Monitoring Laboratory"
+order: 10
+updatedAt: "2026-11-15"
+---
+
+A planet that receives from the Sun exactly what it returns to space has a stable
+temperature. The whole of global warming lies in the fact that this equality has been
+broken for about a century and a half, by a little over one watt per square metre — a gap
+of around half a percent between what comes in and what goes out.
+
+The figure looks trivial. It is not, for a reason that is far from intuitive: it applies
+permanently, over the entire surface of the globe, and what it accumulates does not go
+away.
+
+## Where the energy goes
+
+<Mechanism name="stock-energie" />
+
+The first surprise, when you follow that energy, is that it barely goes where we feel it.
+Air is a poor heat reservoir: little is needed to warm it, and it holds no more than that.
+The ocean, for equal volume, has a heat capacity roughly a thousand times greater — and it
+is deep.
+
+The consequence: <Term id="contenu-thermique-de-l-ocean">ocean heat content</Term> is the
+least noisy measure of the imbalance. An El Niño year makes air temperature jump by a
+tenth or two of a degree, then fall back; the ocean rises without a jolt, because it
+integrates the imbalance rather than suffering it
+<Cite id="johnson-2020-warming-trends-increasingly-dominate-global" />.
+
+<Chart dataset="ocean-heat-content" kind="area" theme="chaleur" />
+
+This is why a headline such as "warming has paused" has been written several times about
+air temperature, and never about the ocean
+<Cite id="cheng-2024-new-record-ocean-temperatures-related" />.
+
+## A mean temperature that exists nowhere
+
+The quantity everybody quotes — "+1.2 °C since the pre-industrial era" — is not a direct
+measurement. No thermometer reads the mean temperature of the globe. What is built instead
+is an <Term id="anomalie-de-temperature">anomaly</Term>: station temperatures are not
+averaged, their departures from their own normal are.
+
+That shift is not a technicality. Absolute temperatures depend on altitude, on distance
+from the sea, on exposure; two stations ten kilometres apart can differ by several degrees
+permanently. Their anomalies, on the other hand, resemble one another across hundreds of
+kilometres, because a cold front cools everyone at once. That is what makes interpolation
+between stations legitimate.
+
+<Chart dataset="temperature-anomaly-gistemp" kind="area" theme="chaleur" />
+
+Arranged by decade, the same series says something the annual curve drowns in its own
+noise: no decade has been colder than the one before it since the 1960s.
+
+<DecadeBars dataset="temperature-anomaly-gistemp" from={1880} theme="chaleur" />
+
+## Land warms twice as fast
+
+The global mean has one flaw: nobody lives in it. Two thirds of the Earth's surface is
+ocean, which warms markedly more slowly than the continents — it spreads the heat it
+receives through a thick layer, and devotes a good part of it to evaporation.
+
+<Chart dataset="land-ocean-warming" kind="line" theme="chaleur" />
+
+The gap between the two curves is one of the reasons the global figure sits consistently
+below what people observe where they live. This is not a contradiction: it is the
+difference between a surface average and an experience lived on dry land.
+
+## What drives it: radiative forcing
+
+<Term id="forcage-radiatif">Radiative forcing</Term> is the direct measure of the
+imbalance imposed on the <Term id="bilan-radiatif">radiative balance</Term>, in watts per
+square metre. NOAA publishes it every year for long-lived greenhouse gases, from measured
+concentrations — not from a model.
+
+<Chart dataset="greenhouse-forcing-aggi" kind="area" theme="carbone" />
+
+<Callout variant="info" title="Why forcing alone does not predict the warming">
+Between the forcing and the final temperature sit the
+<Term id="retroaction-climatique">feedbacks</Term>: water vapour, which amplifies; clouds,
+whose sign was long uncertain; the melting of bright surfaces. Their sum is the
+<Term id="sensibilite-climatique">climate sensitivity</Term>, and it carries most of the
+remaining uncertainty. Its estimate was narrowed considerably by combining three
+independent families of constraints — process physics, the historical record, and
+palaeoclimates <Cite id="sherwood-2020-assessment-earths-climate-sensitivity-using" />.
+</Callout>
+
+## What is already committed
+
+One question keeps coming back: if all emissions stopped tomorrow, how much further would
+the Earth warm? Intuition says "a lot", since the ocean has not finished absorbing. The
+answer from models is more subtle: stopping emissions makes CO₂ concentration fall faster
+than the ocean gives its heat back, and the two effects largely cancel. The additional
+committed warming is on the order of a few hundredths of a degree, not a few tenths
+<Cite id="macdougall-2020-there-warming-pipeline-multi-model" />.
+
+That result has a direct political bearing, and it is one of the few firmly established
+pieces of good news in the field: the level at which warming stops depends essentially on
+what is emitted from now on, not on an inescapable inheritance.
+
+## What projections say, and what they do not
+
+End-of-century trajectories are not forecasts. They are answers to emission assumptions,
+and the spread between them measures a social choice first, not a scientific uncertainty.
+The constraint brought by the trend observed since 1970 narrows the high end appreciably,
+without changing the fact that most of the dispersion comes from the chosen scenario
+<Cite id="tokarska-2020-past-warming-trend-constrains-future" />.
+
+<Chart dataset="ssp-warming-projections" kind="line" theme="modelisation" height={340} />
+
+The annual stocktake of climate change indicators, which updates these quantities every
+year with the same method, is the safest entry point for following them
+<Cite id="forster-2026-indicators-global-climate-change-2025" />.

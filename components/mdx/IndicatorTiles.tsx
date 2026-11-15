@@ -1,6 +1,7 @@
 import { ArrowDownRight, ArrowRight, ArrowUpRight } from "lucide-react";
 import { Sparkline } from "@/components/dither-kit/sparkline";
 import { readSeries, type SeriesSummary } from "@/lib/content/series";
+import { unitFor } from "@/lib/content/datasets";
 import type { DitherColor } from "@/lib/content/chart-colors";
 import type { DomainHeadline } from "@/lib/content/schemas";
 import { formatDate } from "@/lib/format";
@@ -56,7 +57,7 @@ function tailMean(points: readonly { value: number }[], count: number): number {
  */
 function drift(spec: TileSpec, summary: SeriesSummary, lang: Lang) {
 	const { points, recentPerYear, perYear, min, max, dataset } = summary;
-	const unit = dataset.unit ?? "";
+	const unit = unitFor(dataset, lang);
 	const labels = getDictionary(lang).charts;
 	// Une série sans unité ne doit pas laisser d'espace double avant le libellé.
 	const join = (...parts: string[]) => parts.filter(Boolean).join(" ");
@@ -133,8 +134,10 @@ function Tile({
 					<span className="font-serif text-[1.75rem] font-semibold leading-none tabular">
 						{last.value.toFixed(decimals)}
 					</span>
-					{dataset.unit && (
-						<span className="ml-1.5 text-sm text-muted-foreground">{dataset.unit}</span>
+					{unitFor(summary.dataset, lang) && (
+						<span className="ml-1.5 text-sm text-muted-foreground">
+							{unitFor(summary.dataset, lang)}
+						</span>
 					)}
 				</p>
 				<p

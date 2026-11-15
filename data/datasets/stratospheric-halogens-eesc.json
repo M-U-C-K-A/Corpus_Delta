@@ -4,7 +4,10 @@
 		"fr": "Chlore stratosphérique effectif équivalent",
 		"en": "Equivalent effective stratospheric chlorine"
 	},
-	"unit": "ppt",
+	"unit": {
+		"fr": "ppt",
+		"en": "ppt"
+	},
 	"source": {
 		"label": "The NOAA Ozone Depleting Gas Index",
 		"url": "https://gml.noaa.gov/odgi/",

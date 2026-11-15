@@ -25,8 +25,9 @@ function componentsFor(lang: Lang) {
 	return {
 		Callout,
 		Figure,
-		// Figures isométriques : aucune langue à injecter, le texte est dans le dessin.
-		Mechanism,
+		Mechanism: (props: Omit<React.ComponentProps<typeof Mechanism>, "lang">) => (
+			<Mechanism {...props} lang={lang} />
+		),
 		DecadeBars: (props: Omit<React.ComponentProps<typeof DecadeBars>, "lang">) => (
 			<DecadeBars {...props} lang={lang} />
 		),

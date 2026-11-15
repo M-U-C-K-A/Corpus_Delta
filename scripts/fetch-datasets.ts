@@ -32,7 +32,7 @@ async function fetchText(url: string): Promise<string> {
 function noaaGas(config: {
 	id: string;
 	url: string;
-	unit: string;
+	unit: { fr: string; en: string };
 	key: string;
 	title: { fr: string; en: string };
 	seriesLabel: { fr: string; en: string };
@@ -70,7 +70,7 @@ function noaaGas(config: {
 const co2MaunaLoa = noaaGas({
 	id: "co2-mauna-loa",
 	url: "https://gml.noaa.gov/webdata/ccgg/trends/co2/co2_annmean_mlo.txt",
-	unit: "ppm",
+	unit: { fr: "ppm", en: "ppm" },
 	key: "co2",
 	title: {
 		fr: "Concentration atmosphérique de CO₂ à Mauna Loa",
@@ -88,7 +88,7 @@ const co2MaunaLoa = noaaGas({
 const methaneGlobal = noaaGas({
 	id: "methane-global",
 	url: "https://gml.noaa.gov/webdata/ccgg/trends/ch4/ch4_annmean_gl.txt",
-	unit: "ppb",
+	unit: { fr: "ppb", en: "ppb" },
 	key: "ch4",
 	title: {
 		fr: "Concentration atmosphérique de méthane",
@@ -106,7 +106,7 @@ const methaneGlobal = noaaGas({
 const nitrousOxideGlobal = noaaGas({
 	id: "nitrous-oxide-global",
 	url: "https://gml.noaa.gov/webdata/ccgg/trends/n2o/n2o_annmean_gl.txt",
-	unit: "ppb",
+	unit: { fr: "ppb", en: "ppb" },
 	key: "n2o",
 	title: {
 		fr: "Concentration atmosphérique de protoxyde d'azote",
@@ -144,7 +144,7 @@ async function temperatureAnomaly(): Promise<Dataset> {
 			fr: "Anomalie de température moyenne globale",
 			en: "Global mean temperature anomaly",
 		},
-		unit: "°C",
+		unit: { fr: "°C", en: "°C" },
 		note: {
 			fr: "Écart à la moyenne de la période de référence 1951-1980, surfaces terrestres et océaniques combinées.",
 			en: "Departure from the 1951-1980 reference period, combining land and ocean surfaces.",
@@ -194,7 +194,7 @@ async function sspWarmingProjections(): Promise<Dataset> {
 			fr: "Réchauffement projeté selon les scénarios SSP",
 			en: "Projected warming by SSP scenario",
 		},
-		unit: "°C",
+		unit: { fr: "°C", en: "°C" },
 		note: {
 			fr: `Médiane de ${members} modèles CMIP6, en écart à la moyenne 1850-1900 de chaque modèle. Le même ensemble sert aux quatre scénarios. Il s'agit de la dispersion brute de CMIP6, et non des fourchettes évaluées par le GIEC, qui sont plus resserrées.`,
 			en: `Median of ${members} CMIP6 models, as a departure from each model's own 1850-1900 mean. The same ensemble is used for all four scenarios. This is the raw CMIP6 spread, not the IPCC's assessed ranges, which are narrower.`,
@@ -269,7 +269,7 @@ async function arcticSeaIce(): Promise<Dataset> {
 			fr: "Étendue de la banquise arctique en septembre",
 			en: "Arctic sea ice extent in September",
 		},
-		unit: "10⁶ km²",
+		unit: { fr: "10⁶ km²", en: "10⁶ km²" },
 		note: {
 			fr: "Moyenne du mois de septembre, celui du minimum annuel. L'étendue compte toute surface couverte par au moins 15 % de glace ; elle recule moins vite que l'épaisseur, plus difficile à observer.",
 			en: "September mean, the month of the annual minimum. Extent counts any surface with at least 15 % ice cover; it declines more slowly than thickness, which is harder to observe.",
@@ -305,7 +305,7 @@ async function oceanHeatContent(): Promise<Dataset> {
 			fr: "Contenu thermique de l'océan mondial",
 			en: "Global ocean heat content",
 		},
-		unit: "10²² J",
+		unit: { fr: "10²² J", en: "10²² J" },
 		note: {
 			fr: "Chaleur accumulée dans les 2 000 premiers mètres, en écart à la moyenne 1955-2006. L'océan absorbe environ neuf dixièmes de l'excédent d'énergie du système climatique : c'est la mesure la moins bruitée du déséquilibre.",
 			en: "Heat accumulated in the top 2,000 metres, as a departure from the 1955-2006 mean. The ocean takes up around nine tenths of the climate system's energy surplus, making this the least noisy measure of the imbalance.",
@@ -362,7 +362,7 @@ async function seaLevel(): Promise<Dataset> {
 			fr: "Niveau marin moyen global",
 			en: "Global mean sea level",
 		},
-		unit: "mm",
+		unit: { fr: "mm", en: "mm" },
 		note: {
 			fr: "Écart au niveau de référence, mesuré par altimétrie satellitaire depuis 1993. Les valeurs fusionnent les missions successives, inter-calibrées entre elles. Aucune correction d'ajustement isostatique n'est appliquée.",
 			en: "Departure from the reference level, measured by satellite altimetry since 1993. Values merge the successive, mutually calibrated missions. No glacial isostatic adjustment is applied.",
@@ -400,7 +400,7 @@ async function greenhouseForcing(): Promise<Dataset> {
 			fr: "Forçage radiatif des gaz à effet de serre",
 			en: "Greenhouse gas radiative forcing",
 		},
-		unit: "W/m²",
+		unit: { fr: "W/m²", en: "W/m²" },
 		note: {
 			fr: "Somme du forçage exercé par les gaz à longue durée de vie — CO₂, méthane, protoxyde d'azote, halocarbures — par rapport à 1750. C'est la grandeur qui ramène tous ces gaz à une même unité physique.",
 			en: "Combined forcing from the long-lived gases — CO₂, methane, nitrous oxide, halocarbons — relative to 1750. This is the quantity that reduces all of them to a single physical unit.",
@@ -435,7 +435,7 @@ async function antarcticSeaIce(): Promise<Dataset> {
 			fr: "Étendue de la banquise antarctique en février",
 			en: "Antarctic sea ice extent in February",
 		},
-		unit: "10⁶ km²",
+		unit: { fr: "10⁶ km²", en: "10⁶ km²" },
 		note: {
 			fr: "Moyenne de février, mois du minimum annuel dans l'hémisphère sud. Contrairement à l'Arctique, l'Antarctique n'a montré aucune tendance nette jusqu'aux années 2010 : la rupture récente est d'autant plus remarquée.",
 			en: "February mean, the month of the southern hemisphere's annual minimum. Unlike the Arctic, Antarctica showed no clear trend until the 2010s, which is what makes the recent break so remarked upon.",
@@ -474,7 +474,7 @@ async function co2GrowthRate(): Promise<Dataset> {
 			fr: "Croissance annuelle du CO₂ atmosphérique",
 			en: "Annual growth of atmospheric CO₂",
 		},
-		unit: "ppm/an",
+		unit: { fr: "ppm/an", en: "ppm/yr" },
 		note: {
 			fr: "Augmentation de la concentration d'une année sur l'autre, moyenne globale. La concentration monte de toute façon : c'est sa dérivée qui indique si les émissions ralentissent. Elle n'est jamais passée sous zéro.",
 			en: "Year-on-year increase in concentration, global mean. Concentration rises regardless: it is its derivative that shows whether emissions are slowing. It has never fallen below zero.",
@@ -513,7 +513,7 @@ async function snowCover(): Promise<Dataset> {
 			fr: "Couverture neigeuse de l'hémisphère nord en mars",
 			en: "Northern hemisphere snow cover in March",
 		},
-		unit: "10⁶ km²",
+		unit: { fr: "10⁶ km²", en: "10⁶ km²" },
 		note: {
 			fr: "Surface des terres émergées couvertes de neige au mois de mars, fin de la saison d'accumulation. La série satellitaire commence en 1966 et compte parmi les plus longues de la cryosphère.",
 			en: "Land area under snow in March, the end of the accumulation season. The satellite record begins in 1966 and is among the longest in the cryosphere.",
@@ -533,7 +533,7 @@ async function snowCover(): Promise<Dataset> {
 const sulfurHexafluoride = noaaGas({
 	id: "sf6-global",
 	url: "https://gml.noaa.gov/webdata/ccgg/trends/sf6/sf6_annmean_gl.txt",
-	unit: "ppt",
+	unit: { fr: "ppt", en: "ppt" },
 	key: "sf6",
 	title: {
 		fr: "Concentration atmosphérique d'hexafluorure de soufre",
@@ -587,7 +587,7 @@ async function landOceanWarming(): Promise<Dataset> {
 			fr: "Réchauffement des terres et de l'océan",
 			en: "Land and ocean warming",
 		},
-		unit: "°C",
+		unit: { fr: "°C", en: "°C" },
 		note: {
 			fr: "Écarts annuels à la moyenne 1901-2000, mesurés séparément sur les terres émergées et à la surface de l'océan. Les terres se réchauffent environ deux fois plus vite : la mer répartit la chaleur reçue sur une couche bien plus épaisse, et en consacre une partie à l'évaporation. C'est pourquoi un chiffre global de réchauffement sous-estime toujours ce que connaissent les régions habitées.",
 			en: "Annual departures from the 1901-2000 mean, measured separately over land and at the ocean surface. Land warms about twice as fast: the sea spreads the heat it takes up through a far thicker layer, and spends part of it on evaporation. This is why a global warming figure always understates what inhabited regions experience.",
@@ -631,7 +631,7 @@ async function arcticSeaIceVolume(): Promise<Dataset> {
 			fr: "Volume de la banquise arctique en septembre",
 			en: "Arctic sea ice volume in September",
 		},
-		unit: "10³ km³",
+		unit: { fr: "10³ km³", en: "10³ km³" },
 		note: {
 			fr: "Volume au minimum annuel, reconstruit par le modèle PIOMAS contraint par les observations de concentration et les mesures d'épaisseur disponibles. L'étendue ne renseigne que la surface : à couverture égale, une banquise amincie contient bien moins de glace, et le volume recule plus vite que l'étendue. C'est une reconstruction, non une mesure directe.",
 			en: "Volume at the annual minimum, reconstructed by the PIOMAS model constrained by concentration observations and available thickness measurements. Extent reports surface only: at equal cover a thinned ice pack holds far less ice, and volume declines faster than extent. This is a reconstruction, not a direct measurement.",
@@ -693,7 +693,7 @@ async function ozoneDepletingGasIndex(): Promise<Dataset> {
 			fr: "Indice des gaz destructeurs d'ozone",
 			en: "Ozone-depleting gas index",
 		},
-		unit: "indice",
+		unit: { fr: "indice", en: "index" },
 		note: {
 			fr: "Charge en halogènes de la stratosphère, ramenée à une échelle où 100 est le maximum de la fin des années 1990 et 0 le niveau de 1980. Les deux courbes mesurent la même chose dans deux régions : l'air du vortex antarctique a séjourné plus longtemps en altitude, son indice décroît donc avec plusieurs années de retard sur celui des moyennes latitudes.",
 			en: "Stratospheric halogen loading, rescaled so that 100 is the late-1990s maximum and 0 the 1980 level. Both curves measure the same quantity in two regions: air in the Antarctic vortex has spent longer aloft, so its index declines several years behind the mid-latitude one.",
@@ -752,7 +752,7 @@ async function stratosphericHalogens(): Promise<Dataset> {
 			fr: "Chlore stratosphérique effectif équivalent",
 			en: "Equivalent effective stratospheric chlorine",
 		},
-		unit: "ppt",
+		unit: { fr: "ppt", en: "ppt" },
 		note: {
 			fr: "Chlore et brome réactifs présents dans la stratosphère, le brome pondéré par son efficacité destructrice, environ soixante fois celle du chlore. Les valeurs tiennent compte du temps mis par l'air troposphérique pour monter et se mélanger : c'est ce délai de transport qui explique l'écart entre l'Antarctique et les moyennes latitudes.",
 			en: "Reactive chlorine and bromine present in the stratosphere, bromine weighted by its destructive efficiency, roughly sixty times that of chlorine. Values account for the time tropospheric air takes to rise and mix: that transport lag is what separates the Antarctic from the mid-latitudes.",
@@ -835,7 +835,7 @@ async function tidalRangeBattery(): Promise<Dataset> {
 			fr: "Marnage moyen annuel à New York",
 			en: "Annual mean tidal range at New York",
 		},
-		unit: "cm",
+		unit: { fr: "cm", en: "cm" },
 		note: {
 			fr: `Écart moyen entre pleine et basse mer au marégraphe de ${BATTERY.name}, et niveau moyen de la mer au même point. Le marnage oscille avec une période de 18,6 ans : c'est le cycle nodal lunaire, la lente rotation du plan de l'orbite de la Lune, qui fait varier l'amplitude de la force de marée. Seules les années de douze mois complets sont retenues. Valeurs converties en centimètres.`,
 			en: `Mean difference between high and low water at the ${BATTERY.name} tide gauge, with mean sea level at the same point. The range oscillates with an 18.6-year period: the lunar nodal cycle, the slow rotation of the Moon's orbital plane, which modulates the amplitude of the tidal force. Only years with twelve complete months are kept. Values converted to centimetres.`,
@@ -897,7 +897,7 @@ async function highTideFloodingBattery(): Promise<Dataset> {
 			fr: "Jours de submersion à marée haute à New York",
 			en: "High tide flooding days at New York",
 		},
-		unit: "jours",
+		unit: { fr: "jours", en: "days" },
 		note: {
 			fr: `Nombre de jours par an où la marée haute dépasse le seuil de submersion mineure au marégraphe de ${BATTERY.name}. Le seuil est fixe et la marée astronomique n'a pas changé : c'est le niveau moyen de la mer qui monte sous elle. Une élévation régulière produit ainsi une montée de plus en plus rapide du nombre de jours concernés. L'année portée est l'année météorologique, de mai à avril, telle que la compte le NOAA ; les années dont le relevé couvre moins de 80 % des jours sont écartées. Le décompte varie beaucoup d'une année à l'autre, au gré des tempêtes et d'El Niño : c'est la moyenne par décennie qui porte la tendance.`,
 			en: `Days per year when high tide exceeds the minor flooding threshold at the ${BATTERY.name} tide gauge. The threshold is fixed and the astronomical tide is unchanged: it is mean sea level that rises beneath it. A steady rise therefore produces an ever faster increase in the number of days affected. Years are NOAA meteorological years, running May to April; years whose record covers less than 80 % of days are dropped. The count swings widely from year to year with storms and El Niño: the decadal mean is what carries the trend.`,

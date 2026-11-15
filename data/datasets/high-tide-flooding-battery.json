@@ -4,7 +4,10 @@
 		"fr": "Jours de submersion à marée haute à New York",
 		"en": "High tide flooding days at New York"
 	},
-	"unit": "jours",
+	"unit": {
+		"fr": "jours",
+		"en": "days"
+	},
 	"source": {
 		"label": "High Tide Flooding — Annual Flood Count",
 		"url": "https://tidesandcurrents.noaa.gov/high-tide-flooding/",

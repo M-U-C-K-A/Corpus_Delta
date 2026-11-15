@@ -1,5 +1,6 @@
 import { arc, boundsOf, frame, heading, path, plate, project } from "@/lib/iso";
 import { Block, Head, IsoFigure, Runner, Tag, toneVars } from "@/components/iso/Figure";
+import type { Lang } from "@/lib/i18n/config";
 
 /**
  * Où va l'énergie que la Terre ne renvoie plus.
@@ -14,11 +15,39 @@ import { Block, Head, IsoFigure, Runner, Tag, toneVars } from "@/components/iso/
  */
 
 const STORES = [
-	{ key: "ocean", sub: "OCÉAN · 0-2000 m", share: 91, tone: "blue" as const },
-	{ key: "land", sub: "TERRES · sols", share: 5, tone: "amber" as const },
-	{ key: "ice", sub: "GLACE · fonte", share: 3, tone: "cyan" as const },
-	{ key: "air", sub: "AIR · ce qu'on sent", share: 1, tone: "red" as const },
+	{ key: "ocean", share: 91, tone: "blue" as const },
+	{ key: "land", share: 5, tone: "amber" as const },
+	{ key: "ice", share: 3, tone: "cyan" as const },
+	{ key: "air", share: 1, tone: "red" as const },
 ];
+
+/* Voir `Greenhouse`. Les parts sont des données ; seuls leurs libellés changent. */
+const COPY = {
+	fr: {
+		title:
+			"Diagramme isométrique des parts de l'excédent d'énergie terrestre : l'océan en absorbe 91 %, les terres 5 %, la fonte des glaces 3 %, l'atmosphère 1 %.",
+		caption: "Le réchauffement que nous ressentons est le centième du problème.",
+		description:
+			"Hauteurs et nombre de mobiles proportionnels aux parts mesurées. La colonne de droite, l'air, est la seule dont nous ayons l'expérience directe. Parts du GIEC, inventaire énergétique 1971-2018.",
+		surplus: "excédent d'énergie du système",
+		ocean: "OCÉAN · 0-2000 m",
+		land: "TERRES · sols",
+		ice: "GLACE · fonte",
+		air: "AIR · ce qu'on sent",
+	},
+	en: {
+		title:
+			"Isometric chart of the shares of Earth's energy surplus: the ocean takes up 91%, land 5%, melting ice 3%, the atmosphere 1%.",
+		caption: "The warming we feel is one hundredth of the problem.",
+		description:
+			"Heights and runner counts are proportional to the measured shares. The right-hand column, the air, is the only one we experience directly. IPCC shares, 1971–2018 energy inventory.",
+		surplus: "system energy surplus",
+		ocean: "OCEAN · 0-2000 m",
+		land: "LAND · soils",
+		ice: "ICE · melt",
+		air: "AIR · what we feel",
+	},
+} satisfies Record<Lang, Record<string, string>>;
 
 /** Échelle : la part la plus haute occupe 108 unités de hauteur. */
 const SCALE = 108 / 91;
@@ -65,12 +94,14 @@ const VIEW = frame(
 	16
 );
 
-export function EnergyStoreFigure() {
+export function EnergyStoreFigure({ lang }: { lang: Lang }) {
+	const t = COPY[lang];
+
 	return (
 		<IsoFigure
-			title="Diagramme isométrique des parts de l'excédent d'énergie terrestre : l'océan en absorbe 91 %, les terres 5 %, la fonte des glaces 3 %, l'atmosphère 1 %."
-			caption="Le réchauffement que nous ressentons est le centième du problème."
-			description="Hauteurs et nombre de mobiles proportionnels aux parts mesurées. La colonne de droite, l'air, est la seule dont nous ayons l'expérience directe. Parts du GIEC, inventaire énergétique 1971-2018."
+			title={t.title}
+			caption={t.caption}
+			description={t.description}
 			viewBox={VIEW.viewBox}
 			maxWidth={700}
 		>
@@ -108,7 +139,7 @@ export function EnergyStoreFigure() {
 					slab={column.slab}
 					tone={column.tone}
 					label={`${column.share} %`}
-					sub={column.sub}
+					sub={t[column.key as keyof typeof t]}
 					labelSize={10}
 					labelDy={-5}
 				/>
@@ -120,7 +151,7 @@ export function EnergyStoreFigure() {
 				tone="slate"
 				width={92}
 			>
-				excédent d&apos;énergie du système
+				{t.surplus}
 			</Tag>
 		</IsoFigure>
 	);

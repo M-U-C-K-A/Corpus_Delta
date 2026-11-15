@@ -4,7 +4,10 @@
 		"fr": "Croissance annuelle du CO₂ atmosphérique",
 		"en": "Annual growth of atmospheric CO₂"
 	},
-	"unit": "ppm/an",
+	"unit": {
+		"fr": "ppm/an",
+		"en": "ppm/yr"
+	},
 	"source": {
 		"label": "Trends in Atmospheric Carbon Dioxide — Growth Rate",
 		"url": "https://gml.noaa.gov/ccgg/trends/gl_gr.html",

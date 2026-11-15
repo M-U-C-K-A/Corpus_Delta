@@ -1,5 +1,36 @@
 import { arc, boundsOf, frame, heading, path, plate, project, ring } from "@/lib/iso";
 import { Block, Head, IsoFigure, Runner, Tag, toneVars } from "@/components/iso/Figure";
+import type { Lang } from "@/lib/i18n/config";
+
+/* Voir `Greenhouse` : les libellés d'une figure vivent à côté de son dessin. */
+const COPY = {
+	fr: {
+		title:
+			"Schéma de la couche d'ozone : l'ultraviolet solaire est absorbé par l'ozone stratosphérique, tandis qu'un atome de chlore issu des CFC détruit l'ozone en boucle sans être consommé.",
+		caption: "Pourquoi quelques CFC ont suffi.",
+		description:
+			"La boucle violette est le point de la figure : l'atome de chlore en ressort tel qu'il y est entré, et recommence. Les pastilles bleues sont les molécules d'ozone, détruites et reformées en permanence.",
+		ground: "TROPOSPHÈRE",
+		groundSub: "sol · émissions",
+		layer: "STRATOSPHÈRE",
+		layerSub: "couche d'ozone",
+		through: "ce qui passe",
+		cfc: "CFC · 50 ans",
+	},
+	en: {
+		title:
+			"Diagram of the ozone layer: solar ultraviolet is absorbed by stratospheric ozone, while a chlorine atom released by CFCs destroys ozone in a loop without being consumed.",
+		caption: "Why a handful of CFCs was enough.",
+		description:
+			"The violet loop is the point of the figure: the chlorine atom leaves the reaction exactly as it entered it, and starts again. The blue dots are ozone molecules, destroyed and reformed continuously.",
+		ground: "TROPOSPHERE",
+		groundSub: "surface · emissions",
+		layer: "STRATOSPHERE",
+		layerSub: "ozone layer",
+		through: "what gets through",
+		cfc: "CFCs · 50 years",
+	},
+} satisfies Record<Lang, Record<string, string>>;
 
 /**
  * La couche d'ozone et sa destruction catalytique.
@@ -51,16 +82,18 @@ const VIEW = frame(
 	14
 );
 
-export function OzoneFigure() {
+export function OzoneFigure({ lang }: { lang: Lang }) {
+	const t = COPY[lang];
+
 	return (
 		<IsoFigure
-			title="Schéma de la couche d'ozone : l'ultraviolet solaire est absorbé par l'ozone stratosphérique, tandis qu'un atome de chlore issu des CFC détruit l'ozone en boucle sans être consommé."
-			caption="Pourquoi quelques CFC ont suffi."
-			description="La boucle violette est le point de la figure : l'atome de chlore en ressort tel qu'il y est entré, et recommence. Les pastilles bleues sont les molécules d'ozone, détruites et reformées en permanence."
+			title={t.title}
+			caption={t.caption}
+			description={t.description}
 			viewBox={VIEW.viewBox}
 			maxWidth={620}
 		>
-			<Block slab={GROUND} tone="green" label="TROPOSPHÈRE" sub="sol · émissions" labelDy={4} />
+			<Block slab={GROUND} tone="green" label={t.ground} sub={t.groundSub} labelDy={4} />
 
 			{/* Le CFC monte : lent, parce que la montée prend des années. */}
 			<g style={toneVars("violet")}>
@@ -75,7 +108,7 @@ export function OzoneFigure() {
 			</g>
 			<Runner d={LEAK} tone="amber" count={1} duration={6.4} radius={1.4} />
 
-			<Block slab={LAYER} tone="cyan" label="STRATOSPHÈRE" sub="couche d'ozone" labelDy={4} glass />
+			<Block slab={LAYER} tone="cyan" label={t.layer} sub={t.layerSub} labelDy={4} glass />
 
 			{/* Les molécules d'ozone clignotent : détruites, reformées, à l'équilibre. */}
 			<g style={toneVars("cyan")}>
@@ -111,10 +144,10 @@ export function OzoneFigure() {
 				UV-B
 			</Tag>
 			<Tag x={leakTo[0] - 2} y={(uvHit[1] + leakTo[1]) / 2} tone="amber">
-				ce qui passe
+				{t.through}
 			</Tag>
 			<Tag x={cfcFrom[0]} y={cfcFrom[1] - 54} tone="violet">
-				CFC · 50 ans
+				{t.cfc}
 			</Tag>
 		</IsoFigure>
 	);

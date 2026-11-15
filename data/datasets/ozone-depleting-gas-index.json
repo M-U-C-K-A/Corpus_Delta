@@ -4,7 +4,10 @@
 		"fr": "Indice des gaz destructeurs d'ozone",
 		"en": "Ozone-depleting gas index"
 	},
-	"unit": "indice",
+	"unit": {
+		"fr": "indice",
+		"en": "index"
+	},
 	"source": {
 		"label": "The NOAA Ozone Depleting Gas Index",
 		"url": "https://gml.noaa.gov/odgi/",
