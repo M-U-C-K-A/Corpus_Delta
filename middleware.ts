@@ -5,6 +5,13 @@ import { DEFAULT_LANG, LANGS } from "@/lib/i18n/config";
  * Toute URL publique porte son préfixe de langue. Les adresses sans préfixe sont
  * redirigées vers la langue par défaut plutôt que servies en double, ce qui
  * évite d'indexer deux fois la même page.
+ *
+ * La redirection est permanente (308) et non temporaire : `/` est l'adresse que
+ * tout le monde partage et celle que les moteurs visitent en premier. Avec un
+ * 307, ils gardent `/` comme URL de référence et ne transfèrent pas à `/fr` les
+ * signaux accumulés dessus — liens entrants compris. Le 308 l'énonce une fois
+ * pour toutes, et préserve la méthode HTTP là où un 301 autoriserait un POST à
+ * devenir un GET.
  */
 export function middleware(request: NextRequest) {
 	const { pathname } = request.nextUrl;
@@ -16,7 +23,7 @@ export function middleware(request: NextRequest) {
 
 	const url = request.nextUrl.clone();
 	url.pathname = `/${DEFAULT_LANG}${pathname === "/" ? "" : pathname}`;
-	return NextResponse.redirect(url);
+	return NextResponse.redirect(url, 308);
 }
 
 export const config = {

@@ -5,7 +5,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 import { SiteHeader } from "@/components/site/SiteHeader";
 import { SiteFooter } from "@/components/site/SiteFooter";
 import { siteConfig } from "@/lib/site-config";
-import { LANGS, isLang, type Lang } from "@/lib/i18n/config";
+import { DEFAULT_LANG, LANGS, isLang, type Lang } from "@/lib/i18n/config";
 import { getDictionary } from "@/lib/i18n/dictionaries";
 import { homeRoute } from "@/lib/routes";
 import "../globals.css";
@@ -54,9 +54,22 @@ export async function generateMetadata({
 		applicationName: siteConfig.name,
 		alternates: {
 			canonical: homeRoute(lang),
-			languages: Object.fromEntries(LANGS.map((l) => [l, homeRoute(l)])),
+			languages: {
+				...Object.fromEntries(LANGS.map((l) => [l, homeRoute(l)])),
+				// Voir `pageMetadata` : la version servie à qui ne demande ni l'une ni l'autre.
+				"x-default": homeRoute(DEFAULT_LANG),
+			},
 			types: { "application/rss+xml": `/${lang}/rss.xml` },
 		},
+		/*
+		  Google Search Console propose plusieurs preuves de propriété ; la balise
+		  meta est la seule qui n'exige pas d'accès au DNS. Le jeton arrive par
+		  variable d'environnement pour ne pas figurer dans un dépôt public : le
+		  définir dans le projet Vercel suffit, sans toucher au code.
+		*/
+		verification: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION
+			? { google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION }
+			: undefined,
 		openGraph: {
 			type: "website",
 			locale: lang === "fr" ? "fr_FR" : "en_GB",

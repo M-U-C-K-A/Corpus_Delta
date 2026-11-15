@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { LANGS, type Lang } from "@/lib/i18n/config";
+import { DEFAULT_LANG, LANGS, type Lang } from "@/lib/i18n/config";
 import { route, type Section } from "@/lib/routes";
 import { siteConfig } from "@/lib/site-config";
 
@@ -35,6 +35,9 @@ export function pageMetadata({
 	modifiedTime?: string;
 }): Metadata {
 	const canonical = route(lang, section, ...segments);
+	const translations = Object.fromEntries(
+		LANGS.map((l) => [l, route(l, section, ...segments)])
+	);
 	const shared = {
 		title,
 		description,
@@ -48,7 +51,16 @@ export function pageMetadata({
 		description,
 		alternates: {
 			canonical,
-			languages: Object.fromEntries(LANGS.map((l) => [l, route(l, section, ...segments)])),
+			languages: {
+				...translations,
+				/*
+				  `x-default` désigne la version à servir quand la langue du visiteur
+				  ne correspond à aucune de celles déclarées. Sans elle, un moteur
+				  choisit lui-même, et traite souvent les deux versions comme des
+				  doublons concurrents au lieu d'un même contenu en deux langues.
+				*/
+				"x-default": translations[DEFAULT_LANG],
+			},
 			// Déclaré par le layout, mais `alternates` est lui aussi remplacé et non
 			// fusionné : sans cette ligne, les pages perdraient le lien vers le flux.
 			types: { "application/rss+xml": `/${lang}/rss.xml` },

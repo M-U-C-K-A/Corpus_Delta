@@ -14,7 +14,7 @@ import { THEME_IDS, themeHue, themeLabel, type ThemeId } from "@/lib/content/tax
 import { getDictionary, interpolate } from "@/lib/i18n/dictionaries";
 import { DEFAULT_LANG, isLang } from "@/lib/i18n/config";
 import { formatNumber } from "@/lib/format";
-import { route } from "@/lib/routes";
+import { absoluteUrl, route } from "@/lib/routes";
 import { siteConfig } from "@/lib/site-config";
 
 /** Séries mises en avant sur l'accueil, avec leur précision d'affichage. */
@@ -52,8 +52,34 @@ export default function HomePage({ params }: { params: { lang: string } }) {
 		return last ? { config, dataset, value: last[key], year: last.year } : null;
 	}).filter((item): item is NonNullable<typeof item> => item !== null);
 
+	/*
+	  L'accueil est la porte d'entrée des moteurs de recherche. Ce bloc leur dit
+	  d'emblée ce que le reste du site ne peut que leur laisser deviner : le nom
+	  sous lequel l'afficher, et la personne qui en répond. Sans lui, un nom de
+	  domaine en .vercel.app ne suggère aucun titre, et les résultats reprennent
+	  la première ligne de texte trouvée.
+	*/
+	const jsonLd = {
+		"@context": "https://schema.org",
+		"@type": "WebSite",
+		name: siteConfig.name,
+		alternateName: `${siteConfig.name} — ${siteConfig.tagline[lang]}`,
+		url: absoluteUrl(siteConfig.url, route(lang)),
+		description: siteConfig.description[lang],
+		inLanguage: lang,
+		author: {
+			"@type": "Person",
+			name: siteConfig.author.name,
+			url: absoluteUrl(siteConfig.url, route(lang, "author")),
+			sameAs: [siteConfig.author.github],
+		},
+		publisher: { "@type": "Organization", name: siteConfig.name },
+	};
+
 	return (
 		<>
+			<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+
 			<section className="relative overflow-hidden border-b border-border">
 				<DitherSurface />
 				<div className="container relative py-16 md:py-24">

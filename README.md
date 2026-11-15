@@ -184,6 +184,38 @@ métadonnées sont indépendantes de la langue. Tant qu'un contenu rédactionnel
 traduit, la page anglaise affiche le français en le signalant explicitement, plutôt que de
 renvoyer une page vide.
 
+## Référencement
+
+Tout ce qui relève du code est en place : `robots.txt` autorise l'ensemble du site et
+déclare le sitemap, `sitemap.xml` liste les 574 URLs publiques avec leurs équivalents dans
+l'autre langue, chaque page porte une balise canonique absolue et ses `hreflang` — dont
+`x-default` —, l'accueil, les études et les termes du glossaire portent des données
+structurées schema.org, et `/` redirige en 308 vers la langue par défaut. Le rendu est
+statique : un robot reçoit le texte complet dans la réponse HTML, sans exécuter de
+JavaScript.
+
+Rien de tout cela ne suffit à être indexé. Un moteur n'indexe que ce qu'il a trouvé, et
+il ne trouve un site neuf que par un lien entrant ou par une déclaration explicite. Les
+deux démarches à faire une fois, hors du dépôt :
+
+1. **Google Search Console** — créer une propriété pour l'URL du site, y soumettre
+   `/sitemap.xml`, puis demander l'indexation de l'accueil. C'est la seule voie qui
+   n'attend pas que le robot passe de lui-même.
+2. **Bing Webmaster Tools** — même démarche. L'outil importe une propriété Search Console
+   existante, ce qui évite de tout refaire.
+
+La preuve de propriété par balise meta se fait sans toucher au code : définir
+`NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION` dans les variables d'environnement du déploiement
+avec le jeton fourni par Search Console, et redéployer. Le jeton n'a donc pas à figurer
+dans un dépôt public.
+
+Dernier point, qui n'est pas technique : un sous-domaine en `.vercel.app` part de zéro.
+`vercel.app` figure sur la *Public Suffix List*, ce qui veut dire que chaque sous-domaine
+est traité comme un site indépendant — il n'hérite d'aucune réputation, et il en partage
+l'adresse avec un très grand nombre de déploiements de test. Un nom de domaine propre
+change nettement la donne, et ne demande que de définir `NEXT_PUBLIC_SITE_URL` : toutes les
+URLs absolues du site en découlent.
+
 ## Licence
 
 MIT, voir [LICENSE](LICENSE).
