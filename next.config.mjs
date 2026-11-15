@@ -41,12 +41,14 @@ const nextConfig = {
 			"/[lang]/paths/[slug]/opengraph-image": ["./content/**/*"],
 			"/[lang]/studies/[id]/opengraph-image": ["./content/**/*"],
 			"/[lang]/topics/[slug]/opengraph-image": ["./content/**/*"],
+			"/[lang]/indicators/[domain]/opengraph-image": ["./content/**/*"],
 			"/[lang]/themes/[theme]/opengraph-image": ["./content/**/*"],
 			// Mêmes contraintes pour les icônes d'onglet, qui lisent le thème du contenu.
 			"/[lang]/glossary/[term]/icon": ["./content/**/*"],
 			"/[lang]/paths/[slug]/icon": ["./content/**/*"],
 			"/[lang]/studies/[id]/icon": ["./content/**/*"],
 			"/[lang]/topics/[slug]/icon": ["./content/**/*"],
+			"/[lang]/indicators/[domain]/icon": ["./content/**/*"],
 		},
 	},
 };

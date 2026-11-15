@@ -1,0 +1,413 @@
+{
+	"id": "high-tide-flooding-battery",
+	"title": {
+		"fr": "Jours de submersion à marée haute à New York",
+		"en": "High tide flooding days at New York"
+	},
+	"unit": "jours",
+	"source": {
+		"label": "High Tide Flooding — Annual Flood Count",
+		"url": "https://tidesandcurrents.noaa.gov/high-tide-flooding/",
+		"publisher": "NOAA Center for Operational Oceanographic Products and Services",
+		"accessedAt": "2026-11-15"
+	},
+	"note": {
+		"fr": "Nombre de jours par an où la marée haute dépasse le seuil de submersion mineure au marégraphe de The Battery, New York. Le seuil est fixe et la marée astronomique n'a pas changé : c'est le niveau moyen de la mer qui monte sous elle. Une élévation régulière produit ainsi une montée de plus en plus rapide du nombre de jours concernés. L'année portée est l'année météorologique, de mai à avril, telle que la compte le NOAA ; les années dont le relevé couvre moins de 80 % des jours sont écartées. Le décompte varie beaucoup d'une année à l'autre, au gré des tempêtes et d'El Niño : c'est la moyenne par décennie qui porte la tendance.",
+		"en": "Days per year when high tide exceeds the minor flooding threshold at the The Battery, New York tide gauge. The threshold is fixed and the astronomical tide is unchanged: it is mean sea level that rises beneath it. A steady rise therefore produces an ever faster increase in the number of days affected. Years are NOAA meteorological years, running May to April; years whose record covers less than 80 % of days are dropped. The count swings widely from year to year with storms and El Niño: the decadal mean is what carries the trend."
+	},
+	"series": [
+		{
+			"key": "days",
+			"label": {
+				"fr": "Jours de submersion",
+				"en": "Flooding days"
+			}
+		}
+	],
+	"rows": [
+		{
+			"year": 1921,
+			"days": 0
+		},
+		{
+			"year": 1927,
+			"days": 1
+		},
+		{
+			"year": 1928,
+			"days": 0
+		},
+		{
+			"year": 1929,
+			"days": 0
+		},
+		{
+			"year": 1930,
+			"days": 0
+		},
+		{
+			"year": 1931,
+			"days": 2
+		},
+		{
+			"year": 1932,
+			"days": 3
+		},
+		{
+			"year": 1933,
+			"days": 2
+		},
+		{
+			"year": 1934,
+			"days": 0
+		},
+		{
+			"year": 1935,
+			"days": 1
+		},
+		{
+			"year": 1936,
+			"days": 0
+		},
+		{
+			"year": 1937,
+			"days": 1
+		},
+		{
+			"year": 1938,
+			"days": 1
+		},
+		{
+			"year": 1939,
+			"days": 0
+		},
+		{
+			"year": 1940,
+			"days": 0
+		},
+		{
+			"year": 1941,
+			"days": 0
+		},
+		{
+			"year": 1942,
+			"days": 0
+		},
+		{
+			"year": 1943,
+			"days": 3
+		},
+		{
+			"year": 1944,
+			"days": 2
+		},
+		{
+			"year": 1945,
+			"days": 1
+		},
+		{
+			"year": 1946,
+			"days": 0
+		},
+		{
+			"year": 1947,
+			"days": 2
+		},
+		{
+			"year": 1948,
+			"days": 0
+		},
+		{
+			"year": 1949,
+			"days": 0
+		},
+		{
+			"year": 1950,
+			"days": 3
+		},
+		{
+			"year": 1951,
+			"days": 1
+		},
+		{
+			"year": 1952,
+			"days": 0
+		},
+		{
+			"year": 1953,
+			"days": 2
+		},
+		{
+			"year": 1954,
+			"days": 1
+		},
+		{
+			"year": 1955,
+			"days": 4
+		},
+		{
+			"year": 1956,
+			"days": 0
+		},
+		{
+			"year": 1957,
+			"days": 0
+		},
+		{
+			"year": 1959,
+			"days": 3
+		},
+		{
+			"year": 1960,
+			"days": 3
+		},
+		{
+			"year": 1961,
+			"days": 7
+		},
+		{
+			"year": 1962,
+			"days": 4
+		},
+		{
+			"year": 1963,
+			"days": 0
+		},
+		{
+			"year": 1964,
+			"days": 0
+		},
+		{
+			"year": 1965,
+			"days": 0
+		},
+		{
+			"year": 1966,
+			"days": 2
+		},
+		{
+			"year": 1967,
+			"days": 2
+		},
+		{
+			"year": 1968,
+			"days": 2
+		},
+		{
+			"year": 1969,
+			"days": 2
+		},
+		{
+			"year": 1970,
+			"days": 2
+		},
+		{
+			"year": 1971,
+			"days": 1
+		},
+		{
+			"year": 1972,
+			"days": 4
+		},
+		{
+			"year": 1973,
+			"days": 2
+		},
+		{
+			"year": 1974,
+			"days": 0
+		},
+		{
+			"year": 1975,
+			"days": 0
+		},
+		{
+			"year": 1976,
+			"days": 1
+		},
+		{
+			"year": 1978,
+			"days": 4
+		},
+		{
+			"year": 1979,
+			"days": 5
+		},
+		{
+			"year": 1980,
+			"days": 3
+		},
+		{
+			"year": 1981,
+			"days": 1
+		},
+		{
+			"year": 1982,
+			"days": 0
+		},
+		{
+			"year": 1983,
+			"days": 4
+		},
+		{
+			"year": 1984,
+			"days": 1
+		},
+		{
+			"year": 1985,
+			"days": 2
+		},
+		{
+			"year": 1986,
+			"days": 1
+		},
+		{
+			"year": 1987,
+			"days": 1
+		},
+		{
+			"year": 1988,
+			"days": 1
+		},
+		{
+			"year": 1989,
+			"days": 2
+		},
+		{
+			"year": 1990,
+			"days": 2
+		},
+		{
+			"year": 1991,
+			"days": 2
+		},
+		{
+			"year": 1992,
+			"days": 6
+		},
+		{
+			"year": 1993,
+			"days": 4
+		},
+		{
+			"year": 1994,
+			"days": 2
+		},
+		{
+			"year": 1995,
+			"days": 2
+		},
+		{
+			"year": 1996,
+			"days": 6
+		},
+		{
+			"year": 1998,
+			"days": 5
+		},
+		{
+			"year": 1999,
+			"days": 1
+		},
+		{
+			"year": 2000,
+			"days": 2
+		},
+		{
+			"year": 2002,
+			"days": 2
+		},
+		{
+			"year": 2003,
+			"days": 7
+		},
+		{
+			"year": 2005,
+			"days": 7
+		},
+		{
+			"year": 2006,
+			"days": 5
+		},
+		{
+			"year": 2007,
+			"days": 6
+		},
+		{
+			"year": 2008,
+			"days": 5
+		},
+		{
+			"year": 2009,
+			"days": 9
+		},
+		{
+			"year": 2010,
+			"days": 9
+		},
+		{
+			"year": 2011,
+			"days": 14
+		},
+		{
+			"year": 2012,
+			"days": 8
+		},
+		{
+			"year": 2013,
+			"days": 5
+		},
+		{
+			"year": 2014,
+			"days": 7
+		},
+		{
+			"year": 2015,
+			"days": 4
+		},
+		{
+			"year": 2016,
+			"days": 10
+		},
+		{
+			"year": 2017,
+			"days": 14
+		},
+		{
+			"year": 2018,
+			"days": 16
+		},
+		{
+			"year": 2019,
+			"days": 9
+		},
+		{
+			"year": 2020,
+			"days": 11
+		},
+		{
+			"year": 2021,
+			"days": 12
+		},
+		{
+			"year": 2022,
+			"days": 13
+		},
+		{
+			"year": 2023,
+			"days": 12
+		},
+		{
+			"year": 2024,
+			"days": 26
+		},
+		{
+			"year": 2025,
+			"days": 7
+		},
+		{
+			"year": 2026,
+			"days": 3
+		}
+	]
+}

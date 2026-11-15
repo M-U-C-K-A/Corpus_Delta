@@ -55,6 +55,7 @@ export function SiteHeader({ lang }: { lang: Lang }) {
 								study: dict.search.groupStudies,
 								glossary: dict.search.groupGlossary,
 								topic: dict.search.groupTopics,
+								domain: dict.search.groupDomains,
 								path: dict.search.groupPaths,
 							},
 							hintNavigate: dict.search.hintNavigate,

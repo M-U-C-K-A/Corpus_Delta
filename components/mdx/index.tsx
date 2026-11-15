@@ -6,6 +6,9 @@ import rehypeKatex from "rehype-katex";
 import rehypeAutolinkHeadings from "rehype-autolink-headings";
 import { Callout } from "@/components/mdx/Callout";
 import { Chart } from "@/components/mdx/Chart";
+import { DecadeBars } from "@/components/mdx/DecadeBars";
+import { Indicators } from "@/components/mdx/IndicatorTiles";
+import { Mechanism } from "@/components/iso/registry";
 import { Cite } from "@/components/mdx/Cite";
 import { DataTable } from "@/components/mdx/DataTable";
 import { Figure } from "@/components/mdx/Figure";
@@ -22,6 +25,14 @@ function componentsFor(lang: Lang) {
 	return {
 		Callout,
 		Figure,
+		// Figures isométriques : aucune langue à injecter, le texte est dans le dessin.
+		Mechanism,
+		DecadeBars: (props: Omit<React.ComponentProps<typeof DecadeBars>, "lang">) => (
+			<DecadeBars {...props} lang={lang} />
+		),
+		Indicators: (props: Omit<React.ComponentProps<typeof Indicators>, "lang">) => (
+			<Indicators {...props} lang={lang} />
+		),
 		Chart: (props: Omit<React.ComponentProps<typeof Chart>, "lang">) => <Chart {...props} lang={lang} />,
 		DataTable: (props: Omit<React.ComponentProps<typeof DataTable>, "lang">) => (
 			<DataTable {...props} lang={lang} />

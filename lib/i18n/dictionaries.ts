@@ -184,6 +184,12 @@ const fr = {
 		levelsNever: "médiane non définie : au plus la moitié des modèles franchissent ce palier",
 		levelsModelOne: "modèle sur",
 		levelsModels: "modèles sur",
+		domainsTitle: "Entrer par un domaine",
+		domainsLead:
+			"Quatre mécanismes du système climatique, chacun pris par les grandeurs qui le mesurent et le schéma qui l'explique.",
+		domainsCta: "Ouvrir le dossier",
+		otherDomains: "Autres domaines",
+		domainSeries: "séries suivies",
 	},
 	paths: {
 		title: "Parcours",
@@ -211,6 +217,7 @@ const fr = {
 		groupStudies: "Études",
 		groupGlossary: "Glossaire",
 		groupTopics: "Dossiers",
+		groupDomains: "Domaines",
 		groupPaths: "Parcours",
 		hintNavigate: "naviguer",
 		hintSelect: "ouvrir",
@@ -433,6 +440,12 @@ const en: Dictionary = {
 		levelsNever: "no median: at most half the models cross this level",
 		levelsModelOne: "model out of",
 		levelsModels: "models out of",
+		domainsTitle: "Start from a domain",
+		domainsLead:
+			"Four mechanisms of the climate system, each approached through the quantities that measure it and the diagram that explains it.",
+		domainsCta: "Open the dossier",
+		otherDomains: "Other domains",
+		domainSeries: "series tracked",
 	},
 	paths: {
 		title: "Reading paths",
@@ -460,6 +473,7 @@ const en: Dictionary = {
 		groupStudies: "Studies",
 		groupGlossary: "Glossary",
 		groupTopics: "Briefs",
+		groupDomains: "Domains",
 		groupPaths: "Paths",
 		hintNavigate: "navigate",
 		hintSelect: "open",

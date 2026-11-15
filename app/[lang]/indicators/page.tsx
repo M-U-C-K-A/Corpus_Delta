@@ -1,10 +1,14 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ArrowUpRight, TriangleAlert, TrendingUp } from "lucide-react";
+import { ArrowRight, ArrowUpRight, TriangleAlert, TrendingUp } from "lucide-react";
 import { ChartCanvas, type ChartKind } from "@/components/mdx/ChartCanvas";
 import type { DitherColor } from "@/lib/content/chart-colors";
-import { DitherSurface } from "@/components/site/Dither";
+import { DitherBand, DitherSurface } from "@/components/site/Dither";
+import { getDomains } from "@/lib/content/domains";
 import { getDataset } from "@/lib/content/datasets";
+import type { ThemeId } from "@/lib/content/taxonomy";
+import { route } from "@/lib/routes";
 import { getDictionary } from "@/lib/i18n/dictionaries";
 import { isLang, LANGS, type Lang } from "@/lib/i18n/config";
 import { formatDate, formatNumber } from "@/lib/format";
@@ -73,6 +77,7 @@ export default function IndicatorsPage({ params }: { params: { lang: string } })
 		return stats ? { config, dataset, key, stats } : null;
 	}).filter((item): item is NonNullable<typeof item> => item !== null);
 
+	const domains = getDomains(lang);
 	const projections = getDataset("ssp-warming-projections");
 	const levels = getDataset("ssp-warming-levels");
 
@@ -133,6 +138,62 @@ export default function IndicatorsPage({ params }: { params: { lang: string } })
 					<span className="font-medium text-foreground">{dict.indicators.howToRead} — </span>
 					{dict.indicators.howToReadBody}
 				</p>
+
+				{/*
+				  Les dossiers de domaine, juste après le bandeau : la liste des séries
+				  qui suit répond à « combien », eux répondent à « pourquoi ». Un lecteur
+				  qui arrive sans question précise a besoin de la seconde porte.
+				*/}
+				{domains.length > 0 && (
+					<section aria-labelledby="domains" className="rule mt-14 pt-12">
+						<h2
+							id="domains"
+							className="font-serif text-2xl font-semibold tracking-tight"
+						>
+							{dict.indicators.domainsTitle}
+						</h2>
+						<p className="mt-2 max-w-2xl text-sm leading-relaxed text-muted-foreground">
+							{dict.indicators.domainsLead}
+						</p>
+
+						<ul className="mt-6 grid gap-4 sm:grid-cols-2">
+							{domains.map((domain) => {
+								const accent = domain.frontmatter.themes[0] as ThemeId;
+								return (
+									<li key={domain.slug}>
+										<Link
+											href={route(lang, "indicators", domain.slug)}
+											className="group relative flex h-full flex-col overflow-hidden rounded-xl border border-border bg-card p-6 transition-colors hover:border-foreground/25"
+										>
+											<DitherBand theme={accent} direction="to right" className="opacity-60" />
+											<div className="relative">
+												<h3 className="font-serif text-xl font-semibold tracking-tight">
+													{domain.frontmatter.title}
+												</h3>
+												<p className="mt-2 text-sm leading-relaxed text-muted-foreground">
+													{domain.frontmatter.description}
+												</p>
+											</div>
+											<div className="relative mt-5 flex items-center gap-2 text-xs text-muted-foreground">
+												<span className="tabular">
+													{domain.frontmatter.headline.length} {dict.indicators.domainSeries}
+												</span>
+												<span aria-hidden="true">·</span>
+												<span className="inline-flex items-center gap-1 text-primary">
+													{dict.indicators.domainsCta}
+													<ArrowRight
+														className="h-3 w-3 transition-transform group-hover:translate-x-0.5"
+														aria-hidden="true"
+													/>
+												</span>
+											</div>
+										</Link>
+									</li>
+								);
+							})}
+						</ul>
+					</section>
+				)}
 
 				<div className="mt-12 space-y-14">
 					{indicators.map(({ config, dataset, key, stats }) => (

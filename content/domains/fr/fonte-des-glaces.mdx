@@ -1,0 +1,159 @@
+---
+title: "Fonte des glaces"
+description: "Banquise, glaciers et calottes ne fondent ni au même rythme ni pour les mêmes raisons, et seuls certains d'entre eux font monter la mer. Ce que mesurent l'étendue, le volume et le bilan de masse, et pourquoi ces trois grandeurs divergent."
+tagline: "Trois glaces différentes, trois horloges, et une seule qui fait monter la mer."
+themes: ["cryosphere", "ocean", "observation"]
+headline:
+  - dataset: "arctic-sea-ice-september"
+    decimals: 2
+    drift: "baisse-defavorable"
+  - dataset: "arctic-sea-ice-volume"
+    decimals: 1
+    drift: "baisse-defavorable"
+  - dataset: "snow-cover-march"
+    decimals: 2
+    drift: "baisse-defavorable"
+  - dataset: "sea-level-altimetry"
+    decimals: 1
+    drift: "hausse-defavorable"
+studies:
+  - "hugonnet-2021-accelerated-global-glacier-mass-loss"
+  - "team-2025-community-estimate-global-glacier-mass"
+  - "greene-2024-ubiquitous-acceleration-greenland-ice-sheet"
+  - "mouginot-2019-forty-six-years-greenland-ice"
+  - "team-2018-mass-balance-antarctic-ice-sheet"
+  - "rantanen-2022-arctic-has-warmed-nearly-four"
+  - "biskaborn-2019-permafrost-warming-global-scale"
+glossary:
+  - "banquise"
+  - "calotte-glaciaire"
+  - "glacier"
+  - "bilan-de-masse-glaciaire"
+  - "albedo"
+  - "amplification-arctique"
+  - "niveau-marin"
+  - "dilatation-thermique"
+  - "permafrost"
+sources:
+  - label: "Sea Ice Index, Version 4"
+    url: "https://nsidc.org/data/g02135/"
+    publisher: "National Snow and Ice Data Center"
+  - label: "PIOMAS Arctic Sea Ice Volume Reanalysis"
+    url: "http://psc.apl.uw.edu/research/projects/arctic-sea-ice-volume-anomaly/"
+    publisher: "Polar Science Center, University of Washington"
+  - label: "Global Mean Sea Level — Laboratory for Satellite Altimetry"
+    url: "https://www.star.nesdis.noaa.gov/socd/lsa/SeaLevelRise/"
+    publisher: "NOAA Laboratory for Satellite Altimetry"
+order: 30
+updatedAt: "2026-11-15"
+---
+
+« La glace fond » recouvre trois objets qu'il faut séparer avant toute chose, parce qu'ils
+n'ont ni la même échelle de temps ni les mêmes conséquences.
+
+La **banquise** est de l'eau de mer gelée, qui flotte. Elle se forme chaque hiver et
+disparaît chaque été ; sa fonte ne fait pas monter le niveau de la mer, pour la même raison
+qu'un glaçon fondu ne fait pas déborder un verre. Les **glaciers** de montagne sont de la
+glace continentale, alimentée par la neige, et leur perte va directement à l'océan. Les
+**calottes** du Groenland et de l'Antarctique sont la même chose à une tout autre échelle :
+elles contiennent de quoi élever la mer de soixante-cinq mètres, et elles répondent sur des
+siècles.
+
+## La banquise : une étendue trompeuse
+
+<Mechanism name="albedo-banquise" />
+
+L'<Term id="albedo">albédo</Term> est la raison pour laquelle la banquise compte, même
+sans contribuer au niveau marin. Une surface de glace renvoie vers l'espace la plus grande
+part du rayonnement qu'elle reçoit ; l'eau libre, sombre, en absorbe presque tout. Chaque
+mètre carré perdu transforme donc un réflecteur en absorbeur, et la chaleur ainsi gagnée
+fait fondre la glace voisine.
+
+Cette boucle, plus que le réchauffement de l'air lui-même, explique que l'Arctique se soit
+réchauffé près de quatre fois plus vite que la moyenne du globe sur les quarante dernières
+années <Cite id="rantanen-2022-arctic-has-warmed-nearly-four" />.
+
+<Chart dataset="arctic-sea-ice-september" kind="line" theme="cryosphere" />
+
+<Callout variant="caution" title="L'étendue ne dit rien de l'épaisseur">
+L'étendue compte toute surface couverte par au moins 15 % de glace. Une banquise deux fois
+plus mince occupe donc exactement la même étendue. C'est une limite importante de
+l'indicateur le plus cité du domaine : il sous-estime la perte réelle, parce qu'il mesure
+une surface là où le phénomène est volumique.
+</Callout>
+
+Le volume, lui, ne s'observe pas directement : il est reconstruit par un modèle contraint
+par les mesures de concentration et d'épaisseur disponibles. C'est une reconstruction, et
+elle doit être lue comme telle — mais elle recule nettement plus vite que l'étendue.
+
+<Chart dataset="arctic-sea-ice-volume" kind="area" theme="cryosphere" />
+
+<DecadeBars dataset="arctic-sea-ice-september" from={1980} theme="cryosphere" />
+
+## L'Antarctique ne suit pas le même scénario
+
+Longtemps, la banquise antarctique a fait exception : son étendue est restée stable, voire
+en légère hausse, pendant que l'Arctique reculait. Cet écart s'expliquait par une
+géographie inverse — un continent entouré d'océan plutôt qu'un océan entouré de continents —
+et par le rôle des vents circumpolaires.
+
+<Chart dataset="antarctic-sea-ice-february" kind="line" theme="cryosphere" />
+
+Depuis 2016, la série a changé de régime, avec des minima sans précédent dans l'archive
+satellitaire. Il est encore trop tôt pour trancher entre une bascule durable et une phase
+de variabilité prolongée : la série ne couvre que quatre décennies, ce qui est court pour
+distinguer l'une de l'autre.
+
+## Les glaciers : la contribution la mieux contrainte
+
+Les glaciers de montagne contiennent bien moins de glace que les calottes, mais ils
+répondent vite et leur <Term id="bilan-de-masse-glaciaire">bilan de masse</Term> est
+désormais mesuré par satellite sur la quasi-totalité du globe. La reconstruction
+systématique des deux dernières décennies a montré une perte accélérée, à peu près partout
+<Cite id="hugonnet-2021-accelerated-global-glacier-mass-loss" />, confirmée depuis par une
+estimation communautaire croisant plusieurs méthodes indépendantes
+<Cite id="team-2025-community-estimate-global-glacier-mass" />.
+
+## Les calottes : l'inertie et l'incertitude
+
+Le Groenland perd de la masse par deux voies : la fonte de surface, et l'accélération des
+glaciers émissaires qui déversent la glace dans la mer. La seconde est la plus difficile à
+modéliser, parce qu'elle dépend de la mécanique du contact entre glace et socle rocheux
+<Cite id="mouginot-2019-forty-six-years-greenland-ice" />. L'accélération est aujourd'hui
+observée sur l'ensemble de la périphérie de la calotte
+<Cite id="greene-2024-ubiquitous-acceleration-greenland-ice-sheet" />.
+
+L'Antarctique est plus lent, et sa part occidentale repose sur un socle situé sous le
+niveau de la mer — configuration qui rend possible un retrait auto-entretenu une fois
+amorcé <Cite id="team-2018-mass-balance-antarctic-ice-sheet" />. C'est de là que vient
+l'essentiel de l'incertitude sur le niveau marin à l'horizon 2100 et au-delà.
+
+## Ce qui arrive à la mer
+
+<Indicators ids="sea-level-altimetry,ocean-heat-content" decimals={1} drift="hausse-defavorable" columns={2} />
+
+Le <Term id="niveau-marin">niveau marin</Term> monte pour deux raisons d'importance
+comparable : l'eau ajoutée par la fonte continentale, et la
+<Term id="dilatation-thermique">dilatation thermique</Term> de l'océan qui se réchauffe.
+La seconde ne doit rien à la glace — c'est de l'eau qui occupe plus de place parce qu'elle
+est plus chaude.
+
+<Chart dataset="sea-level-altimetry" kind="area" theme="ocean" />
+
+<DecadeBars dataset="sea-level-altimetry" theme="ocean" decimals={0} />
+
+Ce que cette hausse produit concrètement sur une côte — un seuil de submersion franchi de
+plus en plus souvent par une marée qui, elle, n'a pas changé — fait l'objet du dossier sur
+le [cycle des marées](/fr/indicateurs/cycle-des-marees).
+
+## La neige, et le sol qui dégèle
+
+La couverture neigeuse de printemps relève de la même famille de mécanismes : elle est
+claire, elle recule, et son recul découvre un sol sombre plus tôt dans la saison.
+
+<Chart dataset="snow-cover-march" kind="line" theme="cryosphere" />
+
+Le <Term id="permafrost">permafrost</Term>, lui, pose un problème d'une autre nature : il
+contient du carbone organique gelé depuis des millénaires, dont le dégel ouvre une source
+d'émissions qu'aucune décision humaine ne referme. Le réchauffement de ces sols est
+désormais documenté à l'échelle globale <Cite id="biskaborn-2019-permafrost-warming-global-scale" />.

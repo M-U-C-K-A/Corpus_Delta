@@ -3,19 +3,20 @@
 import { useRouter } from "next/navigation";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import MiniSearch from "minisearch";
-import { BookMarked, CornerDownLeft, FileText, Library, Route, Search } from "lucide-react";
+import { Activity, BookMarked, CornerDownLeft, FileText, Library, Route, Search } from "lucide-react";
 import { Dialog, DialogContent, DialogTitle } from "@/components/ui/dialog";
 import { cn } from "@/lib/utils";
 import type { GlobalEntry, GlobalKind } from "@/lib/search/global";
 
 const KIND_ICONS: Record<GlobalKind, typeof Search> = {
 	path: Route,
+	domain: Activity,
 	topic: FileText,
 	glossary: BookMarked,
 	study: Library,
 };
 
-const KIND_ORDER: GlobalKind[] = ["path", "topic", "glossary", "study"];
+const KIND_ORDER: GlobalKind[] = ["path", "domain", "topic", "glossary", "study"];
 
 export interface PaletteLabels {
 	open: string;

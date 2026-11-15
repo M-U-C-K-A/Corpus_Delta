@@ -1,0 +1,201 @@
+{
+	"id": "ozone-depleting-gas-index",
+	"title": {
+		"fr": "Indice des gaz destructeurs d'ozone",
+		"en": "Ozone-depleting gas index"
+	},
+	"unit": "indice",
+	"source": {
+		"label": "The NOAA Ozone Depleting Gas Index",
+		"url": "https://gml.noaa.gov/odgi/",
+		"publisher": "NOAA Global Monitoring Laboratory",
+		"accessedAt": "2026-11-15"
+	},
+	"note": {
+		"fr": "Charge en halogènes de la stratosphère, ramenée à une échelle où 100 est le maximum de la fin des années 1990 et 0 le niveau de 1980. Les deux courbes mesurent la même chose dans deux régions : l'air du vortex antarctique a séjourné plus longtemps en altitude, son indice décroît donc avec plusieurs années de retard sur celui des moyennes latitudes.",
+		"en": "Stratospheric halogen loading, rescaled so that 100 is the late-1990s maximum and 0 the 1980 level. Both curves measure the same quantity in two regions: air in the Antarctic vortex has spent longer aloft, so its index declines several years behind the mid-latitude one."
+	},
+	"series": [
+		{
+			"key": "antarctic",
+			"label": {
+				"fr": "Antarctique",
+				"en": "Antarctic"
+			}
+		},
+		{
+			"key": "midLatitude",
+			"label": {
+				"fr": "Moyennes latitudes",
+				"en": "Mid-latitudes"
+			}
+		}
+	],
+	"rows": [
+		{
+			"year": 1992,
+			"antarctic": 69.6,
+			"midLatitude": 82
+		},
+		{
+			"year": 1993,
+			"antarctic": 75.7,
+			"midLatitude": 88.6
+		},
+		{
+			"year": 1994,
+			"antarctic": 81.6,
+			"midLatitude": 94
+		},
+		{
+			"year": 1995,
+			"antarctic": 86.8,
+			"midLatitude": 97.6
+		},
+		{
+			"year": 1996,
+			"antarctic": 91.1,
+			"midLatitude": 99.6
+		},
+		{
+			"year": 1997,
+			"antarctic": 94.5,
+			"midLatitude": 100
+		},
+		{
+			"year": 1998,
+			"antarctic": 96.8,
+			"midLatitude": 99.1
+		},
+		{
+			"year": 1999,
+			"antarctic": 98.4,
+			"midLatitude": 97.8
+		},
+		{
+			"year": 2000,
+			"antarctic": 99.4,
+			"midLatitude": 96.4
+		},
+		{
+			"year": 2001,
+			"antarctic": 100,
+			"midLatitude": 94.2
+		},
+		{
+			"year": 2002,
+			"antarctic": 100,
+			"midLatitude": 91.1
+		},
+		{
+			"year": 2003,
+			"antarctic": 99.3,
+			"midLatitude": 87.7
+		},
+		{
+			"year": 2004,
+			"antarctic": 98.3,
+			"midLatitude": 84.7
+		},
+		{
+			"year": 2005,
+			"antarctic": 97.1,
+			"midLatitude": 82
+		},
+		{
+			"year": 2006,
+			"antarctic": 95.9,
+			"midLatitude": 79.4
+		},
+		{
+			"year": 2007,
+			"antarctic": 94.6,
+			"midLatitude": 77
+		},
+		{
+			"year": 2008,
+			"antarctic": 93.3,
+			"midLatitude": 74.8
+		},
+		{
+			"year": 2009,
+			"antarctic": 91.9,
+			"midLatitude": 72.6
+		},
+		{
+			"year": 2010,
+			"antarctic": 90.6,
+			"midLatitude": 70.3
+		},
+		{
+			"year": 2011,
+			"antarctic": 89.1,
+			"midLatitude": 67.9
+		},
+		{
+			"year": 2012,
+			"antarctic": 87.5,
+			"midLatitude": 65.7
+		},
+		{
+			"year": 2013,
+			"antarctic": 86,
+			"midLatitude": 63.7
+		},
+		{
+			"year": 2014,
+			"antarctic": 84.6,
+			"midLatitude": 61.9
+		},
+		{
+			"year": 2015,
+			"antarctic": 83.2,
+			"midLatitude": 59.8
+		},
+		{
+			"year": 2016,
+			"antarctic": 81.7,
+			"midLatitude": 58
+		},
+		{
+			"year": 2017,
+			"antarctic": 80.4,
+			"midLatitude": 56.6
+		},
+		{
+			"year": 2018,
+			"antarctic": 79.2,
+			"midLatitude": 55.1
+		},
+		{
+			"year": 2019,
+			"antarctic": 78,
+			"midLatitude": 53.5
+		},
+		{
+			"year": 2020,
+			"antarctic": 76.7,
+			"midLatitude": 51.8
+		},
+		{
+			"year": 2021,
+			"antarctic": 75.4,
+			"midLatitude": 50.3
+		},
+		{
+			"year": 2022,
+			"antarctic": 74.2,
+			"midLatitude": 48.7
+		},
+		{
+			"year": 2023,
+			"antarctic": 72.9,
+			"midLatitude": 47.1
+		},
+		{
+			"year": 2024,
+			"antarctic": 71.6,
+			"midLatitude": 45.3
+		}
+	]
+}

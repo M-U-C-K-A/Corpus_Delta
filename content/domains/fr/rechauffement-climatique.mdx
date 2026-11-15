@@ -1,0 +1,158 @@
+---
+title: "Réchauffement climatique"
+description: "Ce qu'on mesure quand on dit « la Terre se réchauffe » : une anomalie de température reconstruite, un océan qui encaisse l'essentiel de l'énergie, et un déséquilibre énergétique qui ne s'est pas refermé."
+tagline: "Un déséquilibre d'un watt par mètre carré, et tout ce qui en découle."
+themes: ["chaleur", "observation", "modelisation"]
+headline:
+  - dataset: "temperature-anomaly-gistemp"
+    decimals: 2
+    drift: "hausse-defavorable"
+  - dataset: "ocean-heat-content"
+    decimals: 1
+    drift: "hausse-defavorable"
+  - dataset: "greenhouse-forcing-aggi"
+    decimals: 3
+    drift: "hausse-defavorable"
+  - dataset: "land-ocean-warming"
+    series: "land"
+    decimals: 2
+    drift: "hausse-defavorable"
+studies:
+  - "forster-2026-indicators-global-climate-change-2025"
+  - "sherwood-2020-assessment-earths-climate-sensitivity-using"
+  - "cheng-2024-new-record-ocean-temperatures-related"
+  - "johnson-2020-warming-trends-increasingly-dominate-global"
+  - "tokarska-2020-past-warming-trend-constrains-future"
+  - "macdougall-2020-there-warming-pipeline-multi-model"
+glossary:
+  - "anomalie-de-temperature"
+  - "bilan-radiatif"
+  - "forcage-radiatif"
+  - "contenu-thermique-de-l-ocean"
+  - "sensibilite-climatique"
+  - "retroaction-climatique"
+  - "ere-preindustrielle"
+sources:
+  - label: "GISS Surface Temperature Analysis (GISTEMP v4)"
+    url: "https://data.giss.nasa.gov/gistemp/"
+    publisher: "NASA Goddard Institute for Space Studies"
+  - label: "Global Ocean Heat and Salt Content"
+    url: "https://www.ncei.noaa.gov/access/global-ocean-heat-content/"
+    publisher: "NOAA National Centers for Environmental Information"
+  - label: "The NOAA Annual Greenhouse Gas Index"
+    url: "https://gml.noaa.gov/aggi/aggi.html"
+    publisher: "NOAA Global Monitoring Laboratory"
+order: 10
+updatedAt: "2026-11-15"
+---
+
+Une planète qui reçoit du Soleil exactement ce qu'elle renvoie vers l'espace a une
+température stable. Tout le réchauffement climatique tient dans le fait que cette égalité
+est rompue depuis environ un siècle et demi, d'un peu plus d'un watt par mètre carré — un
+écart de l'ordre du demi pour cent entre ce qui entre et ce qui sort.
+
+Ce chiffre paraît dérisoire. Il ne l'est pas, pour une raison qui n'a rien d'intuitif :
+il s'applique en permanence, sur toute la surface du globe, et ce qu'il accumule ne
+disparaît pas.
+
+## Où part l'énergie
+
+<Mechanism name="stock-energie" />
+
+La première surprise, quand on suit cette énergie, est qu'elle ne va presque pas là où
+nous la ressentons. L'air est un mauvais réservoir de chaleur : il en faut peu pour le
+réchauffer, et il n'en retient pas davantage. L'océan, lui, a une capacité thermique
+environ mille fois supérieure à volume égal — et il est profond.
+
+Conséquence : le <Term id="contenu-thermique-de-l-ocean">contenu thermique de l'océan</Term>
+est la mesure la moins bruitée du déséquilibre. Une année d'El Niño fait bondir la
+température de l'air d'un ou deux dixièmes de degré, puis la fait retomber ; l'océan, lui,
+monte sans à-coup, parce qu'il intègre le déséquilibre au lieu de le subir
+<Cite id="johnson-2020-warming-trends-increasingly-dominate-global" />.
+
+<Chart dataset="ocean-heat-content" kind="area" theme="chaleur" />
+
+C'est pourquoi un titre comme « le réchauffement a marqué une pause » a été écrit plusieurs
+fois à propos de la température de l'air, et jamais à propos de l'océan
+<Cite id="cheng-2024-new-record-ocean-temperatures-related" />.
+
+## Une température moyenne qui n'existe nulle part
+
+La grandeur que l'on cite — « +1,2 °C depuis l'ère préindustrielle » — n'est pas une
+mesure directe. Aucun thermomètre ne lit la température moyenne du globe. Ce qu'on
+construit est une <Term id="anomalie-de-temperature">anomalie</Term> : on ne moyenne pas
+les températures des stations, on moyenne leurs écarts à leur propre normale.
+
+Ce déplacement n'est pas un détail technique. Les températures absolues dépendent de
+l'altitude, de la distance à la mer, de l'exposition ; deux stations distantes de dix
+kilomètres peuvent différer de plusieurs degrés en permanence. Leurs anomalies, elles, se
+ressemblent sur des centaines de kilomètres, parce qu'un front froid refroidit tout le
+monde en même temps. C'est ce qui rend l'interpolation entre stations légitime.
+
+<Chart dataset="temperature-anomaly-gistemp" kind="area" theme="chaleur" />
+
+Rangée par décennie, la même série dit quelque chose que la courbe annuelle noie dans son
+bruit : il n'y a pas eu de décennie plus froide que la précédente depuis les années 1960.
+
+<DecadeBars dataset="temperature-anomaly-gistemp" from={1880} theme="chaleur" />
+
+## Les terres se réchauffent deux fois plus vite
+
+La moyenne globale a un défaut : personne n'y habite. Les deux tiers de la surface du globe
+sont de l'océan, qui se réchauffe nettement moins vite que les continents — il répartit la
+chaleur reçue sur une couche épaisse, et en consacre une bonne part à l'évaporation.
+
+<Chart dataset="land-ocean-warming" kind="line" theme="chaleur" />
+
+L'écart entre les deux courbes est l'une des raisons pour lesquelles le chiffre global est
+systématiquement en dessous de ce que les gens constatent chez eux. Ce n'est pas une
+contradiction : c'est la différence entre une moyenne de surface et une expérience vécue
+sur une terre émergée.
+
+## Ce qui pousse : le forçage radiatif
+
+Le <Term id="forcage-radiatif">forçage radiatif</Term> est la mesure directe du
+déséquilibre imposé au <Term id="bilan-radiatif">bilan radiatif</Term>, en watts par mètre
+carré. Le NOAA le publie chaque année pour les gaz à effet de serre à longue durée de vie,
+à partir des concentrations mesurées — pas d'un modèle.
+
+<Chart dataset="greenhouse-forcing-aggi" kind="area" theme="carbone" />
+
+<Callout variant="info" title="Pourquoi le forçage ne suffit pas à prédire le réchauffement">
+Entre le forçage et la température finale s'intercalent les
+<Term id="retroaction-climatique">rétroactions</Term> : la vapeur d'eau, qui amplifie,
+les nuages, dont le signe a longtemps été incertain, la fonte des surfaces claires. Leur
+somme est la <Term id="sensibilite-climatique">sensibilité climatique</Term>, et c'est elle
+qui porte l'essentiel de l'incertitude restante. Son estimation a été nettement resserrée
+en combinant trois familles de contraintes indépendantes — physique des processus, record
+historique, paléoclimats <Cite id="sherwood-2020-assessment-earths-climate-sensitivity-using" />.
+</Callout>
+
+## Ce qui est déjà engagé
+
+Une question revient : si toutes les émissions cessaient demain, de combien la Terre
+continuerait-elle de se réchauffer ? L'intuition dit « beaucoup », puisque l'océan n'a pas
+fini d'encaisser. La réponse des modèles est plus nuancée : l'arrêt des émissions fait
+chuter la concentration de CO₂ plus vite que l'océan ne rend sa chaleur, et les deux effets
+se compensent largement. Le réchauffement additionnel engagé est de l'ordre de quelques
+centièmes de degré, pas de quelques dixièmes
+<Cite id="macdougall-2020-there-warming-pipeline-multi-model" />.
+
+Ce résultat a une portée politique directe, et c'est l'une des rares bonnes nouvelles
+solidement établies du domaine : le niveau auquel le réchauffement s'arrête dépend
+essentiellement de ce qui sera émis à partir de maintenant, et non d'un héritage
+irrattrapable.
+
+## Ce que les projections disent, et ne disent pas
+
+Les trajectoires de fin de siècle ne sont pas des prévisions. Ce sont des réponses à des
+hypothèses d'émissions, et l'écart entre elles mesure d'abord un choix de société, pas une
+incertitude scientifique. La contrainte apportée par la tendance observée depuis 1970
+resserre nettement les fourchettes hautes, sans rien changer au fait que l'essentiel de la
+dispersion vient du scénario retenu <Cite id="tokarska-2020-past-warming-trend-constrains-future" />.
+
+<Chart dataset="ssp-warming-projections" kind="line" theme="modelisation" height={340} />
+
+Le bilan annuel des indicateurs du changement climatique, qui réactualise ces grandeurs
+chaque année avec la même méthode, est le point d'entrée le plus sûr pour suivre leur
+évolution <Cite id="forster-2026-indicators-global-climate-change-2025" />.

@@ -1,0 +1,175 @@
+---
+title: "Effet de serre et couche d'ozone"
+description: "Deux problèmes atmosphériques que tout le monde confond : les gaz qui retiennent l'infrarouge près du sol, et les halogènes qui détruisent l'ozone à trente kilomètres d'altitude. Mécanismes distincts, altitudes distinctes, et une issue très différente."
+tagline: "Deux problèmes atmosphériques, deux mécanismes, et un seul des deux est en train d'être réglé."
+themes: ["carbone", "observation", "politiques"]
+headline:
+  - dataset: "co2-mauna-loa"
+    decimals: 2
+    drift: "hausse-defavorable"
+  - dataset: "methane-global"
+    decimals: 1
+    drift: "hausse-defavorable"
+  - dataset: "greenhouse-forcing-aggi"
+    decimals: 3
+    drift: "hausse-defavorable"
+  - dataset: "ozone-depleting-gas-index"
+    series: "antarctic"
+    decimals: 1
+    drift: "hausse-defavorable"
+studies:
+  - "friedlingstein-2026-global-carbon-budget-2025"
+  - "saunois-2025-global-methane-budget-2000-2020"
+  - "rae-2021-atmospheric-over-past-million-years"
+  - "shindell-2012-simultaneously-mitigating-near-term-climate"
+  - "forster-2026-indicators-global-climate-change-2025"
+  - "kirschke-2013-three-decades-global-methane-sources"
+glossary:
+  - "effet-de-serre"
+  - "gaz-a-effet-de-serre"
+  - "forcage-radiatif"
+  - "bilan-radiatif"
+  - "equivalent-co2"
+  - "potentiel-de-rechauffement-global"
+  - "courbe-de-keeling"
+  - "cycle-du-carbone"
+sources:
+  - label: "Trends in Atmospheric Carbon Dioxide"
+    url: "https://gml.noaa.gov/ccgg/trends/"
+    publisher: "NOAA Global Monitoring Laboratory"
+  - label: "The NOAA Annual Greenhouse Gas Index"
+    url: "https://gml.noaa.gov/aggi/aggi.html"
+    publisher: "NOAA Global Monitoring Laboratory"
+  - label: "The NOAA Ozone Depleting Gas Index"
+    url: "https://gml.noaa.gov/odgi/"
+    publisher: "NOAA Global Monitoring Laboratory"
+  - label: "Scientific Assessment of Ozone Depletion"
+    url: "https://csl.noaa.gov/assessments/ozone/"
+    publisher: "Organisation météorologique mondiale"
+order: 20
+updatedAt: "2026-11-15"
+---
+
+Ce sont deux sujets différents, et les confondre empêche de comprendre l'un comme l'autre.
+L'effet de serre se joue dans les dix premiers kilomètres de l'atmosphère et concerne le
+rayonnement infrarouge que la Terre émet. Le trou d'ozone se joue vers trente kilomètres
+d'altitude et concerne l'ultraviolet que le Soleil envoie. Les gaz en cause ne sont pas
+les mêmes, les molécules ne font pas la même chose, et seul l'un des deux problèmes est en
+voie de résolution.
+
+## Ce que fait réellement un gaz à effet de serre
+
+<Mechanism name="effet-de-serre" />
+
+L'atmosphère n'est pas une couverture. Une couverture freine la convection ; un
+<Term id="gaz-a-effet-de-serre">gaz à effet de serre</Term> fait tout autre chose, et le
+mécanisme tient en trois temps.
+
+La lumière solaire est pour l'essentiel du rayonnement visible et proche infrarouge. Les
+molécules d'azote et d'oxygène, qui composent 99 % de l'air, y sont transparentes : la
+lumière descend jusqu'au sol presque sans obstacle. Le sol s'échauffe et réémet, mais à
+une tout autre longueur d'onde — de l'infrarouge thermique, parce qu'un corps à 15 °C
+rayonne autour de 10 micromètres.
+
+Et là, l'atmosphère cesse d'être transparente. Les molécules à trois atomes ou plus — CO₂,
+H₂O, CH₄, N₂O — ont des modes de vibration dont les fréquences tombent précisément dans
+cette gamme. Elles absorbent ce rayonnement, puis le réémettent dans toutes les directions.
+La moitié repart vers le bas.
+
+<Callout variant="info" title="Pourquoi l'azote et l'oxygène n'y participent pas">
+Une molécule n'absorbe un photon infrarouge que si sa vibration modifie son moment
+dipolaire. N₂ et O₂, faites de deux atomes identiques, restent parfaitement symétriques
+quelles que soient leurs vibrations : leur moment dipolaire reste nul, et elles sont
+aveugles à l'infrarouge. C'est pour cette raison de pure géométrie moléculaire que 1 %
+de l'atmosphère gouverne la température des 99 % restants.
+</Callout>
+
+## La série la plus solide de la discipline
+
+La concentration de CO₂ ne demande aucune reconstruction : elle se mesure directement, loin
+des sources locales. La série de Mauna Loa, commencée en 1958, est la plus longue mesure
+continue de l'atmosphère et le point d'ancrage de tout le reste.
+
+<Chart dataset="co2-mauna-loa" kind="area" theme="carbone" />
+
+Ce que la courbe annuelle ne montre pas, c'est que l'accélération est elle-même en cours :
+ce n'est pas seulement la concentration qui monte, c'est la vitesse à laquelle elle monte.
+
+<DecadeBars dataset="co2-growth-rate" from={1960} theme="carbone" />
+
+Les carottages polaires et les archives marines situent ces valeurs dans leur contexte long :
+la concentration actuelle n'a pas d'équivalent sur les deux derniers millions d'années
+<Cite id="rae-2021-atmospheric-over-past-million-years" />. La comptabilité annuelle des
+flux — ce qui est émis, ce qu'absorbent l'océan et la végétation, ce qui reste en
+suspension — est tenue par le bilan carbone mondial
+<Cite id="friedlingstein-2026-global-carbon-budget-2025" />.
+
+## Les autres gaz, et pourquoi on ne les additionne pas naïvement
+
+<Indicators ids="methane-global,nitrous-oxide-global,sf6-global" decimals={1} drift="hausse-defavorable" columns={3} />
+
+Le méthane est environ quatre-vingts fois plus efficace que le CO₂ sur vingt ans, mais il
+se détruit en une douzaine d'années ; le protoxyde d'azote est moins puissant mais persiste
+plus d'un siècle ; l'hexafluorure de soufre dépasse les trois mille ans. Les ramener à un
+<Term id="equivalent-co2">équivalent CO₂</Term> suppose donc de choisir un horizon de
+temps, et ce choix change les classements. Le
+<Term id="potentiel-de-rechauffement-global">potentiel de réchauffement global</Term> à
+cent ans, le plus utilisé, minimise mécaniquement les gaz courts.
+
+Cette asymétrie a une conséquence d'action : réduire le méthane produit un effet sur la
+température en une décennie, là où réduire le CO₂ n'en produit qu'au bout d'un siècle. Les
+deux leviers ne sont pas interchangeables, et le premier ne dispense pas du second
+<Cite id="shindell-2012-simultaneously-mitigating-near-term-climate" />.
+
+Le budget méthane reste le plus difficile à boucler : sources naturelles et humaines s'y
+mêlent — zones humides, élevage, fuites de gaz, décharges — et les inventaires divergent
+encore sensiblement des mesures atmosphériques
+<Cite id="saunois-2025-global-methane-budget-2000-2020" /><Cite id="kirschke-2013-three-decades-global-methane-sources" />.
+
+## La couche d'ozone : un autre étage, un autre problème
+
+<Mechanism name="couche-ozone" />
+
+À trente kilomètres d'altitude, l'ozone absorbe l'ultraviolet solaire. Il n'est pas stocké
+là : il s'y fabrique et s'y détruit en permanence, dans un équilibre entretenu par le
+rayonnement lui-même. Ce que les CFC ont cassé, c'est cet équilibre.
+
+Le point à retenir tient en un mot : **catalyse**. Un atome de chlore libéré par la
+photolyse d'un CFC casse une molécule d'ozone, puis ressort de la réaction intact et
+recommence — des dizaines de milliers de fois avant de quitter la stratosphère. Ce n'est
+pas la quantité de CFC émise qui a ouvert un trou au-dessus d'un continent, c'est cette
+réutilisation.
+
+## L'indicateur qui redescend
+
+Le protocole de Montréal, signé en 1987, a interdit ces composés. Trente-cinq ans plus
+tard, la charge en halogènes de la stratosphère décroît. C'est, à notre connaissance, le
+seul indicateur de cette page qui aille dans le bon sens.
+
+<Chart dataset="ozone-depleting-gas-index" kind="line" theme="politiques" />
+
+L'indice vaut 100 au maximum de la fin des années 1990 et 0 au niveau de 1980, pris comme
+référence d'avant le trou. Les deux courbes mesurent la même chose à deux endroits :
+l'air qui alimente le vortex antarctique a séjourné plus longtemps en altitude, son indice
+décroît donc avec plusieurs années de retard sur celui des moyennes latitudes.
+
+<Chart dataset="stratospheric-halogens-eesc" kind="area" theme="politiques" />
+
+<Callout variant="caution" title="Ce que ce succès ne prouve pas">
+On en tire souvent la conclusion que le climat se réglera de la même manière. La
+comparaison a ses limites. Les CFC étaient produits par une poignée d'industriels, pour
+des usages ayant des substituts, et représentaient une fraction minuscule de l'économie
+mondiale. Les combustibles fossiles sont l'énergie de tout le reste. Ce que le protocole
+de Montréal démontre, c'est qu'un accord international contraignant peut infléchir une
+courbe atmosphérique mondiale — pas que le problème suivant sera de même difficulté.
+</Callout>
+
+## Un recouvrement, quand même
+
+Les deux sujets se touchent sur un point. Les CFC sont aussi de puissants gaz à effet de
+serre, et leur interdiction a évité un réchauffement supplémentaire appréciable. À
+l'inverse, leurs substituts de première génération, les HFC, ne détruisent pas l'ozone
+mais réchauffent — ce qui a nécessité un amendement distinct, en 2016, pour les encadrer à
+leur tour. Le bilan radiatif total tient compte de ces composés, et c'est pourquoi la
+courbe de forçage ne se déduit pas du seul CO₂
+<Cite id="forster-2026-indicators-global-climate-change-2025" />.

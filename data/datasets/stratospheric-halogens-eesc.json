@@ -1,0 +1,201 @@
+{
+	"id": "stratospheric-halogens-eesc",
+	"title": {
+		"fr": "Chlore stratosphérique effectif équivalent",
+		"en": "Equivalent effective stratospheric chlorine"
+	},
+	"unit": "ppt",
+	"source": {
+		"label": "The NOAA Ozone Depleting Gas Index",
+		"url": "https://gml.noaa.gov/odgi/",
+		"publisher": "NOAA Global Monitoring Laboratory",
+		"accessedAt": "2026-11-15"
+	},
+	"note": {
+		"fr": "Chlore et brome réactifs présents dans la stratosphère, le brome pondéré par son efficacité destructrice, environ soixante fois celle du chlore. Les valeurs tiennent compte du temps mis par l'air troposphérique pour monter et se mélanger : c'est ce délai de transport qui explique l'écart entre l'Antarctique et les moyennes latitudes.",
+		"en": "Reactive chlorine and bromine present in the stratosphere, bromine weighted by its destructive efficiency, roughly sixty times that of chlorine. Values account for the time tropospheric air takes to rise and mix: that transport lag is what separates the Antarctic from the mid-latitudes."
+	},
+	"series": [
+		{
+			"key": "antarctic",
+			"label": {
+				"fr": "Antarctique",
+				"en": "Antarctic"
+			}
+		},
+		{
+			"key": "midLatitude",
+			"label": {
+				"fr": "Moyennes latitudes",
+				"en": "Mid-latitudes"
+			}
+		}
+	],
+	"rows": [
+		{
+			"year": 1992,
+			"antarctic": 3544,
+			"midLatitude": 1795
+		},
+		{
+			"year": 1993,
+			"antarctic": 3666,
+			"midLatitude": 1846
+		},
+		{
+			"year": 1994,
+			"antarctic": 3784,
+			"midLatitude": 1888
+		},
+		{
+			"year": 1995,
+			"antarctic": 3888,
+			"midLatitude": 1917
+		},
+		{
+			"year": 1996,
+			"antarctic": 3974,
+			"midLatitude": 1932
+		},
+		{
+			"year": 1997,
+			"antarctic": 4041,
+			"midLatitude": 1935
+		},
+		{
+			"year": 1998,
+			"antarctic": 4088,
+			"midLatitude": 1928
+		},
+		{
+			"year": 1999,
+			"antarctic": 4119,
+			"midLatitude": 1918
+		},
+		{
+			"year": 2000,
+			"antarctic": 4140,
+			"midLatitude": 1907
+		},
+		{
+			"year": 2001,
+			"antarctic": 4151,
+			"midLatitude": 1890
+		},
+		{
+			"year": 2002,
+			"antarctic": 4151,
+			"midLatitude": 1866
+		},
+		{
+			"year": 2003,
+			"antarctic": 4137,
+			"midLatitude": 1840
+		},
+		{
+			"year": 2004,
+			"antarctic": 4117,
+			"midLatitude": 1816
+		},
+		{
+			"year": 2005,
+			"antarctic": 4094,
+			"midLatitude": 1795
+		},
+		{
+			"year": 2006,
+			"antarctic": 4069,
+			"midLatitude": 1776
+		},
+		{
+			"year": 2007,
+			"antarctic": 4043,
+			"midLatitude": 1757
+		},
+		{
+			"year": 2008,
+			"antarctic": 4017,
+			"midLatitude": 1740
+		},
+		{
+			"year": 2009,
+			"antarctic": 3990,
+			"midLatitude": 1723
+		},
+		{
+			"year": 2010,
+			"antarctic": 3963,
+			"midLatitude": 1705
+		},
+		{
+			"year": 2011,
+			"antarctic": 3933,
+			"midLatitude": 1686
+		},
+		{
+			"year": 2012,
+			"antarctic": 3902,
+			"midLatitude": 1669
+		},
+		{
+			"year": 2013,
+			"antarctic": 3872,
+			"midLatitude": 1654
+		},
+		{
+			"year": 2014,
+			"antarctic": 3843,
+			"midLatitude": 1640
+		},
+		{
+			"year": 2015,
+			"antarctic": 3815,
+			"midLatitude": 1624
+		},
+		{
+			"year": 2016,
+			"antarctic": 3786,
+			"midLatitude": 1610
+		},
+		{
+			"year": 2017,
+			"antarctic": 3759,
+			"midLatitude": 1599
+		},
+		{
+			"year": 2018,
+			"antarctic": 3735,
+			"midLatitude": 1587
+		},
+		{
+			"year": 2019,
+			"antarctic": 3711,
+			"midLatitude": 1575
+		},
+		{
+			"year": 2020,
+			"antarctic": 3686,
+			"midLatitude": 1562
+		},
+		{
+			"year": 2021,
+			"antarctic": 3660,
+			"midLatitude": 1550
+		},
+		{
+			"year": 2022,
+			"antarctic": 3635,
+			"midLatitude": 1538
+		},
+		{
+			"year": 2023,
+			"antarctic": 3609,
+			"midLatitude": 1525
+		},
+		{
+			"year": 2024,
+			"antarctic": 3583,
+			"midLatitude": 1511
+		}
+	]
+}

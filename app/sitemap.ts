@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { getAllStudies } from "@/lib/content/studies";
 import { getGlossary } from "@/lib/content/glossary";
 import { getTopics } from "@/lib/content/topics";
+import { getDomains } from "@/lib/content/domains";
 import { getPaths } from "@/lib/content/paths";
 import { THEME_IDS } from "@/lib/content/taxonomy";
 import { DEFAULT_LANG, LANGS } from "@/lib/i18n/config";
@@ -74,6 +75,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
 			Object.fromEntries(LANGS.map((l) => [l, route(l, "topics", topic.slug)])),
 			0.7,
 			topic.frontmatter.updatedAt
+		);
+	}
+
+	for (const domain of getDomains(DEFAULT_LANG)) {
+		push(
+			Object.fromEntries(LANGS.map((l) => [l, route(l, "indicators", domain.slug)])),
+			0.8,
+			domain.frontmatter.updatedAt
 		);
 	}
 

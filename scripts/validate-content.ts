@@ -12,14 +12,36 @@ import path from "node:path";
 import { getAllStudies } from "../lib/content/studies";
 import { getGlossary } from "../lib/content/glossary";
 import { getTopics } from "../lib/content/topics";
+import { getDomains } from "../lib/content/domains";
+import { FIGURE_NAMES, isFigureName } from "../components/iso/registry";
 import { getPaths } from "../lib/content/paths";
 import { datasetSchema } from "../lib/content/schemas";
 import { LANGS } from "../lib/i18n/config";
+
+/**
+ * Variantes acceptées par `<Callout>`. Une variante inconnue ne se voit ni au
+ * typage — le MDX n'est pas typé — ni en développement, où la page affiche
+ * simplement une erreur : elle ne se manifeste qu'au prérendu du build, par une
+ * pile d'appels minifiée illisible. On la rattrape donc ici.
+ */
+const CALLOUT_VARIANTS = new Set(["info", "caution", "uncertainty", "key"]);
 
 const problems: string[] = [];
 
 function report(where: string, message: string): void {
 	problems.push(`${where} — ${message}`);
+}
+
+/** Contrôles qui valent pour tout corps MDX, quelle que soit la collection. */
+function validateMdxBody(where: string, content: string): void {
+	for (const match of content.matchAll(/<Callout\s+[^>]*variant="([^"]+)"/g)) {
+		if (!CALLOUT_VARIANTS.has(match[1])) {
+			report(
+				where,
+				`<Callout variant="${match[1]}"> inconnu (attendu : ${[...CALLOUT_VARIANTS].join(", ")})`
+			);
+		}
+	}
 }
 
 function validateDatasets(): number {
@@ -71,15 +93,18 @@ function main(): void {
 	let glossaryCount = 0;
 	let topicCount = 0;
 	let pathCount = 0;
+	let domainCount = 0;
 
 	for (const lang of LANGS) {
 		let glossary: ReturnType<typeof getGlossary> = [];
 		let topics: ReturnType<typeof getTopics> = [];
 		let paths: ReturnType<typeof getPaths> = [];
+		let domains: ReturnType<typeof getDomains> = [];
 		try {
 			glossary = getGlossary(lang);
 			topics = getTopics(lang);
 			paths = getPaths(lang);
+			domains = getDomains(lang);
 		} catch (error) {
 			console.error(`\n✗ ${(error as Error).message}\n`);
 			process.exit(1);
@@ -88,12 +113,14 @@ function main(): void {
 		glossaryCount += glossary.length;
 		topicCount += topics.length;
 		pathCount += paths.length;
+		domainCount += domains.length;
 
 		const termSlugs = new Set(glossary.map((entry) => entry.slug));
 		const topicSlugs = new Set(topics.map((entry) => entry.slug));
 
 		for (const entry of glossary) {
 			const where = `content/glossary/${lang}/${entry.slug}.mdx`;
+			validateMdxBody(where, entry.content);
 			for (const related of entry.frontmatter.related) {
 				if (!termSlugs.has(related)) report(where, `renvoie vers le terme inconnu « ${related} »`);
 			}
@@ -104,6 +131,7 @@ function main(): void {
 
 		for (const topic of topics) {
 			const where = `content/topics/${lang}/${topic.slug}.mdx`;
+			validateMdxBody(where, topic.content);
 			for (const id of topic.frontmatter.studies) {
 				if (!studyIds.has(id)) report(where, `cite l'étude inconnue « ${id} »`);
 			}
@@ -118,6 +146,53 @@ function main(): void {
 			for (const match of topic.content.matchAll(/<Chart\s+[^>]*dataset="([^"]+)"/g)) {
 				const file = path.join(process.cwd(), "data", "datasets", `${match[1]}.json`);
 				if (!fs.existsSync(file)) report(where, `<Chart dataset="${match[1]}"> : jeu de données introuvable`);
+			}
+		}
+
+		const datasetExists = (id: string) =>
+			fs.existsSync(path.join(process.cwd(), "data", "datasets", `${id}.json`));
+
+		for (const domain of domains) {
+			const where = `content/domains/${lang}/${domain.slug}.mdx`;
+			validateMdxBody(where, domain.content);
+
+			for (const id of domain.frontmatter.studies) {
+				if (!studyIds.has(id)) report(where, `cite l'étude inconnue « ${id} »`);
+			}
+			for (const term of domain.frontmatter.glossary) {
+				if (!termSlugs.has(term)) report(where, `renvoie vers le terme inconnu « ${term} »`);
+			}
+
+			// Le bandeau de vedettes est rendu avant toute prose : une série
+			// manquante y laisse un trou en haut de page, pas au milieu du texte.
+			for (const headline of domain.frontmatter.headline) {
+				if (!datasetExists(headline.dataset)) {
+					report(where, `vedette « ${headline.dataset} » : jeu de données introuvable`);
+				}
+			}
+
+			for (const match of domain.content.matchAll(/<Cite\s+[^>]*id="([^"]+)"/g)) {
+				if (!studyIds.has(match[1])) report(where, `<Cite id="${match[1]}"> ne correspond à aucune étude`);
+			}
+			for (const match of domain.content.matchAll(/<Term\s+[^>]*id="([^"]+)"/g)) {
+				if (!termSlugs.has(match[1])) report(where, `<Term id="${match[1]}"> ne correspond à aucun terme`);
+			}
+			for (const match of domain.content.matchAll(/<(?:Chart|DecadeBars)\s+[^>]*dataset="([^"]+)"/g)) {
+				if (!datasetExists(match[1])) report(where, `dataset="${match[1]}" : jeu de données introuvable`);
+			}
+			// `<Indicators ids="a,b,c">` porte plusieurs identifiants d'un coup.
+			for (const match of domain.content.matchAll(/<Indicators\s+[^>]*ids="([^"]+)"/g)) {
+				for (const id of match[1].split(",").map((item) => item.trim()).filter(Boolean)) {
+					if (!datasetExists(id)) report(where, `<Indicators> : jeu de données « ${id} » introuvable`);
+				}
+			}
+			for (const match of domain.content.matchAll(/<Mechanism\s+[^>]*name="([^"]+)"/g)) {
+				if (!isFigureName(match[1])) {
+					report(
+						where,
+						`<Mechanism name="${match[1]}"> inconnu (disponibles : ${FIGURE_NAMES.join(", ")})`
+					);
+				}
 			}
 		}
 
@@ -157,7 +232,7 @@ function main(): void {
 	}
 
 	console.log(
-		`✓ contenu valide — ${studies.length} étude(s), ${glossaryCount} terme(s), ${topicCount} dossier(s), ${pathCount} parcours, ${datasetCount} jeu(x) de données`
+		`✓ contenu valide — ${studies.length} étude(s), ${glossaryCount} terme(s), ${topicCount} dossier(s), ${domainCount} domaine(s), ${pathCount} parcours, ${datasetCount} jeu(x) de données`
 	);
 }
 

@@ -647,7 +647,129 @@ async function arcticSeaIceVolume(): Promise<Dataset> {
 	};
 }
 
+/**
+ * NOAA GML — indice des gaz destructeurs d'ozone (ODGI).
+ *
+ * L'ODGI ramène à une échelle de 0 à 100 la charge en halogènes de la
+ * stratosphère : 100 marque le maximum atteint à la fin des années 1990, 0 le
+ * niveau de 1980, pris comme référence d'avant le trou d'ozone. C'est le
+ * pendant, pour la couche d'ozone, de ce que l'AGGI est pour l'effet de serre —
+ * et c'est l'un des rares indicateurs climatiques qui redescende.
+ *
+ * Deux tableaux, un par région : l'air qui alimente le vortex antarctique a
+ * séjourné plus longtemps dans la stratosphère que celui des moyennes latitudes,
+ * d'où un décalage de plusieurs années entre les deux courbes.
+ */
+async function ozoneDepletingGasIndex(): Promise<Dataset> {
+	/** Colonne 14 des deux tableaux : l'ODGI calculé sur la série récente. */
+	async function index(url: string): Promise<Map<number, number>> {
+		const text = await fetchText(url);
+		const pairs = text
+			.split("\n")
+			.map((line) => line.split(","))
+			.filter((parts) => parts.length >= 15 && /^\d{4}$/.test(parts[0].trim()))
+			.map((parts) => [Number(parts[0]), Number(parts[14])] as const)
+			.filter(([, value]) => Number.isFinite(value));
+		return new Map(pairs);
+	}
 
+	const [antarctic, midLatitude] = await Promise.all([
+		index("https://gml.noaa.gov/odgi/odgi_table1.csv"),
+		index("https://gml.noaa.gov/odgi/odgi_table2.csv"),
+	]);
+
+	const rows = [...antarctic.keys()]
+		.filter((year) => midLatitude.has(year))
+		.sort((a, b) => a - b)
+		.map((year) => ({
+			year,
+			antarctic: antarctic.get(year)!,
+			midLatitude: midLatitude.get(year)!,
+		}));
+
+	return {
+		id: "ozone-depleting-gas-index",
+		title: {
+			fr: "Indice des gaz destructeurs d'ozone",
+			en: "Ozone-depleting gas index",
+		},
+		unit: "indice",
+		note: {
+			fr: "Charge en halogènes de la stratosphère, ramenée à une échelle où 100 est le maximum de la fin des années 1990 et 0 le niveau de 1980. Les deux courbes mesurent la même chose dans deux régions : l'air du vortex antarctique a séjourné plus longtemps en altitude, son indice décroît donc avec plusieurs années de retard sur celui des moyennes latitudes.",
+			en: "Stratospheric halogen loading, rescaled so that 100 is the late-1990s maximum and 0 the 1980 level. Both curves measure the same quantity in two regions: air in the Antarctic vortex has spent longer aloft, so its index declines several years behind the mid-latitude one.",
+		},
+		source: {
+			label: "The NOAA Ozone Depleting Gas Index",
+			url: "https://gml.noaa.gov/odgi/",
+			publisher: "NOAA Global Monitoring Laboratory",
+			accessedAt: today(),
+		},
+		series: [
+			{ key: "antarctic", label: { fr: "Antarctique", en: "Antarctic" } },
+			{ key: "midLatitude", label: { fr: "Moyennes latitudes", en: "Mid-latitudes" } },
+		],
+		rows,
+	};
+}
+
+/**
+ * NOAA GML — chlore stratosphérique effectif équivalent (EESC).
+ *
+ * La grandeur physique derrière l'ODGI : la quantité de chlore et de brome
+ * réactifs effectivement présents dans la stratosphère, brome pondéré par son
+ * efficacité destructrice, bien supérieure à celle du chlore.
+ */
+async function stratosphericHalogens(): Promise<Dataset> {
+	/** Colonne 12 : l'EESC, en parties par billion. */
+	async function eesc(url: string): Promise<Map<number, number>> {
+		const text = await fetchText(url);
+		const pairs = text
+			.split("\n")
+			.map((line) => line.split(","))
+			.filter((parts) => parts.length >= 13 && /^\d{4}$/.test(parts[0].trim()))
+			.map((parts) => [Number(parts[0]), Number(parts[12])] as const)
+			.filter(([, value]) => Number.isFinite(value));
+		return new Map(pairs);
+	}
+
+	const [antarctic, midLatitude] = await Promise.all([
+		eesc("https://gml.noaa.gov/odgi/odgi_table1.csv"),
+		eesc("https://gml.noaa.gov/odgi/odgi_table2.csv"),
+	]);
+
+	const rows = [...antarctic.keys()]
+		.filter((year) => midLatitude.has(year))
+		.sort((a, b) => a - b)
+		.map((year) => ({
+			year,
+			antarctic: antarctic.get(year)!,
+			midLatitude: midLatitude.get(year)!,
+		}));
+
+	return {
+		id: "stratospheric-halogens-eesc",
+		title: {
+			fr: "Chlore stratosphérique effectif équivalent",
+			en: "Equivalent effective stratospheric chlorine",
+		},
+		unit: "ppt",
+		note: {
+			fr: "Chlore et brome réactifs présents dans la stratosphère, le brome pondéré par son efficacité destructrice, environ soixante fois celle du chlore. Les valeurs tiennent compte du temps mis par l'air troposphérique pour monter et se mélanger : c'est ce délai de transport qui explique l'écart entre l'Antarctique et les moyennes latitudes.",
+			en: "Reactive chlorine and bromine present in the stratosphere, bromine weighted by its destructive efficiency, roughly sixty times that of chlorine. Values account for the time tropospheric air takes to rise and mix: that transport lag is what separates the Antarctic from the mid-latitudes.",
+		},
+		source: {
+			label: "The NOAA Ozone Depleting Gas Index",
+			url: "https://gml.noaa.gov/odgi/",
+			publisher: "NOAA Global Monitoring Laboratory",
+			accessedAt: today(),
+		},
+		series: [
+			{ key: "antarctic", label: { fr: "Antarctique", en: "Antarctic" } },
+			{ key: "midLatitude", label: { fr: "Moyennes latitudes", en: "Mid-latitudes" } },
+		],
+		rows,
+	};
+}
 
 /** Marégraphe de référence : la série continue la plus longue des États-Unis. */
 const BATTERY = {
@@ -657,7 +779,139 @@ const BATTERY = {
 	publisher: "NOAA Center for Operational Oceanographic Products and Services",
 };
 
+/**
+ * NOAA CO-OPS — marnage moyen annuel à New York.
+ *
+ * Le marnage — l'écart entre pleine et basse mer — n'est pas constant : il suit
+ * un cycle de 18,6 ans, période de précession du plan de l'orbite lunaire. Cette
+ * série, longue de plus d'un siècle, montre neuf de ces cycles, et c'est l'un
+ * des rares signaux astronomiques directement lisibles dans une mesure côtière.
+ *
+ * Le fichier donne des moyennes mensuelles : une année incomplète est écartée,
+ * parce que le marnage a aussi un cycle saisonnier qui biaiserait la moyenne.
+ */
+async function tidalRangeBattery(): Promise<Dataset> {
+	const url =
+		"https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?product=monthly_mean" +
+		`&application=corpus-delta&begin_date=18560101&end_date=${new Date().getFullYear()}1231` +
+		`&datum=MSL&station=${BATTERY.station}&time_zone=GMT&units=metric&format=csv`;
+	const text = await fetchText(url);
 
+	// Colonne 11 : MN, le marnage moyen. Colonne 5 : MSL, le niveau moyen.
+	const perYear = new Map<number, { range: number[]; level: number[] }>();
+	for (const line of text.split("\n")) {
+		const cells = line.split(",").map((cell) => cell.trim());
+		if (cells.length < 12 || !/^\d{4}$/.test(cells[0])) continue;
+
+		const year = Number(cells[0]);
+		const range = Number(cells[11]);
+		const level = Number(cells[5]);
+		if (!Number.isFinite(range) || range <= 0) continue;
+
+		const bucket = perYear.get(year) ?? { range: [], level: [] };
+		bucket.range.push(range);
+		if (Number.isFinite(level)) bucket.level.push(level);
+		perYear.set(year, bucket);
+	}
+
+	const mean = (values: number[]) => values.reduce((sum, v) => sum + v, 0) / values.length;
+
+	const rows = [...perYear.entries()]
+		.sort((a, b) => a[0] - b[0])
+		// Douze mois exigés : le marnage varie aussi avec la saison.
+		.filter(([, values]) => values.range.length === 12)
+		.map(([year, values]) => ({
+			year,
+			// Conversion en centimètres : la modulation nodale vaut quelques
+			// centimètres sur un marnage de près d'un mètre et demi, et resterait
+			// invisible sur une échelle en mètres.
+			range: Math.round(mean(values.range) * 1000) / 10,
+			level: values.level.length === 12 ? Math.round(mean(values.level) * 1000) / 10 : null,
+		}));
+
+	return {
+		id: "tidal-range-battery",
+		title: {
+			fr: "Marnage moyen annuel à New York",
+			en: "Annual mean tidal range at New York",
+		},
+		unit: "cm",
+		note: {
+			fr: `Écart moyen entre pleine et basse mer au marégraphe de ${BATTERY.name}, et niveau moyen de la mer au même point. Le marnage oscille avec une période de 18,6 ans : c'est le cycle nodal lunaire, la lente rotation du plan de l'orbite de la Lune, qui fait varier l'amplitude de la force de marée. Seules les années de douze mois complets sont retenues. Valeurs converties en centimètres.`,
+			en: `Mean difference between high and low water at the ${BATTERY.name} tide gauge, with mean sea level at the same point. The range oscillates with an 18.6-year period: the lunar nodal cycle, the slow rotation of the Moon's orbital plane, which modulates the amplitude of the tidal force. Only years with twelve complete months are kept. Values converted to centimetres.`,
+		},
+		source: {
+			label: `Tides and Currents — ${BATTERY.name}`,
+			url: BATTERY.url,
+			publisher: BATTERY.publisher,
+			accessedAt: today(),
+		},
+		series: [
+			{ key: "range", label: { fr: "Marnage moyen", en: "Mean tidal range" } },
+			{ key: "level", label: { fr: "Niveau moyen", en: "Mean sea level" } },
+		],
+		rows,
+	};
+}
+
+/**
+ * NOAA CO-OPS — jours de submersion à marée haute à New York.
+ *
+ * L'indicateur où la hausse du niveau marin cesse d'être une abstraction : le
+ * seuil de submersion est fixe, la marée est inchangée, mais la mer monte sous
+ * elle. Le nombre de jours où la marée haute passe le seuil suit donc une courbe
+ * qui s'infléchit vers le haut, alors que l'élévation, elle, est régulière.
+ */
+async function highTideFloodingBattery(): Promise<Dataset> {
+	const url =
+		"https://api.tidesandcurrents.noaa.gov/dpapi/prod/webapi/htf/htf_annual.json" +
+		`?station=${BATTERY.station}`;
+	const payload = JSON.parse(await fetchText(url)) as {
+		AnnualFloodCount?: {
+			year: number;
+			minCount: number | null;
+			percent_completeness: number | null;
+		}[];
+	};
+
+	const rows = (payload.AnnualFloodCount ?? [])
+		// Une année sans relevé exploitable porte `null` : la laisser passerait
+		// pour zéro jour de submersion, ce qui est l'inverse de l'information.
+		// Une année en cours est écartée pour la même raison : son décompte
+		// partiel se lirait comme un effondrement du nombre de submersions.
+		.filter(
+			(entry) =>
+				typeof entry.minCount === "number" &&
+				typeof entry.percent_completeness === "number" &&
+				entry.percent_completeness >= 80
+		)
+		.sort((a, b) => a.year - b.year)
+		.map((entry) => ({
+			year: entry.year,
+			days: entry.minCount as number,
+		}));
+
+	return {
+		id: "high-tide-flooding-battery",
+		title: {
+			fr: "Jours de submersion à marée haute à New York",
+			en: "High tide flooding days at New York",
+		},
+		unit: "jours",
+		note: {
+			fr: `Nombre de jours par an où la marée haute dépasse le seuil de submersion mineure au marégraphe de ${BATTERY.name}. Le seuil est fixe et la marée astronomique n'a pas changé : c'est le niveau moyen de la mer qui monte sous elle. Une élévation régulière produit ainsi une montée de plus en plus rapide du nombre de jours concernés. L'année portée est l'année météorologique, de mai à avril, telle que la compte le NOAA ; les années dont le relevé couvre moins de 80 % des jours sont écartées. Le décompte varie beaucoup d'une année à l'autre, au gré des tempêtes et d'El Niño : c'est la moyenne par décennie qui porte la tendance.`,
+			en: `Days per year when high tide exceeds the minor flooding threshold at the ${BATTERY.name} tide gauge. The threshold is fixed and the astronomical tide is unchanged: it is mean sea level that rises beneath it. A steady rise therefore produces an ever faster increase in the number of days affected. Years are NOAA meteorological years, running May to April; years whose record covers less than 80 % of days are dropped. The count swings widely from year to year with storms and El Niño: the decadal mean is what carries the trend.`,
+		},
+		source: {
+			label: "High Tide Flooding — Annual Flood Count",
+			url: "https://tidesandcurrents.noaa.gov/high-tide-flooding/",
+			publisher: BATTERY.publisher,
+			accessedAt: today(),
+		},
+		series: [{ key: "days", label: { fr: "Jours de submersion", en: "Flooding days" } }],
+		rows,
+	};
+}
 
 const BUILDERS: Record<string, () => Promise<Dataset>> = {
 	"co2-mauna-loa": co2MaunaLoa,
@@ -676,6 +930,10 @@ const BUILDERS: Record<string, () => Promise<Dataset>> = {
 	"sf6-global": sulfurHexafluoride,
 	"land-ocean-warming": landOceanWarming,
 	"arctic-sea-ice-volume": arcticSeaIceVolume,
+	"ozone-depleting-gas-index": ozoneDepletingGasIndex,
+	"stratospheric-halogens-eesc": stratosphericHalogens,
+	"tidal-range-battery": tidalRangeBattery,
+	"high-tide-flooding-battery": highTideFloodingBattery,
 };
 
 async function main(): Promise<void> {

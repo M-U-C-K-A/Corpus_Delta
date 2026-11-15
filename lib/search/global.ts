@@ -1,12 +1,13 @@
 import { getAllStudies, displayTitle } from "@/lib/content/studies";
 import { getGlossary } from "@/lib/content/glossary";
 import { getTopics } from "@/lib/content/topics";
+import { getDomains } from "@/lib/content/domains";
 import { getPaths } from "@/lib/content/paths";
 import { citationLine } from "@/lib/content/citation";
 import { route } from "@/lib/routes";
 import { DEFAULT_LANG, type Lang } from "@/lib/i18n/config";
 
-export type GlobalKind = "study" | "glossary" | "topic" | "path";
+export type GlobalKind = "study" | "glossary" | "topic" | "path" | "domain";
 
 export interface GlobalEntry {
 	id: string;
@@ -55,6 +56,20 @@ export function getGlobalEntries(lang: Lang): GlobalEntry[] {
 		keywords: entry.frontmatter.themes.join(" "),
 	}));
 
+	const domains: GlobalEntry[] = getDomains(contentLang).map((entry) => ({
+		id: `domain:${entry.slug}`,
+		kind: "domain",
+		title: entry.frontmatter.title,
+		subtitle: entry.frontmatter.tagline,
+		href: route(lang, "indicators", entry.slug),
+		// Les identifiants de séries sont cherchables : quelqu'un qui tape
+		// « mauna loa » ou « banquise » doit tomber sur le dossier qui les porte.
+		keywords: [
+			...entry.frontmatter.themes,
+			...entry.frontmatter.headline.map((item) => item.dataset),
+		].join(" "),
+	}));
+
 	const paths: GlobalEntry[] = getPaths(contentLang).map((entry) => ({
 		id: `path:${entry.slug}`,
 		kind: "path",
@@ -64,6 +79,7 @@ export function getGlobalEntries(lang: Lang): GlobalEntry[] {
 		keywords: entry.frontmatter.themes.join(" "),
 	}));
 
-	// Les parcours d'abord : sur une requête large, c'est la meilleure porte d'entrée.
-	return [...paths, ...topics, ...glossary, ...studies];
+	// Les parcours et les dossiers d'indicateurs d'abord : sur une requête large,
+	// ce sont les meilleures portes d'entrée.
+	return [...paths, ...domains, ...topics, ...glossary, ...studies];
 }

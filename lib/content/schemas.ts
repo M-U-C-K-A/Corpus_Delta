@@ -126,6 +126,63 @@ export const topicFrontmatterSchema = z.object({
 export type TopicFrontmatter = z.infer<typeof topicFrontmatterSchema>;
 
 /**
+ * Une vedette du bandeau d'un dossier d'indicateurs : un jeu de données dont on
+ * affiche la dernière valeur, son évolution et une courbe miniature.
+ */
+export const domainHeadlineSchema = z.object({
+	dataset: slug,
+	/** Décimales affichées. Celles que publie la source, pas une de plus. */
+	decimals: z.number().int().min(0).max(4).default(1),
+	/**
+	 * Sens de lecture de la variation. Une banquise qui recule et un niveau marin
+	 * qui monte vont dans le même sens physique mais dans des directions
+	 * numériques opposées : sans cette indication, l'interface les coderait à
+	 * l'envers l'un des deux.
+	 */
+	drift: z.enum(["hausse-defavorable", "baisse-defavorable", "neutre"]).default("neutre"),
+	/** Série du jeu de données à retenir, quand il en porte plusieurs. */
+	series: z.string().min(1).optional(),
+	/**
+	 * Grandeur mise en avant sous la valeur.
+	 *
+	 * « pente » convient à une série qui dérive régulièrement. Elle induit en
+	 * erreur partout ailleurs : sur un décompte annuel très bruité, elle dépend
+	 * surtout de la dernière année ; sur une série cyclique comme le marnage,
+	 * elle mesure l'endroit du cycle où l'on se trouve et rien d'autre.
+	 */
+	metric: z.enum(["pente", "decennie", "amplitude"]).default("pente"),
+});
+
+export type DomainHeadline = z.infer<typeof domainHeadlineSchema>;
+
+/**
+ * Dossier d'indicateurs : une entrée en matière sur un domaine du système
+ * climatique, construite autour de ses séries de mesure.
+ *
+ * La différence avec un dossier ordinaire tient au point de départ. Un dossier
+ * part d'une question et cite des études ; celui-ci part des grandeurs mesurées
+ * et explique le mécanisme qui les relie. D'où un bandeau de vedettes et une
+ * figure de mécanisme, tous deux déclarés ici plutôt que dans le corps du texte.
+ */
+export const domainFrontmatterSchema = z.object({
+	title: z.string().min(1),
+	description: z.string().min(1).max(400),
+	/** Phrase d'accroche du bandeau, plus courte que la description. */
+	tagline: z.string().min(1).max(160),
+	themes: z.array(z.enum(THEME_IDS as [string, ...string[]])).min(1),
+	headline: z.array(domainHeadlineSchema).min(2).max(6),
+	studies: z.array(slug).default([]),
+	glossary: z.array(slug).default([]),
+	sources: z.array(sourceRefSchema).default([]),
+	/** Ordre d'affichage dans l'index. Les domaines ne sont pas interchangeables. */
+	order: z.number().int().min(0).default(50),
+	updatedAt: isoDate,
+	draft: z.boolean().default(false),
+});
+
+export type DomainFrontmatter = z.infer<typeof domainFrontmatterSchema>;
+
+/**
  * Parcours de lecture : une séquence ordonnée d'étapes qui traverse le glossaire,
  * les dossiers et l'annuaire.
  *

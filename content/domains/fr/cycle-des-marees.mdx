@@ -1,0 +1,159 @@
+---
+title: "Cycle des marées"
+description: "La marée est le seul phénomène astronomique que l'on puisse lire dans une mesure côtière. Son amplitude suit un cycle de 18,6 ans, elle n'a presque pas changé — et c'est précisément pour cela qu'elle rend visible la hausse du niveau de la mer."
+tagline: "Une horloge astronomique vieille de milliards d'années, et le niveau moyen qui monte dessous."
+themes: ["ocean", "observation", "risques"]
+headline:
+  - dataset: "tidal-range-battery"
+    series: "range"
+    decimals: 1
+    drift: "neutre"
+    metric: "amplitude"
+  - dataset: "tidal-range-battery"
+    series: "level"
+    decimals: 1
+    drift: "hausse-defavorable"
+  - dataset: "high-tide-flooding-battery"
+    decimals: 0
+    drift: "hausse-defavorable"
+    metric: "decennie"
+  - dataset: "sea-level-altimetry"
+    decimals: 1
+    drift: "hausse-defavorable"
+studies:
+  - "church-2011-sea-level-rise-late-19th"
+  - "hamlington-2024-rate-global-sea-level-rise"
+  - "jiang-2024-compounding-effects-flood-drivers-challenge"
+  - "zscheischler-2018-future-climate-risk-compound-events"
+glossary:
+  - "niveau-marin"
+  - "submersion-marine"
+  - "dilatation-thermique"
+  - "periode-de-retour"
+  - "alea"
+  - "exposition"
+sources:
+  - label: "Tides and Currents — The Battery, New York"
+    url: "https://tidesandcurrents.noaa.gov/stationhome.html?id=8518750"
+    publisher: "NOAA Center for Operational Oceanographic Products and Services"
+  - label: "High Tide Flooding — Annual Flood Count"
+    url: "https://tidesandcurrents.noaa.gov/high-tide-flooding/"
+    publisher: "NOAA Center for Operational Oceanographic Products and Services"
+  - label: "Permanent Service for Mean Sea Level"
+    url: "https://psmsl.org/"
+    publisher: "National Oceanography Centre"
+order: 40
+updatedAt: "2026-11-15"
+---
+
+La marée n'est pas un sujet climatique. Elle est réglée par la mécanique céleste, elle
+était là bien avant nous, et le réchauffement ne la modifie quasiment pas. C'est
+exactement ce qui la rend utile : parce qu'elle ne change pas, elle sert d'étalon, et ce
+qui change se lit par contraste.
+
+## Pourquoi deux marées par jour
+
+<Mechanism name="maree-lunaire" />
+
+L'attraction lunaire étire l'océan en deux renflements : l'un face à la Lune, où
+l'attraction est la plus forte, l'autre à l'opposé, où elle est la plus faible et où la
+rotation du système Terre-Lune l'emporte. Ces deux renflements restent alignés sur la Lune.
+
+Le malentendu courant consiste à imaginer une vague qui fait le tour du globe. Ce n'est pas
+ce qui se passe : les renflements sont à peu près immobiles par rapport à la Lune, et c'est
+la Terre qui tourne dessous. Chaque côte traverse donc deux renflements par jour, d'où deux
+pleines mers — et le décalage quotidien d'environ cinquante minutes vient du fait que la
+Lune, pendant ce temps, a avancé sur son orbite.
+
+Le Soleil produit le même effet, deux fois plus faible. Quand les deux s'alignent, aux
+nouvelles et pleines lunes, les marées sont fortes : ce sont les vives-eaux. En quadrature,
+elles se contrarient : ce sont les mortes-eaux.
+
+## Le cycle de 18,6 ans
+
+Le plan de l'orbite lunaire est incliné d'environ 5° sur celui de l'orbite terrestre, et
+ce plan bascule lentement : il revient à la même position tous les 18,6 ans. C'est le
+**cycle nodal**, et il module l'amplitude de la marée de quelques pour cent.
+
+Quelques pour cent sur un marnage d'un mètre quarante, cela fait plusieurs centimètres — un
+signal parfaitement lisible dans une série longue, et l'une des rares grandeurs
+astronomiques qu'un marégraphe enregistre directement.
+
+<Chart dataset="tidal-range-battery" kind="line" theme="ocean" height={320} />
+
+La série de New York couvre plus d'un siècle, soit cinq cycles et demi. Les deux courbes
+du graphique racontent deux histoires superposées : le marnage oscille sans dériver, le
+niveau moyen dérive sans osciller.
+
+<Callout variant="info" title="Ce que l'oscillation permet de vérifier">
+Un marégraphe mesure une hauteur d'eau, pas un niveau moyen : il faut encore corriger les
+mouvements du sol, la pression atmosphérique, les courants. Le cycle nodal, dont la période
+est connue à l'avance avec une précision astronomique, offre un contrôle : si un
+instrument ne le retrouve pas là où il doit être, c'est l'instrument ou le traitement qu'il
+faut revoir, pas l'océan.
+</Callout>
+
+## Le seuil ne bouge pas, la mer monte
+
+<Mechanism name="maregraphe" />
+
+Voici où la marée cesse d'être un sujet d'astronomie. Un marégraphe compte le nombre de
+jours par an où la pleine mer dépasse un seuil de submersion fixé une fois pour toutes, à
+partir de la hauteur à laquelle l'eau commence à gêner — rues inondées, réseaux pluviaux
+qui refoulent.
+
+L'amplitude de la marée n'a pas changé. Le seuil non plus. Ce qui change, c'est le niveau
+moyen sur lequel cette marée se superpose.
+
+<Chart dataset="high-tide-flooding-battery" kind="bar" theme="risques" height={320} />
+
+Le résultat n'est pas proportionnel, et c'est tout l'intérêt de cet indicateur. Les hauteurs
+de pleine mer se distribuent autour d'une moyenne ; relever cette moyenne de quelques
+centimètres ne déplace pas la distribution d'un cran, cela fait basculer au-dessus du seuil
+toute une population de marées qui passaient juste en dessous. Une élévation régulière
+produit donc une croissance qui s'emballe.
+
+<DecadeBars dataset="high-tide-flooding-battery" from={1930} theme="risques" decimals={1} />
+
+Le décompte annuel est très bruité — une saison de tempêtes ou un épisode El Niño suffit à
+le doubler. C'est la moyenne par décennie qui porte le signal, et elle est sans ambiguïté.
+
+## Ce que cela change pour la notion de risque
+
+<Indicators ids="sea-level-altimetry,ocean-heat-content" decimals={1} drift="hausse-defavorable" columns={2} />
+
+La <Term id="submersion-marine">submersion marine</Term> est le cas d'école de ce que les
+spécialistes appellent un événement composé : elle ne résulte pas d'une cause unique mais
+de la coïncidence de plusieurs — une vive-eau, une dépression qui soulève le plan d'eau,
+un vent de mer, parfois une crue qui arrive en même temps par l'amont
+<Cite id="zscheischler-2018-future-climate-risk-compound-events" />. Chacun de ces facteurs
+pris isolément reste ordinaire ; c'est leur rencontre qui submerge.
+
+La hausse du niveau moyen ne crée aucun de ces facteurs. Elle rehausse le point de départ
+commun à tous, ce qui revient à raccourcir la
+<Term id="periode-de-retour">période de retour</Term> de chaque combinaison. Un événement
+centennal devient décennal sans qu'aucune tempête n'ait changé de nature
+<Cite id="jiang-2024-compounding-effects-flood-drivers-challenge" />.
+
+## Le niveau moyen, et comment on le sait
+
+<Chart dataset="sea-level-altimetry" kind="area" theme="ocean" />
+
+Deux systèmes de mesure indépendants coexistent. Les marégraphes, les plus anciens, donnent
+un niveau **relatif** : ils sont fixés à un sol qui bouge lui aussi — subsidence des deltas,
+remontée des régions anciennement sous glacier. L'altimétrie satellitaire, depuis 1993,
+donne un niveau **absolu**, rapporté au centre de la Terre.
+
+Leur accord sur la période commune est ce qui fonde la confiance dans la reconstruction du
+siècle précédent, faite à partir des seuls marégraphes
+<Cite id="church-2011-sea-level-rise-late-19th" />. Le taux global n'est pas constant :
+il a plus que doublé depuis le début de la série altimétrique
+<Cite id="hamlington-2024-rate-global-sea-level-rise" />.
+
+<Callout variant="caution" title="Un marégraphe n'est pas le monde">
+Les séries de cette page viennent d'une seule station, choisie pour sa longueur. Le niveau
+relatif y combine la hausse globale et les mouvements locaux du sol, qui diffèrent d'une
+côte à l'autre : certaines voient monter deux fois plus vite que la moyenne, d'autres
+voient baisser. Une station illustre un mécanisme ; elle ne mesure pas la planète. C'est
+l'altimétrie qui le fait.
+</Callout>
