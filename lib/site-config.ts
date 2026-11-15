@@ -38,12 +38,18 @@ export const siteConfig = {
 	 * publier ici ne révèle rien qui ne le soit déjà, et il suffit de le
 	 * posséder pour vérifier — encore faut-il posséder le domaine.
 	 *
+	 * Le jeton est propre à une propriété Search Console, et chaque propriété a
+	 * le sien : celui-ci vaut pour la propriété « préfixe de l'URL »
+	 * https://corpus-delta.vercel.app. Une propriété « domaine » en demanderait
+	 * un autre, et se prouverait par le DNS — impossible sous vercel.app, dont
+	 * la zone ne nous appartient pas.
+	 *
 	 * Un autre déploiement que celui-ci — un domaine propre, une duplication
-	 * du dépôt — doit utiliser le sien : définir
+	 * du dépôt — doit donc utiliser le sien : définir
 	 * NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION dans ses variables d'environnement
 	 * remplace cette valeur sans toucher au code.
 	 */
-	googleSiteVerification: "99EymaLcDVfxlS7f6nr_hdLmf1B-Jhaq-MOHPcElQ_o",
+	googleSiteVerification: "ZySIHelGcR_QVEDjHMEkroMhVeT6MkgR0WCN0QGt8OE",
 	/**
 	 * Adresse transmise aux API bibliographiques (OpenAlex, Crossref) pour accéder
 	 * à leur « polite pool ». Ces API demandent un contact technique joignable.
