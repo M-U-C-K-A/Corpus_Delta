@@ -2,22 +2,19 @@ export const LANGS = ["fr", "en"] as const;
 
 export type Lang = (typeof LANGS)[number];
 
+/**
+ * Langue de référence.
+ *
+ * Sert à deux choses : la racine `/` y redirige, et c'est la cible du repli
+ * quand une traduction manque. Ce repli se décide fichier par fichier, dans
+ * les chargeurs `get…WithFallback` de `lib/content/` — aucune langue n'est
+ * déclarée globalement incomplète, puisqu'une langue peut très bien n'avoir
+ * qu'une partie du corpus.
+ */
 export const DEFAULT_LANG: Lang = "fr";
 
 export function isLang(value: string): value is Lang {
 	return (LANGS as readonly string[]).includes(value);
-}
-
-/**
- * Le contenu rédactionnel (glossaire, dossiers) est produit en français d'abord.
- * Les pages anglaises existent et restent navigables : elles affichent l'annuaire,
- * dont les métadonnées sont indépendantes de la langue, et signalent explicitement
- * quand une traduction n'est pas encore disponible plutôt que de renvoyer un 404.
- */
-export const EDITORIAL_LANGS: readonly Lang[] = ["fr"];
-
-export function hasEditorialContent(lang: Lang): boolean {
-	return EDITORIAL_LANGS.includes(lang);
 }
 
 /** Locale BCP 47 pour le formatage des dates et des nombres. */

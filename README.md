@@ -124,9 +124,9 @@ expose un flux RSS sur `/<lang>/rss.xml`.
 app/[lang]/          Routes, segments anglais ; les URLs françaises viennent
                      des réécritures déclarées dans next.config.mjs
 content/studies/     Une étude = un JSON, produit par le script d'ingestion
-content/glossary/fr/ Définitions en MDX, source obligatoire
-content/topics/fr/   Dossiers thématiques en MDX
-content/paths/fr/    Parcours de lecture : séquences ordonnées d'étapes
+content/glossary/    Définitions en MDX, un sous-dossier par langue
+content/topics/      Dossiers thématiques en MDX, un sous-dossier par langue
+content/paths/       Parcours de lecture : séquences ordonnées d'étapes
 data/datasets/       Séries chiffrées des graphiques, avec provenance
 lib/content/         Schémas zod, chargeurs, citations, taxonomie
 components/mdx/      Composants disponibles dans les MDX
@@ -134,9 +134,6 @@ components/dither-kit/ Graphiques tramés — voir son README pour les correctif
 scripts/             Ingestion, validation, contrôle des liens
 scripts/lib/         Agrégations trop volumineuses pour tenir dans un script
 tests/               Tests des fonctions de calcul et invariants du corpus
-archive/content-v1/  Contenu de la v1, conservé hors build. Les images, elles,
-                     ne sont plus dans l'arbre de travail : le commit f61612c9
-                     les conserve, `git show f61612c9:public/articles/…` les rend
 ```
 
 ### Écrire un dossier
