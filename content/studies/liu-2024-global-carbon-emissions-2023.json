@@ -29,6 +29,7 @@
 	"publisher": "Nature Portfolio",
 	"year": 2024,
 	"type": "article",
+	"typeOverride": "review",
 	"abstract": null,
 	"language": "en",
 	"openAccess": {
@@ -36,23 +37,32 @@
 		"status": "bronze",
 		"url": "https://www.nature.com/articles/s43017-024-00532-2.pdf"
 	},
-	"citedByCount": 428,
+	"citedByCount": 497,
+	"openAlexId": "W4393938405",
+	"referencedWorks": [
+		"W4220778568",
+		"W4283728299",
+		"W4324026861",
+		"W4366086895",
+		"W4379875502",
+		"W4388020336",
+		"W4389195056"
+	],
 	"themes": [
 		"carbone",
 		"politiques"
 	],
 	"sourceTopics": [
-		"Atmospheric and Environmental Gas Dynamics",
 		"Climate Change Policy and Economics",
-		"Carbon Dioxide Capture Technologies"
+		"Energy, Environment, Economic Growth",
+		"Climate Change and Environmental Impact"
 	],
 	"url": "https://doi.org/10.1038/s43017-024-00532-2",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-08-20"
+		"retrievedAt": "2026-11-16"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},
-	"glossaryTerms": [],
-	"typeOverride": "review"
+	"glossaryTerms": []
 }

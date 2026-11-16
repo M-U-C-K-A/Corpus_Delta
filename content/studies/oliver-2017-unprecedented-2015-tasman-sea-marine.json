@@ -19,7 +19,7 @@
 			"affiliation": "University of Tasmania"
 		},
 		{
-			"name": "Alistair J. Hobday",
+			"name": "Alistair James Hobday",
 			"orcid": "https://orcid.org/0000-0002-3194-8326",
 			"affiliation": "CSIRO Oceans and Atmosphere"
 		},
@@ -29,14 +29,14 @@
 			"affiliation": "University of Tasmania"
 		},
 		{
-			"name": "CN Mundy",
+			"name": "CRAIG N. MUNDY",
 			"orcid": "https://orcid.org/0000-0002-1945-3750",
 			"affiliation": "University of Tasmania"
 		},
 		{
-			"name": "Sarah Perkins‐Kirkpatrick",
+			"name": "Sarah E Perkins-Kirkpatrick",
 			"orcid": "https://orcid.org/0000-0001-9443-4915",
-			"affiliation": "Australian Research Council"
+			"affiliation": "UNSW Sydney"
 		}
 	],
 	"authorCount": 7,
@@ -51,20 +51,88 @@
 		"status": "gold",
 		"url": "https://www.nature.com/articles/ncomms16101.pdf"
 	},
-	"citedByCount": 615,
+	"citedByCount": 661,
+	"openAlexId": "W2735759243",
+	"referencedWorks": [
+		"W198083648",
+		"W956915863",
+		"W1533505259",
+		"W1554992090",
+		"W1560946750",
+		"W1608013130",
+		"W1681390371",
+		"W1762904273",
+		"W1970643072",
+		"W1974038018",
+		"W1983628807",
+		"W1987043169",
+		"W1988275272",
+		"W1998525562",
+		"W2000015772",
+		"W2003411850",
+		"W2006165291",
+		"W2009309272",
+		"W2014042014",
+		"W2014756961",
+		"W2021133565",
+		"W2024966118",
+		"W2027290470",
+		"W2033020398",
+		"W2033848761",
+		"W2035394651",
+		"W2036462485",
+		"W2037416330",
+		"W2039005968",
+		"W2041984797",
+		"W2044387082",
+		"W2046691276",
+		"W2049527653",
+		"W2051320946",
+		"W2051545515",
+		"W2060172488",
+		"W2069864946",
+		"W2084442467",
+		"W2089093907",
+		"W2096758614",
+		"W2101316138",
+		"W2108313195",
+		"W2108771338",
+		"W2116117038",
+		"W2117651971",
+		"W2126509349",
+		"W2131070146",
+		"W2135725459",
+		"W2143329777",
+		"W2143780283",
+		"W2150313103",
+		"W2165998536",
+		"W2166232337",
+		"W2166807792",
+		"W2167476198",
+		"W2169384166",
+		"W2173720459",
+		"W2176548234",
+		"W2222895730",
+		"W2230443456",
+		"W2343407653",
+		"W2513834328",
+		"W2797602122",
+		"W4243863038",
+		"W4285719527"
+	],
 	"themes": [
 		"ocean",
 		"chaleur"
 	],
 	"sourceTopics": [
+		"Oceanographic and Atmospheric Processes",
 		"Climate variability and models",
-		"Tropical and Extratropical Cyclones Research",
-		"Ocean Acidification Effects and Responses"
+		"Marine and fisheries research"
 	],
 	"url": "https://doi.org/10.1038/ncomms16101",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-08-20"
+		"retrievedAt": "2026-11-16"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},

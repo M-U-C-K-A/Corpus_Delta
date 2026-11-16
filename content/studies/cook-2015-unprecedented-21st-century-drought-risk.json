@@ -5,6 +5,7 @@
 	"authors": [
 		{
 			"name": "Benjamin I. Cook",
+			"orcid": "https://orcid.org/0000-0002-4501-9229",
 			"affiliation": "Goddard Institute for Space Studies"
 		},
 		{
@@ -30,20 +31,56 @@
 		"status": "gold",
 		"url": "https://doi.org/10.1126/sciadv.1400082"
 	},
-	"citedByCount": 1465,
+	"citedByCount": 1531,
+	"openAlexId": "W2134358106",
+	"referencedWorks": [
+		"W1731032083",
+		"W1985201273",
+		"W1988898629",
+		"W1992514324",
+		"W1999778821",
+		"W2012345029",
+		"W2012965907",
+		"W2013447032",
+		"W2015522309",
+		"W2019284313",
+		"W2024966118",
+		"W2043153600",
+		"W2053452238",
+		"W2057522255",
+		"W2094584957",
+		"W2095874106",
+		"W2096909897",
+		"W2099501065",
+		"W2100635111",
+		"W2105384926",
+		"W2106632946",
+		"W2112716138",
+		"W2114614483",
+		"W2117598843",
+		"W2117934747",
+		"W2133727306",
+		"W2142382288",
+		"W2161896476",
+		"W2162001500",
+		"W2165184011",
+		"W2165301409",
+		"W2166566270",
+		"W2169245074"
+	],
 	"themes": [
 		"eau",
 		"risques"
 	],
 	"sourceTopics": [
-		"Plant Water Relations and Carbon Dynamics",
 		"Hydrology and Drought Analysis",
-		"Tree-ring climate responses"
+		"Climate variability and models",
+		"Geology and Paleoclimatology Research"
 	],
 	"url": "https://doi.org/10.1126/sciadv.1400082",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-08-20"
+		"retrievedAt": "2026-11-16"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},

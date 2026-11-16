@@ -6,27 +6,27 @@
 		{
 			"name": "Terry P. Hughes",
 			"orcid": "https://orcid.org/0000-0002-5257-5063",
-			"affiliation": "Australian Research Council"
+			"affiliation": "ARC Centre of Excellence for Coral Reef Studies"
 		},
 		{
 			"name": "James T. Kerry",
 			"orcid": "https://orcid.org/0000-0003-2209-3757",
-			"affiliation": "Australian Research Council"
+			"affiliation": "ARC Centre of Excellence for Coral Reef Studies"
 		},
 		{
 			"name": "Andrew H. Baird",
 			"orcid": "https://orcid.org/0000-0001-8504-4077",
-			"affiliation": "Australian Research Council"
+			"affiliation": "ARC Centre of Excellence for Coral Reef Studies"
 		},
 		{
 			"name": "Sean R. Connolly",
 			"orcid": "https://orcid.org/0000-0003-1537-0859",
-			"affiliation": "Australian Research Council"
+			"affiliation": "ARC Centre of Excellence for Coral Reef Studies"
 		},
 		{
 			"name": "Andreas Dietzel",
 			"orcid": "https://orcid.org/0000-0002-2490-6929",
-			"affiliation": "Australian Research Council"
+			"affiliation": "ARC Centre of Excellence for Coral Reef Studies"
 		},
 		{
 			"name": "C. Mark Eakin",
@@ -41,12 +41,12 @@
 		{
 			"name": "Andrew S. Hoey",
 			"orcid": "https://orcid.org/0000-0002-4261-5594",
-			"affiliation": "Australian Research Council"
+			"affiliation": "ARC Centre of Excellence for Coral Reef Studies"
 		},
 		{
 			"name": "Mia O. Hoogenboom",
 			"orcid": "https://orcid.org/0000-0003-3709-6344",
-			"affiliation": "Australian Research Council"
+			"affiliation": "ARC Centre of Excellence for Coral Reef Studies"
 		},
 		{
 			"name": "Gang Liu",
@@ -56,17 +56,17 @@
 		{
 			"name": "Mike McWilliam",
 			"orcid": "https://orcid.org/0000-0001-5748-0859",
-			"affiliation": "Australian Research Council"
+			"affiliation": "ARC Centre of Excellence for Coral Reef Studies"
 		},
 		{
-			"name": "Rachel Pears",
+			"name": "Rachel J. Pears",
 			"orcid": "https://orcid.org/0000-0001-8092-0365",
 			"affiliation": "Great Barrier Reef Marine Park Authority"
 		},
 		{
-			"name": "Morgan S. Pratchett",
+			"name": "Morgan Stuart Pratchett",
 			"orcid": "https://orcid.org/0000-0002-1862-8459",
-			"affiliation": "Australian Research Council"
+			"affiliation": "ARC Centre of Excellence for Coral Reef Studies"
 		},
 		{
 			"name": "William Skirving",
@@ -74,7 +74,7 @@
 			"affiliation": "National Oceanic and Atmospheric Administration"
 		},
 		{
-			"name": "Jessica Stella",
+			"name": "Jessica S. Stella",
 			"orcid": "https://orcid.org/0000-0001-8566-214X",
 			"affiliation": "Great Barrier Reef Marine Park Authority"
 		},
@@ -92,24 +92,54 @@
 	"abstract": null,
 	"language": "en",
 	"openAccess": {
-		"isOpen": false,
-		"status": "closed",
-		"url": null
+		"isOpen": true,
+		"status": "green",
+		"url": "https://repository.library.noaa.gov/view/noaa/17695/noaa_17695_DS1.pdf"
 	},
-	"citedByCount": 1771,
+	"citedByCount": 1912,
+	"openAlexId": "W2796944804",
+	"referencedWorks": [
+		"W1588713494",
+		"W2005574254",
+		"W2011181238",
+		"W2013606360",
+		"W2044740668",
+		"W2045500119",
+		"W2049337196",
+		"W2070327047",
+		"W2086993800",
+		"W2142598180",
+		"W2148447618",
+		"W2154785741",
+		"W2155454753",
+		"W2156568771",
+		"W2326281136",
+		"W2341876054",
+		"W2557511834",
+		"W2560236436",
+		"W2596630349",
+		"W2609766695",
+		"W2619701599",
+		"W2768696148",
+		"W2769704372",
+		"W2782456798",
+		"W2782982794",
+		"W2888523676",
+		"W4256735298"
+	],
 	"themes": [
 		"ocean",
 		"biodiversite"
 	],
 	"sourceTopics": [
 		"Coral and Marine Ecosystems Studies",
-		"Marine and coastal plant biology",
-		"Marine and fisheries research"
+		"Ocean Acidification Effects and Responses",
+		"Marine Biology and Ecology Research"
 	],
 	"url": "https://doi.org/10.1038/s41586-018-0041-2",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-08-20"
+		"retrievedAt": "2026-11-16"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},

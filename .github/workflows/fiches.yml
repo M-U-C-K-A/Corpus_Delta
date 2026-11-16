@@ -1,0 +1,89 @@
+name: Fiches
+
+# Le contrôle de rétractation d'`add-study.ts` ne tourne qu'à l'ingestion. Une
+# étude entrée propre puis rétractée depuis resterait indéfiniment présentée
+# comme irréprochable : c'est une vérification qui dépend du temps, pas des
+# commits, au même titre que celle des liens.
+on:
+  schedule:
+    - cron: "30 6 * * 1" # tous les lundis, 6 h 30 UTC — après la vérification des liens
+  workflow_dispatch:
+
+# La tâche propose une modification ; elle n'écrit jamais sur main directement.
+# Rafraîchir des métadonnées reste une modification du corpus, et le corpus se
+# relit.
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  refresh:
+    name: Rafraîchir le corpus chez sa source
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+
+      # Le script écrit les fiches saines puis sort en erreur s'il a trouvé une
+      # rétractation. On retient le code de sortie sans arrêter la tâche : les
+      # deux résultats nous intéressent, la mise à jour comme l'alerte.
+      - name: Repasser les fiches chez OpenAlex
+        id: refresh
+        run: |
+          set +e
+          pnpm studies:refresh 2>&1 | tee /tmp/refresh.log
+          echo "status=${PIPESTATUS[0]}" >> "$GITHUB_OUTPUT"
+          set -e
+
+      - name: Vérifier le corpus rafraîchi
+        run: pnpm validate
+
+      - name: Ouvrir une proposition de modification
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [ -z "$(git status --porcelain content/studies)" ]; then
+            echo "Aucune fiche modifiée : rien à proposer."
+            exit 0
+          fi
+
+          semaine="$(date -u +%Y-%m-%d)"
+          branche="fiches/releve-$semaine"
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$branche"
+          git add content/studies
+          git commit -m "Relève les fiches chez OpenAlex au $semaine"
+          git push --quiet origin "$branche"
+
+          # Le corps de la proposition reprend le journal du script : c'est lui
+          # qui dit ce qui a bougé, étude par étude.
+          {
+            echo "Relevé automatique du $semaine."
+            echo
+            echo '```'
+            tail -c 60000 /tmp/refresh.log
+            echo '```'
+          } > /tmp/corps.md
+
+          gh pr create \
+            --title "Fiches : relevé du $semaine" \
+            --body-file /tmp/corps.md \
+            --base main \
+            --head "$branche"
+
+      # Dernier : une rétractation doit faire échouer la tâche de façon visible,
+      # mais seulement après que la mise à jour du reste a été proposée.
+      - name: Signaler les rétractations
+        if: steps.refresh.outputs.status != '0'
+        run: |
+          echo "::error::Le rafraîchissement a signalé au moins une rétractation. Voir le journal."
+          exit 1

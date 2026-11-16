@@ -14,7 +14,7 @@
 			"affiliation": "University of Oxford"
 		},
 		{
-			"name": "Myles Allen",
+			"name": "Myles R. Allen",
 			"orcid": "https://orcid.org/0000-0002-1721-7172",
 			"affiliation": "University of Oxford"
 		},
@@ -23,12 +23,12 @@
 			"affiliation": "University of Oxford"
 		},
 		{
-			"name": "Thomas Hale",
+			"name": "Thomas N. Hale",
 			"orcid": "https://orcid.org/0000-0002-8871-3376",
 			"affiliation": "University of Oxford"
 		},
 		{
-			"name": "Cameron Hepburn",
+			"name": "Cameron J. Hepburn",
 			"orcid": "https://orcid.org/0000-0003-0467-7441",
 			"affiliation": "University of Oxford"
 		},
@@ -44,6 +44,7 @@
 		},
 		{
 			"name": "Javier Lezaun",
+			"orcid": "https://orcid.org/0000-0002-5483-3628",
 			"affiliation": "University of Oxford"
 		},
 		{
@@ -52,7 +53,7 @@
 			"affiliation": "University of Oxford"
 		},
 		{
-			"name": "Michael Obersteiner",
+			"name": "Michael H. Obersteiner",
 			"orcid": "https://orcid.org/0000-0001-6981-2769",
 			"affiliation": "University of Oxford"
 		},
@@ -86,23 +87,79 @@
 	"language": "en",
 	"openAccess": {
 		"isOpen": true,
-		"status": "bronze",
-		"url": "https://www.nature.com/articles/s41558-021-01245-w.pdf"
+		"status": "green",
+		"url": "https://ora.ox.ac.uk/objects/uuid:945700f9-ef6c-410f-be46-5af74d886459/files/r1g05fc12c"
 	},
-	"citedByCount": 949,
+	"citedByCount": 1098,
+	"openAlexId": "W4200032992",
+	"referencedWorks": [
+		"W1505186342",
+		"W1965632437",
+		"W1967789545",
+		"W1969164087",
+		"W1985148570",
+		"W1997499520",
+		"W2002578356",
+		"W2007351213",
+		"W2021478451",
+		"W2026003541",
+		"W2060852319",
+		"W2068178778",
+		"W2095636002",
+		"W2166941621",
+		"W2169286869",
+		"W2259886736",
+		"W2305443583",
+		"W2782332013",
+		"W2795432245",
+		"W2800190939",
+		"W2804406438",
+		"W2808531745",
+		"W2809002745",
+		"W2809537401",
+		"W2809772705",
+		"W2811133697",
+		"W2890340840",
+		"W2890978781",
+		"W2904113473",
+		"W2932737671",
+		"W2945847805",
+		"W2980684978",
+		"W3003933125",
+		"W3004697769",
+		"W3009221443",
+		"W3020975734",
+		"W3021625863",
+		"W3038789935",
+		"W3080074869",
+		"W3085195804",
+		"W3122606839",
+		"W3124615112",
+		"W3126051493",
+		"W3126285986",
+		"W3131198541",
+		"W3137349729",
+		"W3146172347",
+		"W3153296559",
+		"W3163897765",
+		"W3181116195",
+		"W3194827876",
+		"W4236321216",
+		"W4300706543"
+	],
 	"themes": [
 		"politiques",
 		"carbone"
 	],
 	"sourceTopics": [
 		"Climate Change Policy and Economics",
-		"Climate Change and Geoengineering",
-		"Atmospheric and Environmental Gas Dynamics"
+		"Sustainability and Climate Change Governance",
+		"Climate Change and Sustainable Development"
 	],
 	"url": "https://doi.org/10.1038/s41558-021-01245-w",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-08-30"
+		"retrievedAt": "2026-11-16"
 	},
 	"addedAt": "2026-08-30",
 	"editorial": {},

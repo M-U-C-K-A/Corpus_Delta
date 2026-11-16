@@ -6,17 +6,17 @@
 		{
 			"name": "Oliver Schmidt",
 			"orcid": "https://orcid.org/0000-0002-8902-2913",
-			"affiliation": "Imperial Consultants"
+			"affiliation": "Imperial College London"
 		},
 		{
-			"name": "Adam Hawkes",
+			"name": "Adam D. Hawkes",
 			"orcid": "https://orcid.org/0000-0001-9720-332X",
 			"affiliation": "Imperial College London"
 		},
 		{
 			"name": "Ajay Gambhir",
 			"orcid": "https://orcid.org/0000-0002-5079-4537",
-			"affiliation": "Imperial Consultants"
+			"affiliation": "Imperial College London"
 		},
 		{
 			"name": "Iain Staffell",
@@ -36,19 +36,53 @@
 		"status": "closed",
 		"url": null
 	},
-	"citedByCount": 1133,
+	"citedByCount": 1211,
+	"openAlexId": "W2727165102",
+	"referencedWorks": [
+		"W320003081",
+		"W574436714",
+		"W1481489150",
+		"W1491452507",
+		"W1576373160",
+		"W1966248760",
+		"W1987317203",
+		"W1989799548",
+		"W1990513740",
+		"W1997946159",
+		"W2001755389",
+		"W2003278149",
+		"W2008426812",
+		"W2017428530",
+		"W2035708825",
+		"W2036945186",
+		"W2044537965",
+		"W2063866856",
+		"W2105891457",
+		"W2154520219",
+		"W2165915303",
+		"W2168019066",
+		"W2257522626",
+		"W2329137830",
+		"W2436464338",
+		"W2471764423",
+		"W2476732026",
+		"W2517796793",
+		"W2589703376",
+		"W2731050121",
+		"W4394186097"
+	],
 	"themes": [
 		"energie"
 	],
 	"sourceTopics": [
-		"Electric Vehicles and Infrastructure",
-		"Smart Grid Energy Management",
-		"Advanced Battery Technologies Research"
+		"Integrated Energy Systems Optimization",
+		"Power Systems and Renewable Energy",
+		"Electric Vehicles and Infrastructure"
 	],
 	"url": "https://doi.org/10.1038/nenergy.2017.110",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-08-20"
+		"retrievedAt": "2026-11-16"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},

@@ -9,7 +9,7 @@
 			"affiliation": "Northern Arizona University"
 		},
 		{
-			"name": "A. David McGuire",
+			"name": "Anthony David McGuire",
 			"orcid": "https://orcid.org/0000-0003-4646-0750",
 			"affiliation": "United States Geological Survey"
 		},
@@ -61,7 +61,7 @@
 		{
 			"name": "David Olefeldt",
 			"orcid": "https://orcid.org/0000-0002-5976-1475",
-			"affiliation": "University of Guelph"
+			"affiliation": "University of Alberta"
 		},
 		{
 			"name": "V. E. Romanovsky",
@@ -69,9 +69,9 @@
 			"affiliation": "University of Alaska Fairbanks"
 		},
 		{
-			"name": "Kevin Schaefer",
+			"name": "Kevin M. Schaefer",
 			"orcid": "https://orcid.org/0000-0002-5444-9917",
-			"affiliation": "NOAA National Ice Center"
+			"affiliation": "National Snow and Ice Data Center"
 		},
 		{
 			"name": "Merritt R. Turetsky",
@@ -79,7 +79,7 @@
 			"affiliation": "University of Guelph"
 		},
 		{
-			"name": "Claire C. Treat",
+			"name": "Claire Clark Treat",
 			"orcid": "https://orcid.org/0000-0002-1225-8178",
 			"affiliation": "University of New Hampshire"
 		},
@@ -101,20 +101,112 @@
 		"status": "bronze",
 		"url": "https://www.nature.com/articles/nature14338.pdf"
 	},
-	"citedByCount": 3868,
+	"citedByCount": 4100,
+	"openAlexId": "W2009225674",
+	"referencedWorks": [
+		"W1496360119",
+		"W1508480791",
+		"W1533724754",
+		"W1581204067",
+		"W1630186597",
+		"W1902703596",
+		"W1956280464",
+		"W1975366443",
+		"W1977838436",
+		"W1983091081",
+		"W1991550912",
+		"W1991612563",
+		"W1992889910",
+		"W1998604764",
+		"W2001356302",
+		"W2004148179",
+		"W2008502493",
+		"W2014465108",
+		"W2014896747",
+		"W2034029630",
+		"W2034671731",
+		"W2035444882",
+		"W2036376676",
+		"W2041854232",
+		"W2042174120",
+		"W2042994920",
+		"W2044299056",
+		"W2046125615",
+		"W2052529373",
+		"W2054410620",
+		"W2055942616",
+		"W2056216695",
+		"W2060139103",
+		"W2060267335",
+		"W2061603569",
+		"W2061907064",
+		"W2064438038",
+		"W2065522153",
+		"W2070704926",
+		"W2074738924",
+		"W2078859339",
+		"W2079240018",
+		"W2086242375",
+		"W2087297387",
+		"W2093774846",
+		"W2098627306",
+		"W2107447717",
+		"W2112114797",
+		"W2116898223",
+		"W2117217770",
+		"W2120181597",
+		"W2122734193",
+		"W2126137847",
+		"W2127429639",
+		"W2128430926",
+		"W2129731359",
+		"W2130457878",
+		"W2130978695",
+		"W2132288094",
+		"W2133749460",
+		"W2136818763",
+		"W2137745363",
+		"W2147077145",
+		"W2149929923",
+		"W2150193364",
+		"W2150654526",
+		"W2153456245",
+		"W2153815449",
+		"W2155211093",
+		"W2155431138",
+		"W2155877774",
+		"W2156913135",
+		"W2158149113",
+		"W2158450675",
+		"W2159141244",
+		"W2159200641",
+		"W2160114099",
+		"W2161955723",
+		"W2163130267",
+		"W2164286940",
+		"W2167160775",
+		"W2169003346",
+		"W2172088443",
+		"W2174069807",
+		"W2241570241",
+		"W2259380578",
+		"W2518172084",
+		"W2915278450",
+		"W2986345846"
+	],
 	"themes": [
 		"cryosphere",
 		"carbone"
 	],
 	"sourceTopics": [
 		"Climate change and permafrost",
-		"Cryospheric studies and observations",
-		"Methane Hydrates and Related Phenomena"
+		"Soil Carbon and Nitrogen Dynamics",
+		"Polar Research and Ecology"
 	],
 	"url": "https://doi.org/10.1038/nature14338",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-08-19"
+		"retrievedAt": "2026-11-16"
 	},
 	"addedAt": "2026-08-19",
 	"editorial": {

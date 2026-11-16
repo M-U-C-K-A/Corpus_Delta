@@ -14,7 +14,7 @@
 			"affiliation": "NSF National Center for Atmospheric Research"
 		},
 		{
-			"name": "Detlef P. van Vuuren",
+			"name": "Detlef Peter van Vuuren",
 			"orcid": "https://orcid.org/0000-0003-0398-2831",
 			"affiliation": "Netherlands Environmental Assessment Agency"
 		},
@@ -29,7 +29,7 @@
 			"affiliation": "University of Exeter"
 		},
 		{
-			"name": "G. C. Hurtt",
+			"name": "GEORGE C. HURTT",
 			"orcid": "https://orcid.org/0000-0001-7278-202X",
 			"affiliation": "University of Maryland, College Park"
 		},
@@ -49,7 +49,7 @@
 			"affiliation": "NSF National Center for Atmospheric Research"
 		},
 		{
-			"name": "Jason Lowe",
+			"name": "Jason A. Lowe",
 			"orcid": "https://orcid.org/0000-0002-8201-3926",
 			"affiliation": "Met Office"
 		},
@@ -69,7 +69,7 @@
 			"affiliation": "International Institute for Applied Systems Analysis"
 		},
 		{
-			"name": "Benjamin M. Sanderson",
+			"name": "Benjamin Mark Sanderson",
 			"orcid": "https://orcid.org/0000-0001-8635-4624",
 			"affiliation": "NSF National Center for Atmospheric Research"
 		}
@@ -86,20 +86,100 @@
 		"status": "gold",
 		"url": "https://www.geosci-model-dev.net/9/3461/2016/gmd-9-3461-2016.pdf"
 	},
-	"citedByCount": 5079,
+	"citedByCount": 5954,
+	"openAlexId": "W2337225114",
+	"referencedWorks": [
+		"W169370418",
+		"W606751122",
+		"W793980422",
+		"W1197142051",
+		"W1499256377",
+		"W1520428197",
+		"W1565707212",
+		"W1583276246",
+		"W1689307259",
+		"W1879719302",
+		"W1905429483",
+		"W1915334423",
+		"W1945729573",
+		"W1953258395",
+		"W1963951747",
+		"W1964308073",
+		"W1966042706",
+		"W1968176769",
+		"W1969073155",
+		"W1972946703",
+		"W1973843772",
+		"W1973988860",
+		"W1976005953",
+		"W1979383925",
+		"W1981149429",
+		"W1986344857",
+		"W1987605728",
+		"W1988346242",
+		"W1991308688",
+		"W1992193293",
+		"W1992579369",
+		"W1995483742",
+		"W2017900025",
+		"W2019511956",
+		"W2024870143",
+		"W2024966118",
+		"W2032067579",
+		"W2032082343",
+		"W2036877639",
+		"W2047328724",
+		"W2050648603",
+		"W2054653365",
+		"W2058953442",
+		"W2062217294",
+		"W2062667641",
+		"W2069294836",
+		"W2071062728",
+		"W2090895725",
+		"W2096706088",
+		"W2099866373",
+		"W2121541206",
+		"W2131487345",
+		"W2145991779",
+		"W2151094192",
+		"W2154503578",
+		"W2171984413",
+		"W2173487571",
+		"W2193503481",
+		"W2266015486",
+		"W2345579360",
+		"W2400117161",
+		"W2400836904",
+		"W2410390527",
+		"W2416755734",
+		"W2460445755",
+		"W2509342481",
+		"W2514521744",
+		"W2516442054",
+		"W2524079875",
+		"W2538117061",
+		"W2538529636",
+		"W2541697905",
+		"W2619280447",
+		"W2939474406",
+		"W2981420978",
+		"W4249542523",
+		"W4252797265"
+	],
 	"themes": [
 		"modelisation",
 		"politiques"
 	],
 	"sourceTopics": [
 		"Climate variability and models",
-		"Atmospheric and Environmental Gas Dynamics",
-		"Climate Change and Health Impacts"
+		"Climate Change Policy and Economics",
+		"Climate Change and Geoengineering"
 	],
 	"url": "https://doi.org/10.5194/gmd-9-3461-2016",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-08-20"
+		"retrievedAt": "2026-11-16"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},

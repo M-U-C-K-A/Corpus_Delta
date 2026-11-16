@@ -4,16 +4,17 @@
 	"title": "The rate of global sea level rise doubled during the past three decades",
 	"authors": [
 		{
-			"name": "Benjamin D. Hamlington",
-			"orcid": "https://orcid.org/0000-0002-5731-9966",
+			"name": "Benjamin Dillon Hamlington",
+			"orcid": "https://orcid.org/0000-0002-2315-6425",
 			"affiliation": "Jet Propulsion Laboratory"
 		},
 		{
-			"name": "Ashley Bellas-Manley",
+			"name": "Ashley Bellas",
+			"orcid": "https://orcid.org/0000-0001-9164-8600",
 			"affiliation": "University of Colorado Boulder"
 		},
 		{
-			"name": "J. K. Willis",
+			"name": "Josh K. Willis",
 			"orcid": "https://orcid.org/0000-0002-4515-8771",
 			"affiliation": "Jet Propulsion Laboratory"
 		},
@@ -23,11 +24,14 @@
 			"affiliation": "Jet Propulsion Laboratory"
 		},
 		{
-			"name": "Nadya Vinogradova",
-			"orcid": "https://orcid.org/0000-0002-8262-8453"
+			"name": "Nadya T. Vinogradova",
+			"orcid": "https://orcid.org/0000-0002-8262-8453",
+			"affiliation": "National Aeronautics and Space Administration"
 		},
 		{
-			"name": "R. S. Nerem"
+			"name": "R. S. Nerem",
+			"orcid": "https://orcid.org/0000-0003-4064-8111",
+			"affiliation": "National Aeronautics and Space Administration"
 		},
 		{
 			"name": "Christopher G. Piecuch",
@@ -57,18 +61,43 @@
 		"status": "gold",
 		"url": "https://www.nature.com/articles/s43247-024-01761-5.pdf"
 	},
-	"citedByCount": 132,
+	"citedByCount": 203,
+	"openAlexId": "W4403481609",
+	"referencedWorks": [
+		"W1990863511",
+		"W2122788780",
+		"W2154207321",
+		"W2508958352",
+		"W2618970007",
+		"W2643003590",
+		"W2760993477",
+		"W2790934709",
+		"W2791684036",
+		"W2891929791",
+		"W2902578762",
+		"W2913304119",
+		"W3033968971",
+		"W3033994826",
+		"W3083704968",
+		"W4220919826",
+		"W4302362868",
+		"W4366091763",
+		"W4382358495",
+		"W4393581332",
+		"W6929951873"
+	],
 	"themes": [
 		"ocean"
 	],
 	"sourceTopics": [
 		"Geophysics and Gravity Measurements",
-		"Groundwater and Isotope Geochemistry"
+		"Coastal and Marine Dynamics",
+		"Oceanographic and Atmospheric Processes"
 	],
 	"url": "https://doi.org/10.1038/s43247-024-01761-5",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-08-20"
+		"retrievedAt": "2026-11-16"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},

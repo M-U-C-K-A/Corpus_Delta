@@ -14,7 +14,7 @@
 			"affiliation": "The Nature Conservancy"
 		},
 		{
-			"name": "Peter W. Ellis",
+			"name": "Peter Woods Ellis",
 			"orcid": "https://orcid.org/0000-0001-7933-8298",
 			"affiliation": "The Nature Conservancy"
 		},
@@ -34,7 +34,7 @@
 			"affiliation": "University of Aberdeen"
 		},
 		{
-			"name": "Stephen A. Wood",
+			"name": "Stephen Andrew Wood",
 			"orcid": "https://orcid.org/0000-0002-9551-8165",
 			"affiliation": "The Nature Conservancy"
 		},
@@ -48,7 +48,7 @@
 			"affiliation": "Silvestrum Climate Associates"
 		},
 		{
-			"name": "I.M. Emmer",
+			"name": "Igino M. Emmer",
 			"affiliation": "Silvestrum Climate Associates"
 		},
 		{
@@ -69,20 +69,88 @@
 		"status": "green",
 		"url": "https://hdl.handle.net/2164/15138"
 	},
-	"citedByCount": 1253,
+	"citedByCount": 1408,
+	"openAlexId": "W3011738444",
+	"referencedWorks": [
+		"W1581894636",
+		"W1810287876",
+		"W1924476434",
+		"W1964700776",
+		"W1968435195",
+		"W1968514442",
+		"W1978257185",
+		"W1982209547",
+		"W1985969077",
+		"W1989260165",
+		"W1991218065",
+		"W1991994877",
+		"W1999803596",
+		"W2006986322",
+		"W2008683525",
+		"W2013721288",
+		"W2015187475",
+		"W2029422432",
+		"W2039972428",
+		"W2046564762",
+		"W2078270988",
+		"W2079561510",
+		"W2092612701",
+		"W2098998407",
+		"W2101409709",
+		"W2106256460",
+		"W2121737502",
+		"W2125340135",
+		"W2130957775",
+		"W2132101248",
+		"W2133554448",
+		"W2136596893",
+		"W2139607244",
+		"W2147924102",
+		"W2165512205",
+		"W2229614807",
+		"W2230597320",
+		"W2254100412",
+		"W2267655798",
+		"W2279469430",
+		"W2339350354",
+		"W2346360138",
+		"W2420133444",
+		"W2593911960",
+		"W2725904487",
+		"W2745770579",
+		"W2763867874",
+		"W2766136866",
+		"W2767215839",
+		"W2771217356",
+		"W2788264769",
+		"W2802570838",
+		"W2804406438",
+		"W2807712725",
+		"W2868780940",
+		"W2885965413",
+		"W2901795028",
+		"W2902277377",
+		"W2902685084",
+		"W2907490129",
+		"W2908252969",
+		"W2944569135",
+		"W2946840043",
+		"W2949662106",
+		"W2955316307"
+	],
 	"themes": [
 		"carbone",
 		"agriculture"
 	],
 	"sourceTopics": [
-		"Peatlands and Wetlands Ecology",
 		"Soil Carbon and Nitrogen Dynamics",
-		"Coastal wetland ecosystem dynamics"
+		"Climate Change Policy and Economics",
+		"Land Use and Ecosystem Services"
 	],
 	"url": "https://doi.org/10.1038/s41893-020-0491-z",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-08-30"
+		"retrievedAt": "2026-11-16"
 	},
 	"addedAt": "2026-08-30",
 	"editorial": {},

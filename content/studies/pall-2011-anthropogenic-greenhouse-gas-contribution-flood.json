@@ -9,7 +9,7 @@
 			"affiliation": "University of Oxford"
 		},
 		{
-			"name": "T. Aina",
+			"name": "Tolu Aina",
 			"affiliation": "University of Oxford"
 		},
 		{
@@ -27,17 +27,17 @@
 			"affiliation": "National Institute for Environmental Studies"
 		},
 		{
-			"name": "Arno Hilberts",
+			"name": "Arno G. J. Hilberts",
 			"orcid": "https://orcid.org/0000-0003-2329-6724",
 			"affiliation": "Risk Management Solutions (United Kingdom)"
 		},
 		{
-			"name": "Dag Lohmann",
+			"name": "Dag Lohmann A",
 			"orcid": "https://orcid.org/0009-0004-6337-4656",
 			"affiliation": "Risk Management Solutions (United Kingdom)"
 		},
 		{
-			"name": "Myles Allen",
+			"name": "Myles R. Allen",
 			"orcid": "https://orcid.org/0000-0002-1721-7172",
 			"affiliation": "University of Oxford"
 		}
@@ -54,20 +54,53 @@
 		"status": "closed",
 		"url": null
 	},
-	"citedByCount": 894,
+	"citedByCount": 910,
+	"openAlexId": "W2060677109",
+	"referencedWorks": [
+		"W1627726926",
+		"W1967820238",
+		"W1974637537",
+		"W1981646498",
+		"W1990354749",
+		"W1998525562",
+		"W2007818435",
+		"W2015789617",
+		"W2017835011",
+		"W2030840256",
+		"W2044387082",
+		"W2048607920",
+		"W2050222603",
+		"W2052178250",
+		"W2052932530",
+		"W2059932201",
+		"W2067533912",
+		"W2068473749",
+		"W2084217276",
+		"W2090249381",
+		"W2097331168",
+		"W2098806133",
+		"W2120618726",
+		"W2141848893",
+		"W2142914956",
+		"W2176202464",
+		"W2180677008",
+		"W2808995432",
+		"W2939474406",
+		"W3048530688"
+	],
 	"themes": [
 		"eau",
 		"risques"
 	],
 	"sourceTopics": [
-		"Hydrology and Watershed Management Studies",
+		"Climate variability and models",
 		"Flood Risk Assessment and Management",
-		"Hydrology and Drought Analysis"
+		"Meteorological Phenomena and Simulations"
 	],
 	"url": "https://doi.org/10.1038/nature09762",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-08-20"
+		"retrievedAt": "2026-11-16"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},

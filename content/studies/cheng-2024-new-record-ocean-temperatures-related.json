@@ -24,7 +24,7 @@
 			"affiliation": "National Oceanic and Atmospheric Administration"
 		},
 		{
-			"name": "Michael Mann",
+			"name": "MICHAEL E. MANN",
 			"orcid": "https://orcid.org/0000-0003-3067-296X",
 			"affiliation": "University of Pennsylvania"
 		},
@@ -77,6 +77,7 @@
 		},
 		{
 			"name": "Dakui Wang",
+			"orcid": "https://orcid.org/0000-0002-4575-7176",
 			"affiliation": "Ministry of Natural Resources"
 		},
 		{
@@ -92,7 +93,7 @@
 		{
 			"name": "Yulong Liu",
 			"orcid": "https://orcid.org/0000-0001-9891-8036",
-			"affiliation": "Shandong Marine Resource and Environment Research Institute"
+			"affiliation": "National Marine Data and Information Service"
 		},
 		{
 			"name": "Franco Reseghetti",
@@ -105,14 +106,68 @@
 	"publisher": "Springer Science+Business Media",
 	"year": 2024,
 	"type": "article",
-	"abstract": "Abstract The global physical and biogeochemical environment has been substantially altered in response to increased atmospheric greenhouse gases from human activities. In 2023, the sea surface temperature (SST) and upper 2000 m ocean heat content (OHC) reached record highs. The 0–2000 m OHC in 2023 exceeded that of 2022 by 15 ± 10 ZJ (1 Zetta Joules = 10 21 Joules) (updated IAP/CAS data); 9 ± 5 ZJ (NCEI/NOAA data). The Tropical Atlantic Ocean, the Mediterranean Sea, and southern oceans recorded their highest OHC observed since the 1950s. Associated with the onset of a strong El Niño, the global SST reached its record high in 2023 with an annual mean of ∼0.23°C higher than 2022 and an astounding &gt; 0.3°C above 2022 values for the second half of 2023. The density stratification and spatial temperature inhomogeneity indexes reached their highest values in 2023.",
+	"abstract": "Abstract The global physical and biogeochemical environment has been substantially altered in response to increased atmospheric greenhouse gases from human activities. In 2023, the sea surface temperature (SST) and upper 2000 m ocean heat content (OHC) reached record highs. The 0–2000 m OHC in 2023 exceeded that of 2022 by 15 ± 10 ZJ (1 Zetta Joules = 1021Joules) (updated IAP/CAS data); 9 ± 5 ZJ (NCEI/NOAA data). The Tropical Atlantic Ocean, the Mediterranean Sea, and southern oceans recorded their highest OHC observed since the 1950s. Associated with the onset of a strong El Niño, the global SST reached its record high in 2023 with an annual mean of ∼0.23°C higher than 2022 and an astounding > 0.3°C above 2022 values for the second half of 2023. The density stratification and spatial temperature inhomogeneity indexes reached their highest values in 2023.",
 	"language": "en",
 	"openAccess": {
 		"isOpen": true,
 		"status": "hybrid",
 		"url": "https://link.springer.com/content/pdf/10.1007/s00376-024-3378-5.pdf"
 	},
-	"citedByCount": 150,
+	"citedByCount": 182,
+	"openAlexId": "W4390742787",
+	"referencedWorks": [
+		"W75231382",
+		"W1553680878",
+		"W2041168744",
+		"W2046016545",
+		"W2079985327",
+		"W2101875061",
+		"W2116695301",
+		"W2136736608",
+		"W2146293516",
+		"W2150244073",
+		"W2273653372",
+		"W2323451248",
+		"W2594584909",
+		"W2596756643",
+		"W2626186332",
+		"W2738516213",
+		"W2754146283",
+		"W2801893937",
+		"W2890874387",
+		"W2922379490",
+		"W2967516137",
+		"W3014465334",
+		"W3023532709",
+		"W3044349910",
+		"W3083333395",
+		"W3083704968",
+		"W3084051547",
+		"W3091413558",
+		"W3103284695",
+		"W3170951620",
+		"W3183245471",
+		"W3183552297",
+		"W3200347685",
+		"W3216403784",
+		"W4205101650",
+		"W4226030056",
+		"W4229030727",
+		"W4281614752",
+		"W4283463411",
+		"W4291367494",
+		"W4293767298",
+		"W4306690932",
+		"W4313399103",
+		"W4315649442",
+		"W4386785561",
+		"W4390718204",
+		"W4399156430",
+		"W4404972648",
+		"W6889183425",
+		"W6922036115",
+		"W6963601256"
+	],
 	"themes": [
 		"ocean",
 		"observation"
@@ -120,12 +175,12 @@
 	"sourceTopics": [
 		"Climate variability and models",
 		"Oceanographic and Atmospheric Processes",
-		"Marine and coastal ecosystems"
+		"Marine Plankton and Biogeochemistry"
 	],
 	"url": "https://doi.org/10.1007/s00376-024-3378-5",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-08-20"
+		"retrievedAt": "2026-11-16"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},

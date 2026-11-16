@@ -9,12 +9,12 @@
 			"affiliation": "The University of Adelaide"
 		},
 		{
-			"name": "Blesson M. Varghese",
+			"name": "Blesson Mathew Varghese",
 			"orcid": "https://orcid.org/0000-0003-2974-7282",
 			"affiliation": "The University of Adelaide"
 		},
 		{
-			"name": "Alana Hansen",
+			"name": "Alana L. Hansen",
 			"orcid": "https://orcid.org/0000-0003-0195-3770",
 			"affiliation": "The University of Adelaide"
 		},
@@ -24,16 +24,17 @@
 			"affiliation": "The University of Sydney"
 		},
 		{
-			"name": "Timothy Driscoll",
+			"name": "Tim Driscoll",
+			"orcid": "https://orcid.org/0000-0003-0057-2490",
 			"affiliation": "The University of Sydney"
 		},
 		{
-			"name": "Geoffrey Morgan",
+			"name": "Geoffrey Gerard Morgan",
 			"orcid": "https://orcid.org/0000-0003-4046-2405",
 			"affiliation": "The University of Sydney"
 		},
 		{
-			"name": "Keith Dear",
+			"name": "Keith B. G. Dear",
 			"orcid": "https://orcid.org/0000-0002-0788-7404",
 			"affiliation": "The University of Adelaide"
 		},
@@ -43,7 +44,7 @@
 			"affiliation": "Australian Institute of Health and Welfare"
 		},
 		{
-			"name": "Anthony Capon",
+			"name": "Anthony Guy Capon",
 			"orcid": "https://orcid.org/0000-0003-0354-6810",
 			"affiliation": "Monash University"
 		},
@@ -65,20 +66,73 @@
 		"status": "gold",
 		"url": "http://www.thelancet.com/article/S2542519622001176/pdf"
 	},
-	"citedByCount": 672,
+	"citedByCount": 814,
+	"openAlexId": "W4282823493",
+	"referencedWorks": [
+		"W1558558496",
+		"W1599595176",
+		"W1997898721",
+		"W2005449474",
+		"W2008602868",
+		"W2012382866",
+		"W2027776000",
+		"W2033585778",
+		"W2076172191",
+		"W2076686716",
+		"W2100189428",
+		"W2101108516",
+		"W2102904993",
+		"W2106414226",
+		"W2107328434",
+		"W2125435699",
+		"W2140955178",
+		"W2157823046",
+		"W2181358502",
+		"W2253892032",
+		"W2284157538",
+		"W2400403888",
+		"W2464924628",
+		"W2465897891",
+		"W2466727952",
+		"W2560438049",
+		"W2613867520",
+		"W2744601042",
+		"W2758170324",
+		"W2791755148",
+		"W2808977755",
+		"W2888837887",
+		"W2888939741",
+		"W2890406574",
+		"W2898962279",
+		"W2920950631",
+		"W2932802852",
+		"W2949476226",
+		"W2964646732",
+		"W2972690022",
+		"W2988366291",
+		"W3000861497",
+		"W3092861045",
+		"W3103603843",
+		"W3108238530",
+		"W3118615836",
+		"W3120197051",
+		"W4220667758",
+		"W4243002209",
+		"W6911044421"
+	],
 	"themes": [
 		"sante",
 		"chaleur"
 	],
 	"sourceTopics": [
 		"Climate Change and Health Impacts",
-		"Thermoregulation and physiological responses",
-		"Thermal Regulation in Medicine"
+		"Air Quality and Health Impacts",
+		"Thermoregulation and physiological responses"
 	],
 	"url": "https://doi.org/10.1016/s2542-5196(22)00117-6",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-08-20"
+		"retrievedAt": "2026-11-16"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},

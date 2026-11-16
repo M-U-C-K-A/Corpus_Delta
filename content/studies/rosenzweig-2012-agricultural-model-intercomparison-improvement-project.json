@@ -4,7 +4,7 @@
 	"title": "The Agricultural Model Intercomparison and Improvement Project (AgMIP): Protocols and pilot studies",
 	"authors": [
 		{
-			"name": "Cynthia Rosenzweig",
+			"name": "Cynthia E. Rosenzweig",
 			"orcid": "https://orcid.org/0000-0002-8541-2201",
 			"affiliation": "Goddard Institute for Space Studies"
 		},
@@ -14,9 +14,9 @@
 			"affiliation": "University of Florida"
 		},
 		{
-			"name": "Jerry L. Hatfield",
+			"name": "Jerry Lee Hatfield",
 			"orcid": "https://orcid.org/0000-0002-2981-8856",
-			"affiliation": "United States Department of Agriculture"
+			"affiliation": "Agricultural Research Service"
 		},
 		{
 			"name": "Alex C. Ruane",
@@ -24,12 +24,13 @@
 			"affiliation": "Goddard Institute for Space Studies"
 		},
 		{
-			"name": "Kenneth J. Boote",
+			"name": "Kenneth Jay Boote",
 			"orcid": "https://orcid.org/0000-0002-1358-5496",
 			"affiliation": "University of Florida"
 		},
 		{
-			"name": "Peter Thorburn",
+			"name": "Peter J. Thorburn",
+			"orcid": "https://orcid.org/0000-0002-6506-0456",
 			"affiliation": "Commonwealth Scientific and Industrial Research Organisation"
 		},
 		{
@@ -38,19 +39,19 @@
 			"affiliation": "Oregon State University"
 		},
 		{
-			"name": "Gerald C. Nelson",
+			"name": "Gerald Charles Nelson",
 			"orcid": "https://orcid.org/0000-0003-3626-1221",
 			"affiliation": "International Food Policy Research Institute"
 		},
 		{
-			"name": "Cheryl Porter",
+			"name": "Cheryl H. Porter",
 			"orcid": "https://orcid.org/0000-0001-7269-6543",
 			"affiliation": "University of Florida"
 		},
 		{
-			"name": "Sander Janssen",
+			"name": "Sander J. C. Janssen",
 			"orcid": "https://orcid.org/0000-0003-2226-0674",
-			"affiliation": "Altera (United States)"
+			"affiliation": "Wageningen University & Research"
 		},
 		{
 			"name": "Senthold Asseng",
@@ -63,7 +64,7 @@
 			"affiliation": "Michigan State University"
 		},
 		{
-			"name": "Frank Ewert",
+			"name": "Frank A. Ewert",
 			"orcid": "https://orcid.org/0000-0002-4392-8154",
 			"affiliation": "University of Bonn"
 		},
@@ -73,7 +74,7 @@
 			"affiliation": "Institut National Polytechnique de Toulouse"
 		},
 		{
-			"name": "Guillermo A. Baigorria",
+			"name": "Guillermo Antonio Baigorria",
 			"orcid": "https://orcid.org/0000-0001-7618-1125",
 			"affiliation": "University of Nebraska–Lincoln"
 		},
@@ -95,20 +96,141 @@
 		"status": "green",
 		"url": "https://research.wur.nl/en/publications/the-agricultural-model-intercomparison-and-improvement-project-ag"
 	},
-	"citedByCount": 1070,
+	"citedByCount": 1101,
+	"openAlexId": "W2118604661",
+	"referencedWorks": [
+		"W5137983",
+		"W28541827",
+		"W37902988",
+		"W112888852",
+		"W115568470",
+		"W140416648",
+		"W178426947",
+		"W571590192",
+		"W617985429",
+		"W1021041655",
+		"W1522296012",
+		"W1536362333",
+		"W1563279832",
+		"W1578483958",
+		"W1583276246",
+		"W1634020409",
+		"W1667070337",
+		"W1706444435",
+		"W1965220775",
+		"W1967651233",
+		"W1968249042",
+		"W1971794483",
+		"W1972790005",
+		"W1974038018",
+		"W1982074474",
+		"W1982789556",
+		"W1985129959",
+		"W1986433447",
+		"W1988514021",
+		"W1997265308",
+		"W2003164867",
+		"W2004783213",
+		"W2007852692",
+		"W2015834247",
+		"W2019812041",
+		"W2020145794",
+		"W2024951250",
+		"W2025416948",
+		"W2026656626",
+		"W2036123899",
+		"W2036908963",
+		"W2041494135",
+		"W2047585741",
+		"W2047684158",
+		"W2048092390",
+		"W2048880866",
+		"W2053478228",
+		"W2054251921",
+		"W2054653365",
+		"W2055578622",
+		"W2055695879",
+		"W2055904171",
+		"W2057045198",
+		"W2060883981",
+		"W2062196285",
+		"W2062217294",
+		"W2066664645",
+		"W2067687957",
+		"W2070413911",
+		"W2070508879",
+		"W2074846854",
+		"W2078693631",
+		"W2086190152",
+		"W2086710305",
+		"W2090425055",
+		"W2094226036",
+		"W2097517464",
+		"W2101394945",
+		"W2106435017",
+		"W2108182541",
+		"W2112776483",
+		"W2117162642",
+		"W2119132330",
+		"W2119436083",
+		"W2125225906",
+		"W2126030039",
+		"W2126765166",
+		"W2126975094",
+		"W2127989158",
+		"W2134197702",
+		"W2135977675",
+		"W2137079713",
+		"W2140570228",
+		"W2143082107",
+		"W2143847966",
+		"W2144163566",
+		"W2145814228",
+		"W2147579960",
+		"W2147703849",
+		"W2148001371",
+		"W2152302532",
+		"W2153807830",
+		"W2156224118",
+		"W2158883105",
+		"W2161845053",
+		"W2161994757",
+		"W2166428194",
+		"W2166712248",
+		"W2168135901",
+		"W2176082815",
+		"W2184208082",
+		"W2292467687",
+		"W2308042318",
+		"W2480293050",
+		"W2488668489",
+		"W2491505515",
+		"W2504340443",
+		"W2593307964",
+		"W2610570253",
+		"W2624579313",
+		"W2795201375",
+		"W2987292787",
+		"W3098125019",
+		"W4285719527",
+		"W6601140703",
+		"W6948083337",
+		"W6968339428",
+		"W7001149477"
+	],
 	"themes": [
 		"agriculture",
 		"modelisation"
 	],
 	"sourceTopics": [
 		"Climate change impacts on agriculture",
-		"Plant responses to elevated CO2",
+		"Climate Change Policy and Economics",
 		"Climate variability and models"
 	],
 	"url": "https://doi.org/10.1016/j.agrformet.2012.09.011",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-08-20"
+		"retrievedAt": "2026-11-16"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},

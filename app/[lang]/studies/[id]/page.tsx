@@ -17,6 +17,7 @@ import {
 	getRelatedStudies,
 	getStudy,
 } from "@/lib/content/studies";
+import { getCitationNeighbours } from "@/lib/content/citations";
 import { getGlossaryEntries } from "@/lib/content/glossary";
 import { getTopicsCitingStudy } from "@/lib/content/topics";
 import { toApa, toBibtex } from "@/lib/content/citation";
@@ -73,6 +74,12 @@ export default function StudyPage({ params }: { params: { lang: string; id: stri
 	const newer = new Date().getFullYear() - study.year >= AGEING_YEARS ? getNewerStudies(study) : [];
 	const terms = getGlossaryEntries(lang, study.glossaryTerms);
 	const citingTopics = getTopicsCitingStudy(lang, study.id);
+	/*
+	  Voisins dans le graphe de citations. Contrairement à `related`, qui
+	  rapproche par thème — donc par un rattachement décidé ici —, ces liens
+	  sont relevés dans les bibliographies : ils disent qui s'appuie sur qui.
+	*/
+	const neighbours = getCitationNeighbours(study.id);
 
 	const metadataRows: { label: string; value: React.ReactNode }[] = [
 		{ label: dict.studies.publishedIn, value: study.venue ?? study.publisher ?? "—" },
@@ -262,6 +269,65 @@ export default function StudyPage({ params }: { params: { lang: string; id: stri
 							</p>
 						)}
 					</section>
+
+					{(neighbours.cites.length > 0 || neighbours.citedBy.length > 0) && (
+						<section className="mt-12 border-t border-border pt-6">
+							<div className="grid gap-8 sm:grid-cols-2">
+								{neighbours.cites.length > 0 && (
+									<div>
+										<h2 className="text-xs font-medium uppercase tracking-[0.09em] text-muted-foreground">
+											{dict.studies.citesWithin}
+										</h2>
+										<ul className="mt-3 space-y-2">
+											{neighbours.cites.map((neighbour) => (
+												<li key={neighbour.id}>
+													<Link
+														href={route(lang, "studies", neighbour.id)}
+														className="group inline-flex items-baseline gap-2 text-sm"
+													>
+														<span className="tabular text-xs text-muted-foreground">
+															{neighbour.year}
+														</span>
+														<span className="transition-colors group-hover:text-primary">
+															{displayTitle(neighbour)}
+														</span>
+													</Link>
+												</li>
+											))}
+										</ul>
+									</div>
+								)}
+
+								{neighbours.citedBy.length > 0 && (
+									<div>
+										<h2 className="text-xs font-medium uppercase tracking-[0.09em] text-muted-foreground">
+											{dict.studies.citedByWithin}
+										</h2>
+										<ul className="mt-3 space-y-2">
+											{neighbours.citedBy.map((neighbour) => (
+												<li key={neighbour.id}>
+													<Link
+														href={route(lang, "studies", neighbour.id)}
+														className="group inline-flex items-baseline gap-2 text-sm"
+													>
+														<span className="tabular text-xs text-muted-foreground">
+															{neighbour.year}
+														</span>
+														<span className="transition-colors group-hover:text-primary">
+															{displayTitle(neighbour)}
+														</span>
+													</Link>
+												</li>
+											))}
+										</ul>
+									</div>
+								)}
+							</div>
+							<p className="mt-6 text-xs leading-relaxed text-muted-foreground">
+								{dict.studies.citesWithinNote}
+							</p>
+						</section>
+					)}
 
 					{related.length > 0 && (
 						<section className="mt-12 border-t border-border pt-6">

@@ -46,7 +46,7 @@
 			"orcid": "https://orcid.org/0000-0001-9998-0384"
 		},
 		{
-			"name": "Sarah Connors",
+			"name": "Sarah L. Connors",
 			"orcid": "https://orcid.org/0000-0001-7150-5135"
 		},
 		{
@@ -54,7 +54,7 @@
 			"orcid": "https://orcid.org/0000-0003-2433-6484"
 		},
 		{
-			"name": "Aïda Diongue‐Niang"
+			"name": "Aida Diongue"
 		},
 		{
 			"name": "David Dodman",
@@ -73,7 +73,7 @@
 			"orcid": "https://orcid.org/0000-0002-4699-3752"
 		},
 		{
-			"name": "Chris Jones",
+			"name": "CHRIS D. JONES",
 			"orcid": "https://orcid.org/0000-0002-7141-9285"
 		},
 		{
@@ -93,19 +93,23 @@
 		"status": "green",
 		"url": "https://openresearch-repository.anu.edu.au/bitstreams/95eb5ece-a734-44d7-86b3-bec919268af8/download"
 	},
-	"citedByCount": 3488,
+	"citedByCount": 7341,
+	"openAlexId": "W4385118605",
+	"referencedWorks": [],
 	"themes": [
 		"politiques",
 		"modelisation",
 		"observation"
 	],
 	"sourceTopics": [
+		"Climate Change and Environmental Impact",
+		"Climate variability and models",
 		"Climate Change Policy and Economics"
 	],
 	"url": "https://doi.org/10.59327/ipcc/ar6-9789291691647",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-08-19"
+		"retrievedAt": "2026-11-16"
 	},
 	"addedAt": "2026-08-19",
 	"editorial": {

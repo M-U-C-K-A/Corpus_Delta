@@ -4,14 +4,14 @@
 	"title": "Sea-Level Rise from the Late 19th to the Early 21st Century",
 	"authors": [
 		{
-			"name": "John Church",
+			"name": "John Alexander Church",
 			"orcid": "https://orcid.org/0000-0002-7037-8194",
-			"affiliation": "CSIRO Oceans and Atmosphere"
+			"affiliation": "Bureau of Meteorology"
 		},
 		{
 			"name": "Neil J. White",
 			"orcid": "https://orcid.org/0000-0002-4777-5650",
-			"affiliation": "CSIRO Oceans and Atmosphere"
+			"affiliation": "Bureau of Meteorology"
 		}
 	],
 	"authorCount": 2,
@@ -26,19 +26,68 @@
 		"status": "hybrid",
 		"url": "https://link.springer.com/content/pdf/10.1007/s10712-011-9119-1.pdf"
 	},
-	"citedByCount": 1623,
+	"citedByCount": 1717,
+	"openAlexId": "W2008435261",
+	"referencedWorks": [
+		"W38312585",
+		"W69889964",
+		"W109497208",
+		"W1523963696",
+		"W1600494899",
+		"W1898067966",
+		"W1929513575",
+		"W1951817746",
+		"W1964087794",
+		"W1969666225",
+		"W1987613981",
+		"W1996838470",
+		"W2004903486",
+		"W2012121479",
+		"W2012403322",
+		"W2018247865",
+		"W2025212464",
+		"W2028060955",
+		"W2041470692",
+		"W2048921061",
+		"W2055192091",
+		"W2055954013",
+		"W2064088813",
+		"W2068715224",
+		"W2079864636",
+		"W2082631987",
+		"W2088321177",
+		"W2089472002",
+		"W2100914798",
+		"W2107946076",
+		"W2119284220",
+		"W2129126037",
+		"W2139680942",
+		"W2147151094",
+		"W2150277639",
+		"W2156459975",
+		"W2161673236",
+		"W2161717238",
+		"W2163841260",
+		"W2166265648",
+		"W2167537396",
+		"W2174279521",
+		"W2177590044",
+		"W2290962952",
+		"W4237926920",
+		"W4285719527"
+	],
 	"themes": [
 		"ocean"
 	],
 	"sourceTopics": [
 		"Geophysics and Gravity Measurements",
-		"Cryospheric studies and observations",
-		"Arctic and Antarctic ice dynamics"
+		"Coastal and Marine Dynamics",
+		"Oceanographic and Atmospheric Processes"
 	],
 	"url": "https://doi.org/10.1007/s10712-011-9119-1",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-08-20"
+		"retrievedAt": "2026-11-16"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},

@@ -4,7 +4,7 @@
 	"title": "The Community Earth System Model: A Framework for Collaborative Research",
 	"authors": [
 		{
-			"name": "James W. Hurrell",
+			"name": "James Wilson Hurrell",
 			"orcid": "https://orcid.org/0000-0002-3169-6384",
 			"affiliation": "NSF National Center for Atmospheric Research"
 		},
@@ -14,11 +14,11 @@
 			"affiliation": "NSF National Center for Atmospheric Research"
 		},
 		{
-			"name": "P. R. Gent",
+			"name": "Peter R. Gent",
 			"affiliation": "NSF National Center for Atmospheric Research"
 		},
 		{
-			"name": "S. J. Ghan",
+			"name": "Steven J. Ghan",
 			"orcid": "https://orcid.org/0000-0001-8355-8699",
 			"affiliation": "Pacific Northwest National Laboratory"
 		},
@@ -28,7 +28,8 @@
 			"affiliation": "NSF National Center for Atmospheric Research"
 		},
 		{
-			"name": "P. J. Kushner",
+			"name": "Paul J. Kushner",
+			"orcid": "https://orcid.org/0000-0002-6404-4518",
 			"affiliation": "University of Toronto"
 		},
 		{
@@ -66,7 +67,7 @@
 			"affiliation": "Cornell University"
 		},
 		{
-			"name": "D. R. Marsh",
+			"name": "Daniel Robert Marsh",
 			"orcid": "https://orcid.org/0000-0001-6699-494X",
 			"affiliation": "NSF National Center for Atmospheric Research"
 		},
@@ -81,7 +82,7 @@
 			"affiliation": "Pacific Northwest National Laboratory"
 		},
 		{
-			"name": "S. J. Vavrus",
+			"name": "Stephen J. Vavrus",
 			"orcid": "https://orcid.org/0000-0002-7612-3109",
 			"affiliation": "University of Wisconsin–Madison"
 		},
@@ -90,7 +91,7 @@
 			"affiliation": "Lawrence Livermore National Laboratory"
 		},
 		{
-			"name": "David C. Bader",
+			"name": "David Craig Bader",
 			"orcid": "https://orcid.org/0000-0003-3210-339X",
 			"affiliation": "Lawrence Livermore National Laboratory"
 		},
@@ -112,19 +113,122 @@
 		"status": "bronze",
 		"url": "https://journals.ametsoc.org/downloadpdf/journals/bams/94/9/bams-d-12-00121.1.pdf"
 	},
-	"citedByCount": 2843,
+	"citedByCount": 3041,
+	"openAlexId": "W2115247641",
+	"referencedWorks": [
+		"W1494023157",
+		"W1544875105",
+		"W1567391872",
+		"W1883063942",
+		"W1899964430",
+		"W1909125228",
+		"W1960586518",
+		"W1961811396",
+		"W1964913251",
+		"W1967025258",
+		"W1967227807",
+		"W1976242206",
+		"W1978035097",
+		"W1981008265",
+		"W1985217958",
+		"W1988356624",
+		"W1997065014",
+		"W1997249214",
+		"W1997752402",
+		"W2000187063",
+		"W2001356302",
+		"W2001533294",
+		"W2007804538",
+		"W2010299046",
+		"W2010498097",
+		"W2012196264",
+		"W2012370611",
+		"W2012492797",
+		"W2012910700",
+		"W2015834247",
+		"W2016414074",
+		"W2018515783",
+		"W2019140816",
+		"W2021731616",
+		"W2024966118",
+		"W2025051238",
+		"W2031027346",
+		"W2031171270",
+		"W2034434715",
+		"W2045593709",
+		"W2046887609",
+		"W2054088207",
+		"W2055484760",
+		"W2059401162",
+		"W2061195501",
+		"W2063337234",
+		"W2064960533",
+		"W2065094221",
+		"W2066613834",
+		"W2082066121",
+		"W2089418108",
+		"W2092958903",
+		"W2105093469",
+		"W2105646509",
+		"W2106963750",
+		"W2107622041",
+		"W2110179017",
+		"W2110669521",
+		"W2115977576",
+		"W2117945336",
+		"W2124731444",
+		"W2125641947",
+		"W2126208974",
+		"W2129031626",
+		"W2130272322",
+		"W2130591164",
+		"W2130871986",
+		"W2133920545",
+		"W2136080546",
+		"W2136562363",
+		"W2136881308",
+		"W2139314206",
+		"W2140867951",
+		"W2143513491",
+		"W2145780057",
+		"W2145783057",
+		"W2148343249",
+		"W2151328940",
+		"W2151920264",
+		"W2152102128",
+		"W2153226382",
+		"W2154067776",
+		"W2154812766",
+		"W2155699713",
+		"W2157502707",
+		"W2157751747",
+		"W2160643200",
+		"W2162175978",
+		"W2163512993",
+		"W2163841260",
+		"W2164907207",
+		"W2164990341",
+		"W2167460781",
+		"W2170086526",
+		"W2170684449",
+		"W2171357716",
+		"W2173744586",
+		"W2239466405",
+		"W2616382558",
+		"W2917223911"
+	],
 	"themes": [
 		"modelisation"
 	],
 	"sourceTopics": [
-		"Atmospheric and Environmental Gas Dynamics",
 		"Climate variability and models",
-		"Meteorological Phenomena and Simulations"
+		"Meteorological Phenomena and Simulations",
+		"Climate Change and Environmental Impact"
 	],
 	"url": "https://doi.org/10.1175/bams-d-12-00121.1",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-08-20"
+		"retrievedAt": "2026-11-16"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},

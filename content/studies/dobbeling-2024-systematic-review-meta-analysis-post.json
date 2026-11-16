@@ -4,7 +4,7 @@
 	"title": "Systematic review and meta-analysis of ex-post evaluations on the effectiveness of carbon pricing",
 	"authors": [
 		{
-			"name": "Niklas Döbbeling",
+			"name": "Niklas Döbbeling-Hildebrandt",
 			"orcid": "https://orcid.org/0000-0002-3170-1825",
 			"affiliation": "University of Leeds"
 		},
@@ -14,7 +14,7 @@
 			"affiliation": "Mercator Research Institute on Global Commons and Climate Change"
 		},
 		{
-			"name": "Tarun Khanna",
+			"name": "Tarun M. Khanna",
 			"orcid": "https://orcid.org/0000-0003-3442-7689",
 			"affiliation": "University of British Columbia"
 		},
@@ -43,7 +43,7 @@
 			"affiliation": "Hertie School"
 		},
 		{
-			"name": "Piers Forster",
+			"name": "Piers M. de F. Forster",
 			"orcid": "https://orcid.org/0000-0002-6078-0171",
 			"affiliation": "University of Leeds"
 		},
@@ -73,7 +73,7 @@
 			"affiliation": "Mercator Research Institute on Global Commons and Climate Change"
 		},
 		{
-			"name": "Jan C. Minx",
+			"name": "Jan Christoph Minx",
 			"orcid": "https://orcid.org/0000-0002-2862-0178",
 			"affiliation": "University of Leeds"
 		}
@@ -90,19 +90,102 @@
 		"status": "gold",
 		"url": "https://www.nature.com/articles/s41467-024-48512-w.pdf"
 	},
-	"citedByCount": 142,
+	"citedByCount": 212,
+	"openAlexId": "W4396956648",
+	"referencedWorks": [
+		"W187620174",
+		"W1209568025",
+		"W1508607259",
+		"W1515727808",
+		"W1525260320",
+		"W1552900563",
+		"W1572044282",
+		"W1800261609",
+		"W1977696754",
+		"W1989141637",
+		"W2002493340",
+		"W2006546769",
+		"W2052264999",
+		"W2059805475",
+		"W2066826786",
+		"W2067141886",
+		"W2083499514",
+		"W2134305385",
+		"W2136010209",
+		"W2139168999",
+		"W2144981148",
+		"W2145452196",
+		"W2152933101",
+		"W2154449833",
+		"W2157823046",
+		"W2159797474",
+		"W2176683074",
+		"W2229226246",
+		"W2317922289",
+		"W2339504131",
+		"W2558107862",
+		"W2581192395",
+		"W2602449753",
+		"W2622634922",
+		"W2765949027",
+		"W2792731707",
+		"W2808303184",
+		"W2820610938",
+		"W2903950211",
+		"W2905868680",
+		"W2909108067",
+		"W2912505896",
+		"W2961876100",
+		"W2974774017",
+		"W2990114413",
+		"W2990350623",
+		"W2998044786",
+		"W3015490194",
+		"W3036199039",
+		"W3049520375",
+		"W3082305249",
+		"W3082953386",
+		"W3089879809",
+		"W3092311467",
+		"W3101888094",
+		"W3106648871",
+		"W3110318438",
+		"W3115545833",
+		"W3117608864",
+		"W3118647971",
+		"W3121455147",
+		"W3122076035",
+		"W3124139837",
+		"W3124835116",
+		"W3133869691",
+		"W3134099186",
+		"W3156614249",
+		"W3195007970",
+		"W3200186802",
+		"W3210975448",
+		"W4200163457",
+		"W4238765958",
+		"W4292641534",
+		"W4293761431",
+		"W4306399831",
+		"W4361269757",
+		"W4362719842",
+		"W4385159746",
+		"W4385927882",
+		"W6600408051"
+	],
 	"themes": [
 		"politiques"
 	],
 	"sourceTopics": [
-		"Energy, Environment, and Transportation Policies",
 		"Climate Change Policy and Economics",
-		"Environmental Impact and Sustainability"
+		"Energy, Environment, and Transportation Policies",
+		"Energy, Environment, Economic Growth"
 	],
 	"url": "https://doi.org/10.1038/s41467-024-48512-w",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-08-20"
+		"retrievedAt": "2026-11-16"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},

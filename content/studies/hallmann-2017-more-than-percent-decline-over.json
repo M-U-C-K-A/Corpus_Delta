@@ -35,8 +35,7 @@
 			"orcid": "https://orcid.org/0000-0001-8282-4668"
 		},
 		{
-			"name": "Antoine Müller",
-			"orcid": "https://orcid.org/0000-0002-8322-1292"
+			"name": "Andreas Müller"
 		},
 		{
 			"name": "Hubert Sumser",
@@ -69,19 +68,78 @@
 		"status": "gold",
 		"url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0185809&type=printable"
 	},
-	"citedByCount": 3480,
+	"citedByCount": 3866,
+	"openAlexId": "W2766208183",
+	"referencedWorks": [
+		"W68436435",
+		"W242200642",
+		"W300476860",
+		"W1620630482",
+		"W1722126967",
+		"W1722599945",
+		"W1737765755",
+		"W1951724000",
+		"W1979737263",
+		"W1987611268",
+		"W2007873570",
+		"W2037494207",
+		"W2045600648",
+		"W2050249506",
+		"W2051166810",
+		"W2054393833",
+		"W2055307719",
+		"W2057765075",
+		"W2074906909",
+		"W2076797806",
+		"W2079297966",
+		"W2080208913",
+		"W2080384232",
+		"W2081986770",
+		"W2098344753",
+		"W2100135944",
+		"W2100945295",
+		"W2102641175",
+		"W2108986764",
+		"W2109158012",
+		"W2109858375",
+		"W2115741548",
+		"W2124033961",
+		"W2129636730",
+		"W2132525828",
+		"W2135011388",
+		"W2136037660",
+		"W2140308441",
+		"W2144256735",
+		"W2145197736",
+		"W2145657064",
+		"W2146145096",
+		"W2147980337",
+		"W2148534890",
+		"W2159263826",
+		"W2160828837",
+		"W2176169370",
+		"W2223711650",
+		"W2227323834",
+		"W2464173989",
+		"W2505405115",
+		"W2515577027",
+		"W2543037721",
+		"W2724327356",
+		"W3170794598",
+		"W4285719527"
+	],
 	"themes": [
 		"biodiversite"
 	],
 	"sourceTopics": [
 		"Plant and animal studies",
 		"Ecology and Vegetation Dynamics Studies",
-		"Species Distribution and Climate Change"
+		"Entomological Studies and Ecology"
 	],
 	"url": "https://doi.org/10.1371/journal.pone.0185809",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-08-20"
+		"retrievedAt": "2026-11-16"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},

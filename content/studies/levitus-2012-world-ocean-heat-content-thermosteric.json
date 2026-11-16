@@ -1,44 +1,54 @@
 {
 	"id": "levitus-2012-world-ocean-heat-content-thermosteric",
 	"doi": "10.1029/2012gl051106",
-	"title": "World ocean heat content and thermosteric sea level change (0–2000 m), 1955–2010",
+	"title": "World ocean heat content and thermosteric sea level change (0–2000 m), 1955–2010",
 	"authors": [
 		{
-			"name": "Sydney Levitus"
+			"name": "Sydney Levitus",
+			"affiliation": "National Oceanic and Atmospheric Administration"
 		},
 		{
 			"name": "John I. Antonov"
 		},
 		{
-			"name": "Timothy P. Boyer"
+			"name": "Timothy P. Boyer",
+			"affiliation": "National Oceanic and Atmospheric Administration"
 		},
 		{
-			"name": "O Baranova"
+			"name": "O Baranova",
+			"affiliation": "National Oceanic and Atmospheric Administration"
 		},
 		{
-			"name": "Hernan E. Garcia"
+			"name": "Hernan E. Garcia",
+			"affiliation": "National Oceanic and Atmospheric Administration"
 		},
 		{
-			"name": "Ricardo Locarnini"
+			"name": "Ricardo Locarnini",
+			"affiliation": "National Oceanic and Atmospheric Administration"
 		},
 		{
-			"name": "Alexey Mishonov",
-			"orcid": "https://orcid.org/0000-0002-2958-8747"
+			"name": "Alexey V. Mishonov",
+			"orcid": "https://orcid.org/0000-0002-2958-8747",
+			"affiliation": "National Oceanic and Atmospheric Administration"
 		},
 		{
 			"name": "James Reagan",
-			"orcid": "https://orcid.org/0000-0002-6409-0645"
+			"orcid": "https://orcid.org/0000-0002-6409-0645",
+			"affiliation": "National Oceanic and Atmospheric Administration"
 		},
 		{
 			"name": "Dan Seidov",
-			"orcid": "https://orcid.org/0000-0001-7090-9779"
+			"orcid": "https://orcid.org/0000-0001-7090-9779",
+			"affiliation": "National Oceanic and Atmospheric Administration"
 		},
 		{
-			"name": "E. S. Yarosh"
+			"name": "Evgeney S. Yarosh",
+			"affiliation": "National Oceanic and Atmospheric Administration"
 		},
 		{
 			"name": "M. Zweng",
-			"orcid": "https://orcid.org/0000-0002-1237-4750"
+			"orcid": "https://orcid.org/0000-0002-1237-4750",
+			"affiliation": "National Oceanic and Atmospheric Administration"
 		}
 	],
 	"authorCount": 11,
@@ -53,7 +63,40 @@
 		"status": "bronze",
 		"url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2012GL051106"
 	},
-	"citedByCount": 1217,
+	"citedByCount": 1310,
+	"openAlexId": "W2101875061",
+	"referencedWorks": [
+		"W344835664",
+		"W1553680878",
+		"W1945195465",
+		"W1974229340",
+		"W1978324348",
+		"W2000756370",
+		"W2013182485",
+		"W2016606512",
+		"W2025212464",
+		"W2027543152",
+		"W2038701335",
+		"W2041405516",
+		"W2042441190",
+		"W2050168384",
+		"W2059027217",
+		"W2062161760",
+		"W2066269609",
+		"W2066678696",
+		"W2104706002",
+		"W2116695301",
+		"W2127695985",
+		"W2128565517",
+		"W2144656108",
+		"W2168320473",
+		"W2792144690",
+		"W2801706203",
+		"W2802403280",
+		"W2917262236",
+		"W3037646999",
+		"W3217032905"
+	],
 	"themes": [
 		"ocean",
 		"observation"
@@ -61,12 +104,12 @@
 	"sourceTopics": [
 		"Oceanographic and Atmospheric Processes",
 		"Climate variability and models",
-		"Geophysics and Gravity Measurements"
+		"Marine Plankton and Biogeochemistry"
 	],
 	"url": "https://doi.org/10.1029/2012gl051106",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-08-20"
+		"retrievedAt": "2026-11-16"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},

@@ -1,10 +1,10 @@
 {
 	"id": "fischer-2015-anthropogenic-contribution-global-occurrence-heavy",
 	"doi": "10.1038/nclimate2617",
-	"title": "Anthropogenic contribution to global occurrence of heavy-precipitation and high-temperature extremes",
+	"title": "Anthropogenic contribution to global occurrence of heavy-precipitation and high-temperature extremes",
 	"authors": [
 		{
-			"name": "Erich Fischer",
+			"name": "Erich Markus Fischer",
 			"orcid": "https://orcid.org/0000-0003-1931-6737",
 			"affiliation": "ETH Zurich"
 		},
@@ -26,20 +26,56 @@
 		"status": "closed",
 		"url": null
 	},
-	"citedByCount": 1429,
+	"citedByCount": 1492,
+	"openAlexId": "W2048170654",
+	"referencedWorks": [
+		"W12187764",
+		"W1497571021",
+		"W1560946750",
+		"W1669944625",
+		"W1773518713",
+		"W1791484930",
+		"W1959213299",
+		"W1974470230",
+		"W1985637498",
+		"W1998525562",
+		"W2015067986",
+		"W2019840454",
+		"W2024793000",
+		"W2036015906",
+		"W2044387082",
+		"W2048032663",
+		"W2055749520",
+		"W2060677109",
+		"W2068518975",
+		"W2069306629",
+		"W2078529209",
+		"W2098242653",
+		"W2111711729",
+		"W2112341417",
+		"W2138879095",
+		"W2139709507",
+		"W2161062056",
+		"W2161248428",
+		"W2162440908",
+		"W2171692085",
+		"W2924055038",
+		"W2939474406",
+		"W4213327538"
+	],
 	"themes": [
 		"modelisation",
 		"eau"
 	],
 	"sourceTopics": [
 		"Climate variability and models",
-		"Flood Risk Assessment and Management",
-		"Hydrology and Drought Analysis"
+		"Climate Change and Environmental Impact",
+		"Climate Change and Health Impacts"
 	],
 	"url": "https://doi.org/10.1038/nclimate2617",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-08-20"
+		"retrievedAt": "2026-11-16"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},

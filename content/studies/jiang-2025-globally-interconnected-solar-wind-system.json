@@ -11,7 +11,7 @@
 		{
 			"name": "Ling Yao",
 			"orcid": "https://orcid.org/0000-0002-6120-5806",
-			"affiliation": "Institute of Geographic Sciences and Natural Resources Research"
+			"affiliation": "Chinese Academy of Sciences"
 		},
 		{
 			"name": "Jun Qin",
@@ -36,7 +36,7 @@
 		{
 			"name": "Steven J. Davis",
 			"orcid": "https://orcid.org/0000-0002-9338-0844",
-			"affiliation": "Sustainability Institute"
+			"affiliation": "Stanford University"
 		},
 		{
 			"name": "Ning Lu",
@@ -56,7 +56,7 @@
 		{
 			"name": "Chenghu Zhou",
 			"orcid": "https://orcid.org/0000-0003-3331-2302",
-			"affiliation": "Institute of Geographic Sciences and Natural Resources Research"
+			"affiliation": "Chinese Academy of Sciences"
 		}
 	],
 	"authorCount": 11,
@@ -71,19 +71,86 @@
 		"status": "gold",
 		"url": "https://www.nature.com/articles/s41467-025-59879-9.pdf"
 	},
-	"citedByCount": 62,
+	"citedByCount": 109,
+	"openAlexId": "W4410383108",
+	"referencedWorks": [
+		"W1996474158",
+		"W2051564179",
+		"W2126105956",
+		"W2179683481",
+		"W2255178770",
+		"W2410390527",
+		"W2509613771",
+		"W2550977176",
+		"W2582264034",
+		"W2603190016",
+		"W2734867172",
+		"W2742652546",
+		"W2747549503",
+		"W2800494505",
+		"W2801455285",
+		"W2804520636",
+		"W2889814654",
+		"W2903099837",
+		"W2921049034",
+		"W2921782234",
+		"W2921915005",
+		"W2955385865",
+		"W2965435789",
+		"W2999717312",
+		"W3003290234",
+		"W3020811163",
+		"W3025949386",
+		"W3034016518",
+		"W3036931831",
+		"W3082600751",
+		"W3087260627",
+		"W3106772357",
+		"W3107724959",
+		"W3111832142",
+		"W3118569366",
+		"W3134408819",
+		"W3195155596",
+		"W3205324781",
+		"W3206485780",
+		"W3207640265",
+		"W3207751749",
+		"W4210359686",
+		"W4210838593",
+		"W4213113198",
+		"W4280638838",
+		"W4281766291",
+		"W4281811506",
+		"W4283313907",
+		"W4290072636",
+		"W4293431226",
+		"W4306178640",
+		"W4306758541",
+		"W4307286078",
+		"W4313443111",
+		"W4317396145",
+		"W4321112680",
+		"W4324257383",
+		"W4378191710",
+		"W4382396396",
+		"W4385295057",
+		"W4387206278",
+		"W4389336523",
+		"W4399765269",
+		"W4401636048"
+	],
 	"themes": [
 		"energie"
 	],
 	"sourceTopics": [
 		"Integrated Energy Systems Optimization",
-		"Hybrid Renewable Energy Systems",
-		"Solar Radiation and Photovoltaics"
+		"Power Systems and Renewable Energy",
+		"Electric Power System Optimization"
 	],
 	"url": "https://doi.org/10.1038/s41467-025-59879-9",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-08-20"
+		"retrievedAt": "2026-11-16"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},

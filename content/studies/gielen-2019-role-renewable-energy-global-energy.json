@@ -4,13 +4,14 @@
 	"title": "The role of renewable energy in the global energy transformation",
 	"authors": [
 		{
-			"name": "Dolf Gielen",
+			"name": "Dolf J. Gielen",
 			"orcid": "https://orcid.org/0000-0002-6924-0788",
 			"affiliation": "Colorado School of Mines"
 		},
 		{
 			"name": "Francisco Boshell",
-			"orcid": "https://orcid.org/0000-0003-3400-3640"
+			"orcid": "https://orcid.org/0000-0003-3400-3640",
+			"affiliation": "International Renewable Energy Agency"
 		},
 		{
 			"name": "Değer Saygin",
@@ -22,10 +23,12 @@
 			"affiliation": "Colorado School of Mines"
 		},
 		{
-			"name": "Nicholas Wagner"
+			"name": "Nicholas Wagner",
+			"affiliation": "International Renewable Energy Agency"
 		},
 		{
-			"name": "Ricardo Gorini"
+			"name": "Ricardo Gorini",
+			"affiliation": "International Renewable Energy Agency"
 		}
 	],
 	"authorCount": 6,
@@ -33,6 +36,7 @@
 	"publisher": "Elsevier BV",
 	"year": 2019,
 	"type": "article",
+	"typeOverride": "review",
 	"abstract": "This paper explores the technical and economic characteristics of an accelerated energy transition to 2050, using new datasets for renewable energy. The analysis indicates that energy efficiency and renewable energy technologies are the core elements of that transition, and their synergies are likewise important. Favourable economics, ubiquitous resources, scalable technology, and significant socio-economic benefits underpin such a transition. Renewable energy can supply two-thirds of the total global energy demand, and contribute to the bulk of the greenhouse gas emissions reduction that is needed between now and 2050 for limiting average global surface temperature increase below 2 °C. Enabling policy and regulatory frameworks will need to be adjusted to mobilise the six-fold acceleration of renewables growth that is needed, with the highest growth estimated for wind and solar PV technologies, complemented by a high level of energy efficiency. Still, to ensure the eventual elimination of carbon dioxide emissions will require new technology and innovation, notably for the transport and manufacturing sectors, which remain largely ignored in the international debate. More attention is needed for emerging infrastructure issues such as charging infrastructure and other sector coupling implications.",
 	"language": "en",
 	"openAccess": {
@@ -40,22 +44,76 @@
 		"status": "gold",
 		"url": "https://www.sciencedirect.com/science/article/pii/S2211467X19300082/pdf"
 	},
-	"citedByCount": 4901,
+	"citedByCount": 5318,
+	"openAlexId": "W2911892655",
+	"referencedWorks": [
+		"W597156922",
+		"W1653383623",
+		"W1687028303",
+		"W1870254505",
+		"W1982212528",
+		"W1985754844",
+		"W2017863250",
+		"W2023468232",
+		"W2030421370",
+		"W2052062862",
+		"W2060832932",
+		"W2153073519",
+		"W2155056638",
+		"W2160865234",
+		"W2263699166",
+		"W2278938776",
+		"W2290949919",
+		"W2301648579",
+		"W2303542652",
+		"W2308860173",
+		"W2342338968",
+		"W2345673676",
+		"W2404587542",
+		"W2432612777",
+		"W2481281912",
+		"W2519198204",
+		"W2530450567",
+		"W2560617029",
+		"W2565870685",
+		"W2617245930",
+		"W2617444206",
+		"W2626858704",
+		"W2650367466",
+		"W2738993735",
+		"W2751324088",
+		"W2751875289",
+		"W2765106198",
+		"W2769290506",
+		"W2775419312",
+		"W2787619263",
+		"W2791215549",
+		"W2799709985",
+		"W2800577978",
+		"W2891334889",
+		"W2900494848",
+		"W2902017838",
+		"W3142919825",
+		"W4213021793",
+		"W4234512498",
+		"W4238584076",
+		"W4252051442",
+		"W4252797265"
+	],
 	"themes": [
 		"energie"
 	],
 	"sourceTopics": [
-		"Global Energy and Sustainability Research",
-		"Energy, Environment, and Transportation Policies",
-		"Climate Change Policy and Economics"
+		"Integrated Energy Systems Optimization",
+		"Renewable Energy and Sustainability",
+		"Global Energy and Sustainability Research"
 	],
 	"url": "https://doi.org/10.1016/j.esr.2019.01.006",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-08-19"
+		"retrievedAt": "2026-11-16"
 	},
 	"addedAt": "2026-08-19",
 	"editorial": {},
-	"glossaryTerms": [],
-	"typeOverride": "review"
+	"glossaryTerms": []
 }

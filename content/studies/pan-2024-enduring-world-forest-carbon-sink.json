@@ -25,7 +25,6 @@
 		},
 		{
 			"name": "Jingyun Fang",
-			"orcid": "https://orcid.org/0000-0001-5997-0384",
 			"affiliation": "Peking University"
 		},
 		{
@@ -74,12 +73,12 @@
 			"affiliation": "Wageningen University & Research"
 		},
 		{
-			"name": "Dmitry Schepaschenko",
+			"name": "Dmitry G. Schepaschenko",
 			"orcid": "https://orcid.org/0000-0002-7814-4990",
 			"affiliation": "International Institute for Applied Systems Analysis"
 		},
 		{
-			"name": "Andrea Castanho",
+			"name": "Andrea D. de Almeida Castanho",
 			"orcid": "https://orcid.org/0000-0002-0756-3952",
 			"affiliation": "Woodwell Climate Research Center"
 		},
@@ -101,20 +100,78 @@
 		"status": "hybrid",
 		"url": "https://doi.org/10.1038/s41586-024-07602-x"
 	},
-	"citedByCount": 652,
+	"citedByCount": 903,
+	"openAlexId": "W4400730941",
+	"referencedWorks": [
+		"W1516075103",
+		"W1588713494",
+		"W1819992086",
+		"W1981213426",
+		"W1994499934",
+		"W2011560911",
+		"W2025350261",
+		"W2035962295",
+		"W2047189523",
+		"W2048605790",
+		"W2054533687",
+		"W2161324066",
+		"W2169245074",
+		"W2181552524",
+		"W2488001736",
+		"W2497508941",
+		"W2552701803",
+		"W2794086441",
+		"W2795134919",
+		"W2804406438",
+		"W2897988501",
+		"W2904396011",
+		"W2938368758",
+		"W2941901715",
+		"W2946278736",
+		"W2962374254",
+		"W2969492036",
+		"W3005464936",
+		"W3006703368",
+		"W3009221443",
+		"W3048799955",
+		"W3088138537",
+		"W3158854181",
+		"W3193845121",
+		"W3206257234",
+		"W3209176285",
+		"W4205644884",
+		"W4206377902",
+		"W4220803538",
+		"W4224941195",
+		"W4225004802",
+		"W4225420761",
+		"W4246438352",
+		"W4282944488",
+		"W4283207828",
+		"W4291535890",
+		"W4295088938",
+		"W4308697725",
+		"W4312132315",
+		"W4362640503",
+		"W4377821603",
+		"W4383217294",
+		"W4385387909",
+		"W4388553228",
+		"W6769072588"
+	],
 	"themes": [
 		"carbone",
 		"biodiversite"
 	],
 	"sourceTopics": [
 		"Forest Management and Policy",
-		"Conservation, Biodiversity, and Resource Management",
-		"Climate Change Policy and Economics"
+		"Forest ecology and management",
+		"Plant Water Relations and Carbon Dynamics"
 	],
 	"url": "https://doi.org/10.1038/s41586-024-07602-x",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-08-20"
+		"retrievedAt": "2026-11-16"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},

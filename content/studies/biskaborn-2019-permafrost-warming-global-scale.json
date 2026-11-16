@@ -15,7 +15,8 @@
 		},
 		{
 			"name": "Jeannette Noetzli",
-			"orcid": "https://orcid.org/0000-0001-9188-6318"
+			"orcid": "https://orcid.org/0000-0001-9188-6318",
+			"affiliation": "WSL Institute for Snow and Avalanche Research SLF"
 		},
 		{
 			"name": "Heidrun Matthes",
@@ -23,19 +24,18 @@
 			"affiliation": "Alfred-Wegener-Institut Helmholtz-Zentrum für Polar- und Meeresforschung"
 		},
 		{
-			"name": "Gonçalo Vieira",
+			"name": "Gonçalo Teles Vieira",
 			"orcid": "https://orcid.org/0000-0001-7611-3464",
 			"affiliation": "University of Lisbon"
 		},
 		{
-			"name": "D. A. Streletskiy",
+			"name": "Dmitry A. Streletskiy",
 			"orcid": "https://orcid.org/0000-0003-2563-2664",
 			"affiliation": "George Washington University"
 		},
 		{
 			"name": "Philippe Schoeneich",
-			"orcid": "https://orcid.org/0000-0002-3143-5547",
-			"affiliation": "Laboratoire d'Écologie Alpine"
+			"orcid": "https://orcid.org/0000-0002-3143-5547"
 		},
 		{
 			"name": "V. E. Romanovsky",
@@ -69,7 +69,8 @@
 		},
 		{
 			"name": "Hanne H. Christiansen",
-			"orcid": "https://orcid.org/0000-0002-6218-3493"
+			"orcid": "https://orcid.org/0000-0002-6218-3493",
+			"affiliation": "University Centre in Svalbard"
 		},
 		{
 			"name": "Reynald Delaloye",
@@ -82,7 +83,7 @@
 			"affiliation": "Alfred-Wegener-Institut Helmholtz-Zentrum für Polar- und Meeresforschung"
 		},
 		{
-			"name": "Dmitry Drozdov",
+			"name": "Dmitry S. Drozdov",
 			"orcid": "https://orcid.org/0000-0001-8864-3657",
 			"affiliation": "Earth Cryosphere Institute"
 		},
@@ -114,19 +115,71 @@
 		"status": "gold",
 		"url": "https://www.nature.com/articles/s41467-018-08240-4.pdf"
 	},
-	"citedByCount": 2118,
+	"citedByCount": 2361,
+	"openAlexId": "W2908898337",
+	"referencedWorks": [
+		"W113957270",
+		"W197684064",
+		"W1499800581",
+		"W1539932793",
+		"W1555385557",
+		"W1780085511",
+		"W1857977652",
+		"W1975014117",
+		"W1978547911",
+		"W1982518595",
+		"W1991229876",
+		"W2009225674",
+		"W2016917133",
+		"W2029995087",
+		"W2035201317",
+		"W2043207844",
+		"W2045934768",
+		"W2066769569",
+		"W2070979892",
+		"W2076483986",
+		"W2078563064",
+		"W2079397555",
+		"W2083294071",
+		"W2084553083",
+		"W2093891803",
+		"W2106330978",
+		"W2120861689",
+		"W2121745948",
+		"W2124594601",
+		"W2129731359",
+		"W2146377630",
+		"W2157026492",
+		"W2159625559",
+		"W2164286940",
+		"W2258774478",
+		"W2292070431",
+		"W2335304131",
+		"W2409851859",
+		"W2484817568",
+		"W2488607097",
+		"W2515137641",
+		"W2566948153",
+		"W2606781233",
+		"W2613986989",
+		"W2740128796",
+		"W2770624900",
+		"W2902551712",
+		"W2909304809",
+		"W2910969575"
+	],
 	"themes": [
 		"cryosphere"
 	],
 	"sourceTopics": [
 		"Climate change and permafrost",
-		"Cryospheric studies and observations",
+		"Polar Research and Ecology",
 		"Arctic and Antarctic ice dynamics"
 	],
 	"url": "https://doi.org/10.1038/s41467-018-08240-4",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-08-30"
+		"retrievedAt": "2026-11-16"
 	},
 	"addedAt": "2026-08-30",
 	"editorial": {},

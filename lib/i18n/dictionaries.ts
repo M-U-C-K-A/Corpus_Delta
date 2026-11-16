@@ -84,6 +84,12 @@ const fr = {
 		citedBySource: "selon OpenAlex, relevé le {date}",
 		metadataFrom: "Métadonnées importées depuis {source}, le {date}",
 		relatedStudies: "Études proches",
+		/* Le graphe de citations : formulations volontairement factuelles, puisque
+		   le lien est relevé chez la source et non établi par la rédaction. */
+		citesWithin: "S'appuie sur",
+		citedByWithin: "Citée dans l'annuaire par",
+		citesWithinNote:
+			"Liens relevés dans les bibliographies telles qu'OpenAlex les a dépouillées. Leur absence ne vaut pas absence de rapport.",
 		inTopics: "Cité dans nos dossiers",
 		glossaryTerms: "Termes du glossaire",
 		editorialNote: "Pourquoi cette étude",
@@ -360,6 +366,10 @@ const en: Dictionary = {
 		citedBySource: "per OpenAlex, retrieved {date}",
 		metadataFrom: "Metadata imported from {source} on {date}",
 		relatedStudies: "Related studies",
+		citesWithin: "Builds on",
+		citedByWithin: "Cited in this directory by",
+		citesWithinNote:
+			"Links as found in the bibliographies OpenAlex has indexed. Their absence does not mean no connection exists.",
 		inTopics: "Cited in our topic briefs",
 		glossaryTerms: "Glossary terms",
 		editorialNote: "Why this study",

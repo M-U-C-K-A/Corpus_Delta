@@ -9,7 +9,7 @@
 			"affiliation": "Universidade do Porto"
 		},
 		{
-			"name": "Inês S. Martins",
+			"name": "Inês Santos Martins",
 			"orcid": "https://orcid.org/0000-0003-4328-7286",
 			"affiliation": "German Centre for Integrative Biodiversity Research"
 		},
@@ -34,12 +34,12 @@
 			"affiliation": "University of Kassel"
 		},
 		{
-			"name": "Detlef P. van Vuuren",
+			"name": "Detlef Peter van Vuuren",
 			"orcid": "https://orcid.org/0000-0003-0398-2831",
 			"affiliation": "Netherlands Environmental Assessment Agency"
 		},
 		{
-			"name": "G. C. Hurtt",
+			"name": "GEORGE C. HURTT",
 			"orcid": "https://orcid.org/0000-0001-7278-202X",
 			"affiliation": "University of Maryland, College Park"
 		},
@@ -51,12 +51,12 @@
 		{
 			"name": "Almut Arneth",
 			"orcid": "https://orcid.org/0000-0001-6616-0822",
-			"affiliation": "Garmisch-Partenkirchen Medical Center"
+			"affiliation": "Karlsruhe Institute of Technology"
 		},
 		{
 			"name": "Daniele Baisero",
 			"orcid": "https://orcid.org/0000-0002-1266-7174",
-			"affiliation": "BirdLife international"
+			"affiliation": "BirdLife International"
 		},
 		{
 			"name": "Michel Bakkenes",
@@ -69,7 +69,7 @@
 			"affiliation": "University of Minnesota"
 		},
 		{
-			"name": "Louise Chini",
+			"name": "Louise Parsons Chini",
 			"orcid": "https://orcid.org/0000-0002-9070-3505",
 			"affiliation": "University of Maryland, College Park"
 		},
@@ -89,7 +89,7 @@
 			"affiliation": "National Institute for Environmental Studies"
 		},
 		{
-			"name": "Carlos A. Guerra",
+			"name": "Carlos António Guerra",
 			"orcid": "https://orcid.org/0000-0003-4917-2105",
 			"affiliation": "German Centre for Integrative Biodiversity Research"
 		},
@@ -100,6 +100,7 @@
 		},
 		{
 			"name": "Thomas D. Harwood",
+			"orcid": "https://orcid.org/0000-0002-3855-5306",
 			"affiliation": "Commonwealth Scientific and Industrial Research Organisation"
 		}
 	],
@@ -115,19 +116,135 @@
 		"status": "green",
 		"url": "https://pure.knaw.nl/portal/en/publications/beb07193-c138-4c94-8e5b-6b427096208f"
 	},
-	"citedByCount": 293,
+	"citedByCount": 369,
+	"openAlexId": "W4395447577",
+	"referencedWorks": [
+		"W80226805",
+		"W1543590217",
+		"W1707880923",
+		"W1885078460",
+		"W1966715855",
+		"W1977230643",
+		"W1990376608",
+		"W1996816368",
+		"W1999974710",
+		"W2001380411",
+		"W2003888205",
+		"W2012134942",
+		"W2016544621",
+		"W2017900025",
+		"W2035279307",
+		"W2036186078",
+		"W2036877639",
+		"W2061803529",
+		"W2065676538",
+		"W2069079992",
+		"W2093858899",
+		"W2099150972",
+		"W2103897732",
+		"W2104438269",
+		"W2106241015",
+		"W2108940449",
+		"W2116159613",
+		"W2117835930",
+		"W2123610169",
+		"W2123654935",
+		"W2125723401",
+		"W2128226992",
+		"W2130560194",
+		"W2130811469",
+		"W2134289299",
+		"W2135744524",
+		"W2136080546",
+		"W2141049972",
+		"W2142130713",
+		"W2144364932",
+		"W2149507322",
+		"W2154433795",
+		"W2161139387",
+		"W2175423925",
+		"W2297831219",
+		"W2299678014",
+		"W2302142942",
+		"W2308575793",
+		"W2313348250",
+		"W2410390527",
+		"W2412175981",
+		"W2416407906",
+		"W2461852639",
+		"W2471817405",
+		"W2472420705",
+		"W2487451717",
+		"W2508171124",
+		"W2541697905",
+		"W2560200117",
+		"W2581750035",
+		"W2614464134",
+		"W2746512971",
+		"W2754686867",
+		"W2763013004",
+		"W2766136866",
+		"W2782917446",
+		"W2788732311",
+		"W2792304004",
+		"W2799054648",
+		"W2804520636",
+		"W2809002745",
+		"W2883795200",
+		"W2904638654",
+		"W2919193315",
+		"W2919990920",
+		"W2928474513",
+		"W2936477023",
+		"W2941462030",
+		"W2952896657",
+		"W2980239312",
+		"W2980577289",
+		"W2986331582",
+		"W2990431184",
+		"W2995733574",
+		"W3012663609",
+		"W3016282791",
+		"W3044450114",
+		"W3084261954",
+		"W3084486007",
+		"W3137502668",
+		"W4213048195",
+		"W4240038684",
+		"W4244799588",
+		"W4294011964",
+		"W4319985121",
+		"W4380362703",
+		"W4386142378",
+		"W6889573266",
+		"W6889659272",
+		"W6889745119",
+		"W6893514965",
+		"W6908216338",
+		"W6908398669",
+		"W6910911434",
+		"W6926201964",
+		"W6926982147",
+		"W6927152072",
+		"W6930079930",
+		"W6930840375",
+		"W6945549416",
+		"W6945995800",
+		"W6964619168",
+		"W6964783634"
+	],
 	"themes": [
 		"biodiversite"
 	],
 	"sourceTopics": [
 		"Land Use and Ecosystem Services",
-		"Forest Management and Policy",
+		"Ecology and Vegetation Dynamics Studies",
 		"Conservation, Biodiversity, and Resource Management"
 	],
 	"url": "https://doi.org/10.1126/science.adn3441",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-08-20"
+		"retrievedAt": "2026-11-16"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},

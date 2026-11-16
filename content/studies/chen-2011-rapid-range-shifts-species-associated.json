@@ -5,6 +5,7 @@
 	"authors": [
 		{
 			"name": "I‐Ching Chen",
+			"orcid": "https://orcid.org/0000-0002-1909-7290",
 			"affiliation": "Biodiversity Research Center, Academia Sinica"
 		},
 		{
@@ -36,23 +37,73 @@
 	"abstract": "The distributions of many terrestrial organisms are currently shifting in latitude or elevation in response to changing climate. Using a meta-analysis, we estimated that the distributions of species have recently shifted to higher elevations at a median rate of 11.0 meters per decade, and to higher latitudes at a median rate of 16.9 kilometers per decade. These rates are approximately two and three times faster than previously reported. The distances moved by species are greatest in studies showing the highest levels of warming, with average latitudinal shifts being generally sufficient to track temperature changes. However, individual species vary greatly in their rates of change, suggesting that the range shift of each species depends on multiple internal species traits and external drivers of change. Rapid average shifts derive from a wide diversity of responses by individual species.",
 	"language": "en",
 	"openAccess": {
-		"isOpen": true,
-		"status": "green",
-		"url": "https://zotero.org/groups/5435545/items/G6C5XR9S"
+		"isOpen": false,
+		"status": "closed",
+		"url": null
 	},
-	"citedByCount": 5532,
+	"citedByCount": 5802,
+	"openAlexId": "W1985936925",
+	"referencedWorks": [
+		"W1481962503",
+		"W1512870236",
+		"W1553503160",
+		"W1620630482",
+		"W1751135250",
+		"W1800800339",
+		"W1833748107",
+		"W1913822460",
+		"W1972775264",
+		"W1978815659",
+		"W1979348491",
+		"W1987976166",
+		"W2000365653",
+		"W2004861083",
+		"W2006205503",
+		"W2009552537",
+		"W2014225118",
+		"W2015968788",
+		"W2016467777",
+		"W2017677393",
+		"W2029411945",
+		"W2034841998",
+		"W2037758982",
+		"W2048217677",
+		"W2081435682",
+		"W2093918627",
+		"W2095054126",
+		"W2106701990",
+		"W2113805218",
+		"W2120456067",
+		"W2125550848",
+		"W2126473499",
+		"W2133501143",
+		"W2138605014",
+		"W2141075017",
+		"W2143976053",
+		"W2144971857",
+		"W2146664101",
+		"W2149507322",
+		"W2153213062",
+		"W2160935513",
+		"W2162641775",
+		"W2164109186",
+		"W2167088794",
+		"W2168884338",
+		"W2178397682",
+		"W2464730130"
+	],
 	"themes": [
 		"biodiversite"
 	],
 	"sourceTopics": [
 		"Species Distribution and Climate Change",
 		"Ecology and Vegetation Dynamics Studies",
-		"Wildlife Ecology and Conservation"
+		"Physiological and biochemical adaptations"
 	],
 	"url": "https://doi.org/10.1126/science.1206432",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-08-20"
+		"retrievedAt": "2026-11-16"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},

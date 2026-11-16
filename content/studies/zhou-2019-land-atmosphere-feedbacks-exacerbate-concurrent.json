@@ -20,6 +20,7 @@
 		},
 		{
 			"name": "Benjamin I. Cook",
+			"orcid": "https://orcid.org/0000-0002-4501-9229",
 			"affiliation": "Goddard Institute for Space Studies"
 		},
 		{
@@ -35,17 +36,17 @@
 		{
 			"name": "Ruth Lorenz",
 			"orcid": "https://orcid.org/0000-0002-3986-1268",
-			"affiliation": "Board of the Swiss Federal Institutes of Technology"
+			"affiliation": "ETH Zurich"
 		},
 		{
-			"name": "Sonia I. Seneviratne",
+			"name": "Sonia Isabelle Seneviratne",
 			"orcid": "https://orcid.org/0000-0001-9528-2917",
-			"affiliation": "Board of the Swiss Federal Institutes of Technology"
+			"affiliation": "ETH Zurich"
 		},
 		{
 			"name": "Pierre Gentine",
 			"orcid": "https://orcid.org/0000-0002-0845-8345",
-			"affiliation": "Earth Island Institute"
+			"affiliation": "Columbia University"
 		}
 	],
 	"authorCount": 9,
@@ -60,20 +61,70 @@
 		"status": "bronze",
 		"url": "https://www.pnas.org/content/pnas/116/38/18848.full.pdf"
 	},
-	"citedByCount": 701,
+	"citedByCount": 762,
+	"openAlexId": "W2971807528",
+	"referencedWorks": [
+		"W1656732585",
+		"W1752107374",
+		"W1951564719",
+		"W1964264187",
+		"W1964981181",
+		"W1978897219",
+		"W1984806043",
+		"W1999928813",
+		"W2028979033",
+		"W2053452238",
+		"W2054282473",
+		"W2063095920",
+		"W2068914580",
+		"W2071681633",
+		"W2114336414",
+		"W2119436275",
+		"W2120012334",
+		"W2122046874",
+		"W2134916126",
+		"W2136184643",
+		"W2136800481",
+		"W2140131090",
+		"W2144720528",
+		"W2163557852",
+		"W2163808120",
+		"W2165037481",
+		"W2169840829",
+		"W2200025728",
+		"W2224148623",
+		"W2315357523",
+		"W2336901076",
+		"W2353868709",
+		"W2483646144",
+		"W2484479436",
+		"W2485420366",
+		"W2518297365",
+		"W2560738856",
+		"W2562144312",
+		"W2611772571",
+		"W2617606220",
+		"W2729777092",
+		"W2761619590",
+		"W2767998632",
+		"W2769501458",
+		"W2800227153",
+		"W2800299140",
+		"W2912401481"
+	],
 	"themes": [
 		"eau",
 		"chaleur"
 	],
 	"sourceTopics": [
+		"Hydrology and Drought Analysis",
 		"Climate variability and models",
-		"Plant Water Relations and Carbon Dynamics",
-		"Tree-ring climate responses"
+		"Plant Water Relations and Carbon Dynamics"
 	],
 	"url": "https://doi.org/10.1073/pnas.1904955116",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-08-30"
+		"retrievedAt": "2026-11-16"
 	},
 	"addedAt": "2026-08-30",
 	"editorial": {},

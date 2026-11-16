@@ -19,7 +19,7 @@
 			"affiliation": "British Antarctic Survey"
 		},
 		{
-			"name": "Jonathan Bamber",
+			"name": "Jonathan Louis Bamber",
 			"orcid": "https://orcid.org/0000-0002-2280-2819",
 			"affiliation": "University of Bristol"
 		},
@@ -45,7 +45,7 @@
 		{
 			"name": "Donald D. Blankenship",
 			"orcid": "https://orcid.org/0000-0003-0205-4830",
-			"affiliation": "The University of Texas at Austin"
+			"affiliation": "University of Texas Institute for Geophysics"
 		},
 		{
 			"name": "Gino Casassa",
@@ -55,7 +55,7 @@
 		{
 			"name": "G. A. Catania",
 			"orcid": "https://orcid.org/0000-0002-7561-5902",
-			"affiliation": "The University of Texas at Austin"
+			"affiliation": "University of Texas Institute for Geophysics"
 		},
 		{
 			"name": "Denis Callens",
@@ -63,12 +63,12 @@
 			"affiliation": "Université Libre de Bruxelles"
 		},
 		{
-			"name": "H. Conway",
+			"name": "Howard B. Conway",
 			"orcid": "https://orcid.org/0000-0003-4634-3474",
 			"affiliation": "University of Washington"
 		},
 		{
-			"name": "Alison Cook",
+			"name": "Alison J. Cook",
 			"orcid": "https://orcid.org/0000-0003-0374-9167",
 			"affiliation": "Swansea University"
 		},
@@ -91,7 +91,7 @@
 			"affiliation": "British Antarctic Survey"
 		},
 		{
-			"name": "R. Forsberg",
+			"name": "Rene Forsberg",
 			"orcid": "https://orcid.org/0000-0002-7288-9545",
 			"affiliation": "Technical University of Denmark"
 		},
@@ -102,7 +102,7 @@
 		}
 	],
 	"authorCount": 60,
-	"venue": "The cryosphere",
+	"venue": "The Cryosphere",
 	"publisher": "Copernicus Publications",
 	"year": 2013,
 	"type": "article",
@@ -113,20 +113,79 @@
 		"status": "gold",
 		"url": "https://tc.copernicus.org/articles/7/375/2013/tc-7-375-2013.pdf"
 	},
-	"citedByCount": 2128,
+	"citedByCount": 2252,
+	"openAlexId": "W2102213705",
+	"referencedWorks": [
+		"W11148313",
+		"W1483854707",
+		"W1544267780",
+		"W1546441396",
+		"W1552329212",
+		"W1588827410",
+		"W1613378058",
+		"W1670401066",
+		"W1727957211",
+		"W1783630024",
+		"W1918027106",
+		"W1964467133",
+		"W1966118118",
+		"W1968152914",
+		"W1969227764",
+		"W1979281560",
+		"W1989177281",
+		"W1999055838",
+		"W2015620244",
+		"W2021959819",
+		"W2022407135",
+		"W2022439841",
+		"W2026105918",
+		"W2026425837",
+		"W2026516541",
+		"W2027467310",
+		"W2033103266",
+		"W2038623658",
+		"W2044582720",
+		"W2045074833",
+		"W2049611787",
+		"W2052719304",
+		"W2054428793",
+		"W2069580113",
+		"W2080536144",
+		"W2093807014",
+		"W2098609114",
+		"W2107351933",
+		"W2108001777",
+		"W2108822433",
+		"W2118629562",
+		"W2126876193",
+		"W2127521102",
+		"W2128691150",
+		"W2129246831",
+		"W2131275877",
+		"W2137677485",
+		"W2142881402",
+		"W2150022032",
+		"W2155093452",
+		"W2159526919",
+		"W2162370294",
+		"W2163837400",
+		"W2164131390",
+		"W2167421857",
+		"W3021425857"
+	],
 	"themes": [
 		"cryosphere",
 		"observation"
 	],
 	"sourceTopics": [
 		"Cryospheric studies and observations",
-		"Climate change and permafrost",
-		"Arctic and Antarctic ice dynamics"
+		"Polar Research and Ecology",
+		"Geology and Paleoclimatology Research"
 	],
 	"url": "https://doi.org/10.5194/tc-7-375-2013",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-08-20"
+		"retrievedAt": "2026-11-16"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},

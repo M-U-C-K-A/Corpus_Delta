@@ -9,7 +9,8 @@
 			"affiliation": "Technical University of Munich"
 		},
 		{
-			"name": "Stefan Reichelstein",
+			"name": "Stefan J. Reichelstein",
+			"orcid": "https://orcid.org/0000-0003-0989-6715",
 			"affiliation": "University of Mannheim"
 		}
 	],
@@ -21,23 +22,64 @@
 	"abstract": null,
 	"language": "en",
 	"openAccess": {
-		"isOpen": false,
-		"status": "closed",
-		"url": null
+		"isOpen": true,
+		"status": "green",
+		"url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3767877"
 	},
-	"citedByCount": 1334,
+	"citedByCount": 1481,
+	"openAlexId": "W2915666072",
+	"referencedWorks": [
+		"W42215464",
+		"W207831282",
+		"W342125394",
+		"W575002418",
+		"W1631712371",
+		"W1966065781",
+		"W1982644510",
+		"W1988825274",
+		"W2009775084",
+		"W2010892660",
+		"W2018651936",
+		"W2032809563",
+		"W2038522556",
+		"W2051724919",
+		"W2082979405",
+		"W2090944327",
+		"W2092173541",
+		"W2123404211",
+		"W2225959938",
+		"W2228940409",
+		"W2253959881",
+		"W2259903209",
+		"W2400024430",
+		"W2515518038",
+		"W2519382271",
+		"W2727165102",
+		"W2753273584",
+		"W2771685959",
+		"W2782696250",
+		"W2799307452",
+		"W2800243038",
+		"W2811133697",
+		"W2883078496",
+		"W2900764299",
+		"W3123893177",
+		"W3204306846",
+		"W4246840544",
+		"W4254832543"
+	],
 	"themes": [
 		"energie"
 	],
 	"sourceTopics": [
 		"Hybrid Renewable Energy Systems",
 		"Integrated Energy Systems Optimization",
-		"Energy and Environment Impacts"
+		"Renewable Energy and Sustainability"
 	],
 	"url": "https://doi.org/10.1038/s41560-019-0326-1",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-08-20"
+		"retrievedAt": "2026-11-16"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},

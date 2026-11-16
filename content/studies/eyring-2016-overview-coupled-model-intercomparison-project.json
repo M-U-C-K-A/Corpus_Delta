@@ -19,7 +19,7 @@
 			"affiliation": "NSF National Center for Atmospheric Research"
 		},
 		{
-			"name": "C. A. Senior",
+			"name": "Catherine A. Senior",
 			"orcid": "https://orcid.org/0000-0002-4124-0612",
 			"affiliation": "Met Office"
 		},
@@ -51,19 +51,69 @@
 		"status": "gold",
 		"url": "https://www.geosci-model-dev.net/9/1937/2016/gmd-9-1937-2016.pdf"
 	},
-	"citedByCount": 12250,
+	"citedByCount": 13517,
+	"openAlexId": "W2193503481",
+	"referencedWorks": [
+		"W28541827",
+		"W752682158",
+		"W1503767969",
+		"W1644334008",
+		"W1710919885",
+		"W1780280917",
+		"W1820335993",
+		"W1957506591",
+		"W1965031032",
+		"W1971250671",
+		"W1972708547",
+		"W1973233492",
+		"W1979074586",
+		"W1989010928",
+		"W1991308688",
+		"W1992193293",
+		"W1992579369",
+		"W1993182637",
+		"W1997499217",
+		"W2011189209",
+		"W2020807961",
+		"W2024966118",
+		"W2036788017",
+		"W2047502570",
+		"W2051287661",
+		"W2053478228",
+		"W2054653365",
+		"W2062217294",
+		"W2062310155",
+		"W2072850882",
+		"W2074764441",
+		"W2079931943",
+		"W2086507211",
+		"W2096980539",
+		"W2097331168",
+		"W2097582888",
+		"W2108940449",
+		"W2125720396",
+		"W2126681088",
+		"W2130256070",
+		"W2131527685",
+		"W2137077767",
+		"W2261980445",
+		"W2346853756",
+		"W2939474406",
+		"W2981420978",
+		"W2986345846"
+	],
 	"themes": [
 		"modelisation"
 	],
 	"sourceTopics": [
 		"Climate variability and models",
-		"Meteorological Phenomena and Simulations",
-		"Atmospheric and Environmental Gas Dynamics"
+		"Geology and Paleoclimatology Research",
+		"Meteorological Phenomena and Simulations"
 	],
 	"url": "https://doi.org/10.5194/gmd-9-1937-2016",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-08-19"
+		"retrievedAt": "2026-11-16"
 	},
 	"addedAt": "2026-08-19",
 	"editorial": {},

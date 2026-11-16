@@ -25,14 +25,16 @@
 		},
 		{
 			"name": "Antonella Zanobetti",
-			"orcid": "https://orcid.org/0000-0001-8170-4736"
+			"orcid": "https://orcid.org/0000-0001-8170-4736",
+			"affiliation": "Harvard University"
 		},
 		{
-			"name": "Joel Schwartz",
-			"orcid": "https://orcid.org/0000-0001-6168-378X"
+			"name": "Joel David Schwartz",
+			"orcid": "https://orcid.org/0000-0001-6168-378X",
+			"affiliation": "Harvard University"
 		},
 		{
-			"name": "Aurelio Tobı́as",
+			"name": "Aurelio Tobías",
 			"orcid": "https://orcid.org/0000-0001-6428-6755",
 			"affiliation": "Institute of Environmental Assessment and Water Research"
 		},
@@ -52,14 +54,16 @@
 			"affiliation": "Umeå University"
 		},
 		{
-			"name": "Michela Leone"
+			"name": "Michela Leone",
+			"affiliation": "Regione Lazio"
 		},
 		{
 			"name": "Manuela De Sario",
-			"orcid": "https://orcid.org/0000-0002-1117-2735"
+			"orcid": "https://orcid.org/0000-0002-1117-2735",
+			"affiliation": "Regione Lazio"
 		},
 		{
-			"name": "Michelle L. Bell",
+			"name": "Michelle Lee Bell",
 			"orcid": "https://orcid.org/0000-0002-3965-1359",
 			"affiliation": "Yale University"
 		},
@@ -111,20 +115,65 @@
 		"status": "hybrid",
 		"url": "http://www.thelancet.com/article/S0140673614621140/pdf"
 	},
-	"citedByCount": 2955,
+	"citedByCount": 3239,
+	"openAlexId": "W2162775913",
+	"referencedWorks": [
+		"W64643628",
+		"W1599595176",
+		"W1608013130",
+		"W1965387421",
+		"W1965861923",
+		"W1966425855",
+		"W1967921852",
+		"W1972714338",
+		"W1973802779",
+		"W1979615940",
+		"W1983643661",
+		"W1987925218",
+		"W1994334162",
+		"W2012406979",
+		"W2018163508",
+		"W2030596611",
+		"W2040391667",
+		"W2054135076",
+		"W2067001040",
+		"W2069704741",
+		"W2074344667",
+		"W2092189581",
+		"W2095866817",
+		"W2101758775",
+		"W2102513610",
+		"W2109839011",
+		"W2115112857",
+		"W2126615685",
+		"W2126930838",
+		"W2129308948",
+		"W2139348997",
+		"W2146538861",
+		"W2148010882",
+		"W2150733612",
+		"W2162768498",
+		"W2167476198",
+		"W2170547362",
+		"W2194978740",
+		"W2320935506",
+		"W2924055038",
+		"W4241526697",
+		"W4254247301"
+	],
 	"themes": [
 		"sante",
 		"chaleur"
 	],
 	"sourceTopics": [
 		"Climate Change and Health Impacts",
-		"Thermal Regulation in Medicine",
-		"Circadian rhythm and melatonin"
+		"Air Quality and Health Impacts",
+		"Thermoregulation and physiological responses"
 	],
 	"url": "https://doi.org/10.1016/s0140-6736(14)62114-0",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-08-19"
+		"retrievedAt": "2026-11-16"
 	},
 	"addedAt": "2026-08-19",
 	"editorial": {

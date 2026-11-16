@@ -67,7 +67,7 @@
 			"affiliation": "University of Vienna"
 		},
 		{
-			"name": "Jack Woollen",
+			"name": "Jack S. Woollen",
 			"affiliation": "NOAA National Centers for Environmental Prediction"
 		},
 		{
@@ -93,20 +93,68 @@
 		"status": "hybrid",
 		"url": "https://doi.org/10.1002/qj.4803"
 	},
-	"citedByCount": 294,
+	"citedByCount": 448,
+	"openAlexId": "W4401232992",
+	"referencedWorks": [
+		"W1645858368",
+		"W1863529719",
+		"W1912958521",
+		"W1989120577",
+		"W2000759171",
+		"W2006165291",
+		"W2008760369",
+		"W2031037734",
+		"W2050198538",
+		"W2059735239",
+		"W2090249381",
+		"W2094216112",
+		"W2109960092",
+		"W2121745948",
+		"W2131628141",
+		"W2150516764",
+		"W2165242200",
+		"W2172475821",
+		"W2176735002",
+		"W2310628892",
+		"W2394879936",
+		"W2533922453",
+		"W2602467981",
+		"W2738516213",
+		"W2781698460",
+		"W2801985028",
+		"W2900888442",
+		"W2903644667",
+		"W2946160190",
+		"W2952678807",
+		"W2954976262",
+		"W3014920316",
+		"W3025949386",
+		"W3034066845",
+		"W3112414201",
+		"W3121151645",
+		"W3204829776",
+		"W4221036805",
+		"W4286491909",
+		"W4298109254",
+		"W4377013796",
+		"W4383897007",
+		"W4388141410",
+		"W4388176960",
+		"W4389342801"
+	],
 	"themes": [
 		"observation",
 		"modelisation"
 	],
 	"sourceTopics": [
-		"Climate variability and models",
 		"Meteorological Phenomena and Simulations",
-		"Tropical and Extratropical Cyclones Research"
+		"Climate variability and models",
+		"Oceanographic and Atmospheric Processes"
 	],
 	"url": "https://doi.org/10.1002/qj.4803",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-08-20"
+		"retrievedAt": "2026-11-16"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},

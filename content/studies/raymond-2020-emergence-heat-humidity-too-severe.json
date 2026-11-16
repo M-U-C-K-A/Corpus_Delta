@@ -9,7 +9,7 @@
 			"affiliation": "Jet Propulsion Laboratory"
 		},
 		{
-			"name": "Tom Matthews",
+			"name": "Tom K. R. Matthews",
 			"orcid": "https://orcid.org/0000-0001-6295-1870",
 			"affiliation": "Loughborough University"
 		},
@@ -31,20 +31,64 @@
 		"status": "gold",
 		"url": "https://www.science.org/doi/pdf/10.1126/sciadv.aaw1838?download=true"
 	},
-	"citedByCount": 834,
+	"citedByCount": 940,
+	"openAlexId": "W3022490421",
+	"referencedWorks": [
+		"W127975111",
+		"W168893191",
+		"W1875199686",
+		"W1886483106",
+		"W1946714059",
+		"W1975266344",
+		"W1986440133",
+		"W1988700995",
+		"W2001104523",
+		"W2006165291",
+		"W2031027346",
+		"W2032300129",
+		"W2035612080",
+		"W2040456175",
+		"W2045833911",
+		"W2050198538",
+		"W2057775518",
+		"W2078831742",
+		"W2084979499",
+		"W2099468086",
+		"W2114238102",
+		"W2121745948",
+		"W2127673213",
+		"W2145028569",
+		"W2146598934",
+		"W2150930940",
+		"W2168377718",
+		"W2169744144",
+		"W2244217450",
+		"W2260552638",
+		"W2465808793",
+		"W2521039721",
+		"W2578304138",
+		"W2600045851",
+		"W2626726142",
+		"W2740973936",
+		"W2771065185",
+		"W2775480501",
+		"W2786514163",
+		"W2802086350",
+		"W2807775569"
+	],
 	"themes": [
 		"chaleur",
 		"sante"
 	],
 	"sourceTopics": [
+		"Climate variability and models",
 		"Climate Change and Health Impacts",
-		"Thermoregulation and physiological responses",
-		"Spaceflight effects on biology"
+		"Climate Change and Environmental Impact"
 	],
 	"url": "https://doi.org/10.1126/sciadv.aaw1838",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-08-30"
+		"retrievedAt": "2026-11-16"
 	},
 	"addedAt": "2026-08-30",
 	"editorial": {},

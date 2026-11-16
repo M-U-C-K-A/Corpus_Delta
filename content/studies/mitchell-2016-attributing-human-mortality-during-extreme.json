@@ -42,12 +42,12 @@
 			"affiliation": "University of Oxford"
 		},
 		{
-			"name": "David Wallom",
+			"name": "David C. H. Wallom",
 			"orcid": "https://orcid.org/0000-0001-7527-3407",
 			"affiliation": "University of Oxford"
 		},
 		{
-			"name": "Myles Allen",
+			"name": "Myles R. Allen",
 			"orcid": "https://orcid.org/0000-0002-1721-7172",
 			"affiliation": "University of Oxford"
 		}
@@ -64,20 +64,57 @@
 		"status": "gold",
 		"url": "https://iopscience.iop.org/article/10.1088/1748-9326/11/7/074006/pdf"
 	},
-	"citedByCount": 449,
+	"citedByCount": 484,
+	"openAlexId": "W2471123203",
+	"referencedWorks": [
+		"W649594995",
+		"W984358109",
+		"W1548516473",
+		"W1587602269",
+		"W1899727038",
+		"W1966793094",
+		"W1998525562",
+		"W2008276008",
+		"W2027219405",
+		"W2030840256",
+		"W2031317176",
+		"W2044387082",
+		"W2048170654",
+		"W2057411204",
+		"W2061154725",
+		"W2064454189",
+		"W2081682483",
+		"W2084979499",
+		"W2095866817",
+		"W2096830549",
+		"W2099327766",
+		"W2108593239",
+		"W2121153858",
+		"W2121745948",
+		"W2127614828",
+		"W2137686200",
+		"W2143284481",
+		"W2158181498",
+		"W2164906782",
+		"W2167476198",
+		"W2168873818",
+		"W2254388813",
+		"W3020939890",
+		"W4248225722"
+	],
 	"themes": [
 		"sante",
 		"chaleur"
 	],
 	"sourceTopics": [
 		"Climate Change and Health Impacts",
-		"Air Quality and Health Impacts",
-		"Health disparities and outcomes"
+		"Climate variability and models",
+		"Climate Change and Environmental Impact"
 	],
 	"url": "https://doi.org/10.1088/1748-9326/11/7/074006",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-08-20"
+		"retrievedAt": "2026-11-16"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},

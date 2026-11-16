@@ -59,7 +59,8 @@
 			"affiliation": "NSF National Center for Atmospheric Research"
 		},
 		{
-			"name": "Carolyn Gibson",
+			"name": "Carolyn M. Gibson",
+			"orcid": "https://orcid.org/0000-0001-5227-5303",
 			"affiliation": "University of Guelph"
 		},
 		{
@@ -68,7 +69,7 @@
 			"affiliation": "Stockholm University"
 		},
 		{
-			"name": "A. David McGuire",
+			"name": "Anthony David McGuire",
 			"orcid": "https://orcid.org/0000-0003-4646-0750",
 			"affiliation": "University of Alaska Fairbanks"
 		}
@@ -85,20 +86,72 @@
 		"status": "closed",
 		"url": null
 	},
-	"citedByCount": 1001,
+	"citedByCount": 1141,
+	"openAlexId": "W3003933125",
+	"referencedWorks": [
+		"W1671695640",
+		"W1678506828",
+		"W1986199740",
+		"W1987419954",
+		"W2004148179",
+		"W2009225674",
+		"W2014150465",
+		"W2017122207",
+		"W2024660123",
+		"W2034671731",
+		"W2061603569",
+		"W2078859339",
+		"W2084211992",
+		"W2096149314",
+		"W2098627306",
+		"W2116898223",
+		"W2123201475",
+		"W2124188489",
+		"W2124364943",
+		"W2132288094",
+		"W2136818763",
+		"W2147171518",
+		"W2159200641",
+		"W2164286940",
+		"W2233831715",
+		"W2266381963",
+		"W2295030361",
+		"W2442928002",
+		"W2465220250",
+		"W2513745459",
+		"W2531341442",
+		"W2578110421",
+		"W2586082079",
+		"W2749870872",
+		"W2790765982",
+		"W2794531545",
+		"W2800163541",
+		"W2808360602",
+		"W2883821069",
+		"W2886168968",
+		"W2886310324",
+		"W2889523623",
+		"W2905189307",
+		"W2930598214",
+		"W2939474406",
+		"W2943601627",
+		"W2944901438",
+		"W2951253163",
+		"W3038518480"
+	],
 	"themes": [
 		"cryosphere",
 		"carbone"
 	],
 	"sourceTopics": [
 		"Climate change and permafrost",
-		"Cryospheric studies and observations",
-		"Arctic and Antarctic ice dynamics"
+		"Soil Carbon and Nitrogen Dynamics",
+		"Polar Research and Ecology"
 	],
 	"url": "https://doi.org/10.1038/s41561-019-0526-0",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-08-30"
+		"retrievedAt": "2026-11-16"
 	},
 	"addedAt": "2026-08-30",
 	"editorial": {},

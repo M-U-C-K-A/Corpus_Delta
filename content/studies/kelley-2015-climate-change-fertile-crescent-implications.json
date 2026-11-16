@@ -38,22 +38,63 @@
 	"openAccess": {
 		"isOpen": true,
 		"status": "green",
-		"url": "https://www.osti.gov/servlets/purl/1349031"
+		"url": "https://www.ncbi.nlm.nih.gov/pmc/articles/4371967"
 	},
-	"citedByCount": 1371,
+	"citedByCount": 1502,
+	"openAlexId": "W2155657253",
+	"referencedWorks": [
+		"W617039848",
+		"W1497948656",
+		"W1503994118",
+		"W1520428197",
+		"W1562723576",
+		"W1590336679",
+		"W1597317454",
+		"W1966026582",
+		"W1976118070",
+		"W1978452136",
+		"W1984843465",
+		"W2016296385",
+		"W2024635729",
+		"W2032994495",
+		"W2042938765",
+		"W2066600176",
+		"W2070825806",
+		"W2075506898",
+		"W2077947746",
+		"W2080065883",
+		"W2105572557",
+		"W2108379304",
+		"W2112961671",
+		"W2113410727",
+		"W2123894553",
+		"W2133488074",
+		"W2153566440",
+		"W2156395131",
+		"W2165242200",
+		"W2173570836",
+		"W2319450325",
+		"W2728150318",
+		"W2768616583",
+		"W2939474406",
+		"W4234492793",
+		"W4238691261",
+		"W4240553153",
+		"W4285719527"
+	],
 	"themes": [
 		"eau",
 		"politiques"
 	],
 	"sourceTopics": [
-		"Transboundary Water Resource Management",
 		"Hydrology and Drought Analysis",
-		"Climate variability and models"
+		"Climate variability and models",
+		"Geology and Paleoclimatology Research"
 	],
 	"url": "https://doi.org/10.1073/pnas.1421533112",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-08-20"
+		"retrievedAt": "2026-11-16"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},

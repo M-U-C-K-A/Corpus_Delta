@@ -29,7 +29,7 @@
 			"affiliation": "Imperial College London"
 		},
 		{
-			"name": "Edward Byers",
+			"name": "Edward A. Byers",
 			"orcid": "https://orcid.org/0000-0003-0349-5742",
 			"affiliation": "International Institute for Applied Systems Analysis"
 		},
@@ -39,7 +39,7 @@
 			"affiliation": "CICERO Center for International Climate Research"
 		},
 		{
-			"name": "Malte Meinshausen",
+			"name": "Malte Alexander Meinshausen",
 			"orcid": "https://orcid.org/0000-0003-4048-3521",
 			"affiliation": "The University of Melbourne"
 		},
@@ -74,7 +74,7 @@
 			"affiliation": "CICERO Center for International Climate Research"
 		},
 		{
-			"name": "B. H. Samset",
+			"name": "Bjørn Hallvard Samset",
 			"orcid": "https://orcid.org/0000-0001-8013-1833",
 			"affiliation": "CICERO Center for International Climate Research"
 		},
@@ -84,7 +84,7 @@
 			"affiliation": "International Institute for Applied Systems Analysis"
 		},
 		{
-			"name": "Detlef P. van Vuuren",
+			"name": "Detlef Peter van Vuuren",
 			"orcid": "https://orcid.org/0000-0003-0398-2831",
 			"affiliation": "Netherlands Environmental Assessment Agency"
 		},
@@ -99,7 +99,7 @@
 			"affiliation": "Imperial College London"
 		},
 		{
-			"name": "Piers Forster",
+			"name": "Piers M. de F. Forster",
 			"orcid": "https://orcid.org/0000-0002-6078-0171",
 			"affiliation": "University of Leeds"
 		}
@@ -116,20 +116,116 @@
 		"status": "gold",
 		"url": "https://gmd.copernicus.org/articles/15/9075/2022/gmd-15-9075-2022.pdf"
 	},
-	"citedByCount": 405,
+	"citedByCount": 501,
+	"openAlexId": "W4312018175",
+	"referencedWorks": [
+		"W1492909904",
+		"W1539211058",
+		"W1985148570",
+		"W1991308688",
+		"W2012021057",
+		"W2017900025",
+		"W2036877639",
+		"W2060852319",
+		"W2063018768",
+		"W2098219542",
+		"W2131086800",
+		"W2177517294",
+		"W2242464395",
+		"W2564065614",
+		"W2591543609",
+		"W2591808392",
+		"W2600399632",
+		"W2625306604",
+		"W2769339646",
+		"W2775013068",
+		"W2778175050",
+		"W2788049472",
+		"W2796210746",
+		"W2798229214",
+		"W2806810493",
+		"W2890978781",
+		"W2897010877",
+		"W2900373313",
+		"W2911631054",
+		"W2953669636",
+		"W2981530190",
+		"W2982553529",
+		"W2990024397",
+		"W3030338545",
+		"W3035137994",
+		"W3038801422",
+		"W3044698812",
+		"W3048501727",
+		"W3094962332",
+		"W3095066576",
+		"W3122084874",
+		"W3127588776",
+		"W3129057447",
+		"W3137349729",
+		"W3157016326",
+		"W3165052556",
+		"W3177554272",
+		"W3198956083",
+		"W3199435414",
+		"W3207732688",
+		"W3210232847",
+		"W3210672531",
+		"W3211889280",
+		"W3215471456",
+		"W3216119822",
+		"W3216389920",
+		"W3216798413",
+		"W4210479619",
+		"W4213327538",
+		"W4220689753",
+		"W4223563608",
+		"W4223936817",
+		"W4225393582",
+		"W4229444501",
+		"W4230187027",
+		"W4252904947",
+		"W4281382652",
+		"W4283020299",
+		"W4292172171",
+		"W4292409458",
+		"W4296126282",
+		"W4304163584",
+		"W4306292873",
+		"W4382358676",
+		"W4382358721",
+		"W4382358731",
+		"W4382358979",
+		"W4382362038",
+		"W4382363623",
+		"W4385160319",
+		"W4385168292",
+		"W4385228868",
+		"W4385229620",
+		"W4388020336",
+		"W4393609806",
+		"W4393632240",
+		"W4393767439",
+		"W6888835456",
+		"W6892943979",
+		"W6931652135",
+		"W6931686575",
+		"W6968742381",
+		"W6968797670"
+	],
 	"themes": [
 		"politiques",
 		"modelisation"
 	],
 	"sourceTopics": [
+		"Climate variability and models",
 		"Climate Change Policy and Economics",
-		"Atmospheric and Environmental Gas Dynamics",
-		"Climate variability and models"
+		"Climate Change and Geoengineering"
 	],
 	"url": "https://doi.org/10.5194/gmd-15-9075-2022",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-08-30"
+		"retrievedAt": "2026-11-16"
 	},
 	"addedAt": "2026-08-30",
 	"editorial": {},

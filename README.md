@@ -28,6 +28,16 @@ Ce qui relève du jugement humain — rattachement thématique, choix d'inclusio
 contexte, définitions du glossaire — est identifié comme tel et documenté sur la page
 [Méthode](/fr/methodologie).
 
+**Une fiche n'est pas acquise une fois pour toutes.** Le contrôle de rétractation ne vaut
+qu'au moment où il tourne : une étude ingérée propre puis rétractée resterait présentée comme
+irréprochable. `pnpm studies:refresh` repasse donc l'annuaire chez sa source — citations,
+accès ouvert, résumé, date de relevé — et sort en erreur si une rétractation est apparue
+depuis. L'apport rédactionnel n'est jamais réécrit : le script part de la fiche et n'écrase
+que les champs dont la source est maître. Il tourne chaque lundi par
+`.github/workflows/fiches.yml`, qui ouvre une proposition de modification plutôt que d'écrire
+sur `main` : rafraîchir des métadonnées reste une modification du corpus, et le corpus se
+relit.
+
 ## Démarrer
 
 ```bash
@@ -46,6 +56,7 @@ Le site est servi sur `http://localhost:3000`, redirigé vers `/fr`.
 | `pnpm start` | Sert le build de production |
 | `pnpm validate` | Valide schémas et renvois croisés entre contenus |
 | `pnpm study:add <doi> --themes=…` | Ajoute une étude depuis son DOI |
+| `pnpm studies:refresh` | Repasse les fiches chez OpenAlex et détecte les rétractations |
 | `pnpm datasets:fetch [id]` | Régénère les jeux de données des graphiques |
 | `pnpm links:check` | Vérifie que les liens sortants répondent |
 | `pnpm lint` | ESLint |
@@ -128,7 +139,8 @@ content/glossary/    Définitions en MDX, un sous-dossier par langue
 content/topics/      Dossiers thématiques en MDX, un sous-dossier par langue
 content/paths/       Parcours de lecture : séquences ordonnées d'étapes
 data/datasets/       Séries chiffrées des graphiques, avec provenance
-lib/content/         Schémas zod, chargeurs, citations, taxonomie
+lib/content/         Schémas zod, chargeurs, citations, taxonomie ; `citations.ts`
+                     dérive le graphe de citations interne des fiches elles-mêmes
 components/mdx/      Composants disponibles dans les MDX
 components/dither-kit/ Graphiques tramés — voir son README pour les correctifs React 18
 scripts/             Ingestion, validation, contrôle des liens

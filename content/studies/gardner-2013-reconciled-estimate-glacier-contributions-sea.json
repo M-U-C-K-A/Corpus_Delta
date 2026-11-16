@@ -34,7 +34,7 @@
 		{
 			"name": "Étienne Berthier",
 			"orcid": "https://orcid.org/0000-0001-5978-9155",
-			"affiliation": "Université Fédérale de Toulouse Midi-Pyrénées"
+			"affiliation": "Centre National de la Recherche Scientifique"
 		},
 		{
 			"name": "Regine Hock",
@@ -53,7 +53,7 @@
 		{
 			"name": "Stefan Ligtenberg",
 			"orcid": "https://orcid.org/0000-0002-6195-5420",
-			"affiliation": "University of Applied Sciences Utrecht"
+			"affiliation": "Utrecht University"
 		},
 		{
 			"name": "Tobias Bolch",
@@ -61,18 +61,19 @@
 			"affiliation": "University of Zurich"
 		},
 		{
-			"name": "Martin Sharp",
+			"name": "Martin J. Sharp",
 			"orcid": "https://orcid.org/0000-0001-5299-7955",
 			"affiliation": "University of Alberta"
 		},
 		{
 			"name": "Jon Ove Hagen",
+			"orcid": "https://orcid.org/0000-0003-0608-042X",
 			"affiliation": "University of Oslo"
 		},
 		{
 			"name": "M. R. van den Broeke",
 			"orcid": "https://orcid.org/0000-0003-4662-7565",
-			"affiliation": "University of Applied Sciences Utrecht"
+			"affiliation": "Utrecht University"
 		},
 		{
 			"name": "Frank Paul",
@@ -91,20 +92,58 @@
 		"status": "green",
 		"url": "https://www.zora.uzh.ch/id/eprint/83966/1/2013_PaulF_science13_gardner_slr.pdf"
 	},
-	"citedByCount": 1362,
+	"citedByCount": 1356,
+	"openAlexId": "W2150680082",
+	"referencedWorks": [
+		"W1480015928",
+		"W1494100285",
+		"W1511860755",
+		"W1655224201",
+		"W1973200177",
+		"W1977405036",
+		"W1977652304",
+		"W1991999944",
+		"W2000481880",
+		"W2005873199",
+		"W2022884364",
+		"W2027009332",
+		"W2046332655",
+		"W2066907097",
+		"W2066947295",
+		"W2080057185",
+		"W2094787208",
+		"W2097215724",
+		"W2104706002",
+		"W2105458804",
+		"W2108001777",
+		"W2116141163",
+		"W2119284220",
+		"W2129246831",
+		"W2138016351",
+		"W2138244549",
+		"W2140538625",
+		"W2152379056",
+		"W2153154617",
+		"W2156567817",
+		"W2159225273",
+		"W2165774828",
+		"W2496716364",
+		"W2786360258",
+		"W3193959344"
+	],
 	"themes": [
 		"cryosphere",
 		"ocean"
 	],
 	"sourceTopics": [
 		"Cryospheric studies and observations",
-		"Arctic and Antarctic ice dynamics",
-		"Climate change and permafrost"
+		"Geophysics and Gravity Measurements",
+		"Geology and Paleoclimatology Research"
 	],
 	"url": "https://doi.org/10.1126/science.1234532",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-08-20"
+		"retrievedAt": "2026-11-16"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},

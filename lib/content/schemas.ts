@@ -71,6 +71,20 @@ export const studySchema = z.object({
 	}),
 	/** Toujours affiché attribué à sa source : les compteurs varient d'une base à l'autre. */
 	citedByCount: z.number().int().min(0).nullable(),
+	/**
+	 * Identifiant du travail chez OpenAlex, et identifiants des travaux qu'il cite,
+	 * sous leur forme courte (`W…`).
+	 *
+	 * Stockés bruts et jamais interprétés à l'écriture : le graphe de citations
+	 * interne à l'annuaire est l'intersection de ces listes, calculée à la lecture
+	 * par `lib/content/citations.ts`. Aucun lien entre deux études n'est donc saisi
+	 * à la main, au même titre que le reste des métadonnées.
+	 *
+	 * Facultatifs : une fiche venue de Crossref, ou ingérée avant l'ajout de ces
+	 * champs, n'en a pas. Elle apparaît alors sans voisins plutôt qu'en erreur.
+	 */
+	openAlexId: z.string().regex(/^W\d+$/).nullable().default(null),
+	referencedWorks: z.array(z.string().regex(/^W\d+$/)).default([]),
 	themes: z.array(z.enum(THEME_IDS as [string, ...string[]])).min(1),
 	/** Concepts bruts de la base d'origine, conservés pour la recherche. */
 	sourceTopics: z.array(z.string()),

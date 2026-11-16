@@ -38,12 +38,12 @@
 			"affiliation": "Joint Research Centre"
 		},
 		{
-			"name": "D. Bergmann",
+			"name": "Daniel J. Bergmann",
 			"orcid": "https://orcid.org/0000-0002-5631-7141",
 			"affiliation": "Lawrence Livermore National Laboratory"
 		},
 		{
-			"name": "D. R. Blake",
+			"name": "Donald Ray Blake",
 			"orcid": "https://orcid.org/0000-0002-8283-5014",
 			"affiliation": "University of California, Irvine"
 		},
@@ -53,7 +53,7 @@
 			"affiliation": "National Oceanic and Atmospheric Administration"
 		},
 		{
-			"name": "Philip Cameron‐Smith",
+			"name": "Philip J. Cameron-Smith",
 			"orcid": "https://orcid.org/0000-0002-8802-8627",
 			"affiliation": "Lawrence Livermore National Laboratory"
 		},
@@ -73,7 +73,7 @@
 			"affiliation": "University of Edinburgh"
 		},
 		{
-			"name": "A. Fraser",
+			"name": "Annemarie Fraser",
 			"affiliation": "University of Edinburgh"
 		},
 		{
@@ -82,7 +82,7 @@
 			"affiliation": "Max Planck Institute for Biogeochemistry"
 		},
 		{
-			"name": "E. L. Hodson",
+			"name": "Elke L. Hodson",
 			"affiliation": "Swiss Federal Institute for Forest, Snow and Landscape Research"
 		},
 		{
@@ -98,7 +98,7 @@
 		{
 			"name": "Paul J. Fraser",
 			"orcid": "https://orcid.org/0000-0001-5951-6819",
-			"affiliation": "CSIRO Oceans and Atmosphere"
+			"affiliation": "Commonwealth Scientific and Industrial Research Organisation"
 		}
 	],
 	"authorCount": 48,
@@ -113,19 +113,121 @@
 		"status": "bronze",
 		"url": "https://www.nature.com/articles/ngeo1955.pdf"
 	},
-	"citedByCount": 2388,
+	"citedByCount": 2396,
+	"openAlexId": "W2058522703",
+	"referencedWorks": [
+		"W49726372",
+		"W1480862240",
+		"W1493296954",
+		"W1500717668",
+		"W1521712252",
+		"W1526067805",
+		"W1541283053",
+		"W1549553840",
+		"W1571164332",
+		"W1574154139",
+		"W1672771901",
+		"W1688224942",
+		"W1909570941",
+		"W1954700592",
+		"W1970939982",
+		"W1987064241",
+		"W1991896964",
+		"W1995584533",
+		"W2011560911",
+		"W2012982138",
+		"W2013595421",
+		"W2015078932",
+		"W2020767027",
+		"W2022065127",
+		"W2035328872",
+		"W2036826963",
+		"W2040858974",
+		"W2041785064",
+		"W2044247101",
+		"W2046035502",
+		"W2047443614",
+		"W2051833014",
+		"W2054112062",
+		"W2055411890",
+		"W2055535751",
+		"W2056216695",
+		"W2058775767",
+		"W2065898001",
+		"W2070093285",
+		"W2070533532",
+		"W2071148466",
+		"W2072597866",
+		"W2078838367",
+		"W2090249381",
+		"W2090259365",
+		"W2090628072",
+		"W2092840786",
+		"W2093502628",
+		"W2096174294",
+		"W2096619121",
+		"W2097441736",
+		"W2099107062",
+		"W2100256561",
+		"W2101871444",
+		"W2102618689",
+		"W2103294761",
+		"W2105979298",
+		"W2106471390",
+		"W2106735083",
+		"W2110465139",
+		"W2111647110",
+		"W2112656901",
+		"W2114008302",
+		"W2115449476",
+		"W2115751232",
+		"W2121903136",
+		"W2125040359",
+		"W2127256903",
+		"W2131331821",
+		"W2131995600",
+		"W2133481110",
+		"W2134927874",
+		"W2135073935",
+		"W2135366594",
+		"W2139010298",
+		"W2142306678",
+		"W2143484604",
+		"W2144215653",
+		"W2145431748",
+		"W2145963862",
+		"W2147578223",
+		"W2150582019",
+		"W2151005471",
+		"W2151221501",
+		"W2152349500",
+		"W2152387463",
+		"W2152613879",
+		"W2152811544",
+		"W2155329458",
+		"W2158571614",
+		"W2162157043",
+		"W2168126608",
+		"W2168684237",
+		"W2169275263",
+		"W2170406100",
+		"W2379517899",
+		"W2995833246",
+		"W3160756321",
+		"W4299631353"
+	],
 	"themes": [
 		"carbone"
 	],
 	"sourceTopics": [
 		"Atmospheric and Environmental Gas Dynamics",
-		"Atmospheric chemistry and aerosols",
-		"Climate variability and models"
+		"Peatlands and Wetlands Ecology",
+		"Atmospheric chemistry and aerosols"
 	],
 	"url": "https://doi.org/10.1038/ngeo1955",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-08-20"
+		"retrievedAt": "2026-11-16"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},
