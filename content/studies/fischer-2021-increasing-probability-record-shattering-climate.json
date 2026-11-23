@@ -31,7 +31,7 @@
 		"status": "green",
 		"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7617090/"
 	},
-	"citedByCount": 761,
+	"citedByCount": 832,
 	"openAlexId": "W3183552297",
 	"referencedWorks": [
 		"W1480526195",
@@ -95,12 +95,12 @@
 	"sourceTopics": [
 		"Climate variability and models",
 		"Climate Change and Environmental Impact",
-		"Climate Change and Health Impacts"
+		"Climate Change Policy and Economics"
 	],
 	"url": "https://doi.org/10.1038/s41558-021-01092-9",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-11-15",
 	"editorial": {},

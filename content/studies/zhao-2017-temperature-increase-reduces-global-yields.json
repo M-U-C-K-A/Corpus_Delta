@@ -116,7 +116,7 @@
 		"status": "green",
 		"url": "https://www.ncbi.nlm.nih.gov/pmc/articles/5584412"
 	},
-	"citedByCount": 3610,
+	"citedByCount": 3991,
 	"openAlexId": "W2747319455",
 	"referencedWorks": [
 		"W113286128",
@@ -139,6 +139,7 @@
 		"W2118604661",
 		"W2118921617",
 		"W2122430292",
+		"W2125225906",
 		"W2127989158",
 		"W2130201759",
 		"W2136819602",
@@ -163,7 +164,7 @@
 	"url": "https://doi.org/10.1073/pnas.1701762114",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-11-15",
 	"editorial": {},

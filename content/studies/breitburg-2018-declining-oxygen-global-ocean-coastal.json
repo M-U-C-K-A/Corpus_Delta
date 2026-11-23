@@ -20,7 +20,7 @@
 		},
 		{
 			"name": "Marilaure Grégoire",
-			"orcid": "https://orcid.org/0000-0002-3726-0426",
+			"orcid": "https://orcid.org/0009-0008-3112-4256",
 			"affiliation": "University of Liège"
 		},
 		{
@@ -116,7 +116,7 @@
 		"status": "green",
 		"url": "https://repository.library.noaa.gov/view/noaa/60289/noaa_60289_DS1.pdf"
 	},
-	"citedByCount": 3523,
+	"citedByCount": 3763,
 	"openAlexId": "W2781567654",
 	"referencedWorks": [
 		"W204940627",
@@ -232,6 +232,7 @@
 		"W2479459257",
 		"W2511305702",
 		"W2528743596",
+		"W2531174158",
 		"W2535841754",
 		"W2543986727",
 		"W2560433521",
@@ -260,7 +261,7 @@
 	"url": "https://doi.org/10.1126/science.aam7240",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-08-19",
 	"editorial": {},

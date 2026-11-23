@@ -106,14 +106,14 @@
 	"publisher": "Springer Science+Business Media",
 	"year": 2024,
 	"type": "article",
-	"abstract": "Abstract The global physical and biogeochemical environment has been substantially altered in response to increased atmospheric greenhouse gases from human activities. In 2023, the sea surface temperature (SST) and upper 2000 m ocean heat content (OHC) reached record highs. The 0–2000 m OHC in 2023 exceeded that of 2022 by 15 ± 10 ZJ (1 Zetta Joules = 1021Joules) (updated IAP/CAS data); 9 ± 5 ZJ (NCEI/NOAA data). The Tropical Atlantic Ocean, the Mediterranean Sea, and southern oceans recorded their highest OHC observed since the 1950s. Associated with the onset of a strong El Niño, the global SST reached its record high in 2023 with an annual mean of ∼0.23°C higher than 2022 and an astounding > 0.3°C above 2022 values for the second half of 2023. The density stratification and spatial temperature inhomogeneity indexes reached their highest values in 2023.",
+	"abstract": "The global physical and biogeochemical environment has been substantially altered in response to increased atmospheric greenhouse gases from human activities. In 2023, the sea surface temperature (SST) and upper 2000 m ocean heat content (OHC) reached record highs. The 0–2000 m OHC in 2023 exceeded that of 2022 by 15 ± 10 ZJ (1 Zetta Joules = 1021Joules) (updated IAP/CAS data); 9 ± 5 ZJ (NCEI/NOAA data). The Tropical Atlantic Ocean, the Mediterranean Sea, and southern oceans recorded their highest OHC observed since the 1950s. Associated with the onset of a strong El Niño, the global SST reached its record high in 2023 with an annual mean of ∼0.23°C higher than 2022 and an astounding > 0.3°C above 2022 values for the second half of 2023. The density stratification and spatial temperature inhomogeneity indexes reached their highest values in 2023.",
 	"language": "en",
 	"openAccess": {
 		"isOpen": true,
 		"status": "hybrid",
 		"url": "https://link.springer.com/content/pdf/10.1007/s00376-024-3378-5.pdf"
 	},
-	"citedByCount": 182,
+	"citedByCount": 205,
 	"openAlexId": "W4390742787",
 	"referencedWorks": [
 		"W75231382",
@@ -180,7 +180,7 @@
 	"url": "https://doi.org/10.1007/s00376-024-3378-5",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},

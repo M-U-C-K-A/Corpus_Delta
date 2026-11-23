@@ -37,11 +37,11 @@
 	"abstract": null,
 	"language": "en",
 	"openAccess": {
-		"isOpen": false,
-		"status": "closed",
-		"url": null
+		"isOpen": true,
+		"status": "green",
+		"url": "https://mural.maynoothuniversity.ie/id/eprint/13174/1/CL-geography_observed.pdf"
 	},
-	"citedByCount": 1219,
+	"citedByCount": 1323,
 	"openAlexId": "W2794728810",
 	"referencedWorks": [
 		"W1501961051",
@@ -119,7 +119,7 @@
 	"url": "https://doi.org/10.1038/s41586-018-0006-5",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-11-15",
 	"editorial": {},

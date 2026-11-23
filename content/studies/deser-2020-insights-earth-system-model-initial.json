@@ -116,7 +116,7 @@
 		"status": "green",
 		"url": "https://hal.science/hal-03825953v1/file/s41558-020-0731-2.pdf"
 	},
-	"citedByCount": 1040,
+	"citedByCount": 1109,
 	"openAlexId": "W3013715872",
 	"referencedWorks": [
 		"W1007704209",
@@ -214,6 +214,8 @@
 		"W2991218926",
 		"W2991419155",
 		"W3007431510",
+		"W3045824093",
+		"W3131597036",
 		"W4230059971",
 		"W6823458554"
 	],
@@ -228,7 +230,7 @@
 	"url": "https://doi.org/10.1038/s41558-020-0731-2",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-11-15",
 	"editorial": {},

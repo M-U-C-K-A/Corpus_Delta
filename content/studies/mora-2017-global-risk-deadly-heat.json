@@ -100,7 +100,7 @@
 		"status": "green",
 		"url": "https://centaur.reading.ac.uk/71263/1/Mora_etal_heatwaves.pdf"
 	},
-	"citedByCount": 1883,
+	"citedByCount": 2051,
 	"openAlexId": "W2626726142",
 	"referencedWorks": [
 		"W1792105649",
@@ -134,8 +134,7 @@
 		"W2472144077",
 		"W2487451717",
 		"W2605140704",
-		"W4229653650",
-		"W4285719527"
+		"W4229653650"
 	],
 	"themes": [
 		"sante",
@@ -149,7 +148,7 @@
 	"url": "https://doi.org/10.1038/nclimate3322",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-11-15",
 	"editorial": {},

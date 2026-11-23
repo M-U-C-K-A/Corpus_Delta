@@ -79,7 +79,7 @@
 		{
 			"name": "Nathan P. Gillett",
 			"orcid": "https://orcid.org/0000-0002-2957-0002",
-			"affiliation": "CICERO Center for International Climate Research"
+			"affiliation": "Environment and Climate Change Canada"
 		},
 		{
 			"name": "Stuart Jenkins",
@@ -115,7 +115,7 @@
 		"status": "gold",
 		"url": "https://doi.org/10.5194/essd-18-3889-2026"
 	},
-	"citedByCount": 59,
+	"citedByCount": 77,
 	"openAlexId": "W4396720861",
 	"referencedWorks": [
 		"W1761653152",
@@ -314,6 +314,7 @@
 		"W4416203157",
 		"W4416735693",
 		"W4416793664",
+		"W4416937122",
 		"W6892513165",
 		"W6908262063",
 		"W6908483794",
@@ -350,7 +351,8 @@
 		"W7161002510",
 		"W7162088791",
 		"W7212400558",
-		"W7223671624"
+		"W7223671624",
+		"W7234436377"
 	],
 	"themes": [
 		"observation"
@@ -363,7 +365,7 @@
 	"url": "https://doi.org/10.5194/essd-18-3889-2026",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},

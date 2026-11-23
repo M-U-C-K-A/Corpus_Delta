@@ -31,7 +31,7 @@
 		"status": "hybrid",
 		"url": "https://www.pnas.org/content/pnas/117/24/13596.full.pdf"
 	},
-	"citedByCount": 1034,
+	"citedByCount": 1181,
 	"openAlexId": "W3030395860",
 	"referencedWorks": [
 		"W1496444136",
@@ -83,9 +83,9 @@
 		"W2980239312",
 		"W2981103490",
 		"W3145006061",
+		"W4230884144",
 		"W4235825908",
 		"W4240268203",
-		"W4285719527",
 		"W4312319366",
 		"W4388328712"
 	],
@@ -100,7 +100,7 @@
 	"url": "https://doi.org/10.1073/pnas.1922686117",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-11-15",
 	"editorial": {},

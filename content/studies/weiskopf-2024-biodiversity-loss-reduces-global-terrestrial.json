@@ -24,7 +24,7 @@
 			"affiliation": "Sapienza University of Rome"
 		},
 		{
-			"name": "Mike B. J. Harfoot",
+			"name": "Michael Harfoot",
 			"orcid": "https://orcid.org/0000-0003-2598-8652",
 			"affiliation": "Vizzuality (Spain)"
 		},
@@ -76,7 +76,7 @@
 		"status": "gold",
 		"url": "https://www.nature.com/articles/s41467-024-47872-7.pdf"
 	},
-	"citedByCount": 208,
+	"citedByCount": 227,
 	"openAlexId": "W4398207342",
 	"referencedWorks": [
 		"W121197715",
@@ -114,11 +114,13 @@
 		"W2508171124",
 		"W2519343095",
 		"W2555381849",
+		"W2586137728",
 		"W2588003345",
 		"W2618505311",
 		"W2734961613",
 		"W2753632495",
 		"W2754686867",
+		"W2765613712",
 		"W2790756470",
 		"W2799499622",
 		"W2801687149",
@@ -163,6 +165,7 @@
 		"W4384197993",
 		"W4395447577",
 		"W6893922328",
+		"W6920590642",
 		"W6958205365"
 	],
 	"themes": [
@@ -177,7 +180,7 @@
 	"url": "https://doi.org/10.1038/s41467-024-47872-7",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},

@@ -104,9 +104,9 @@
 	"openAccess": {
 		"isOpen": true,
 		"status": "green",
-		"url": "https://research.wur.nl/en/publications/planetary-boundaries-guiding-human-development-on-a-changing-plan"
+		"url": "https://hdl.handle.net/10568/53095"
 	},
-	"citedByCount": 14209,
+	"citedByCount": 16620,
 	"openAlexId": "W1999167944",
 	"referencedWorks": [
 		"W41021350",
@@ -124,6 +124,7 @@
 		"W632550121",
 		"W825691767",
 		"W1007704209",
+		"W1501756175",
 		"W1505525800",
 		"W1509461544",
 		"W1528134387",
@@ -264,11 +265,9 @@
 		"W2900056899",
 		"W2924055038",
 		"W2939474406",
-		"W3123038353",
 		"W3143943565",
 		"W3192880971",
 		"W4213327538",
-		"W4285719527",
 		"W4299707413",
 		"W4299870202",
 		"W4389656187"
@@ -285,7 +284,7 @@
 	"url": "https://doi.org/10.1126/science.1259855",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-08-19",
 	"editorial": {},

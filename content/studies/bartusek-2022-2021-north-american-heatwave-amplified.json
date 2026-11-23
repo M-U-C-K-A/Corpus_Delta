@@ -31,7 +31,7 @@
 		"status": "green",
 		"url": "https://eartharxiv.org/repository/object/3067/download/9149/"
 	},
-	"citedByCount": 219,
+	"citedByCount": 230,
 	"openAlexId": "W4310058936",
 	"referencedWorks": [
 		"W1481900550",
@@ -96,7 +96,8 @@
 		"W6636229297",
 		"W6894059483",
 		"W6931265270",
-		"W6949827877"
+		"W6949827877",
+		"W7064119630"
 	],
 	"themes": [
 		"risques",
@@ -110,7 +111,7 @@
 	"url": "https://doi.org/10.1038/s41558-022-01520-4",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-11-15",
 	"editorial": {},

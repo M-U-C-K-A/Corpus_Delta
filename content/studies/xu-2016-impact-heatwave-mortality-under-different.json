@@ -41,7 +41,7 @@
 		"status": "closed",
 		"url": null
 	},
-	"citedByCount": 700,
+	"citedByCount": 740,
 	"openAlexId": "W2280318000",
 	"referencedWorks": [
 		"W83448816",
@@ -131,11 +131,7 @@
 		"W2301221626",
 		"W2333360008",
 		"W2409013025",
-		"W4254247301",
-		"W6603437380",
-		"W6633802049",
-		"W6642119852",
-		"W6697873954"
+		"W4254247301"
 	],
 	"themes": [
 		"sante",
@@ -149,7 +145,7 @@
 	"url": "https://doi.org/10.1016/j.envint.2016.02.007",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},

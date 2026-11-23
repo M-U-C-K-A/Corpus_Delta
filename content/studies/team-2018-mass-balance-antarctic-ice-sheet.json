@@ -19,14 +19,16 @@
 		"status": "bronze",
 		"url": "https://www.nature.com/articles/s41586-018-0179-y.pdf"
 	},
-	"citedByCount": 1387,
+	"citedByCount": 1475,
 	"openAlexId": "W2801080873",
 	"referencedWorks": [
 		"W43330554",
+		"W1480409802",
 		"W1532228020",
 		"W1556254034",
 		"W1562504550",
 		"W1566744706",
+		"W1608013130",
 		"W1656975140",
 		"W1785641599",
 		"W1827812398",
@@ -96,6 +98,7 @@
 		"W2593802125",
 		"W2606341682",
 		"W2735859428",
+		"W2759016382",
 		"W2761635722",
 		"W2767863023",
 		"W2787532384",
@@ -117,7 +120,7 @@
 	"url": "https://doi.org/10.1038/s41586-018-0179-y",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},

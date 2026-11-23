@@ -39,14 +39,14 @@
 	"publisher": "Nature Portfolio",
 	"year": 2023,
 	"type": "article",
-	"abstract": "Abstract Most studies projecting human survivability limits to extreme heat with climate change use a 35 °C wet-bulb temperature (T w ) threshold without integrating variations in human physiology. This study applies physiological and biophysical principles for young and older adults, in sun or shade, to improve current estimates of survivability and introduce liveability (maximum safe, sustained activity) under current and future climates. Our physiology-based survival limits show a vast underestimation of risks by the 35 °C T w model in hot-dry conditions. Updated survivability limits correspond to T w ~25.8–34.1 °C (young) and ~21.9–33.7 °C (old)—0.9–13.1 °C lower than T w = 35 °C. For older female adults, estimates are ~7.2–13.1 °C lower than 35 °C in dry conditions. Liveability declines with sun exposure and humidity, yet most dramatically with age (2.5–3.0 METs lower for older adults). Reductions in safe activity for younger and older adults between the present and future indicate a stronger impact from aging than warming.",
+	"abstract": "Most studies projecting human survivability limits to extreme heat with climate change use a 35 °C wet-bulb temperature (T w ) threshold without integrating variations in human physiology. This study applies physiological and biophysical principles for young and older adults, in sun or shade, to improve current estimates of survivability and introduce liveability (maximum safe, sustained activity) under current and future climates. Our physiology-based survival limits show a vast underestimation of risks by the 35 °C T w model in hot-dry conditions. Updated survivability limits correspond to T w ~25.8–34.1 °C (young) and ~21.9–33.7 °C (old)—0.9–13.1 °C lower than T w = 35 °C. For older female adults, estimates are ~7.2–13.1 °C lower than 35 °C in dry conditions. Liveability declines with sun exposure and humidity, yet most dramatically with age (2.5–3.0 METs lower for older adults). Reductions in safe activity for younger and older adults between the present and future indicate a stronger impact from aging than warming.",
 	"language": "en",
 	"openAccess": {
 		"isOpen": true,
 		"status": "gold",
 		"url": "https://www.nature.com/articles/s41467-023-43121-5.pdf"
 	},
-	"citedByCount": 254,
+	"citedByCount": 269,
 	"openAlexId": "W4389141827",
 	"referencedWorks": [
 		"W152193195",
@@ -128,7 +128,8 @@
 		"W4378783608",
 		"W4382361937",
 		"W4386136982",
-		"W4387448724"
+		"W4387448724",
+		"W6903046408"
 	],
 	"themes": [
 		"chaleur",
@@ -142,7 +143,7 @@
 	"url": "https://doi.org/10.1038/s41467-023-43121-5",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-08-30",
 	"editorial": {},

@@ -99,7 +99,7 @@
 			"affiliation": "UN Environment Programme World Conservation Monitoring Centre"
 		},
 		{
-			"name": "Thomas D. Harwood",
+			"name": "Tom Harwood",
 			"orcid": "https://orcid.org/0000-0002-3855-5306",
 			"affiliation": "Commonwealth Scientific and Industrial Research Organisation"
 		}
@@ -116,9 +116,10 @@
 		"status": "green",
 		"url": "https://pure.knaw.nl/portal/en/publications/beb07193-c138-4c94-8e5b-6b427096208f"
 	},
-	"citedByCount": 369,
+	"citedByCount": 410,
 	"openAlexId": "W4395447577",
 	"referencedWorks": [
+		"W25302963",
 		"W80226805",
 		"W1543590217",
 		"W1707880923",
@@ -231,7 +232,9 @@
 		"W6945549416",
 		"W6945995800",
 		"W6964619168",
-		"W6964783634"
+		"W6964783634",
+		"W6968539710",
+		"W7118707361"
 	],
 	"themes": [
 		"biodiversite"
@@ -244,7 +247,7 @@
 	"url": "https://doi.org/10.1126/science.adn3441",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},

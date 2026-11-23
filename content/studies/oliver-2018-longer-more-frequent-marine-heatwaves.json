@@ -91,7 +91,7 @@
 		"status": "gold",
 		"url": "https://www.nature.com/articles/s41467-018-03732-9.pdf"
 	},
-	"citedByCount": 2427,
+	"citedByCount": 2626,
 	"openAlexId": "W2797541543",
 	"referencedWorks": [
 		"W75231382",
@@ -166,9 +166,9 @@
 		"W2598701004",
 		"W2735759243",
 		"W2738516213",
+		"W2793534229",
 		"W2794206698",
-		"W2801490189",
-		"W4285719527"
+		"W2801490189"
 	],
 	"themes": [
 		"ocean",
@@ -182,7 +182,7 @@
 	"url": "https://doi.org/10.1038/s41467-018-03732-9",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-08-19",
 	"editorial": {

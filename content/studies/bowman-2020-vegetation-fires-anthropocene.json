@@ -47,7 +47,7 @@
 		"status": "green",
 		"url": "https://research.vu.nl/en/publications/ef2e9785-0178-4f01-8863-c2020369323a"
 	},
-	"citedByCount": 1238,
+	"citedByCount": 1314,
 	"openAlexId": "W3055975969",
 	"referencedWorks": [
 		"W581383781",
@@ -277,7 +277,9 @@
 		"W4230676568",
 		"W4241519351",
 		"W4254419512",
-		"W6912585809"
+		"W4413549324",
+		"W6912585809",
+		"W6959991630"
 	],
 	"themes": [
 		"risques",
@@ -286,12 +288,12 @@
 	"sourceTopics": [
 		"Fire effects on ecosystems",
 		"Forest Management and Policy",
-		"Rangeland and Wildlife Management"
+		"Plant Water Relations and Carbon Dynamics"
 	],
 	"url": "https://doi.org/10.1038/s43017-020-0085-3",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-08-30",
 	"editorial": {},

@@ -107,9 +107,9 @@
 	"openAccess": {
 		"isOpen": true,
 		"status": "green",
-		"url": "https://research.wur.nl/en/publications/amazonia-as-a-carbon-source-linked-to-deforestation-and-climate-c"
+		"url": "https://hdl.handle.net/11370/c27d876f-3af6-405d-a72d-3d1d835cbae4"
 	},
-	"citedByCount": 1250,
+	"citedByCount": 1421,
 	"openAlexId": "W3177498683",
 	"referencedWorks": [
 		"W1485504984",
@@ -175,7 +175,8 @@
 		"W3041135761",
 		"W3083749630",
 		"W3088104579",
-		"W3092304196"
+		"W3092304196",
+		"W4393711015"
 	],
 	"themes": [
 		"carbone",
@@ -189,7 +190,7 @@
 	"url": "https://doi.org/10.1038/s41586-021-03629-6",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-11-15",
 	"editorial": {},

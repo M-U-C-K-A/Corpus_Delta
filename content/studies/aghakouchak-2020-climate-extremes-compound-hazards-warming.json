@@ -67,7 +67,7 @@
 		"status": "closed",
 		"url": null
 	},
-	"citedByCount": 1228,
+	"citedByCount": 1341,
 	"openAlexId": "W3007774593",
 	"referencedWorks": [
 		"W593145596",
@@ -294,7 +294,8 @@
 		"W2970830005",
 		"W4233201992",
 		"W4254739253",
-		"W4402086095"
+		"W4402086095",
+		"W6967197434"
 	],
 	"themes": [
 		"risques"
@@ -307,7 +308,7 @@
 	"url": "https://doi.org/10.1146/annurev-earth-071719-055228",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-08-30",
 	"editorial": {},

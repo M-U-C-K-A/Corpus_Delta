@@ -92,11 +92,11 @@
 	"abstract": null,
 	"language": "en",
 	"openAccess": {
-		"isOpen": true,
-		"status": "green",
-		"url": "https://research.wur.nl/en/publications/the-agricultural-model-intercomparison-and-improvement-project-ag"
+		"isOpen": false,
+		"status": "closed",
+		"url": null
 	},
-	"citedByCount": 1101,
+	"citedByCount": 1195,
 	"openAlexId": "W2118604661",
 	"referencedWorks": [
 		"W5137983",
@@ -109,6 +109,7 @@
 		"W571590192",
 		"W617985429",
 		"W1021041655",
+		"W1520428197",
 		"W1522296012",
 		"W1536362333",
 		"W1563279832",
@@ -210,13 +211,13 @@
 		"W2610570253",
 		"W2624579313",
 		"W2795201375",
-		"W2987292787",
 		"W3098125019",
-		"W4285719527",
+		"W4310829098",
 		"W6601140703",
 		"W6948083337",
 		"W6968339428",
-		"W7001149477"
+		"W7001149477",
+		"W7015265177"
 	],
 	"themes": [
 		"agriculture",
@@ -230,7 +231,7 @@
 	"url": "https://doi.org/10.1016/j.agrformet.2012.09.011",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},

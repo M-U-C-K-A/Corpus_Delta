@@ -114,9 +114,9 @@
 	"openAccess": {
 		"isOpen": true,
 		"status": "green",
-		"url": "https://eprints.qut.edu.au/204738/1/68443168.pdf"
+		"url": "http://discovery.ucl.ac.uk/1538586/1/aai9214_Article_one%20file%20Jan%202017.pdf"
 	},
-	"citedByCount": 3948,
+	"citedByCount": 4381,
 	"openAlexId": "W2598701004",
 	"referencedWorks": [
 		"W96666701",
@@ -241,8 +241,9 @@
 		"W2530597942",
 		"W2553470624",
 		"W2560676219",
-		"W4285719527",
-		"W6968625273"
+		"W6926943278",
+		"W6968625273",
+		"W7098744624"
 	],
 	"themes": [
 		"biodiversite",
@@ -256,7 +257,7 @@
 	"url": "https://doi.org/10.1126/science.aai9214",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-08-19",
 	"editorial": {},

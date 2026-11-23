@@ -19,7 +19,7 @@
 			"affiliation": "Desert Research Institute"
 		},
 		{
-			"name": "Jakob Zscheischler A",
+			"name": "Jakob Zscheischler",
 			"orcid": "https://orcid.org/0000-0001-6045-1629",
 			"affiliation": "Helmholtz Centre for Environmental Research"
 		}
@@ -36,7 +36,7 @@
 		"status": "gold",
 		"url": "https://doi.org/10.1126/sciadv.adl4005"
 	},
-	"citedByCount": 110,
+	"citedByCount": 122,
 	"openAlexId": "W4393246006",
 	"referencedWorks": [
 		"W1082961068",
@@ -117,7 +117,7 @@
 	"url": "https://doi.org/10.1126/sciadv.adl4005",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},

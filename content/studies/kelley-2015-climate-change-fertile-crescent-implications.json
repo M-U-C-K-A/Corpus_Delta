@@ -40,7 +40,7 @@
 		"status": "green",
 		"url": "https://www.ncbi.nlm.nih.gov/pmc/articles/4371967"
 	},
-	"citedByCount": 1502,
+	"citedByCount": 1770,
 	"openAlexId": "W2155657253",
 	"referencedWorks": [
 		"W617039848",
@@ -77,10 +77,12 @@
 		"W2728150318",
 		"W2768616583",
 		"W2939474406",
+		"W3214678121",
 		"W4234492793",
 		"W4238691261",
 		"W4240553153",
-		"W4285719527"
+		"W7053675736",
+		"W7162820831"
 	],
 	"themes": [
 		"eau",
@@ -94,7 +96,7 @@
 	"url": "https://doi.org/10.1073/pnas.1421533112",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},

@@ -90,9 +90,9 @@
 	"openAccess": {
 		"isOpen": true,
 		"status": "green",
-		"url": "https://www.zora.uzh.ch/id/eprint/83966/1/2013_PaulF_science13_gardner_slr.pdf"
+		"url": "https://www.zora.uzh.ch/handle/20.500.14742/95462"
 	},
-	"citedByCount": 1356,
+	"citedByCount": 1468,
 	"openAlexId": "W2150680082",
 	"referencedWorks": [
 		"W1480015928",
@@ -143,7 +143,7 @@
 	"url": "https://doi.org/10.1126/science.1234532",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},

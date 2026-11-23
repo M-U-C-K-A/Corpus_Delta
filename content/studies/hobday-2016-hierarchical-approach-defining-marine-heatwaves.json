@@ -91,7 +91,7 @@
 		"status": "bronze",
 		"url": "https://www.sciencedirect.com/science/article/am/pii/S0079661116000057"
 	},
-	"citedByCount": 2657,
+	"citedByCount": 2832,
 	"openAlexId": "W2230443456",
 	"referencedWorks": [
 		"W104506262",
@@ -173,8 +173,7 @@
 		"W2473667306",
 		"W2529988053",
 		"W2617606220",
-		"W6631845758",
-		"W6641085582"
+		"W2800707022"
 	],
 	"themes": [
 		"ocean",
@@ -188,7 +187,7 @@
 	"url": "https://doi.org/10.1016/j.pocean.2015.12.014",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},

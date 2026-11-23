@@ -31,7 +31,7 @@
 		"status": "gold",
 		"url": "https://www.science.org/doi/pdf/10.1126/sciadv.aaw1838?download=true"
 	},
-	"citedByCount": 940,
+	"citedByCount": 1012,
 	"openAlexId": "W3022490421",
 	"referencedWorks": [
 		"W127975111",
@@ -74,7 +74,8 @@
 		"W2775480501",
 		"W2786514163",
 		"W2802086350",
-		"W2807775569"
+		"W2807775569",
+		"W6958826438"
 	],
 	"themes": [
 		"chaleur",
@@ -88,7 +89,7 @@
 	"url": "https://doi.org/10.1126/sciadv.aaw1838",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-08-30",
 	"editorial": {},

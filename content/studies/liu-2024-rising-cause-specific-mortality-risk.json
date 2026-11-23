@@ -71,7 +71,7 @@
 		"status": "closed",
 		"url": null
 	},
-	"citedByCount": 134,
+	"citedByCount": 147,
 	"openAlexId": "W4402645879",
 	"referencedWorks": [
 		"W1963796430",
@@ -129,7 +129,7 @@
 	"url": "https://doi.org/10.1038/s41558-024-02137-5",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},

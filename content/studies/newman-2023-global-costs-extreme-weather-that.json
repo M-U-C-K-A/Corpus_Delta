@@ -18,14 +18,14 @@
 	"publisher": "Nature Portfolio",
 	"year": 2023,
 	"type": "article",
-	"abstract": "Abstract Extreme weather events lead to significant adverse societal costs. Extreme Event Attribution (EEA), a methodology that examines how anthropogenic greenhouse gas emissions had changed the occurrence of specific extreme weather events, allows us to quantify the climate change-induced component of these costs. We collect data from all available EEA studies, combine these with data on the socio-economic costs of these events and extrapolate for missing data to arrive at an estimate of the global costs of extreme weather attributable to climate change in the last twenty years. We find that US $$\\$$$ $ 143 billion per year of the costs of extreme events is attributable to climatic change. The majority (63%), of this is due to human loss of life. Our results suggest that the frequently cited estimates of the economic costs of climate change arrived at by using Integrated Assessment Models may be substantially underestimated.",
+	"abstract": "Extreme weather events lead to significant adverse societal costs. Extreme Event Attribution (EEA), a methodology that examines how anthropogenic greenhouse gas emissions had changed the occurrence of specific extreme weather events, allows us to quantify the climate change-induced component of these costs. We collect data from all available EEA studies, combine these with data on the socio-economic costs of these events and extrapolate for missing data to arrive at an estimate of the global costs of extreme weather attributable to climate change in the last twenty years. We find that US $$\\$$$ $ 143 billion per year of the costs of extreme events is attributable to climatic change. The majority (63%), of this is due to human loss of life. Our results suggest that the frequently cited estimates of the economic costs of climate change arrived at by using Integrated Assessment Models may be substantially underestimated.",
 	"language": "en",
 	"openAccess": {
 		"isOpen": true,
 		"status": "gold",
 		"url": "https://www.nature.com/articles/s41467-023-41888-1.pdf"
 	},
-	"citedByCount": 690,
+	"citedByCount": 779,
 	"openAlexId": "W4387167601",
 	"referencedWorks": [
 		"W112626723",
@@ -70,6 +70,7 @@
 		"W2979391452",
 		"W3016076986",
 		"W3027045949",
+		"W3132656242",
 		"W3133180219",
 		"W3138111927",
 		"W3146756746",
@@ -88,8 +89,6 @@
 		"W4297826499",
 		"W4382362038",
 		"W4383740471",
-		"W6632768712",
-		"W6639449325",
 		"W6680491361"
 	],
 	"themes": [
@@ -104,7 +103,7 @@
 	"url": "https://doi.org/10.1038/s41467-023-41888-1",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},

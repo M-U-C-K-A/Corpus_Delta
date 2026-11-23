@@ -41,7 +41,7 @@
 		{
 			"name": "Yuming Guo",
 			"orcid": "https://orcid.org/0000-0002-1766-6592",
-			"affiliation": "National Health Research Institutes"
+			"affiliation": "Monash University"
 		},
 		{
 			"name": "Yasushi Honda",
@@ -81,12 +81,12 @@
 		{
 			"name": "Patricia Matus Correa",
 			"orcid": "https://orcid.org/0000-0003-1844-6564",
-			"affiliation": "Universidad de Los Andes, Chile"
+			"affiliation": "Universidad de los Andes"
 		},
 		{
 			"name": "Nicolás Valdés Ortega",
 			"orcid": "https://orcid.org/0000-0001-7609-4291",
-			"affiliation": "Universidad de Los Andes, Chile"
+			"affiliation": "Universidad de los Andes"
 		},
 		{
 			"name": "Haidong Kan",
@@ -108,14 +108,14 @@
 	"publisher": "Nature Portfolio",
 	"year": 2021,
 	"type": "article",
-	"abstract": "Climate change affects human health; however, there have been no large-scale, systematic efforts to quantify the heat-related human health impacts that have already occurred due to climate change. Here, we use empirical data from 732 locations in 43 countries to estimate the mortality burdens associated with the additional heat exposure that has resulted from recent human-induced warming, during the period 1991–2018. Across all study countries, we find that 37.0% (range 20.5–76.3%) of warm-season heat-related deaths can be attributed to anthropogenic climate change and that increased mortality is evident on every continent. Burdens varied geographically but were of the order of dozens to hundreds of deaths per year in many locations. Our findings support the urgent need for more ambitious mitigation and adaptation strategies to minimize the public health impacts of climate change. Current and future climate change is expected to impact human health, both indirectly and directly, through increasing temperatures. Climate change has already had an impact and is responsible for 37% of warm-season heat-related deaths between 1991 and 2018, with increases in mortality observed globally.",
+	"abstract": "Climate change affects human health; however, there have been no large-scale, systematic efforts to quantify the heat-related human health impacts that have already occurred due to climate change. Here, we use empirical data from 732 locations in 43 countries to estimate the mortality burdens associated with the additional heat exposure that has resulted from recent human-induced warming, during the period 1991-2018. Across all study countries, we find that 37.0% (range 20.5-76.3%) of warm-season heat-related deaths can be attributed to anthropogenic climate change and that increased mortality is evident on every continent. Burdens varied geographically but were of the order of dozens to hundreds of deaths per year in many locations. Our findings support the urgent need for more ambitious mitigation and adaptation strategies to minimize the public health impacts of climate change.",
 	"language": "en",
 	"openAccess": {
 		"isOpen": true,
 		"status": "bronze",
 		"url": "https://www.nature.com/articles/s41558-021-01058-x.pdf"
 	},
-	"citedByCount": 1498,
+	"citedByCount": 1625,
 	"openAlexId": "W3171801815",
 	"referencedWorks": [
 		"W1983643661",
@@ -146,8 +146,8 @@
 		"W2939474406",
 		"W2982160553",
 		"W3123700158",
-		"W4285719527",
-		"W4294826717"
+		"W4294826717",
+		"W7119491177"
 	],
 	"themes": [
 		"sante",
@@ -161,7 +161,7 @@
 	"url": "https://doi.org/10.1038/s41558-021-01058-x",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-11-15",
 	"editorial": {},

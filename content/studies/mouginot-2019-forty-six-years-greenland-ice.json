@@ -44,7 +44,7 @@
 			"affiliation": "University of California, Irvine"
 		},
 		{
-			"name": "Michael Wood",
+			"name": "Michael H. Wood",
 			"orcid": "https://orcid.org/0000-0003-3074-7845",
 			"affiliation": "University of California, Irvine"
 		}
@@ -61,7 +61,7 @@
 		"status": "hybrid",
 		"url": "https://doi.org/10.1073/pnas.1904242116"
 	},
-	"citedByCount": 1062,
+	"citedByCount": 1136,
 	"openAlexId": "W2938442499",
 	"referencedWorks": [
 		"W423345203",
@@ -133,7 +133,7 @@
 	"url": "https://doi.org/10.1073/pnas.1904242116",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-11-15",
 	"editorial": {},

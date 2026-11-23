@@ -51,7 +51,7 @@
 		"status": "green",
 		"url": "https://research-information.bris.ac.uk/en/publications/53d37caf-755a-472d-9033-579143a45771"
 	},
-	"citedByCount": 311,
+	"citedByCount": 342,
 	"openAlexId": "W4402625647",
 	"referencedWorks": [
 		"W1489155911",
@@ -176,7 +176,9 @@
 		"W4389429361",
 		"W4391995755",
 		"W4393771491",
-		"W4397002437"
+		"W4397002437",
+		"W6908522602",
+		"W6941256690"
 	],
 	"themes": [
 		"observation"
@@ -189,7 +191,7 @@
 	"url": "https://doi.org/10.1126/science.adk3705",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},

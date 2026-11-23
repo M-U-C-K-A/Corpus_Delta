@@ -45,7 +45,7 @@
 		{
 			"name": "Mabel Vega‐Coloma",
 			"orcid": "https://orcid.org/0000-0003-1599-6747",
-			"affiliation": "University of Concepción"
+			"affiliation": "Universidad de Concepción"
 		},
 		{
 			"name": "Lei Shi",
@@ -65,7 +65,7 @@
 		"status": "green",
 		"url": "https://www.ncbi.nlm.nih.gov/pmc/articles/4443343"
 	},
-	"citedByCount": 834,
+	"citedByCount": 956,
 	"openAlexId": "W2125766044",
 	"referencedWorks": [
 		"W105802747",
@@ -174,9 +174,9 @@
 		"W2741895723",
 		"W2750374324",
 		"W2907459246",
+		"W2916777276",
 		"W2945105797",
-		"W3216419321",
-		"W4285719527"
+		"W3216419321"
 	],
 	"themes": [
 		"energie"
@@ -189,7 +189,7 @@
 	"url": "https://doi.org/10.1073/pnas.1312753111",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},

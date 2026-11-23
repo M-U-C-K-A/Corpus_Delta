@@ -51,7 +51,7 @@
 		"status": "gold",
 		"url": "https://doi.org/10.1126/sciadv.aaz9549"
 	},
-	"citedByCount": 768,
+	"citedByCount": 812,
 	"openAlexId": "W3010860482",
 	"referencedWorks": [
 		"W1565512823",
@@ -121,7 +121,7 @@
 	"url": "https://doi.org/10.1126/sciadv.aaz9549",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-11-15",
 	"editorial": {},

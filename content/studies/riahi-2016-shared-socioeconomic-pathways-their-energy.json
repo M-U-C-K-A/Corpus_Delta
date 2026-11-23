@@ -115,7 +115,7 @@
 		"status": "hybrid",
 		"url": "https://www.sciencedirect.com/science/article/am/pii/S0959378016300681?via%3Dihub"
 	},
-	"citedByCount": 7222,
+	"citedByCount": 7836,
 	"openAlexId": "W2410390527",
 	"referencedWorks": [
 		"W157680103",
@@ -167,14 +167,14 @@
 		"W2508171124",
 		"W2511435023",
 		"W2514521744",
+		"W2527634340",
 		"W2530597942",
 		"W2541697905",
+		"W2800707022",
 		"W3162202054",
 		"W4243024427",
 		"W4252797265",
-		"W6647033807",
-		"W6725454002",
-		"W6808474876"
+		"W6927478418"
 	],
 	"themes": [
 		"modelisation",
@@ -188,7 +188,7 @@
 	"url": "https://doi.org/10.1016/j.gloenvcha.2016.05.009",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-08-19",
 	"editorial": {},

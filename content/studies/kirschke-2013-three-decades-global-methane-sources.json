@@ -113,7 +113,7 @@
 		"status": "bronze",
 		"url": "https://www.nature.com/articles/ngeo1955.pdf"
 	},
-	"citedByCount": 2396,
+	"citedByCount": 2600,
 	"openAlexId": "W2058522703",
 	"referencedWorks": [
 		"W49726372",
@@ -122,6 +122,7 @@
 		"W1500717668",
 		"W1521712252",
 		"W1526067805",
+		"W1540471798",
 		"W1541283053",
 		"W1549553840",
 		"W1571164332",
@@ -212,7 +213,6 @@
 		"W2169275263",
 		"W2170406100",
 		"W2379517899",
-		"W2995833246",
 		"W3160756321",
 		"W4299631353"
 	],
@@ -227,7 +227,7 @@
 	"url": "https://doi.org/10.1038/ngeo1955",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},

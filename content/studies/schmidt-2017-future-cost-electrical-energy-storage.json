@@ -36,7 +36,7 @@
 		"status": "closed",
 		"url": null
 	},
-	"citedByCount": 1211,
+	"citedByCount": 1344,
 	"openAlexId": "W2727165102",
 	"referencedWorks": [
 		"W320003081",
@@ -69,20 +69,21 @@
 		"W2517796793",
 		"W2589703376",
 		"W2731050121",
+		"W4252994218",
 		"W4394186097"
 	],
 	"themes": [
 		"energie"
 	],
 	"sourceTopics": [
-		"Integrated Energy Systems Optimization",
 		"Power Systems and Renewable Energy",
+		"Integrated Energy Systems Optimization",
 		"Electric Vehicles and Infrastructure"
 	],
 	"url": "https://doi.org/10.1038/nenergy.2017.110",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},

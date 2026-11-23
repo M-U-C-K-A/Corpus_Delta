@@ -46,10 +46,11 @@
 		"status": "green",
 		"url": "https://www.research.ed.ac.uk/files/24670325/24670049._AAM..pdf"
 	},
-	"citedByCount": 2407,
+	"citedByCount": 2740,
 	"openAlexId": "W2328487243",
 	"referencedWorks": [
 		"W79450859",
+		"W79583305",
 		"W588522857",
 		"W1021635124",
 		"W1507091919",
@@ -143,6 +144,7 @@
 		"W2409219597",
 		"W2581648439",
 		"W2663180990",
+		"W2972056435",
 		"W4231864045"
 	],
 	"themes": [
@@ -152,12 +154,12 @@
 	"sourceTopics": [
 		"Soil Carbon and Nitrogen Dynamics",
 		"Soil erosion and sediment transport",
-		"Soil Management and Crop Yield"
+		"Soil Geostatistics and Mapping"
 	],
 	"url": "https://doi.org/10.1038/nature17174",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},

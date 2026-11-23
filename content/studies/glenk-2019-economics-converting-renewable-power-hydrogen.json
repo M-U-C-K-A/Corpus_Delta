@@ -26,7 +26,7 @@
 		"status": "green",
 		"url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3767877"
 	},
-	"citedByCount": 1481,
+	"citedByCount": 1617,
 	"openAlexId": "W2915666072",
 	"referencedWorks": [
 		"W42215464",
@@ -37,6 +37,7 @@
 		"W1966065781",
 		"W1982644510",
 		"W1988825274",
+		"W2001614176",
 		"W2009775084",
 		"W2010892660",
 		"W2018651936",
@@ -74,12 +75,12 @@
 	"sourceTopics": [
 		"Hybrid Renewable Energy Systems",
 		"Integrated Energy Systems Optimization",
-		"Renewable Energy and Sustainability"
+		"Renewable energy and sustainable power systems"
 	],
 	"url": "https://doi.org/10.1038/s41560-019-0326-1",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},

@@ -14,14 +14,14 @@
 	"publisher": "Nature Portfolio",
 	"year": 2021,
 	"type": "article",
-	"abstract": "Abstract Many studies project that climate change can cause a significant number of excess deaths. Yet, in integrated assessment models (IAMs) that determine the social cost of carbon (SCC) and prescribe optimal climate policy, human mortality impacts are limited and not updated to the latest scientific understanding. This study extends the DICE-2016 IAM to explicitly include temperature-related mortality impacts by estimating a climate-mortality damage function. We introduce a metric, the mortality cost of carbon (MCC), that estimates the number of deaths caused by the emissions of one additional metric ton of CO2. In the baseline emissions scenario, the 2020 MCC is 2.26 × 10 ‒4 [low to high estimate −1.71× 10 ‒4 to 6.78 × 10 ‒4 ] excess deaths per metric ton of 2020 emissions. This implies that adding 4,434 metric tons of carbon dioxide in 2020—equivalent to the lifetime emissions of 3.5 average Americans—causes one excess death globally in expectation between 2020-2100. Incorporating mortality costs increases the 2020 SCC from $37 to $258 [−$69 to $545] per metric ton in the baseline emissions scenario. Optimal climate policy changes from gradual emissions reductions starting in 2050 to full decarbonization by 2050 when mortality is considered.",
+	"abstract": "Many studies project that climate change can cause a significant number of excess deaths. Yet, in integrated assessment models (IAMs) that determine the social cost of carbon (SCC) and prescribe optimal climate policy, human mortality impacts are limited and not updated to the latest scientific understanding. This study extends the DICE-2016 IAM to explicitly include temperature-related mortality impacts by estimating a climate-mortality damage function. We introduce a metric, the mortality cost of carbon (MCC), that estimates the number of deaths caused by the emissions of one additional metric ton of CO2. In the baseline emissions scenario, the 2020 MCC is 2.26 × 10 ‒4 [low to high estimate −1.71× 10 ‒4 to 6.78 × 10 ‒4 ] excess deaths per metric ton of 2020 emissions. This implies that adding 4,434 metric tons of carbon dioxide in 2020—equivalent to the lifetime emissions of 3.5 average Americans—causes one excess death globally in expectation between 2020-2100. Incorporating mortality costs increases the 2020 SCC from $37 to $258 [−$69 to $545] per metric ton in the baseline emissions scenario. Optimal climate policy changes from gradual emissions reductions starting in 2050 to full decarbonization by 2050 when mortality is considered.",
 	"language": "en",
 	"openAccess": {
 		"isOpen": true,
 		"status": "gold",
 		"url": "https://www.nature.com/articles/s41467-021-24487-w.pdf"
 	},
-	"citedByCount": 298,
+	"citedByCount": 369,
 	"openAlexId": "W3184690002",
 	"referencedWorks": [
 		"W98127909",
@@ -128,7 +128,8 @@
 		"W3126576540",
 		"W3216188388",
 		"W4243213625",
-		"W4285719527",
+		"W4247058864",
+		"W4254546686",
 		"W4389701352"
 	],
 	"themes": [
@@ -143,7 +144,7 @@
 	"url": "https://doi.org/10.1038/s41467-021-24487-w",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-11-15",
 	"editorial": {},

@@ -37,7 +37,7 @@
 		"status": "bronze",
 		"url": "https://www.nature.com/articles/s43017-024-00532-2.pdf"
 	},
-	"citedByCount": 497,
+	"citedByCount": 527,
 	"openAlexId": "W4393938405",
 	"referencedWorks": [
 		"W4220778568",
@@ -46,6 +46,7 @@
 		"W4366086895",
 		"W4379875502",
 		"W4388020336",
+		"W4388707038",
 		"W4389195056"
 	],
 	"themes": [
@@ -60,7 +61,7 @@
 	"url": "https://doi.org/10.1038/s43017-024-00532-2",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},

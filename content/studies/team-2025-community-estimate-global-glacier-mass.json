@@ -108,14 +108,14 @@
 	"publisher": "Nature Portfolio",
 	"year": 2025,
 	"type": "article",
-	"abstract": "Abstract Glaciers are indicators of ongoing anthropogenic climate change 1 . Their melting leads to increased local geohazards 2 , and impacts marine 3 and terrestrial 4,5 ecosystems, regional freshwater resources 6 , and both global water and energy cycles 7,8 . Together with the Greenland and Antarctic ice sheets, glaciers are essential drivers of present 9,10 and future 11–13 sea-level rise. Previous assessments of global glacier mass changes have been hampered by spatial and temporal limitations and the heterogeneity of existing data series 14–16 . Here we show in an intercomparison exercise that glaciers worldwide lost 273 ± 16 gigatonnes in mass annually from 2000 to 2023, with an increase of 36 ± 10% from the first (2000–2011) to the second (2012–2023) half of the period. Since 2000, glaciers have lost between 2% and 39% of their ice regionally and about 5% globally. Glacier mass loss is about 18% larger than the loss from the Greenland Ice Sheet and more than twice that from the Antarctic Ice Sheet 17 . Our results arise from a scientific community effort to collect, homogenize, combine and analyse glacier mass changes from in situ and remote-sensing observations. Although our estimates are in agreement with findings from previous assessments 14–16 at a global scale, we found some large regional deviations owing to systematic differences among observation methods. Our results provide a refined baseline for better understanding observational differences and for calibrating model ensembles 12,16,18 , which will help to narrow projection uncertainty for the twenty-first century 11,12,18 .",
+	"abstract": "Glaciers are indicators of ongoing anthropogenic climate change 1 . Their melting leads to increased local geohazards 2 , and impacts marine 3 and terrestrial 4,5 ecosystems, regional freshwater resources 6 , and both global water and energy cycles 7,8 . Together with the Greenland and Antarctic ice sheets, glaciers are essential drivers of present 9,10 and future 11–13 sea-level rise. Previous assessments of global glacier mass changes have been hampered by spatial and temporal limitations and the heterogeneity of existing data series 14–16 . Here we show in an intercomparison exercise that glaciers worldwide lost 273 ± 16 gigatonnes in mass annually from 2000 to 2023, with an increase of 36 ± 10% from the first (2000–2011) to the second (2012–2023) half of the period. Since 2000, glaciers have lost between 2% and 39% of their ice regionally and about 5% globally. Glacier mass loss is about 18% larger than the loss from the Greenland Ice Sheet and more than twice that from the Antarctic Ice Sheet 17 . Our results arise from a scientific community effort to collect, homogenize, combine and analyse glacier mass changes from in situ and remote-sensing observations. Although our estimates are in agreement with findings from previous assessments 14–16 at a global scale, we found some large regional deviations owing to systematic differences among observation methods. Our results provide a refined baseline for better understanding observational differences and for calibrating model ensembles 12,16,18 , which will help to narrow projection uncertainty for the twenty-first century 11,12,18 .",
 	"language": "en",
 	"openAccess": {
 		"isOpen": true,
 		"status": "hybrid",
 		"url": "https://doi.org/10.1038/s41586-024-08545-z"
 	},
-	"citedByCount": 331,
+	"citedByCount": 368,
 	"openAlexId": "W4407722167",
 	"referencedWorks": [
 		"W1494100285",
@@ -214,7 +214,6 @@
 		"W4404390161",
 		"W4410243581",
 		"W6630802807",
-		"W6756782362",
 		"W6892275970",
 		"W6899451707",
 		"W6918025393",
@@ -238,7 +237,7 @@
 	"url": "https://doi.org/10.1038/s41586-024-08545-z",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},

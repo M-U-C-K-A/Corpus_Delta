@@ -47,13 +47,14 @@
 		"status": "closed",
 		"url": null
 	},
-	"citedByCount": 456,
+	"citedByCount": 492,
 	"openAlexId": "W3137824778",
 	"referencedWorks": [
 		"W68686651",
 		"W1502226098",
 		"W1512091300",
 		"W1531643369",
+		"W1557379516",
 		"W1564524030",
 		"W1569002524",
 		"W1733916393",
@@ -230,7 +231,7 @@
 	"url": "https://doi.org/10.1146/annurev-earth-082420-063026",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-08-30",
 	"editorial": {},

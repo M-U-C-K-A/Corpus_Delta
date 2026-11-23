@@ -36,10 +36,12 @@
 		"status": "gold",
 		"url": "https://www.sciencedirect.com/science/article/pii/S2212094717301068/pdf"
 	},
-	"citedByCount": 445,
+	"citedByCount": 474,
 	"openAlexId": "W2791000717",
 	"referencedWorks": [
+		"W1087367457",
 		"W1629235778",
+		"W1829081441",
 		"W1903655679",
 		"W1967863463",
 		"W1972946703",
@@ -87,10 +89,7 @@
 		"W2601622117",
 		"W2605478312",
 		"W2616665687",
-		"W6677236733",
-		"W6682245718",
-		"W6719222967",
-		"W6729985950"
+		"W6677236733"
 	],
 	"themes": [
 		"eau"
@@ -103,7 +102,7 @@
 	"url": "https://doi.org/10.1016/j.wace.2018.03.005",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},

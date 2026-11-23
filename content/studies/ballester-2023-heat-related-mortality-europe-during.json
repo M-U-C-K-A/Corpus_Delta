@@ -66,7 +66,7 @@
 		"status": "hybrid",
 		"url": "https://www.nature.com/articles/s41591-023-02419-z.pdf"
 	},
-	"citedByCount": 1209,
+	"citedByCount": 1374,
 	"openAlexId": "W4383823379",
 	"referencedWorks": [
 		"W1599595176",
@@ -112,9 +112,7 @@
 		"W4300961762",
 		"W4307401074",
 		"W4309370897",
-		"W4312018847",
-		"W6671778670",
-		"W6676255779"
+		"W4312018847"
 	],
 	"themes": [
 		"sante",
@@ -128,7 +126,7 @@
 	"url": "https://doi.org/10.1038/s41591-023-02419-z",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-11-15",
 	"editorial": {},

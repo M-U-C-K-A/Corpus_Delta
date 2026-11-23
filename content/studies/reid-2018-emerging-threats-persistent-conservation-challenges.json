@@ -96,7 +96,7 @@
 		"status": "bronze",
 		"url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/brv.12480"
 	},
-	"citedByCount": 3985,
+	"citedByCount": 4364,
 	"openAlexId": "W2901199346",
 	"referencedWorks": [
 		"W165407910",
@@ -402,7 +402,8 @@
 		"W4211010233",
 		"W4234181714",
 		"W4248190608",
-		"W4254220359"
+		"W4254220359",
+		"W7119490196"
 	],
 	"themes": [
 		"biodiversite",
@@ -416,7 +417,7 @@
 	"url": "https://doi.org/10.1111/brv.12480",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},

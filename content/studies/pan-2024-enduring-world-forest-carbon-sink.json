@@ -93,19 +93,20 @@
 	"publisher": "Nature Portfolio",
 	"year": 2024,
 	"type": "article",
-	"abstract": "The uptake of carbon dioxide (CO2) by terrestrial ecosystems is critical for moderating climate change1. To provide a ground-based long-term assessment of the contribution of forests to terrestrial CO2 uptake, we synthesized in situ forest data from boreal, temperate and tropical biomes spanning three decades. We found that the carbon sink in global forests was steady, at 3.6 ± 0.4 Pg C yr−1 in the 1990s and 2000s, and 3.5 ± 0.4 Pg C yr−1 in the 2010s. Despite this global stability, our analysis revealed some major biome-level changes. Carbon sinks have increased in temperate (+30 ± 5%) and tropical regrowth (+29 ± 8%) forests owing to increases in forest area, but they decreased in boreal (−36 ± 6%) and tropical intact (−31 ± 7%) forests, as a result of intensified disturbances and losses in intact forest area, respectively. Mass-balance studies indicate that the global land carbon sink has increased2, implying an increase in the non-forest-land carbon sink. The global forest sink is equivalent to almost half of fossil-fuel emissions (7.8 ± 0.4 Pg C yr−1 in 1990–2019). However, two-thirds of the benefit from the sink has been negated by tropical deforestation (2.2 ± 0.5 Pg C yr−1 in 1990–2019). Although the global forest sink has endured undiminished for three decades, despite regional variations, it could be weakened by ageing forests, continuing deforestation and further intensification of disturbance regimes1. To protect the carbon sink, land management policies are needed to limit deforestation, promote forest restoration and improve timber-harvesting practices1,3. Data from boreal, temperate and tropical forests over the past three decades reveal that the global forest carbon sink has remained steady during that time, despite considerable regional variation.",
+	"abstract": "The uptake of carbon dioxide (CO 2 ) by terrestrial ecosystems is critical for moderating climate change 1 . To provide a ground-based long-term assessment of the contribution of forests to terrestrial CO 2 uptake, we synthesized in situ forest data from boreal, temperate and tropical biomes spanning three decades. We found that the carbon sink in global forests was steady, at 3.6 ± 0.4 Pg C yr −1 in the 1990s and 2000s, and 3.5 ± 0.4 Pg C yr −1 in the 2010s. Despite this global stability, our analysis revealed some major biome-level changes. Carbon sinks have increased in temperate (+30 ± 5%) and tropical regrowth (+29 ± 8%) forests owing to increases in forest area, but they decreased in boreal (−36 ± 6%) and tropical intact (−31 ± 7%) forests, as a result of intensified disturbances and losses in intact forest area, respectively. Mass-balance studies indicate that the global land carbon sink has increased 2 , implying an increase in the non-forest-land carbon sink. The global forest sink is equivalent to almost half of fossil-fuel emissions (7.8 ± 0.4 Pg C yr −1 in 1990–2019). However, two-thirds of the benefit from the sink has been negated by tropical deforestation (2.2 ± 0.5 Pg C yr −1 in 1990–2019). Although the global forest sink has endured undiminished for three decades, despite regional variations, it could be weakened by ageing forests, continuing deforestation and further intensification of disturbance regimes 1 . To protect the carbon sink, land management policies are needed to limit deforestation, promote forest restoration and improve timber-harvesting practices 1 , 3 .",
 	"language": "en",
 	"openAccess": {
 		"isOpen": true,
 		"status": "hybrid",
 		"url": "https://doi.org/10.1038/s41586-024-07602-x"
 	},
-	"citedByCount": 903,
+	"citedByCount": 983,
 	"openAlexId": "W4400730941",
 	"referencedWorks": [
 		"W1516075103",
 		"W1588713494",
 		"W1819992086",
+		"W1932722689",
 		"W1981213426",
 		"W1994499934",
 		"W2011560911",
@@ -171,7 +172,7 @@
 	"url": "https://doi.org/10.1038/s41586-024-07602-x",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},

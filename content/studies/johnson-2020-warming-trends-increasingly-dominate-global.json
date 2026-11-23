@@ -26,12 +26,13 @@
 		"status": "green",
 		"url": "http://repository.library.noaa.gov/view/noaa/33008/noaa_33008_DS1.pdf"
 	},
-	"citedByCount": 270,
+	"citedByCount": 306,
 	"openAlexId": "W3041358075",
 	"referencedWorks": [
 		"W1598311721",
 		"W1643329864",
 		"W1972747475",
+		"W1978601068",
 		"W1988191164",
 		"W1991862252",
 		"W2021959819",
@@ -73,8 +74,7 @@
 		"W2967956357",
 		"W3010932768",
 		"W3012330703",
-		"W4255672524",
-		"W4285719527"
+		"W4255672524"
 	],
 	"themes": [
 		"ocean",
@@ -88,7 +88,7 @@
 	"url": "https://doi.org/10.1038/s41558-020-0822-0",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-08-30",
 	"editorial": {},

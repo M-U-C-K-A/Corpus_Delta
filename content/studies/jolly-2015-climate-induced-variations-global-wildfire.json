@@ -51,7 +51,7 @@
 		"status": "gold",
 		"url": "https://www.nature.com/articles/ncomms8537.pdf"
 	},
-	"citedByCount": 2362,
+	"citedByCount": 2577,
 	"openAlexId": "W1955806497",
 	"referencedWorks": [
 		"W617039848",
@@ -116,10 +116,10 @@
 		"W2527444536",
 		"W2915278450",
 		"W2915386769",
+		"W2917975320",
 		"W4238691261",
-		"W4285719527",
 		"W6600805005",
-		"W6655654470"
+		"W7099927273"
 	],
 	"themes": [
 		"risques"
@@ -132,7 +132,7 @@
 	"url": "https://doi.org/10.1038/ncomms8537",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},

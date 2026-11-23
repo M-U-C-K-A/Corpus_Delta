@@ -96,7 +96,7 @@
 		"status": "hybrid",
 		"url": "https://www.pnas.org/content/pnas/115/33/8252.full.pdf"
 	},
-	"citedByCount": 3514,
+	"citedByCount": 4108,
 	"openAlexId": "W2886281704",
 	"referencedWorks": [
 		"W330247109",
@@ -175,6 +175,7 @@
 		"W2530597942",
 		"W2549683514",
 		"W2562759669",
+		"W2564221103",
 		"W2583021177",
 		"W2595696630",
 		"W2597494773",
@@ -182,6 +183,7 @@
 		"W2732711214",
 		"W2746179850",
 		"W2760502374",
+		"W2765613712",
 		"W2766136866",
 		"W2800906030",
 		"W2991424818",
@@ -202,7 +204,7 @@
 	"url": "https://doi.org/10.1073/pnas.1810141115",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-08-19",
 	"editorial": {},

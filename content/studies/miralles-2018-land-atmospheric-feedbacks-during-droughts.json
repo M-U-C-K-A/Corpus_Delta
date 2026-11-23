@@ -36,7 +36,7 @@
 		"status": "hybrid",
 		"url": "https://nyaspubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1111/nyas.13912"
 	},
-	"citedByCount": 1155,
+	"citedByCount": 1232,
 	"openAlexId": "W2810551812",
 	"referencedWorks": [
 		"W67616095",
@@ -203,7 +203,9 @@
 		"W2795851768",
 		"W2796140202",
 		"W2800299140",
-		"W4244348462"
+		"W4244348462",
+		"W6983884093",
+		"W7058779452"
 	],
 	"themes": [
 		"chaleur",
@@ -217,7 +219,7 @@
 	"url": "https://doi.org/10.1111/nyas.13912",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},

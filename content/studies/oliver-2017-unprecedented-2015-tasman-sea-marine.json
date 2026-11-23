@@ -51,7 +51,7 @@
 		"status": "gold",
 		"url": "https://www.nature.com/articles/ncomms16101.pdf"
 	},
-	"citedByCount": 661,
+	"citedByCount": 697,
 	"openAlexId": "W2735759243",
 	"referencedWorks": [
 		"W198083648",
@@ -117,8 +117,8 @@
 		"W2343407653",
 		"W2513834328",
 		"W2797602122",
-		"W4243863038",
-		"W4285719527"
+		"W3035904432",
+		"W4243863038"
 	],
 	"themes": [
 		"ocean",
@@ -132,7 +132,7 @@
 	"url": "https://doi.org/10.1038/ncomms16101",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},

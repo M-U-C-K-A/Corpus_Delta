@@ -4,7 +4,7 @@
 	"title": "Future climate risk from compound events",
 	"authors": [
 		{
-			"name": "Jakob Zscheischler A",
+			"name": "Jakob Zscheischler",
 			"orcid": "https://orcid.org/0000-0001-6045-1629",
 			"affiliation": "ETH Zurich"
 		},
@@ -71,7 +71,7 @@
 		"status": "bronze",
 		"url": "https://www.nature.com/articles/s41558-018-0156-3.pdf"
 	},
-	"citedByCount": 2879,
+	"citedByCount": 3130,
 	"openAlexId": "W2800299140",
 	"referencedWorks": [
 		"W1491718027",
@@ -131,6 +131,7 @@
 		"W2158197749",
 		"W2158512214",
 		"W2172678786",
+		"W2185625794",
 		"W2201240731",
 		"W2253256546",
 		"W2285393853",
@@ -161,8 +162,7 @@
 		"W2769759576",
 		"W2779295731",
 		"W2939474406",
-		"W4239454171",
-		"W4285719527"
+		"W4239454171"
 	],
 	"themes": [
 		"risques",
@@ -176,7 +176,7 @@
 	"url": "https://doi.org/10.1038/s41558-018-0156-3",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-08-19",
 	"editorial": {},

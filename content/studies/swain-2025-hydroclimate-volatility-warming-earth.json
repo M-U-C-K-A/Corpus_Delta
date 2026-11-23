@@ -62,7 +62,7 @@
 		"status": "green",
 		"url": "https://www.dora.lib4ri.ch/wsl/dload/wsl:38529/PDF3/view"
 	},
-	"citedByCount": 294,
+	"citedByCount": 313,
 	"openAlexId": "W4406318018",
 	"referencedWorks": [
 		"W1583476552",
@@ -199,6 +199,7 @@
 		"W4226429081",
 		"W4226520094",
 		"W4235695746",
+		"W4255692336",
 		"W4281250323",
 		"W4281777389",
 		"W4282826673",
@@ -275,7 +276,7 @@
 	"url": "https://doi.org/10.1038/s43017-024-00624-z",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},

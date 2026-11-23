@@ -115,12 +115,13 @@
 		"status": "gold",
 		"url": "https://www.nature.com/articles/s41467-018-08240-4.pdf"
 	},
-	"citedByCount": 2361,
+	"citedByCount": 2515,
 	"openAlexId": "W2908898337",
 	"referencedWorks": [
 		"W113957270",
 		"W197684064",
 		"W1499800581",
+		"W1533724754",
 		"W1539932793",
 		"W1555385557",
 		"W1780085511",
@@ -166,7 +167,8 @@
 		"W2770624900",
 		"W2902551712",
 		"W2909304809",
-		"W2910969575"
+		"W2910969575",
+		"W7002113523"
 	],
 	"themes": [
 		"cryosphere"
@@ -179,7 +181,7 @@
 	"url": "https://doi.org/10.1038/s41467-018-08240-4",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-08-30",
 	"editorial": {},

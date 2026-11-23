@@ -29,20 +29,21 @@
 	"publisher": "Wiley",
 	"year": 2021,
 	"type": "article",
-	"abstract": "Abstract The Mid‐Pleistocene Transition (MPT), where the Pleistocene glacial cycles changed from 41 to ∼100 kyr periodicity, is one of the most intriguing unsolved issues in the field of paleoclimatology. Over the course of over four decades of research, several different physical mechanisms have been proposed to explain the MPT, involving non‐linear feedbacks between ice sheets and the global climate, the solid Earth, ocean circulation, and the carbon cycle. Here, we review these different mechanisms, comparing how each of them relates to the others, and to the currently available observational evidence. Based on this discussion, we identify the most important gaps in our current understanding of the MPT. We discuss how new model experiments, which focus on the quantitative differences between the different physical mechanisms, could help fill these gaps. The results of those experiments could help interpret available proxy evidence, as well as new evidence that is expected to become available.",
+	"abstract": "The Mid‐Pleistocene Transition (MPT), where the Pleistocene glacial cycles changed from 41 to ∼100 kyr periodicity, is one of the most intriguing unsolved issues in the field of paleoclimatology. Over the course of over four decades of research, several different physical mechanisms have been proposed to explain the MPT, involving non‐linear feedbacks between ice sheets and the global climate, the solid Earth, ocean circulation, and the carbon cycle. Here, we review these different mechanisms, comparing how each of them relates to the others, and to the currently available observational evidence. Based on this discussion, we identify the most important gaps in our current understanding of the MPT. We discuss how new model experiments, which focus on the quantitative differences between the different physical mechanisms, could help fill these gaps. The results of those experiments could help interpret available proxy evidence, as well as new evidence that is expected to become available.",
 	"language": "en",
 	"openAccess": {
 		"isOpen": true,
 		"status": "hybrid",
 		"url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2020RG000727"
 	},
-	"citedByCount": 157,
+	"citedByCount": 170,
 	"openAlexId": "W3170121813",
 	"referencedWorks": [
 		"W1553416418",
 		"W1567411256",
 		"W1611912616",
 		"W1622941400",
+		"W1631559605",
 		"W1882489491",
 		"W1967731091",
 		"W1970983096",
@@ -60,6 +61,7 @@
 		"W1990136463",
 		"W1994157986",
 		"W1995539736",
+		"W1996413328",
 		"W2006113617",
 		"W2010169680",
 		"W2010253417",
@@ -86,6 +88,7 @@
 		"W2071838648",
 		"W2072239762",
 		"W2073349414",
+		"W2074250709",
 		"W2074430415",
 		"W2076517688",
 		"W2083367302",
@@ -174,7 +177,7 @@
 	"url": "https://doi.org/10.1029/2020RG000727",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-11-15",
 	"editorial": {},

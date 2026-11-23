@@ -40,7 +40,7 @@
 		"status": "closed",
 		"url": null
 	},
-	"citedByCount": 558,
+	"citedByCount": 611,
 	"openAlexId": "W2963970932",
 	"referencedWorks": [
 		"W357613960",
@@ -73,6 +73,7 @@
 		"W2062219811",
 		"W2066165799",
 		"W2066850544",
+		"W2068090847",
 		"W2070257026",
 		"W2079778790",
 		"W2094688663",
@@ -122,7 +123,9 @@
 		"W4213327538",
 		"W4239569515",
 		"W4243450122",
-		"W6832030438"
+		"W6832030438",
+		"W7055810464",
+		"W7067012135"
 	],
 	"themes": [
 		"observation"
@@ -135,7 +138,7 @@
 	"url": "https://doi.org/10.1038/s41586-019-1401-2",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-11-15",
 	"editorial": {},

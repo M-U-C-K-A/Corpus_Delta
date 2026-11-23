@@ -101,7 +101,7 @@
 		"status": "bronze",
 		"url": "https://www.nature.com/articles/nature14338.pdf"
 	},
-	"citedByCount": 4100,
+	"citedByCount": 4405,
 	"openAlexId": "W2009225674",
 	"referencedWorks": [
 		"W1496360119",
@@ -192,7 +192,9 @@
 		"W2259380578",
 		"W2518172084",
 		"W2915278450",
-		"W2986345846"
+		"W2986345846",
+		"W4237935652",
+		"W4252322578"
 	],
 	"themes": [
 		"cryosphere",
@@ -206,7 +208,7 @@
 	"url": "https://doi.org/10.1038/nature14338",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-08-19",
 	"editorial": {

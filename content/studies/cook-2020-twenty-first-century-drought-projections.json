@@ -39,14 +39,14 @@
 	"publisher": "American Geophysical Union",
 	"year": 2020,
 	"type": "article",
-	"abstract": "Abstract There is strong evidence that climate change will increase drought risk and severity, but these conclusions depend on the regions, seasons, and drought metrics being considered. We analyze changes in drought across the hydrologic cycle (precipitation, soil moisture, and runoff) in projections from Phase Six of the Coupled Model Intercomparison Project (CMIP6). The multimodel ensemble shows robust drying in the mean state across many regions and metrics by the end of the 21st century, even following the more aggressive mitigation pathways (SSP1‐2.6 and SSP2‐4.5). Regional hotspots with strong drying include western North America, Central America, Europe and the Mediterranean, the Amazon, southern Africa, China, Southeast Asia, and Australia. Compared to SSP3‐7.0 and SSP5‐8.5, however, the severity of drying in the lower warming scenarios is substantially reduced and further precipitation declines in many regions are avoided. Along with drying in the mean state, the risk of the historically most extreme drought events also increases with warming, by 200–300% in some regions. Soil moisture and runoff drying in CMIP6 is more robust, spatially extensive, and severe than precipitation, indicating an important role for other temperature‐sensitive drought processes, including evapotranspiration and snow. Given the similarity in drought responses between CMIP5 and CMIP6, we speculate that both generations of models are subject to similar uncertainties, including vegetation processes, model representations of precipitation, and the degree to which model responses to warming are consistent with observations. These topics should be further explored to evaluate whether CMIP6 models offer reasons to have increased confidence in drought projections.",
+	"abstract": "There is strong evidence that climate change will increase drought risk and severity, but these conclusions depend on the regions, seasons, and drought metrics being considered. We analyze changes in drought across the hydrologic cycle (precipitation, soil moisture, and runoff) in projections from Phase Six of the Coupled Model Intercomparison Project (CMIP6). The multimodel ensemble shows robust drying in the mean state across many regions and metrics by the end of the 21st century, even following the more aggressive mitigation pathways (SSP1‐2.6 and SSP2‐4.5). Regional hotspots with strong drying include western North America, Central America, Europe and the Mediterranean, the Amazon, southern Africa, China, Southeast Asia, and Australia. Compared to SSP3‐7.0 and SSP5‐8.5, however, the severity of drying in the lower warming scenarios is substantially reduced and further precipitation declines in many regions are avoided. Along with drying in the mean state, the risk of the historically most extreme drought events also increases with warming, by 200–300% in some regions. Soil moisture and runoff drying in CMIP6 is more robust, spatially extensive, and severe than precipitation, indicating an important role for other temperature‐sensitive drought processes, including evapotranspiration and snow. Given the similarity in drought responses between CMIP5 and CMIP6, we speculate that both generations of models are subject to similar uncertainties, including vegetation processes, model representations of precipitation, and the degree to which model responses to warming are consistent with observations. These topics should be further explored to evaluate whether CMIP6 models offer reasons to have increased confidence in drought projections.",
 	"language": "en",
 	"openAccess": {
 		"isOpen": true,
 		"status": "gold",
 		"url": "https://doi.org/10.1029/2019ef001461"
 	},
-	"citedByCount": 1130,
+	"citedByCount": 1200,
 	"openAlexId": "W3016397873",
 	"referencedWorks": [
 		"W1600085496",
@@ -157,7 +157,7 @@
 	"url": "https://doi.org/10.1029/2019ef001461",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},

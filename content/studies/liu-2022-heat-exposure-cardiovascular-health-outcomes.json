@@ -66,7 +66,7 @@
 		"status": "gold",
 		"url": "http://www.thelancet.com/article/S2542519622001176/pdf"
 	},
-	"citedByCount": 814,
+	"citedByCount": 856,
 	"openAlexId": "W4282823493",
 	"referencedWorks": [
 		"W1558558496",
@@ -132,7 +132,7 @@
 	"url": "https://doi.org/10.1016/s2542-5196(22)00117-6",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},

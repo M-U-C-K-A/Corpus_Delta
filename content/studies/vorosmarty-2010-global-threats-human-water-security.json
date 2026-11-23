@@ -67,9 +67,9 @@
 	"openAccess": {
 		"isOpen": true,
 		"status": "green",
-		"url": "https://researchportal.scu.edu.au/view/delivery/61SCU_INST/1266817910002368/1367369310002368"
+		"url": "https://www.dora.lib4ri.ch/eawag/dload/eawag:6427/PDF2/view"
 	},
-	"citedByCount": 7952,
+	"citedByCount": 8893,
 	"openAlexId": "W2015053255",
 	"referencedWorks": [
 		"W4331708",
@@ -114,22 +114,24 @@
 		"W3010621220",
 		"W3204218454",
 		"W4212864218",
+		"W4233445088",
+		"W4234736328",
 		"W4253643840",
-		"W4285719527"
+		"W7028606143"
 	],
 	"themes": [
 		"eau",
 		"biodiversite"
 	],
 	"sourceTopics": [
+		"Water resources management and optimization",
 		"Transboundary Water Resource Management",
-		"Environmental Science and Water Management",
-		"Water resources management and optimization"
+		"Environmental Science and Water Management"
 	],
 	"url": "https://doi.org/10.1038/nature09440",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-11-15",
 	"editorial": {},

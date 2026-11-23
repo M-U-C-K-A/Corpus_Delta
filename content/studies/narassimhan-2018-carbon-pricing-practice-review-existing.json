@@ -36,7 +36,7 @@
 		"status": "hybrid",
 		"url": "https://www.tandfonline.com/doi/pdf/10.1080/14693062.2018.1467827?needAccess=true"
 	},
-	"citedByCount": 581,
+	"citedByCount": 671,
 	"openAlexId": "W2800146971",
 	"referencedWorks": [
 		"W631490643",
@@ -124,7 +124,7 @@
 	"url": "https://doi.org/10.1080/14693062.2018.1467827",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},

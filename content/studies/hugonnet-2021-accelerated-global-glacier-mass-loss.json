@@ -71,13 +71,14 @@
 		"status": "green",
 		"url": "https://pure.ulster.ac.uk/ws/files/90482504/main_paper_ww_mass_change_Nature_final_textonly.pdf"
 	},
-	"citedByCount": 2198,
+	"citedByCount": 2360,
 	"openAlexId": "W3157632309",
 	"referencedWorks": [
 		"W1480015928",
 		"W1511090058",
 		"W1511860755",
 		"W1559942333",
+		"W1746819321",
 		"W1971400458",
 		"W1973200177",
 		"W1983258892",
@@ -169,10 +170,13 @@
 		"W4398549858",
 		"W6892238084",
 		"W6926508834",
+		"W6930031579",
 		"W6930512188",
 		"W6948450812",
+		"W6967244451",
 		"W6974312185",
-		"W6977894551"
+		"W6977894551",
+		"W7030205044"
 	],
 	"themes": [
 		"cryosphere",
@@ -186,7 +190,7 @@
 	"url": "https://doi.org/10.1038/s41586-021-03436-z",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-08-19",
 	"editorial": {

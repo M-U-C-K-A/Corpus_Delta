@@ -49,14 +49,14 @@
 	"publisher": "Nature Portfolio",
 	"year": 2022,
 	"type": "article",
-	"abstract": "Abstract In recent decades, the warming in the Arctic has been much faster than in the rest of the world, a phenomenon known as Arctic amplification. Numerous studies report that the Arctic is warming either twice, more than twice, or even three times as fast as the globe on average. Here we show, by using several observational datasets which cover the Arctic region, that during the last 43 years the Arctic has been warming nearly four times faster than the globe, which is a higher ratio than generally reported in literature. We compared the observed Arctic amplification ratio with the ratio simulated by state-of-the-art climate models, and found that the observed four-fold warming ratio over 1979–2021 is an extremely rare occasion in the climate model simulations. The observed and simulated amplification ratios are more consistent with each other if calculated over a longer period; however the comparison is obscured by observational uncertainties before 1979. Our results indicate that the recent four-fold Arctic warming ratio is either an extremely unlikely event, or the climate models systematically tend to underestimate the amplification.",
+	"abstract": "In recent decades, the warming in the Arctic has been much faster than in the rest of the world, a phenomenon known as Arctic amplification. Numerous studies report that the Arctic is warming either twice, more than twice, or even three times as fast as the globe on average. Here we show, by using several observational datasets which cover the Arctic region, that during the last 43 years the Arctic has been warming nearly four times faster than the globe, which is a higher ratio than generally reported in literature. We compared the observed Arctic amplification ratio with the ratio simulated by state-of-the-art climate models, and found that the observed four-fold warming ratio over 1979–2021 is an extremely rare occasion in the climate model simulations. The observed and simulated amplification ratios are more consistent with each other if calculated over a longer period; however the comparison is obscured by observational uncertainties before 1979. Our results indicate that the recent four-fold Arctic warming ratio is either an extremely unlikely event, or the climate models systematically tend to underestimate the amplification.",
 	"language": "en",
 	"openAccess": {
 		"isOpen": true,
 		"status": "gold",
 		"url": "https://www.nature.com/articles/s43247-022-00498-3.pdf"
 	},
-	"citedByCount": 3857,
+	"citedByCount": 4195,
 	"openAlexId": "W4292865744",
 	"referencedWorks": [
 		"W156184589",
@@ -168,8 +168,6 @@
 		"W4382358980",
 		"W6677594458",
 		"W6678568454",
-		"W6736365410",
-		"W6776063941",
 		"W6889366587",
 		"W6926261684"
 	],
@@ -185,7 +183,7 @@
 	"url": "https://doi.org/10.1038/s43247-022-00498-3",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},

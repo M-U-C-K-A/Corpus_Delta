@@ -26,7 +26,7 @@
 		"status": "hybrid",
 		"url": "https://link.springer.com/content/pdf/10.1007/s10712-011-9119-1.pdf"
 	},
-	"citedByCount": 1717,
+	"citedByCount": 1972,
 	"openAlexId": "W2008435261",
 	"referencedWorks": [
 		"W38312585",
@@ -73,8 +73,7 @@
 		"W2174279521",
 		"W2177590044",
 		"W2290962952",
-		"W4237926920",
-		"W4285719527"
+		"W4237926920"
 	],
 	"themes": [
 		"ocean"
@@ -87,7 +86,7 @@
 	"url": "https://doi.org/10.1007/s10712-011-9119-1",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},

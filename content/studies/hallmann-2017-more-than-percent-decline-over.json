@@ -68,7 +68,7 @@
 		"status": "gold",
 		"url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0185809&type=printable"
 	},
-	"citedByCount": 3866,
+	"citedByCount": 4357,
 	"openAlexId": "W2766208183",
 	"referencedWorks": [
 		"W68436435",
@@ -121,12 +121,12 @@
 		"W2223711650",
 		"W2227323834",
 		"W2464173989",
+		"W2496675188",
 		"W2505405115",
 		"W2515577027",
 		"W2543037721",
 		"W2724327356",
-		"W3170794598",
-		"W4285719527"
+		"W3170794598"
 	],
 	"themes": [
 		"biodiversite"
@@ -139,7 +139,7 @@
 	"url": "https://doi.org/10.1371/journal.pone.0185809",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},

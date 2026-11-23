@@ -106,14 +106,14 @@
 	"year": 2020,
 	"type": "article",
 	"typeOverride": "review",
-	"abstract": "Abstract The atmospheric methane burden is increasing rapidly, contrary to pathways compatible with the goals of the 2015 United Nations Framework Convention on Climate Change Paris Agreement. Urgent action is required to bring methane back to a pathway more in line with the Paris goals. Emission reduction from “tractable” (easier to mitigate) anthropogenic sources such as the fossil fuel industries and landfills is being much facilitated by technical advances in the past decade, which have radically improved our ability to locate, identify, quantify, and reduce emissions. Measures to reduce emissions from “intractable” (harder to mitigate) anthropogenic sources such as agriculture and biomass burning have received less attention and are also becoming more feasible, including removal from elevated‐methane ambient air near to sources. The wider effort to use microbiological and dietary intervention to reduce emissions from cattle (and humans) is not addressed in detail in this essentially geophysical review. Though they cannot replace the need to reach “net‐zero” emissions of CO 2 , significant reductions in the methane burden will ease the timescales needed to reach required CO 2 reduction targets for any particular future temperature limit. There is no single magic bullet, but implementation of a wide array of mitigation and emission reduction strategies could substantially cut the global methane burden, at a cost that is relatively low compared to the parallel and necessary measures to reduce CO 2 , and thereby reduce the atmospheric methane burden back toward pathways consistent with the goals of the Paris Agreement.",
+	"abstract": "The atmospheric methane burden is increasing rapidly, contrary to pathways compatible with the goals of the 2015 United Nations Framework Convention on Climate Change Paris Agreement. Urgent action is required to bring methane back to a pathway more in line with the Paris goals. Emission reduction from “tractable” (easier to mitigate) anthropogenic sources such as the fossil fuel industries and landfills is being much facilitated by technical advances in the past decade, which have radically improved our ability to locate, identify, quantify, and reduce emissions. Measures to reduce emissions from “intractable” (harder to mitigate) anthropogenic sources such as agriculture and biomass burning have received less attention and are also becoming more feasible, including removal from elevated‐methane ambient air near to sources. The wider effort to use microbiological and dietary intervention to reduce emissions from cattle (and humans) is not addressed in detail in this essentially geophysical review. Though they cannot replace the need to reach “net‐zero” emissions of CO 2 , significant reductions in the methane burden will ease the timescales needed to reach required CO 2 reduction targets for any particular future temperature limit. There is no single magic bullet, but implementation of a wide array of mitigation and emission reduction strategies could substantially cut the global methane burden, at a cost that is relatively low compared to the parallel and necessary measures to reduce CO 2 , and thereby reduce the atmospheric methane burden back toward pathways consistent with the goals of the Paris Agreement.",
 	"language": "en",
 	"openAccess": {
 		"isOpen": true,
 		"status": "hybrid",
 		"url": "https://agupubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2019RG000675"
 	},
-	"citedByCount": 459,
+	"citedByCount": 487,
 	"openAlexId": "W2999618362",
 	"referencedWorks": [
 		"W97597859",
@@ -418,16 +418,21 @@
 		"W2995526714",
 		"W2997590647",
 		"W3002213296",
+		"W3034225518",
 		"W3043509850",
 		"W3125792824",
+		"W3128464640",
+		"W3188581195",
 		"W3189175503",
 		"W3202731565",
 		"W4235414014",
 		"W4236968522",
 		"W4238100621",
-		"W4285719527",
 		"W4300407496",
-		"W6717900875"
+		"W6717900875",
+		"W6945787449",
+		"W6986427487",
+		"W7036267970"
 	],
 	"themes": [
 		"politiques",
@@ -441,7 +446,7 @@
 	"url": "https://doi.org/10.1029/2019rg000675",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-08-30",
 	"editorial": {},

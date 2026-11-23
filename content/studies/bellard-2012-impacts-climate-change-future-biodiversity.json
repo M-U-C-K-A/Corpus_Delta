@@ -41,7 +41,7 @@
 		"status": "bronze",
 		"url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.1461-0248.2011.01736.x?download=true"
 	},
-	"citedByCount": 4599,
+	"citedByCount": 5249,
 	"openAlexId": "W2154433795",
 	"referencedWorks": [
 		"W121197715",
@@ -169,7 +169,7 @@
 	"url": "https://doi.org/10.1111/j.1461-0248.2011.01736.x",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},

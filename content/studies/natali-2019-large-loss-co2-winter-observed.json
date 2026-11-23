@@ -112,9 +112,9 @@
 	"openAccess": {
 		"isOpen": true,
 		"status": "green",
-		"url": "https://pure.au.dk/portal/en/publications/5350e44e-3657-4e99-87be-5ff1ab390f1a"
+		"url": "https://pure.au.dk/ws/files/200497677/Large_loss_of_CO2_in_winter_observed_across_the_northern_permafrost_region.pdf"
 	},
-	"citedByCount": 502,
+	"citedByCount": 539,
 	"openAlexId": "W2980470687",
 	"referencedWorks": [
 		"W307291483",
@@ -157,12 +157,14 @@
 		"W2467230637",
 		"W2552109741",
 		"W2614056253",
+		"W2743607692",
 		"W2770624900",
 		"W2789910841",
 		"W2790765982",
 		"W2800163541",
 		"W2886310324",
-		"W4238935538"
+		"W4238935538",
+		"W6959114272"
 	],
 	"themes": [
 		"cryosphere",
@@ -176,7 +178,7 @@
 	"url": "https://doi.org/10.1038/s41558-019-0592-8",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-11-15",
 	"editorial": {},

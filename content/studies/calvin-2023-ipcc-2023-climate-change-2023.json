@@ -91,9 +91,9 @@
 	"openAccess": {
 		"isOpen": true,
 		"status": "green",
-		"url": "https://openresearch-repository.anu.edu.au/bitstreams/95eb5ece-a734-44d7-86b3-bec919268af8/download"
+		"url": "https://biblio.ugent.be/publication/01KAV2B3ZQ47W8ZHHDZ81WAMNM/file/01KAV2FAC3P1M2SXQEJD8EK37V.pdf"
 	},
-	"citedByCount": 7341,
+	"citedByCount": 7995,
 	"openAlexId": "W4385118605",
 	"referencedWorks": [],
 	"themes": [
@@ -109,7 +109,7 @@
 	"url": "https://doi.org/10.59327/ipcc/ar6-9789291691647",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-08-19",
 	"editorial": {

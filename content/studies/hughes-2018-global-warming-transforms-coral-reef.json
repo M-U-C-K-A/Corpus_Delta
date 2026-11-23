@@ -96,7 +96,7 @@
 		"status": "green",
 		"url": "https://repository.library.noaa.gov/view/noaa/17695/noaa_17695_DS1.pdf"
 	},
-	"citedByCount": 1912,
+	"citedByCount": 2085,
 	"openAlexId": "W2796944804",
 	"referencedWorks": [
 		"W1588713494",
@@ -107,6 +107,7 @@
 		"W2045500119",
 		"W2049337196",
 		"W2070327047",
+		"W2075421824",
 		"W2086993800",
 		"W2142598180",
 		"W2148447618",
@@ -125,7 +126,8 @@
 		"W2782456798",
 		"W2782982794",
 		"W2888523676",
-		"W4256735298"
+		"W4256735298",
+		"W4413670120"
 	],
 	"themes": [
 		"ocean",
@@ -139,7 +141,7 @@
 	"url": "https://doi.org/10.1038/s41586-018-0041-2",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},

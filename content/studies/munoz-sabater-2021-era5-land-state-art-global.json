@@ -101,7 +101,7 @@
 		"status": "gold",
 		"url": "https://doi.org/10.5194/essd-13-4349-2021"
 	},
-	"citedByCount": 6550,
+	"citedByCount": 7129,
 	"openAlexId": "W3136179920",
 	"referencedWorks": [
 		"W1513503123",
@@ -233,7 +233,7 @@
 	"url": "https://doi.org/10.5194/essd-13-4349-2021",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-08-19",
 	"editorial": {},

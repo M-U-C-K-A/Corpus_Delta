@@ -112,9 +112,9 @@
 	"openAccess": {
 		"isOpen": true,
 		"status": "green",
-		"url": "https://ore.exeter.ac.uk/articles/journal_contribution/Climate_change_exacerbates_the_environmental_impacts_of_agriculture/29811806/1/files/56858042.pdf"
+		"url": "https://www.scopus.com/pages/publications/85203420180"
 	},
-	"citedByCount": 655,
+	"citedByCount": 735,
 	"openAlexId": "W4402262878",
 	"referencedWorks": [
 		"W252133559",
@@ -245,6 +245,7 @@
 		"W4220863502",
 		"W4221113226",
 		"W4254450289",
+		"W4281382652",
 		"W4281716079",
 		"W4283762800",
 		"W4285261832",
@@ -263,7 +264,9 @@
 		"W4385955202",
 		"W4389348072",
 		"W4391160682",
-		"W4393928634"
+		"W4393928634",
+		"W6991721647",
+		"W7119733889"
 	],
 	"themes": [
 		"agriculture"
@@ -276,7 +279,7 @@
 	"url": "https://doi.org/10.1126/science.adn3747",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},

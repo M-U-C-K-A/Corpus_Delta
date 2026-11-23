@@ -31,7 +31,7 @@
 		"status": "gold",
 		"url": "https://www.nature.com/articles/s41467-021-22314-w.pdf"
 	},
-	"citedByCount": 756,
+	"citedByCount": 804,
 	"openAlexId": "W3160909363",
 	"referencedWorks": [
 		"W1491450605",
@@ -97,7 +97,9 @@
 		"W3027571128",
 		"W3040066544",
 		"W3040706550",
+		"W3088522711",
 		"W4213327538",
+		"W4310759864",
 		"W6969145360"
 	],
 	"themes": [
@@ -112,7 +114,7 @@
 	"url": "https://doi.org/10.1038/s41467-021-22314-w",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},

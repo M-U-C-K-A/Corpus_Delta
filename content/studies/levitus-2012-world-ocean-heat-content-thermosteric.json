@@ -63,7 +63,7 @@
 		"status": "bronze",
 		"url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2012GL051106"
 	},
-	"citedByCount": 1310,
+	"citedByCount": 1399,
 	"openAlexId": "W2101875061",
 	"referencedWorks": [
 		"W344835664",
@@ -109,7 +109,7 @@
 	"url": "https://doi.org/10.1029/2012gl051106",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},

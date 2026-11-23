@@ -108,14 +108,14 @@
 	"publisher": "Nature Portfolio",
 	"year": 2021,
 	"type": "article",
-	"abstract": "Abstract Potential climate-related impacts on future crop yield are a major societal concern first surveyed in a harmonized multi-model effort in 2014. We report here on new 21st-century projections using ensembles of latest-generation crop and climate models. Results suggest markedly more pessimistic yield responses for maize, soybean, and rice compared to the original ensemble. Mean end-of-century maize productivity is shifted from +5 to -6% (SSP126) and +1 to -24% (SSP585) — explained by warmer climate projections and improved crop model sensitivities. In contrast, wheat shows stronger gains (+9 shifted to +18%, SSP585), linked to higher CO2 concentrations and expanded high-latitude gains. The ‘emergence’ of climate impacts — when the change signal emerges from the noise — consistently occurs earlier in the new projections for several main producing regions before 2040. While future yield estimates remain uncertain, these results suggest that major breadbasket regions will face distinct anthropogenic climatic risks sooner than previously anticipated.",
+	"abstract": "Potential climate-related impacts on future crop yield are a major societal concern first surveyed in a harmonized multi-model effort in 2014. We report here on new 21st-century projections using ensembles of latest-generation crop and climate models. Results suggest markedly more pessimistic yield responses for maize, soybean, and rice compared to the original ensemble. Mean end-of-century maize productivity is shifted from +5 to -6% (SSP126) and +1 to -24% (SSP585) — explained by warmer climate projections and improved crop model sensitivities. In contrast, wheat shows stronger gains (+9 shifted to +18%, SSP585), linked to higher CO2 concentrations and expanded high-latitude gains. The ‘emergence’ of climate impacts — when the change signal emerges from the noise — consistently occurs earlier in the new projections for several main producing regions before 2040. While future yield estimates remain uncertain, these results suggest that major breadbasket regions will face distinct anthropogenic climatic risks sooner than previously anticipated.",
 	"language": "en",
 	"openAccess": {
 		"isOpen": true,
 		"status": "bronze",
 		"url": "https://www.nature.com/articles/s43016-021-00400-y.pdf"
 	},
-	"citedByCount": 1179,
+	"citedByCount": 1283,
 	"openAlexId": "W3209906348",
 	"referencedWorks": [
 		"W21054777",
@@ -135,6 +135,7 @@
 		"W2118604661",
 		"W2118921617",
 		"W2122156969",
+		"W2127170577",
 		"W2130560194",
 		"W2142231247",
 		"W2144720528",
@@ -160,6 +161,7 @@
 		"W2766769711",
 		"W2778390894",
 		"W2804845600",
+		"W2806192798",
 		"W2884755452",
 		"W2898918373",
 		"W2900559302",
@@ -173,6 +175,7 @@
 		"W2945473486",
 		"W2946891987",
 		"W2949442258",
+		"W2950304121",
 		"W2979202165",
 		"W2982202141",
 		"W2992720244",
@@ -210,8 +213,6 @@
 		"W4398473823",
 		"W4398592367",
 		"W6637137266",
-		"W6681541754",
-		"W6753556995",
 		"W6760042575",
 		"W6908658505",
 		"W6908988914",
@@ -230,7 +231,7 @@
 	"url": "https://doi.org/10.1038/s43016-021-00400-y",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},

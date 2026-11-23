@@ -70,7 +70,7 @@
 		{
 			"name": "Yue Leon Guo",
 			"orcid": "https://orcid.org/0000-0002-8530-4809",
-			"affiliation": "The University of Queensland"
+			"affiliation": "National Taiwan University"
 		},
 		{
 			"name": "Chang‐Fu Wu",
@@ -115,7 +115,7 @@
 		"status": "hybrid",
 		"url": "http://www.thelancet.com/article/S0140673614621140/pdf"
 	},
-	"citedByCount": 3239,
+	"citedByCount": 3481,
 	"openAlexId": "W2162775913",
 	"referencedWorks": [
 		"W64643628",
@@ -173,7 +173,7 @@
 	"url": "https://doi.org/10.1016/s0140-6736(14)62114-0",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-08-19",
 	"editorial": {

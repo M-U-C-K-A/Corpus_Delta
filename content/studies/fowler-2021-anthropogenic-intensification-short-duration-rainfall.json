@@ -110,9 +110,9 @@
 	"openAccess": {
 		"isOpen": true,
 		"status": "green",
-		"url": "https://hal.inrae.fr/hal-03838107"
+		"url": "https://research.manchester.ac.uk/en/publications/bc7cf173-1afa-4543-86c9-ad269efa0c21"
 	},
-	"citedByCount": 1075,
+	"citedByCount": 1154,
 	"openAlexId": "W3123398346",
 	"referencedWorks": [
 		"W1515838342",
@@ -349,12 +349,12 @@
 	"sourceTopics": [
 		"Climate variability and models",
 		"Meteorological Phenomena and Simulations",
-		"Hydrology and Watershed Management Studies"
+		"Climate Change and Environmental Impact"
 	],
 	"url": "https://doi.org/10.1038/s43017-020-00128-6",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-08-30",
 	"editorial": {},

@@ -106,14 +106,14 @@
 	"publisher": "Copernicus Publications",
 	"year": 2013,
 	"type": "article",
-	"abstract": "Abstract. We present Bedmap2, a new suite of gridded products describing surface elevation, ice-thickness and the seafloor and subglacial bed elevation of the Antarctic south of 60° S. We derived these products using data from a variety of sources, including many substantial surveys completed since the original Bedmap compilation (Bedmap1) in 2001. In particular, the Bedmap2 ice thickness grid is made from 25 million measurements, over two orders of magnitude more than were used in Bedmap1. In most parts of Antarctica the subglacial landscape is visible in much greater detail than was previously available and the improved data-coverage has in many areas revealed the full scale of mountain ranges, valleys, basins and troughs, only fragments of which were previously indicated in local surveys. The derived statistics for Bedmap2 show that the volume of ice contained in the Antarctic ice sheet (27 million km3) and its potential contribution to sea-level rise (58 m) are similar to those of Bedmap1, but the mean thickness of the ice sheet is 4.6% greater, the mean depth of the bed beneath the grounded ice sheet is 72 m lower and the area of ice sheet grounded on bed below sea level is increased by 10%. The Bedmap2 compilation highlights several areas beneath the ice sheet where the bed elevation is substantially lower than the deepest bed indicated by Bedmap1. These products, along with grids of data coverage and uncertainty, provide new opportunities for detailed modelling of the past and future evolution of the Antarctic ice sheets.",
+	"abstract": "We present Bedmap2, a new suite of gridded products describing surface elevation, ice-thickness and the seafloor and subglacial bed elevation of the Antarctic south of 60° S. We derived these products using data from a variety of sources, including many substantial surveys completed since the original Bedmap compilation (Bedmap1) in 2001. In particular, the Bedmap2 ice thickness grid is made from 25 million measurements, over two orders of magnitude more than were used in Bedmap1. In most parts of Antarctica the subglacial landscape is visible in much greater detail than was previously available and the improved data-coverage has in many areas revealed the full scale of mountain ranges, valleys, basins and troughs, only fragments of which were previously indicated in local surveys. The derived statistics for Bedmap2 show that the volume of ice contained in the Antarctic ice sheet (27 million km3) and its potential contribution to sea-level rise (58 m) are similar to those of Bedmap1, but the mean thickness of the ice sheet is 4.6% greater, the mean depth of the bed beneath the grounded ice sheet is 72 m lower and the area of ice sheet grounded on bed below sea level is increased by 10%. The Bedmap2 compilation highlights several areas beneath the ice sheet where the bed elevation is substantially lower than the deepest bed indicated by Bedmap1. These products, along with grids of data coverage and uncertainty, provide new opportunities for detailed modelling of the past and future evolution of the Antarctic ice sheets.",
 	"language": "en",
 	"openAccess": {
 		"isOpen": true,
 		"status": "gold",
 		"url": "https://tc.copernicus.org/articles/7/375/2013/tc-7-375-2013.pdf"
 	},
-	"citedByCount": 2252,
+	"citedByCount": 2425,
 	"openAlexId": "W2102213705",
 	"referencedWorks": [
 		"W11148313",
@@ -171,7 +171,8 @@
 		"W2163837400",
 		"W2164131390",
 		"W2167421857",
-		"W3021425857"
+		"W3021425857",
+		"W6967200954"
 	],
 	"themes": [
 		"cryosphere",
@@ -185,7 +186,7 @@
 	"url": "https://doi.org/10.5194/tc-7-375-2013",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},

@@ -64,7 +64,7 @@
 		"status": "gold",
 		"url": "https://iopscience.iop.org/article/10.1088/1748-9326/11/7/074006/pdf"
 	},
-	"citedByCount": 484,
+	"citedByCount": 527,
 	"openAlexId": "W2471123203",
 	"referencedWorks": [
 		"W649594995",
@@ -114,7 +114,7 @@
 	"url": "https://doi.org/10.1088/1748-9326/11/7/074006",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},

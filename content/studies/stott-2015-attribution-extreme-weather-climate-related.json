@@ -54,7 +54,8 @@
 		},
 		{
 			"name": "Francis W. Zwiers",
-			"orcid": "https://orcid.org/0000-0002-8375-5147"
+			"orcid": "https://orcid.org/0000-0002-8375-5147",
+			"affiliation": "Pacific Climate Impacts Consortium"
 		}
 	],
 	"authorCount": 11,
@@ -70,9 +71,10 @@
 		"status": "hybrid",
 		"url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/wcc.380"
 	},
-	"citedByCount": 877,
+	"citedByCount": 963,
 	"openAlexId": "W2220861217",
 	"referencedWorks": [
+		"W38676595",
 		"W76116888",
 		"W112626723",
 		"W179197740",
@@ -95,6 +97,7 @@
 		"W1996746229",
 		"W1998394762",
 		"W1998525562",
+		"W1998897131",
 		"W1999281577",
 		"W2010139431",
 		"W2010408594",
@@ -133,15 +136,19 @@
 		"W2174601942",
 		"W2239287143",
 		"W2268933688",
+		"W2902257453",
+		"W2908557823",
 		"W2910675718",
 		"W2915766470",
 		"W2915924262",
 		"W2915991317",
 		"W2915992703",
 		"W2917144579",
+		"W2920843115",
 		"W2924055038",
 		"W3033036704",
-		"W3121939272"
+		"W3121939272",
+		"W7000533749"
 	],
 	"themes": [
 		"modelisation",
@@ -155,7 +162,7 @@
 	"url": "https://doi.org/10.1002/wcc.380",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},

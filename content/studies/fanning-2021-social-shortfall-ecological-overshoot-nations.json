@@ -34,9 +34,9 @@
 	"openAccess": {
 		"isOpen": true,
 		"status": "green",
-		"url": "https://zenodo.org/record/6983414"
+		"url": "https://zenodo.org/records/6983414/files/2022_NatSus_Fanning_etl.pdf"
 	},
-	"citedByCount": 474,
+	"citedByCount": 544,
 	"openAlexId": "W3214359274",
 	"referencedWorks": [
 		"W652061993",
@@ -88,6 +88,7 @@
 		"W3036679823",
 		"W3047737274",
 		"W3084424386",
+		"W3088703430",
 		"W3090228490",
 		"W3091945697",
 		"W3093917140",
@@ -97,8 +98,10 @@
 		"W3139533848",
 		"W3144452147",
 		"W3157678274",
+		"W3162500891",
 		"W3163272967",
 		"W3171238805",
+		"W3179316692",
 		"W4239581120"
 	],
 	"themes": [
@@ -112,7 +115,7 @@
 	"url": "https://doi.org/10.1038/s41893-021-00799-z",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-11-15",
 	"editorial": {},

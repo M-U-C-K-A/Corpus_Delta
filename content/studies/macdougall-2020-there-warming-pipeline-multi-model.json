@@ -114,7 +114,7 @@
 		"status": "gold",
 		"url": "https://bg.copernicus.org/articles/17/2987/2020/bg-17-2987-2020.pdf"
 	},
-	"citedByCount": 300,
+	"citedByCount": 342,
 	"openAlexId": "W3004697769",
 	"referencedWorks": [
 		"W1523963696",
@@ -248,7 +248,7 @@
 	"url": "https://doi.org/10.5194/bg-17-2987-2020",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-08-30",
 	"editorial": {},

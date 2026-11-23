@@ -116,7 +116,7 @@
 		"status": "green",
 		"url": "https://ora.ox.ac.uk/objects/uuid:425a0032-025d-4e47-89bc-51a829cdccf8/files/s41687k46w"
 	},
-	"citedByCount": 228,
+	"citedByCount": 277,
 	"openAlexId": "W4401806513",
 	"referencedWorks": [
 		"W1959608418",
@@ -186,6 +186,7 @@
 		"W4310442430",
 		"W4310896207",
 		"W4311362860",
+		"W4313407333",
 		"W4318225439",
 		"W4353107010",
 		"W4379925125",
@@ -221,12 +222,12 @@
 	"sourceTopics": [
 		"Climate variability and models",
 		"Meteorological Phenomena and Simulations",
-		"Model Reduction and Neural Networks"
+		"Climate Change and Geoengineering"
 	],
 	"url": "https://doi.org/10.1038/s41558-024-02095-y",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},

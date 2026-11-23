@@ -46,9 +46,10 @@
 		"status": "green",
 		"url": "http://eartharxiv.org/repository/object/502/download/1084/"
 	},
-	"citedByCount": 609,
+	"citedByCount": 646,
 	"openAlexId": "W2996825230",
 	"referencedWorks": [
+		"W239734787",
 		"W395954396",
 		"W1481033957",
 		"W1492289470",
@@ -136,7 +137,6 @@
 		"W4214559674",
 		"W4232403897",
 		"W4235562845",
-		"W6659023061",
 		"W6887497424"
 	],
 	"themes": [
@@ -150,7 +150,7 @@
 	"url": "https://doi.org/10.1038/s41586-020-2617-x",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-08-30",
 	"editorial": {},

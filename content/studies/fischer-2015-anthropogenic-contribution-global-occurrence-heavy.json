@@ -26,7 +26,7 @@
 		"status": "closed",
 		"url": null
 	},
-	"citedByCount": 1492,
+	"citedByCount": 1641,
 	"openAlexId": "W2048170654",
 	"referencedWorks": [
 		"W12187764",
@@ -75,7 +75,7 @@
 	"url": "https://doi.org/10.1038/nclimate2617",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},

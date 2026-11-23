@@ -71,7 +71,7 @@
 		"status": "hybrid",
 		"url": "https://doi.org/10.1146/annurev-publhealth-012420-105026"
 	},
-	"citedByCount": 1407,
+	"citedByCount": 1547,
 	"openAlexId": "W3120411288",
 	"referencedWorks": [
 		"W1245440824",
@@ -237,7 +237,9 @@
 		"W3122620373",
 		"W4231363504",
 		"W4246438352",
-		"W4301887136"
+		"W4301887136",
+		"W6959944232",
+		"W6991621482"
 	],
 	"themes": [
 		"sante",
@@ -251,7 +253,7 @@
 	"url": "https://doi.org/10.1146/annurev-publhealth-012420-105026",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-08-30",
 	"editorial": {},

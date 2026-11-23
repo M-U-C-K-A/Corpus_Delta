@@ -114,7 +114,7 @@
 		"status": "gold",
 		"url": "http://www.cell.com/article/S2666675824000262/pdf"
 	},
-	"citedByCount": 340,
+	"citedByCount": 534,
 	"openAlexId": "W4391617520",
 	"referencedWorks": [
 		"W1568751060",
@@ -276,8 +276,12 @@
 		"W4383823379",
 		"W4385398161",
 		"W4387251990",
-		"W6633969682",
-		"W6939802383"
+		"W4413938252",
+		"W6885125058",
+		"W6906404426",
+		"W6939802383",
+		"W7027225733",
+		"W7224699579"
 	],
 	"themes": [
 		"chaleur"
@@ -290,7 +294,7 @@
 	"url": "https://doi.org/10.1016/j.xinn.2024.100588",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},

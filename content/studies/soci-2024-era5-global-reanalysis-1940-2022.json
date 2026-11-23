@@ -86,14 +86,14 @@
 	"publisher": "Wiley",
 	"year": 2024,
 	"type": "article",
-	"abstract": "Abstract We provide a description and concise evaluation of the European Centre of Medium‐range Weather Forecasts Reanalysis v.5 (ERA5) global reanalysis from an additional extension back to 1940 that was released in March 2023, including its timely updates to the end of 2022. The ERA5 product from 1979 to end 2020 and a preliminary back extension from 1950 to 1978 have already been described elsewhere. The new back extension that spans 1940 to 1978 represents the official release and supersedes the preliminary product. Currently, the ERA5 data record extends over more than 83 years of hourly global three‐dimensional fields for many quantities that describe the global atmosphere, land surface, and ocean waves at a horizontal resolution of about 31 km. ERA5 relies on the ingestion of sub‐daily in‐situ and satellite observations, and the number of these increases from 17,000 per day in 1940 to 25 million per day by 2022. Accordingly, the quality of the reanalysis improves throughout the period. Over the Northern Hemisphere ERA5 generally provides a reliable representation of the synoptic situation from the early 1940s and provides long‐term variability that is in line with other datasets. Over the Southern Hemisphere, however, for the early period the description of ERA5 seems mainly statistical. Furthermore, there is a small deviation in surface temperature compared with reconstructions based on monthly aggregations of observations over land before 1946. For this period, the absence of upper air temperature observations reveals a model cold bias in the lower stratosphere. For the period from 1950 to 1978, the final release described here improves on the suboptimal treatment of International Best Track Archive for Climate Stewardship observations in the preliminary release, with, as a result, a much more homogeneous representation of tropical cyclones over the entire ERA5 record. Longer spin‐up periods also have a beneficial impact on soil moisture.",
+	"abstract": "We provide a description and concise evaluation of the European Centre of Medium‐range Weather Forecasts Reanalysis v.5 (ERA5) global reanalysis from an additional extension back to 1940 that was released in March 2023, including its timely updates to the end of 2022. The ERA5 product from 1979 to end 2020 and a preliminary back extension from 1950 to 1978 have already been described elsewhere. The new back extension that spans 1940 to 1978 represents the official release and supersedes the preliminary product. Currently, the ERA5 data record extends over more than 83 years of hourly global three‐dimensional fields for many quantities that describe the global atmosphere, land surface, and ocean waves at a horizontal resolution of about 31 km. ERA5 relies on the ingestion of sub‐daily in‐situ and satellite observations, and the number of these increases from 17,000 per day in 1940 to 25 million per day by 2022. Accordingly, the quality of the reanalysis improves throughout the period. Over the Northern Hemisphere ERA5 generally provides a reliable representation of the synoptic situation from the early 1940s and provides long‐term variability that is in line with other datasets. Over the Southern Hemisphere, however, for the early period the description of ERA5 seems mainly statistical. Furthermore, there is a small deviation in surface temperature compared with reconstructions based on monthly aggregations of observations over land before 1946. For this period, the absence of upper air temperature observations reveals a model cold bias in the lower stratosphere. For the period from 1950 to 1978, the final release described here improves on the suboptimal treatment of International Best Track Archive for Climate Stewardship observations in the preliminary release, with, as a result, a much more homogeneous representation of tropical cyclones over the entire ERA5 record. Longer spin‐up periods also have a beneficial impact on soil moisture.",
 	"language": "en",
 	"openAccess": {
 		"isOpen": true,
 		"status": "hybrid",
 		"url": "https://doi.org/10.1002/qj.4803"
 	},
-	"citedByCount": 448,
+	"citedByCount": 488,
 	"openAlexId": "W4401232992",
 	"referencedWorks": [
 		"W1645858368",
@@ -140,7 +140,8 @@
 		"W4383897007",
 		"W4388141410",
 		"W4388176960",
-		"W4389342801"
+		"W4389342801",
+		"W6944770705"
 	],
 	"themes": [
 		"observation",
@@ -154,7 +155,7 @@
 	"url": "https://doi.org/10.1002/qj.4803",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},

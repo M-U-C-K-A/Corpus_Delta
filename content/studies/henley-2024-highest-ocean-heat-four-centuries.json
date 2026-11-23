@@ -54,20 +54,21 @@
 	"publisher": "Nature Portfolio",
 	"year": 2024,
 	"type": "article",
-	"abstract": "Abstract Mass coral bleaching on the Great Barrier Reef (GBR) in Australia between 2016 and 2024 was driven by high sea surface temperatures (SST)1. The likelihood of temperature-induced bleaching is a key determinant for the future threat status of the GBR2, but the long-term context of recent temperatures in the region is unclear. Here we show that the January–March Coral Sea heat extremes in 2024, 2017 and 2020 (in order of descending mean SST anomalies) were the warmest in 400 years, exceeding the 95th-percentile uncertainty limit of our reconstructed pre-1900 maximum. The 2016, 2004 and 2022 events were the next warmest, exceeding the 90th-percentile limit. Climate model analysis confirms that human influence on the climate system is responsible for the rapid warming in recent decades. This attribution, together with the recent ocean temperature extremes, post-1900 warming trend and observed mass coral bleaching, shows that the existential threat to the GBR ecosystem from anthropogenic climate change is now realized. Without urgent intervention, the iconic GBR is at risk of experiencing temperatures conducive to near-annual coral bleaching3, with negative consequences for biodiversity and ecosystems services. A continuation on the current trajectory would further threaten the ecological function4 and outstanding universal value5 of one of Earth’s greatest natural wonders.",
+	"abstract": "Mass coral bleaching on the Great Barrier Reef (GBR) in Australia between 2016 and 2024 was driven by high sea surface temperatures (SST)1. The likelihood of temperature-induced bleaching is a key determinant for the future threat status of the GBR2, but the long-term context of recent temperatures in the region is unclear. Here we show that the January–March Coral Sea heat extremes in 2024, 2017 and 2020 (in order of descending mean SST anomalies) were the warmest in 400 years, exceeding the 95th-percentile uncertainty limit of our reconstructed pre-1900 maximum. The 2016, 2004 and 2022 events were the next warmest, exceeding the 90th-percentile limit. Climate model analysis confirms that human influence on the climate system is responsible for the rapid warming in recent decades. This attribution, together with the recent ocean temperature extremes, post-1900 warming trend and observed mass coral bleaching, shows that the existential threat to the GBR ecosystem from anthropogenic climate change is now realized. Without urgent intervention, the iconic GBR is at risk of experiencing temperatures conducive to near-annual coral bleaching3, with negative consequences for biodiversity and ecosystems services. A continuation on the current trajectory would further threaten the ecological function4 and outstanding universal value5 of one of Earth’s greatest natural wonders.",
 	"language": "en",
 	"openAccess": {
 		"isOpen": true,
 		"status": "hybrid",
 		"url": "https://www.nature.com/articles/s41586-024-07672-x.pdf"
 	},
-	"citedByCount": 124,
+	"citedByCount": 136,
 	"openAlexId": "W4401389074",
 	"referencedWorks": [
 		"W1490890297",
 		"W1501499299",
 		"W1523307104",
 		"W1525400741",
+		"W1550598685",
 		"W1631967728",
 		"W1875860844",
 		"W1941426989",
@@ -76,6 +77,7 @@
 		"W1983017748",
 		"W1983113873",
 		"W1989153393",
+		"W1991462310",
 		"W2000754412",
 		"W2006165291",
 		"W2012782435",
@@ -102,6 +104,7 @@
 		"W2147569451",
 		"W2147807123",
 		"W2148963585",
+		"W2157574221",
 		"W2171433490",
 		"W2174160981",
 		"W2193503481",
@@ -124,6 +127,7 @@
 		"W2886577842",
 		"W2887203427",
 		"W2890118352",
+		"W2896064808",
 		"W2902425851",
 		"W2908773481",
 		"W2920375008",
@@ -155,7 +159,9 @@
 		"W4283313907",
 		"W4321376980",
 		"W4379390195",
-		"W4403875431"
+		"W4403875431",
+		"W6927063341",
+		"W7038347647"
 	],
 	"themes": [
 		"ocean",
@@ -169,7 +175,7 @@
 	"url": "https://doi.org/10.1038/s41586-024-07672-x",
 	"provenance": {
 		"source": "openalex",
-		"retrievedAt": "2026-11-16"
+		"retrievedAt": "2026-11-23"
 	},
 	"addedAt": "2026-08-20",
 	"editorial": {},
